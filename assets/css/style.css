@@ -246,65 +246,80 @@ body {
     z-index: var(--z-fixed);
 }
 
-.social-toggle-btn {
-    width: var(--size-icon-xl);
-    height: var(--size-icon-xl);
-    border-radius: var(--radius-full);
-    background: linear-gradient(135deg, var(--color-primary), var(--color-cyan));
-    border: none;
-    cursor: pointer;
-    box-shadow: var(--shadow-primary);
+
+.social-link,.social-toggle-btn  {
+    width: var(--size-icon-sm);
+    height: var(--size-icon-sm);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--color-white);
-    font-size: var(--font-3xl);
-    transition: all var(--transition-fast) ease;
-    position: relative;
-}
-
-.social-toggle-btn:hover {
-    transform: scale(1.1);
-    box-shadow: var(--shadow-primary-hover);
-}
-
-.social-toggle-btn.active {
-    transform: rotate(45deg);
-    background: linear-gradient(135deg, var(--color-accent-red), var(--color-accent-red-light));
-}
-
-.social-links-container {
-    position: absolute;
-    bottom: 75px;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-lg);
-    opacity: 0;
-    pointer-events: none;
-    transition: all var(--transition-fast) ease;
-}
-
-.social-links-container.active {
-    opacity: 1;
-    pointer-events: all;
-}
-
-.social-link {
-    width: var(--size-icon-lg);
-    height: var(--size-icon-lg);
-    border-radius: var(--radius-full);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--color-white);
+    color: var(--color-white)!important;
     font-size: var(--font-2xl);
     text-decoration: none;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     transition: all var(--transition-fast) ease;
     transform: scale(0);
     animation: popIn var(--transition-fast) ease forwards;
+    color: #fff;
+    padding:19px;
 }
+.social-toggle-btn {
+    font-size:18px;
+    bottom:320px;
+    left:45px;
+    border:none;
+    width:80px;
+    justify-content:start;
+    padding-left:10px;
+    box-shadow:none;
+    background:none;
+    color: #575656 !important;
+}
+.social-toggle-btn.active {
+    padding-left:20px;
+    transform: rotate(90deg);
+    width: var(--size-icon-sm);
+    justify-content:center;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+}
+
+.social-toggle-btn.active{
+    right:-32px;
+    background:none;
+    box-shadow:none;
+    color: #575656 !important;
+}
+.social-links-container {
+    position: absolute;
+    bottom:240px;
+    right:-32px;
+    display: flex;
+    flex-direction: column;
+    gap:0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all var(--transition-fast) ease;
+}
+
+.social-toggle-btn i{
+    transform:rotate(270deg);
+}
+.social-toggle-btn.active i{
+    transform:rotate(90deg);
+}
+
+.social-toggle-btn:hover {
+    transform: scale(1.1);
+    box-shadow:none;
+}
+
+
+
+.social-links-container.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
 
 .social-link:nth-child(1) {
     animation-delay: 0.1s;
@@ -4471,17 +4486,6 @@ grid-template-columns: 1fr;
 }
 
 /* Social Media Card */
-.social-link {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--spacing-sm);
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: var(--font-large);
-    margin-top: var(--spacing-md);
-    transition: all var(--transition);
-}
 
 .social-link:hover {
     gap: var(--spacing-md);

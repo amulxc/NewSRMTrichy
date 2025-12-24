@@ -16,26 +16,74 @@
       </div>
 
       <!-- Quick Links -->
-      <div class="quick-links">
-        <a href="./course.html" class="quick-link featured">
-          <svg class="quick-link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/>
-          </svg>
-          Courses offered
-        </a>
-        <a href="tel:+919876543210" class="quick-link">
-          <svg class="quick-link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-          </svg>
-          Emergency
-        </a>
-        <a href="./aboutus.html#milestones" class="quick-link">
-          <svg class="quick-link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-          </svg>
-          Accreditation
-        </a>
+      <div class='myQuickLinks'>
+        <div class="quick-links">
+          <p>
+            For Any Enquiries
+            <a href="./course.html" class="quick-link featured"><i class='fa fa-phone'></i> 9789482641  </a>
+          </p>
+        </div>
+        <div class="quick-links">
+          <p>
+            Book Appointment
+            <a href="./course.html" class="quick-link featured"><i class='fa fa-phone'></i> 9789482641  </a>
+          </p>
+        </div>
+        <div class="quick-links">
+          <p>
+            Emergency Number
+            <a href="./course.html" class="quick-link featured"><i class='fa fa-phone'></i> 9789482641  </a>
+          </p>
+        </div>
+
+        <div class="quick-links language-switcher">
+          <button class="lang-btn" aria-haspopup="true" aria-expanded="false">
+            Language ▾
+          </button>
+
+          <ul class="lang-dropdown">
+            <li><a href="?lang=en">English</a></li>
+            <li><a href="?lang=ta">தமிழ்</a></li>
+            <li><a href="?lang=hi">हिंदी</a></li>
+          </ul>
+        </div>
+
       </div>
+      
+    </div>
+  </div>`
+
+  const quickAccess = `<div class="quick-access">
+   <div class="milestone-stats">
+        <div class="milestone-stat">
+          <a href='#'>Lab Reports</a>
+        </div>
+        <div class="milestone-stat">
+          <a href='#'>Find a Doctor</a>
+        </div>
+        <div class="milestone-stat">
+          <a href='#'>Superspeciality </a>
+        </div>
+        <div class="milestone-stat">
+          <a href='#'>Superspeciality </a>
+        </div>
+    </div>
+  </div>`
+
+    const everyPage = `<div class="every-page">
+   <div class="milestone-stats">
+        <div class="milestone-stat">
+          <a href='#'>Book an Appointment</a>
+        </div>
+        <div class="milestone-stat">
+          <a href='#'>Superspeciality </a>
+        </div>
+        <div class="milestone-stat">
+          <a href='#'>Superspeciality </a>
+        </div>
+        <div class="milestone-stat">
+          <a href='#'>Superspeciality </a>
+        </div>
     </div>
   </div>`
     
@@ -163,9 +211,9 @@
   <div class="overlay" id="overlay"></div>`;
 
     const floatBtn=`<button class="social-toggle-btn" id="socialToggle">
-            <i class="fas fa-plus"></i>
+        <i class="fas fa-caret-down"></i>
         </button>
-        <div class="social-links-container" id="socialLinks">
+        <div class="social-links-container active" id="socialLinks">
             <a href="https://www.facebook.com/yourpage" target="_blank" class="social-link facebook" title="Facebook">
                 <i class="fab fa-facebook-f"></i>
             </a>
@@ -369,6 +417,8 @@
     })();
     document.getElementById('topbar').innerHTML=topbar
     document.getElementById("header").innerHTML=header;
+    document.getElementById("quick-access").innerHTML=quickAccess;
+    // document.getElementById("every-page").innerHTML=everyPage;
     document.getElementById("floatBtn").innerHTML=floatBtn;
     document.getElementById("footer").innerHTML=footer;
 
@@ -494,3 +544,6 @@ const pages = [
         searchResults.classList.remove('active');
       }
     });
+
+
+    
