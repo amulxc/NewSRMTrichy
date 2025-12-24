@@ -20,19 +20,19 @@
         <div class="quick-links">
           <p>
             For Any Enquiries
-            <a href="./course.html" class="quick-link featured"><i class='fa fa-phone'></i> 9789482641  </a>
+            <a href="./course.html" data-wg-notranslate class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
           </p>
         </div>
         <div class="quick-links">
           <p>
-            Book Appointment
-            <a href="./course.html" class="quick-link featured"><i class='fa fa-phone'></i> 9789482641  </a>
+            Book an Appointment
+            <a href="./course.html" data-wg-notranslate class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
           </p>
         </div>
         <div class="quick-links">
           <p>
             Emergency Number
-            <a href="./course.html" class="quick-link featured"><i class='fa fa-phone'></i> 9789482641  </a>
+            <a href="./course.html" data-wg-notranslate class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
           </p>
         </div>
 
@@ -44,7 +44,6 @@
           <ul class="lang-dropdown">
             <li><a href="?lang=en">English</a></li>
             <li><a href="?lang=ta">தமிழ்</a></li>
-            <li><a href="?lang=hi">हिंदी</a></li>
           </ul>
         </div>
 
@@ -56,16 +55,16 @@
   const quickAccess = `<div class="quick-access">
    <div class="milestone-stats">
         <div class="milestone-stat">
-          <a href='#'>Lab Reports</a>
-        </div>
-        <div class="milestone-stat">
           <a href='#'>Find a Doctor</a>
+        </div>     
+        <div class="milestone-stat">
+          <a href='#'>Academics </a>
         </div>
         <div class="milestone-stat">
-          <a href='#'>Superspeciality </a>
+          <a href='#'>Hospital</a>
         </div>
         <div class="milestone-stat">
-          <a href='#'>Superspeciality </a>
+          <a href='#'>Lab Reports</a>
         </div>
     </div>
   </div>`
@@ -546,4 +545,4 @@ const pages = [
     });
 
 
-    
+   

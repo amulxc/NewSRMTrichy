@@ -663,7 +663,6 @@
     }
     #quick-access .quick-access .milestone-stats .milestone-stat a{
       color:var(--color-white);
-      text-transform:uppercase;
       font-weight:700;
     }
 
@@ -687,7 +686,6 @@
     }
     #every-page .every-page .milestone-stats .milestone-stat a{
       color:var(--color-black);
-      text-transform:uppercase;
       font-weight:700;
     }
 
@@ -816,8 +814,8 @@
   border: none;
   cursor: pointer;
   font-size: 15px;
-  font-weight: 500;
-  color: var(--color-primary-dark);
+  font-weight:600;
+  color: var(--color-black);
   padding: 6px 12px;
 }
 
@@ -871,4 +869,7 @@
     visibility: visible;
     transform: translateY(0);
   }
+}
+.wg-default{
+  display: none !important;;
 }
