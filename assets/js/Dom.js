@@ -1,4 +1,4 @@
-    const topbar = `<div class="top-bar">
+    const topbar = `<div class="top-bar" id="desktop-topbar">
     <div class="top-bar-wrapper">
       <!-- Search Bar -->
       <div class="search-container">
@@ -6,7 +6,7 @@
           type="text" 
           class="search-input" 
           id="searchInput"
-          placeholder="Search pages, courses, departments..."
+          placeholder="Search Pages...."
           autocomplete="off"
         >
         <button class="search-btn" id="searchBtn" aria-label="Search">
@@ -52,8 +52,8 @@
     </div>
   </div>`
 
-  const quickAccess = `<div class="quick-access">
-   <div class="milestone-stats">
+  const quickAccess = `<div class="quick-access" id="desktop-quickaccess">
+   <div class="milestone-stats1">
         <div class="milestone-stat">
           <a href='#'>Find a Doctor</a>
         </div>     
@@ -70,7 +70,7 @@
   </div>`
 
     const everyPage = `<div class="every-page">
-   <div class="milestone-stats">
+   <div class="milestone-stats1">
         <div class="milestone-stat">
           <a href='#'>Book an Appointment</a>
         </div>
@@ -80,8 +80,8 @@
         <div class="milestone-stat">
           <a href='#'>Superspeciality </a>
         </div>
-        <div class="milestone-stat">
-          <a href='#'>Superspeciality </a>
+
+        <a href='#'>Superspeciality </a>
         </div>
     </div>
   </div>`
@@ -161,6 +161,8 @@
               <a href="./hospital.html">Hospital Services <span class="arrow dropdown-trigger">&#9654;</span></a>
               <ul class="dropdown">
               <li><a href="./Specialities.html">Specialities</a></li>
+              <li><a href="./patientcorner.html">Patient Corner</a></li>
+              <li><a href="./awarenessandpatienttestimonial.html">Patient AV</a></li>
               <li><a href="./doctors.html">Doctors</a></li>
               <li><a href="./bloodcamp.html">Blood Bank</a></li>
               <li><a href="./pharmacy.html">Pharmacy</a></li>
@@ -203,6 +205,8 @@
           </li>
           <li><a href="nmc.html" class="nmc-nav">NMC</a></li>
         </ul>
+        <div id="mobile-topbar"></div>
+        <div id="mobile-quickaccess"></div>
       </nav>
     </div>
   </div>
@@ -229,6 +233,8 @@
                 <i class="fab fa-whatsapp"></i>
             </a>
         </div>`;
+
+       
 
     const footer = `<div class="footer-container">
             <div class="footer-about">
@@ -420,6 +426,8 @@
     // document.getElementById("every-page").innerHTML=everyPage;
     document.getElementById("floatBtn").innerHTML=floatBtn;
     document.getElementById("footer").innerHTML=footer;
+    document.getElementById('desktop-topbar').innerHTML = topbar;
+    document.getElementById('desktop-quickaccess').innerHTML = quickAccess;
 
     document.addEventListener("DOMContentLoaded", function () {
     const currentPage = window.location.pathname.split("/").pop();
@@ -545,4 +553,27 @@ const pages = [
     });
 
 
-   
+ 
+ 
+const mq = window.matchMedia("(max-width: 992px)");
+
+function handleResponsiveMove(e) {
+  const topbarEl = document.querySelector('.top-bar');
+  const quickAccessEl = document.querySelector('.quick-access');
+
+  if (!topbarEl || !quickAccessEl) return;
+
+  if (e.matches) {
+    // MOBILE → Move into offcanvas
+    document.getElementById('mobile-topbar').appendChild(topbarEl);
+    document.getElementById('mobile-quickaccess').appendChild(quickAccessEl);
+  } else {
+    // DESKTOP → Move back
+    document.getElementById('desktop-topbar').appendChild(topbarEl);
+    document.getElementById('desktop-quickaccess').appendChild(quickAccessEl);
+  }
+}
+
+// Run once + on resize
+handleResponsiveMove(mq);
+mq.addEventListener("change", handleResponsiveMove);

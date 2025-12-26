@@ -238,21 +238,20 @@
 
         // Floating Social Media Toggle
         const socialToggle = document.getElementById('socialToggle');
-        const socialLinksContainer = document.getElementById('socialLinks');
+        const socialLinks = document.getElementById('socialLinks');
 
-        socialToggle.addEventListener('click', () => {
+
+        /* RIGHT SIDE SOCIAL */
+        socialToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
             socialToggle.classList.toggle('active');
-            socialLinksContainer.classList.toggle('active');
+            socialLinks.classList.toggle('active');
         });
 
-        // Close social links when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('.floating-social-btn')) {
-                socialToggle.classList.remove('active');
-                socialLinksContainer.classList.remove('active');
-            }
-        });
+       
+       
 
+     
         document.querySelectorAll('.accordion-header').forEach(header => {
             header.addEventListener('click', function() {
                 const item = this.parentElement;

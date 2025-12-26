@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Corner- Trichy SRM Medical College</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/Header.css">
+    <link rel="stylesheet" href="./assets/css/CursorAnimation.css">
+    <link rel="fav icon" href="./assets/images/fav.png">
+    <link rel="stylesheet" href="./assets/css/insurance.css">
+</head>
+<body>
+     <div id="topbar"></div>
+     <div id="quick-access"></div>
+    <nav id="header"></nav>
+    <div id="floatBtn" class="floating-social-btn"></div>
+    <section class="breadcrum">
+        <h1>Patient Corner</h1>
+        <div class="subtitle">
+          <a href="library.html">Home</a>
+          <div class="round"></div>
+          <a href="academics.html">Hospital</a>
+          <div class="round"></div>
+          <span class="active">Patient Corner</span>
+        </div>
+    </section>
+    <section class="corner-section">
+        <div class="section-header">
+            <h2>Patient I   nformation</h2>
+            <p>Your comprehensive resource for healthcare information, packages, and insurance guidance</p>
+        </div>
+        <div class="info-grid" id="patientInfo"></div>
+    </section>
+
+    <section class="corner-section hospital-services">
+         <div class="section-header">
+             <h2>Health Checkup Packages</h2>
+             <p>Your comprehensive resource for healthcare information, packages, and insurance guidance</p>
+         </div>
+         <div class="packages-container">
+             <div class="tabs" id="packageTabs"></div>
+             <div id="packageContent"></div>
+         </div>
+    </section>
+    <section class="corner-section">
+        <div class="section-header">
+            <h2>Insurance & Schemes</h2>
+            <p>Your comprehensive resource for healthcare information, packages, and insurance guidance</p>
+        </div>
+        <div class="insurance-swiper">
+            <div class="swiper-container" id="insuranceSwiper"></div>
+            <div class="swiper-nav">
+                <button onclick="scrollSwiper('left')"><i class="fas fa-chevron-left"></i></button>
+                <button onclick="scrollSwiper('right')"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+     <footer id="footer"></footer>
+    <script src="./assets/js/Dom.js"></script>
+    <script src="./assets/js/paitentcorner.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <script src="./assets/js/Scripts.js"></script>
+</body>
+</html> 
