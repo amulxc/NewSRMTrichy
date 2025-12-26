@@ -134,6 +134,7 @@
                 </ul>
               </li>
               <li><a href="./programsandcourse.html">Programs & Course Outcomes</a></li>
+              <li><a href="./virtual_tour.html">Virtual Tour 360</a></li>
               <li class='pdf'><a href="./assets/pdf/Medical+Graduate+Attributes.pdf" target='_blank'>Medical Graduate Attributes</a><i class='fa fa-file-pdf'></i></li>
               <li class='pdf'><a href="./assets/pdf/UPDATE-Committee-11.10.25.pdf" target='_blank'>Committee</a><i class='fa fa-file-pdf'></i></li>
               <li class='pdf'><a href="./bioethics.html">Bio Ethics</a></li>
@@ -163,6 +164,7 @@
               <li><a href="./Specialities.html">Specialities</a></li>
               <li><a href="./patientcorner.html">Patient Corner</a></li>
               <li><a href="./awarenessandpatienttestimonial.html">Patient AV</a></li>
+              <li><a href="./ambulance.html">24/7 Ambulance Services</a></li>
               <li><a href="./doctors.html">Doctors</a></li>
               <li><a href="./bloodcamp.html">Blood Bank</a></li>
               <li><a href="./pharmacy.html">Pharmacy</a></li>
