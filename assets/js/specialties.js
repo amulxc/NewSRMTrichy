@@ -133,8 +133,8 @@ const departments = [
     "link": "surgeryspecialties.html"
   },
   {
-    "dept_id": "Anesthesiology",
-    "name": "Anesthesiology",
+    "dept_id": "Anaesthesiology",
+    "name": "Anaesthesiology",
     "icon": "fas fa-procedures",
     "color": "#b2bec3",
     "link": "surgeryspecialties.html"
@@ -152,14 +152,14 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "ecg_heart",
     "color": "#e17055",
-    "link": "MedicalSuperSpecialties.html"
+    "link": "acd_dept/MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Neurology",
     "name": "Neurology",
     "icon": "fas fa-brain",
     "color": "#00b894",
-    "link": "MedicalSuperSpecialties.html"
+    "link": "acd_dept/MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Nephrology",
@@ -167,15 +167,15 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "nephrology",
     "color": "#fd9644",
-    "link": "MedicalSuperSpecialties.html"
+    "link": "acd_dept/MedicalSuperSpecialties.html"
   },
   {
-    "dept_id": "Oncology",
-    "name": "Oncology",
+    "dept_id": "Medical Oncology",
+    "name": "Medical oncology",
     "icon": "material-symbols-outlined",
     "Icon-Name": "oncology",
     "color": "#eb3b5a",
-    "link": "MedicalSuperSpecialties.html"
+    "link": "acd_dept/MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Gastroenterology",
@@ -183,7 +183,7 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "gastroenterology",
     "color": "#8854d0",
-    "link": "MedicalSuperSpecialties.html"
+    "link": "acd_dept/MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Cardio Vascular & Thoracic Surgery",
@@ -198,6 +198,13 @@ const departments = [
     "name": "Neurosurgery",
     "icon": "fas fa-brain",
     "color": "#20bf6b",
+    "link": "SurgerySuperSpecialties.html"
+  },
+  {
+    "dept_id": "Dentistry",
+    "name": "Dentistry",
+    "icon": "fas fa-tooth",
+    "color": "#207fbfff",
     "link": "SurgerySuperSpecialties.html"
   },
   {

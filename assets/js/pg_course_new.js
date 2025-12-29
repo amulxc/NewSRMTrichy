@@ -1,135 +1,109 @@
-const departmentData = {
-
-  /* ================= PHASE 2 ================= */
-  pathology: {
-    name: "Pathology",
-    curriculum: "General pathology, systemic pathology and hematology.",
-    timetable: "Microscopy labs and case-based discussions.",
-    calendar: "Slide exams, internal assessments and university exams."
+const departmentData = [
+  {
+    name: "Anatomy",
+    description: "Study of human body structure",
+    view_pdf: "./assets/pdf/course/PG_Course"
   },
-
-  pharmacology: {
-    name: "Pharmacology",
-    curriculum: "Drug mechanisms, therapeutic uses and adverse effects.",
-    timetable: "Problem-based learning and prescription writing.",
-    calendar: "Continuous assessment and final theory exams."
+  {
+    name: "Biochemistry",
+    description: "Chemical processes related to human health",
+    view_pdf: "./assets/pdf/course/PG_Course"
   },
-
-  microbiology: {
-    name: "Microbiology",
-    curriculum: "Bacteriology, virology, parasitology and immunology.",
-    timetable: "Lab diagnostics and culture techniques.",
-    calendar: "Practical exams and theory assessments."
+  {
+    name: "Dermatology",
+    description: "Diagnosis and treatment of skin disorders",
+    view_pdf: "./assets/pdf/course/PG_Course"
   },
-
-  forensic: {
-    name: "Forensic Medicine & Toxicology",
-    curriculum: "Medical jurisprudence, forensic science and toxicology.",
-    timetable: "Postmortem demonstrations and lectures.",
-    calendar: "Court visits, practical exams and theory assessments."
+  {
+    name: "ENT",
+    description: "Care of ear nose throat disorders",
+    view_pdf: "./assets/pdf/course/PG_Course"
   },
-
-  community_medicine2: {
-    name: "Community Medicine",
-    curriculum: "Applied epidemiology, biostatistics and public health.",
-    timetable: "Classroom teaching with field exposure.",
-    calendar: "Field visits, surveys and internal assessments."
-  },
-
-  /* ================= PHASE 3 PART 2 ================= */
-  orthopaedics: {
-    name: "Orthopaedics",
-    curriculum: "Musculoskeletal disorders, trauma and orthopaedic surgery.",
-    timetable: "OPD clinics, ward rounds and OT exposure.",
-    calendar: "Clinical assessments and final exams."
-  },
-
-  ophthalmology: {
-    name: "Ophthalmology",
-    curriculum: "Eye diseases, refraction and ophthalmic surgeries.",
-    timetable: "OPD clinics, skill labs and OT postings.",
-    calendar: "Clinical exams and skill assessments."
-  },
-
-  dermatology: {
-    name: "Dermatology, Venereology & Leprosy",
-    curriculum: "Skin disorders, STDs and leprosy management.",
-    timetable: "OPD-based teaching and case discussions.",
-    calendar: "Clinical exams and continuous assessments."
-  },
-
-  psychiatry: {
-    name: "Psychiatry",
-    curriculum: "Mental health disorders and psychopharmacology.",
-    timetable: "OPD clinics, ward rounds and seminars.",
-    calendar: "Case presentations and final clinical exams."
-  },
-
-  /* ================= PHASE 3 ================= */
-  general_medicine: {
+  {
     name: "General Medicine",
-    curriculum: "Clinical diagnosis, internal medicine and patient care.",
-    timetable: "Ward rounds, OPD postings and seminars.",
-    calendar: "Clinical postings, exams and internship preparation."
+    description: "Comprehensive management of adult medical illnesses",
+    view_pdf: "./assets/pdf/course/PG_Course"
   },
-
-  general_surgery: {
-    name: "General Surgery",
-    curriculum: "Surgical principles, operative procedures and trauma care.",
-    timetable: "OT exposure, ward duties and case presentations.",
-    calendar: "Clinical exams and posting rotations."
+  {
+    name: "Genral Surgery",
+    description: "Surgical treatment of common clinical conditions",
+    view_pdf: "./assets/pdf/course/PG_Course"
   },
-
-  obstetrics_gynaecology: {
-    name: "Obstetrics & Gynaecology",
-    curriculum: "Pregnancy, labour, gynecological disorders and surgery.",
-    timetable: "Labour ward postings and OT exposure.",
-    calendar: "Clinical exams and internship schedule."
+  {
+    name: "Microbiology",
+    description: "Study of microbes causing human diseases",
+    view_pdf: "./assets/pdf/course/PG_Course"
   },
-
-  paediatrics: {
-    name: "Paediatrics",
-    curriculum: "Child health, growth, development and neonatal care.",
-    timetable: "NICU exposure, OPD and ward teaching.",
-    calendar: "Case logs, assessments and exams."
+  {
+    name: "OBG",
+    description: "Healthcare for women pregnancy and childbirth",
+    view_pdf: "./assets/pdf/course/PG_Course"
+  },
+  {
+    name: "Ophthamology",
+    description: "Medical and surgical care of eyes",
+    view_pdf: "./assets/pdf/course/PG_Course"
+  },
+  {
+    name: "Orthopedics",
+    description: "Treatment of bones joints and muscles",
+    view_pdf: "./assets/pdf/course/PG_Course"
+  },
+  {
+    name: "Pathology",
+    description: "Laboratory diagnosis of disease processes",
+    view_pdf: "./assets/pdf/course/PG_Course"
+  },
+  {
+    name: "Peadiatrics",
+    description: "Medical care for infants and children",
+    view_pdf: "./assets/pdf/course/PG_Course"
+  },
+  {
+    name: "Pharmacology",
+    description: "Study of drugs and therapeutic effects",
+    view_pdf: "./assets/pdf/course/PG_Course"
+  },
+  {
+    name: "Physiology",
+    description: "Understanding normal functions of human body",
+    view_pdf: "./assets/pdf/course/PG_Course"
+  },
+  {
+    name: "Psychiatry",
+    description: "Diagnosis and management of mental disorders",
+    view_pdf: "./assets/pdf/course/PG_Course"
+  },
+  {
+    name: "Radiodiagnosis",
+    description: "Imaging techniques for accurate medical diagnosis",
+    view_pdf: "./assets/pdf/course/PG_Course"
   }
-
-};;
-
+];
 /* ===== FUNCTIONS ===== */
-function togglePhase(el) {
-  const allPhases = document.querySelectorAll(".phase");
 
-  allPhases.forEach(phase => {
-    if (phase !== el.parentElement) {
-      phase.classList.remove("active");
-    }
-  });
-
-  el.parentElement.classList.toggle("active");
-}
-
-function loadDept(key) {
-  const d = departmentData[key];
-  document.getElementById("content").innerHTML = `
-    <div class="card">
-      <h1>${d.name}</h1>
-      <p><strong>${d.phase}</strong></p>
-
-      <div class="section1">
-        <h3>Curriculum</h3>
-        <div class="item"><i class="fas fa-book"></i>${d.curriculum}</div>
+const content = document.getElementById("content11");
+content.innerHTML = ""; 
+departmentData.map((d,i)=>{
+  document.getElementById("content11").innerHTML += `
+      <div class='myDiv'>
+        <div class='myDivContent'>
+          <h3>${d.name}</h3>
+          <small>${d.description}</small>
+        </div>
+        <a href='${d.view_pdf}/${d.name}.pdf' target="_blank">
+          <div class="item section1">
+              <i class="fas fa-book"></i>
+              <p>View NMC Guidelines</p>
+          </div>
+        </a>
+        <a href='${d.view_pdf}/Curriculam.pdf' target="_blank">
+            <div class="item section1">
+              <i class="fas fa-file"></i>
+              <p>View Curriculam</p>
+          </div>
+        </a>
       </div>
-
-      <div class="section1">
-        <h3>Timetable</h3>
-        <div class="item"><i class="fas fa-clock"></i>${d.timetable}</div>
-      </div>
-
-      <div class="section1">
-        <h3>Academic Calendar</h3>
-        <div class="item"><i class="fas fa-calendar-alt"></i>${d.calendar}</div>
-      </div>
-    </div>
   `;
-}
+})
+ 

@@ -15,8 +15,12 @@
 <body>
     <!-- Header -->
    <div id="topbar"></div>
-    <div id="quick-access"></div>    <nav id="header"></nav>
+    <div id="quick-access"></div>  
+    <div id="desktop-topbar"></div>
+    <div id="desktop-quickaccess"></div>  
+    <nav id="header"></nav>
     <div id="floatBtn" class="floating-social-btn"></div>
+    <div id="emergencyBox1" class="floating-social-btn-emg"></div>
 
     <section class="breadcrum">
         <h1>UG Course</h1>
@@ -46,40 +50,40 @@
             <div class="phase">
                 <div class="phase-header" onclick="togglePhase(this)">Phase 1 <i class="fas fa-chevron-down"></i></div>
                 <div class="phase-body">
-                <button onclick="loadDept('anatomy')">Anatomy</button>
-                <button onclick="loadDept('physiology')">Physiology</button>
-                <button onclick="loadDept('biochemistry')">Biochemistry</button>
-                <button onclick="loadDept('community_medicine1')">Community Medicine</button>
+                <button onclick="loadDept(this,'anatomy')" class="myBtn">Anatomy</button>
+                <button onclick="loadDept(this,'physiology')" class="myBtn">Physiology</button>
+                <button onclick="loadDept(this,'biochemistry')" class="myBtn">Biochemistry</button>
+                <button onclick="loadDept(this,'community_medicine1')" class="myBtn">Community Medicine</button>
                 </div>
             </div>
 
             <div class="phase">
                 <div class="phase-header" onclick="togglePhase(this)">Phase 2 <i class="fas fa-chevron-down"></i></div>
                 <div class="phase-body">
-                <button onclick="loadDept('pathology')">Pathology</button>
-                <button onclick="loadDept('pharmacology')">Pharmacology</button>
-                <button onclick="loadDept('microbiology')">Microbiology</button>
-                <button onclick="loadDept('forensic')">Forensic Medicine</button>
+                <button onclick="loadDept(this,'pathology')" class="myBtn">Pathology</button>
+                <button onclick="loadDept(this,'pharmacology')" class="myBtn">Pharmacology</button>
+                <button onclick="loadDept(this,'microbiology')" class="myBtn">Microbiology</button>
+                <button onclick="loadDept(this,'forensic')" class="myBtn">Forensic Medicine</button>
                 </div>
             </div>
 
             <div class="phase">
                 <div class="phase-header" onclick="togglePhase(this)">Phase 3 Part 1<i class="fas fa-chevron-down"></i></div>
                 <div class="phase-body">
-                <button onclick="loadDept('general_medicine')">General Medicine</button>
-                <button onclick="loadDept('general_surgery')">General Surgery</button>
-                <button onclick="loadDept('paediatrics')">Paediatrics</button>
-                <button onclick="loadDept('obg')">Obstetrics & Gynaecology</button>
+                <button onclick="loadDept(this,'general_medicine')" class="myBtn">General Medicine</button>
+                <button onclick="loadDept(this,'general_surgery')" class="myBtn">General Surgery</button>
+                <button onclick="loadDept(this,'paediatrics')" class="myBtn">Paediatrics</button>
+                <button onclick="loadDept(this,'obg')" class="myBtn">Obstetrics & Gynaecology</button>
                 </div>
             </div>
             <div class="phase">
                 <div class="phase-header" onclick="togglePhase(this)">Phase 3 Part 2<i class="fas fa-chevron-down"></i></div>
                 <div class="phase-body">
-                <button onclick="loadDept('community_medicine2')">Community Medicine</button>
-                <button onclick="loadDept('orthopaedics')">Orthopaedics</button>
-                <button onclick="loadDept('ophthalmology')">Ophthalmology</button>
-                <button onclick="loadDept('dermatology')">Dermatology, Venereology & Leprosy</button>
-                <button onclick="loadDept('psychiatry')">Psychiatry</button>
+                <button onclick="loadDept(this,'community_medicine2')" class="myBtn">Community Medicine</button>
+                <button onclick="loadDept(this,'orthopaedics')" class="myBtn">Orthopaedics</button>
+                <button onclick="loadDept(this,'ophthalmology')" class="myBtn">Ophthalmology</button>
+                <button onclick="loadDept(this,'dermatology')" class="myBtn">Dermatology, Venereology & Leprosy</button>
+                <button onclick="loadDept(this,'psychiatry')" class="myBtn">Psychiatry</button>
                 </div>
             </div>
         </aside>
@@ -94,9 +98,15 @@
     <footer id="footer"></footer>
     
     <script src="./assets/js/Dom.js"></script>
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
     <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
     <script src="./assets/js/Scripts.js"></script>
+    <script>        
+        Weglot.initialize({
+        api_key: 'wg_ae87fc306a46140453415d9fed72f8085'
+        });
+    </script>
     <script src="./assets/js/ug_course_new.js"></script>
     
     

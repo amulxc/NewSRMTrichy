@@ -97,7 +97,7 @@
                 <ul class="sub-dropdown">
                   <li><a href="./boardspecialties.html">Medicine & Broad Specialties</a></li>
                   <li><a href="./surgeryspecialties.html">Surgery & Broad Specialties</a></li>
-                  <li><a href="./MedicalSuperSpecialties.html">Medicine & Super Specialties</a></li>
+                  <li><a href="./acd_dept/MedicalSuperSpecialties.html">Medicine & Super Specialties</a></li>
                   <li><a href="./SurgerySuperSpecialties.html">Surgery & Super Specialties</a></li>
                 </ul>
               </li>
@@ -225,7 +225,7 @@ const pages = [
       { title: 'Medicine & Board Specialties', path: 'Hospital > Departments > Medicine & Board Specialties', url: './boardspecialties.html' },
       { title: 'Surgery & Board Specialties', path: 'Hospital > Departments > Surgery & Board Specialties', url: './surgeryspecialties.html' },
       { title: 'Surgery & Super Specialties', path: 'Hospital > Departments > Surgery & Super Specialties', url: './SurgerySuperSpecialties.html' },
-      { title: 'Medicine & Super Specialties', path: 'Hospital > Departments > Medicine & Super Specialties', url: './MedicalSuperSpecialties.html' },
+      { title: 'Medicine & Super Specialties', path: 'Hospital > Departments > Medicine & Super Specialties', url: './acd_dept/MedicalSuperSpecialties.html' },
       { title: 'Doctors', path: 'Hospital > Doctors', url: './doctors.html' },
       { title: 'Blood Bank', path: 'Hospital > Blood Bank', url: './bloodcamp.html' },
       { title: 'Research & Innovation', path: 'Research', url: 'research.html' },

@@ -1,42 +1,45 @@
     const topbar = `<div class="top-bar" id="desktop-topbar">
     <div class="top-bar-wrapper">
       <!-- Search Bar -->
-      <div class="search-container">
-        <input 
-          type="text" 
-          class="search-input" 
-          id="searchInput"
-          placeholder="Search Pages...."
-          autocomplete="off"
-        >
-        <button class="search-btn" id="searchBtn" aria-label="Search">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-        <div class="search-results" id="searchResults"></div>
-      </div>
+       
 
       <!-- Quick Links -->
       <div class='myQuickLinks'>
         <div class="quick-links">
           <p>
-            For Any Enquiries
-            <a href="./course.html" data-wg-notranslate class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
+            Emergency Number
+            <a href="tel:98765433456" data-wg-notranslate class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
+          </p>
+        </div>
+        <div class="quick-links">
+          <p>
+            Need Ambulance
+            <a href="tel:98765433456" data-wg-notranslate class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
           </p>
         </div>
         <div class="quick-links">
           <p>
             Book an Appointment
-            <a href="./course.html" data-wg-notranslate class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
+            <a href="tel:98765433456" data-wg-notranslate class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
           </p>
         </div>
-        <div class="quick-links">
-          <p>
-            Emergency Number
-            <a href="./course.html" data-wg-notranslate class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
-          </p>
+          <div class="search-container">
+          <input 
+            type="text" 
+            class="search-input" 
+            id="searchInput"
+            placeholder="Search Pages...."
+            autocomplete="off"
+          >
+          <button class="search-btn" id="searchBtn" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <div class="search-results" id="searchResults"></div>
         </div>
 
-        <div class="quick-links language-switcher">
+
+      </div>
+      <div class="language-switcher">
           <button class="lang-btn" aria-haspopup="true" aria-expanded="false">
             Language ▾
           </button>
@@ -46,8 +49,6 @@
             <li><a href="?lang=ta">தமிழ்</a></li>
           </ul>
         </div>
-
-      </div>
       
     </div>
   </div>`
@@ -55,19 +56,39 @@
   const quickAccess = `<div class="quick-access" id="desktop-quickaccess">
    <div class="milestone-stats1">
         <div class="milestone-stat">
-          <a href='#'>Find a Doctor</a>
+          <a href='./doctors.html'>Find a Doctor</a>
         </div>     
         <div class="milestone-stat">
-          <a href='#'>Academics </a>
+          <a href='./course.html'>Course </a>
         </div>
         <div class="milestone-stat">
-          <a href='#'>Hospital</a>
+          <a href='./specialities.html'>Specialities</a>
         </div>
         <div class="milestone-stat">
           <a href='#'>Lab Reports</a>
         </div>
     </div>
   </div>`
+
+    const emergencyBox1=`<div class="emergency-wrapper">
+  <div class="emergency-box" id="emergencyBox">
+    <span id="emergencyText"></span>
+    <button class="close-btn" id="closeBtn">✕</button>
+  </div>
+
+  <div class="emergency-content" id="emergencyContent">
+    <p>E – Emergency medical support available 24/7</p>
+    <p>M – Multispecialty doctors on call</p>
+    <p>E – Equipped with advanced facilities</p>
+    <p>R – Rapid response team</p>
+    <p>G – Guaranteed patient care</p>
+    <p>E – Expert nursing staff</p>
+    <p>N – Non-stop emergency services</p>
+    <p>C – Critical care units</p>
+    <p>Y – Your health, our priority</p>
+  </div>
+</div>
+`
 
     const everyPage = `<div class="every-page">
    <div class="milestone-stats1">
@@ -98,6 +119,7 @@
         <span></span>
         <span></span>
       </button>
+      
       <nav class="offcanvas-menu" id="offcanvasMenu">
       <div class="Offcanvas-logo logo">
         <img src="./assets/images/Logo.webp" alt="SRM">
@@ -107,7 +129,6 @@
           <li class="has-dropdown" data-dropdown="about">
             <a href="./aboutus.html">About Us <span class="arrow dropdown-trigger">&#9654;</span></a>
             <ul class="dropdown">
-              <li><a href="./aboutus.html#vision">Vision & Mission</a></li>
               <li><a href="./aboutus.html#leadership">Leadership</a></li>
               <li class="has-submenu" data-submenu="milestones">
                 <a href="./aboutus.html#milestones">Accreditations <span class="arrow submenu-trigger">&#9654;</span></a>
@@ -118,7 +139,6 @@
                   <li><a href="#">PM JAY</a></li>
                 </ul>
               </li>
-              <li><a href="./aboutus.html#compliance">Awards & Recognition</a></li>
               <li><a href="./career.html">Career</a></li>
               <li><a href="./others.html">Others</a></li>
             </ul>
@@ -134,19 +154,26 @@
                 </ul>
               </li>
               <li><a href="./programsandcourse.html">Programs & Course Outcomes</a></li>
-              <li><a href="./virtual_tour.html">Virtual Tour 360</a></li>
-              <li class='pdf'><a href="./assets/pdf/Medical+Graduate+Attributes.pdf" target='_blank'>Medical Graduate Attributes</a><i class='fa fa-file-pdf'></i></li>
-              <li class='pdf'><a href="./assets/pdf/UPDATE-Committee-11.10.25.pdf" target='_blank'>Committee</a><i class='fa fa-file-pdf'></i></li>
-              <li class='pdf'><a href="./bioethics.html">Bio Ethics</a></li>
+
+              <li class="has-submenu" data-dropdown="media">
+                <a href="infrastructure.html">Infrastructure <span class="arrow dropdown-trigger">&#9654;</span></a>
+                <ul class="sub-dropdown">
+                <li><a href="infrastructure.html#hostel">Hostel</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="infrastructure.html#sports">Sports</a></li>
+                  <li><a href="infrastructure.html#gym">Gym</a></li>
+                </ul>
+              </li>
+             
               <li class="has-submenu" data-dropdown="departments">
                 <a href="#">Departments <span class="arrow dropdown-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
                 <li class="has-submenu" data-submenu="courses">
-                <a href="#">Clinical<span class="arrow submenu-trigger">&#9654;</span></a>
+                <a href="./Clinical.html">Clinical<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
                   <li><a href="./boardspecialties.html">Medicine & Broad Specialties</a></li>
                   <li><a href="./surgeryspecialties.html">Surgery & Broad Specialties</a></li>
-                  <li><a href="./MedicalSuperSpecialties.html">Medicine & Super Specialties</a></li>
+                  <li><a href="./acd_dept/MedicalSuperSpecialties.html">Medicine & Super Specialties</a></li>
                   <li><a href="./SurgerySuperSpecialties.html">Surgery & Super Specialties</a></li>
                 </ul>
               </li>
@@ -154,63 +181,46 @@
               <li><a href="./para-clinical.html">Para Clinical</a></li>
               </ul>
               </li>
-              <li><a href="./academics.html#specialties">Medical Education Unit</a></li>
-              <li><a href="./academics.html#student">Student Corner</a></li>
+               <li class="has-submenu" data-submenu="media">
+                <a href="./media.html">Media & OutReach <span class="arrow submenu-trigger">&#9654;</span></a>
+                <ul class="sub-dropdown">
+                  <li><a href="./media.html#news">News & Events</a></li>
+                  <li><a href="./media.html#gallery">Gallery</a></li>
+                  <li><a href="./videogallery.html">Video Gallery</a></li>
+                </ul>
+              </li>
               </ul>
               </li>
               <li class="has-dropdown" data-dropdown="hospital">
               <a href="./hospital.html">Hospital Services <span class="arrow dropdown-trigger">&#9654;</span></a>
               <ul class="dropdown">
-              <li><a href="./Specialities.html">Specialities</a></li>
               <li><a href="./patientcorner.html">Patient Corner</a></li>
-              <li><a href="./awarenessandpatienttestimonial.html">Patient AV</a></li>
+              <li><a href="#">Patient Portal</a></li>
               <li><a href="./ambulance.html">24/7 Ambulance Services</a></li>
-              <li><a href="./doctors.html">Doctors</a></li>
               <li><a href="./bloodcamp.html">Blood Bank</a></li>
               <li><a href="./pharmacy.html">Pharmacy</a></li>
-              <li><a href="./hospital.html#services">Supporting Services</a></li>
-              <li><a href="./hospital.html#camps">Camps</a></li>
               <li><a href="./transport.html">Transport</a></li>
             </ul>
           </li>
-           <li class="has-dropdown" data-dropdown="media">
-            <a href="infrastructure.html">Infrastructure <span class="arrow dropdown-trigger">&#9654;</span></a>
-            <ul class="dropdown">
-              <li><a href="library.html">Library</a></li>
-              <li><a href="infrastructure.html#hostel">Hostel</a></li>
-              <li><a href="infrastructure.html#sports">Sports</a></li>
-              <li><a href="infrastructure.html#transport">Transport</a></li>
-              <li><a href="infrastructure.html#gym">Gym</a></li>
-            </ul>
-          </li>
+           
           <li class="has-dropdown" data-dropdown="research">
             <a href="research.html">Research & Innovation <span class="arrow dropdown-trigger">&#9654;</span></a>
             <ul class="dropdown">
               <li><a href="IRPC.html">IRPC</a></li>
-              <li><a href="IRPC.html#IRPC-Activities">Activities</a></li>
               <li><a href="IRPC.html#IRPC-Projects">Projects</a></li>
-              <li><a href="IRPC.html#IRPC-Patents">Patents</a></li>
               <li><a href="IRPC.html#IRPC-Collabration">Collabrations</a></li>
-              <li><a href="IRPC.html#IRPC-Board">Board Members</a></li>
             </ul>
           </li>
-          <li class="has-dropdown" data-dropdown="media">
-            <a href="./media.html">Media & OutReach <span class="arrow dropdown-trigger">&#9654;</span></a>
-            <ul class="dropdown">
-              <li><a href="./media.html#news">News & Events</a></li>
-              <li><a href="./media.html#social">Social Media Feed</a></li>
-              <li><a href="./media.html#newsletter">Newsletter</a></li>
-              <li><a href="./media.html#gallery">Gallery</a></li>
-              <li><a href="./media.html#press">Press Releases</a></li>
-              <li><a href="./videogallery.html">Video Gallery</a></li>
-            </ul>
-          </li>
+         
           <li><a href="nmc.html" class="nmc-nav">NMC</a></li>
+          <li><a href="virtual_tour.html" class="nmc-nav" title='Trichy SRM Medical College Campus Tour'><img src='./assets/images/360.png' style='width:21px'></a></li>
         </ul>
         <div id="mobile-topbar"></div>
         <div id="mobile-quickaccess"></div>
       </nav>
     </div>
+    
+    
   </div>
 
   <div class="overlay" id="overlay"></div>`;
@@ -222,8 +232,8 @@
             <a href="https://www.facebook.com/yourpage" target="_blank" class="social-link facebook" title="Facebook">
                 <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="https://www.instagram.com/yourpage" target="_blank" class="social-link instagram" title="Instagram">
-                <i class="fab fa-instagram"></i>
+            <a href="https://wa.me/919876543210" target="_blank" class="social-link whatsapp" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
             </a>
             <a href="https://www.youtube.com/yourchannel" target="_blank" class="social-link youtube" title="YouTube">
                 <i class="fab fa-youtube"></i>
@@ -231,10 +241,27 @@
             <a href="https://www.linkedin.com/company/yourcompany" target="_blank" class="social-link linkedin" title="LinkedIn">
                 <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href="https://wa.me/919876543210" target="_blank" class="social-link whatsapp" title="WhatsApp">
-                <i class="fab fa-whatsapp"></i>
+            <a href="https://www.instagram.com/yourpage" target="_blank" class="social-link instagram" title="Instagram">
+                <i class="fab fa-instagram"></i>
             </a>
+            
         </div>`;
+
+        
+
+        const emgBtn=`<button class="social-toggle-btn" id="socialToggle1" style='display:none'>
+        </button>
+        <div class="social-links-container active" id="socialLinks1">
+          <div class='content-box' id='content1'>
+            <div class='content2'>
+              <p>Trichy <br><a href='tel:654387654' data-wg-notranslate><i class='fa fa-phone'></i> 9876543876</a></p>
+              <p>Ramapuram <br><a href='tel:654387654' data-wg-notranslate><i class='fa fa-phone'></i> 9876543876</a></p>
+            </div>
+            <div class='content' id='emgWord'>
+            </div>
+          <div>
+        </div>`;
+        
 
        
 
@@ -246,10 +273,10 @@
                 <p>Trichy SRM Medical College is dedicated to providing excellence in medical education and healthcare services. We are committed to shaping the future of healthcare.</p>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
             <div class="footer-section">
@@ -425,12 +452,21 @@
     document.getElementById('topbar').innerHTML=topbar
     document.getElementById("header").innerHTML=header;
     document.getElementById("quick-access").innerHTML=quickAccess;
-    // document.getElementById("every-page").innerHTML=everyPage;
     document.getElementById("floatBtn").innerHTML=floatBtn;
+    document.getElementById("emergencyBox1").innerHTML=emgBtn;
     document.getElementById("footer").innerHTML=footer;
     document.getElementById('desktop-topbar').innerHTML = topbar;
     document.getElementById('desktop-quickaccess').innerHTML = quickAccess;
 
+
+    const text11 = "Emergency";
+        const container2= document.getElementById("emgWord");
+
+        container2.innerHTML = text11
+          .split("")
+          .map(letter => `<div data-wg-notranslate>${letter}</div>`)
+          .join("");
+    
     document.addEventListener("DOMContentLoaded", function () {
     const currentPage = window.location.pathname.split("/").pop();
 
@@ -487,7 +523,7 @@ const pages = [
       { title: 'Medicine & Board Specialties', path: 'Hospital > Departments > Medicine & Board Specialties', url: './boardspecialties.html' },
       { title: 'Surgery & Board Specialties', path: 'Hospital > Departments > Surgery & Board Specialties', url: './surgeryspecialties.html' },
       { title: 'Surgery & Super Specialties', path: 'Hospital > Departments > Surgery & Super Specialties', url: './SurgerySuperSpecialties.html' },
-      { title: 'Medicine & Super Specialties', path: 'Hospital > Departments > Medicine & Super Specialties', url: './MedicalSuperSpecialties.html' },
+      { title: 'Medicine & Super Specialties', path: 'Hospital > Departments > Medicine & Super Specialties', url: './acd_dept/MedicalSuperSpecialties.html' },
       { title: 'Doctors', path: 'Hospital > Doctors', url: './doctors.html' },
       { title: 'Blood Bank', path: 'Hospital > Blood Bank', url: './bloodcamp.html' },
       { title: 'Research & Innovation', path: 'Research', url: 'research.html' },
@@ -563,19 +599,57 @@ function handleResponsiveMove(e) {
   const topbarEl = document.querySelector('.top-bar');
   const quickAccessEl = document.querySelector('.quick-access');
 
+  const mobileTopbar = document.getElementById('mobile-topbar');
+  const mobileQuick = document.getElementById('mobile-quickaccess');
+
+  const desktopTopbar = document.getElementById('desktop-topbar');
+  const desktopQuick = document.getElementById('desktop-quickaccess');
+
   if (!topbarEl || !quickAccessEl) return;
 
   if (e.matches) {
-    // MOBILE → Move into offcanvas
-    document.getElementById('mobile-topbar').appendChild(topbarEl);
-    document.getElementById('mobile-quickaccess').appendChild(quickAccessEl);
+    // 👉 MOBILE VIEW
+    if (!mobileTopbar.contains(topbarEl)) {
+      mobileTopbar.appendChild(topbarEl);
+    }
+    if (!mobileQuick.contains(quickAccessEl)) {
+      mobileQuick.appendChild(quickAccessEl);
+    }
   } else {
-    // DESKTOP → Move back
-    document.getElementById('desktop-topbar').appendChild(topbarEl);
-    document.getElementById('desktop-quickaccess').appendChild(quickAccessEl);
+    // 👉 DESKTOP VIEW
+    if (!desktopTopbar.contains(topbarEl)) {
+      desktopTopbar.appendChild(topbarEl);
+    }
+    if (!desktopQuick.contains(quickAccessEl)) {
+      desktopQuick.appendChild(quickAccessEl);
+    }
   }
 }
 
-// Run once + on resize
+/* 🔹 Run on page load */
 handleResponsiveMove(mq);
+
+/* 🔹 Listen for screen resize */
 mq.addEventListener("change", handleResponsiveMove);
+
+
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const switcher = document.querySelector(".language-switcher");
+    const btn = document.querySelector(".lang-btn");
+
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      switcher.classList.toggle("active");
+      btn.setAttribute(
+        "aria-expanded",
+        switcher.classList.contains("active")
+      );
+    });
+
+    document.addEventListener("click", () => {
+      switcher.classList.remove("active");
+      btn.setAttribute("aria-expanded", "false");
+    });
+  });
+

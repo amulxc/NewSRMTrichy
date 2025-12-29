@@ -14,8 +14,12 @@
 <body>
     <!-- Navigation -->
    <div id="topbar"></div>
-    <div id="quick-access"></div>    <nav id="header"></nav>
+    <div id="quick-access"></div>  
+    <div id="desktop-topbar"></div>
+    <div id="desktop-quickaccess"></div>  
+    <nav id="header"></nav>
     <div id="floatBtn" class="floating-social-btn"></div>
+    <div id="emergencyBox1" class="floating-social-btn-emg"></div>
     <!-- Hero Section -->
     <section class="breadcrum">
         <h1>Research</h1>
@@ -487,8 +491,14 @@
     <footer id="footer"></footer>
 
     <script src="./assets/js/Dom.js"></script>
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
     <script src="./assets/js/Scripts.js"></script>
+    <script>        
+        Weglot.initialize({
+        api_key: 'wg_ae87fc306a46140453415d9fed72f8085'
+        });
+    </script>
 
 </body>
 </html>

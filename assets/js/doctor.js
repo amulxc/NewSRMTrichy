@@ -32,11 +32,11 @@ const deptForLink=[
   { "dept": "surgeryspecialties.html", "name": "Radiodiagnosis" },
   { "dept": "surgeryspecialties.html", "name": "Dentistry" },
 
-  { "dept": "MedicalSuperSpecialties.html", "name": "Cardiology" },
-  { "dept": "MedicalSuperSpecialties.html", "name": "Neurology" },
-  { "dept": "MedicalSuperSpecialties.html", "name": "Nephrology" },
-  { "dept": "MedicalSuperSpecialties.html", "name": "Oncology" },
-  { "dept": "MedicalSuperSpecialties.html", "name": "Gastroenterology" },
+  { "dept": "acd_dept/MedicalSuperSpecialties.html", "name": "Cardiology" },
+  { "dept": "acd_dept/MedicalSuperSpecialties.html", "name": "Neurology" },
+  { "dept": "acd_dept/MedicalSuperSpecialties.html", "name": "Nephrology" },
+  { "dept": "acd_dept/MedicalSuperSpecialties.html", "name": "Oncology" },
+  { "dept": "acd_dept/MedicalSuperSpecialties.html", "name": "Gastroenterology" },
 
   { "dept": "SurgerySuperSpecialties.html", "name": "Cardio Vascular & Thoracic Surgery" },
   { "dept": "SurgerySuperSpecialties.html", "name": "Neurosurgery" },
@@ -116,13 +116,11 @@ document.addEventListener("DOMContentLoaded", async () => {
             const specialties = [...new Set(doctorsData.map(d => d.specialty))];
             const specialitiesFilter = document.getElementById('specialitiesFilter');
             specialties.forEach((specialty, index) => {
-                const count = doctorsData.filter(d => d.specialty === specialty).length;
                 specialitiesFilter.innerHTML += `
                     <div class="filter-option">
                         <input type="checkbox" id="spec${index}" value="${specialty}" onchange="applyFilters()">
                         <label for="spec${index}">
                             <span>${specialty}</span>
-                            <span class="filter-count">${count}</span>
                         </label>
                     </div>
                 `;

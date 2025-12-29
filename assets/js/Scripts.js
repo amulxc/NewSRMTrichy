@@ -238,7 +238,10 @@
 
         // Floating Social Media Toggle
         const socialToggle = document.getElementById('socialToggle');
+        const socialToggle1 = document.getElementById('socialToggle1');
+        const contentBox= document.getElementById('content1');
         const socialLinks = document.getElementById('socialLinks');
+        const socialLinks1 = document.getElementById('socialLinks1');
 
 
         /* RIGHT SIDE SOCIAL */
@@ -246,6 +249,13 @@
             e.stopPropagation();
             socialToggle.classList.toggle('active');
             socialLinks.classList.toggle('active');
+        });
+
+
+        contentBox.addEventListener('click', (e) => {
+            e.stopPropagation();
+            socialToggle1.classList.toggle('active');
+            socialLinks1.classList.toggle('active');
         });
 
        

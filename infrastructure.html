@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SRM University - Infrastructure</title>
+    <title>Trichy SRM University - Infrastructure</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -27,8 +27,12 @@
     </header> -->
 
     <div id="topbar"></div>
-    <div id="quick-access"></div>    <nav id="header"></nav>
+    <div id="quick-access"></div>  
+    <div id="desktop-topbar"></div>
+    <div id="desktop-quickaccess"></div>  
+    <nav id="header"></nav>
     <div id="floatBtn" class="floating-social-btn"></div>
+    <div id="emergencyBox1" class="floating-social-btn-emg"></div>
     <section class="breadcrum">
             <h1>Infrastructure</h1>
             <div class="subtitle">
@@ -62,7 +66,11 @@
         </div>
 
         <!-- Premium Hostel Facilities -->
-        <section class="infra-section" id="hostel">
+         <div id="hostel">
+            <br>
+            <br>
+         </div>
+        <section class="infra-section">
             <div class="section-header">
                 <h2>Premium Hostel Facilities</h2>
                 <p>Comfortable and secure living spaces designed for your home away from home experience</p>
@@ -128,7 +136,10 @@
                 </div>
             </div>
         </section>
-
+        <div id="sports">
+            <br>
+            <br>
+         </div>
         <!-- World-Class Sports Facilities -->
         <section class="infra-section hospital-services" id="sports">
             <div class="section-header">
@@ -249,9 +260,12 @@
                 </div>
             </div>
         </section>
-
+    <div id="gym">
+        <br>
+        <br>
+    </div>
         <!-- Gymnasium Section -->
-    <section class="infra-gym-section hospital-services" id="gym">
+    <section class="infra-gym-section hospital-services" style="border-top:1px solid #e3e3e3">
         <div class="infra-gym-container">
             <div class="section-header">
                 <h2>Modern Fitness Centers</h2>
@@ -385,8 +399,14 @@
     </div>
     <footer id="footer"></footer>
     <script src="./assets/js/Dom.js"></script>
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
     <script src="./assets/js/Scripts.js"></script>
+    <script>        
+        Weglot.initialize({
+        api_key: 'wg_ae87fc306a46140453415d9fed72f8085'
+        });
+    </script>
     <script>
          // Gym Image Change on Card Click
         const gymFeatureBoxes = document.querySelectorAll('.infra-gym-feature-box');

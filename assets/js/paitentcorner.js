@@ -111,128 +111,100 @@
             }
         ];
 
-        const insuranceSchemes = [
-            {
-                name: "HDFC Ergo",
-                icon: "fas fa-hospital",
-                color: "var(--color-accent-red)",
-                features: [
-                    "Cashless Treatment Available",
-                    "No Room Rent Limit",
-                    "Pre & Post Hospitalization",
-                    "Day Care Procedures Covered",
-                    "Ambulance Charges Included"
-                ]
-            },
-            {
-                name: "Star Health Insurance",
-                icon: "fas fa-star",
-                color: "var(--color-accent-yellow-top)",
-                features: [
-                    "Cashless Claims Facility",
-                    "Quick Claim Settlement",
-                    "24x7 Customer Support",
-                    "Health Check-ups Included",
-                    "Maternity Benefits Available"
-                ]
-            },
-            {
-                name: "ICICI Lombard",
-                icon: "fas fa-medkit",
-                color: "var(--color-primary)",
-                features: [
-                    "Instant E-Card Approval",
-                    "No Pre-Policy Check-up",
-                    "Worldwide Coverage",
-                    "Unlimited E-Consultation",
-                    "Restoration of Sum Insured"
-                ]
-            },
-            {
-                name: "Ayushman Bharat (PMJAY)",
-                icon: "fas fa-hands-helping",
-                color: "var(--color-secondary)",
-                features: [
-                    "Coverage up to ₹5 Lakhs",
-                    "Cashless & Paperless Treatment",
-                    "Secondary & Tertiary Care",
-                    "Pre-existing Conditions Covered",
-                    "Free for Eligible Families"
-                ]
-            },
-            {
-                name: "Mediassist",
-                icon: "fas fa-user-md",
-                color: "var(--color-purple)",
-                features: [
-                    "Corporate Health Insurance",
-                    "Pre-Authorization in 4 Hours",
-                    "Extensive Network Hospitals",
-                    "Family Floater Benefits",
-                    "Annual Health Check-ups"
-                ]
-            },
-            {
-                name: "New India Assurance",
-                icon: "fas fa-heartbeat",
-                color: "var(--color-teal)",
-                features: [
-                    "Mediclaim Policy Available",
-                    "Critical Illness Coverage",
-                    "Tax Benefits under 80D",
-                    "Domiciliary Hospitalization",
-                    "AYUSH Treatment Covered"
-                ]
-            },
-            {
-                name: "Reliance General",
-                icon: "fas fa-shield-virus",
-                color: "var(--color-navy)",
-                features: [
-                    "Health Gain Policy",
-                    "No Sub-Limits on Expenses",
-                    "Lifetime Renewability",
-                    "Wellness Programs Included",
-                    "Global Coverage Option"
-                ]
-            },
-            {
-                name: "Care Health Insurance",
-                icon: "fas fa-briefcase-medical",
-                color: "var(--color-cyan)",
-                features: [
-                    "Unlimited Automatic Reload",
-                    "Zero Waiting Period Plans",
-                    "Mental Illness Coverage",
-                    "Modern Treatment Covered",
-                    "24x7 Health Helpline"
-                ]
-            },
-            {
-                name: "CM Health Scheme (TN)",
-                icon: "fas fa-hospital-user",
-                color: "var(--color-brown)",
-                features: [
-                    "Free Treatment for Poor",
-                    "Coverage up to ₹5 Lakhs",
-                    "1,500+ Procedures Covered",
-                    "No Premium Required",
-                    "Emergency Services Included"
-                ]
-            },
-            {
-                name: "Bajaj Allianz",
-                icon: "fas fa-ambulance",
-                color: "var(--color-blue-light)",
-                features: [
-                    "Health Guard Policy",
-                    "Daily Hospital Cash Benefit",
-                    "Emergency Road Ambulance",
-                    "Organ Donor Expenses",
-                    "COVID-19 Treatment Covered"
-                ]
-            }
+        const insuranceAgencies = [
+  {
+    "agency_id": "SBI_General",
+    "name": "SBI General Insurance",
+    "icon": "fas fa-university",
+    "color": "#1e90ff",
+    "link": "https://www.sbigeneral.in"
+  },
+  {
+    "agency_id": "HDFC_ERGO",
+    "name": "HDFC ERGO Health Insurance",
+    "icon": "fas fa-building-columns",
+    "color": "#0047ab",
+    "link": "https://www.hdfcergo.com"
+  },
+  {
+    "agency_id": "ICICI_Lombard",
+    "name": "ICICI Lombard",
+    "icon": "fas fa-landmark",
+    "color": "#ff6f00",
+    "link": "https://www.icicilombard.com"
+  },
+  {
+    "agency_id": "Star_Health",
+    "name": "Star Health Insurance",
+    "icon": "fas fa-star-of-life",
+    "color": "#e74c3c",
+    "link": "https://www.starhealth.in"
+  },
+  {
+    "agency_id": "United_India",
+    "name": "United India Insurance",
+    "icon": "fas fa-shield-halved",
+    "color": "#2ecc71",
+    "link": "https://www.uiic.co.in"
+  },
+  {
+    "agency_id": "New_India",
+    "name": "New India Assurance",
+    "icon": "fas fa-shield",
+    "color": "#27ae60",
+    "link": "https://www.newindia.co.in"
+  },
+  {
+    "agency_id": "Oriental",
+    "name": "Oriental Insurance",
+    "icon": "fas fa-umbrella",
+    "color": "#8e44ad",
+    "link": "https://orientalinsurance.org.in"
+  },
+  {
+    "agency_id": "Tata_AIG",
+    "name": "Tata AIG Insurance",
+    "icon": "fas fa-briefcase-medical",
+    "color": "#34495e",
+    "link": "https://www.tataaig.com"
+  },
+  {
+    "agency_id": "Reliance",
+    "name": "Reliance General Insurance",
+    "icon": "fas fa-hand-holding-medical",
+    "color": "#d35400",
+    "link": "https://www.reliancegeneral.co.in"
+  },
+  {
+    "agency_id": "Bajaj_Allianz",
+    "name": "Bajaj Allianz",
+    "icon": "fas fa-heart-pulse",
+    "color": "#f39c12",
+    "link": "https://www.bajajallianz.com"
+  }
         ];
+
+
+        const sortedinsuranceAgencies = insuranceAgencies
+          .slice().sort((a, b) => a.name.localeCompare(b.name));
+
+
+        let SpecialityCard = sortedinsuranceAgencies.map(e => {
+          const iconInner = e["Icon-Name"] ? e["Icon-Name"] : "";
+
+          return `
+          <a href="${e.link}" target="_blank">
+            <div class="infra-spec-card">
+                <div class="infra-icon-image" style="background-color:${e.color}">
+                  <i class="${e.icon}">${iconInner}</i>
+                </div>
+                <div class="infra-icon-title">${e.name}</div>
+              </div>
+            </a>
+          `;
+        }).join("");
+
+document.getElementById("Specialties").innerHTML = SpecialityCard;
 
         // Render Patient Information
         function renderPatientInfo() {
@@ -303,24 +275,7 @@
             `).join('');
         }
 
-        // Render Insurance Schemes
-        function renderInsuranceSchemes() {
-            const container = document.getElementById('insuranceSwiper');
-            
-            container.innerHTML = insuranceSchemes.map(scheme => `
-                <div class="insurance-card">
-                    <div class="insurance-logo" style="color: ${scheme.color};">
-                        <i class="${scheme.icon}"></i>
-                    </div>
-                    <h4>${scheme.name}</h4>
-                    <ul class="insurance-features">
-                        ${scheme.features.map(feature => `
-                            <li><i class="fas fa-check-circle"></i> ${feature}</li>
-                        `).join('')}
-                    </ul>
-                </div>
-            `).join('');
-        }
+        
 
         // Tab switching functionality
         function showTab(tabId) {
@@ -370,7 +325,6 @@
         document.addEventListener('DOMContentLoaded', () => {
             renderPatientInfo();
             renderHealthPackages();
-            renderInsuranceSchemes();
             
             // Start auto-scroll
             startAutoScroll();

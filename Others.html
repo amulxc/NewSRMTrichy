@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Others - Trichy SRM Medical College</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/Header.css">
     <link rel="stylesheet" href="./assets/css/CursorAnimation.css">
     <link rel="fav icon" href="./assets/images/fav.png">
@@ -17,6 +17,7 @@
     <div id="quick-access"></div>    
     <nav id="header"></nav>
     <div id="floatBtn" class="floating-social-btn"></div>
+    <div id="emergencyBox1" class="floating-social-btn-emg"></div>
     
     <div class="container">
         <div class="page-wrapper">
@@ -27,9 +28,6 @@
             <main class="main-content">
                 <!-- UG Section -->
                 <section class="content-section active" id="ug-section">
-                    
-.
-
                     <div id="ug-curriculum" class="content-panel nmc active">
                         <div class="document-grid" id="ug-curriculum-grid">
                             <div class="document-card">
@@ -48,7 +46,7 @@
                         
                             <div class="document-card">
                                 <div class="document-title">Circulars</div>
-                                <a href="#" class="document-link" target="_blank">
+                                <a href="#" class="document-link">
                                     View PDF <i class="fa fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -56,13 +54,13 @@
                             <div class="document-card">
                                 <div class="document-title">News Letters</div>
                                 <a href="#" class="document-link" onclick="openCmeModal(event,'News')">
-                                    View PDF <i class="fa fa-arrow-right"></i>
+                                    View Datas <i class="fa fa-arrow-right"></i>
                                 </a>
                             </div>
                             <div class="document-card">
                                 <div class="document-title">CSRF Activities</div>
                                 <a href="#" class="document-link" onclick="openCmeModal(event,'CSRF')">
-                                    View PDF <i class="fa fa-arrow-right"></i>
+                                    View Datas <i class="fa fa-arrow-right"></i>
                                 </a>
                             </div>
                              <div class="document-card">
@@ -84,12 +82,7 @@
                                 </a>
                             </div>
 
-                            <div class="document-card">
-                                <div class="document-title">Preventive Health Packages</div>
-                                <a href="./assets/pdf/Others/PreventiveHealthPackages.webp" class="document-link" target="_blank">
-                                    View Image <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </div>
+                          
                             <div class="document-card">
                                 <div class="document-title">College Information Profoma</div>
                                 <a href="./assets/pdf/Others/college-information-profama_compressed.pdf" class="document-link" target="_blank">
@@ -98,7 +91,7 @@
                             </div>
                             <div class="document-card">
                                 <div class="document-title">Materiovigilance Committee</div>
-                                <a href="./assets/pdf/Others/Materiovigilance-Committee.pdf" class="document-link" >
+                                <a href="./assets/pdf/Others/Materiovigilance-Committee.pdf" class="document-link" target="_blank">
                                     View PDF <i class="fa fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -110,10 +103,34 @@
                             </div>
                             <div class="document-card">
                                 <div class="document-title">IMA-SRM</div>
-                                <a href="#" class="document-link" >
+                                <a href="#" class="document-link">
                                     View PDF <i class="fa fa-arrow-right"></i>
                                 </a>
                             </div>
+
+                            <div class="document-card">
+                                <div class="document-title">Bio Ethics</div>
+                                <a href="./bioethics.html" class="document-link">
+                                    View Page <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+
+                            <div class="document-card">
+                                <div class="document-title">Committee</div>
+                                <a href="./assets/pdf/Others/UPDATE-Committee-11.10.25.pdf" class="document-link" target="_blank">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+                            <div class="document-card">
+                                <div class="document-title">Graduate Attributes</div>
+                                <a href="./assets/pdf/Others/Medical+Graduate+Attributes.pdf" class="document-link" target="_blank">
+                                    View PDF <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+
+
 
 
                             <!-- Modals -->
@@ -126,21 +143,21 @@
                                         <div class="document-grid" id="ug-curriculum-grid">
                                             <div class="document-card">
                                                 <div class="document-title">
-                                                    <a href="./assets/pdf/Others/NewsLetter/2018.pdf">
+                                                    <a href="./assets/pdf/Others/NewsLetter/2018.pdf" target="_blank">
                                                         2018
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="document-card">
                                                 <div class="document-title">
-                                                    <a href="./assets/pdf/Others/NewsLetter/2021.pdf">
+                                                    <a href="./assets/pdf/Others/NewsLetter/2021.pdf" target="_blank">
                                                         2021
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="document-card">
                                                 <div class="document-title">
-                                                    <a href="./assets/pdf/Others/NewsLetter/2022.pdf">
+                                                    <a href="./assets/pdf/Others/NewsLetter/2022.pdf" target="_blank">
                                                         2022
                                                     </a>
                                                 </div>
@@ -305,8 +322,14 @@
 
     <footer id="footer"></footer>
     <script src="./assets/js/Dom.js"></script>
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
     <script src="./assets/js/nmcmodal.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
     <script src="./assets/js/Scripts.js"></script>
+    <script>        
+        Weglot.initialize({
+        api_key: 'wg_ae87fc306a46140453415d9fed72f8085'
+        });
+    </script>
 </body>
 </html>

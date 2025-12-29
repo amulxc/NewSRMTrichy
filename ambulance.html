@@ -15,6 +15,7 @@
     <div id="quick-access"></div>
     <nav id="header"></nav>
     <div id="floatBtn" class="floating-social-btn"></div>
+    <div id="emergencyBox1" class="floating-social-btn-emg"></div>
 
     <section class="breadcrum">
         <h1>Ambulance Service</h1>
@@ -71,15 +72,18 @@
             </div>
         </div>
     </section>
-
-    <!-- Response Time -->
-    <div class="ambulance-response-time">
+    <!-- CTA Section -->
+    <section class="ambulance-cta-section">
         <div class="ambulance-container">
-            <h3>Average Response Time</h3>
-            <div class="ambulance-time-display">&lt; 8 Minutes</div>
-            <p>Our fleet is strategically positioned to reach you faster</p>
+            <h2>Need Immediate Assistance?</h2>
+            <p>Our ambulance team is ready to respond to your emergency 24/7</p>
+            <div class="ambulance-cta-buttons">
+                <a href="tel:108" class="ambulance-btn ambulance-btn-primary"><i class="fas fa-phone-volume"></i> Call Emergency: 108</a>
+                <a href="#contact" class="ambulance-btn ambulance-btn-secondary"><i class="fas fa-calendar-alt"></i> Request Non-Emergency Transport</a>
+            </div>
         </div>
-    </div>
+    </section>
+   
 
     <!-- Features Section -->
     <section class="ambulance-section ambulance-features-section">
@@ -136,17 +140,15 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="ambulance-cta-section">
+     <!-- Response Time -->
+    <div class="ambulance-response-time">
         <div class="ambulance-container">
-            <h2>Need Immediate Assistance?</h2>
-            <p>Our ambulance team is ready to respond to your emergency 24/7</p>
-            <div class="ambulance-cta-buttons">
-                <a href="tel:108" class="ambulance-btn ambulance-btn-primary"><i class="fas fa-phone-volume"></i> Call Emergency: 108</a>
-                <a href="#contact" class="ambulance-btn ambulance-btn-secondary"><i class="fas fa-calendar-alt"></i> Request Non-Emergency Transport</a>
-            </div>
+            <h3>Average Response Time</h3>
+            <div class="ambulance-time-display">&lt; 8 Minutes</div>
+            <p>Our fleet is strategically positioned to reach you faster</p>
         </div>
-    </section>
+    </div>
+    
 
     <!-- Contact Section -->
     <section class="ambulance-section ambulance-contact-section" id="contact">
@@ -178,9 +180,15 @@
  
     <footer id="footer"></footer>
     <script src="./assets/js/Dom.js"></script>
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
     <script src="./assets/js/ambulance.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
     <script src="./assets/js/Scripts.js"></script>
+    <script>        
+        Weglot.initialize({
+        api_key: 'wg_ae87fc306a46140453415d9fed72f8085'
+        });
+    </script>
     <script src="./doctors.js"></script>
 </body>
 </html>
