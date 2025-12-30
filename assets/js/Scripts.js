@@ -251,6 +251,7 @@
             socialLinks.classList.toggle('active');
         });
 
+        
 
         contentBox.addEventListener('click', (e) => {
             e.stopPropagation();

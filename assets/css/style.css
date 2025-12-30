@@ -409,6 +409,7 @@
     .floating-social-btn-emg .content-box .content{
         text-transform:uppercase;
         padding:5px;
+        font-size:14px;
         text-align:center;
     }
     .floating-social-btn-emg .social-links-container.active {
@@ -5023,20 +5024,14 @@ grid-template-columns: 1fr;
         /* Programs Grid */
         .ug-programs-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             margin: var(--spacing-3xl) auto 0;
-            gap: 10px;
+            gap:40px;
         }
 
-        @media (max-width:768px) {
-            .ug-programs-grid {
-                display: grid;
-                grid-template-columns: 1fr; 
-                gap: 10px;
-                justify-items: center;
-            }
+      
 
-        }
+       
         .ug-program-card {
             background: var(--color-white);
             width:290px;
@@ -5052,8 +5047,16 @@ grid-template-columns: 1fr;
             border: 4px double transparent;
         }
 
-    
-
+        
+        .donors .ug-programs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            margin:var(--spacing-3xl) auto 0;
+            gap:40px;
+        }
+        .donors .ug-program-card{
+            width:410px;
+        }
         .ug-program-icon {
             width: 70px;
             height: 70px;
@@ -5065,10 +5068,13 @@ grid-template-columns: 1fr;
             font-size: var(--font-4xl);
         }
 
-        .ug-program-card:nth-child(1) .ug-program-icon { background: rgba(0, 102, 204, 0.1); color: var(--color-primary); }
-        .ug-program-card:nth-child(2) .ug-program-icon { background: rgba(76, 175, 80, 0.1); color: var(--color-secondary); }
+        .ug-program-card:nth-child(1) .ug-program-icon { background: rgba(204, 0, 0, 0.1); color: var(--color-youtube-dark); }
+        .ug-program-card:nth-child(2) .ug-program-icon { background: rgba(245, 170, 255, 0.1); color: var(--color-accent-pink); }
         .ug-program-card:nth-child(3) .ug-program-icon { background: rgba(255, 193, 7, 0.1); color: var(--color-accent-yellow); }
-        .ug-program-card:nth-child(4) .ug-program-icon { background: rgba(156, 39, 176, 0.1); color: var(--color-purple); }
+        .ug-program-card:nth-child(4) .ug-program-icon { background: rgba(39, 103, 176, 0.1); color: var(--color-primary); }
+        
+        .ug-program-card:nth-child(5) .ug-program-icon { background: rgba(253, 169, 197, 0.1); color: var(--color-accent-light1); }
+        .ug-program-card:nth-child(6) .ug-program-icon { background: rgba(246, 152, 255, 0.1); color: var(--color-purple); }
 
         .ug-program-card:hover{
             box-shadow:(--shadow-lg);
@@ -11727,3 +11733,22 @@ grid-template-columns: 1fr;
   color:var(--color-primary)!important;
   font-weight: 600;
 }
+ @media (max-width:768px) {
+            .ug-programs-grid {
+                display: grid;
+                grid-template-columns: 1fr; 
+                gap: 10px;
+                justify-items: center;
+            }
+            .donors .ug-programs-grid {
+                display: grid;
+                grid-template-columns: 1fr; 
+                gap:20px;
+                justify-items: center;
+            }
+            .donors .ug-program-card{
+                width:270px;
+                height:230px;
+            }
+
+        }

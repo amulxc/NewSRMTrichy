@@ -197,6 +197,7 @@
               <li><a href="./patientcorner.html">Patient Corner</a></li>
               <li><a href="#">Patient Portal</a></li>
               <li><a href="./ambulance.html">24/7 Ambulance Services</a></li>
+              <li><a href="./donor.html">Gift Of Life</a></li>
               <li><a href="./bloodcamp.html">Blood Bank</a></li>
               <li><a href="./pharmacy.html">Pharmacy</a></li>
               <li><a href="./transport.html">Transport</a></li>
