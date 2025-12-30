@@ -1,7 +1,7 @@
 let doctorsData = [];
 let filteredDoctors = [];
 let currentPage = 1;
-const doctorsPerPage = 9;
+const doctorsPerPage =9;
 
 // ✅ Excel file path
 const filePath = "./assets/excel/Staff_Doctor_Details(Responses).xlsx";

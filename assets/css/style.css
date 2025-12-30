@@ -386,7 +386,7 @@
     
    
     .floating-social-btn-emg .content-box{
-        background:var(--color-primary);
+        background:var(--color-accent-red);
         color:white;
         align-items:center;
         width:max-content;
@@ -410,31 +410,6 @@
         text-transform:uppercase;
         padding:5px;
         text-align:center;
-    }
-    .floating-social-btn-emg .social-toggle-btn.active {
-        padding-left:20px;
-        transform: rotate(90deg);
-        width: var(--size-icon-sm);
-        justify-content:center;
-        background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
-    }
-    
-    .floating-social-btn-emg .social-toggle-btn.active{
-        left:11px;
-        background:none;
-        box-shadow:none;
-        color: #575756 !important;
-    }
-    
-    .floating-social-btn-emg .social-toggle-btn i{
-        transform:rotate(270deg);
-    }
-    .floating-social-btn-emg .social-toggle-btn.active i{
-        transform:rotate(90deg);
-    }
-    .floating-social-btn-emg .social-toggle-btn:hover {
-        transform: scale(1.1);
-        box-shadow:none;
     }
     .floating-social-btn-emg .social-links-container.active {
         opacity: 1;
