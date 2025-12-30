@@ -96,14 +96,14 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "ecg_heart",
     "color": "#e17055",
-    "link": "acd_dept/MedicalSuperSpecialties.html"
+    "link": "MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Neurology",
     "name": "Neurology",
     "icon": "fas fa-brain",
     "color": "#00b894",
-    "link": "acd_dept/MedicalSuperSpecialties.html"
+    "link": "MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Nephrology",
@@ -111,7 +111,7 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "nephrology",
     "color": "#fd9644",
-    "link": "acd_dept/MedicalSuperSpecialties.html"
+    "link": "MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Oncology",
@@ -119,7 +119,7 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "oncology",
     "color": "#eb3b5a",
-    "link": "acd_dept/MedicalSuperSpecialties.html"
+    "link": "MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Gastroenterology",
@@ -127,7 +127,7 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "gastroenterology",
     "color": "#8854d0",
-    "link": "acd_dept/MedicalSuperSpecialties.html"
+    "link": "MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Cardio Vascular & Thoracic Surgery",
