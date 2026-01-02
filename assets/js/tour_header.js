@@ -115,7 +115,7 @@
               <li><a href="./patientcorner.html">Patient Corner</a></li>
               <li><a href="./Specialities.html">Specialities</a></li>
               <li><a href="./doctors.html">Doctors</a></li>
-              <li><a href="./bloodcamp.html">Blood Bank</a></li>
+              <li><a href="./bloodbank.html">Blood Bank</a></li>
               <li><a href="./pharmacy.html">Pharmacy</a></li>
               <li><a href="./hospital.html#services">Supporting Services</a></li>
               <li><a href="./hospital.html#camps">Camps</a></li>
@@ -227,7 +227,7 @@ const pages = [
       { title: 'Surgery & Super Specialties', path: 'Hospital > Departments > Surgery & Super Specialties', url: './SurgerySuperSpecialties.html' },
       { title: 'Medicine & Super Specialties', path: 'Hospital > Departments > Medicine & Super Specialties', url: './acd_dept/MedicalSuperSpecialties.html' },
       { title: 'Doctors', path: 'Hospital > Doctors', url: './doctors.html' },
-      { title: 'Blood Bank', path: 'Hospital > Blood Bank', url: './bloodcamp.html' },
+      { title: 'Blood Bank', path: 'Hospital > Blood Bank', url: './bloodbank.html' },
       { title: 'Research & Innovation', path: 'Research', url: 'research.html' },
       { title: 'Media & OutReach', path: 'Media', url: './media.html' },
       { title: 'News & Events', path: 'Media > News & Events', url: './media.html#news' },

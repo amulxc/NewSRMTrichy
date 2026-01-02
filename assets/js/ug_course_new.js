@@ -162,14 +162,15 @@ async function fileExists(url) {
   }
 }
 
-async function loadDept(e,key) {
+async function loadDept(e= null,key) {
   
-  document.querySelectorAll(".phase-body button").forEach(btn => {
-    btn.classList.remove("active");
-  });
-  e.classList="active";
-
   
+   if(e != null){
+    document.querySelectorAll(".phase-body button").forEach(btn => {
+      btn.classList.remove("active");
+    });
+    e.classList="active";
+   }
   const d = departmentData[key];
   const curriculumPath = `${d.view_pdf}/${d.phase}/Curriculam.pdf`;
   const calendarPath   = `${d.view_pdf}/${d.phase}/Academic_Calendar.pdf`;
@@ -217,4 +218,8 @@ async function loadDept(e,key) {
       
     </div>
   `;
+
+
 }
+
+loadDept(null,'anatomy')

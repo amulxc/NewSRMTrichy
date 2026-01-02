@@ -165,42 +165,95 @@ const activities = [
 
         const researchersData = {
             president: [{
-                name: "Dr. Rajesh Kumar",
-                profileImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIC801LEXM0O7ZWYP4_W3Tj9YTwZ82rToeQ&s",
-                position: "President",
-                specialization: "Artificial Intelligence & Machine Learning",
-                publications: 45,
-                projects: 12,
-                citations: 2500,
-                interests: ["Deep Learning", "Neural Networks", "Computer Vision", "NLP"],
-                projectsList: [
-                    "AI-Driven Healthcare Diagnostics System",
-                    "Smart City Surveillance Network",
-                    "Autonomous Vehicle Navigation Framework"
+                name: "Dr. Arun Dharmarajan",
+                profileImage: "https://via.placeholder.com/300x300?text=Researcher",
+                designation: "Director, Biomedical Research",
+                roleInIRPC: "Lead Researcher and Head of Research",
+                department: "Research",
+
+                projectsCompleted: {
+                    count: 6,
+                    since: 2020
+                },
+
+                fundingReceived: {
+                    amount: 2.2,
+                    currency: "INR Crores"
+                },
+
+                researchInterests: [
+                    "Cancer",
+                    "Cancer Stem Cells",
+                    "Wnt Signalling",
+                    "Secreted Frizzled Related Protein-4 (SFRP4)"
                 ],
+
+                projects: [
+                    "SFRP4 as a therapeutic in cancers of the ovary, breast, prostate, glioma, head and neck, and mesothelioma",
+                    "Role of SFRP4 in cancer cell metabolism",
+                    "Wnt signalling in cancer stem cells"
+                ],
+
                 publications: [
-                    "Deep Learning Approaches in Medical Imaging - Nature AI, 2024",
-                    "Neural Networks for Predictive Analytics - IEEE Trans, 2023",
-                    "Computer Vision in Autonomous Systems - ACM Journal, 2023"
+                    "Development of In Vitro Parkinson's Disease Model Mediated by MPP+ and α-Synuclein Using Wharton's Jelly Mesenchymal Stem Cells. CNS Neurosci Ther, 2025 (IF 5)",
+                    "Modeling amyotrophic lateral sclerosis with amniotic membrane-derived mesenchymal stem cells. Exp Cell Res, 2025 (IF 3.5)",
+                    "Wnt antagonist SFRP4 as a transcriptional regulator of Dickkopf-1 in glioblastoma. BBA Mol Cell Res, 2025 (IF 3.7)",
+                    "Genomic insights of carbapenem resistant MDR E. coli in UTIs. Scientific Reports, 2025 (IF 3.9)",
+                    "The Wnt/SFRP4 Signaling Axis in neuronal cell fate after spinal cord injury. JMISST, 2025",
+                    "miR-203a activation by SFRP4 micropeptides in ovarian cancer stem cells. BBA Mol Cell Res (Accepted)",
+                    "Flow Cytometry: A versatile tool for stem cell research. BBRC (Accepted)",
+                    "Novel mesothelioma circulating tumour spheres for SFRP4 therapeutics. Frontiers in Oncology (Submitted)",
+                    "Integrin–VE-Cadherin–β-Catenin signaling triad in angiogenesis regulated by SFRP4. Journal of Cellular Physiology (Submitted)"
                 ],
+
                 conferences: [
-                    "Keynote Speaker - International AI Conference, Singapore 2024",
-                    "Panel Discussion - NeurIPS 2023, New Orleans",
-                    "Workshop Organizer - CVPR 2023, Vancouver"
+                    "American Association for Cancer Research",
+                    "Australian Society for Medical Research",
+                    "International Breast Cancer Society",
+                    "World Congress in Oncology"
                 ],
+
                 patents: [
-                    "AI-Powered Medical Imaging System - Patent No: PAT-2024-001",
-                    "Intelligent Traffic Management System - Patent No: PAT-2023-045"
+                    "Novel anti-cancer peptide (E-2/3767/2021/CHE)"
                 ],
+
                 awards: [
-                    "Best Researcher Award - National Science Foundation, 2024",
-                    "Excellence in AI Research - IEEE, 2023",
-                    "Innovation in Healthcare Technology - Ministry of Health, 2022"
+                    "Curtin Innovation Award (2016)",
+                    "Doctor of Medicine (Physiology; Honorary)"
                 ],
-                editorial: [
-                    "Associate Editor - IEEE Transactions on AI",
-                    "Editorial Board Member - Journal of Machine Learning Research",
-                    "Review Committee - International Conference on AI"
+
+                editorialBoard: [
+                    "Cancers",
+                    "Frontiers in Oncology",
+                    "International Journal of Biochemistry and Cell Biology",
+                    "Reproductive Biomedicine Online",
+                    "Scientific Reports",
+                    "British Journal of Cancer (Reports)",
+                    "Frontiers in Endocrinology",
+                    "Frontiers in Reproductive Health",
+                    "Current Stem Cell Research and Therapy"
+                ],
+
+                journalReviewer: [
+                    "Cancers",
+                    "International Journal of Biochemistry and Cell Biology",
+                    "Scientific Reports",
+                    "Cells",
+                    "Metabolites",
+                    "British Journal of Cancer",
+                    "Journal of Molecular Digital Medicine",
+                    "Endocrinology",
+                    "Molecular and Cellular Physiology"
+                ],
+
+                grantReviewer: [
+                    "NHMRC (Australia)",
+                    "ARC (Australia)",
+                    "DBT",
+                    "DHR",
+                    "ICMR",
+                    "DST",
+                    "NIH (USA)"
                 ]
             },{
                 name: "Dr. Priya Sharma",

@@ -2531,8 +2531,7 @@ h2 span{
     }
 }
 .hospital-services{
-    border-bottom:1px solid #e3e3e3;
-    background:var(--gradient-1);
+    border-top:1px solid #e3e3e3;
 }
 .services-grid {
     display: grid;
@@ -5135,6 +5134,8 @@ grid-template-columns: 1fr;
         .department-card:nth-child(4) { border-left-color: var(--color-purple); }
         .department-card:nth-child(5) { border-left-color: var(--color-accent-yellow); }
         .department-card:nth-child(6) { border-left-color: var(--color-teal); }
+        .department-card:nth-child(7) { border-left-color: var(--color-accent-pink); }
+        .department-card:nth-child(8) { border-left-color: var(--color-brown); }
 
 
         .department-card::before {
@@ -5184,6 +5185,16 @@ grid-template-columns: 1fr;
           opacity: 1;
           animation: slideBg 1.5s linear forwards; 
         }
+        .department-card:nth-child(7):hover { 
+            background: #ff72f367; 
+            opacity: 1;
+            animation: slideBg 1.5s linear forwards; 
+        }
+        .department-card:nth-child(8):hover { 
+          background: #8a670036; 
+          opacity: 1;
+          animation: slideBg 1.5s linear forwards; 
+        }
 
         .department-header {
             display: flex;
@@ -5208,6 +5219,8 @@ grid-template-columns: 1fr;
         .department-card:nth-child(4) .department-icon { background: rgba(156, 39, 176, 0.1); color: var(--color-purple); }
         .department-card:nth-child(5) .department-icon { background: rgba(255, 193, 7, 0.1); color: var(--color-accent-yellow); }
         .department-card:nth-child(6) .department-icon { background: rgba(0, 150, 136, 0.1); color: var(--color-teal); }
+        .department-card:nth-child(7) .department-icon { background: rgba(150, 0, 125, 0.1); color: var(--color-accent-pink); }
+        .department-card:nth-child(8) .department-icon { background: rgba(150, 90, 0, 0.1); color: var(--color-brown); }
 
         .department-card h4 {
             font-size: var(--font-xl);
@@ -9060,7 +9073,7 @@ grid-template-columns: 1fr;
 
         .doc-content-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             gap: var(--spacing-xl);
             margin-bottom: var(--spacing-2xl);
             align-items: start;
@@ -11160,7 +11173,6 @@ grid-template-columns: 1fr;
         /* Section */
         .pharm-section {
             padding: var(--spacing-3xl) 0 var(--spacing-xl);
-            background-color: #fff;
             border-bottom: #ffffff;
         }
         
@@ -11267,7 +11279,7 @@ grid-template-columns: 1fr;
         }
         
         .pharm-service-column {
-            background: rgba(255, 255, 255, 0.466);
+            background:var(--background-gradient-start);
             backdrop-filter: blur(10px);
             padding: var(--spacing-2xl);
             border-radius: var(--radius-lg);
@@ -11276,7 +11288,7 @@ grid-template-columns: 1fr;
         }
         
         .pharm-service-column:hover {
-            background: rgba(224, 224, 224, 0.644);
+            background:var(--background-gradient-end);
             transform: translateY(-5px);
         }
         

@@ -7,8 +7,8 @@
       <div class='myQuickLinks'>
         <div class="quick-links">
           <p>
-            Emergency Number
-            <a href="tel:98765433456" data-wg-notranslate class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
+           Register for Free Camps
+            <a href="#"  data-wg-notranslate class="quick-link featured"><i class="fa-solid fa-file"></i>Fill the form</a>
           </p>
         </div>
         <div class="quick-links">
@@ -168,18 +168,18 @@
               <li class="has-submenu" data-dropdown="departments">
                 <a href="#">Departments <span class="arrow dropdown-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
-                <li class="has-submenu" data-submenu="courses">
-                <a href="./Clinical.html">Clinical<span class="arrow submenu-trigger">&#9654;</span></a>
-                <ul class="sub-dropdown">
-                  <li><a href="./boardspecialties.html">Medicine & Broad Specialties</a></li>
-                  <li><a href="./surgeryspecialties.html">Surgery & Broad Specialties</a></li>
-                  <li><a href="./acd_dept/MedicalSuperSpecialties.html">Medicine & Super Specialties</a></li>
-                  <li><a href="./SurgerySuperSpecialties.html">Surgery & Super Specialties</a></li>
+                  <li class="has-submenu" data-submenu="courses">
+                  <a href="./Clinical.html">Clinical<span class="arrow submenu-trigger">&#9654;</span></a>
+                  <ul class="sub-dropdown">
+                      <li><a href="./boardspecialties.html">Medicine & Broad Specialties</a></li>
+                      <li><a href="./surgeryspecialties.html">Surgery & Broad Specialties</a></li>
+                      <li><a href="./acd_dept/MedicalSuperSpecialties.html">Medicine & Super Specialties</a></li>
+                      <li><a href="./SurgerySuperSpecialties.html">Surgery & Super Specialties</a></li>
+                  </ul>
+                  </li>
+                  <li><a href="./pre-clinical.html">Pre Clinical</a></li>
+                  <li><a href="./para-clinical.html">Para Clinical</a></li>
                 </ul>
-              </li>
-              <li><a href="./pre-clinical.html">Pre Clinical</a></li>
-              <li><a href="./para-clinical.html">Para Clinical</a></li>
-              </ul>
               </li>
                <li class="has-submenu" data-submenu="media">
                 <a href="./media.html">Media & OutReach <span class="arrow submenu-trigger">&#9654;</span></a>
@@ -192,15 +192,40 @@
               </ul>
               </li>
               <li class="has-dropdown" data-dropdown="hospital">
-              <a href="./hospital.html">Hospital Services <span class="arrow dropdown-trigger">&#9654;</span></a>
+              <a href="./hospital.html">Hospital <span class="arrow dropdown-trigger">&#9654;</span></a>
               <ul class="dropdown">
-              <li><a href="./patientcorner.html">Patient Corner</a></li>
+               <li class="has-submenu" data-submenu="milestones">
+                <a href="./patientcorner.html">Our Services<span class="arrow submenu-trigger">&#9654;</span></a>
+                <ul class="sub-dropdown">
+                  <li><a href="./hospital.html#services">Diagnostic Laboratory</a></li>
+                  <li><a href="./hospital.html#specialties">Speciality Clinics</a></li>
+                  <li><a href="./hospital.html#camps">Health Camps</a></li>
+                  <li><a href="#">Consultant</a></li>
+                  <li><a href="./pharmacy.html">Pharmacy</a></li>
+                  <li><a href="./transport.html">Transport</a></li>
+                  </ul>
+                  </li>
+              <li class="has-submenu" data-submenu="milestones">
+              <a href="./patientcorner.html">Patient Corner <span class="arrow submenu-trigger">&#9654;</span></a>
+              <ul class="sub-dropdown">
               <li><a href="#">Patient Portal</a></li>
+              <li><a href="./patientcorner.html#awareness">Hospital Awareness</a></li>
+              <li><a href="./patientcorner.html#testimonials">Patient AV</a></li>
+              <li><a href="./patientcorner.html#health_checkup">Health Checkup Packages</a></li>
+              <li><a href="./patientcorner.html#insurance">Insurance Schemes</a></li>
+              </ul>
+              </li>
+              
+              <li class="has-submenu" data-submenu="milestones">
+              <a href="./donor.html">Donors <span class="arrow submenu-trigger">&#9654;</span></a>
+              <ul class="sub-dropdown">
+              <li><a href="./blood_donor.html">Blood Donor</a></li>
+              <li><a href="./blood_donor.html#blood_bank2">Blood Bank</a></li>
+              <li><a href="./organ_donor.html">Organ Donor</a></li>
+              </ul>
+              </li>
+              <li><a href="./information.html">Information Center</a></li>
               <li><a href="./ambulance.html">24/7 Ambulance Services</a></li>
-              <li><a href="./donor.html">Gift Of Life</a></li>
-              <li><a href="./bloodcamp.html">Blood Bank</a></li>
-              <li><a href="./pharmacy.html">Pharmacy</a></li>
-              <li><a href="./transport.html">Transport</a></li>
             </ul>
           </li>
            
@@ -210,11 +235,12 @@
               <li><a href="IRPC.html">IRPC</a></li>
               <li><a href="IRPC.html#IRPC-Projects">Projects</a></li>
               <li><a href="IRPC.html#IRPC-Collabration">Collabrations</a></li>
+              <li><a href="IRPC.html#IRPC-Board">Board</a></li>
             </ul>
           </li>
          
           <li><a href="nmc.html" class="nmc-nav">NMC</a></li>
-          <li><a href="virtual_tour.html" class="nmc-nav" title='Trichy SRM Medical College Campus Tour'><img src='./assets/images/360.png' style='width:21px'></a></li>
+          <li><a href="virtual_tour.html" target="_blank" class="nmc-nav" title='Trichy SRM Medical College Campus Tour'><img src='./assets/images/360.png' style='width:21px'></a></li>
         </ul>
         <div id="mobile-topbar"></div>
         <div id="mobile-quickaccess"></div>
@@ -526,7 +552,7 @@ const pages = [
       { title: 'Surgery & Super Specialties', path: 'Hospital > Departments > Surgery & Super Specialties', url: './SurgerySuperSpecialties.html' },
       { title: 'Medicine & Super Specialties', path: 'Hospital > Departments > Medicine & Super Specialties', url: './acd_dept/MedicalSuperSpecialties.html' },
       { title: 'Doctors', path: 'Hospital > Doctors', url: './doctors.html' },
-      { title: 'Blood Bank', path: 'Hospital > Blood Bank', url: './bloodcamp.html' },
+      { title: 'Blood Bank', path: 'Hospital > Blood Bank', url: './bloodbank.html' },
       { title: 'Research & Innovation', path: 'Research', url: 'research.html' },
       { title: 'Media & OutReach', path: 'Media', url: './media.html' },
       { title: 'News & Events', path: 'Media > News & Events', url: './media.html#news' },
@@ -654,3 +680,8 @@ mq.addEventListener("change", handleResponsiveMove);
     });
   });
 
+let floatIcon = document.createElement("div");
+floatIcon.className="goToTop";
+floatIcon.setAttribute("onclick","location.href='#'");
+floatIcon.innerHTML="<i class='fas fa-arrow-up'></i>";
+document.body.appendChild(floatIcon);

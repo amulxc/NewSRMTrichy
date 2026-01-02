@@ -4,147 +4,126 @@ const departments = [
     "name": "Anatomy",
     "icon": "fas fa-bone",
     "color": "#1abc9c",
-    "link": "pre-clinical.html"
   },
   {
     "dept_id": "Physiology",
     "name": "Physiology",
     "icon": "fas fa-heartbeat",
     "color": "#16a085",
-    "link": "pre-clinical.html"
   },
   {
     "dept_id": "Biochemistry",
     "name": "Biochemistry",
     "icon": "fas fa-flask",
     "color": "#2ecc71",
-    "link": "pre-clinical.html"
   },
   {
     "dept_id": "Pathology",
     "name": "Pathology",
     "icon": "fas fa-vials",
     "color": "#27ae60",
-    "link": "para-clinical.html"
   },
   {
     "dept_id": "Microbiology",
     "name": "Microbiology",
     "icon": "fas fa-bacteria",
     "color": "#3498db",
-    "link": "para-clinical.html"
   },
   {
     "dept_id": "Pharmacology",
     "name": "Pharmacology",
     "icon": "fas fa-pills",
     "color": "#2980b9",
-    "link": "para-clinical.html"
   },
   {
-    "dept_id": "Forensic Medicine",
+    "dept_id": "ForensicMedicine",
     "name": "Forensic Medicine",
     "icon": "fas fa-user-secret",
     "color": "#9b59b6",
-    "link": "para-clinical.html"
   },
   {
     "dept_id": "Community Medicine",
     "name": "Community Medicine",
     "icon": "fas fa-users",
     "color": "#8e44ad",
-    "link": "para-clinical.html"
   },
   {
-    "dept_id": "General Medicine",
+    "dept_id": "general_medicine",
     "name": "General Medicine",
     "icon": "fas fa-stethoscope",
     "color": "#34495e",
-    "link": "boardspecialties.html"
   },
   {
     "dept_id": "Emergency Medicine",
     "name": "Emergency Medicine",
     "icon": "fas fa-truck-medical",
     "color": "#e74c3c",
-    "link": "boardspecialties.html"
   },
   {
     "dept_id": "Paediatrics",
     "name": "Paediatrics",
     "icon": "fas fa-baby",
     "color": "#fd79a8",
-    "link": "boardspecialties.html"
   },
   {
     "dept_id": "Respiratory Medicine",
     "name": "Respiratory Medicine",
     "icon": "fas fa-lungs",
     "color": "#00cec9",
-    "link": "boardspecialties.html"
   },
   {
     "dept_id": "Dermatology, Venereology & Leprosy",
     "name": "Dermatology, Venereology & Leprosy",
     "icon": "fas fa-hand-dots",
     "color": "#ff7675",
-    "link": "boardspecialties.html"
   },
   {
     "dept_id": "Psychiatry",
     "name": "Psychiatry",
     "icon": "fas fa-brain",
     "color": "#a29bfe",
-    "link": "boardspecialties.html"
   },
   {
-    "dept_id": "General Surgery",
+    "dept_id": "general_surgery",
     "name": "General Surgery",
     "icon": "fa fa-user-md",
     "color": "#d35400",
-    "link": "surgeryspecialties.html"
   },
   {
-    "dept_id": "Orthopedics",
-    "name": "Orthopedics",
+    "dept_id": "orthopedics",
+    "name": "orthopedics",
     "icon": "fas fa-bone",
     "color": "#6c5ce7",
-    "link": "surgeryspecialties.html"
   },
   {
-    "dept_id": "ENT",
+    "dept_id": "ent",
     "name": "ENT",
     "icon": "fas fa-ear-listen",
     "color": "#fdcb6e",
-    "link": "surgeryspecialties.html"
   },
   {
-    "dept_id": "Ophthalmology",
+    "dept_id": "ophthalmology",
     "name": "Ophthalmology",
     "icon": "fas fa-eye",
     "color": "#0984e3",
-    "link": "surgeryspecialties.html"
   },
   {
     "dept_id": "Obstetrics & Gynaecology",
     "name": "Obstetrics & Gynaecology",
     "icon": "fas fa-baby",
     "color": "#e84393",
-    "link": "surgeryspecialties.html"
   },
   {
-    "dept_id": "Anaesthesiology",
-    "name": "Anaesthesiology",
+    "dept_id": "Anaesthesia",
+    "name": "Anaesthesia",
     "icon": "fas fa-procedures",
     "color": "#b2bec3",
-    "link": "surgeryspecialties.html"
   },
   {
     "dept_id": "Radiology",
     "name": "Radiology",
     "icon": "fas fa-x-ray",
     "color": "#636e72",
-    "link": "surgeryspecialties.html"
   },
   {
     "dept_id": "Cardiology",
@@ -152,14 +131,12 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "ecg_heart",
     "color": "#e17055",
-    "link": "MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Neurology",
     "name": "Neurology",
     "icon": "fas fa-brain",
     "color": "#00b894",
-    "link": "MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Nephrology",
@@ -167,7 +144,6 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "nephrology",
     "color": "#fd9644",
-    "link": "MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Medical Oncology",
@@ -175,7 +151,6 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "oncology",
     "color": "#eb3b5a",
-    "link": "MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Gastroenterology",
@@ -183,7 +158,6 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "gastroenterology",
     "color": "#8854d0",
-    "link": "MedicalSuperSpecialties.html"
   },
   {
     "dept_id": "Cardio Vascular & Thoracic Surgery",
@@ -191,21 +165,18 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "ecg_heart",
     "color": "#3867d6",
-    "link": "SurgerySuperSpecialties.html"
   },
   {
     "dept_id": "Neurosurgery",
     "name": "Neurosurgery",
     "icon": "fas fa-brain",
     "color": "#20bf6b",
-    "link": "SurgerySuperSpecialties.html"
   },
   {
     "dept_id": "Dentistry",
     "name": "Dentistry",
     "icon": "fas fa-tooth",
     "color": "#207fbfff",
-    "link": "SurgerySuperSpecialties.html"
   },
   {
     "dept_id": "Urology",
@@ -213,7 +184,6 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "urology",
     "color": "#fa8231",
-    "link": "SurgerySuperSpecialties.html"
   },
   {
     "dept_id": "Surgical Oncology",
@@ -221,7 +191,6 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "oncology",
     "color": "#d63031",
-    "link": "SurgerySuperSpecialties.html"
   },
   {
     "dept_id": "Surgical Gastroenterology",
@@ -229,38 +198,30 @@ const departments = [
     "icon": "material-symbols-outlined",
     "Icon-Name": "gastroenterology",
     "color": "#6c5ce7",
-    "link": "SurgerySuperSpecialties.html"
   },
   {
     "dept_id": "Plastic and Reconstructive Surgery",
     "name": "Plastic and Reconstructive Surgery",
     "icon": "fas fa-user",
     "color": "#e17055",
-    "link": "SurgerySuperSpecialties.html"
   },
   {
     "dept_id": "Vascular Surgery",
     "name": "Vascular Surgery",
     "icon": "fas fa-water",
     "color": "#0abde3",
-    "link": "SurgerySuperSpecialties.html"
   },
   {
     "dept_id": "Paediatric Surgery",
     "name": "Paediatric Surgery",
     "icon": "fas fa-baby",
     "color": "#48dbfb",
-    "link": "SurgerySuperSpecialties.html"
   }
 ];
 
-
+  
 const sortedDeptForLink = departments
   .slice()
-  .map(item => ({
-    ...item,
-    name: item.name.replace("Orthopaedics", "Orthopedics")
-  }))
   .sort((a, b) => a.name.localeCompare(b.name));
 
 
@@ -269,7 +230,7 @@ let SpecialityCard = sortedDeptForLink.map(e => {
 
   return `
     <div class="infra-spec-card">
-      <a href="${e.link}?dept=${encodeURIComponent(e.dept_id)}">
+      <a href="depart_specialities.html?dept=${encodeURIComponent(e.dept_id)}">
         <div class="infra-icon-image" style="background-color:${e.color}">
           <i class="${e.icon}">${iconInner}</i>
         </div>

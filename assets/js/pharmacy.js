@@ -14,12 +14,7 @@
                     "number": "15",
                     "label": "Drug Information Center",
                     "description": "we are running a 24 hours drug information center efficiently"
-                },
-                {
-                    "number": "1,015",
-                    "label": "Prescriptions",
-                    "description": "are honored by the pharmacy department daily"
-                }
+                }   
             ],
             "services": {
                 "title": "Services",
@@ -139,87 +134,9 @@
                 </div>
 
                 <!-- Services Section -->
-                <section class="pharm-section">
+                <section class="section">
                     <div class="pharm-container section-header">
-                        <h2 class="pharm-section-title">${data.services.title}</h2>
-                        <h5 style="text-align: center; color: var(--color-text-secondary); margin: 0 auto var(--spacing-3xl); font-size: var(--font-lg);">
-                            ${data.services.description}
-                        </h5>
-                        <div class="pharm-services-grid">
-                            ${data.services.items.map(service => `
-                                <div class="pharm-service-card">
-                                    <h3>${service.title}</h3>
-                                    <span>${service.description}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Licenses Section -->
-                <section class="pharm-section hospital-services">
-                    <div class="pharm-container section-header">
-                        <h2 class="pharm-section-title">${data.licenses.title}</h2>
-                        <div class="pharm-info-grid">
-                            ${data.licenses.items.map(license => `
-                                <div class="pharm-info-card">
-                                    <h3>${license.title}</h3>
-                                    <span>${license.description}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Administration Section -->
-                <section class="pharm-section">
-                    <div class="pharm-container section-header">
-                        <h2 class="pharm-section-title">${data.administration.title}</h2>
-                        <div class="pharm-info-grid">
-                            ${data.administration.items.map(item => `
-                                <div class="pharm-info-card">
-                                    <h3>${item.title}</h3>
-                                    <span>${item.description}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Pricing Section -->
-                <section class="pharm-section hospital-services">
-                    <div class="pharm-container section-header">
-                        <h2 class="pharm-section-title">${data.pricing.title}</h2>
-                        <div class="pharm-info-grid">
-                            ${data.pricing.items.map(item => `
-                                <div class="pharm-info-card">
-                                    <h3>${item.title}</h3>
-                                    <span>${item.description}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Staff Pattern Section -->
-                <section class="pharm-section">
-                    <div class="pharm-container section-header">
-                        <h2 class="pharm-section-title">${data.staffPattern.title}</h2>
-                        <div class="pharm-info-grid">
-                            ${data.staffPattern.items.map(item => `
-                                <div class="pharm-info-card">
-                                    <h3>${item.title}</h3>
-                                    <span>${item.description}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Additional Services Section -->
-                <section class="pharm-section hospital-services">
-                    <div class="pharm-container section-header">
-                        <h2 class="pharm-section-title">${data.additionalServices.title}</h2>
+                         <h2 class="pharm-section-title">${data.additionalServices.title}</h2>
                         <div class="pharm-services-columns">
                             ${data.additionalServices.columns.map(column => `
                                 <div class="pharm-service-column">
@@ -234,23 +151,7 @@
                             `).join('')}
                         </div>
                     </div>
-                </section>
-
-                <!-- Future Plans Section -->
-                <section class="pharm-section">
-                    <div class="pharm-container section-header">
-                        <h2 class="pharm-section-title">${data.futurePlans.title}</h2>
-                        <div class="pharm-services-columns">
-                            ${data.futurePlans.columns.map(column => `
-                                <div class="pharm-service-column" style="background: var(--color-white); color: var(--color-text-primary); border: 2px solid var(--color-background-light);">
-                                    <h3 style="color: var(--color-primary);">${column.title}</h3>
-                                    <span style="opacity: 1; color: var(--color-text-secondary);">${column.description}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                </section>
-            `;
+                </section>`;
             
             app.innerHTML = html;
         }
