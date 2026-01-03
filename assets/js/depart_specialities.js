@@ -612,46 +612,40 @@
         color: "#ff9800", 
         colorDark: "#f57c00",
 
-        overview: "Comprehensive child healthcare with NICU and PICU facilities. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+        overview: "The Department of Nephrology aims to provide comprehensive renal services, including prevention, accurate diagnosis, dialysis, and effective management of both acute and chronic kidney diseases, while supporting undergraduate and postgraduate medical education in line with NMC guidelines. Committed to ethical, evidence-based, and patient-centric care, the department emphasizes early detection and prevention of kidney disorders through community outreach programs, upholds high standards of patient safety and quality assurance, and encourages clinical research and academic activities to advance renal science. By collaborating with allied specialties, the department delivers holistic and multidisciplinary care, striving to be a center of excellence that improves patient outcomes and contributes meaningfully to medical education, research, and community kidney health.",
 
         procedure: [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
+            "To provide comprehensive and specialized care for patients with acute and chronic kidney diseases, including dialysis and renal transplantation services.",
+            "To ensure early diagnosis, prevention, and optimal management of kidney disorders through evidence-based clinical practices.",
+            "To deliver safe, ethical, and high-quality renal replacement therapy, including hemodialysis and post-transplant care.",
+            "To support undergraduate and postgraduate medical education in nephrology in accordance with National Medical Commission (NMC) guidelines.",
+            "To promote clinical research and academic activities aimed at advancing nephrology practice and improving patient outcomes."
         ],
 
         infra: [
-            "OPD rooms", 
-            "Inpatient wards", 
-            "ICU", 
-            "procedure room"
+            "20 fully functional Hemodialysis Units", 
+            "Dedicated Transplant ICU", 
+            "Separate Post-Transplant Ward", 
+            "Facilities for AKI, CKD, and renal replacement therapy",
+            "Infrastructure supporting NMC-compliant clinical, teaching, and research activities"
         ],
 
         doctor: [
-            {name: "Ram", designation: "Assistant professor", exp: "5"},
-            {name: "Sam", designation: "Assistant professor", exp: "5"},
-            {name: "John", designation: "Assistant professor", exp: "5"}
+            {name: "Dr. Rajesh, MD, DM", designation: "Senior Consultant"},
+            {name: "Dr. Ganesh Aravind, MD, DM, DNB", designation: "Consultant"},
+            {name: "Dr. Sathyasagar, MD, DM", designation: "Consultant"},
+            {name: "Dr.Niruban.I ,MBBS", designation: "Junior Resident "},
+            {name: "Dr.Ramya.R,MBBS", designation: "Junior Resident "}
         ],
 
         services: [
-            "General Pediatrics", 
-            "Neonatology", 
-            "PICU", 
-            "Immunization", 
-            "Growth Monitoring"
+            "Evaluation and management of acute and chronic kidney diseases", 
+            "Hemodialysis and CAPD services", 
+            "Performance and interpretation of renal biopsies", 
+            "Pre- and post-operative care of renal transplant patients", 
+            "Management of dialysis access and related complications",
+            "Renal emergency services","Long-term follow-up, patient education, and preventive nephrology care"
         ],
-
-        pubStats: [
-            {label: "Publications", value: "24+"}
-        ],
-
-        research: [
-            "Neonatal outcomes"
-        ],
-
-        achievements: [
-            "Best NICU"
-        ]
     },
     {
         id: "Medical Oncology", 
@@ -755,7 +749,7 @@
             "Excellence in Mental Health"
         ]
     },
-      {
+    {
         id: "general_surgery",
         name: "General Surgery",
         icon: "fa-user-md",
@@ -2727,7 +2721,7 @@ async function loadDoctorsFromExcel() {
                 showNotFound();
             }
         }
-         function viewDoctorProfile(id) {
+        function viewDoctorProfile(id) {
 
             let doctor = doctorsData.find(x => x.id == id);
 
@@ -2736,7 +2730,12 @@ async function loadDoctorsFromExcel() {
 
             // Correct way to create anchor & trigger click
             let anchor = document.createElement('a');
-            anchor.href = "./doctorsview.html#doc-details";
+            if(doctor){
+                anchor.href = "./doctorsview.html#doc-details";
+            }
+            else{
+                anchor.href = "#";
+            }
             anchor.style.display = "none"; // hide anchor
             document.body.appendChild(anchor);
             anchor.click();

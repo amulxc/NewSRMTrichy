@@ -112,76 +112,76 @@
         ];
 
         const insuranceAgencies = [
-  {
-    "agency_id": "SBI_General",
-    "name": "SBI General Insurance",
-    "icon": "fas fa-university",
-    "color": "#1e90ff",
-    "link": "https://www.sbigeneral.in"
-  },
-  {
-    "agency_id": "HDFC_ERGO",
-    "name": "HDFC ERGO Health Insurance",
-    "icon": "fas fa-building-columns",
-    "color": "#0047ab",
-    "link": "https://www.hdfcergo.com"
-  },
-  {
-    "agency_id": "ICICI_Lombard",
-    "name": "ICICI Lombard",
-    "icon": "fas fa-landmark",
-    "color": "#ff6f00",
-    "link": "https://www.icicilombard.com"
-  },
-  {
-    "agency_id": "Star_Health",
-    "name": "Star Health Insurance",
-    "icon": "fas fa-star-of-life",
-    "color": "#e74c3c",
-    "link": "https://www.starhealth.in"
-  },
-  {
-    "agency_id": "United_India",
-    "name": "United India Insurance",
-    "icon": "fas fa-shield-halved",
-    "color": "#2ecc71",
-    "link": "https://www.uiic.co.in"
-  },
-  {
-    "agency_id": "New_India",
-    "name": "New India Assurance",
-    "icon": "fas fa-shield",
-    "color": "#27ae60",
-    "link": "https://www.newindia.co.in"
-  },
-  {
-    "agency_id": "Oriental",
-    "name": "Oriental Insurance",
-    "icon": "fas fa-umbrella",
-    "color": "#8e44ad",
-    "link": "https://orientalinsurance.org.in"
-  },
-  {
-    "agency_id": "Tata_AIG",
-    "name": "Tata AIG Insurance",
-    "icon": "fas fa-briefcase-medical",
-    "color": "#34495e",
-    "link": "https://www.tataaig.com"
-  },
-  {
-    "agency_id": "Reliance",
-    "name": "Reliance General Insurance",
-    "icon": "fas fa-hand-holding-medical",
-    "color": "#d35400",
-    "link": "https://www.reliancegeneral.co.in"
-  },
-  {
-    "agency_id": "Bajaj_Allianz",
-    "name": "Bajaj Allianz",
-    "icon": "fas fa-heart-pulse",
-    "color": "#f39c12",
-    "link": "https://www.bajajallianz.com"
-  }
+            {
+                "agency_id": "SBI_General",
+                "name": "SBI General Insurance",
+                "icon": "fas fa-university",
+                "color": "#1e90ff",
+                "link": "https://www.sbigeneral.in"
+            },
+            {
+                "agency_id": "HDFC_ERGO",
+                "name": "HDFC ERGO Health Insurance",
+                "icon": "fas fa-building-columns",
+                "color": "#0047ab",
+                "link": "https://www.hdfcergo.com"
+            },
+            {
+                "agency_id": "ICICI_Lombard",
+                "name": "ICICI Lombard",
+                "icon": "fas fa-landmark",
+                "color": "#ff6f00",
+                "link": "https://www.icicilombard.com"
+            },
+            {
+                "agency_id": "Star_Health",
+                "name": "Star Health Insurance",
+                "icon": "fas fa-star-of-life",
+                "color": "#e74c3c",
+                "link": "https://www.starhealth.in"
+            },
+            {
+                "agency_id": "United_India",
+                "name": "United India Insurance",
+                "icon": "fas fa-shield-halved",
+                "color": "#2ecc71",
+                "link": "https://www.uiic.co.in"
+            },
+            {
+                "agency_id": "New_India",
+                "name": "New India Assurance",
+                "icon": "fas fa-shield",
+                "color": "#27ae60",
+                "link": "https://www.newindia.co.in"
+            },
+            {
+                "agency_id": "Oriental",
+                "name": "Oriental Insurance",
+                "icon": "fas fa-umbrella",
+                "color": "#8e44ad",
+                "link": "https://orientalinsurance.org.in"
+            },
+            {
+                "agency_id": "Tata_AIG",
+                "name": "Tata AIG Insurance",
+                "icon": "fas fa-briefcase-medical",
+                "color": "#34495e",
+                "link": "https://www.tataaig.com"
+            },
+            {
+                "agency_id": "Reliance",
+                "name": "Reliance General Insurance",
+                "icon": "fas fa-hand-holding-medical",
+                "color": "#d35400",
+                "link": "https://www.reliancegeneral.co.in"
+            },
+            {
+                "agency_id": "Bajaj_Allianz",
+                "name": "Bajaj Allianz",
+                "icon": "fas fa-heart-pulse",
+                "color": "#f39c12",
+                "link": "https://www.bajajallianz.com"
+            }
         ];
 
 
@@ -204,7 +204,7 @@
           `;
         }).join("");
 
-document.getElementById("Specialties").innerHTML = SpecialityCard;
+        document.getElementById("Specialties").innerHTML = SpecialityCard;
 
         // Render Patient Information
         function renderPatientInfo() {

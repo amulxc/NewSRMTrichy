@@ -102,9 +102,9 @@
                                 <br>
                                 <ul>${d.mission}</ul>
                                 <br><br>
-                                <h4>Objectives</h4>
-                                <br>
-                                ${d.objectives ?`<ul>${d.objectives.map(f => `<li>${f}</li>`).join('')}</ul>`:''}
+                                
+                                ${d.objectives ?`<h4>Objectives</h4>
+                                <br><ul>${d.objectives.map(f => `<li>${f}</li>`).join('')}</ul>`:''}
                             </div>
                         </div>
                     </div>

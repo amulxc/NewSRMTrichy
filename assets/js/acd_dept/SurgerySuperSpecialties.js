@@ -82,24 +82,16 @@
                 events: ["World Diabetes Day"],
                 achievements: ["Best Medicine Dept"],
                 gallery: [{name: "OPD", icon: "fa-clinic-medical", event: "OPD", date: "Jan 2024"}]
-            }
-            ,
+            },
             {
                 id: "Urology", name: "Urology", icon: `<i class="material-symbols-outlined">urology</i>`, color: "#ff9800", colorDark: "#f57c00",
                 desc: "Experienced, skilfull and compassionate Urologists State of the art equipment for all endourology and laparoscopy procedures",
                 vision:"To be a trusted and valued department  of urology in the community.To deliver comprehensive urological services.To promote research ",
                 mission:"Providing compassionate,costeffective,skillfull,evidence based and innovative care to all patients.Educating patient about disease awareness related to urology towards early detection and possible prevention",
-                
                 infra: ["Advanced endourological  equipments"],
                 faculty: [{name: "Dr. Keerthi Rams", designation: "Assistant professor", exp: "6"},{name: "Dr. Barath Venkat", designation: "Assistant professor", exp: "2"}],
                 services: ["All endourology procedures for Kidney stones", "Enlarged prostate","Andrology","Reconstructive urology"],
-                pubStats: [{label: "Publications", value: "24+"}],
-                pubHighlights: ["Neonatal care"],
-                pubYearwise: [{year: "2023", title: "Neonatal protocols", journal: "Pediatrics", type: "Research"}],
-                research: ["Neonatal outcomes"],
-                events: ["Children's Day"],
-                achievements: ["Best NICU"],
-                gallery: [{name: "NICU", icon: "fa-baby", event: "NICU Setup", date: "Jan 2024"}]
+                events: ["TRUE ENDOCON workshop- OCT 2022 "],
             },
             {
                 id: "Surgical Oncology", name: "Surgical Oncology", icon: `<i class="material-symbols-outlined">oncology</i>`, color: "#e74c3c", colorDark: "#c0392b",
