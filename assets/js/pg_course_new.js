@@ -68,7 +68,7 @@ const departmentData = [
 
 const content = document.getElementById("content11");
 content.innerHTML = ""; 
-let pdfPath="./assets/pdf/Course/"
+let pdfPath="./assets/pdf/Course/PG_Course"
 departmentData.map((d,i)=>{
   document.getElementById("content11").innerHTML += `
       <div class='myDiv'>
