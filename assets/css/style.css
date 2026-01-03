@@ -228,12 +228,12 @@
         box-sizing: border-box;
         position: relative;
         text-decoration:none;
+        font-family:Poppins;
     }
     html {
         scroll-behavior: smooth;
     }
     body {
-        font-family: "Poppins", sans-serif;
         line-height: var(--line-height-loose);
         color: var(--color-text-primary);
         overflow-x: hidden;
@@ -2530,9 +2530,7 @@ h2 span{
         justify-content: center;
     }
 }
-.hospital-services{
-    border-top:1px solid #e3e3e3;
-}
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -4492,9 +4490,6 @@ grid-template-columns: 1fr;
 }
 
 /* Section */
-.section {
-    margin-bottom: var(--spacing-md);
-}
 
 .section-header {
     margin-bottom: var(--spacing-2xl);
@@ -6275,7 +6270,6 @@ grid-template-columns: 1fr;
 
         /* Section Styles */
         .section {
-            margin-bottom: var(--spacing-md);
             padding: var(--spacing-5xl) var(--spacing-xl);
         }
 

@@ -173,7 +173,7 @@
                   <ul class="sub-dropdown">
                       <li><a href="./boardspecialties.html">Medicine & Broad Specialties</a></li>
                       <li><a href="./surgeryspecialties.html">Surgery & Broad Specialties</a></li>
-                      <li><a href="./acd_dept/MedicalSuperSpecialties.html">Medicine & Super Specialties</a></li>
+                      <li><a href="./MedicalSuperSpecialties.html">Medicine & Super Specialties</a></li>
                       <li><a href="./SurgerySuperSpecialties.html">Surgery & Super Specialties</a></li>
                   </ul>
                   </li>

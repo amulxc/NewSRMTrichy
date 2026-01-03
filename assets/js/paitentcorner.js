@@ -1,7 +1,7 @@
  // JSON Data
         const patientData = {
             rules: {
-                title: "Rules & Regulations",
+                title: "Rights & Responsibilities",
                 icon: "fas fa-clipboard-list",
                 items: [
                     "All patients must register at the reception before consultation",
