@@ -140,7 +140,7 @@
                 </ul>
               </li>
               <li><a href="./career.html">Career</a></li>
-              <li><a href="./others.html">Others</a></li>
+              <li><a href="./Others.html">Others</a></li>
             </ul>
           </li>
           <li class="has-dropdown" data-dropdown="academics">
@@ -560,7 +560,7 @@ const pages = [
       { title: 'Video Gallery', path: 'Media > Video Gallery', url: './videogallery.html' },
       { title: 'NMC Guidelines', path: 'NMC', url: './nmc.html' },
       { title: 'Bio Ethics', path: 'Bio Ethics', url: './bioethics.html' },
-      { title: 'Others', path: 'Other Pages', url: './others.html' },
+      { title: 'Others', path: 'Other Pages', url: './Others.html' },
       { title: 'BMWM', path: 'BMWM', url: './BMWM.html' },
       { title: 'Transport', path: 'NMC', url: './nmc.html' },
       { title: 'NMC Guidelines', path: 'NMC', url: './nmc.html' },
