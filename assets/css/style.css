@@ -325,7 +325,7 @@
     
     .floating-social-btn .social-link:nth-child(2) {
         animation-delay: 0.45s;
-        background: linear-gradient(135deg, var(--color-whatsapp), var(--color-whatsapp-dark));
+        background: linear-gradient(135deg, var(--color-black), var(--color-black));
     }
     
     .floating-social-btn .social-link:nth-child(3) {

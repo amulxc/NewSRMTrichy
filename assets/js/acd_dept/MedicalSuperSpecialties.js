@@ -66,20 +66,32 @@
             },
             {
                 id: "Neurology", name: "Neurology", icon: `<i class="fas fa-brain"></i>`, color: "#27ae60", colorDark: "#229954",
-                desc: "Comprehensive internal medicine care for all age groups.",
-                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-                services: ["General Consultation", "Diabetes Care", "Hypertension", "Infectious Diseases", "Respiratory Medicine", "Gastroenterology", "Cardiology", "Nephrology"],
-                pubStats: [{label: "Publications", value: "30+"}],
-                pubHighlights: ["Diabetes management"],
-                pubYearwise: [{year: "2023", title: "Diabetes protocols", journal: "Medicine Today", type: "Research"}],
-                research: ["Chronic disease management"],
-                events: ["World Diabetes Day"],
-                achievements: ["Best Medicine Dept"],
-                gallery: [{name: "OPD", icon: "fa-clinic-medical", event: "OPD", date: "Jan 2024"}]
+                desc: "The Department of Neurology offers complete diagnosis and treatment of disorders affecting the brain, spinal cord, nerves, and muscles with evidence-based care supported by neuroimaging and neurophysiology services. Our focus is patient-centred care with a commitment to c8linical excellence.",
+                vision:"To be a centre of excellence in neurological care and services through clinical expertise, advanced technology, and continuous academic growth.",
+                mission:"To develop the Department of Neurology into a leading tertiary care institute and research centre.",
+                objectives:["Establish the department as a tertiary referral centre for neurological care.","Develop advanced diagnostic, interventional, and neurophysiology services.","Build a strong clinical and research programme in neurosciences.","Provide training and education for healthcare professionals."],
+                infra: ["Dedicated neurology outpatient and inpatient services with monitored beds.","Advanced neurodiagnostic facilities including EEG, EMG–NCV, and evoked potentials.","Access to modern neuroimaging services (CT, MRI, vascular imaging)."],
+                faculty: [ {
+                        "name": "Dr. Jayakumar M",
+                        "designation": "Professor / Consultant (Neurology)",
+                    },
+                    {
+                        "name": "Dr. Rahul Gandhi I",
+                        "designation": "Assistant Professor / Consultant (Neurology)",
+                    },
+                    {
+                        "name": "Dr. Kaviyarasi K",
+                        "designation": "Junior Resident",
+                    },
+                    {
+                        "name": "Mrs. Santhi D",
+                        "designation": "Neurophysiology Technician",
+                    },
+                    {
+                        "name": "Mr. Anbarasan S",
+                        "designation": "Neurophysiology Technician",
+                    }],
+                services: ["Daily Outpatient neurology clinics.","Dedicated Inpatient bed and comprehensive care.","Neuro critical care facilities with immunotherapies like plasmapheresis.","Stroke care including IV thrombolysis.","Nerve conduction studies (NCS).","Electroencephalogram (EEG)."],
             }
             ,
             {

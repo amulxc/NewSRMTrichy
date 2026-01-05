@@ -169,12 +169,12 @@
                 <a href="#">Departments <span class="arrow dropdown-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
                   <li class="has-submenu" data-submenu="courses">
-                  <a href="./Clinical.html">Clinical<span class="arrow submenu-trigger">&#9654;</span></a>
+                  <a href="./clinical.html">Clinical<span class="arrow submenu-trigger">&#9654;</span></a>
                   <ul class="sub-dropdown">
                       <li><a href="./boardspecialties.html">Medicine & Broad Specialties</a></li>
                       <li><a href="./surgeryspecialties.html">Surgery & Broad Specialties</a></li>
-                      <li><a href="./MedicalSuperSpecialties.html">Medicine & Super Specialties</a></li>
-                      <li><a href="./SurgerySuperSpecialties.html">Surgery & Super Specialties</a></li>
+                      <li><a href="./medicalSuperSpecialties.html">Medicine & Super Specialties</a></li>
+                      <li><a href="./surgerySuperSpecialties.html">Surgery & Super Specialties</a></li>
                   </ul>
                   </li>
                   <li><a href="./pre-clinical.html">Pre Clinical</a></li>
@@ -215,6 +215,14 @@
               <li><a href="./patientcorner.html#insurance">Insurance Schemes</a></li>
               </ul>
               </li>
+
+               <li class="has-submenu" data-submenu="milestones">
+              <a href="#">Supporting Services<span class="arrow submenu-trigger">&#9654;</span></a>
+              <ul class="sub-dropdown">
+              <li><a href="./bioengineering.html">Bio Medical Engineering</a></li>
+              <li><a href="./bioethics.html">Bio Ethics</a></li>
+              </ul>
+              </li>
               
               <li class="has-submenu" data-submenu="milestones">
               <a href="./donor.html">Donors <span class="arrow submenu-trigger">&#9654;</span></a>
@@ -238,7 +246,7 @@
               <li><a href="IRPC.html#IRPC-Board">Board</a></li>
             </ul>
           </li>
-         
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="nmc.html" class="nmc-nav">NMC</a></li>
           <li><a href="virtual_tour.html" target="_blank" class="nmc-nav" title='Trichy SRM Medical College Campus Tour'><img src='./assets/images/360.png' style='width:21px'></a></li>
         </ul>
@@ -252,23 +260,23 @@
 
   <div class="overlay" id="overlay"></div>`;
 
-    const floatBtn=`<button class="social-toggle-btn" id="socialToggle">
+  const floatBtn=`<button class="social-toggle-btn" id="socialToggle">
         <i class="fas fa-caret-down"></i>
         </button>
         <div class="social-links-container active" id="socialLinks">
-            <a href="https://www.facebook.com/yourpage" target="_blank" class="social-link facebook" title="Facebook">
+            <a href="https://www.facebook.com/share/1BwbztPejm/" target="_blank" class="social-link facebook" title="Facebook">
                 <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="https://wa.me/919876543210" target="_blank" class="social-link whatsapp" title="WhatsApp">
-                <i class="fab fa-whatsapp"></i>
+            <a href="https://www.threads.com/@srmmchrc" target="_blank" class="social-link threads" title="Threads">
+               கு
             </a>
-            <a href="https://www.youtube.com/yourchannel" target="_blank" class="social-link youtube" title="YouTube">
+            <a href="https://www.youtube.com/@tsrmmedicalcollegehospital" target="_blank" class="social-link youtube" title="YouTube">
                 <i class="fab fa-youtube"></i>
             </a>
-            <a href="https://www.linkedin.com/company/yourcompany" target="_blank" class="social-link linkedin" title="LinkedIn">
+            <a href="https://www.linkedin.com/company/srmmchrc/" target="_blank" class="social-link linkedin" title="LinkedIn">
                 <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href="https://www.instagram.com/yourpage" target="_blank" class="social-link instagram" title="Instagram">
+            <a href="https://www.instagram.com/srmmchrc?igsh=eXIwd3d2d3gzeXZ6" target="_blank" class="social-link instagram" title="Instagram">
                 <i class="fab fa-instagram"></i>
             </a>
             

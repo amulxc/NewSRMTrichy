@@ -92,11 +92,11 @@
       padding: 12px 24px !important;
     }
     
-    .offcanvas-menu>ul>li:nth-child(6)>.nmc-nav{
+    .offcanvas-menu>ul>li:nth-child(7)>.nmc-nav{
       background: var(--color-primary-dark) !important;
     }
     
-    .offcanvas-menu>ul>li:nth-child(7)>.nmc-nav{
+    .offcanvas-menu>ul>li:nth-child(8)>.nmc-nav{
       background:var(--color-accent-yellow-top)!important;
       position:relative;
     }

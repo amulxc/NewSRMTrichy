@@ -17,126 +17,92 @@ const transportData = {
                 ]
             },
             "ruralBusTimings": {
-                "title": "RURAL AREA PATIENTS PICK UP BUS TIMINGS",
+                "title": "PATIENT TRIP & 60+ PROJECT BUS SCHEDULE",
                 "schedule": [
                     {
-                        "day": "MONDAY",
-                        "routes": [
-                            {
-                                "area": "VAKILAPUR",
-                                "startingTime": "8 AM -8:30 AM",
-                                "arrivalTime": "10:00 AM"
-                            },
-                            {
-                                "area": "PULLAMBADI",
-                                "startingTime": "8:00 AM",
-                                "arrivalTime": "10:15 AM 10:30 AM"
-                            }
-                        ]
+                    "day": "MONDAY",
+                    "routes": [
+                        {
+                        "area": "PULLAMBADI",
+                        "startingTime": "8:30 AM / 9:30 AM / 10:30 AM",
+                        "arrivalTime": "12:40 PM / 2:40 PM"
+                        },
+                        {
+                        "area": "THOTTIYAM / MUSIRI",
+                        "startingTime": "8:30 AM / 9:30 AM / 10:30 AM",
+                        "arrivalTime": "12:40 PM / 2:40 PM"
+                        }
+                    ]
                     },
                     {
-                        "day": "TUESDAY",
-                        "routes": [
-                            {
-                                "area": "LALGUDI",
-                                "startingTime": "8 AM -8:30 AM",
-                                "arrivalTime": "10:15 AM"
-                            },
-                            {
-                                "area": "ELANTHAKUDAM",
-                                "startingTime": "8:00 AM",
-                                "arrivalTime": "10:45 AM"
-                            },
-                            {
-                                "area": "PUTHIRPALAYAM",
-                                "startingTime": "8:00 AM",
-                                "arrivalTime": "10:45 AM"
-                            }
-                        ]
+                    "day": "TUESDAY",
+                    "routes": [
+                        {
+                        "area": "ELANTHAIKUDAM",
+                        "startingTime": "8:30 AM / 9:30 AM / 10:30 AM",
+                        "arrivalTime": "12:40 PM / 2:40 PM"
+                        },
+                        {
+                        "area": "SENGATTUPATTI",
+                        "startingTime": "8:30 AM / 9:30 AM / 10:30 AM",
+                        "arrivalTime": "12:40 PM / 2:40 PM"
+                        }
+                    ]
                     },
                     {
-                        "day": "WEDNESDAY",
-                        "routes": [
-                            {
-                                "area": "THAPPAL",
-                                "startingTime": "8 AM -8:30 AM",
-                                "arrivalTime": "10:30 AM"
-                            },
-                            {
-                                "area": "KARIYATTANKURCHY",
-                                "startingTime": "8:00 AM",
-                                "arrivalTime": "10:30 AM"
-                            },
-                            {
-                                "area": "MUTHANANALLUR",
-                                "startingTime": "8:00 AM",
-                                "arrivalTime": "11:00 AM"
-                            }
-                        ]
+                    "day": "WEDNESDAY",
+                    "routes": [
+                        {
+                        "area": "KAVATTANGKURUCHI",
+                        "startingTime": "8:30 AM / 9:30 AM / 10:30 AM",
+                        "arrivalTime": "12:40 PM / 2:40 PM"
+                        },
+                        {
+                        "area": "UPPLIAPURAM",
+                        "startingTime": "8:30 AM / 9:30 AM / 10:30 AM",
+                        "arrivalTime": "12:40 PM / 2:40 PM"
+                        }
+                    ]
                     },
                     {
-                        "day": "THURSDAY",
-                        "routes": [
-                            {
-                                "area": "UVANOOR",
-                                "startingTime": "8 AM -8:30 AM",
-                                "arrivalTime": "10:30 AM"
-                            },
-                            {
-                                "area": "KAALIPATTI",
-                                "startingTime": "8:00 AM",
-                                "arrivalTime": "10:30 AM"
-                            },
-                            {
-                                "area": "ANNA ARCH",
-                                "startingTime": "8 AM -8:30 AM",
-                                "arrivalTime": "10:45 AM"
-                            }
-                        ]
+                    "day": "THURSDAY",
+                    "routes": [
+                        {
+                        "area": "OOVANOOR",
+                        "startingTime": "8:30 AM / 9:30 AM / 10:30 AM",
+                        "arrivalTime": "12:40 PM / 2:40 PM"
+                        },
+                        {
+                        "area": "PERUVALAPPUR / MUTHUVATHUR",
+                        "startingTime": "8:30 AM / 9:30 AM / 10:30 AM",
+                        "arrivalTime": "12:40 PM / 2:40 PM"
+                        }
+                    ]
                     },
                     {
-                        "day": "FRIDAY",
-                        "routes": [
-                            {
-                                "area": "ELANTHAKUDAM",
-                                "startingTime": "8:00 AM",
-                                "arrivalTime": "10:45 AM"
-                            },
-                            {
-                                "area": "PULLAMBADI",
-                                "startingTime": "8:00 AM",
-                                "arrivalTime": "10:15 AM 10:30 AM"
-                            },
-                            {
-                                "area": "KOTTAIYUR",
-                                "startingTime": "8 AM -8:45 AM",
-                                "arrivalTime": "10:35 AM"
-                            },
-                            {
-                                "area": "PK AGARAM",
-                                "startingTime": "8 AM -8:30 AM",
-                                "arrivalTime": "10:00 AM"
-                            }
-                        ]
+                    "day": "FRIDAY",
+                    "routes": [
+                        {
+                        "area": "ELANTHAIKUDAM",
+                        "startingTime": "8:30 AM / 9:30 AM / 10:30 AM",
+                        "arrivalTime": "12:40 PM / 2:40 PM"
+                        }
+                    ]
                     },
                     {
-                        "day": "SATURDAY",
-                        "routes": [
-                            {
-                                "area": "SRI DEVMANGALAM",
-                                "startingTime": "8 AM -8:30 AM",
-                                "arrivalTime": "10:15 AM"
-                            },
-                            {
-                                "area": "THIRUTHIYAMALAI",
-                                "startingTime": "8:00 AM",
-                                "arrivalTime": "10:45 AM"
-                            }
-                        ]
+                    "day": "SATURDAY",
+                    "routes": [
+                        {
+                        "area": "ELANTHAIKUDAM",
+                        "startingTime": "8:30 AM / 9:30 AM / 10:30 AM",
+                        "arrivalTime": "12:40 PM / 2:40 PM"
+                        }
+                    ]
                     }
                 ]
             }
-        };
+
+        };;
 
         // Render the transport page
         function renderTransportPage(data) {

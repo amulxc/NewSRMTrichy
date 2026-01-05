@@ -17,13 +17,13 @@
                 title: "OPD Schedules",
                 icon: "fas fa-calendar-alt",
                 items: [
-                    { department: "General Medicine", time: "9 AM - 2 PM" },
-                    { department: "Cardiology", time: "10 AM - 1 PM" },
-                    { department: "Orthopedics", time: "9 AM - 3 PM" },
-                    { department: "Pediatrics", time: "8 AM - 1 PM" },
-                    { department: "Gynecology", time: "10 AM - 2 PM" },
-                    { department: "Dermatology", time: "11 AM - 3 PM" },
-                    { department: "ENT", time: "9 AM - 1 PM" }
+                    { department: "General Medicine",time: "8 AM - 4 PM" },
+                    { department: "Cardiology",time: "8 AM - 4 PM" },
+                    { department: "Orthopedics",time: "8 AM - 4 PM" },
+                    { department: "Pediatrics",time: "8 AM - 4 PM" },
+                    { department: "Gynecology",time: "8 AM - 4 PM" },
+                    { department: "Dermatology",time: "8 AM - 4 PM" },
+                    { department: "ENT",time: "8 AM - 4 PM" }
                 ]
             }
         };

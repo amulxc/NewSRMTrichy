@@ -564,22 +564,46 @@
         overview: "Comprehensive internal medicine care for all age groups. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
 
         procedure: [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
+            "Daily Outpatient neurology clinics.",
+            "Dedicated Inpatient bed and comprehensive care.",
+            "Neuro critical care facilities with immunotherapies like plasmapheresis.",
+            "Stroke care including IV thrombolysis.",
+            "Nerve conduction studies (NCS).",
+            "Electroencephalogram (EEG)."
         ],
 
         infra: [
-            "OPD rooms", 
-            "Inpatient wards", 
-            "ICU", 
-            "procedure room"
+            "Dedicated neurology outpatient and inpatient services with monitored beds.",
+            "Advanced neurodiagnostic facilities including EEG, EMG–NCV, and evoked potentials.",
+            "Access to modern neuroimaging services (CT, MRI, vascular imaging)."
         ],
 
         doctor: [
-            {name: "Ram", designation: "Assistant professor", exp: "5"},
-            {name: "Sam", designation: "Assistant professor", exp: "5"},
-            {name: "John", designation: "Assistant professor", exp: "5"}
+            {
+            "name": "Dr. Jayakumar M",
+            "designation": "Professor / Consultant (Neurology)",
+            "exp": ""
+            },
+            {
+            "name": "Dr. Rahul Gandhi I",
+            "designation": "Assistant Professor / Consultant (Neurology)",
+            "exp": ""
+            },
+            {
+            "name": "Dr. Kaviyarasi K",
+            "designation": "Junior Resident",
+            "exp": ""
+            },
+            {
+            "name": "Mrs. Santhi D",
+            "designation": "Neurophysiology Technician",
+            "exp": ""
+            },
+            {
+            "name": "Mr. Anbarasan S",
+            "designation": "Neurophysiology Technician",
+            "exp": ""
+            }
         ],
 
         services: [
@@ -591,18 +615,6 @@
             "Gastroenterology", 
             "Cardiology", 
             "Nephrology"
-        ],
-
-        pubStats: [
-            {label: "Publications", value: "30+"}
-        ],
-
-        research: [
-            "Chronic disease management"
-        ],
-
-        achievements: [
-            "Best Medicine Dept"
         ]
     },
     {
@@ -1506,45 +1518,32 @@
         color: "#ff9800", 
         colorDark: "#f57c00",
 
-        overview: "Comprehensive child healthcare with NICU and PICU facilities. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+        overview: "The Department of Urology delivers comprehensive, evidence-based urological care through a team of experienced, skilled, and compassionate urologists. Equipped with state-of-the-art technology for advanced endourology and laparoscopic procedures, the department is committed to providing innovative, cost-effective treatment. Along with clinical excellence, we focus on research, community trust, and patient education to promote disease awareness, early detection, and prevention in urological health.",
 
         procedure: [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
+            "To deliver innovative and cost-effective treatment while maintaining high clinical standards.",
+            "To promote research and continuous advancement in urological practice.",
+            "To build trust within the community through ethical and patient-centered care.",
+            "To educate patients on urological diseases, focusing on awareness, early detection, and prevention."
         ],
 
         infra: [
             "OPD rooms", 
             "Inpatient wards", 
             "ICU", 
-            "procedure room"
+            "Procedure room",
+            "Advanced endourological  equipments"
         ],
 
         doctor: [
-            {name: "Ram", designation: "Assistant professor", exp: "5"},
-            {name: "Sam", designation: "Assistant professor", exp: "5"},
-            {name: "John", designation: "Assistant professor", exp: "5"}
+            {name: "Dr. Keerthi Rams", designation: "Assistant professor", exp: "6"},
+            {name: "Dr. Barath Venkat", designation: "Assistant professor", exp: "2"},
         ],
 
-        services: [
-            "General Pediatrics", 
-            "Neonatology", 
-            "PICU", 
-            "Immunization", 
-            "Growth Monitoring"
-        ],
+        services: ["All endourology procedures for Kidney stones", "Enlarged prostate","Andrology","Reconstructive urology"],
 
         pubStats: [
             {label: "Publications", value: "24+"}
-        ],
-
-        research: [
-            "Neonatal outcomes"
-        ],
-
-        achievements: [
-            "Best NICU"
         ]
     },
     {

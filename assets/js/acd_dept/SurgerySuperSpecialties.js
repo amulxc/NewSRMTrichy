@@ -88,7 +88,7 @@
                 desc: "Experienced, skilfull and compassionate Urologists State of the art equipment for all endourology and laparoscopy procedures",
                 vision:"To be a trusted and valued department  of urology in the community.To deliver comprehensive urological services.To promote research ",
                 mission:"Providing compassionate,costeffective,skillfull,evidence based and innovative care to all patients.Educating patient about disease awareness related to urology towards early detection and possible prevention",
-                infra: ["Advanced endourological  equipments"],
+                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room","Advanced endourological  equipments","Advanced endourological  equipments"],
                 faculty: [{name: "Dr. Keerthi Rams", designation: "Assistant professor", exp: "6"},{name: "Dr. Barath Venkat", designation: "Assistant professor", exp: "2"}],
                 services: ["All endourology procedures for Kidney stones", "Enlarged prostate","Andrology","Reconstructive urology"],
                 events: ["TRUE ENDOCON workshop- OCT 2022 "],
