@@ -62,7 +62,7 @@
           <a href='./course.html'>Course </a>
         </div>
         <div class="milestone-stat">
-          <a href='./specialities.html'>Specialities</a>
+          <a href='./Specialities.html'>Specialities</a>
         </div>
         <div class="milestone-stat">
           <a href='#'>Lab Reports</a>
@@ -71,10 +71,7 @@
   </div>`
 
     const emergencyBox1=`<div class="emergency-wrapper">
-  <div class="emergency-box" id="emergencyBox">
-    <span id="emergencyText"></span>
-    <button class="close-btn" id="closeBtn">✕</button>
-  </div>
+  
 
   <div class="emergency-content" id="emergencyContent">
     <p>E – Emergency medical support available 24/7</p>
@@ -86,6 +83,10 @@
     <p>N – Non-stop emergency services</p>
     <p>C – Critical care units</p>
     <p>Y – Your health, our priority</p>
+  </div>
+  <div class="emergency-box" id="emergencyBox">
+    <span id="emergencyText"></span>
+    <button class="close-btn" id="closeBtn">✕</button>
   </div>
 </div>
 `
@@ -205,13 +206,13 @@
                   <li><a href="./transport.html">Transport</a></li>
                   </ul>
                   </li>
-              <li class="has-submenu" data-submenu="milestones">
-              <a href="./patientcorner.html">Patient Corner <span class="arrow submenu-trigger">&#9654;</span></a>
-              <ul class="sub-dropdown">
-              <li><a href="#">Patient Portal</a></li>
-              <li><a href="./patientcorner.html#awareness">Hospital Awareness</a></li>
-              <li><a href="./patientcorner.html#testimonials">Patient AV</a></li>
-              <li><a href="./patientcorner.html#health_checkup">Health Checkup Packages</a></li>
+                  <li class="has-submenu" data-submenu="milestones">
+                  <a href="./patientcorner.html">Patient Corner <span class="arrow submenu-trigger">&#9654;</span></a>
+                  <ul class="sub-dropdown">
+                  <li><a href="#">Patient Portal</a></li>
+                  <li><a href="./patientcorner.html#awareness">Hospital Awareness</a></li>
+                  <li><a href="./patientcorner.html#testimonials">Patient AV</a></li>
+                  <li><a href="./medicalPackage.html">Health Checkup Package</a></li>
               <li><a href="./patientcorner.html#insurance">Insurance Schemes</a></li>
               </ul>
               </li>
@@ -288,12 +289,13 @@
         </button>
         <div class="social-links-container active" id="socialLinks1">
           <div class='content-box' id='content1'>
+            <div class='content' id='emgWord'>
+            </div>
             <div class='content2'>
               <p>Trichy <br><a href='tel:654387654' data-wg-notranslate><i class='fa fa-phone'></i> 9876543876</a></p>
               <p>Ramapuram <br><a href='tel:654387654' data-wg-notranslate><i class='fa fa-phone'></i> 9876543876</a></p>
             </div>
-            <div class='content' id='emgWord'>
-            </div>
+            
           <div>
         </div>`;
         

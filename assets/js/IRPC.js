@@ -1,138 +1,143 @@
 const activities = [
             {
-                title: "International Research Symposium 2024",
-                date: "Dec 5, 2024",
-                description: "Annual symposium bringing together researchers from around the globe to share insights and innovations.",
+                title: "International seminar",
+                date: "26 Nov 2025",
+                description: "Dr. Des Richardson, M.Sc., Ph.D., D.Sc., F.FSc., FRCPath, FRACI CCHEM, Director, Centre for Cancel Cell Biology and Drug Discovery, Griffith University, Queensland, Australia. His research experiences are very vast and delivered his lecture on “Design and development of new anti-cancer drugs: the artificial intelligence revolution”.",
                 icon: "fa-university",
-                image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop" // Conference hall
+                image: "./assets/images/irpc/1.jpg"
             },
             {
-                title: "Workshop on AI and Machine Learning",
-                date: "Nov 28, 2024",
-                description: "Hands-on workshop exploring cutting-edge applications of artificial intelligence in research.",
+                title: "International seminar",
+                date: "11 Dec 2025",
+                description: "Dr. Mats Brannstrom is Professor and Chairman, Department of Obstetrics and Gynecology, Institute of Clinical Sciences, University of Gothenburg, Sweden. He is also Senior Consultant of Gynecology and Reproductive Medicine at Sahlgrenska University Hospital. Dr. Mats shared his clinical experiences of uterus transplantation from deceased donor and transplant to recipient with uterine infertility",
                 icon: "fa-robot",
-                image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop" // Tech/AI
+                image: "./assets/images/irpc/2.jpg"
             },
             {
-                title: "Research Funding Seminar",
-                date: "Nov 15, 2024",
-                description: "Guidance session on securing research grants and funding opportunities from national agencies.",
+                title: "BMJ manuscript submission drive",
+                date: "18 Dec 2025",
+                description: "A total of 37 faculty and postgraduates participated in the TSRMMCH&RC library; A broad visionary ideas obtained regarding how to submit the manuscript in BMJ",
                 icon: "fa-hand-holding-usd",
-                image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop" // Business/funding
+                image: "./assets/images/irpc/3.jpg"
             },
             {
-                title: "Interdisciplinary Research Forum",
-                date: "Oct 22, 2024",
-                description: "Platform for collaborative discussions across different research domains and disciplines.",
+                title: "Medaithon",
+                date: "25 Oct 2025",
+                description: "The campus institutions participated; Fifty teams competed; out of that two teams awarded",
                 icon: "fa-project-diagram",
-                image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=600&fit=crop" // Collaboration
+                image: "./assets/images/irpc/4.jpg"
+            },
+            {
+                title: "EQUIP workshop",
+                date: "28 Feb 2025",
+                description: "Elevating quality in research through impactful publications, patents and copyright excellence",
+                icon: "fa-project-diagram",
+                image: "./assets/images/irpc/5.jpg"
             }
         ];
 
         const projects = [
-            {
-                title: "Smart City Infrastructure Development",
-                pi: "Dr. Sarah Johnson",
+           {
+                title: "ICMR project",
+                pi: "ICMR",
                 status: "ongoing",
-                description: "Developing intelligent urban infrastructure solutions using IoT and data analytics.",
-                duration: "2023-2026",
-                dept: "Computer Science"
+                description: "Development and feasibility testing of a bereavement care package for the Indian healthcare system to support parents of stillborn babies",
+                duration: "30 Jul 2024",
+                dept: "Community Medicine"
             },
             {
-                title: "Renewable Energy Integration Systems",
-                pi: "Dr. Michael Chen",
+                title: "DST-FIST",
+                pi: "DST",
+                status: "ongoing",
+                description: "Strengthening research facilities (Motorized upright microscope)",
+                duration: "19 Dec 2022",
+                dept: "Institutional (TSRMMCH&RC)"
+            },
+            {
+                title: "ICMR project",
+                pi: "ICMR",
                 status: "completed",
-                description: "Research on efficient integration of solar and wind energy into power grids.",
-                duration: "2021-2024",
-                dept: "Electrical Engineering"
+                description: "Development of ICT based early warning COVID-19 surveillance model for the city of Trichy Tamilnadu",
+                duration: "15 Apr 2022",
+                dept: "Community Medicine"
             },
             {
-                title: "Nanotechnology in Medical Diagnostics",
-                pi: "Dr. Emily Rodriguez",
+                title: "ICMR-Ad-hoc project",
+                pi: "ICMR",
+                status: "completed",
+                description: "Community based study to estimate palliative care needs in urban and rural population of Tiruchirappalli District, Tamilnadu",
+                duration: "07 Feb 2022",
+                dept: "Community Medicine"
+            },
+            {
+                title: "DHR-ICMR Grant in aid project",
+                pi: "DHR-ICMR",
                 status: "ongoing",
-                description: "Innovative nanomaterial applications for early disease detection.",
-                duration: "2022-2025",
-                dept: "Biotechnology"
+                description: "Effects of Air pollutants on respiratory health of traffic police personnel of major cities of Tamilnadu – an observational study",
+                duration: "24 Apr 2020",
+                dept: "Community Medicine"
             },
             {
-                title: "Climate Change Impact Assessment",
-                pi: "Dr. David Kumar",
-                status: "pending",
-                description: "Comprehensive study on regional climate patterns and environmental effects.",
-                duration: "2024-2027",
-                dept: "Environmental Science"
+                title: "TB Association of India",
+                pi: "TB Association of India",
+                status: "completed",
+                description: "Spirometry as a tool to motivate smoking cessation – an intervention study",
+                duration: "28 Oct 2020",
+                dept: "Community Medicine"
             }
         ];
 
         const patents = [
             {
-                title: "AI-Powered Medical Imaging System",
-                number: "PAT-2024-001",
-                status: "Granted",
+                title: "Drug dispensing vending machine",
+                status: "Published",
                 year: "2024",
-                inventors: 3
             },
             {
                 title: "Biodegradable Polymer Composite",
-                number: "PAT-2023-089",
-                status: "Granted",
-                year: "2023",
-                inventors: 2
-            },
-            {
-                title: "IoT-Based Water Quality Monitor",
-                number: "PAT-2024-023",
-                status: "Granted",
-                year: "2024",
-                inventors: 4
-            },
-            {
-                title: "Advanced Solar Cell Technology",
-                number: "PAT-2023-156",
-                status: "Granted",
-                year: "2023",
+                number: "202541104870",
+                status: "Published",
+                year: "2025",
                 inventors: 3
-            },
-            {
-                title: "Smart Grid Energy Management System",
-                number: "PAT-2024-045",
-                status: "Granted",
-                year: "2024",
-                inventors: 5
-            },
-            {
-                title: "Nano-Biosensor for Disease Detection",
-                number: "PAT-2024-067",
-                status: "Granted",
-                year: "2024",
-                inventors: 2
             }
         ];
 
         const nationalCollaborations = [
             { 
-                name: "IIT Bombay", 
-                location: "Mumbai, India", 
-                icon: "fa-flask",
-                logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Indian_Institute_of_Technology_Bombay_Logo.svg/200px-Indian_Institute_of_Technology_Bombay_Logo.svg.png"
-            },
-            { 
-                name: "AIIMS Delhi", 
+                name: "Public Health Foundation of India", 
                 location: "New Delhi, India", 
+                icon: "fa-flask",
+                logo: "./assets/images/irpc/logos/1.png"
+            },
+            { 
+                name: "PGIMER", 
+                location: "Chandigarh, India", 
                 icon: "fa-hospital",
-                logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtTn-S-Hn9j4_Ruk7dLd69WPwgfK_VI7-ZXA&s"
+                logo: "./assets/images/irpc/logos/2.png"
             },
             { 
-                name: "ISRO", 
-                location: "Bangalore, India", 
+                name: "JIPMER", 
+                location: "Pondicherry", 
                 icon: "fa-rocket",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Indian_Space_Research_Organisation_Logo.svg/200px-Indian_Space_Research_Organisation_Logo.svg.png"
+                logo: "./assets/images/irpc/logos/3.png"
             },
             { 
-                name: "CSIR Labs", 
-                location: "Various Locations", 
+                name: "AIIMS", 
+                location: "Bibinagar", 
                 icon: "fa-microscope",
-                logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlXPNH1DdhfOZXoXYI7KXv61QGrsix6nXHxw&s"
+                logo: "./assets/images/irpc/logos/4.png"
+            },
+            { 
+                name: "SASTRA – Deemed to be University", 
+                location: "Thanjavur, Tamilnadu", 
+                icon: "fa-rocket",
+                logo: "./assets/images/irpc/logos/5.png"
+            },
+            { 
+                name: "Bharathidasan University", 
+                location: "Trichy, Tamilnadu", 
+                icon: "fa-microscope",
+                logo: "./assets/images/irpc/logos/6.png"
             }
         ];
 
@@ -165,13 +170,13 @@ const activities = [
 
         const researchersData = {
             president: [{
-                name: "Dr. Rajesh Kumar",
+                name: "Arun Dharmarajan",
                 profileImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIC801LEXM0O7ZWYP4_W3Tj9YTwZ82rToeQ&s",
-                position: "President",
-                specialization: "Artificial Intelligence & Machine Learning",
+                position: "Director Biomedical Research",
+                specialization: "Lead Researcher and Head of Research",
                 publications: 45,
                 projects: 12,
-                citations: 2500,
+                citations: "2.2 CR",
                 interests: ["Deep Learning", "Neural Networks", "Computer Vision", "NLP"],
                 projectsList: [
                     "AI-Driven Healthcare Diagnostics System",
@@ -443,10 +448,11 @@ const activities = [
                         </div>
                         <div class="irpc-patent-title-section">
                             <h3>${patent.title}</h3>
-                            <div class="irpc-patent-number">
+                            ${(patent.number!=undefined)?`<div class="irpc-patent-number">
                                 <i class="fas fa-certificate"></i>
                                 ${patent.number}
-                            </div>
+                            </div>`:''}
+                            
                         </div>
                     </div>
                     <div class="irpc-patent-footer">
@@ -459,10 +465,11 @@ const activities = [
                                 <span class="irpc-patent-meta-number">${patent.year}</span>
                                 <span class="irpc-patent-meta-label">Year</span>
                             </div>
+                             ${(patent.number!=undefined)?`
                             <div class="irpc-patent-meta-item">
                                 <span class="irpc-patent-meta-number">${patent.inventors}</span>
                                 <span class="irpc-patent-meta-label">Inventors</span>
-                            </div>
+                            </div>`:''}
                         </div>
                     </div>
                 </div>

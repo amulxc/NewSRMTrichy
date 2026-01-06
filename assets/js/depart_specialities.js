@@ -2664,7 +2664,7 @@ async function loadDoctorsFromExcel() {
                             </ul>
                         </div>
                     </div>
-                    ` : ''}
+                    ` : '<br><br><br><br>'}
 
                     <!-- Achievements Section -->
                      ${dept.achievements && dept.achievements.length > 0 ? `

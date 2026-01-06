@@ -140,7 +140,7 @@
         }
 
         .detail-header h2 {
-            font-size: 3rem;
+            font-size: 2rem;
             margin-bottom: 1rem;
             display: flex;
             align-items: center;
@@ -149,8 +149,8 @@
         }
 
         .detail-header .icon-large {
-            width: 80px;
-            height: 80px;
+            width: 50px;
+            height: 50px;
             background: rgba(255,255,255,0.2);
             border-radius: var(--radius-lg);
             display: flex;
@@ -161,11 +161,11 @@
         }
 
         .detail-header .icon-large i {
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
 
         .detail-header p {
-            font-size: 1.125rem;
+            font-size: 1rem;
             opacity: 0.95;
             line-height: 1.8;
             max-width: 800px;
@@ -181,7 +181,7 @@
         }
 
         .accordion-header {
-            padding: 1.5rem 2rem;
+            padding: 1rem 2rem;
             cursor: pointer;
             display: flex;
             justify-content: space-between;
@@ -202,7 +202,7 @@
             display: flex;
             align-items: center;
             gap: 1rem;
-            font-size: 1.5rem;
+            font-size: 1rem;
             font-weight: 700;
             color: var(--color-text-primary);
         }
@@ -241,11 +241,13 @@
             color: var(--color-text-secondary);
             line-height: 1.8;
             margin-bottom: 1.5rem;
+            font-size: 0.9rem !important;
         }
 
         .accordion-body ul {
             list-style: none;
             padding-left: 0;
+            font-size: 0.8rem;
         }
 
         .accordion-body li {

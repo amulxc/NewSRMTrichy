@@ -242,7 +242,7 @@
     .floating-social-btn {
         position: fixed;
         bottom: var(--spacing-xl);
-        right: var(--spacing-xl);
+        left: var(--spacing-xl);
         z-index: var(--z-fixed);
     }
     .floating-social-btn .social-link, .floating-social-btn .social-toggle-btn  {
@@ -263,8 +263,8 @@
     }
     .floating-social-btn .social-links-container {
         position: absolute;
-        bottom:240px;
-        right:-32px;
+        bottom:260px;
+        left:-32px;
         display: flex;
         flex-direction: column;
         gap:0;
@@ -274,8 +274,8 @@
     }
     .floating-social-btn .social-toggle-btn {
         font-size:15px;
-        bottom:320px;
-        left:44px;
+        bottom:250px;
+        left:4px;
         border:none;
         width:80px;
         justify-content:start;
@@ -293,17 +293,17 @@
     }
     
     .floating-social-btn .social-toggle-btn.active{
-        left:45px;
+        left:-45px;
         background:none;
         box-shadow:none;
         color: #575756 !important;
     }
     
     .floating-social-btn .social-toggle-btn i{
-        transform:rotate(270deg);
+        transform:rotate(90deg);
     }
     .floating-social-btn .social-toggle-btn.active i{
-        transform:rotate(90deg);
+        transform:rotate(270deg);
     }
     .floating-social-btn .social-toggle-btn:hover {
         transform: scale(1.1);
@@ -353,7 +353,7 @@
      .floating-social-btn-emg {
         position: fixed;
         bottom: var(--spacing-md);
-        left: var(--spacing-xl);
+        right: var(--spacing-xl);
         z-index: var(--z-fixed);
     }
     .floating-social-btn-emg .social-link, .floating-social-btn-emg .social-toggle-btn  {
@@ -375,7 +375,7 @@
     
     .floating-social-btn-emg .social-links-container {
         position: absolute;
-        bottom:210px;
+        bottom:250px;
         display: flex;
         flex-direction: column;
         gap:0;
@@ -390,12 +390,12 @@
         color:white;
         align-items:center;
         width:max-content;
-        padding:10px 0 10px 40px;
+        padding:10px 40px 10px 8px;
         display:flex;
         justify-content:space-between;
         text-align:center;
-        gap:10px;
-        border-radius:0 10px 10px 0;
+        gap:20px;
+        border-radius:10px 0 0 10px;
         font-weight:700;
     }
     .floating-social-btn-emg .content2{
@@ -415,12 +415,12 @@
     .floating-social-btn-emg .social-links-container.active {
         opacity: 1;
         pointer-events: all;
-        left:-233px;
+        right:-264px;
     }
     .floating-social-btn-emg .social-links-container {
         opacity: 1;
         pointer-events: all;
-        left:-34px;
+        right:-34px;
     }
     .floating-social-btn-emg .social-links-container:not(.active) .social-link {
         animation: none;
@@ -2278,12 +2278,12 @@ section {
     font-size: 1.5rem;
 }
 
-.compliance-item ul {
+.compliance-item ul,.list-group ul {
     list-style: none;
     padding-left: 0;
 }
 
-.compliance-item ul li {
+.compliance-item ul li,.list-group ul li{
     padding: 0.5rem 0;
     color: var(--text-light);
     display: flex;
@@ -2291,7 +2291,7 @@ section {
     gap: 0.5rem;
 }
 
-.compliance-item ul li::before {
+.compliance-item ul li::before,.list-group ul li::before {
     content: '✓';
     color: var(--accent-color);
     font-weight: bold;
@@ -8306,7 +8306,7 @@ grid-template-columns: 1fr;
 
         .course-accordion-section {
             background: var(--color-white);
-            border-radius: var(--radius-lg);
+            border-radius: var(--radius-sm);
             margin-bottom: var(--spacing-lg);
             box-shadow: var(--shadow-sm);
             overflow: hidden;
@@ -8314,7 +8314,7 @@ grid-template-columns: 1fr;
         }
 
         .course-accordion-header {
-            padding: var(--spacing-xl) var(--spacing-2xl);
+            padding: var(--spacing-md) var(--spacing-lg);
             cursor: pointer;
             display: flex;
             justify-content: space-between;
@@ -8334,8 +8334,8 @@ grid-template-columns: 1fr;
         .course-accordion-title {
             display: flex;
             align-items: center;
-            gap: var(--spacing-lg);
-            font-size: clamp(1rem, 2.5vw, 1.3rem);
+            gap: var(--spacing-sm);
+            font-size:1rem;
             font-weight: 700;
             color: var(--color-text-primary);
         }
@@ -10249,7 +10249,7 @@ grid-template-columns: 1fr;
         /* Activities Section */
         .irpc-activities-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             gap: var(--gap-medium);
         }
 
@@ -10513,8 +10513,8 @@ grid-template-columns: 1fr;
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 3px solid var(--color-primary-light);
             transition: all var(--transition-fast);
+            box-shadow:var(--shadow-md);
         }
 
         .irpc-collaboration-card:hover .irpc-collaboration-logo {
@@ -10629,8 +10629,8 @@ grid-template-columns: 1fr;
         }
 
         .irpc-researcher-image-wrapper {
-            background: var(--gradient-2);
-            padding: var(--spacing-4xl) var(--spacing-xl) var(--spacing-2xl);
+            background:linear-gradient(135deg,#005281bb,#008327),url(../images/bg_images/research.jpg);
+            padding: var(--spacing-3xl) var(--spacing-xl);
             text-align: center;
             position: relative;
         }
