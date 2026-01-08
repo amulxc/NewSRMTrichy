@@ -18,8 +18,13 @@ function loadDoctorData() {
         doctorData['Department'] ||
         doctorData.specialty || 'N/A';
 
-    document.getElementById('experience').textContent =
-        doctorData['Years of Experience'] || doctorData.experience || '0';
+        if(doctorData.experience>0){
+            document.getElementById('experience').textContent = doctorData['Years of Experience'] || doctorData.experience || '0';
+        }
+        else{
+            document.getElementById('experienceSection').style.display="none";
+        }
+    
 
     document.getElementById('languages').textContent =
         doctorData['Languages Known'] || doctorData.languages || '-';
@@ -112,7 +117,8 @@ function loadDoctorData() {
         awardsContainer.innerHTML = awardsArray.map(award =>
             `<div class="doc-award-item"><i class="fas fa-award"></i> ${award}</div>`
         ).join('');
-    } else {
+    } 
+    else {
         document.getElementById("doc-awards-section").style.display="none"
         awardsContainer.innerHTML = '<p style="color: var(--color-text-secondary);">No awards listed</p>';
     }

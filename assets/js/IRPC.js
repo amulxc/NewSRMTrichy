@@ -172,223 +172,208 @@ const activities = [
             president: [{
                 name: "Arun Dharmarajan",
                 profileImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIC801LEXM0O7ZWYP4_W3Tj9YTwZ82rToeQ&s",
-                position: "Director Biomedical Research",
-                specialization: "Lead Researcher and Head of Research",
+                position: "Head of Research",
+                specialization: "Director Biomedical Research",
                 publications: 45,
-                projects: 12,
+                projects: 6,
                 citations: "2.2 CR",
-                interests: ["Deep Learning", "Neural Networks", "Computer Vision", "NLP"],
+                interests: ["Cancer","Cancer stem cells","Wnt Signalling","Secreted Frizzled Related Protein-4 (SFRP4)"],
                 projectsList: [
-                    "AI-Driven Healthcare Diagnostics System",
-                    "Smart City Surveillance Network",
-                    "Autonomous Vehicle Navigation Framework"
+                    "SFRP4 as a therapeutic in cancers of the ovary, breast, prostate, glioma, head and neck, and mesothelioma",
+                    "Role of SFRP4 in cancer cell metabolism",
+                    "Wnt signalling in cancer stem cells"
                 ],
-                publications: [
-                    "Deep Learning Approaches in Medical Imaging - Nature AI, 2024",
-                    "Neural Networks for Predictive Analytics - IEEE Trans, 2023",
-                    "Computer Vision in Autonomous Systems - ACM Journal, 2023"
+                publications: [                   
+                    "Development of In Vitro Parkinson Disease Model Mediated by MPP+ and alpha-Synuclein Using Wharton Jelly Mesenchymal Stem Cells. Gamit N et al. CNS Neurosci Ther. 2025.",
+                    "Modeling amyotrophic lateral sclerosis with amniotic membrane-derived mesenchymal stem cells. Soumya BS et al. Exp Cell Res. 2025.",
+                    "A novel function of the Wnt antagonist secreted frizzled-related protein 4 as a transcriptional regulator of Dickkopf-1 in glioblastoma cell line U87MG. Biochim Biophys Acta Mol Cell Res. 2025.",
+                    "Prevalence and genomic insights of carbapenem resistant and ESBL producing multidrug resistant Escherichia coli in urinary tract infections. Sci Rep. 2025.",
+                    "The Wnt/SFRP4 signaling axis in neuronal cell fate after spinal cord injury. Journal of Minimally Invasive Spine Surgery and Technique. 2025.",
+                    "Activation of miR-203a by SFRP4 micropeptides targets epithelial-mesenchymal transition and autophagy in ovarian cancer stem cells. BBA Molecular Cell Research.",
+                    "Flow cytometry: a versatile tool for stem cell research. Biochemical and Biophysical Research Communications. 2025.",
+                    "Novel mesothelioma circulating tumour spheres for SFRP4 therapeutics. Frontiers in Oncology. 2025.",
+                    "Integrin, VE-cadherin, and beta-catenin signaling triad in angiogenesis regulated by SFRP4. Journal of Cellular Physiology. 2025."
                 ],
                 conferences: [
-                    "Keynote Speaker - International AI Conference, Singapore 2024",
-                    "Panel Discussion - NeurIPS 2023, New Orleans",
-                    "Workshop Organizer - CVPR 2023, Vancouver"
+                   "American Association for Cancer Research",
+                    "Australian Society for Medical Research",
+                    "International Breast Cancer Society",
+                    "World Congress in Oncology"
                 ],
                 patents: [
-                    "AI-Powered Medical Imaging System - Patent No: PAT-2024-001",
-                    "Intelligent Traffic Management System - Patent No: PAT-2023-045"
+                    "Novel anti-cancer peptide (E-2/3767/2021/CHE)"
                 ],
                 awards: [
-                    "Best Researcher Award - National Science Foundation, 2024",
-                    "Excellence in AI Research - IEEE, 2023",
-                    "Innovation in Healthcare Technology - Ministry of Health, 2022"
+                    "Curtin Innovation Award (2016)",
+                    "Doctor of Medicine (Physiology; Honorary)",
+                    "Achievement Award (AACR-Nominated)",
+                    "GPS Scholar - Top 0.05% in the world",
+                    "Stanford Ranking - Top 2%"
                 ],
+                journal_reviewer:["Cancers",
+                    "International Journal of Biochemistry and Cell Biology",
+                    "Scientific Reports",
+                    "Cells",
+                    "Metabolities",
+                    "British Journal Cancer - Reports",
+                    "Journal of Molecular Digital Medicine",
+                    "Endocrinology",
+                    "Molecular and Cellular Physiology"],
+                grant_reviewer:["NHMRC (Australia)","ARC (Australia)","DBT","DHR","ICMR","DST","NIH (USA)"],
                 editorial: [
-                    "Associate Editor - IEEE Transactions on AI",
-                    "Editorial Board Member - Journal of Machine Learning Research",
-                    "Review Committee - International Conference on AI"
-                ]
-            },{
-                name: "Dr. Priya Sharma",
-                profileImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIC801LEXM0O7ZWYP4_W3Tj9YTwZ82rToeQ&s",
-                position: "Vice President",
-                specialization: "Biotechnology & Genetic Engineering",
-                publications: 38,
-                projects: 10,
-                citations: 1850,
-                interests: ["Genetic Engineering", "Molecular Biology", "Bioinformatics", "CRISPR Technology"],
-                projectsList: [
-                    "Gene Therapy for Rare Diseases",
-                    "CRISPR-Based Cancer Treatment",
-                    "Microbial Biofuel Production"
-                ],
-                publications: [
-                    "CRISPR Applications in Gene Therapy - Cell Journal, 2024",
-                    "Advances in Molecular Diagnostics - Nature Biotech, 2023",
-                    "Bioinformatics Tools for Genomic Analysis - BMC Genomics, 2023"
-                ],
-                conferences: [
-                    "Invited Speaker - International Biotechnology Summit, Berlin 2024",
-                    "Research Presentation - ASHG Annual Meeting 2023",
-                    "Workshop Leader - Genome Editing Conference, Boston 2023"
-                ],
-                patents: [
-                    "Novel CRISPR Delivery System - Patent No: PAT-2024-012",
-                    "Biosensor for Disease Detection - Patent No: PAT-2023-078"
-                ],
-                awards: [
-                    "Outstanding Contribution to Biotechnology - DBT India, 2024",
-                    "Women in Science Award - UNESCO, 2023",
-                    "Research Excellence Award - Biotechnology Society, 2022"
-                ],
-                editorial: [
-                    "Editorial Board - Journal of Genetic Engineering",
-                    "Associate Editor - Biotechnology Advances",
-                    "Reviewer - Nature Biotechnology"
+                    "Cancers",
+                    "Frontiers in Oncology",
+                    "International Journal of Biochemistry and Cell Biology",
+                    "Reproductive Biomedicine Online",
+                    "Scientific Reports",
+                    "British Journal of Cancer (Reports)",
+                    "Frontiers in Endocrinology",
+                    "Frontiers in Reproductive Health",
+                    "Current Stem Cell Research and Therapy"
                 ]
             }],
-            secretary: [
+            coordinator: [
                 {
-                    name: "Dr. Amit Patel",
-                    profileImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIC801LEXM0O7ZWYP4_W3Tj9YTwZ82rToeQ&s",
-                    position: "Secretary",
-                    specialization: "Renewable Energy Systems",
+                    name: "Dr A Suguna",
+                    profileImage:"./assets/images/researchers/coordinator.jfif",
+                    position: "Coordinator",
+                    specialization: "Professor of Community medicine",
                     publications: 32,
-                    projects: 8,
-                    citations: 1450,
-                    interests: ["Solar Energy", "Wind Power", "Energy Storage", "Smart Grids"],
+                    projects: 12,
+                    citations: "1.09 Cr",
+                    interests: ["Geriatrics","Occupational health","Medical education","MCH"],
                     projectsList: [
-                        "Grid-Scale Energy Storage Solutions",
-                        "Hybrid Renewable Energy Systems",
-                        "Smart Grid Optimization"
+                        "Many intramural and extramural projects including ICMR projects"
                     ],
                     publications: [
-                        "Advanced Solar Cell Technologies - Solar Energy, 2024",
-                        "Energy Storage for Renewable Integration - Energy Journal, 2023",
-                        "Smart Grid Management Systems - IEEE Power, 2023"
+                        "More than 75"
                     ],
                     conferences: [
-                        "Technical Session Chair - Renewable Energy Conference, Dubai 2024",
-                        "Paper Presentation - IEEE Power & Energy Society Meeting 2023",
-                        "Panel Member - Clean Energy Summit, London 2023"
+                        "13 national and 8 international conferences"
                     ],
                     patents: [
-                        "High-Efficiency Solar Panel Design - Patent No: PAT-2024-034",
-                        "Smart Energy Management System - Patent No: PAT-2023-156"
+                        "4"
                     ],
                     awards: [
-                        "Excellence in Renewable Energy Research - Energy Ministry, 2024",
-                        "Innovation Award - IEEE Power & Energy Society, 2023"
+                        "Scholarship for global course in Ben Gurian University, Israel 14 copyrights and 4 patents"
                     ],
                     editorial: [
-                        "Editor - Renewable Energy Journal",
-                        "Editorial Board - Solar Energy Materials"
-                    ]
+                        "IAPSM"
+                    ],
+                    journal_reviewer:["Indian journal of public health, IJMPH, Annuals of SBV, IJOEM "],
                 }
             ],
             members: [
                 {
-                    name: "Dr. Sunita Verma",
+                    name: "Dr.S.Ayyappan",
+                    profileImage:"./assets/images/researchers/member_1.jfif",
+                    position: "Member",
+                    specialization: "Senior Resident",
+                    interests: ["Clinical biochemistry", "Endocrinology", "Molecular biology"],
+                    projects: 1,
+                    citations: "25000",
+                    publications:["Serum fructosamine is a better indicator than hbalc in Gestational diabetes mellitus", "Antioxidant status in neonatal jaundice before and after phototherapy", "Selenium and selenium dependent enzymes in Hypothyroidism", "Clinical perspective on thyroid hormone and autoantibodies in Sub clinical Hypothyroidism", "Selenium status and its relationship in thyroid disorders in urban population"],
+                    conferences: ["Role on selenium in thyroid disorder at ACBiocon", "Role on thyroid antibodies in Sub clinical Hypothyroidism at Assopicon"],
+                    awards: ["Young scientist award at 2014", "Best Research award at 2015"],
+                },
+                {
+                    name: "Dr.P.Jenifer",
                     profileImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIC801LEXM0O7ZWYP4_W3Tj9YTwZ82rToeQ&s",
                     position: "Member",
-                    specialization: "Environmental Science & Climate Change",
-                    publications: 28,
-                    projects: 7,
-                    citations: 1200,
-                    interests: ["Climate Modeling", "Environmental Policy", "Ecosystem Conservation", "Carbon Sequestration"],
-                    projectsList: [
-                        "Regional Climate Impact Assessment",
-                        "Urban Air Quality Monitoring Network",
-                        "Wetland Conservation Program"
-                    ],
-                    publications: [
-                        "Climate Change Impacts on Biodiversity - Environmental Research, 2024",
-                        "Urban Heat Island Mitigation Strategies - Sustainability Journal, 2023"
+                    specialization: "Assistant Professor",
+                    publications: 14,
+                    interests: ["Molecular Biology", "Genetics", "Cancer Biology"],
+                    publications:[
+                        "Comprehensive review of cardiovascular diseases and their risk factors, Zhuzao/Foundry [ISSN:1001-4977], Volume 28 Issue 10",
+                        "Prevalence of occupational burnout among nurses in tertiary care hospital, Trichy, National Journal of Physiology, Pharmacology and Pharmacology (2025), Vol. 15(1): 102-106",
+                        "Developing the Battery for Identifying Pyrexia of Unknown Origin (PUO) and Potential Virus Generic Screening, Journal of Xidian University, DOI: 10.5281/Zenodo.14779136, ISSN: 1001-2400",
+                        "A study on isolation of bioactive compounds from Buxus sempervirens leaf extract by GCMS, IJRAR, Volume 5 Issue 3, August 2018",
+                        "An investigation on antioxidant and antimicrobial activity of steroidal alkaloid isolated from Buxus sempervirens leaf, International Journal of Pharmaceutical Sciences Review and Research, 52(1), September-October 2018, Pages 97-100",
+                        "A clinical and epidemiological study of upper limb injuries resulting from agricultural accidents, International Surgery Journal, 2017 Nov;4(11):3622-3626, DOI: 10.18203/2349-2902.isj20174680",
+                        "Impact of interleukin 6 in the management of lymphedema, Paripex - Indian Journal of Research, November 2019, Volume 8 Issue 11, ISSN: 2250-1991, DOI: 10.36106/paripex",
+                        "More than 6 manuscripts are under communication with reputed clinical and surgical journals for publication",
+                        "Saccharomonospora azurea strain SACAZ 16S ribosomal RNA gene, partial sequence, GenBank: PX452914.1",
+                        "Paenarthrobacter nicotinovorans strain SSPN 16S ribosomal RNA gene, partial sequence, GenBank: PX452998.1"
                     ],
                     conferences: [
-                        "Speaker - UN Climate Change Conference, Egypt 2024",
-                        "Research Presentation - Environmental Science Summit, Paris 2023"
-                    ],
-                    patents: [
-                        "Air Quality Monitoring System - Patent No: PAT-2023-189"
+                        "Resource Person for Medical Innovations - Impact and Commercialization Potential from 20th November 2025 to 22nd November 2025 for the students of Biomedical and Biotechnology at Technology Enabling Centre, Entrepreneurship Development and Innovation Council, AC Tech Campus, Anna University, Chennai",
+                        "Resource Person for Entrepreneurship workshop for 3 days organised at Amrita VishwaVishwapeetham, Coimbatore on 9th, 10th and 11th October 2025",
+                        "Resource Person in 3 days National level seminar Research 360 conducted by Multi Disciplinary Research Unit, Government Thanjavur Medical College along with Department of Health Sciences and Indian Council of Medical Research from 08.10.2024 to 10.10.2024",
+                        "Resource person in National level webinar on Mutated Corona- from researcher perspective conducted by BI- Plan care and conservation club, Ayya Nadar Janaki Ammal College, Sivakasi on 6th May 2021",
+                        "Speaker in a one day webinar on Coexistence with COVID-19 conducted by K.S.Rangasamy College of Technology (Aut), Tiruchengode on 26th May 2021",
+                        "Organized and participated a webinar on Recent advances in Nanomedicine in Multi Disciplinary Research Unit, Thanjavur Medical College, Thanjavur on 5th April 2021",
+                        "Organized and participated a webinar on Applied epidemiology of COVID-19 or data driven policy planning in Multi Disciplinary Research Unit, Thanjavur Medical College, Thanjavur on 26th April 2021",
+                        "Resource Person in National Webinar on Mutated CORONA- From Researcher Perspective organized by BI-PLAN, Ayya Nadar Janakiammal College, Sivakasi",
+                        "Resource Person in National Webinar on Coexistence with COVID-19 organized by Department of Bio Technology, KSR College of Technology, Tiruchangode",
+                        "Keynote Speaker in Prism of Possibilities organized by Multi Disciplinary Research Unit, Thanjavur Medical College, Thanjavur",
+                        "Resource Person in Workshop on Biomedical Research: from Theory To Practice conducted by Department of Pharmacology & MRU under the auspices of The Tamil Nadu Dr.MGR Medical University, Chennai and valued with 20 credit points"
                     ],
                     awards: [
-                        "Environmental Research Excellence Award - 2024",
-                        "Green Innovation Award - 2023"
+                        "Received a Young Researcher award 2022, Institute of Scholars, Under Ministry of MSME & Corporate Affairs, Govt. of India",
+                        "Recognized as Reviewer of InSc International Publishing Platforms and also for Technical Events under Basic and Medical Sciences",
+                        "Recognized as Professional Member of InSc International Publisher in recognition of Professional standing (LMINSC)",
+                        "Received a Certificate of Appreciation for Outstanding Dedication and Service to the Nation and Fight against COVID-19 by Multi Disciplinary Research Unit, Under DHR, Govt. of India & ICMR, New Delhi",
+                        "Received an award of COVID WARRIOR by Multi Disciplinary Research Unit, Under DHR, Govt. of India & ICMR, New Delhi",
+                        "Received an award and certificate in recognition of invaluable service in COVID-19 by Govt. of Tamil Nadu",
+                        "Received SHAKTI AWARD-2023 in recognition of extraordinary contributions to Society by Team nRoot",
+                        "Received a certification of Appreciation for contributing in Shramdaan for Swachh Bharat"
                     ],
                     editorial: [
-                        "Associate Editor - Environmental Science & Policy",
-                        "Reviewer - Climate Change Journal"
+                       "Recognized as Reviewer of InSc International Publishing Platforms and also for Technical Events under Basic and Medical Sciences",
+                       "Recognized as Professional Member of InSc International Publisher in recognition of Professional standing (LMINSC)"
                     ]
                 },
+                
                 {
-                    name: "Dr. Vikram Singh",
-                profileImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIC801LEXM0O7ZWYP4_W3Tj9YTwZ82rToeQ&s",
+                    name: "Dr. N. Prabhusaran",
+                    profileImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIC801LEXM0O7ZWYP4_W3Tj9YTwZ82rToeQ&s",
                     position: "Member",
-                    specialization: "Nanotechnology & Materials Science",
-                    publications: 35,
-                    projects: 9,
-                    citations: 1680,
-                    interests: ["Nanomaterials", "Quantum Dots", "Nanoelectronics", "Biomaterials"],
+                    specialization: "Microbiology and Research",
+                    publications: 45,
+                    projects: 10,
+                    citations: "1.9 L",
+                    interests: ["Infectious Diseases", "Leptospirosis and other undifferentiated febrile illness", "Microbial and Herbal nanotechnology", "Development of Antimicrobial compounds"],
                     projectsList: [
-                        "Nanoparticles for Drug Delivery",
-                        "Quantum Dot Solar Cells",
-                        "Graphene-Based Sensors"
+                        "PG project (ICMR funded) – Co-Guide - In vitro antimicrobial activity of condiments mediated silver nanoparticles – Dr. Amrutharajasaranya (PG in Pharmacology) - 2018",
+                        "UG Project (ICMR-STS) – Guide - Ms. S. Nagma (2013) - Prevalence and pattern of bacteremia among intensive care unit patients",
+                        "UG Project (ICMR-STS) – Guide - Mr. M. Raagavendhar (2018) - Prevalence of leptospirosis among rice mill workers in Tiruchirapalli, South India",
+                        "UG Project (ICMR-STS) – Guide – Mr. N. Manikandan (2019) - Seroprevalence of leptospiral antibodies among municipal service workers in Tiruchirapalli, South India",
+                        "UG Project (ICMR-STS) – Guide – Ms. P. Swarna Lakshmi (2020) - Isolation and identification of Escherichia coli and Salmonella from poultry feed and litter and their antimicrobial resistance profile in the district of Cuddalore, Tamilnadu",
+                        "UG Project (ICMR-STS) – Guide - Mr. M. Bharath Ragul (2022) - Detection of bacterial pathogens in hands of food handlers, suppliers & cooks & emphasize the knowledge of personal hygiene & hand wash",
+                        "UG Project (ICMR-STS) – Co-Guide – Ms. R. Lakshika (2013) - Bacteriological status of socks and usefulness of silver nitrate impregnation",
+                        "UG Project (ICMR-STS) – Co-Guide - Ms. Aninditha Guraza (2015) - Bacteriological profile of street vended food",
+                        "UG Project (ICMR-STS) – Co-Guide – Mr. H.A Prasanth (2016) - Prevalence of HBV and HCV in patients of chronic liver disease with special reference to hepatocellular carcinoma",
+                        "UG Project (ICMR-STS) – Co-Guide - Mr. H.A Prasanth (2017) - Bacteriological profile of diabetic ulcer foot and their antimicrobial susceptibility pattern in a tertiary care hospital, Trichy"
                     ],
                     publications: [
-                        "Nanostructured Materials for Energy Applications - Advanced Materials, 2024",
-                        "Quantum Dot Technologies - Nano Letters, 2023"
+                        "Veena GN, Vineetha KU, Niraimathi M, Badri NSV, Rene CL, Rajesh YBRD, Dhiviya N, Anupriya A, Prabhusaran N, Saisubramaian N. Human vaginal Lactobacillus jensenii- derived (-)-terpinen-4-ol restores antibiotic sensitivity by inhibiting efflux pumps in drug resistant E. coli and K. pneumoniae. Scientific Reports 2025; 15: 31823 (WoS, PubMed, Scopus, Nature)",
+                        "Nair VG, Srinandan CS, Rajesh YBRD, Narbhavi D, Anupriya A, Prabhusaran N, Nagarajan S. Biogenic amine tryptamine in human vaginal probiotic isolates mediates matrix inhibition and thwarts uropathogenic E. coli biofilm. Scientific Reports 2024 Jul 4; 14(1): 15387. (WoS, PubMed, Scopus, Nature)",
+                        "Lalith Varsid CM, Chitra Rajalakshmi P, Prabhusaran N. Knowledge, attitude and practice towards hepatitis B vaccination among medical and nursing students in South India. Journal of Xidian University 2024; 18(4): 965-976. (Scopus)",
+                        "Prabhusaran N, Revwathy S, Vinitha P, Clitus A, Bharath Ragul M. Post COVID-19: analysis of reasons for mask wearing intention. International Journal of Pharmaceutical Sciences 2024; 2(4): 598-610. (DOAJ)",
+                        "Lalithambigai J, Saraswathi R, Anupriya A, Prabhusaran N. Antimicrobial susceptibility pattern of E. coli causing urinary tract infection with special reference to fluoroquinolone resistance in a tertiary care teaching hospital in South India. International Journal of Pharmaceutical and Clinical Research 2024; 16(3): 238-244. (Scopus)",
+                        "Kanagasanthosh K, Prabhusaran N, Saravanan KS, Poorani S. Audit of antibiotic prescription with emphasizing adherence to antibiotic policy: a prospective observational study from South India. International Journal of Toxicological and Pharmacological Research 2023; 13(9): 92-100. (Embase)",
+                        "Anupriya A, Prabhusaran N, Suganya R, Chitra Rajalakshmi P. COVID 19 vaccine booster acceptance and hesitancy among health care professionals. Innovations 2023; 75: 1031-1035. (Scopus)",
+                        "Sampath G, Muthusamy G, Sridharan K, Prabhusaran N, Neelamegam R, Muthukalingan K, Kayalvizhi N. Isolation and identification of metronidazole resistant Helicobacter pylori from gastric patients in the southeastern region of India and its advanced antibacterial treatment using biological silver oxide nanoparticles. Biochemical Engineering Journal 2022; 187: 108445 (8 pages). (Scopus, Embase, Elsevier)",
+                        "Ganeshkumar A, Prabhusaran N, Pramila M, Saranya B, Priya AA, Archunan G, Rajaram R. Antifungal susceptibility and virulence profile of Candida isolates from abnormal vaginal discharge of women from Southern India. European Journal of Obstetrics & Gynecology and Reproductive Biology 2020; 254: 153-158. ISSN: 0301-2115; Impact factor: 1.868. (WoS, Embase, PubMed, Scopus, Elsevier)",
+                        "Ganeshkumar A, Suvaithenamudhan S, Elanthamilan E, Arun G, Dileepan GAB, Prabhusaran N, Rajaram R. New Insight of red seaweed derived Callophycin A as an alternative strategy to treat drug resistant vaginal candidiasis. Bioorganic Chemistry 2020; 104: 104256. ISSN: 0045-2068; Impact factor: 4.831. (WoS, Embase, PubMed, Scopus, Elsevier)",
+                        "Prabhakar YK, Janardhan YE, Sreenivasulu D, Raju K, Krishna KJ, Prabhusaran N. Ameliorative effects of Mentha aquatic on diabetic and nephroprotective potential activities in STZ induced renal injury. Comparative Clinical Pathology 2019; 22: doi.org/10.1007/s00580-019-03042-6. ISSN: 1618-565X; Impact factor: 0.32. (Medline, PubMed and Springer)",
+                        "Sreenivasulu D, Sailaja G, Prabhakar Y, Prabhusaran N, Balaji M. Sensitivity of glutathione S-transferases to high doses of acrylamide in albino wistar rats: affinity purification, biochemical characterization and expression analysis. Ecotoxicology and Environmental Safety 2019; 182: 109416. ISSN: 0147-6513; Impact factor: 4.640. (Elsevier, PubMed and Medline)",
+                        "Prabhakar YK, Sreenivasulu D, Sreenath K, Prabhusaran N. In vivo antihyperglycemic, antihyperlipidemic, antioxidative stress and antioxidant potential activities of Syzygium paniculatum Gaertn. in streptozotocin induced diabetic rats. Heliyon 2019; 5(3): e01373. ISSN: 2405-8440; Impact factor: 0.572. (WoS, Scopus, PubMed, Elsevier)",
+                        "Raagavendhar VB, Prabhusaran N, Uma A, Hemalatha K, Natarajaseenivasan K, Joseph Pushpa Innocent D. Prevalence of leptospirosis among rice mill workers in Tiruchirapalli, South India. Annals of International Medical and Dental Research 2019; 5(1): MB06-MB13. ISSN: 2395-2614; Impact factor: 6.04. (PubMed, Index Medicus and Index Copernicus)"
                     ],
                     conferences: [
-                        "Invited Talk - International Nanotechnology Conference, Tokyo 2024",
-                        "Session Chair - Materials Research Society Meeting 2023"
+                        "Editorial Workshop on Editorial Integrity and Innovation: Navigating medical publishing in the Indian context – organized by Scientific Scholar (20th September 2025)",
+                        "National Webinar on Intellectual property Rights (IPR) – 2nd February 2021",
+                        "International Conference on Frontiers in Nano Science, Technology and Applications",
+                        "National Conference on Public Health challenges of Tropical Diseases moving towards universal access – Organized by Central University of Tamilnadu, Thiruvarur – 2020",
+                        "Workshop on Research Methodology & Biostatistics: How to do a good dissertation – The Tamilnadu Dr. MGR Medical University, 2020",
+                        "National Seminar on Artificial perception, machine learning for Human Robot interface – PSNA College Dindigul - 2019",
+                        "Seventh National Workshop on Research Methodology – TSRMMCH&RC - 2019"
                     ],
-                    patents: [
-                        "Nano-Biosensor Technology - Patent No: PAT-2024-067",
-                        "Advanced Nanomaterial Synthesis - Patent No: PAT-2023-112"
-                    ],
-                    awards: [
-                        "Nanotechnology Innovation Award - 2024",
-                        "Materials Science Excellence - 2023"
-                    ],
-                    editorial: [
-                        "Editorial Board - Nanoscale Research Letters",
-                        "Associate Editor - Journal of Nanomaterials"
-                    ]
+                    awards: ["Rabindra Ratna Puraskar 2025 – Veyil Foundation", "Incredible Academician of India 2021 – Record Owners", "SAS Best Academician Award", "I2OR – Distinguished Researcher Award"],
+                    journal_reviewer:["Saudi Journal of Pathology and Microbiology", "Indian Journal of Microbiology Research", "EC Emergency Medicine and Critical Care", "International Journal of Health and Pharmaceutical Research"],
+                    editorial: ["SCIREA Journal of Clinical Medicine", "Saudi Journal of Pathology and Microbiology", "International Journal of Infectious Diseases and Therapy", "Malaysian Journal of Medical and Biological Research (MJMBR)", "Journal of Microbiology and Biotechnology Research (JMBR)", "Journal of Drug Discovery and Development (JDDD)", "Global Journal of Nanomedicine (GJN)"]
                 },
-                {
-                    name: "Dr. Meera Reddy",
-                profileImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIC801LEXM0O7ZWYP4_W3Tj9YTwZ82rToeQ&s",
-                    position: "Member",
-                    specialization: "Data Science & Analytics",
-                    publications: 30,
-                    projects: 8,
-                    citations: 1350,
-                    interests: ["Big Data Analytics", "Machine Learning", "Predictive Modeling", "Data Visualization"],
-                    projectsList: [
-                        "Healthcare Analytics Platform",
-                        "Predictive Maintenance System",
-                        "Social Media Sentiment Analysis"
-                    ],
-                    publications: [
-                        "Big Data in Healthcare - Journal of Health Informatics, 2024",
-                        "Predictive Analytics Framework - Data Science Journal, 2023"
-                    ],
-                    conferences: [
-                        "Tutorial Session - KDD Conference, California 2024",
-                        "Research Track - International Data Science Conference 2023"
-                    ],
-                    patents: [
-                        "Intelligent Data Analytics Platform - Patent No: PAT-2024-098"
-                    ],
-                    awards: [
-                        "Data Science Innovation Award - 2024",
-                        "Best Analytics Research - 2023"
-                    ],
-                    editorial: [
-                        "Review Board - IEEE Transactions on Big Data",
-                        "Associate Editor - Journal of Data Science"
-                    ]
-                }
             ]
         };
 
@@ -511,7 +496,7 @@ const activities = [
             const section = document.getElementById('irpc-researchersSection');
             const hierarchy = [
                 { title: 'Leadership', key: 'president' },
-                { title: 'Secretary', key: 'secretary' },
+                { title: 'Coordinator', key: 'coordinator' },
                 { title: 'Members', key: 'members' }
             ];
 
@@ -532,16 +517,19 @@ const activities = [
                                     <div class="irpc-researcher-name">${researcher.name}</div>
                                     <div class="irpc-researcher-position">${researcher.position}</div>
                                     <div class="irpc-researcher-specialization">${researcher.specialization}</div>
-                                    <div class="irpc-researcher-stats">
-                                        <div class="irpc-stat-item">
+                                    ${researcher.projects || researcher.citations ?`<div class="irpc-researcher-stats">
+                                        ${researcher.projects ?`<div class="irpc-stat-item">
                                             <span class="irpc-stat-number">${researcher.projects}</span>
                                             <span class="irpc-stat-label">Projects</span>
                                         </div>
-                                        <div class="irpc-stat-item">
+                                        `:''}
+                                        ${researcher.citations ?`<div class="irpc-stat-item">
                                             <span class="irpc-stat-number">₹${researcher.citations}</span>
                                             <span class="irpc-stat-label">Fund</span>
                                         </div>
-                                    </div>
+                                        `:''}
+                                    </div>`:''}
+                                    
                                 </div>
                             </div>
                         `).join('')}
@@ -559,9 +547,15 @@ const activities = [
                 `<span class="interest-tag">${interest}</span>`
             ).join('');
             document.getElementById('irpc-modal-profile-image').src=researcher.profileImage
-            document.getElementById('irpc-modalProjects').innerHTML = researcher.projectsList.map(project => 
-                `<li>${project}</li>`
-            ).join('');
+            if(Array.isArray(researcher.projectsList)){
+                document.getElementById('irpc-modalProjects').innerHTML = researcher.projectsList.map(project => 
+                    `<li>${project}</li>`
+                ).join('');
+            }
+            else{
+                document.getElementById("projectSection").style.display="none";
+            }
+            
 
             document.getElementById('irpc-modalPublications').innerHTML = researcher.publications.map(pub => 
                 `<li>${pub}</li>`
@@ -570,18 +564,51 @@ const activities = [
             document.getElementById('irpc-modalConferences').innerHTML = researcher.conferences.map(conf => 
                 `<li>${conf}</li>`
             ).join('');
-
-            document.getElementById('irpc-modalPatents').innerHTML = researcher.patents.map(patent => 
+            
+            if(Array.isArray(researcher.patents)){
+                document.getElementById('irpc-modalPatents').innerHTML = researcher.patents.map(patent => 
                 `<li>${patent}</li>`
-            ).join('');
-
+                ).join('');
+            }
+            else{
+                document.getElementById("patentSection").style.display="none";
+            }
+            
             document.getElementById('irpc-modalAwards').innerHTML = researcher.awards.map(award => 
                 `<li>${award}</li>`
             ).join('');
 
-            document.getElementById('irpc-modalEditorial').innerHTML = researcher.editorial.map(role => 
+          
+
+            if(Array.isArray(researcher.editorial)){
+                document.getElementById('irpc-modalEditorial').innerHTML = researcher.editorial.map(role => 
+                 `<li>${role}</li>`
+                ).join('');
+            }
+            else{
+                document.getElementById("editorialSection").style.display="none";
+            }
+
+            if(Array.isArray(researcher.journal_reviewer)){
+                document.getElementById('irpc-modaljournal_reviewer').innerHTML = researcher.journal_reviewer.map(role => 
+                    `<li>${role}</li>`
+                ).join('');
+            }
+            else{
+                document.getElementById("journalSection").style.display="none";
+            }
+
+            if(Array.isArray(researcher.grant_reviewer)){
+                document.getElementById('irpc-modalgrant_reviewer').innerHTML = researcher.grant_reviewer.map(role => 
                 `<li>${role}</li>`
-            ).join('');
+                ).join('');
+            }
+            else{
+                document.getElementById("grantSection").style.display="none";
+            }
+            
+
+            
 
             modal.classList.add('irpc-active');
             document.body.style.overflow = 'hidden';

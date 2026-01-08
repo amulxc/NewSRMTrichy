@@ -120,8 +120,8 @@ const departments = [
     "color": "#b2bec3",
   },
   {
-    "dept_id": "Radiology",
-    "name": "Radiology",
+    "dept_id": "Radiodiagnosis",
+    "name": "Radio Diagnosis",
     "icon": "fas fa-x-ray",
     "color": "#636e72",
   },

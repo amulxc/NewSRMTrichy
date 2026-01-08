@@ -200,7 +200,7 @@
                 <ul class="sub-dropdown">
                   <li><a href="./hospital.html#services">Diagnostic Laboratory</a></li>
                   <li><a href="./hospital.html#specialties">Speciality Clinics</a></li>
-                  <li><a href="./hospital.html#camps">Health Camps</a></li>
+                  <li><a href="./camps.html">Health Camps</a></li>
                   <li><a href="#">Consultant</a></li>
                   <li><a href="./pharmacy.html">Pharmacy</a></li>
                   <li><a href="./transport.html">Transport</a></li>
@@ -212,7 +212,7 @@
                   <li><a href="#">Patient Portal</a></li>
                   <li><a href="./patientcorner.html#awareness">Hospital Awareness</a></li>
                   <li><a href="./patientcorner.html#testimonials">Patient AV</a></li>
-                  <li><a href="./medicalPackage.html">Health Checkup Package</a></li>
+                  <li><a href="./medicalpackage.html">Health Checkup Package</a></li>
               <li><a href="./patientcorner.html#insurance">Insurance Schemes</a></li>
               </ul>
               </li>

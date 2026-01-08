@@ -6,7 +6,7 @@
         name: "General Medicine",
         icon: "fa-stethoscope",
         color: "#3498db",
-        colorDark: "#2c81ba",
+        colorDark: "#2c81ba50",
 
         overview: "The Department of General Medicine provides comprehensive, evidence-based care for adults with acute and chronic medical conditions. We emphasize accurate diagnosis, holistic patient management and preventive health. We actively involved in teaching and mentoring Undergraduates and Postgraduates as part of our commitment to academic excellence. To become a leading centre of excellence in patient care, medical education and clinical research, setting the highest standards in Internal Medicine for the region and beyond. To provide excellence in clinical services, promote preventive healthcare and uphold the highest ethical standards. To provide advance medical education and fostering research while training Undergraduates and Postgraduates to make them to become skilled, caring medical professional.",
 
@@ -18,13 +18,6 @@
         ],
 
         infra_desc: "The department of General Medicine is equipped with well organized outpatient and inpatient facilities, supported by fully functional ICU and emergency services.",
-        infra: [
-            "Outpatient department with spacious consultation areas, dedicated examination rooms and comfortable waiting hall.",
-            "General Ward inpatient facilities with 8 wards of 30 beds each (240 beds total).",
-            "ICU & CCU facilities with 40 beds equipped with advanced monitoring and life-support systems.",
-            "Well-equipped procedure rooms for bone marrow aspiration, pleural aspiration and lumbar puncture.",
-            "Dedicated teaching spaces, seminar halls, demo halls and library for UG & PG training."
-        ],
 
         faculty_desc: "The department has a team of qualified and experienced faculty committed to academic excellence, research and clinical service.",
         doctor: [
@@ -111,16 +104,7 @@
         ],
 
         infra_desc: "The department is equipped with state-of-the-art facilities, teaching units and diagnostic services to support comprehensive emergency care.",
-        infra: [
-            "40-bedded emergency care facility",
-            "Resuscitation ICU",
-            "Isolation ward",
-            "Emergency ward",
-            "Minor OT",
-            "Emergency OT",
-            "Dedicated X-ray and CT units",
-            "24×7 dedicated automated laboratory services"
-        ],
+       
 
         teaching_research_infra: [
             "Seminar rooms and demo rooms",
@@ -188,15 +172,6 @@
             "To provide high-quality, evidence-based care for patients.",
             "To strengthen medical education with structured teaching, clinical training, and mentorship.",
             "To promote preventive healthcare through awareness, lifestyle modification, and early diagnosis."
-        ],
-
-        infra: [
-            "Well-organized outpatient and inpatient facilities supported by fully functional PICU and emergency services.",
-            "Outpatient department with multiple spacious consultation areas, dedicated examination rooms, and a comfortable waiting hall.",
-            "General ward with 4 wards having a total capacity of 120 beds for paediatric medical care.",
-            "PICU with 20 beds equipped with advanced monitoring systems, ventilators, and life support technologies.",
-            "procedure rooms for bone marrow aspiration, pleural aspiration, and lumbar puncture.",
-            "Dedicated teaching spaces including seminar halls, demo halls, and library facilities."
         ],
 
         doctor: [
@@ -274,19 +249,6 @@
             "To prepare competent dermatologists capable of independent practice, teaching and community service."
         ],
 
-        infra: [
-            "Well-structured Dermatology OPD with multiple consultation rooms equipped with dermatoscopes, privacy screens and diagnostic tools.",
-            "Dedicated female examination area with nursing staff support.",
-            "Minor procedure room for biopsies, cryotherapy, electrocautery, RF procedures, intralesional injections and emergency care.",
-            "Air-conditioned laser suite with CO₂ laser, Nd:YAG laser, RF cautery, hair removal laser, smoke evacuator and safety protocols.",
-            "Phototherapy room with whole-body NB-UVB unit, protection gear and dedicated dosing chart.",
-            "Side laboratory for rapid dermatological diagnostics including KOH, Gram & Giemsa staining, slit skin smear, dark field microscopy and centrifuge facilities.",
-            "NACO-standard STI clinic with counselling cubicle, syndromic management kits and dark-field microscopy.",
-            "Inpatient ward with separate male/female beds, isolation rooms, procedure trolleys and phototherapy support.",
-            "Demonstration room with AV aids, smart board and seating for 30–40 students.",
-            "Department library with updated textbooks, journals, dermoscopy image bank and case archives."
-        ],
-
         doctor: [
             { name: "Dr. R. Gnanasekaran", designation: "Professor"},
             { name: "Dr. K. Akila", designation: "Associate Professor"},
@@ -344,26 +306,6 @@
         ],
 
         infra_desc: "The Department is equipped with modern outpatient and inpatient facilities, dedicated psychotherapy and de-addiction unit, and advanced diagnostic services supporting comprehensive clinical care, academic training, and multidisciplinary research in mental health.",
-        infra: [
-            "Separate OPD rooms ensuring privacy/confidentiality",
-            "Well-equipped demonstration rooms for teaching students in OP & WARD",
-            "30 bedded ward - separate for male & female with basic facilities including a Deaddiction ward",
-            "Department library / e-library with internet facility",
-            "ECT Treatment Room - Modified Electroconvulsive Therapy - Brief pulse ECT",
-            "Psychology Lab - Bio-Feedback Therapy",
-            "Seguin Form Board Test (SFBT)",
-            "Binet Kamath Test of Intelligence (BKT)",
-            "Mains Intelligence Test for Indian Children (MISIC)",
-            "Wechsler Adult Intelligence Test",
-            "Rorschach Ink Blot Test",
-            "Thematic Apperception Test",
-            "Child Apperception Test",
-            "Rating scales and questionnaires for objective assessment",
-            "Neuropsychological battery of tests",
-            "Electroencephalogram (EEG)",
-            "Aversion Apparatus",
-            "Alcohol Breath Analyzer"
-        ],
 
         doctor: [
             {name: "Dr. S. Sivaraman", designation: "Professor & HOD"},
@@ -441,16 +383,6 @@
             "To create highly structured and quality respiratory care for a fully-fledged pulmonary rehabilitation program."
         ],
 
-        infra: [
-            "Spirometry and DLCO", 
-            "Flexible video Bronchoscope.", 
-            "Facilities for Thoracoscopy",
-            "Respiratory intensive care unit (RICU)",
-            "Specialty clinics and counselling rooms",
-            "Lecture Halls and seminar rooms",
-            "Department library/ e-library"
-        ],
-
         doctor: [
             {name: "Dr.K.G.RanganathaMallan", designation: "Professor", exp: "25"},
             {name: "Dr.R.VelRaj", designation: "Assistant Professor", exp: "17"},
@@ -516,12 +448,6 @@
             "To perform electrophysiological studies for rhythm disorders."
         ],
 
-        infra: [
-            "Outpatient department equipped with ECG, echocardiography and treadmill testing facilities.",
-            "Dedicated cardiac care unit with multiparameter monitors, bedside echocardiography and transesophageal echocardiography.",
-            "Holter monitoring facilities for continuous rhythm assessment."
-        ],
-
         doctor: [
             {
                 name: "Dr. A. Meenakshi",
@@ -564,46 +490,15 @@
         overview: "Comprehensive internal medicine care for all age groups. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
 
         procedure: [
-            "Daily Outpatient neurology clinics.",
-            "Dedicated Inpatient bed and comprehensive care.",
-            "Neuro critical care facilities with immunotherapies like plasmapheresis.",
-            "Stroke care including IV thrombolysis.",
-            "Nerve conduction studies (NCS).",
-            "Electroencephalogram (EEG)."
-        ],
-
-        infra: [
-            "Dedicated neurology outpatient and inpatient services with monitored beds.",
-            "Advanced neurodiagnostic facilities including EEG, EMG–NCV, and evoked potentials.",
-            "Access to modern neuroimaging services (CT, MRI, vascular imaging)."
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
         ],
 
         doctor: [
-            {
-            "name": "Dr. Jayakumar M",
-            "designation": "Professor / Consultant (Neurology)",
-            "exp": ""
-            },
-            {
-            "name": "Dr. Rahul Gandhi I",
-            "designation": "Assistant Professor / Consultant (Neurology)",
-            "exp": ""
-            },
-            {
-            "name": "Dr. Kaviyarasi K",
-            "designation": "Junior Resident",
-            "exp": ""
-            },
-            {
-            "name": "Mrs. Santhi D",
-            "designation": "Neurophysiology Technician",
-            "exp": ""
-            },
-            {
-            "name": "Mr. Anbarasan S",
-            "designation": "Neurophysiology Technician",
-            "exp": ""
-            }
+            {name: "Ram", designation: "Assistant professor", exp: "5"},
+            {name: "Sam", designation: "Assistant professor", exp: "5"},
+            {name: "John", designation: "Assistant professor", exp: "5"}
         ],
 
         services: [
@@ -615,6 +510,18 @@
             "Gastroenterology", 
             "Cardiology", 
             "Nephrology"
+        ],
+
+        pubStats: [
+            {label: "Publications", value: "30+"}
+        ],
+
+        research: [
+            "Chronic disease management"
+        ],
+
+        achievements: [
+            "Best Medicine Dept"
         ]
     },
     {
@@ -632,14 +539,6 @@
             "To deliver safe, ethical, and high-quality renal replacement therapy, including hemodialysis and post-transplant care.",
             "To support undergraduate and postgraduate medical education in nephrology in accordance with National Medical Commission (NMC) guidelines.",
             "To promote clinical research and academic activities aimed at advancing nephrology practice and improving patient outcomes."
-        ],
-
-        infra: [
-            "20 fully functional Hemodialysis Units", 
-            "Dedicated Transplant ICU", 
-            "Separate Post-Transplant Ward", 
-            "Facilities for AKI, CKD, and renal replacement therapy",
-            "Infrastructure supporting NMC-compliant clinical, teaching, and research activities"
         ],
 
         doctor: [
@@ -676,14 +575,6 @@
         ],
 
         infra_desc: "The department is supported by dedicated oncology infra designed to ensure safe chemotherapy delivery, infection control, and continuous patient monitoring.",
-        
-        infra: [
-            "Dedicated chemotherapy ward with monitored beds",
-            "Trained medical and nursing staff for oncology care",
-            "Facilities for safe drug preparation and administration",
-            "Emergency support and infection control measures",
-            "Patient counseling and follow-up care facilities"
-        ],
 
         faculty_desc: "The department is led by experienced oncology faculty with expertise in both radiation and medical oncology, ensuring comprehensive cancer care.",
         
@@ -726,13 +617,6 @@
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
         ],
 
-        infra: [
-            "OPD rooms", 
-            "Inpatient wards", 
-            "ICU", 
-            "procedure room"
-        ],
-
         doctor: [
             {name: "Ram", designation: "Assistant professor", exp: "5"},
             {name: "Sam", designation: "Assistant professor", exp: "5"},
@@ -761,7 +645,7 @@
             "Excellence in Mental Health"
         ]
     },
-    {
+      {
         id: "general_surgery",
         name: "General Surgery",
         icon: "fa-user-md",
@@ -778,14 +662,6 @@
         ],
 
         infra_desc: "The department is equipped with dedicated clinical units and teaching facilities to support both academic and diagnostic activities, offering comprehensive care for various surgical conditions.",
-        infra: [
-            "Outpatient Department with reception & waiting area, consultation room, examination room, dressing room, minor procedure room, demo room with audio-visual aids",
-            "In-Patient Ward with 8 surgical wards equipped with basic life-supporting facilities",
-            "Endoscopy Suite equipped for UPPER GI Endoscopy & Colonoscopy",
-            "Surgical ICU, Male Post-Operative Ward, Female Post-Operative Ward, Burns Ward",
-            "Fully equipped operation theatre for open and laparoscopic surgeries",
-            "Department library, seminar hall, museum, 8 demo rooms with audio-visual aids"
-        ],
 
         doctor: [
             {name: "Dr.P.Karthick", designation: "Professor & HOD"},
@@ -856,13 +732,6 @@
         ],
 
         infra_desc: "The department is equipped with dedicated operation theatres, a trauma care unit, physiotherapy facilities, diagnostic support systems and skill-lab provisions for academic training.",
-        infra: [
-            "Orthopaedic OT with laminar airflow and modular setup.",
-            "Trauma ward with resuscitation facilities.",
-            "C-arm, arthroscopy unit, power tools and external fixators.",
-            "Physiotherapy and rehabilitation centre.",
-            "Supportive radiology including X-ray, CT and MRI."
-        ],
 
         faculty_desc: "The department has a team of highly experienced faculty dedicated to providing quality surgical care, teaching and research.",
         doctor: [
@@ -930,11 +799,6 @@
         ],
 
         infra_desc: "The ENT Department is equipped with modern, patient-friendly infra designed to support outpatient, inpatient, emergency, and surgical services.",
-        infra: [
-            "Dedicated endoscopy room with fibre-optic and rigid endoscopes for nasal, laryngeal, and otology evaluation",
-            "Audiology & Speech Therapy Unit: Pure Tone Audiometry (PTA), Otoacoustic Emissions (OAE), BERA/ABR, Speech Therapy",
-            "Teaching & Training Facilities: Demo room with audio-visual equipment, Skill lab for demonstrations and training, Access to digital learning resources and journals"
-        ],
 
         doctor: [
             { name: "Dr. G. Gandhi", designation: "Professor & HOD"},
@@ -998,15 +862,6 @@
         ],
 
         infra_desc: "The Department is equipped with state-of-the-art OPD, OT facilities, teaching and research equipment to support academic and diagnostic activities.",
-
-        infra: [
-            "Refraction unit with LED vision charts",
-            "Diagnostic equipment: OCT, CCT, B-Scan, A-Scan, Fundus camera, Perimetry, Green laser, YAG laser, anterior segment imaging system",
-            "Well-equipped wet lab for Postgraduates",
-            "Well-equipped OT with higher end microscopes and Amo Intuitive Phaco machine",
-            "Advanced research lab and updated museum",
-            "Lecture hall with smart classroom facilities"
-        ],
 
         faculty_desc: "The department has a team of qualified and experienced faculty committed to academic excellence, research, and clinical service.",
 
@@ -1080,13 +935,6 @@
         ],
 
         infra_desc: "The department is equipped with modern labour rooms, neonatal care units, operation theatres, and ultrasonography facilities.",
-        infra: [
-            "Dedicated labour ward with fetal monitoring systems",
-            "Emergency obstetric care unit",
-            "Modular OT for obstetric & gynaecologic surgeries",
-            "Colposcopy & Endoscopy units",
-            "Ultrasound & Doppler facilities"
-        ],
 
         faculty_desc: "Highly Qualified Faculty with Extensive Clinical and Academic Experience.",
         doctor: [
@@ -1170,14 +1018,7 @@
         ],
 
         infra_desc: "The department is well-equipped with modern teaching, clinical and research infra to support academic excellence and patient care.",
-        infra: [
-            "Lecture hall with projector",
-            "Demo hall with LED TV",
-            "Museum with scientific charts and equipment",
-            "Department library with books and journals",
-            "Research laboratory (1)",
-            "14 fully functional operation theatres"
-        ],
+    
 
         doctor: [
             { name: "Dr.Vijay Kanna M. M", designation: "Professor & HOD"},
@@ -1243,11 +1084,11 @@
         ]
     },
     {
-        id: "radiology",
-        name: "Radio Diagnosis",
+        id: "Radiodiagnosis",
+        name: "Radiodiagnosis",
         icon: `<i class="material-symbols-outlined">rib_cage</i>`, 
-        color: "#dace26ff", 
-        colorDark: "#857c06ff",
+        color: "#dace264b", 
+        colorDark: "#857d068e",
 
         overview: "The Department of Radiology provides comprehensive diagnostic and interventional imaging services, supporting accurate clinical decision-making through advanced imaging technologies and expert interpretation. To deliver excellence in diagnostic and interventional radiology services, education, and research using state-of-the-art imaging technology. To provide accurate, timely and patient-centered imaging services, train undergraduate and postgraduate students in advanced radiological techniques, promote innovative research in imaging sciences, and support clinical departments with integrated diagnostic and interventional expertise.",
 
@@ -1258,17 +1099,16 @@
         ],
 
        infra_desc: "The department is equipped with modern imaging facilities to support diagnostic and interventional radiology services.",
-        infra: [
-            "3 Tesla MRI Scanner – Siemens Vida",
-            "Cardiac CT capable CT Scanner – Siemens Go All",
-            "Digital Radiography and Fluoroscopy Units",
-            "Ultrasound systems with Doppler and Elastography",
-            "PACS and RIS integrated reporting systems",
-            "Dedicated Interventional Radiology Suite"
+         infra:[
+            "MRI",
+            "CT Scan",
+            "Mamogram",
+            "Ultrasound and Doppler imaging",
+            "Lobby",
+            "Digital X-Ray"
         ],
-
         doctor: [
-            { name: "Dr V Senthilnathan", designation: "Professor & HOD"},
+            { name: "Dr.V.Senthilnathan", designation: "Professor & HOD"},
             { name: "Dr Krishnakumar M", designation: "Professor"},
             { name: "Dr Govardhanan", designation: "Professor"},
             { name: "Dr C Ravindran", designation: "Professor"},
@@ -1278,7 +1118,7 @@
             { name: "Dr B Ananda Kumar", designation: "Assistant Professor"},
             { name: "Dr Azmin", designation: "Assistant Professor"},
             { name: "Dr Ganesh", designation: "Assistant Professor"},
-            { name: "Dr Sathya Priya", designation: "Assistant Professor"},
+            { name: "Dr Sathyapriya", designation: "Assistant Professor"},
             { name: "Dr Balaji", designation: "Senior Resident"},
             { name: "Dr Shri Devi", designation: "Senior Resident"},
             { name: "Dr Firdhous Begum", designation: "Senior Resident"},
@@ -1324,7 +1164,7 @@
         id: "dentistry",
         name: "Dentistry",
         icon: "fa-tooth",
-        color: "#50b5efff",
+        color: "#50b5ef59",
         colorDark: "#0c95b8ff",
 
         overview: "The Department of Dentistry focuses on the scientific study of disease processes through laboratory investigations, tissue diagnosis, and research. It plays a crucial role in patient care, providing the best dental treatment at affordable cost. To create a competent and socially responsible system by providing quality oral health care and progressive research. To improve oral health, functionality and esthetics of people with quality dental care, in order to improve their nutrition, confidence and quality of life. To pursue collaborative research in the field of oral health.",
@@ -1337,14 +1177,12 @@
 
         infra_desc: "The Dental Department functions in an area of 5350 sq.ft. It includes reception, patient waiting area, OPD, four specialty clinics, IOPA room, CBCT Room with console, Minor OT with recovery area, prosthetic laboratory, and sterilization room.",
         infra: [
-            "Reception and patient waiting area",
-            "Outpatient Department (OPD)",
-            "4 Specialty Dental Clinics",
-            "IOPA Room",
-            "CBCT Room with Console",
-            "Minor OT with Recovery Area",
-            "Prosthetic Laboratory",
-            "Sterilization Room"
+            "Dental Chair",
+            "Dental CBCT",
+            "Scan",
+            "Pediatric Dental Room",
+            "Lobby",
+            "Reception",
         ],
 
         faculty_desc: "The department has a team of qualified and experienced faculty committed to academic excellence, research, and clinical service.",
@@ -1361,36 +1199,13 @@
         services_desc: "The department embraces multiple dental specialties and provides a wide range of diagnostic and therapeutic services.",
         services: [
             "Extractions including trans-alveolar extraction and impacted tooth removal",
-            "Periapical surgeries",
-            "Biopsy and histopathological reporting",
-            "Incision and drainage",
-            "Restorations – Silver Amalgam, Glass Ionomer, Composite",
-            "Root canal treatment",
-            "Partial dentures – removable and fixed",
-            "Complete dentures including implant-supported dentures",
-            "Crowns – Metal, Metal Ceramic, High-quality Metal Ceramic, All Ceramic, CAD/CAM full contour, Acrylic crowns",
-            "Scaling and root planing",
-            "Curettage and flap surgeries",
-            "Removable orthodontic appliances",
-            "Fixed orthodontic appliances – Straight wire, Lingual, Self-ligating, Clear aligners, Ceramic braces",
-            "Orthopedic appliances",
-            "Intraoral periapical radiographs, orthopantomogram & lateral cephalogram",
-            "Splinting and retainers",
-            "Smile designing",
-            "Esthetic dental restorations",
-            "Pulp therapy and crowns for deciduous teeth",
-            "Bleaching",
-            "Post and core build-up",
-            "Intermaxillary fixation / ORIF",
-            "Advanced maxillofacial trauma management",
-            "Dental implants and prosthetic rehabilitation",
-            "Preventive pediatric dental procedures",
-            "Myofunctional appliances",
-            "Avulsed tooth management",
-            "Maxillofacial prosthesis – ocular prosthesis, obturators",
-            "Cleft lip and palate repair (Nasoalveolar molding)",
-            "Orthognathic surgeries",
-            "3D CBCT"
+            "Restorations – Silver Amalgam, Glass Ionomer, Composite and esthetic dental restorations",
+            "Root canal treatment, post and core build-up, and crowns",
+            "Partial and complete dentures including implant-supported dentures",
+            "Scaling and root planing, curettage, and flap surgeries",
+            "Fixed and removable orthodontic appliances including aligners and ceramic braces",
+            "Maxillofacial trauma management including intermaxillary fixation and ORIF",
+            "Advanced imaging including intraoral radiographs, OPG, lateral cephalogram, and 3D CBCT"
         ],
 
         pubStats: [
@@ -1424,16 +1239,6 @@
             "To ensure maximum occupational rehabilitation of patients after heart and lung surgery.",
             "To deliver safe, ethical, and patient-centred cardiothoracic surgical care."
         ],
-
-        infra: [
-            "24×7 intensive care unit and trauma care services.",
-            "State-of-the-art operation theatres with advanced cardiothoracic facilities.",
-            "Heart–lung machine for open heart surgeries.",
-            "Advanced patient monitoring systems.",
-            "Infusion and syringe pump devices.",
-            "Mechanical circulatory support devices."
-        ],
-
         doctor: [
             {
                 name: "Dr. R. Ashwene",
@@ -1475,13 +1280,6 @@
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
         ],
 
-        infra: [
-            "OPD rooms", 
-            "Inpatient wards", 
-            "ICU", 
-            "procedure room"
-        ],
-
         doctor: [
             {name: "Ram", designation: "Assistant professor", exp: "5"},
             {name: "Sam", designation: "Assistant professor", exp: "5"},
@@ -1518,32 +1316,38 @@
         color: "#ff9800", 
         colorDark: "#f57c00",
 
-        overview: "The Department of Urology delivers comprehensive, evidence-based urological care through a team of experienced, skilled, and compassionate urologists. Equipped with state-of-the-art technology for advanced endourology and laparoscopic procedures, the department is committed to providing innovative, cost-effective treatment. Along with clinical excellence, we focus on research, community trust, and patient education to promote disease awareness, early detection, and prevention in urological health.",
+        overview: "Comprehensive child healthcare with NICU and PICU facilities. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
 
         procedure: [
-            "To deliver innovative and cost-effective treatment while maintaining high clinical standards.",
-            "To promote research and continuous advancement in urological practice.",
-            "To build trust within the community through ethical and patient-centered care.",
-            "To educate patients on urological diseases, focusing on awareness, early detection, and prevention."
-        ],
-
-        infra: [
-            "OPD rooms", 
-            "Inpatient wards", 
-            "ICU", 
-            "Procedure room",
-            "Advanced endourological  equipments"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
         ],
 
         doctor: [
-            {name: "Dr. Keerthi Rams", designation: "Assistant professor", exp: "6"},
-            {name: "Dr. Barath Venkat", designation: "Assistant professor", exp: "2"},
+            {name: "Ram", designation: "Assistant professor", exp: "5"},
+            {name: "Sam", designation: "Assistant professor", exp: "5"},
+            {name: "John", designation: "Assistant professor", exp: "5"}
         ],
 
-        services: ["All endourology procedures for Kidney stones", "Enlarged prostate","Andrology","Reconstructive urology"],
+        services: [
+            "General Pediatrics", 
+            "Neonatology", 
+            "PICU", 
+            "Immunization", 
+            "Growth Monitoring"
+        ],
 
         pubStats: [
             {label: "Publications", value: "24+"}
+        ],
+
+        research: [
+            "Neonatal outcomes"
+        ],
+
+        achievements: [
+            "Best NICU"
         ]
     },
     {
@@ -1600,13 +1404,6 @@
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
         ],
 
-        infra: [
-            "OPD rooms", 
-            "Inpatient wards", 
-            "ICU", 
-            "procedure room"
-        ],
-
         doctor: [
             {name: "Ram", designation: "Assistant professor", exp: "5"},
             {name: "Sam", designation: "Assistant professor", exp: "5"},
@@ -1651,14 +1448,6 @@
         ],
 
         infra_desc: "The department is equipped with a dedicated clinical unit, teaching facilities, and modern surgical infra to support academic, diagnostic, reconstructive, aesthetic, and trauma care services.",
-
-        infra: [
-            "Dedicated clinical unit",
-            "Teaching and academic facilities",
-            "Reconstructive surgical care unit",
-            "Aesthetic surgery facilities",
-            "Trauma and burn care support"
-        ],
 
         faculty_desc: "The department has a team of qualified and experienced faculty committed to academic excellence, research, and clinical service.",
 
@@ -1735,15 +1524,6 @@
             "To uphold high standards of patient safety, ethical practice, and quality care while continuously updating clinical skills and knowledge."
         ],
 
-        infra: [
-            "Dedicated vascular surgery outpatient consultation rooms",
-            "Screening Doppler facilities",
-            "Fully equipped operation theatres for open and endovascular procedures",
-            "Surgical ICU for post-operative care",
-            "Post-operative vascular ward",
-            "Advanced imaging support (CT/MR Angiography)"
-        ],
-
         doctor: [
             {
                 name: "Dr Arun Prasath S",
@@ -1795,14 +1575,6 @@
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
         ],
-
-        infra: [
-            "Pulmonary function lab", 
-            "Bronchoscopy suite", 
-            "Respiratory ICU", 
-            "Sleep study lab"
-        ],
-
         doctor: [
             {name: "Ram", designation: "Assistant professor", exp: "5"},
             {name: "Sam", designation: "Assistant professor", exp: "5"},
@@ -1851,16 +1623,7 @@
         ],
 
         infra_desc: "The department is fully equipped to support excellence in academics and research.",
-        infra: [
-            "Dissection hall with cadaver storage facilities",
-            "Histology lab with microscopy units and tissue processing facilities",
-            "Neurology laboratory with diverse neurology specimens",
-            "Research laboratory",
-            "Museum with rich human dissected specimen collection",
-            "Department library with diverse books",
-            "Demonstration Rooms with audio visual system (90 students capacity)"
-        ],
-
+       
         faculty_desc: "A dedicated team of teaching faculty supports and guides students in their pursuit of academic excellence and research.",
         doctor: [
             { name: "Dr.C.Gnanavelraja", designation: "Professor & HOD", exp: "18" },
@@ -1931,39 +1694,6 @@
         ],
 
         infra_desc: "The department is fully equipped to support excellence in academics and research.",
-        infra: [
-            "Department office is available.",
-            "Staff (Steno / Clerk) is available.",
-            "Computer and related office equipment are available.",
-            "Storage space for files is available.",
-            "Office space for teaching faculty and residents is available.",
-            "Faculty office is available.",
-            "Head of the Department office is available.",
-            "Professors' offices are available.",
-            "Associate Professors' offices are available.",
-            "Assistant Professor offices are available.",
-            "Senior residents' room is available.",
-            "PG room is available.",
-            "Seminar room space and facility is available.",
-            "Seminar room internet facility is available.",
-            "Seminar room audio-visual equipment is available.",
-            "Hematology Lab has an area of 287.52 sq.mt, capacity of 90 students, water supply, sinks, electric points, and cupboards are available.",
-            "Clinical Physiology Lab has an area of 120.05 sq.mt, capacity of 30 students, water supply, sinks, electric points, and cupboards are available.",
-            "Amphibian Lab has an area of 221 sq.mt, capacity of 90 students, water supply, sinks, electric points, and cupboards are available.",
-            "Mammalian Lab has an area of 170.33 sq.mt, capacity of 90 students, water supply, sinks, electric points, and cupboards are available.",
-            "Department Library has an area of 41.31 sq.mt, capacity of 20 students, water supply, electric points, and cupboards are available.",
-            "Research Lab has an area of 58.03 sq.mt, capacity of 25 students, water supply, sinks, electric points, and cupboards are available.",
-            "Demo Hall - 1 has an area of 96.36 sq.mt, capacity of 90 students, water supply, sinks, electric points, and cupboards are available.",
-            "Demo Hall - 2 has an area of 96.54 sq.mt, capacity of 90 students, water supply, sinks, electric points, and cupboards are available.",
-            "Demo rooms available: 2, with LCD Projector - 2, Projector screen - 2, Mike - 2, Whiteboard - 2.",
-            "Haematology lab available: 1, with Black board & Computer - 1.",
-            "Mammalian lab available: 1, with Black board - 1.",
-            "Amphibian lab available: 1, with Black board - 1.",
-            "Clinical lab available: 1, with Black board - 1.",
-            "Research lab available: 1, with Portable LCD projector - 1, White board - 1, Internet connection.",
-            "Library cum seminar hall available: 1, with 3 Computers.",
-            "Museum available: 1, with Models, charts & Instruments."
-        ],
 
         faculty_desc: "The department has a team of qualified and experienced faculty committed to academic excellence, research, and clinical service",
         doctor: [
@@ -2044,12 +1774,6 @@
         ],
 
         infra_desc: "The department has well-equipped laboratories and teaching resources to support academic, diagnostic, and research needs.",
-        infra: [
-            "General Biochemistry Lab (297.71 sq.m)",
-            "Department Research cum PG Lab (92.79 sq.m)",
-            "Clinical Biochemistry Lab 1 (24.50 sq.m)",
-            "Clinical Biochemistry Lab 2 (24.43 sq.m)"
-        ],
 
         teaching_research_infra: [
             "Lecture halls and seminar rooms",
@@ -2128,12 +1852,6 @@
             "Explaining natural history, complications, and community impact of diseases."
         ],
         infra_desc: "The department is equipped with advanced laboratories and diagnostic systems essential for efficient processing, analysis, and reporting of patient samples.",
-        infra: [
-            "Histopathology and Cytopathology Laboratories with modern tissue processing units",
-            "Clinical Pathology / Laboratory Medicine sections (Hematology, Cytology, Tissue Pathology)",
-            "Automated Analyzers for Hematology and Clinical Pathology",
-            "Specialized diagnostic services including Frozen Section, Immunohistochemistry (IHC), Immunofluorescence (IF)"
-        ],
         teaching_research_infra: [
             "Dedicated practical laboratories",
             "Modern diagnostic equipment",
@@ -2212,12 +1930,7 @@
             "Foster research on emerging infections, opportunistic infections, and antimicrobial resistance."
         ],
         infra_desc: "The Department of Microbiology is equipped with modern infra to support teaching, diagnostics, and round-the-clock clinical laboratory services.",
-        infra: [
-            "Spacious lecture halls, demonstration rooms, and practical halls",
-            "Museum and departmental library",
-            "24/7 Clinical Microbiology laboratory",
-            "Automated culture and diagnostic systems"
-        ],
+   
         doctor: [
             { name: "Dr. P. Chitra Rajalakshmi", designation: "Professor & Head", exp: 17 },
             { name: "Dr. R. Saraswathi", designation: "Professor", exp: 12 },
@@ -2282,12 +1995,7 @@
             "Respect professional values"
         ],
         infra_desc: "The department has made visible efforts to meet and exceed spatial norms—a positive sign in terms of infra and planning.",
-        infra: [
-            "Departmental space & demo rooms",
-            "Research equipment & skill laboratory facilities",
-            "Animal house & computer assisted learning facilities",
-            "Institutional Lecture hall & library"
-        ],
+      
         doctor: [
             { name: "Dr. Asokan. B.R", designation: "Professor & HOD", exp: 17 },
             { name: "Dr. Kamalasundar. T", designation: "Associate Professor", exp: 8 },
@@ -2346,12 +2054,7 @@
             "Prepare and issue medical certificates."
         ],
         infra_desc: "The Department is equipped with modern facilities including research laboratories, museum sections, smart demo rooms, mortuary block, and a departmental library to support teaching and research.",
-        infra: [
-            "Research laboratory and museum with preserved specimens",
-            "Two demo rooms with smart classroom facilities",
-            "Mortuary block",
-            "Department library cum seminar room"
-        ],
+      
         doctor: [
             { name: "Dr. RAJENDRA KUMAR R", designation: "Professor & Head", exp: "22" },
             { name: "Dr. A. DOMINIC INFANT RAJ", designation: "Professor", exp: "10" },
@@ -2399,10 +2102,6 @@
             "To sensitize, conduct and promote student research activities on priority health needs of the community"
         ],
         infra_desc: "The department provides comprehensive training infra through field practice areas, laboratories, museum and lecture halls to support community-based learning.",
-        infra: [
-            "Three primary health centers at Sangeethi, Samayapuram & Valadi for training UG, interns and PGs",
-            "Two demo halls, one museum, PG & UG labs and a lecture hall for teaching purposes"
-        ],
         doctor: [
             { name: "Dr. K. Hemalatha", designation: "Professor & HOD", exp: "12" },
             { name: "Dr. Suguna", designation: "Professor", exp: "9" },
@@ -2579,12 +2278,15 @@ async function loadDoctorsFromExcel() {
                     <div class="section">
                         <div class="overview-card">
                             <h2 class="section-title">Department Overview</h2>
-                            <p class="overview-text">${dept.overview}</p>
+                            <div class="dept-overview">
+                                <img src="./assets/images/dept_images/${dept.name}/hero-image.jpg" alt="">
+                                <p class="overview-text">${dept.overview}</p>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Procedures & Infrastructure -->
-                    <div class="section">
+                    <div class="section ">
                         <div class="grid-2">
                             ${dept.procedure ? `
                             <div class="info-card">
@@ -2597,32 +2299,37 @@ async function loadDoctorsFromExcel() {
                                 </ul>
                             </div>
                             ` : ''}
-
-                            ${dept.infra ? `
-                            <div class="info-card">
+                             ${dept.services && dept.services.length > 0 ? `
+                                <div class="info-card">
                                 <h3 class="info-card-title">
                                     <i class="fas fa-building"></i>
-                                    Infrastructure
+                                    Services
                                 </h3>
                                 <ul class="info-list">
-                                    ${dept.infra.map(item => `<li>${item}</li>`).join('')}
+                                            ${dept.services.map(item => `<li>${item}</li>`).join('')}
                                 </ul>
                             </div>
-                            ` : ''}
+                                ` : ''}
                         </div>
                     </div>
 
                     <!-- Services Section -->
 
-                     ${dept.services && dept.services.length > 0 ? `
-                    <div class="section">
-                        <h2 class="section-title">Services</h2>
-                        <div class="info-card">
-                            <ul class="info-list">
-                                ${dept.services.map(item => `<li>${item}</li>`).join('')}
-                            </ul>
+                    ${dept.infra ?  `
+                        <div class="section infra-section">
+                        <h2 class="section-title">Infrastructure</h2>
+                            <div class="infra">
+                                
+                                ${
+                                    dept.infra.map((x,i) =>
+                                        `<div class="infra-card">
+                                            <img src="./assets/images/dept_images/${dept.name}/${i+1}.jpg" alt="">
+                                            <p>${x}</p>
+                                        </div>`
+                                    ).join("")
+                                }
+                            </div>
                         </div>
-                    </div>
                     ` : ''}
                    
 
@@ -2664,7 +2371,7 @@ async function loadDoctorsFromExcel() {
                             </ul>
                         </div>
                     </div>
-                    ` : '<br><br><br><br>'}
+                    ` : ''}
 
                     <!-- Achievements Section -->
                      ${dept.achievements && dept.achievements.length > 0 ? `
@@ -2687,6 +2394,15 @@ async function loadDoctorsFromExcel() {
 
             document.getElementById('app').innerHTML = html;
             document.title = `${dept.name} - Department`;
+            let breadcrum = document.getElementById('breadcrum-section')
+            breadcrum.style.backgroundImage = `
+            linear-gradient(to right, ${dept.color}, ${dept.colorDark}),
+            url(./assets/images/dept_images/${dept.name}/breadcrum.jpg)
+            `;
+            breadcrum.style.height="70vh"
+            breadcrum.style.backgroundSize = "cover";
+            breadcrum.style.backgroundPosition = "center";
+            breadcrum.style.backgroundRepeat = "no-repeat";
         }
 
         // Show not found message
@@ -2713,14 +2429,15 @@ async function loadDoctorsFromExcel() {
                 return;
             }
 
-            const department = depts.find(d => d.id.toLowerCase() === deptId.toLowerCase());
+            const department = depts.find(d => d.id === deptId);
+            console.log(department)
             if (department) {
                 renderDepartment(department);
             } else {
                 showNotFound();
             }
         }
-        function viewDoctorProfile(id) {
+         function viewDoctorProfile(id) {
 
             let doctor = doctorsData.find(x => x.id == id);
 

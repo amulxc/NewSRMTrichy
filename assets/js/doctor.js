@@ -428,10 +428,11 @@ document.addEventListener("DOMContentLoaded", async () => {
                                 <i class="fas fa-briefcase"></i>
                                 <span>${doctor.designation}</span>
                             </div>    
-                            <div class="detail-item">
+                            ${(doctor.experience>9)?`<div class="detail-item">
                                 <i class="fas fa-calendar"></i>
                                 <span>${doctor.experience}+ Years of Experience</span>
-                            </div>
+                            </div>`:''}
+                            
                             <div class="detail-item" style="color:${doctor.shift !== "Regular Shift" ? "red" : "blue"}">
                                 <i class="fas fa-clock" style="color:${doctor.shift !== "Regular Shift" ? "red" : "blue"}"></i>
                                 <span>${doctor.shift}</span>
