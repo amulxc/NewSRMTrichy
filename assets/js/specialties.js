@@ -1,6 +1,6 @@
 const departments = [
   {
-    "dept_id": "Anatomy",
+    "dept_id": "anatomy",
     "name": "Anatomy",
     "icon": "fas fa-bone",
     "color": "#1abc9c",
@@ -12,7 +12,7 @@ const departments = [
     "color": "#16a085",
   },
   {
-    "dept_id": "Biochemistry",
+    "dept_id": "biochemistry",
     "name": "Biochemistry",
     "icon": "fas fa-flask",
     "color": "#2ecc71",
@@ -121,7 +121,7 @@ const departments = [
   },
   {
     "dept_id": "Radiodiagnosis",
-    "name": "Radio Diagnosis",
+    "name": "Radiodiagnosis",
     "icon": "fas fa-x-ray",
     "color": "#636e72",
   },
@@ -173,7 +173,7 @@ const departments = [
     "color": "#20bf6b",
   },
   {
-    "dept_id": "Dentistry",
+    "dept_id": "dentistry",
     "name": "Dentistry",
     "icon": "fas fa-tooth",
     "color": "#207fbfff",

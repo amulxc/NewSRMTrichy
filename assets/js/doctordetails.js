@@ -112,7 +112,7 @@ function loadDoctorData() {
     const awardsContainer = document.getElementById('awardsContainer');
     const awards = doctorData['Awards / Recognitions'];
 
-    if (awards && awards !== '-') {
+    if (awards.length>0 && awards !== '-') {
         const awardsArray = awards.split(/[,|]/).map(a => a.trim());
         awardsContainer.innerHTML = awardsArray.map(award =>
             `<div class="doc-award-item"><i class="fas fa-award"></i> ${award}</div>`
