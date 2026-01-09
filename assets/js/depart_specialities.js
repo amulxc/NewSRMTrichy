@@ -292,7 +292,7 @@
         ]
     },
     {
-        id: "psychiatry", 
+        id: "Psychiatry", 
         name: "Psychiatry", 
         icon: "fa-brain", 
         color: "#673ab7", 
@@ -1084,11 +1084,11 @@
         ]
     },
     {
-        id: "Radiodiagnosis",
-        name: "Radiodiagnosis",
+        id: "Radio Diagnosis",
+        name: "Radio Diagnosis",
         icon: `<i class="material-symbols-outlined">rib_cage</i>`, 
-        color: "#dace264b", 
-        colorDark: "#857d068e",
+        color: "#dace26ff", 
+        colorDark: "#857d06ff",
 
         overview: "The Department of Radiology provides comprehensive diagnostic and interventional imaging services, supporting accurate clinical decision-making through advanced imaging technologies and expert interpretation. To deliver excellence in diagnostic and interventional radiology services, education, and research using state-of-the-art imaging technology. To provide accurate, timely and patient-centered imaging services, train undergraduate and postgraduate students in advanced radiological techniques, promote innovative research in imaging sciences, and support clinical departments with integrated diagnostic and interventional expertise.",
 
@@ -1098,7 +1098,7 @@
             "To utilize the values of professional ethics, lifelong learning and adaptability."
         ],
 
-       infra_desc: "The department is equipped with modern imaging facilities to support diagnostic and interventional radiology services.",
+        infra_desc: "The department is equipped with modern imaging facilities to support diagnostic and interventional radiology services.",
          infra:[
             "MRI",
             "CT Scan",
@@ -1164,7 +1164,7 @@
         id: "dentistry",
         name: "Dentistry",
         icon: "fa-tooth",
-        color: "#50b5ef59",
+        color: "#50b5efff",
         colorDark: "#0c95b8ff",
 
         overview: "The Department of Dentistry focuses on the scientific study of disease processes through laboratory investigations, tissue diagnosis, and research. It plays a crucial role in patient care, providing the best dental treatment at affordable cost. To create a competent and socially responsible system by providing quality oral health care and progressive research. To improve oral health, functionality and esthetics of people with quality dental care, in order to improve their nutrition, confidence and quality of life. To pursue collaborative research in the field of oral health.",
@@ -1609,7 +1609,7 @@
         id: "anatomy",
         name: "Anatomy",
         icon: "fa-person", 
-        color: "#e74c3c", 
+        color: "#e74d3cff", 
         colorDark: "#c0392b",
 
         overview: "The Department of Anatomy is passionate about teaching and advancing the understanding of human structure and development, aiming to provide in-depth knowledge of all subdivisions of Human Anatomy. This foundation supports meaningful application in clinical practice, research and related scientific fields. To make the students acquire scientific knowledge about the structure of the human body to be used in the academic and research activities and its application in clinical practice. To provide comprehensive knowledge of Gross Anatomy, Microscopic structure and Development of the human body. To provide an anatomical basis for understanding the clinical correlation of different organ systems and its application in research activities.",
@@ -2143,6 +2143,467 @@
     }
 ];
 
+
+const FAQJson = [
+  {
+    dept_id: "anatomy",
+    questions: [
+      {
+        question: "What does the Anatomy department specialize in?",
+        answer: "The Anatomy department focuses on the structural organization of the human body through teaching, research, and cadaver-based learning."
+      },
+      {
+        question: "Does the department support undergraduate teaching?",
+        answer: "Yes, the department plays a major role in undergraduate medical education with practical and theoretical training."
+      }
+    ]
+  },
+  {
+    dept_id: "Physiology",
+    questions: [
+      {
+        question: "What is studied in the Physiology department?",
+        answer: "Physiology deals with the normal functioning of human organs and systems."
+      },
+      {
+        question: "Are laboratory experiments part of training?",
+        answer: "Yes, students undergo hands-on laboratory experiments to understand body functions."
+      }
+    ]
+  },
+  {
+    dept_id: "biochemistry",
+    questions: [
+      {
+        question: "What services does the Biochemistry department offer?",
+        answer: "The department provides diagnostic laboratory services and teaches biochemical mechanisms of the body."
+      },
+      {
+        question: "Is clinical biochemistry testing available?",
+        answer: "Yes, routine and specialized biochemical investigations are available."
+      }
+    ]
+  },
+  {
+    dept_id: "Pathology",
+    questions: [
+      {
+        question: "What is the role of the Pathology department?",
+        answer: "Pathology diagnoses diseases by examining tissues, blood, and body fluids."
+      },
+      {
+        question: "Does the department support cancer diagnosis?",
+        answer: "Yes, it plays a vital role in cancer diagnosis through histopathology and cytology."
+      }
+    ]
+  },
+  {
+    dept_id: "Microbiology",
+    questions: [
+      {
+        question: "What infections are diagnosed by Microbiology?",
+        answer: "The department diagnoses bacterial, viral, fungal, and parasitic infections."
+      },
+      {
+        question: "Are antibiotic sensitivity tests done?",
+        answer: "Yes, antibiotic susceptibility testing is routinely performed."
+      }
+    ]
+  },
+  {
+    dept_id: "Pharmacology",
+    questions: [
+      {
+        question: "What does the Pharmacology department focus on?",
+        answer: "It focuses on drug actions, uses, side effects, and rational prescribing."
+      },
+      {
+        question: "Does it support clinical trials?",
+        answer: "Yes, the department supports pharmacovigilance and clinical research."
+      }
+    ]
+  },
+  {
+    dept_id: "ForensicMedicine",
+    questions: [
+      {
+        question: "What services are provided by Forensic Medicine?",
+        answer: "The department handles medico-legal cases and postmortem examinations."
+      },
+      {
+        question: "Is legal documentation supported?",
+        answer: "Yes, medico-legal reports and expert opinions are provided."
+      }
+    ]
+  },
+  {
+    dept_id: "Community Medicine",
+    questions: [
+      {
+        question: "What is the aim of Community Medicine?",
+        answer: "It focuses on preventive healthcare and community-based health programs."
+      },
+      {
+        question: "Are outreach programs conducted?",
+        answer: "Yes, regular health camps and awareness programs are organized."
+      }
+    ]
+  },
+  {
+    dept_id: "general_medicine",
+    questions: [
+      {
+        question: "What conditions are treated in General Medicine?",
+        answer: "The department treats common adult illnesses and chronic diseases."
+      },
+      {
+        question: "Is inpatient care available?",
+        answer: "Yes, both outpatient and inpatient services are available."
+      }
+    ]
+  },
+  {
+    dept_id: "Emergency Medicine",
+    questions: [
+      {
+        question: "Is the Emergency department open 24/7?",
+        answer: "Yes, emergency services are available round the clock."
+      },
+      {
+        question: "What emergencies are handled?",
+        answer: "Trauma, cardiac emergencies, strokes, and critical conditions are treated."
+      }
+    ]
+  },
+  {
+    dept_id: "Paediatrics",
+    questions: [
+      {
+        question: "What age group does Paediatrics treat?",
+        answer: "The department treats infants, children, and adolescents."
+      },
+      {
+        question: "Are vaccination services available?",
+        answer: "Yes, routine and special immunizations are provided."
+      }
+    ]
+  },
+  {
+    dept_id: "Respiratory Medicine",
+    questions: [
+      {
+        question: "What lung conditions are treated?",
+        answer: "Asthma, COPD, tuberculosis, and respiratory infections are treated."
+      },
+      {
+        question: "Are pulmonary function tests available?",
+        answer: "Yes, advanced diagnostic respiratory tests are available."
+      }
+    ]
+  },
+  {
+    dept_id: "Dermatology, Venereology & Leprosy",
+    questions: [
+      {
+        question: "What skin conditions are treated?",
+        answer: "Skin, hair, nail, and sexually transmitted diseases are treated."
+      },
+      {
+        question: "Is cosmetic dermatology available?",
+        answer: "Yes, cosmetic and aesthetic dermatology services are offered."
+      }
+    ]
+  },
+  {
+    dept_id: "Psychiatry",
+    questions: [
+      {
+        question: "What mental health services are provided?",
+        answer: "Diagnosis and treatment of mental health and behavioral disorders."
+      },
+      {
+        question: "Is counseling available?",
+        answer: "Yes, counseling and psychotherapy services are available."
+      }
+    ]
+  },
+  {
+    dept_id: "general_surgery",
+    questions: [
+      {
+        question: "What surgeries are performed?",
+        answer: "General surgical procedures including abdominal and minor surgeries."
+      },
+      {
+        question: "Is laparoscopic surgery available?",
+        answer: "Yes, minimally invasive laparoscopic procedures are performed."
+      }
+    ]
+  },
+  {
+    dept_id: "orthopedics",
+    questions: [
+      {
+        question: "What bone conditions are treated?",
+        answer: "Fractures, joint problems, and spine disorders are treated."
+      },
+      {
+        question: "Are joint replacement surgeries done?",
+        answer: "Yes, hip and knee replacements are performed."
+      }
+    ]
+  },
+  {
+    dept_id: "ent",
+    questions: [
+      {
+        question: "What ENT conditions are treated?",
+        answer: "Ear, nose, throat, and head-neck disorders are treated."
+      },
+      {
+        question: "Are hearing tests available?",
+        answer: "Yes, audiometry and hearing evaluations are available."
+      }
+    ]
+  },
+  {
+    dept_id: "ophthalmology",
+    questions: [
+      {
+        question: "What eye services are provided?",
+        answer: "Eye examinations, cataract surgery, and vision care are provided."
+      },
+      {
+        question: "Is laser treatment available?",
+        answer: "Yes, advanced laser eye treatments are available."
+      }
+    ]
+  },
+  {
+    dept_id: "Obstetrics & Gynaecology",
+    questions: [
+      {
+        question: "What maternity services are offered?",
+        answer: "Antenatal, delivery, and postnatal care services are provided."
+      },
+      {
+        question: "Are gynecological surgeries performed?",
+        answer: "Yes, both open and minimally invasive surgeries are performed."
+      }
+    ]
+  },
+  {
+    dept_id: "Anaesthesia",
+    questions: [
+      {
+        question: "What is the role of Anaesthesia?",
+        answer: "Providing anesthesia and pain management during surgeries."
+      },
+      {
+        question: "Is critical care support available?",
+        answer: "Yes, ICU and pain management services are provided."
+      }
+    ]
+  },
+  {
+  dept_id: "Radio Diagnosis",
+  questions: [
+    {
+      question: "What imaging services are available in Radiodiagnosis?",
+      answer: "X-ray, ultrasound, CT scan, and MRI imaging services are provided."
+    },
+    {
+      question: "Are image-guided procedures performed?",
+      answer: "Yes, image-guided diagnostic and interventional procedures are available."
+    }
+  ]
+},
+{
+  dept_id: "Cardiology",
+  questions: [
+    {
+      question: "What heart conditions are treated in Cardiology?",
+      answer: "Heart diseases such as coronary artery disease, heart failure, and arrhythmias are treated."
+    },
+    {
+      question: "Are ECG and echocardiography available?",
+      answer: "Yes, ECG, echocardiography, and stress tests are routinely performed."
+    }
+  ]
+},
+{
+  dept_id: "Neurology",
+  questions: [
+    {
+      question: "What neurological disorders are treated?",
+      answer: "Stroke, epilepsy, migraine, and nervous system disorders are treated."
+    },
+    {
+      question: "Are neurodiagnostic tests available?",
+      answer: "Yes, EEG, nerve conduction studies, and imaging support are available."
+    }
+  ]
+},
+{
+  dept_id: "Nephrology",
+  questions: [
+    {
+      question: "What kidney-related conditions are treated?",
+      answer: "Acute and chronic kidney diseases are treated."
+    },
+    {
+      question: "Is dialysis facility available?",
+      answer: "Yes, both hemodialysis and peritoneal dialysis services are available."
+    }
+  ]
+},
+{
+  dept_id: "Medical Oncology",
+  questions: [
+    {
+      question: "What cancer treatments are provided?",
+      answer: "Chemotherapy, immunotherapy, and supportive cancer care are provided."
+    },
+    {
+      question: "Is multidisciplinary cancer care available?",
+      answer: "Yes, treatment is planned with a multidisciplinary medical team."
+    }
+  ]
+},
+{
+  dept_id: "Gastroenterology",
+  questions: [
+    {
+      question: "What digestive disorders are treated?",
+      answer: "Liver, stomach, intestine, and pancreatic disorders are treated."
+    },
+    {
+      question: "Are endoscopy services available?",
+      answer: "Yes, diagnostic and therapeutic endoscopy services are available."
+    }
+  ]
+},
+{
+  dept_id: "Cardio Vascular & Thoracic Surgery",
+  questions: [
+    {
+      question: "What surgeries are performed in this department?",
+      answer: "Heart, lung, and major blood vessel surgeries are performed."
+    },
+    {
+      question: "Are bypass surgeries done?",
+      answer: "Yes, coronary artery bypass and other cardiac surgeries are performed."
+    }
+  ]
+},
+{
+  dept_id: "Neurosurgery",
+  questions: [
+    {
+      question: "What neurosurgical conditions are treated?",
+      answer: "Brain and spine disorders requiring surgery are treated."
+    },
+    {
+      question: "Are minimally invasive procedures available?",
+      answer: "Yes, advanced minimally invasive neurosurgical procedures are performed."
+    }
+  ]
+},
+{
+  dept_id: "dentistry",
+  questions: [
+    {
+      question: "What dental services are provided?",
+      answer: "Dental checkups, extractions, fillings, and oral care services are provided."
+    },
+    {
+      question: "Is preventive dental care available?",
+      answer: "Yes, preventive and restorative dental treatments are offered."
+    }
+  ]
+},
+{
+  dept_id: "Urology",
+  questions: [
+    {
+      question: "What urological conditions are treated?",
+      answer: "Kidney stones, urinary tract disorders, and prostate conditions are treated."
+    },
+    {
+      question: "Are minimally invasive procedures done?",
+      answer: "Yes, endoscopic and laser urological procedures are performed."
+    }
+  ]
+},
+{
+  dept_id: "Surgical Oncology",
+  questions: [
+    {
+      question: "What cancers are treated surgically?",
+      answer: "Solid tumors requiring surgical management are treated."
+    },
+    {
+      question: "Is cancer staging surgery available?",
+      answer: "Yes, surgical staging and tumor removal procedures are performed."
+    }
+  ]
+},
+{
+  dept_id: "Surgical Gastroenterology",
+  questions: [
+    {
+      question: "What conditions are treated in Surgical Gastroenterology?",
+      answer: "Complex gastrointestinal and liver surgical conditions are treated."
+    },
+    {
+      question: "Are laparoscopic surgeries available?",
+      answer: "Yes, advanced laparoscopic and GI surgeries are performed."
+    }
+  ]
+},
+{
+  dept_id: "Plastic and Reconstructive Surgery",
+  questions: [
+    {
+      question: "What procedures are performed in Plastic Surgery?",
+      answer: "Reconstructive, cosmetic, and trauma-related procedures are performed."
+    },
+    {
+      question: "Is burn management available?",
+      answer: "Yes, burn care and reconstructive surgery services are provided."
+    }
+  ]
+},
+{
+  dept_id: "Vascular Surgery",
+  questions: [
+    {
+      question: "What vascular conditions are treated?",
+      answer: "Diseases of arteries and veins such as varicose veins are treated."
+    },
+    {
+      question: "Are minimally invasive vascular procedures available?",
+      answer: "Yes, endovascular and surgical vascular treatments are provided."
+    }
+  ]
+},
+{
+  dept_id: "Paediatric Surgery",
+  questions: [
+    {
+      question: "What conditions are treated in Paediatric Surgery?",
+      answer: "Congenital and acquired surgical conditions in children are treated."
+    },
+    {
+      question: "Are neonatal surgeries performed?",
+      answer: "Yes, specialized neonatal and pediatric surgical care is available."
+    }
+  ]
+}
+
+];
+
+
 let doctorsData = [];
 let filteredDoctors = [];
 
@@ -2264,11 +2725,26 @@ async function loadDoctorsFromExcel() {
                     return fallback;
                 }
             }   
-        // Render department page
+        
+        function hexToRgb(hex) {
+            hex = hex.replace('#', '');
+            if (hex.length === 8) hex = hex.slice(0, 6);
+
+            const bigint = parseInt(hex, 16);
+            return `${(bigint >> 16) & 255}, ${(bigint >> 8) & 255}, ${bigint & 255}`;
+        }
+
+       function getFAQ(deptId) {
+            return FAQJson.find(
+                x => x.dept_id.toLowerCase() === deptId.toLowerCase()
+            ) || null;
+        }
+
         function renderDepartment(dept) {
             const iconClass = dept.icon.includes('fa-') ? `fas ${dept.icon}` : dept.icon;
             document.getElementById('breadcrum').innerHTML= dept.name
             document.getElementById('breadcrum-span').innerHTML= dept.name
+            const FAQdata = getFAQ(dept.id);
             const html = `
                 <!-- Hero Section -->
                 
@@ -2277,9 +2753,9 @@ async function loadDoctorsFromExcel() {
                     <!-- Overview Section -->
                     <div class="section">
                         <div class="overview-card">
-                            <h2 class="section-title">Department Overview</h2>
+                            <h2 class="section-title" style="color:${dept.colorDark}">Department Overview</h2>
                             <div class="dept-overview">
-                                <img src="./assets/images/dept_images/${dept.name}/hero-image.jpg" alt="">
+                                <img src="./assets/images/dept_images/${dept.name}/hero-image.jpg" onerror="this.onerror=null; this.src='./assets/images/Hero.jpg';" alt="">
                                 <p class="overview-text">${dept.overview}</p>
                             </div>
                         </div>
@@ -2290,8 +2766,7 @@ async function loadDoctorsFromExcel() {
                         <div class="grid-2">
                             ${dept.procedure ? `
                             <div class="info-card">
-                                <h3 class="info-card-title">
-                                    <i class="fas fa-clipboard-list"></i>
+                                <h3 class="info-card-title" style="color:${dept.colorDark}">
                                     Objectives & Procedures
                                 </h3>
                                 <ul class="info-list">
@@ -2300,13 +2775,12 @@ async function loadDoctorsFromExcel() {
                             </div>
                             ` : ''}
                              ${dept.services && dept.services.length > 0 ? `
-                                <div class="info-card">
-                                <h3 class="info-card-title">
-                                    <i class="fas fa-building"></i>
+                                <div class="info-card" id="services">
+                                <h3 class="info-card-title" style="color:${dept.colorDark}">
                                     Services
                                 </h3>
                                 <ul class="info-list">
-                                            ${dept.services.map(item => `<li>${item}</li>`).join('')}
+                                    ${dept.services.map(item => `<li>${item}</li>`).join('')}
                                 </ul>
                             </div>
                                 ` : ''}
@@ -2317,9 +2791,8 @@ async function loadDoctorsFromExcel() {
 
                     ${dept.infra ?  `
                         <div class="section infra-section">
-                        <h2 class="section-title">Infrastructure</h2>
+                        <h2 class="section-title" style="color:${dept.colorDark}">Infrastructure</h2>
                             <div class="infra">
-                                
                                 ${
                                     dept.infra.map((x,i) =>
                                         `<div class="infra-card">
@@ -2336,7 +2809,7 @@ async function loadDoctorsFromExcel() {
                     <!-- doctor Section -->
                     ${dept.doctor && dept.doctor.length > 0 ? `
                         <div class="section">
-                        <h2 class="section-title">Our Medical Team</h2>
+                        <h2 class="section-title" style="color:${dept.colorDark}">Our Medical Team</h2>
                         <div class="grid-3">
                             ${dept.doctor.map(doc => `
                             <div class="doctor-card" onclick="viewDoctorProfile(${getDoctorImage(dept.name, doc.name).id})">
@@ -2360,11 +2833,9 @@ async function loadDoctorsFromExcel() {
                     <!-- Research Section -->
                     ${dept.research && dept.research.length > 0 ? `
                     <div class="section">
+                        <h2 class="section-title" style="color:${dept.colorDark}">Research & Innovation</h2>
+
                         <div class="info-card">
-                            <h3 class="info-card-title">
-                                <i class="fas fa-microscope"></i>
-                                Research & Innovation
-                            </h3>
                             ${dept.research_desc ? `<p class="overview-text" style="margin-bottom: 1.5rem;">${dept.research_desc}</p>` : ''}
                             <ul class="info-list">
                                 ${dept.research.map(item => `<li>${item}</li>`).join('')}
@@ -2376,18 +2847,51 @@ async function loadDoctorsFromExcel() {
                     <!-- Achievements Section -->
                      ${dept.achievements && dept.achievements.length > 0 ? `
                     <div class="section">
-                        <h2 class="section-title">Achievements</h2>
+                        <h2 class="section-title" style="color:${dept.colorDark}">Achievements</h2>
                         <div class="info-card">
                             <div class="service-tags">
                                 ${dept.achievements.map(Item => `
-                                    <span class="service-tag">${Item}</span>
+                                    <span class="service-tag"  style="background:linear-gradient(to right,${dept.color},${dept.colorDark})">${Item}</span>
                                 `).join('')}
                             </div>
                         </div>
                     </div>
                     ` : ''}
 
-                    <!-- CTA Section -->
+                    <!-- FAQ -->
+
+                   ${FAQdata ? `
+                    <section class="faq-section">
+                        <h2 class="faq-title" style="color:${dept.colorDark}">Frequently Asked Questions</h2>
+
+                        ${
+                            FAQdata.questions.map(Item =>
+                                `<div class="faq">
+                                    <button type="button" class="faq-question" onclick="toggleFaq(this,'${dept.colorDark}')">
+                                        ${Item.question}
+                                        <span class="icon">+</span>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>${Item.answer}</p>
+                                    </div>
+                                </div>`
+                            ).join('')
+                        }
+                    </section>
+                    
+                    `:""}
+
+                  <div class="section">
+                        <h2 class="section-title" style="color:${dept.colorDark}">Patient Corner</h2>
+
+                        <div class="info-card">
+                            <ul class="info-list">
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
+                            </ul>
+                        </div>
+                    </div>
                     
                 </div>
             `;
@@ -2395,17 +2899,25 @@ async function loadDoctorsFromExcel() {
             document.getElementById('app').innerHTML = html;
             document.title = `${dept.name} - Department`;
             let breadcrum = document.getElementById('breadcrum-section')
-            breadcrum.style.backgroundImage = `
-            linear-gradient(to right, ${dept.color}, ${dept.colorDark}),
-            url(./assets/images/dept_images/${dept.name}/breadcrum.jpg)
-            `;
+            let k=dept.name.split(" ");
+            let l=k.join("%20")
+            console.log(l);
+            
+            
+            breadcrum.style.backgroundImage = `linear-gradient(
+                to right,
+                rgba(${hexToRgb(dept.color)}, 0.6),
+                rgba(${hexToRgb(dept.colorDark)}, 0.6)
+            ),
+            url(./assets/images/dept_images/${l}/breadcrum.jpg)` || `linear-gradient(to right,#0153349f,#001f20e3),url(../images/DoctorsforMilestone.jpeg)`;
+
+            
             breadcrum.style.height="70vh"
             breadcrum.style.backgroundSize = "cover";
             breadcrum.style.backgroundPosition = "center";
             breadcrum.style.backgroundRepeat = "no-repeat";
         }
 
-        // Show not found message
         function showNotFound() {
             document.getElementById('app').innerHTML = `
                 <div class="not-found">
@@ -2420,7 +2932,6 @@ async function loadDoctorsFromExcel() {
             `;
         }
 
-        // Initialize page
         function init() {
             const deptId = getDeptIdFromURL();
             
@@ -2430,7 +2941,6 @@ async function loadDoctorsFromExcel() {
             }
 
             const department = depts.find(d => d.id === deptId);
-            console.log(department)
             if (department) {
                 renderDepartment(department);
             } else {
@@ -2441,10 +2951,8 @@ async function loadDoctorsFromExcel() {
 
             let doctor = doctorsData.find(x => x.id == id);
 
-            // Save doctor object to localStorage
             localStorage.setItem("doctorData", JSON.stringify(doctor));
 
-            // Correct way to create anchor & trigger click
             let anchor = document.createElement('a');
             if(doctor){
                 anchor.href = "./doctorsview.html#doc-details";
@@ -2452,12 +2960,43 @@ async function loadDoctorsFromExcel() {
             else{
                 anchor.href = "#";
             }
-            anchor.style.display = "none"; // hide anchor
+            anchor.style.display = "none"; 
             document.body.appendChild(anchor);
             anchor.click();
             document.removeChild(anchor)
 
-            // console.log(doctor);
         }
-        // Run on page load
+
+       function toggleFaq(button, color) {
+            const answer = button.nextElementSibling;
+            const icon = button.querySelector(".icon");
+
+            const isOpen = answer.style.maxHeight && answer.style.maxHeight !== "0px";
+
+            document.querySelectorAll(".faq-question").forEach(q => {
+                q.classList.remove("faq-question-active");
+                q.style.backgroundColor = "#fff";
+                q.style.color = "#000";
+            });
+
+            document.querySelectorAll(".faq-answer").forEach(a => {
+                a.style.maxHeight = null;
+            });
+
+            document.querySelectorAll(".icon").forEach(i => {
+                i.textContent = "+";
+            });
+
+            if (isOpen) {
+                return;
+            }
+
+            button.classList.add("faq-question-active");
+            button.style.backgroundColor = color;
+            button.style.color = "#fff";
+
+            answer.style.maxHeight = answer.scrollHeight + "px";
+            icon.textContent = "−";
+        }
+
         init();

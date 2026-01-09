@@ -1,226 +1,224 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-    /* Colors */
-    --color-primary: #137fc1;
-    --color-primary-dark: #0052a3;
-    --color-primary-light: #044d88;
-    --color-secondary: #53a766;
-    --color-secondary-light: #79da81;
-    --color-accent-pink: #ff69b4;
-    --color-accent-pink-light: #ffd9ecb2;
-    --color-accent-red: #f44336;
-    --color-accent-red-light: #ff5252;
-    --color-accent-yellow-top: #ecb202;
-    --color-accent-yellow: #ffc107;
-    --color-accent-yellow-light: #fff4d49d;
-    --color-gold: #cfbe25;
-    --color-black: #202020;
-    --color-text-primary: #333;
-    --color-text-secondary: #666;
-    --color-text-light: #999;
-    --color-white: #ffffff;
-    --color-background-light: #f8f9fa;
-    --color-navy: #1a237e;
-    --color-navy-light: #283593;
-    --color-navy-medium: #3949ab;
-    --color-green-light: #66bb6a;
-    --color-green-olive: #8bc34a;
-    --color-green-olive-light: #aed581;
-    --color-blue-light: #2196f3;
-    --color-blue-lighter: #42a5f5;
-    --color-purple: #9c27b0;
-    --color-purple-light1: #ca4ae0;
-    --color-purple-light: #ba68c8;
-    --color-teal: #009688;
-    --color-teal-light: #0096881a;
-    --color-teal-light1:#04aa99b2;
-    --color-brown: #795548;
-    --color-brown-light: #a1887f;
-    --color-cyan: #00aaff;
-    --color-whatsapp: #25D366;
-    --color-whatsapp-dark: #128C7E;
-    --color-twitter: #1DA1F2;
-    --color-twitter-dark: #0d8bd9;
-    --color-facebook: #1877f2;
-    --color-facebook-dark: #4267B2;
-    --color-youtube: #FF0000;
-    --color-youtube-dark: #cc0000;
-    --color-linkedin: #0077b5;
-    --color-linkedin-dark: #0e76a8;
-     --primary-color: #0066cc;
-    --primary-dark: #004999;
-    --accent-color: #4caf50;
-    --text-color: #333;
-    --text-light: #666;
-    --background-light: #f8f9fa;
-    --background-gradient-start: #E3F5FF;
-    --background-gradient-end: #E8F5E9;
-    --white: #ffffff;
-    --nav-shadow: rgba(0, 0, 0, 0.1);
-    --card-shadow: rgba(0, 0, 0, 0.08);
-    --gradient-green: linear-gradient(135deg, #49e951 , #264ed3);
-    --color-primary: #0066cc;
-    --color-primary-dark: #0052a3;
-    --color-primary-light: #E3F5FF;
-    --color-secondary: #4caf50;
-    --color-secondary-light:#4caf501a;;
-    --color-accent: #ff6b6b;
-    --color-accent-light1:#f77e7e;
-    --color-accent-light:#fff4f4e0;
-    --color-purple: #9c27b0;
-    --color-purple-light: #9c27b01a;
-    --color-orange: #ff9800;
-    --color-orange-light:#ff98001a;
-    --color-teal: #009688;
-    --color-text-primary: #333;
-    --color-text-secondary: #666;
-    --color-white: #ffffff;
-    --color-background-light: #f8f9fa;
-    
-    /* Instagram gradient colors */
-    --color-ig-1: #f09433;
-    --color-ig-1-light: #ffdfbc4f;
-    --color-ig-2: #e6683c;
-    --color-ig-3: #dc2743;
-    --color-ig-4: #cc2366;
-    --color-ig-5: #bc1888;
-    
-    /* Padding & Gap */
-    --padding-section: 5rem;
-    --padding-card: 2rem;
-    --padding-large-card: 3rem;
-    --gap-small: 1rem;
-    --gap-medium: 2rem;
-    --gap-large: 3rem;
+    :root {
+        /* Colors */
+        --color-primary: #137fc1;
+        --color-primary-dark: #0052a3;
+        --color-primary-light: #044d88;
+        --color-secondary: #53a766;
+        --color-secondary-light: #79da81;
+        --color-accent-pink: #ff69b4;
+        --color-accent-pink-light: #ffd9ecb2;
+        --color-accent-red: #f44336;
+        --color-accent-red-light: #ff5252;
+        --color-accent-yellow-top: #ecb202;
+        --color-accent-yellow: #ffc107;
+        --color-accent-yellow-light: #fff4d49d;
+        --color-gold: #cfbe25;
+        --color-black: #202020;
+        --color-text-primary: #333;
+        --color-text-secondary: #666;
+        --color-text-light: #999;
+        --color-white: #ffffff;
+        --color-background-light: #f8f9fa;
+        --color-navy: #1a237e;
+        --color-navy-light: #283593;
+        --color-navy-medium: #3949ab;
+        --color-green-light: #66bb6a;
+        --color-green-olive: #8bc34a;
+        --color-green-olive-light: #aed581;
+        --color-blue-light: #2196f3;
+        --color-blue-lighter: #42a5f5;
+        --color-purple: #9c27b0;
+        --color-purple-light1: #ca4ae0;
+        --color-purple-light: #ba68c8;
+        --color-teal: #009688;
+        --color-teal-light: #0096881a;
+        --color-teal-light1:#04aa99b2;
+        --color-brown: #795548;
+        --color-brown-light: #a1887f;
+        --color-cyan: #00aaff;
+        --color-whatsapp: #25D366;
+        --color-whatsapp-dark: #128C7E;
+        --color-twitter: #1DA1F2;
+        --color-twitter-dark: #0d8bd9;
+        --color-facebook: #1877f2;
+        --color-facebook-dark: #4267B2;
+        --color-youtube: #FF0000;
+        --color-youtube-dark: #cc0000;
+        --color-linkedin: #0077b5;
+        --color-linkedin-dark: #0e76a8;
+        --primary-color: #0066cc;
+        --primary-dark: #004999;
+        --accent-color: #4caf50;
+        --text-color: #333;
+        --text-light: #666;
+        --background-light: #f8f9fa;
+        --background-gradient-start: #E3F5FF;
+        --background-gradient-end: #E8F5E9;
+        --white: #ffffff;
+        --nav-shadow: rgba(0, 0, 0, 0.1);
+        --card-shadow: rgba(0, 0, 0, 0.08);
+        --gradient-green: linear-gradient(135deg, #49e951 , #264ed3);
+        --color-primary: #0066cc;
+        --color-primary-dark: #0052a3;
+        --color-primary-light: #E3F5FF;
+        --color-secondary: #4caf50;
+        --color-secondary-light:#4caf501a;;
+        --color-accent: #ff6b6b;
+        --color-accent-light1:#f77e7e;
+        --color-accent-light:#fff4f4e0;
+        --color-purple: #9c27b0;
+        --color-purple-light: #9c27b01a;
+        --color-orange: #ff9800;
+        --color-orange-light:#ff98001a;
+        --color-teal: #009688;
+        --color-text-primary: #333;
+        --color-text-secondary: #666;
+        --color-white: #ffffff;
+        --color-background-light: #f8f9fa;
+        
+        /* Instagram gradient colors */
+        --color-ig-1: #f09433;
+        --color-ig-1-light: #ffdfbc4f;
+        --color-ig-2: #e6683c;
+        --color-ig-3: #dc2743;
+        --color-ig-4: #cc2366;
+        --color-ig-5: #bc1888;
+        
+        /* Padding & Gap */
+        --padding-section: 5rem;
+        --padding-card: 2rem;
+        --padding-large-card: 3rem;
+        --gap-small: 1rem;
+        --gap-medium: 2rem;
+        --gap-large: 3rem;
 
-    /* Spacing */
-    --spacing-xs: 0.3rem;
-    --spacing-sm: 0.5rem;
-    --spacing-md: 1rem;
-    --spacing-lg: 1.5rem;
-    --spacing-xl: 2rem;
-    --spacing-2xl: 2.5rem;
-    --spacing-3xl: 3rem;
-    --spacing-4xl: 4rem;
-    --spacing-5xl: 5rem;
-    --spacing-6xl: 6rem;
-    --spacing-8xl: 8rem;
-    
-    /* Font Sizes */
-    --font-xs: 0.85rem;
-    --font-sm: 0.9rem;
-    --font-md: 0.95rem;
-    --font-base: 1rem;
-    --font-lg: 1.1rem;
-    --font-xl: 1.2rem;
-    --font-2xl: 1.3rem;
-    --font-3xl: 1.5rem;
-    --font-4xl: 2rem;
-    --font-5xl: 2.5rem;
-    --font-6xl: 2.8rem;
-    --font-7xl: 3rem;
-    --font-8xl: 3.5rem;
-    --font-small: 0.9rem;
-    --font-regular: 1rem;
-    --font-medium: 1.1rem;
-    --font-large: 1.3rem;
-    --font-xlarge: 2rem;
-    --font-xxlarge: 2.5rem;
-    --font-hero: 3rem;
-    
-    /* Border Radius */
-    --radius-sm: 10px;
-    --radius-md: 15px;
-    --radius-lg: 20px;
-    --radius-xl: 25px;
-    --radius-2xl: 50px;
-    --radius-full: 50%;
+        /* Spacing */
+        --spacing-xs: 0.3rem;
+        --spacing-sm: 0.5rem;
+        --spacing-md: 1rem;
+        --spacing-lg: 1.5rem;
+        --spacing-xl: 2rem;
+        --spacing-2xl: 2.5rem;
+        --spacing-3xl: 3rem;
+        --spacing-4xl: 4rem;
+        --spacing-5xl: 5rem;
+        --spacing-6xl: 6rem;
+        --spacing-8xl: 8rem;
+        
+        /* Font Sizes */
+        --font-xs: 0.85rem;
+        --font-sm: 0.9rem;
+        --font-md: 0.95rem;
+        --font-base: 1rem;
+        --font-lg: 1.1rem;
+        --font-xl: 1.2rem;
+        --font-2xl: 1.3rem;
+        --font-3xl: 1.5rem;
+        --font-4xl: 2rem;
+        --font-5xl: 2.5rem;
+        --font-6xl: 2.8rem;
+        --font-7xl: 3rem;
+        --font-8xl: 3.5rem;
+        --font-small: 0.9rem;
+        --font-regular: 1rem;
+        --font-medium: 1.1rem;
+        --font-large: 1.3rem;
+        --font-xlarge: 2rem;
+        --font-xxlarge: 2.5rem;
+        --font-hero: 3rem;
+        
+        /* Border Radius */
+        --radius-sm: 10px;
+        --radius-md: 15px;
+        --radius-lg: 20px;
+        --radius-xl: 25px;
+        --radius-2xl: 50px;
+        --radius-full: 50%;
 
-    /* Borders & Radii */
-    --radius-small: 10px;
-    --radius-medium: 15px;
-    --radius-round: 50%;
-    --border-thick: 5px;
+        /* Borders & Radii */
+        --radius-small: 10px;
+        --radius-medium: 15px;
+        --radius-round: 50%;
+        --border-thick: 5px;
 
-    /* Transition */
-    --transition: 0.3s ease;
+        /* Transition */
+        --transition: 0.3s ease;
 
-      /* Transitions */
-    --transition-fast: 0.3s;
-    --transition-medium: 0.5s;
-    --transition-slow: 0.8s;
+        /* Transitions */
+        --transition-fast: 0.3s;
+        --transition-medium: 0.5s;
+        --transition-slow: 0.8s;
+        
+        /* Shadows */
+        --shadow-sm: 0 2px 5px rgba(0,0,0,0.1);
+        --shadow-md: 0 3px 10px rgba(0,0,0,0.1);
+        --shadow-lg: 0 5px 20px rgba(0,0,0,0.08);
+        --shadow-xl: 0 10px 30px rgba(0,0,0,0.08);
+        --shadow-2xl: 0 15px 40px rgba(0,0,0,0.15);
+        --shadow-primary: 0 5px 25px rgba(0,102,204,0.4);
+        --shadow-primary-hover: 0 8px 30px rgba(0,102,204,0.6);
+        --shadow-button: 0 4px 15px rgba(0,102,204,0.3);
+        --shadow-button-hover: 0 6px 20px rgba(0,102,204,0.4);
+        
     
-    /* Shadows */
-    --shadow-sm: 0 2px 5px rgba(0,0,0,0.1);
-    --shadow-md: 0 3px 10px rgba(0,0,0,0.1);
-    --shadow-lg: 0 5px 20px rgba(0,0,0,0.08);
-    --shadow-xl: 0 10px 30px rgba(0,0,0,0.08);
-    --shadow-2xl: 0 15px 40px rgba(0,0,0,0.15);
-    --shadow-primary: 0 5px 25px rgba(0,102,204,0.4);
-    --shadow-primary-hover: 0 8px 30px rgba(0,102,204,0.6);
-    --shadow-button: 0 4px 15px rgba(0,102,204,0.3);
-    --shadow-button-hover: 0 6px 20px rgba(0,102,204,0.4);
-    
-  
-    
-    /* Sizes */
-    --size-icon-sm: 30px;
-    --size-icon-md: 45px;
-    --size-icon-lg: 50px;
-    --size-icon-xl: 60px;
-    --size-icon-2xl: 90px;
-    --size-icon-3xl: 100px;
-    --size-logo: 50px;
-    --size-avatar: 100px;
-    
-    /* Container Widths */
-    --container-sm: 1200px;
-    --container-md: 1300px;
-    --container-lg: 1400px;
-    --container-xl: 2000px;
-    
-    /* Z-index */
-    --z-base: 1;
-    --z-raised: 2;
-    --z-dropdown: 3;
-    --z-sticky: 1000;
-    --z-fixed: 999;
-    
-    /* Line Heights */
-    --line-height-tight: 1.2;
-    --line-height-normal: 1.3;
-    --line-height-relaxed: 1.4;
-    --line-height-loose: 1.6;
-    --line-height-loose-xl: 1.7;
-    --line-height-loose-2xl: 1.8;
-    
-    /* Letter Spacing */
-    --letter-spacing-tight: 1px;
-    --letter-spacing-normal: 2px;
-    
-    /* Opacity */
-    --opacity-light: 0.1;
-    --opacity-medium: 0.2;
-    --opacity-semi: 0.3;
-    --opacity-half: 0.5;
-    --opacity-70: 0.7;
-    --opacity-90: 0.9;
+        
+        /* Sizes */
+        --size-icon-sm: 30px;
+        --size-icon-md: 45px;
+        --size-icon-lg: 50px;
+        --size-icon-xl: 60px;
+        --size-icon-2xl: 90px;
+        --size-icon-3xl: 100px;
+        --size-logo: 50px;
+        --size-avatar: 100px;
+        
+        /* Container Widths */
+        --container-sm: 1200px;
+        --container-md: 1300px;
+        --container-lg: 1400px;
+        --container-xl: 2000px;
+        
+        /* Z-index */
+        --z-base: 1;
+        --z-raised: 2;
+        --z-dropdown: 3;
+        --z-sticky: 1000;
+        --z-fixed: 999;
+        
+        /* Line Heights */
+        --line-height-tight: 1.2;
+        --line-height-normal: 1.3;
+        --line-height-relaxed: 1.4;
+        --line-height-loose: 1.6;
+        --line-height-loose-xl: 1.7;
+        --line-height-loose-2xl: 1.8;
+        
+        /* Letter Spacing */
+        --letter-spacing-tight: 1px;
+        --letter-spacing-normal: 2px;
+        
+        /* Opacity */
+        --opacity-light: 0.1;
+        --opacity-medium: 0.2;
+        --opacity-semi: 0.3;
+        --opacity-half: 0.5;
+        --opacity-70: 0.7;
+        --opacity-90: 0.9;
 
-    --gradient-1:linear-gradient(135deg, var(--color-primary-light) 50%, var(--color-secondary-light) 100%);
-    --gradient-2: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-light) 100%);
-    --gradient-3: linear-gradient(to left, #28d4ff,#008f2b);
-    /* --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum.jpg); */
-    --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(../images/DoctorsforMilestone.jpeg);
-    --gradient-4: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-secondary-light) 100%);
+        --gradient-1:linear-gradient(135deg, var(--color-primary-light) 50%, var(--color-secondary-light) 100%);
+        --gradient-2: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-light) 100%);
+        --gradient-3: linear-gradient(to left, #28d4ff,#008f2b);
+        /* --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum.jpg); */
+        --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(../images/DoctorsforMilestone.jpeg);
+        --gradient-4: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-secondary-light) 100%);
 
-    --gradient-4-event:linear-gradient(#003b6ce7),url(../images/event.jpg);
-    --gradient-5-leader:linear-gradient(#000000f3),url(../images/event.jpg);
-    --gradient-6:linear-gradient(to left,#002b53e7,#1065c7d7),url(../images/event.jpg);
+        --gradient-4-event:linear-gradient(#003b6ce7),url(../images/event.jpg);
+        --gradient-5-leader:linear-gradient(#000000f3),url(../images/event.jpg);
+        --gradient-6:linear-gradient(to left,#002b53e7,#1065c7d7),url(../images/event.jpg);
 
-}
-
-
+    }
 
     * {
         margin: 0;
@@ -237,8 +235,12 @@
         line-height: var(--line-height-loose);
         color: var(--color-text-primary);
         overflow-x: hidden;
+        position: relative;
+        top: 0px !important;
     }
-    /* Social Media Starts*/
+    .skiptranslate,.VIpgJd-ZVi9od-aZ2wEe-wOHMyf,#goog-gt-vt{
+        display:none;
+    }
     .floating-social-btn {
         position: fixed;
         bottom: var(--spacing-xl);
@@ -1608,7 +1610,6 @@
     padding: 0 35px;
 } */
 .testimonials-slider {
-   
     padding: 80px 35px;
 }
 
@@ -2303,7 +2304,7 @@ section {
 }
 
 .compliance-item {
-    background: var(--background-light);
+    background: #ffffff;
     padding: var(--padding-card);
     border-radius: var(--radius-small);
     border-left: 4px solid var(--primary-color);
@@ -2311,7 +2312,6 @@ section {
 }
 .compliance-item:hover{
     box-shadow:var(--shadow-lg);
-    border-left: 4px solid var(--color-secondary);
 }
 .compliance-item h4 {
     color: var(--primary-dark);
@@ -4178,7 +4178,7 @@ grid-template-columns: 1fr;
         }
 
         /* FAQ Section */
-        .faq-section {
+        .faq-section-research {
             padding: var(--spacing-6xl) 5%;
             background: var(--gradient-1);
         }
@@ -4332,7 +4332,7 @@ grid-template-columns: 1fr;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 4rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 
@@ -4374,26 +4374,79 @@ grid-template-columns: 1fr;
 }
 
 /* === CONTENT SIDE === */
-.about-content {
-  flex: 1;
-  color: #222;
-}
+        .about-content {
+        flex: 1;
+        color: #222;
+        }
 
-.about-content h2 {
-  font-size: 2.8rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  position: relative;
-  text-align:left;
-}
+        .about-content h2 {
+        font-size: 2.8rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        position: relative;
+        text-align:left;
+        }
 
-.about-content p {
-  color: #555;
-  font-size: 1.1rem;
-  line-height: 1.8;
-  margin-bottom: 2.5rem;
-  max-width: 600px;
-}
+        .about-content p {
+            color: #555;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            max-width: 600px;
+            margin-bottom: 1.4rem;
+        }
+
+        .groupDiv{
+            display:flex;
+            flex-direction:column;
+            gap:30px;
+            justify-content:center!important;
+            height:100%;
+        }
+        .groupDiv .myDivAbout{
+            border:1.2px solid #e9e9e9;
+            padding:20px;
+            border-radius:20px;
+            padding-bottom:0;
+        }
+       
+        .about-content .department-grid2 .department-card{
+            box-shadow:none;
+            padding:24px 20px!important;
+            border-width:6px;
+        }
+        .about-content .department-grid2 .department-card .department-header{
+            flex-direction:column!important;
+            text-align:center;
+            gap:0px;
+        }
+        .about-content .department-grid2 .department-card .department-header h2{
+            font-size:var(--font-3xl);
+        }
+        .about-content .department-grid2 .department-card .department-header h2,
+        .about-content .department-grid2 .department-card .department-header p{
+            margin-bottom: 0 !important;
+            margin-top: 0 !important;
+        }        
+
+        .about-content .department-grid2 .department-card:hover{
+            transform:translateX(0);
+        }
+        .about-content .department-grid2 .department-card:nth-child(1){ 
+            background: #d4e9ff90; 
+        }
+        .about-content .department-grid2 .department-card:nth-child(2){ 
+            background: #ffc0bd54; 
+        }
+        .about-content .department-grid2 .department-card:nth-child(3){
+            background: #b7ffba71;
+        }
+        .about-content .department-grid2 .department-card:nth-child(4){ 
+            background: #f9cfff63; 
+        }
+        .about-content .department-grid2 .department-card:nth-child(5){ 
+            background: #ffebb64d; 
+        }
+
 
 /* === HIGHLIGHTS === */
 .highlights {
@@ -11790,7 +11843,7 @@ grid-template-columns: 1fr;
   color:var(--color-primary)!important;
   font-weight: 600;
 }
- @media (max-width:768px) {
+        @media (max-width:768px) {
             .ug-programs-grid {
                 display: grid;
                 grid-template-columns: 1fr; 
@@ -11809,3 +11862,7 @@ grid-template-columns: 1fr;
             }
 
         }
+        .alumini .testimonial-avatar{
+            border:none;
+        }
+       

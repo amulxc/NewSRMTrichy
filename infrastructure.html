@@ -277,7 +277,7 @@
                 </div>
 
                 <div class="infra-gym-features">
-                    <div class="infra-gym-feature-box" data-image="./assets/images/Infra-Gym/2.JPG">
+                    <div class="infra-gym-feature-box active" data-image="./assets/images/Infra-Gym/2.JPG">
                         <h4><i class="fas fa-dumbbell"></i> Advanced Equipment</h4>
                         <p>Latest cardio machines, strength training equipment, and free weights from top international brands.</p>
                     </div>
@@ -399,32 +399,10 @@
     </div>
     <footer id="footer"></footer>
     <script src="./assets/js/Dom.js"></script>
-    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+    <div id="google_translate_element" style="display:none;"></div>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
     <script src="./assets/js/Scripts.js"></script>
-    <script>        
-        Weglot.initialize({
-        api_key: 'wg_ae87fc306a46140453415d9fed72f8085'
-        });
-    </script>
-    <script>
-         // Gym Image Change on Card Click
-        const gymFeatureBoxes = document.querySelectorAll('.infra-gym-feature-box');
-        const gymMainImage = document.getElementById('gymMainImage');
-
-        gymFeatureBoxes.forEach((box, index) => {
-            box.addEventListener('click', function() {
-                // Remove active class from all boxes
-                gymFeatureBoxes.forEach(b => b.classList.remove('active'));
-                
-                // Add active class to clicked box
-                this.classList.add('active');
-                
-                // Change the main image
-                const newImageSrc = this.getAttribute('data-image');
-                gymMainImage.src = newImageSrc;
-            });
-        });
-    </script>
+    <script src="./assets/js/infra.js"></script>
 </body>
 </html>

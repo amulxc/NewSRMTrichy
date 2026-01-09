@@ -8,19 +8,19 @@
         <div class="quick-links">
           <p>
            Register for Free Camps
-            <a href="#"  data-wg-notranslate class="quick-link featured"><i class="fa-solid fa-file"></i>Fill the form</a>
+            <a href="#"  class="quick-link featured"><i class="fa-solid fa-file"></i>Fill the form</a>
           </p>
         </div>
         <div class="quick-links">
           <p>
             Need Ambulance
-            <a href="tel:98765433456" data-wg-notranslate class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
+            <a href="tel:98765433456" translate="no" class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
           </p>
         </div>
         <div class="quick-links">
           <p>
             Book an Appointment
-            <a href="tel:98765433456" data-wg-notranslate class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
+            <a href="tel:98765433456" translate="no" class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
           </p>
         </div>
           <div class="search-container">
@@ -40,14 +40,7 @@
 
       </div>
       <div class="language-switcher">
-          <button class="lang-btn" aria-haspopup="true" aria-expanded="false">
-            Language ▾
-          </button>
-
-          <ul class="lang-dropdown">
-            <li><a href="?lang=en">English</a></li>
-            <li><a href="?lang=ta">தமிழ்</a></li>
-          </ul>
+          <a onclick="changeLanguage('en')" translate="no">English | </a> <a onclick="changeLanguage('ta')"  translate="no">தமிழ்</a>
         </div>
       
     </div>
@@ -70,26 +63,7 @@
     </div>
   </div>`
 
-    const emergencyBox1=`<div class="emergency-wrapper">
-  
-
-  <div class="emergency-content" id="emergencyContent">
-    <p>E – Emergency medical support available 24/7</p>
-    <p>M – Multispecialty doctors on call</p>
-    <p>E – Equipped with advanced facilities</p>
-    <p>R – Rapid response team</p>
-    <p>G – Guaranteed patient care</p>
-    <p>E – Expert nursing staff</p>
-    <p>N – Non-stop emergency services</p>
-    <p>C – Critical care units</p>
-    <p>Y – Your health, our priority</p>
-  </div>
-  <div class="emergency-box" id="emergencyBox">
-    <span id="emergencyText"></span>
-    <button class="close-btn" id="closeBtn">✕</button>
-  </div>
-</div>
-`
+    
 
     const everyPage = `<div class="every-page">
    <div class="milestone-stats1">
@@ -268,7 +242,7 @@
             <a href="https://www.facebook.com/share/1BwbztPejm/" target="_blank" class="social-link facebook" title="Facebook">
                 <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="https://www.threads.com/@srmmchrc" target="_blank" class="social-link threads" title="Threads">
+            <a href="https://www.threads.com/@srmmchrc" target="_blank" class="social-link threads" title="Threads" translate="no">
                கு
             </a>
             <a href="https://www.youtube.com/@tsrmmedicalcollegehospital" target="_blank" class="social-link youtube" title="YouTube">
@@ -289,9 +263,9 @@
         </button>
         <div class="social-links-container active" id="socialLinks1">
           <div class='content-box' id='content1'>
-            <div class='content' id='emgWord'>
+            <div class='content' id='emgWord'  translate="no">
             </div>
-            <div class='content2'>
+            <div class='content2' translate="no">
               <p>Trichy <br><a href='tel:654387654' data-wg-notranslate><i class='fa fa-phone'></i> 9876543876</a></p>
               <p>Ramapuram <br><a href='tel:654387654' data-wg-notranslate><i class='fa fa-phone'></i> 9876543876</a></p>
             </div>
@@ -695,3 +669,26 @@ floatIcon.className="goToTop";
 floatIcon.setAttribute("onclick","location.href='#'");
 floatIcon.innerHTML="<i class='fas fa-arrow-up'></i>";
 document.body.appendChild(floatIcon);
+
+
+
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,ta',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+
+        function changeLanguage(lang) {
+            const select = document.querySelector('.goog-te-combo');
+            if (!select) return;
+
+            select.value = lang;
+            select.dispatchEvent(new Event('change'));
+
+            if(document.body.className=="VIpgJd-ZVi9od-ORHb"){
+                let k=document.body.querySelectorAll("table");
+                console.log(k[0])
+            }
+        }

@@ -101,14 +101,7 @@
             padding-bottom: var(--spacing-md);
         }
 
-        /* Overview Card */
-        .overview-card {
-            background: var(--color-white);
-            padding: var(--spacing-2xl);
-            border-radius: var(--radius-lg);
-            box-shadow: var(--shadow-lg);
-            margin-bottom: var(--spacing-3xl);
-        }
+       
 
         .overview-text {
             font-size: var(--font-lg);
