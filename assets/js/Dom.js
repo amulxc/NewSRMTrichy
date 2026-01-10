@@ -101,14 +101,118 @@
       </div>
         <ul>
           <li><a href="index.html">Home</a></li>
-          
-          <li><a href="aboutus.html">About</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li><a href="hospitalNavigator.html">Hospital</a></li>
-          <li><a href="research.html">Research</a></li>
+          <li class="has-dropdown" data-dropdown="about">
+            <a href="./aboutus.html">About Us <span class="arrow dropdown-trigger">&#9654;</span></a>
+            <ul class="dropdown">
+              <li><a href="./aboutus.html#leadership">Leadership</a></li>
+              <li><a href="./aboutus.html#history">History & Timeline</a></li>
+              <li class="has-submenu" data-submenu="milestones">
+                <a href="./aboutus.html#milestones">Accreditations <span class="arrow submenu-trigger">&#9654;</span></a>
+                <ul class="sub-dropdown">
+                  <li><a href="#">NAAC</a></li>
+                  <li><a href="#">NABH</a></li>
+                  <li><a href="#">NABL</a></li>
+                  <li><a href="#">PM JAY</a></li>
+                </ul>
+              </li>
+              <li><a href="./aboutus.html#alumini">Alumini Feedback</a></li>
+              <li><a href="./career.html">Career</a></li>
+              <li><a href="./Others.html">Others</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown" data-dropdown="academics">
+            <a href="./academics.html">Academics <span class="arrow dropdown-trigger">&#9654;</span></a>
+            <ul class="dropdown">
+              <li class="has-submenu" data-submenu="courses">
+                <a href="./course.html">Courses<span class="arrow submenu-trigger">&#9654;</span></a>
+                <ul class="sub-dropdown">
+                  <li><a href="./ug_course_new.html">Under Graduate</a></li>
+                  <li><a href="./pg_course_new.html">Post Graduate</a></li>
+                </ul>
+              </li>
+              <li><a href="./programsandcourse.html">Programs & Course Outcomes</a></li>
+
+              <li class="has-submenu" data-dropdown="media">
+                <a href="infrastructure.html">Infrastructure <span class="arrow dropdown-trigger">&#9654;</span></a>
+                <ul class="sub-dropdown">
+                <li><a href="infrastructure.html#hostel">Hostel</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="infrastructure.html#sports">Sports</a></li>
+                  <li><a href="infrastructure.html#gym">Gym</a></li>
+                </ul>
+              </li>  
+              <li><a href="./academic_department.html">Departments</a></li>
+              <li class="has-submenu" data-submenu="media">
+                <a href="./media.html">Media & OutReach <span class="arrow submenu-trigger">&#9654;</span></a>
+                <ul class="sub-dropdown">
+                  <li><a href="./media.html#news">News & Events</a></li>
+                  <li><a href="./media.html#gallery">Gallery</a></li>
+                  <li><a href="./videogallery.html">Video Gallery</a></li>
+                </ul>
+              </li>
+              </ul>
+              </li>
+              <li class="has-dropdown" data-dropdown="hospital">
+              <a href="./hospital.html">Hospital <span class="arrow dropdown-trigger">&#9654;</span></a>
+              <ul class="dropdown">
+                <li><a href="./hospitalNavigator.html">Hospital Mock</a></li>
+               <li><a href="./centerofexcellence.html">Center Of Excellence</a></li>
+               <li class="has-submenu" data-submenu="milestones">
+                <a href="./patientcorner.html">Our Services<span class="arrow submenu-trigger">&#9654;</span></a>
+                <ul class="sub-dropdown">
+
+                  <li><a href="./hospital.html#services">Diagnostic Laboratory</a></li>
+                  <li><a href="./hospital.html#specialties">Speciality Clinics</a></li>
+                  <li><a href="./camps.html">Health Camps</a></li>
+                  <li><a href="#">Consultant</a></li>
+                  <li><a href="./pharmacy.html">Pharmacy</a></li>
+                  <li><a href="./transport.html">Transport</a></li>
+                  </ul>
+                  </li>
+                  <li class="has-submenu" data-submenu="milestones">
+                  <a href="./patientcorner.html">Patient Corner <span class="arrow submenu-trigger">&#9654;</span></a>
+                  <ul class="sub-dropdown">
+                  <li><a href="#">Patient Portal</a></li>
+                  <li><a href="./patientcorner.html#awareness">Hospital Awareness</a></li>
+                  <li><a href="./patientcorner.html#testimonials">Patient AV</a></li>
+                  <li><a href="./medicalpackage.html">Health Checkup Package</a></li>
+              <li><a href="./patientcorner.html#insurance">Insurance Schemes</a></li>
+              </ul>
+              </li>
+
+               <li class="has-submenu" data-submenu="milestones">
+              <a href="#">Supporting Services<span class="arrow submenu-trigger">&#9654;</span></a>
+              <ul class="sub-dropdown">
+              <li><a href="./bioengineering.html">Bio Medical Engineering</a></li>
+              <li><a href="./bioethics.html">Bio Ethics</a></li>
+              </ul>
+              </li>
+              
+              <li class="has-submenu" data-submenu="milestones">
+              <a href="./donor.html">Donors <span class="arrow submenu-trigger">&#9654;</span></a>
+              <ul class="sub-dropdown">
+              <li><a href="./blood_donor.html">Blood Donor</a></li>
+              <li><a href="./blood_donor.html#blood_bank2">Blood Bank</a></li>
+              <li><a href="./organ_donor.html">Organ Donor</a></li>
+              </ul>
+              </li>
+              <li><a href="./information.html">Information Center</a></li>
+              <li><a href="./ambulance.html">24/7 Ambulance Services</a></li>
+            </ul>
+          </li>
+           
+          <li class="has-dropdown" data-dropdown="research">
+            <a href="research.html">Research & Innovation <span class="arrow dropdown-trigger">&#9654;</span></a>
+            <ul class="dropdown">
+              <li><a href="IRPC.html">IRPC</a></li>
+              <li><a href="IRPC.html#IRPC-Projects">Projects</a></li>
+              <li><a href="IRPC.html#IRPC-Collabration">Collabrations</a></li>
+              <li><a href="IRPC.html#IRPC-Board">Board</a></li>
+            </ul>
+          </li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="nmc.html" class="nmc-nav1 nmc-nav">NMC</a></li>
-          <li><a href="virtual_tour.html" target="_blank" class="nmc-nav2 nmc-nav" title='Trichy SRM Medical College Campus Tour'><img src='./assets/images/360.png' style='width:21px'></a></li>
+          <li><a href="nmc.html" class="nmc-nav nmc-nav1">NMC</a></li>
+          <li><a href="virtual_tour.html" target="_blank" class="nmc-nav nmc-nav2" title='Trichy SRM Medical College Campus Tour'><img src='./assets/images/360.png' style='width:21px'></a></li>
         </ul>
         <div id="mobile-topbar"></div>
         <div id="mobile-quickaccess"></div>
