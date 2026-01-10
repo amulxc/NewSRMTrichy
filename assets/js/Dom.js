@@ -105,6 +105,7 @@
             <a href="./aboutus.html">About Us <span class="arrow dropdown-trigger">&#9654;</span></a>
             <ul class="dropdown">
               <li><a href="./aboutus.html#leadership">Leadership</a></li>
+              <li><a href="./aboutus.html#history">History & Timeline</a></li>
               <li class="has-submenu" data-submenu="milestones">
                 <a href="./aboutus.html#milestones">Accreditations <span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
@@ -114,6 +115,7 @@
                   <li><a href="#">PM JAY</a></li>
                 </ul>
               </li>
+              <li><a href="./aboutus.html#alumini">Alumini Feedback</a></li>
               <li><a href="./career.html">Career</a></li>
               <li><a href="./Others.html">Others</a></li>
             </ul>
@@ -138,25 +140,9 @@
                 <li><a href="infrastructure.html#sports">Sports</a></li>
                   <li><a href="infrastructure.html#gym">Gym</a></li>
                 </ul>
-              </li>
-             
-              <li class="has-submenu" data-dropdown="departments">
-                <a href="#">Departments <span class="arrow dropdown-trigger">&#9654;</span></a>
-                <ul class="sub-dropdown">
-                  <li class="has-submenu" data-submenu="courses">
-                  <a href="./clinical.html">Clinical<span class="arrow submenu-trigger">&#9654;</span></a>
-                  <ul class="sub-dropdown">
-                      <li><a href="./boardspecialties.html">Medicine & Broad Specialties</a></li>
-                      <li><a href="./surgeryspecialties.html">Surgery & Broad Specialties</a></li>
-                      <li><a href="./medicalSuperSpecialties.html">Medicine & Super Specialties</a></li>
-                      <li><a href="./surgerySuperSpecialties.html">Surgery & Super Specialties</a></li>
-                  </ul>
-                  </li>
-                  <li><a href="./pre-clinical.html">Pre Clinical</a></li>
-                  <li><a href="./para-clinical.html">Para Clinical</a></li>
-                </ul>
-              </li>
-               <li class="has-submenu" data-submenu="media">
+              </li>  
+              <li><a href="./academic_department.html">Departments</a></li>
+              <li class="has-submenu" data-submenu="media">
                 <a href="./media.html">Media & OutReach <span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
                   <li><a href="./media.html#news">News & Events</a></li>
@@ -169,6 +155,7 @@
               <li class="has-dropdown" data-dropdown="hospital">
               <a href="./hospital.html">Hospital <span class="arrow dropdown-trigger">&#9654;</span></a>
               <ul class="dropdown">
+               <li><a href="./centerofexcellence.html">Center Of Excellence</a></li>
                <li class="has-submenu" data-submenu="milestones">
                 <a href="./patientcorner.html">Our Services<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
@@ -281,7 +268,7 @@
                  <div class="logo footer-logo">
                     <img src="./assets/images/Logo.webp" alt="SRM Logo">
                 </div>
-                <p>Trichy SRM Medical College is dedicated to providing excellence in medical education and healthcare services. We are committed to shaping the future of healthcare.</p>
+                <p>Trichy SRM Medical College Hospital & Research Centre, <br>SRM Nagar, Trichy - Chennai Highway, Irungalur Village, Tiruchirapalli - 621105 Tamil Nadu, India</p>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>

@@ -303,12 +303,15 @@
 
         .dept-overview{
             display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            gap:var(--spacing-lg);
         }
         .dept-overview img{
-            width: 40%;
-            height: max-content;
+            width:100%!important;
+            height:400px!important;
+            object-fit:contain;
             border-radius: 20px;
             margin-right: 5%;
         }

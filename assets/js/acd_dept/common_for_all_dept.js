@@ -82,6 +82,11 @@
                             ${d.name}
                         </h2>
                         <p>${d.desc}</p>
+                        <hr style="color:#fff;margin:10px 0;"/>
+                        <h4 style="color:#fff;margin:10px 0;"></h4>
+                        <div class="spec_servies" >
+                        <a style="color:white;text-decoration:underline;" href="depart_specialities.html?dept=${d.id}#services" class="service_link"> Click Here</a> For Services
+                        </div>
                     </div>
                 </div>
             `;
@@ -102,9 +107,9 @@
                                 <br>
                                 <ul>${d.mission}</ul>
                                 <br><br>
-                                
-                                ${d.objectives ?`<h4>Objectives</h4>
-                                <br><ul>${d.objectives.map(f => `<li>${f}</li>`).join('')}</ul>`:''}
+                                <h4>Objectives</h4>
+                                <br>
+                                <ul>${d.objectives.map(f => `<li>${f}</li>`).join('')}</ul>
                             </div>
                         </div>
                     </div>
@@ -160,42 +165,6 @@
                                             </table>
                                         </div>
                                     ` : '<p>Year-wise publication data will be updated soon.</p>'}
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }
-            if (d.services) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-hand-holding-medical"></i> Services</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                <p>${d.services_desc ? d.services_desc :"Comprehensive healthcare services catering to all needs."}</p>
-                                <ul>${d.services.map(s => `<li>${s}</li>`).join('')}</ul>
-                                ${d.services_table ? `<div class="publication-table-wrapper">
-                                            <table class="publication-table">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width: 10%">S.No</th>
-                                                        <th style="width: 45%">Title</th>
-                                                        <th style="width: 30%">Journal</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                ${d.services_table.map(p => `
-                                                <tr>
-                                                    <td data-label="Year" class='si_no'>${p.s_no}</td>
-                                                    <td data-label="Title" class='clinic'><strong>${p.speciality_clinic}</strong></td>
-                                                    <td data-label="Journal" class='day'><span class='year-badge'>${p.day}</span></td>
-                                                </tr>
-                                            `).join('')}
-                                        </tbody>
-                                    </table>
-                                </div>`:""}
                             </div>
                         </div>
                     </div>

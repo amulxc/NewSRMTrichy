@@ -58,6 +58,9 @@
 
         .sidebar-nav ul {
             list-style: none;
+            height:60vh;
+            overflow-y:auto;
+            overflow-x:hidden;
         }
 
         .sidebar-nav li {
@@ -116,7 +119,7 @@
         .detail-header {
             background: linear-gradient(135deg, var(--dept-color) 0%, var(--dept-color-dark) 100%);
             color: var(--color-white);
-            padding: 3rem;
+            padding: 2.5rem;
             border-radius: var(--radius-xl);
             margin-bottom: 2rem;
             box-shadow: var(--shadow-lg);
@@ -288,7 +291,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 1.5rem 2rem;
+            padding: 1rem 2rem;
             background: var(--color-bg-card);
             cursor: pointer;
             transition: var(--transition);

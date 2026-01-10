@@ -413,7 +413,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                     </div>
                     <div class="doctor-info">
 
-                        <a href='${res}?dept=${doctor.specialty}' class="specialty-badge">${doctor.specialty}</a>
+                        <a href='academic_department.html?dept=${doctor.specialty}' class="specialty-badge">${doctor.specialty}</a>
                         <h3 class="doctor-name">
                             ${doctor.name}
                             <i class="fas fa-check-circle verified-icon"></i>
