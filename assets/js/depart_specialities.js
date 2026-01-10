@@ -486,42 +486,34 @@
         color: "#27ae60", 
         colorDark: "#229954",
 
-        overview: "Comprehensive internal medicine care for all age groups. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+        overview: "The Department of Neurology is dedicated to providing comprehensive diagnosis and treatment for disorders of the brain, spinal cord, nerves, and muscles, delivering evidence-based, patient-centred care supported by advanced neuroimaging and neurophysiology services. With a strong commitment to clinical excellence, the department strives to evolve as a centre of excellence in neurological care by integrating expert clinical practice, advanced technology, and continuous academic growth, while developing into a leading tertiary care institute and research centre.",
 
         procedure: [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
+            "Establish the department as a tertiary referral centre for neurological care.","Develop advanced diagnostic, interventional, and neurophysiology services.","Build a strong clinical and research programme in neurosciences.","Provide training and education for healthcare professionals."
         ],
 
-        doctor: [
-            {name: "Ram", designation: "Assistant professor", exp: "5"},
-            {name: "Sam", designation: "Assistant professor", exp: "5"},
-            {name: "John", designation: "Assistant professor", exp: "5"}
-        ],
+        doctor: [{
+                        "name": "Dr. Jayakumar M",
+                        "designation": "Professor / Consultant (Neurology)",
+                    },
+                    {
+                        "name": "Dr. Rahul Gandhi I",
+                        "designation": "Assistant Professor / Consultant (Neurology)",
+                    },
+                    {
+                        "name": "Dr. Kaviyarasi K",
+                        "designation": "Junior Resident",
+                    },
+                    {
+                        "name": "Mrs. Santhi D",
+                        "designation": "Neurophysiology Technician",
+                    },
+                    {
+                        "name": "Mr. Anbarasan S",
+                        "designation": "Neurophysiology Technician",
+        }],
 
-        services: [
-            "General Consultation", 
-            "Diabetes Care", 
-            "Hypertension", 
-            "Infectious Diseases", 
-            "Respiratory Medicine", 
-            "Gastroenterology", 
-            "Cardiology", 
-            "Nephrology"
-        ],
-
-        pubStats: [
-            {label: "Publications", value: "30+"}
-        ],
-
-        research: [
-            "Chronic disease management"
-        ],
-
-        achievements: [
-            "Best Medicine Dept"
-        ]
+       services: ["Daily Outpatient neurology clinics.","Dedicated Inpatient bed and comprehensive care.","Neuro critical care facilities with immunotherapies like plasmapheresis.","Stroke care including IV thrombolysis.","Nerve conduction studies (NCS).","Electroencephalogram (EEG)."],
     },
     {
         id: "Nephrology", 
@@ -2857,11 +2849,23 @@ async function loadDoctorsFromExcel() {
                     </div>
                     ` : ''}
 
+                     <div class="section">
+                        <h2 class="section-title" style="color:${dept.colorDark}">Patient Corner</h2>
+
+                        <div class="info-card">
+                            <ul class="info-list">
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
+                            </ul>
+                        </div>
+                    </div>
+
                     <!-- FAQ -->
 
                    ${FAQdata ? `
                     <section class="faq-section">
-                        <h2 class="faq-title" style="color:${dept.colorDark}">Frequently Asked Questions</h2>
+                        <h2 class="section-title" style="color:${dept.colorDark}">Frequently Asked Questions</h2>
 
                         ${
                             FAQdata.questions.map(Item =>
@@ -2880,17 +2884,7 @@ async function loadDoctorsFromExcel() {
                     
                     `:""}
 
-                  <div class="section">
-                        <h2 class="section-title" style="color:${dept.colorDark}">Patient Corner</h2>
-
-                        <div class="info-card">
-                            <ul class="info-list">
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
-                            </ul>
-                        </div>
-                    </div>
+                 
                     
                 </div>
             `;
