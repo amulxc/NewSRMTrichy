@@ -417,7 +417,7 @@
     .floating-social-btn-emg .social-links-container.active {
         opacity: 1;
         pointer-events: all;
-        right:-244px;
+        right:-264px;
     }
     @media screen and (max-width:700px) {
         .floating-social-btn-emg .social-links-container.active {
