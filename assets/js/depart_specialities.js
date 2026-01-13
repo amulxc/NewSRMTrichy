@@ -636,7 +636,7 @@
             "Excellence in Mental Health"
         ]
     },
-      {
+    {
         id: "general_surgery",
         name: "General Surgery",
         icon: "fa-user-md",
@@ -853,6 +853,13 @@
         ],
 
         infra_desc: "The Department is equipped with state-of-the-art OPD, OT facilities, teaching and research equipment to support academic and diagnostic activities.",
+        infra: [
+            "",
+            "",
+            "",
+            "Refraction Room",
+            "",
+        ],
 
         faculty_desc: "The department has a team of qualified and experienced faculty committed to academic excellence, research, and clinical service.",
 
@@ -1090,7 +1097,7 @@
         ],
 
         infra_desc: "The department is equipped with modern imaging facilities to support diagnostic and interventional radiology services.",
-         infra:[
+        infra:[
             "MRI",
             "CT Scan",
             "Mamogram",
@@ -1166,7 +1173,6 @@
             "To utilize the values of professional ethics, lifelong learning and adaptability."
         ],
 
-        infra_desc: "The Dental Department functions in an area of 5350 sq.ft. It includes reception, patient waiting area, OPD, four specialty clinics, IOPA room, CBCT Room with console, Minor OT with recovery area, prosthetic laboratory, and sterilization room.",
         infra: [
             "Dental Chair",
             "Dental CBCT",
@@ -1215,7 +1221,7 @@
             "Installation of new 3D CBCT unit in June 2025"
         ]
     },
-      {
+    {
         id: "Cardio Vascular & Thoracic Surgery", 
         name: "Cardio Vascular & Thoracic Surgery", 
         icon: `<i class="material-symbols-outlined">ecg_heart</i>`, 

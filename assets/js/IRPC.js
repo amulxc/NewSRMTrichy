@@ -219,7 +219,13 @@ const activities = [
                     "Journal of Molecular Digital Medicine",
                     "Endocrinology",
                     "Molecular and Cellular Physiology"],
-                grant_reviewer:["NHMRC (Australia)","ARC (Australia)","DBT","DHR","ICMR","DST","NIH (USA)"],
+                grant_reviewer:[
+                    "Development of a Federated National Network for Radiology Image Informatics: AI-Enabled Annotation, Secure Data Management, and Vision-Language Models for Multi-Institute Collaboration",
+                    "AI-Powered Multi-Cancer Screening from Low-Cost Digital Pathology & Imaging (AIIndia)",
+                    "Organic cation transporters (OCT1, OCT2) and depression in Indian T2DM (Type 2 Diabetes Mellitus) patients",
+                    "National Centre for Advanced Research in Gender, Sexuality, and LGBTQI+ Health: Advancing science, equity, and care for gender and sexual minorities",
+                    "Disrupting Stem cell program via Tumour-Suppressive Isoforms of Wnt Modulators"
+                ],
                 editorial: [
                     "Cancers",
                     "Frontiers in Oncology",

@@ -126,11 +126,10 @@
               <li class="has-submenu" data-submenu="courses">
                 <a href="./course.html">Courses<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
-                  <li><a href="./ug_course_new.html">Under Graduate</a></li>
+                  <li><a href="./ug_new_course.html">Under Graduate</a></li>
                   <li><a href="./pg_course_new.html">Post Graduate</a></li>
                 </ul>
               </li>
-              <li><a href="./programsandcourse.html">Programs & Course Outcomes</a></li>
 
               <li class="has-submenu" data-dropdown="media">
                 <a href="infrastructure.html">Infrastructure <span class="arrow dropdown-trigger">&#9654;</span></a>
@@ -155,13 +154,13 @@
               <li class="has-dropdown" data-dropdown="hospital">
               <a href="./hospital.html">Hospital <span class="arrow dropdown-trigger">&#9654;</span></a>
               <ul class="dropdown">
-                <li><a href="./hospitalNavigator.html">Hospital Mock</a></li>
+                <li><a href="./hospital_old.html">Hospital Mock</a></li>
                <li><a href="./centerofexcellence.html">Center Of Excellence</a></li>
                <li class="has-submenu" data-submenu="milestones">
                 <a href="./patientcorner.html">Our Services<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
 
-                  <li><a href="./hospital.html#services">Diagnostic Laboratory</a></li>
+                  <li><a href="./medicalpackage.html">Diagnostic Laboratory</a></li>
                   <li><a href="./hospital.html#specialties">Speciality Clinics</a></li>
                   <li><a href="./camps.html">Health Camps</a></li>
                   <li><a href="#">Consultant</a></li>

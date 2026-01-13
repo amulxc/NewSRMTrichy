@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trichy SRM Medical College - Health Tests & Packages</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="./assets/css/medicalPackage.css">
     <link rel="stylesheet" href="./assets/css/CursorAnimation.css">
     <link rel="fav icon" href="./assets/images/fav.png">
-    
 </head>
 <body>
     <div id="topbar"></div>
@@ -22,19 +21,20 @@
     <nav id="header"></nav>
     <div id="floatBtn" class="floating-social-btn"></div>
     <div id="emergencyBox1" class="floating-social-btn-emg"></div>
-
     <section class="breadcrum">
-        <h1>Medical Health Checkup Package</h1>
+        <h1>Medical Health Package</h1>
         <div class="subtitle">
           <a href="index.html">Home</a>
           <div class="round"></div>
-          <a href="research.html">Hospital Services</a>
+          <a href="hospital.html">Hospital</a>
           <div class="round"></div>
-          <span class="active">Medical Health Checkup Package</span>
+          <span class="active">Medical Health Package</span>
         </div>
     </section>
+    
     <div class="health-container">
         <div class="health-header">
+            <h1 class="health-title">Health Tests & Packages</h1>
             <div class="health-search-bar">
                 <i class="fas fa-search health-search-icon"></i>
                 <input 
@@ -48,14 +48,13 @@
 
         <div class="health-main-content">
             <aside class="health-sidebar">
-                <button class="health-clear-filters" id="healthClearFilters">
-                    <i class="fas fa-times-circle"></i> Remove Filters
-                 </button> 
-                 <br>
                 <div class="health-filter-section">
-                    <h3 class="health-filter-title">
-                        Price Range
-                    </h3>
+                    <div style="display: flex;flex-direction: row;justify-content: space-between;">
+                        <h3 class="health-filter-title">
+                            <i class="fas fa-rupee-sign"></i> Price Range
+                        </h3>
+                        <a href="#" class="health-clear-link" id="clearPriceBtn">Clear all</a>
+                    </div>
                     <div class="health-price-range">
                         <div class="health-price-inputs">
                             <input type="number" class="health-price-input" id="healthMinPrice" placeholder="Min ₹">
@@ -64,62 +63,14 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="health-filter-section">
                     <h3 class="health-filter-title">
                         Body Organs
                     </h3>
                     <div class="health-filter-options" id="healthOrganFilters">
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="heart" data-filter="organ">
-                            
-                            <span class="health-filter-label">Heart</span>
-                            <span class="health-filter-count">3</span>
-                        </label>
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="brain" data-filter="organ">
-                            
-                            <span class="health-filter-label">Brain</span>
-                            <span class="health-filter-count">2</span>
-                        </label>
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="liver" data-filter="organ">
-                            
-                            <span class="health-filter-label">Liver</span>
-                            <span class="health-filter-count">1</span>
-                        </label>
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="kidney" data-filter="organ">
-                            
-                            <span class="health-filter-label">Kidney</span>
-                            <span class="health-filter-count">1</span>
-                        </label>
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="eye" data-filter="organ">
-                            
-                            <span class="health-filter-label">Eye</span>
-                            <span class="health-filter-count">1</span>
-                        </label>
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="stomach" data-filter="organ">
-                            
-                            <span class="health-filter-label">Stomach</span>
-                            <span class="health-filter-count">2</span>
-                        </label>
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="bones" data-filter="organ">
-                            
-                            <span class="health-filter-label">Bones</span>
-                            <span class="health-filter-count">1</span>
-                        </label>
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="general" data-filter="organ">
-                            <span class="health-filter-label">General</span>
-                            <span class="health-filter-count">5</span>
-                        </label>
+                       
                     </div>
                 </div>
-
 
                 <div class="health-filter-section">
                     <h3 class="health-filter-title">
@@ -129,7 +80,7 @@
                         <label class="health-filter-option">
                             <input type="checkbox" class="health-filter-checkbox" value="discount" data-filter="scheme">
                             <span class="health-filter-label">With Discount</span>
-                            <span class="health-filter-count">7</span>
+                            <span class="health-filter-count">5</span>
                         </label>
                         <label class="health-filter-option">
                             <input type="checkbox" class="health-filter-checkbox" value="comprehensive" data-filter="scheme">
@@ -137,23 +88,28 @@
                             <span class="health-filter-count">2</span>
                         </label>
                         <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="prenatal" data-filter="scheme">
-                            <span class="health-filter-label">Prenatal</span>
+                            <input type="checkbox" class="health-filter-checkbox" value="women" data-filter="scheme">
+                            <span class="health-filter-label">Women's Health</span>
                             <span class="health-filter-count">2</span>
+                        </label>
+                        <label class="health-filter-option">
+                            <input type="checkbox" class="health-filter-checkbox" value="executive" data-filter="scheme">
+                            <span class="health-filter-label">Executive</span>
+                            <span class="health-filter-count">1</span>
                         </label>
                     </div>
                 </div>
-
-                
             </aside>
 
             <main class="health-products-area">
                 <div class="health-results-header">
-                    <span class="health-results-count" id="healthResultsCount">Showing 15 results</span>
+                    <span class="health-results-count" id="healthResultsCount">Showing 6 results</span>
                     <select class="health-sort-select" id="healthSortSelect">
                         <option value="default">Sort by: Default</option>
                         <option value="price-low">Price: Low to High</option>
                         <option value="price-high">Price: High to Low</option>
+                        <option value="parameters">Parameters Count</option>
+                        <option value="discount">Discount %</option>
                     </select>
                 </div>
 
@@ -162,14 +118,61 @@
         </div>
     </div>
 
+    <!-- Modal -->
+    <div class="modal-overlay" id="detailsModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <button class="modal-close" id="modalCloseBtn">×</button>
+                <div class="modal-pricing-info">
+                    <span class="modal-price" id="modalPrice"></span>
+                    <span class="modal-original-price" id="modalOriginalPrice"></span>
+                    <span class="modal-discount-badge" id="modalDiscount"></span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3 class="modal-section-title">
+                        <i class="fas fa-info-circle"></i> Package Information
+                    </h3>
+                    <div class="modal-info-grid">
+                        <div class="modal-info-item">
+                            <i class="fas fa-vial modal-info-icon"></i>
+                            <span class="modal-info-text" id="modalParameters"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3 class="modal-section-title">
+                        <i class="fas fa-check-circle"></i> Includes (<span id="featuresCount"></span> Tests)
+                    </h3>
+                    <div class="modal-features-list" id="modalFeaturesList"></div>
+                </div>
+
+                <div class="modal-section" id="consultationSection">
+                    <h3 class="modal-section-title">
+                        <i class="fas fa-user-md"></i> Special Consultations
+                    </h3>
+                    <div class="modal-consultation-list" id="modalConsultationList"></div>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button class="health-btn health-btn-secondary" id="modalCloseFooterBtn">
+                    <i class="fas fa-times"></i> Close
+                </button>
+                <button class="health-btn health-btn-primary">
+                    <i class="fas fa-shopping-cart"></i> Book Now
+                </button>
+            </div> -->
+        </div>
+    </div>
     <footer id="footer"></footer>
+    <script src="./assets/js/medicalPackage.js"></script>    
     <script src="./assets/js/Dom.js"></script>
-    <script src="./assets/js/medicalPackage.js"></script>
-    
     <div id="google_translate_element" style="display:none;"></div>
     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
-    <script src="./assets/js/IRPC.js"></script>
     <script src="./assets/js/Scripts.js"></script>
 </body>
 </html>

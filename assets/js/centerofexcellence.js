@@ -158,7 +158,7 @@
             return `
                 <section class="coe-section">
                     <div class="coe-container">
-                        <div class="coe-section-title">
+                        <div class="section-header">
                             <h2>${data.sections.centers.title}</h2>
                             <p>${data.sections.centers.description}</p>
                         </div>
@@ -195,7 +195,7 @@
             return `
                 <section class="coe-section coe-achievements-section">
                     <div class="coe-container">
-                        <div class="coe-section-title">
+                        <div class="section-header">
                             <h2>${data.sections.achievements.title}</h2>
                             <p>${data.sections.achievements.description}</p>
                         </div>
