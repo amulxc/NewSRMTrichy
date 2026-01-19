@@ -173,7 +173,7 @@
         function renderStats() {
             const statsHTML = data.sections.statistics.stats.map(stat => `
                 <div class="coe-stat-item">
-                    <span class="coe-stat-number" data-target="${stat.value}">0</span>
+                    <span class="coe-stat-number" >${stat.value}</span>
                     <span class="coe-stat-label">${stat.suffix ? stat.suffix + ' ' : ''}${stat.label}</span>
                 </div>
             `).join('');
@@ -261,25 +261,6 @@
             });
         }
 
-        // Counter animation for stats
-        function animateCounter(element, target) {
-            const duration = 2000;
-            const increment = target / (duration / 16);
-            let current = 0;
-
-            const updateCounter = () => {
-                current += increment;
-                if (current < target) {
-                    element.textContent = Math.floor(current).toLocaleString();
-                    requestAnimationFrame(updateCounter);
-                } else {
-                    element.textContent = target.toLocaleString();
-                }
-            };
-
-            updateCounter();
-        }
-
         function initStatsAnimation() {
             const statsObserver = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
@@ -300,13 +281,6 @@
         }
 
 
-        function handleAppointment() {
-            alert('Redirecting to appointment booking system...');
-        }
-
-        function handleContact() {
-            alert('Opening contact form...');
-        }
 
         // Initialize on page load
         document.addEventListener('DOMContentLoaded', initApp);

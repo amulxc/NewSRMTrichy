@@ -1,4 +1,97 @@
-        .health-container {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Colors */
+            --color-primary: #137fc1;
+            --color-primary-dark: #0052a3;
+            --color-primary-light: #044d88;
+            --color-secondary: #53a766;
+            --color-secondary-light: #79da81;
+            --color-accent-pink: #ff69b4;
+            --color-accent-pink-light: #ffd9ecb2;
+            --color-accent-red: #f44336;
+            --color-accent-red-light: #ff5252;
+            --color-accent-yellow-top: #ecb202;
+            --color-accent-yellow: #ffc107;
+            --color-accent-yellow-light: #fff4d49d;
+            --color-gold: #cfbe25;
+            --color-black: #202020;
+            --color-text-primary: #333;
+            --color-text-secondary: #666;
+            --color-text-light: #999;
+            --color-white: #ffffff;
+            --color-background-light: #f8f9fa;
+            --color-navy: #1a237e;
+            --color-navy-light: #283593;
+            --color-navy-medium: #3949ab;
+            --color-green-light: #66bb6a;
+            --color-green-olive: #8bc34a;
+            --color-green-olive-light: #aed581;
+            --color-blue-light: #2196f3;
+            --color-blue-lighter: #42a5f5;
+            --color-purple: #9c27b0;
+            --color-purple-light1: #ca4ae0;
+            --color-purple-light: #ba68c8;
+            --color-teal: #009688;
+            --color-teal-light: #0096881a;
+            --color-teal-light1:#04aa99b2;
+            --color-brown: #795548;
+            --color-brown-light: #a1887f;
+            --color-cyan: #00aaff;
+            
+            /* Spacing */
+            --spacing-xs: 0.3rem;
+            --spacing-sm: 0.5rem;
+            --spacing-md: 1rem;
+            --spacing-lg: 1.5rem;
+            --spacing-xl: 2rem;
+            --spacing-2xl: 2.5rem;
+            --spacing-3xl: 3rem;
+            --spacing-4xl: 4rem;
+            
+            /* Font Sizes */
+            --font-xs: 0.85rem;
+            --font-sm: 0.9rem;
+            --font-md: 0.95rem;
+            --font-base: 1rem;
+            --font-lg: 1.1rem;
+            --font-xl: 1.2rem;
+            --font-2xl: 1.3rem;
+            --font-3xl: 1.5rem;
+            --font-4xl: 2rem;
+            --font-5xl: 2.5rem;
+            
+            /* Border Radius */
+            --radius-sm: 10px;
+            --radius-md: 15px;
+            --radius-lg: 20px;
+            --radius-xl: 25px;
+            --radius-full: 50%;
+            
+            /* Shadows */
+            --shadow-sm: 0 2px 5px rgba(0,0,0,0.1);
+            --shadow-md: 0 3px 10px rgba(0,0,0,0.1);
+            --shadow-lg: 0 5px 20px rgba(0,0,0,0.08);
+            --shadow-xl: 0 10px 30px rgba(0,0,0,0.08);
+            
+            /* Transition */
+            --transition: 0.3s ease;
+            
+            /* Line Heights */
+            --line-height-tight: 1.2;
+            --line-height-normal: 1.3;
+            --line-height-relaxed: 1.4;
+        }
+
+        body {
+            color: var(--color-text-primary);
+        }
+
+       .health-container {
             max-width: 1400px;
             margin: 0 auto;
             padding: var(--spacing-xl);
@@ -525,7 +618,7 @@
         }
 
         .modal-consultation-badge {
-            background-color: var(--color-primary);
+            background-color: var(--color-primary-light);
             color: var(--color-white);
             padding: var(--spacing-sm) var(--spacing-md);
             border-radius: var(--radius-md);

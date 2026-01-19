@@ -385,10 +385,9 @@
     }
 
     .top-bar-wrapper {
-      max-width: 1400px;
+      max-width: 98%;
       margin: 0 auto;
       padding: 0 20px;
-      display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 15px;
@@ -503,8 +502,8 @@
     }
     .myQuickLinks {
       display: grid;
-      grid-template-columns: repeat(4, 1fr); /* 4 items per row */
-      gap: 50px;
+      grid-template-columns: repeat(5, 1fr); /* 4 items per row */
+      gap: 10px;
     }
     /* Quick Links */
     .quick-links {
@@ -512,9 +511,9 @@
       gap: 12px;
       align-items: center;
       border-right:1px solid #e3e3e3;
-      padding:0px 40px 0px 0;
+      justify-content:center;
     }
-    .quick-links:last-child{
+    .quick-links:nth-last-child(2){
       border-right:none;
     }
     .quick-links p{
@@ -668,6 +667,7 @@
       border-left:1px solid #ffffff!important;
       background:var(--color-secondary);
     }
+
     .milestone-stats1 .milestone-stat:nth-child(1){
       border-left:none!important;
     }

@@ -1,8 +1,12 @@
-         const color1="#fc6d6d";
-         const color2="#834eff";
+         const color1="#d43f3f";
+         const color2="#037a70";
+         const color3="#5d2cce";
+         const color4="#b1af32";
+         const color5="#005cc4";
+         const widthOfBox="220px";
          const depts = [      
             {
-                id: "Phase 1", name: "Phase 1", color: "#ff9800", colorDark: "#f57c00",
+                id: "Phase 1", name: "Phase 1",
                 boxes: [
                     {
                         label: "Anatomy", 
@@ -14,37 +18,37 @@
                     },
                     {
                         label: "Biochemistry", 
-                        bgColor:color2
+                        bgColor:color3
                     },
                     {
                         label: "Anatomy", 
-                        bgColor:color1
+                        bgColor:color4
                     }
                 ],
             },
             {
-                id: "Phase 2", name: "Phase 2", color: "#673ab7", colorDark: "#512da8",
+                id: "Phase 2", name: "Phase 2",
                 boxes: [
                     {
                         label: "Pathology", 
-                        bgColor:color2
+                        bgColor:color1
                     },
                     {
                         label: "Pharmacology", 
-                        bgColor:color1
+                        bgColor:color2
                     },
                     {
                         label: "Microbiology", 
-                        bgColor:color1
+                        bgColor:color3
                     },
                     {
                         label: "Forensic Medicine", 
-                        bgColor:color2
+                        bgColor:color4
                     }
                 ]
             },
             {
-                id: "Phase 3 Part 1", name: "Phase 3 Part 1", color: "#26c6da", colorDark: "#00acc1",
+                id: "Phase 3 Part 1", name: "Phase 3 Part 1",
                 boxes: [
                     {
                         label: "General Medicine", 
@@ -56,38 +60,38 @@
                     },
                     {
                         label: "Paediatrics", 
-                        bgColor:color2
+                        bgColor:color3
                     },
                     {
                         label: "Obstetrics & Gynaecology", 
-                        bgColor:color1
+                        bgColor:color4
                     }
 
                 ]
             },
             {
-                id: "Phase 3 Part 2", name: "Phase 3 Part 2", color: "#da264d", colorDark: "#c1003a",
+                id: "Phase 3 Part 2", name: "Phase 3 Part 2",
                 boxes: [
                     {
-                        label: "Community Medicine", 
-                        bgColor:color2
-                    },
-                     {
                         label: "Orthopaedics", 
-                        bgColor:color1
+                        bgColor:color2
                     },
                     {
                         label: "Ophthalmology", 
-                        bgColor:color1
+                        bgColor:color3
                     },
                     {
-                        label: "Dermatology, Venereology & Leprosy", 
-                        bgColor:color2
+                        label: "Dermatology", 
+                        bgColor:color4
                     },
                     {
                         label: "Psychiatry", 
-                        bgColor:color2
-                    }
+                        bgColor:color5
+                    },
+                    {
+                        label: "Community Medicine", 
+                        bgColor:color1
+                    },
                 ]
             }
         ];
@@ -208,7 +212,7 @@
             const phaseFolder = normalizePhase(d.id);
 
             let html = `
-                <div class="detail-header" id="${d.id}" style="padding:20px 40px;margin-bottom:0">
+                <div class="detail-header" id="${d.id}" style="padding:15px 40px;margin-bottom:0">
                     <h2 style="color:black;margin-bottom:0"><i class='fa fa-list'></i> ${d.name}</h2>
                 </div>
 
@@ -227,7 +231,7 @@
                                 <h2 style="color:grey;font-weight:400">
                                     Department in ${d.name}
                                 </h2>
-                                <div class="stats-grid" style="gap:0!important;grid-template-columns:repeat(auto-fit, minmax(350px, 1fr))">
+                                <div class="stats-grid" style="gap:0!important;grid-template-columns:repeat(auto-fit, minmax(${widthOfBox}, 1fr))">
                                     ${statCardsHTML}
                                 </div>
                             </div>
@@ -243,7 +247,7 @@
         function pdfItem(label, link) {
         return `
         <a href="${link}" target="_blank">
-            <div style='background:white;font-weight:400;color:#000;margin-bottom:10px;padding:8px 0px'>
+            <div style='background:white;font-weight:400;color:#000;margin-bottom:10px;padding:2px 0px'>
                 <i class="fa fa-file-pdf"></i> ${label}
             </div>
         </a>

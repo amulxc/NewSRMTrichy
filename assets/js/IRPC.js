@@ -267,6 +267,39 @@ const activities = [
                         "IAPSM"
                     ],
                     journal_reviewer:["Indian journal of public health, IJMPH, Annuals of SBV, IJOEM "],
+                },
+                {
+                    name: "B. Vallab Ganesh Bharadwaj",
+                    profileImage:"./assets/images/researchers/coordinator2.JPG",
+                    position: "Coordinator",
+                    specialization: "Research Scientist & Technical Manager – Molecular Biology ",
+                    projects: 4,
+                    interests: ["Antimicrobial Resistance and Hospital Infection Control","Acute febrile illness causing viruses","Unusual fever causing bacteria such as Brucella, Anthrax and Burkholderia"],
+                    projectsList: [
+                        "Genotypic Characterisation of ESKAPE Pathogens using WHOLE GENOMIC SEQUENCING(WGS)",
+                        "Genotypic profiling of Salmonella typhi in a rural teaching hospital in South India",
+                        "DEVELOPMENT AND PRECLINICAL VALIDATION OF BACTERIOPHAGE COCKTAIL AGAINST MULTIDRUG RESISTANT PSEUDOMONAS AERUGINOSA"
+                    ],
+                    publications: [
+                        "Bharadwaj V, Suvvari T, Kandi V, et al. (October 09, 2024) Molecular Characterization of Pseudomonas aeruginosa Clinical Isolates Through Whole-Genome Sequencing: A Comprehensive Analysis of Biotypes, Sequence Types, and Antimicrobial and Virulence Genes. Cureus 16(10): e71118. doi:10.7759/cureus.71118",
+                        "Moses V, Kandi V, Bharadwaj V, et al. (April 17, 2024) Molecular Characterization of Klebsiella pneumoniae Clinical Isolates Through Whole-Genome Sequencing: A Comprehensive Analysis of Serotypes, Sequence Types, and Antimicrobial and Virulence Genes. Cureus 16(4): e58449",
+                        "V Kandi, PR Shahapur, TK Suvvari, VG Bharadwaj, R Shahapur. Molecular characterization of Escherichia coli causing urinary tract infections through next-generation sequencing: a comprehensive analysis of serotypes, sequence types. Cureus 16 (3): e55556",
+                        "Purna Singh A, Shahapur P R, Vadakedath S, VG Bharadwaj (September 25, 2022) Research Question, Objectives, and Endpoints in Clinical and Oncological Research: A Comprehensive Review. Cureus 14(9): e29575",
+                        "Vallab Ganesh Bharadwaj B, Vazhavandal G, Vasudevan K, Sarada V, Uma A. Seroprevalence of Brucellosis among Blood Donors in Trichy District, Tamilnadu. Journal of Evolution of Medical and Dental Sciences 2014; Vol. 3, Issue 05, February 03; Page: 1130-1133",
+                        "Vallab Ganesh Bharadwaj B, Vazhavandal G, Sasirekha N, Ismail M, Uma A, Thirumalaikolundu Subramanian P.“ Seroprevalence of Hepatitis C virus among Health Care workers of a Rural Teaching Hospital in Tamil Nadu”. Journal of Evolution of Medical and Dental Sciences 2014; Vol. 3, Issue 01, January 06; Page:  32-37"
+
+
+                    ],
+                    conferences: [
+                        "MICROSPIRE-2021 (Virtual CME & Workshop); (The evolution of Clinical Microbiologists) (21st and 22nd October 2021)",
+                        "Genomics for Clinicians; 26th to 30th September 2022",
+                        "National Conference cum Workshop on “AMR and Healthcare Associated Infections” “UNICORA”- Understanding infection control and combating resistance in Antibiotics (6th to 8th November 2022)",
+                        "National Workshop and Conference on “Best Practices of Quality in Diagnostic Microbiology” September 15th and 16th, 2023",
+                        "CME on Breaking Rabies boundaries. 21st September 2024",
+                        "National Conference and Workshop on “Advances in Microscopy for Diagnosis and Research” 7th and 8th November 2025",
+                        "Certificate course on Antimicrobial Stewardship; 13th December 2025"
+
+                    ]
                 }
             ],
             members: [
@@ -328,6 +361,39 @@ const activities = [
                        "Recognized as Reviewer of InSc International Publishing Platforms and also for Technical Events under Basic and Medical Sciences",
                        "Recognized as Professional Member of InSc International Publisher in recognition of Professional standing (LMINSC)"
                     ]
+                },
+                {
+                    name: "Dr. P.Vanamail",
+                    profileImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIC801LEXM0O7ZWYP4_W3Tj9YTwZ82rToeQ&s",
+                    position: "Member",
+                    specialization: "Professor of Biostatistics & Research",
+                    projects: 2,
+                    citations: "36.7 L",
+                    interests: ["Qualitative","Quantitative","Statistical modelling","Epidemiological modelling "],
+                    projectsList: [
+                        "Assessing the bereavement level of stillbirth mothers",
+                        "Impact of training on pregnancy management and its complications"
+                    ],
+                    publications:[
+                        "Pregnancy Outcome in Women Aged 40 Years and Above: A Cross Sectional Study. Natasha Gupta, Anubhuti Rana, Vatsala Dadhwal, Aparna K. Sharma, Sunesh Kumar, Vanamail Perumal, Nitesh Kumar.(2025).The Journal of Obstetrics and Gynecology of India. https://doi.org/10.1007/s13224-025-02214-5.",
+                        "Statistical glossaries and biostatistical aspects in obstetrics and gynecology. (2025). P.Vanamail.  J Mid life Health 2025;16:356-66.",
+                        "Prevalence and Risk Factors of Work-Related Musculoskeletal Disorders in Healthcare Workers: An Observational Study. (2025).  Rajarethinam R, Venkatachalam K1, Vanamail Perumal. Indian J Occup Environ Med 2025;29:269-76.",
+                        "Hepatitis B infection status & vaccine coverage among under five children in Mayurbhanj district, Eastern India. (2025). K. Divyashree Bhat, Haimanti Bhattacharya, Yuvaraj Jayaraman, Vanamail Perumal, Thyagarajan Ravinder, Arashmika Dash, Matrujyoti Pattnaik, Kanhu Charan Nahak, Srikanta Kanungo, Narayana Swamy D.M., Anna Salomi Kerketta, Srinivas G., Debdutta Bhattacharya& Sanghamitra Pati1. Indian J Med Res 162, November 2025, pp 652-659. DOI: 10.25259/IJMR_1589_2025.",
+                        "Syndromic Indicators and Wastewater Surveillance of SARS-CoV-2–A Population-Based Longitudinal Study from South India. Preventive Medicine. (2025). Suryawanshi, D. M., Perumal, V., Anzbhagan, S., Rajaseharan, D., & Asaithambi, A. Research & Reviews, 2(4), 162–168. ",
+                        "Pulmonary Vein PI, Cardiac Function and Remodeling in SGA Fetuses`.  (2025). Swami, V., Dadhwal, V., Sharma, K. A., Perumal, V., Rana, A., Sahay, N., Meena, J., & Kulshrestha, V. The Journal of Obstetrics and Gynecology of India. https://doi.org/10.1007/s13224-025-02162-0.",
+                        "Prevalence of non‐communicable disease risk factors among nursing staff in a low and middle‐income country: A cross‐sectional digital survey‐based study. (202)4. Dhanasekaran, K., Lakshmanan, G., Perumal, V., Choudhary, M., Chalga, M. S., Hote, P. K., Hariprasad, R., Kumar, V., Chacko, S., & Kumaresan, K. International Journal of Nursing Practice, 30(5), e13263.",
+                        "Clinical, radiological and functional outcome following surgical fixation of acetabular fractures. (2024). Vanamail SN, Vanamail P. Indian J Orthop Surg 2024;10(2):124-129.",
+
+                    ],
+                    journal_reviewer:[
+                        "Indian Journal of Medical Research",
+                        "Journal of Womens Health",
+                        "BMC Child Health",
+                        "Journal of Reproductive Health",
+                        "International Journal of Epidemiology and Community Health",
+                        "WHO Bulletin"
+                    ]
+
                 },
                 
                 {
@@ -511,7 +577,7 @@ const activities = [
                     <h3 class="irpc-hierarchy-title">${level.title}</h3>
                     <div class="irpc-researchers-grid">
                         ${researchersData[level.key].map(researcher => `
-                            <div class="irpc-researcher-card" onclick='openModal(${JSON.stringify(researcher)})'>
+                            <div class="irpc-researcher-card" >
                                 <div class="irpc-researcher-image-wrapper">
                                     <div class="irpc-researcher-image">
                                         <div class="irpc-researcher-profile-pic">
@@ -535,7 +601,7 @@ const activities = [
                                         </div>
                                         `:''}
                                     </div>`:''}
-                                    
+                                    <button class="IRPC-view-profile-btn" onclick='openModal(${JSON.stringify(researcher)})'>View Profile</button>
                                 </div>
                             </div>
                         `).join('')}
@@ -563,14 +629,25 @@ const activities = [
             }
             
 
-            document.getElementById('irpc-modalPublications').innerHTML = researcher.publications.map(pub => 
-                `<li>${pub}</li>`
-            ).join('');
-
-            document.getElementById('irpc-modalConferences').innerHTML = researcher.conferences.map(conf => 
-                `<li>${conf}</li>`
-            ).join('');
-            
+            if(Array.isArray(researcher.publications)){
+                document.getElementById('irpc-modalPublications').innerHTML = researcher.publications.map(pub => 
+                    `<li>${pub}</li>`
+                ).join('');
+            }
+            else{
+                document.getElementById("publicationSection").style.display="none";
+             }   
+                
+            if(Array.isArray(researcher.conferences)){
+                document.getElementById('irpc-modalConferences').innerHTML = researcher.conferences.map(conf => 
+                    `<li>${conf}</li>`
+                ).join('');
+            }
+            else{
+                
+                document.getElementById("conferencesSection").style.display="none";
+                
+            }
             if(Array.isArray(researcher.patents)){
                 document.getElementById('irpc-modalPatents').innerHTML = researcher.patents.map(patent => 
                 `<li>${patent}</li>`
@@ -579,12 +656,14 @@ const activities = [
             else{
                 document.getElementById("patentSection").style.display="none";
             }
-            
+            if(Array.isArray(researcher.awards)){
             document.getElementById('irpc-modalAwards').innerHTML = researcher.awards.map(award => 
                 `<li>${award}</li>`
             ).join('');
-
-          
+            }   
+             else{
+                document.getElementById("awardSection").style.display="none";
+            }
 
             if(Array.isArray(researcher.editorial)){
                 document.getElementById('irpc-modalEditorial').innerHTML = researcher.editorial.map(role => 

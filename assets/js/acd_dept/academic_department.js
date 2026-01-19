@@ -1,5 +1,6 @@
 
-         const depts = [
+        // Department data with comprehensive information
+        const depts = [
             {
                 "id": "anatomy",
                 "name": "Anatomy",
@@ -4601,7 +4602,9 @@
             
             
         ];
-        let currentDept = null;
+
+               let currentDept = null;
+
         document.addEventListener('DOMContentLoaded', function() {
             renderSidebar();
             showDept(depts[0].id);
