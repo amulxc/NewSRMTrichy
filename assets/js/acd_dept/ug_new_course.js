@@ -1,5 +1,5 @@
          const color1="#d43f3f";
-         const color2="#037a70";
+         const color2="#2db3a7";
          const color3="#5d2cce";
          const color4="#b1af32";
          const color5="#005cc4";
@@ -74,23 +74,23 @@
                 boxes: [
                     {
                         label: "Orthopaedics", 
-                        bgColor:color2
+                        bgColor:color1
                     },
                     {
                         label: "Ophthalmology", 
-                        bgColor:color3
+                        bgColor:color2
                     },
                     {
                         label: "Dermatology", 
-                        bgColor:color4
+                        bgColor:color3
                     },
                     {
                         label: "Psychiatry", 
-                        bgColor:color5
+                        bgColor:color4
                     },
                     {
                         label: "Community Medicine", 
-                        bgColor:color1
+                        bgColor:color5
                     },
                 ]
             }

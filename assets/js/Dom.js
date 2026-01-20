@@ -26,7 +26,7 @@
         <div class="quick-links">
           <p>
             Book an Appointment
-            <a href="tel:98765433456" translate="no" class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
+            <a href="tel:0431-2258737" translate="no" class="quick-link featured"><i class='fa fa-phone'></i>0431-2258737</a>
           </p>
         </div>
           <div class="search-container">
@@ -134,21 +134,22 @@
               <li class="has-submenu" data-submenu="courses">
                 <a href="./course.html">Courses<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
-                  <li><a href="./ug_course_new.html">Under Graduate</a></li>
+                  <li><a href="./ug_new_course.html">Under Graduate</a></li>
                   <li><a href="./pg_course_new.html">Post Graduate</a></li>
                 </ul>
               </li>
-              <li><a href="./programsandcourse.html">Programs & Course Outcomes</a></li>
-
+              
+              
               <li class="has-submenu" data-dropdown="media">
-                <a href="infrastructure.html">Infrastructure <span class="arrow dropdown-trigger">&#9654;</span></a>
-                <ul class="sub-dropdown">
-                <li><a href="infrastructure.html#hostel">Hostel</a></li>
-                <li><a href="library.html">Library</a></li>
-                <li><a href="infrastructure.html#sports">Sports</a></li>
+              <a href="infrastructure.html">Infrastructure <span class="arrow dropdown-trigger">&#9654;</span></a>
+              <ul class="sub-dropdown">
+                  <li><a href="infrastructure.html#hostel">Hostel</a></li>
+                  <li><a href="library.html">Library</a></li>
+                  <li><a href="infrastructure.html#sports">Sports</a></li>
                   <li><a href="infrastructure.html#gym">Gym</a></li>
-                </ul>
+              </ul>
               </li>  
+              <li><a href="./meuandcc.html">MEU</a></li>
               <li><a href="./academic_department.html">Departments</a></li>
               <li class="has-submenu" data-submenu="media">
                 <a href="./media.html">Media & OutReach <span class="arrow submenu-trigger">&#9654;</span></a>
@@ -523,18 +524,16 @@ const pages = [
       { title: 'Leadership', path: 'About Us > Leadership', url: './aboutus.html#leadership' },
       { title: 'NAAC Accreditation', path: 'About Us > Milestones > NAAC', url: './aboutus.html#milestones' },
       { title: 'Academics', path: 'Academics', url: './academics.html' },
-      { title: 'Under Graduate Courses', path: 'Academics > Courses > UG', url: './course.html#ug-courses' },
-      { title: 'Post Graduate Courses', path: 'Academics > Courses > PG', url: './course.html#pg-courses' },
+      { title: 'Under Graduate Courses', path: 'Academics > Courses > UG', url: './ug_new_course.html' },
+      { title: 'Post Graduate Courses', path: 'Academics > Courses > PG', url: './pg_course_new.html' },
       { title: 'MBBS Program', path: 'Academics > Courses', url: './course.html' },
-      { title: 'Pre Clinical', path: 'Academics > Pre Clinical', url: './pre-clinical.html' },
-      { title: 'Para Clinical', path: 'Academics > Para Clinical', url: './para-clinical.html' },
-      { title: 'Library', path: 'Academics > Library', url: './library.html' },
-      { title: 'Medical Education Unit', path: 'Academics > MEU', url: './academics.html#specialties' },
-      { title: 'Hospital Services', path: 'Hospital Services', url: './hospital.html' },
-      { title: 'Medicine & Board Specialties', path: 'Hospital > Departments > Medicine & Board Specialties', url: './boardspecialties.html' },
-      { title: 'Surgery & Board Specialties', path: 'Hospital > Departments > Surgery & Board Specialties', url: './surgeryspecialties.html' },
-      { title: 'Surgery & Super Specialties', path: 'Hospital > Departments > Surgery & Super Specialties', url: './SurgerySuperSpecialties.html' },
-      { title: 'Medicine & Super Specialties', path: 'Hospital > Departments > Medicine & Super Specialties', url: './acd_dept/MedicalSuperSpecialties.html' },
+      { title: 'Academic Department', path: 'Academics > Department', url: './academic_department.html' },
+      { title: 'Hospital Department', path: 'Hospital > Department', url: './hospital_department.html' },
+      { title: 'Hospital Specialities', path: 'Home > Specialities', url: './Specialities.html' },
+      { title: 'Library', path: 'Academics > Infrastructure > Library', url: './library.html' },
+      { title: 'Medical Education Unit', path: 'Academics > MEU', url: './meuandcc.html' },
+
+      { title: 'Hospital Services', path: 'Hospital Services', url: './meuandcc.html' },
       { title: 'Doctors', path: 'Hospital > Doctors', url: './doctors.html' },
       { title: 'Blood Bank', path: 'Hospital > Blood Bank', url: './bloodbank.html' },
       { title: 'Research & Innovation', path: 'Research', url: 'research.html' },

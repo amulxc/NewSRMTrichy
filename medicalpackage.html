@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health Tests & Packages</title>
+    <title>Trichy SRM Medical College - Health Tests & Packages</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/Header.css">
+    <link rel="stylesheet" href="./assets/css/medicalPackage.css">
     <link rel="stylesheet" href="./assets/css/CursorAnimation.css">
     <link rel="fav icon" href="./assets/images/fav.png">
-    <link rel="stylesheet" href="./assets/css/medicalPackage.css">
 </head>
 <body>
-      <!-- Hero Section -->
     <div id="topbar"></div>
     <div id="quick-access"></div>  
     <div id="desktop-topbar"></div>
@@ -21,19 +21,20 @@
     <nav id="header"></nav>
     <div id="floatBtn" class="floating-social-btn"></div>
     <div id="emergencyBox1" class="floating-social-btn-emg"></div>
-
     <section class="breadcrum">
-        <h1>Health Package</h1>
+        <h1>Medical Health Package</h1>
         <div class="subtitle">
           <a href="index.html">Home</a>
           <div class="round"></div>
           <a href="hospital.html">Hospital</a>
           <div class="round"></div>
-          <span class="active">Health Package</span>
+          <span class="active">Medical Health Package</span>
         </div>
     </section>
+    
     <div class="health-container">
         <div class="health-header">
+            <h1 class="health-title">Health Tests & Packages</h1>
             <div class="health-search-bar">
                 <i class="fas fa-search health-search-icon"></i>
                 <input 
@@ -64,68 +65,35 @@
                 </div>
                 <div class="health-filter-section">
                     <h3 class="health-filter-title">
-                        <i class="fas fa-stethoscope"></i> Body Organs
+                        Body Organs
                     </h3>
                     <div class="health-filter-options" id="healthOrganFilters">
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="heart" data-filter="organ">
-                            <i class="material-symbols-outlined health-filter-icon">ecg_heart</i>
-                            <span class="health-filter-label">Heart</span>
-                            <span class="health-filter-count">5</span>
-                        </label>
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="liver" data-filter="organ">
-                            <i class="fas fa-lungs health-filter-icon"></i>
-                            <span class="health-filter-label">Liver</span>
-                            <span class="health-filter-count">5</span>
-                        </label>
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="kidney" data-filter="organ">
-                            <i class="material-symbols-outlined health-filter-icon">urology</i>
-                            <span class="health-filter-label">Kidney</span>
-                            <span class="health-filter-count">5</span>
-                        </label>
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="breast" data-filter="organ">
-                            <i class="fas fa-ribbon health-filter-icon"></i>
-                            <span class="health-filter-label">Breast</span>
-                            <span class="health-filter-count">2</span>
-                        </label>
-                        <label class="health-filter-option">
-                            <input type="checkbox" class="health-filter-checkbox" value="general" data-filter="organ">
-                            <i class="fas fa-notes-medical health-filter-icon"></i>
-                            <span class="health-filter-label">General</span>
-                            <span class="health-filter-count">6</span>
-                        </label>
+                       
                     </div>
                 </div>
 
                 <div class="health-filter-section">
                     <h3 class="health-filter-title">
-                        <i class="fas fa-tags"></i> Schemes
+                        Schemes
                     </h3>
                     <div class="health-filter-options" id="healthSchemeFilters">
                         <label class="health-filter-option">
                             <input type="checkbox" class="health-filter-checkbox" value="discount" data-filter="scheme">
-                            <i class="fas fa-percent health-filter-icon"></i>
                             <span class="health-filter-label">With Discount</span>
                             <span class="health-filter-count">5</span>
                         </label>
                         <label class="health-filter-option">
                             <input type="checkbox" class="health-filter-checkbox" value="comprehensive" data-filter="scheme">
-                            <i class="fas fa-clipboard-check health-filter-icon"></i>
                             <span class="health-filter-label">Comprehensive</span>
                             <span class="health-filter-count">2</span>
                         </label>
                         <label class="health-filter-option">
                             <input type="checkbox" class="health-filter-checkbox" value="women" data-filter="scheme">
-                            <i class="fas fa-venus health-filter-icon"></i>
                             <span class="health-filter-label">Women's Health</span>
                             <span class="health-filter-count">2</span>
                         </label>
                         <label class="health-filter-option">
                             <input type="checkbox" class="health-filter-checkbox" value="executive" data-filter="scheme">
-                            <i class="fas fa-briefcase health-filter-icon"></i>
                             <span class="health-filter-label">Executive</span>
                             <span class="health-filter-count">1</span>
                         </label>
@@ -200,11 +168,11 @@
         </div>
     </div>
     <footer id="footer"></footer>
+    <script src="./assets/js/medicalPackage.js"></script>    
     <script src="./assets/js/Dom.js"></script>
     <div id="google_translate_element" style="display:none;"></div>
     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
     <script src="./assets/js/Scripts.js"></script>
-    <script src="./assets/js/healthMedicalPackage.js"></script>
 </body>
 </html>
