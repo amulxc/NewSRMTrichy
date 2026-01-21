@@ -674,9 +674,12 @@
             }
 
             .modal-content {
-                margin: 0;
-                border-radius: 0;
-                max-height: 100vh;
+                margin: auto;
+                border-radius: 10px;
+                max-height: 80vh;
+                width: 90%;
+                padding-bottom: 5% !important;
+                overflow: hidden;
             }
 
             .modal-overlay {
@@ -686,7 +689,29 @@
             .modal-features-list {
                 grid-template-columns: 1fr;
             }
-
+            .modal-body {
+                padding: var(--spacing-lg);
+                max-height: 55vh;
+                overflow-y: auto;
+                margin-bottom: 2%;
+            }
+            .modal-header {
+                padding: var(--spacing-xl);
+                border-bottom: 2px solid var(--color-background-light);
+                position: relative;
+            }
+            .modal-title {
+                font-size: var(--font-md);
+                font-weight: 700;
+                color: var(--color-primary-dark);
+                margin-bottom: var(--spacing-sm);
+                padding-right: var(--spacing-3xl);
+            }
+            .modal-price {
+                font-size: var(--font-3xl);
+                font-weight: 700;
+                color: var(--color-text-primary);
+            }
             .modal-footer {
                 flex-direction: column;
             }
