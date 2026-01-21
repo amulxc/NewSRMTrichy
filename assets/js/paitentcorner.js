@@ -28,89 +28,6 @@
             }
         };
 
-        const healthPackages = [
-            {
-                id: "basic",
-                name: "Basic Screening",
-                title: "Basic Health Package",
-                price: "₹1,999",
-                tests: [
-                    "Complete Blood Count",
-                    "Blood Sugar (Fasting)",
-                    "Lipid Profile",
-                    "Kidney Function Test",
-                    "Liver Function Test",
-                    "Urine Analysis",
-                    "ECG",
-                    "Chest X-Ray"
-                ]
-            },
-            {
-                id: "executive",
-                name: "Executive Health",
-                title: "Executive Health Package",
-                price: "₹4,999",
-                tests: [
-                    "All Basic Package Tests",
-                    "Thyroid Profile",
-                    "Vitamin D & B12",
-                    "2D Echo",
-                    "TMT (Treadmill Test)",
-                    "USG Abdomen",
-                    "Physician Consultation",
-                    "Dietician Consultation"
-                ]
-            },
-            {
-                id: "cardiac",
-                name: "Cardiac Care",
-                title: "Cardiac Care Package",
-                price: "₹3,499",
-                tests: [
-                    "Lipid Profile (Advanced)",
-                    "ECG",
-                    "2D Echo",
-                    "TMT (Treadmill Test)",
-                    "Chest X-Ray",
-                    "Blood Sugar Tests",
-                    "Cardiac Markers",
-                    "Cardiologist Consultation"
-                ]
-            },
-            {
-                id: "diabetes",
-                name: "Diabetes Management",
-                title: "Diabetes Management",
-                price: "₹2,799",
-                tests: [
-                    "HbA1c (Glycated Hemoglobin)",
-                    "Fasting Blood Sugar",
-                    "Post Prandial Sugar",
-                    "Kidney Function Test",
-                    "Lipid Profile",
-                    "Urine Microalbumin",
-                    "Eye Examination",
-                    "Diabetologist Consultation"
-                ]
-            },
-            {
-                id: "women",
-                name: "Women's Health",
-                title: "Women's Health Package",
-                price: "₹3,999",
-                tests: [
-                    "Complete Blood Count",
-                    "Thyroid Profile",
-                    "Vitamin D & B12",
-                    "Bone Density Test",
-                    "Mammography",
-                    "Pap Smear",
-                    "USG Pelvis",
-                    "Gynecologist Consultation"
-                ]
-            }
-        ];
-
         const insuranceAgencies = [
             {
                 "agency_id": "SBI_General",
@@ -245,35 +162,7 @@
             container.innerHTML = rulesCard + schedulesCard;
         }
 
-        // Render Health Packages
-        function renderHealthPackages() {
-            const tabsContainer = document.getElementById('packageTabs');
-            const contentContainer = document.getElementById('packageContent');
-            
-            // Render Tabs
-            tabsContainer.innerHTML = healthPackages.map((pkg, index) => `
-                <button class="tab-btn ${index === 0 ? 'active' : ''}" onclick="showTab('${pkg.id}')">
-                    ${pkg.name}
-                </button>
-            `).join('');
-            
-            // Render Content
-            contentContainer.innerHTML = healthPackages.map((pkg, index) => `
-                <div id="${pkg.id}" class="tab-content ${index === 0 ? 'active' : ''}">
-                    <div class="package-details">
-                        <div class="package-card">
-                            <h4>${pkg.title}</h4>
-                            <div class="price">${pkg.price}</div>
-                            <ul>
-                                ${pkg.tests.map(test => `
-                                    <li><i class="fas fa-check"></i> ${test}</li>
-                                `).join('')}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            `).join('');
-        }
+       
 
         
 
@@ -324,7 +213,6 @@
         // Initialize
         document.addEventListener('DOMContentLoaded', () => {
             renderPatientInfo();
-            renderHealthPackages();
             
             // Start auto-scroll
             startAutoScroll();

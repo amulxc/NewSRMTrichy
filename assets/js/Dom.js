@@ -149,8 +149,8 @@
                   <li><a href="infrastructure.html#gym">Gym</a></li>
               </ul>
               </li>  
-              <li><a href="./meuandcc.html">MEU</a></li>
               <li><a href="./academic_department.html">Departments</a></li>
+              <li><a href="./meuandcc.html">MEU</a></li>
               <li class="has-submenu" data-submenu="media">
                 <a href="./media.html">Media & OutReach <span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
@@ -187,7 +187,6 @@
                   </li>
                   <li><a href="./information.html">Information Center</a></li>
                   <li><a href="./ambulance.html">24/7 Ambulance Services</a></li>
-                  <li><a href="./medicalpackage.html">Diagnostic Laboratory</a></li>
                   <li><a href="./hospital.html#specialties">Speciality Clinics</a></li>
                   <li><a href="./camps.html">Health Camps</a></li>
                   <li><a href="#">Consultant</a></li>

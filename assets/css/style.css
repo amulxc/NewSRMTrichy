@@ -221,7 +221,7 @@
         --gradient-about:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/about.JPG);
         --gradient-academic:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/academic.jpeg);
         --gradient-research:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/research.JPG);
-        --gradient-contact:linear-gradient(to right,#0147539f,#001f20bb),url(../images/breadcrum/about.JPG);
+        --gradient-contact:linear-gradient(to right,#095831be,#001f2085),url(../images/breadcrum/contact.jpeg);
     }
 
 
@@ -1863,12 +1863,12 @@ html[lang="en"] .nav-container a {
     background:var(--gradient-academic);
 }
 .contact1+.breadcrum{
+    background-position:bottom!important;
+    background-size:contain!important;
     background:var(--gradient-contact);
+
 }
 .research1+.breadcrum{
-    background-position:top!important;
-    background-size:cover!important;
-    padding: 240px 20px 280px;
     background:var(--gradient-research);
 }
 .breadcrum h1{
@@ -6397,7 +6397,6 @@ grid-template-columns: 1fr;
 
         .awareness-section {
             width: 100%;
-            background: linear-gradient(135deg, #e3f5ff 0%, #e8f5e9 100%);
             /* border-radius: var(--radius-lg); */
         }
 
