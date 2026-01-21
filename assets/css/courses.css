@@ -211,13 +211,14 @@
     --gradient-2: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-light) 100%);
     --gradient-3: linear-gradient(to left, #28d4ff,#008f2b);
     /* --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum.jpg); */
-    --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(../images/DoctorsforMilestone.jpeg);
+    --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/hospital.jpeg);
     --gradient-4: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-secondary-light) 100%);
-
+    
     --gradient-4-event:linear-gradient(#003b6ce7),url(../images/event.jpg);
     --gradient-5-leader:linear-gradient(#000000f3),url(../images/event.jpg);
     --gradient-6:linear-gradient(to left,#002b53e7,#1065c7d7),url(../images/event.jpg);
-
+    
+    --gradient-about:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/about.JPG);
 }
 
 * {

@@ -2908,7 +2908,7 @@ async function loadDoctorsFromExcel() {
                 rgba(${hexToRgb(dept.color)}, 0.6),
                 rgba(${hexToRgb(dept.colorDark)}, 0.6)
             ),
-            url(./assets/images/dept_images/${l}/breadcrum.jpg)` || `linear-gradient(to right,#0153349f,#001f20e3),url(../images/DoctorsforMilestone.jpeg)`;
+            url(./assets/images/dept_images/${l}/breadcrum.jpg)` || `linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/hospital.jpeg)`;
 
             
             breadcrum.style.height="70vh"

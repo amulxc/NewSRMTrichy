@@ -20,7 +20,7 @@
         <div class="quick-links">
           <p>
             Need Ambulance
-            <a href="tel:98765433456" translate="no" class="quick-link featured"><i class='fa fa-phone'></i>9789482641</a>
+            <a href="tel:1800 123 108 108" translate="no" class="quick-link featured"><i class='fa fa-phone'></i>1800 123 108 108</a>
           </p>
         </div>
         <div class="quick-links">

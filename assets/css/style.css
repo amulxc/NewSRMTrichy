@@ -210,15 +210,20 @@
         --gradient-1:linear-gradient(135deg, var(--color-primary-light) 50%, var(--color-secondary-light) 100%);
         --gradient-2: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-light) 100%);
         --gradient-3: linear-gradient(to left, #28d4ff,#008f2b);
-        /* --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum.jpg); */
-        --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(../images/DoctorsforMilestone.jpeg);
+        --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/hospital.jpeg);
         --gradient-4: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-secondary-light) 100%);
-
+        
         --gradient-4-event:linear-gradient(#003b6ce7),url(../images/event.jpg);
         --gradient-5-leader:linear-gradient(#000000f3),url(../images/event.jpg);
         --gradient-6:linear-gradient(to left,#002b53e7,#1065c7d7),url(../images/event.jpg);
-
     }
+    :root{
+        --gradient-about:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/about.JPG);
+        --gradient-academic:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/academic.jpeg);
+        --gradient-research:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/research.JPG);
+        --gradient-contact:linear-gradient(to right,#0147539f,#001f20bb),url(../images/breadcrum/about.JPG);
+    }
+
 
     * {
         margin: 0;
@@ -1843,15 +1848,29 @@ html[lang="en"] .nav-container a {
 
 .breadcrum {
   background:var(--gradient-3-breadcrum);
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center;
-  background-attachment: fixed;
-  padding: 170px 20px 150PX;
+  background-repeat:no-repeat!important;
+  background-size:cover!important;
+  background-position:center!important;
+  background-attachment: fixed!important;
+  padding: 210px 20px 180px;
   margin-top: 0px; /* adjust for fixed navbar if used */
   position: relative;
 }
-
+.about1+.breadcrum{
+    background:var(--gradient-about);
+}
+.academic1+.breadcrum{
+    background:var(--gradient-academic);
+}
+.contact1+.breadcrum{
+    background:var(--gradient-contact);
+}
+.research1+.breadcrum{
+    background-position:top!important;
+    background-size:cover!important;
+    padding: 240px 20px 280px;
+    background:var(--gradient-research);
+}
 .breadcrum h1{
   font-size: 3rem;
   font-weight: 600;
