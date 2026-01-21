@@ -1961,32 +1961,6 @@ html[lang="en"] .nav-container a {
 .vision-mission {
     background:var(--gradient-1);
 }
-.Leadership-social-icons {
-    display: flex;
-    margin-top: var(--spacing-lg);
-    justify-content:center;
-}
-
-.Leadership-social-icons a {
-    width: var(--size-icon-md);
-    border:1px solid #f0f0f0;
-    height: var(--size-icon-md);
-    background: rgba(255,255,255,var(--text-light));
-    color: var(--text-color);
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    transition: all var(--transition-fast);
-    font-size: var(--font-xl);
-}
-
-.Leadership-social-icons a:hover {
-    background:linear-gradient(135deg,#89ff44,#195701);
-    color: var(--white);
-    transform: translateY(-1px);
-}
-
 section {
     padding:4% 6% 5%;
 }
@@ -2104,7 +2078,6 @@ section {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            border-radius: var(--radius-full);
         }
 
        .leadership .irpc-researcher-profile-pic i {
@@ -2124,6 +2097,10 @@ section {
             margin-bottom: var(--spacing-sm);
             font-weight: 700;
             line-height: var(--line-height-tight);
+            display:flex;
+            align-items:center;
+            gap:10px;
+            justify-content:center;
         }
 
        .leadership .irpc-researcher-position {
@@ -2151,6 +2128,34 @@ section {
         }
 
 
+        
+        .Leadership-social-icons {
+            position:relative;
+            display: flex;
+            justify-content:center;
+           
+        }
+
+        .Leadership-social-icons a {
+            width: var(--size-icon-md);
+            border:1px solid #f0f0f0;
+            height: var(--size-icon-md);
+            background: rgba(255,255,255,var(--text-light));
+            color: var(--color-white);
+            border-radius:5px;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            transition: all var(--transition-fast);
+            font-size: var(--font-xl);
+            background:linear-gradient(135deg,var(--color-primary),var(--color-primary-dark));
+        }
+
+        .Leadership-social-icons a:hover {
+            color: var(--white);
+            transform: translateY(-1px);
+        }
 
       
 
