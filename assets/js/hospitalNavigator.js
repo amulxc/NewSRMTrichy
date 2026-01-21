@@ -24,7 +24,7 @@ const departments = [
     "name": "Patient Corner"
   },
   {
-    "url": "donors.html",
+    "url": "donor.html",
     "name": "Donors"
   },
   {

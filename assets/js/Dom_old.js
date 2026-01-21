@@ -39,9 +39,6 @@
 
 
       </div>
-      <div class="language-switcher">
-          <a onclick="changeLanguage('en')" translate="no">English | </a> <a onclick="changeLanguage('ta')"  translate="no">தமிழ்</a>
-        </div>
       
     </div>
   </div>`
@@ -59,6 +56,10 @@
         </div>
         <div class="milestone-stat">
           <a href='#'>Lab Reports</a>
+        </div>
+        <div class="milestone-stat">
+          <div class="language-switcher"><a onclick="changeLanguage('en')" translate="no">English | </a> <a onclick="changeLanguage('ta')"  translate="no">தமிழ்</a>
+        </div>
         </div>
     </div>
   </div>`

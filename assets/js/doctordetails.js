@@ -18,7 +18,7 @@ function loadDoctorData() {
         doctorData['Department'] ||
         doctorData.specialty || 'N/A';
 
-        if(doctorData.experience>0){
+        if(doctorData.experience>9){
             document.getElementById('experience').textContent = doctorData['Years of Experience'] || doctorData.experience || '0';
         }
         else{
