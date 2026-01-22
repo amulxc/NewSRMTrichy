@@ -218,10 +218,17 @@
         --gradient-6:linear-gradient(to left,#002b53e7,#1065c7d7),url(../images/event.jpg);
     }
     :root{
-        --gradient-about:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/about.JPG);
-        --gradient-academic:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/academic.jpeg);
-        --gradient-research:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/research.JPG);
-        --gradient-contact:linear-gradient(to right,#095831be,#001f2085),url(../images/breadcrum/contact.jpeg);
+        --g-1:#0153349f;
+        --g-2:#001f20e3;
+        --g-3:#ffffffe3;
+        --g-4:#ffffffe3;
+        --gradient-about:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/about.JPG);
+        --gradient-academic:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/academic.jpeg);
+        --gradient-research:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/research.jpg);
+        --gradient-contact:linear-gradient(to left,var(--g-1),var(--g-2)),url(../images/breadcrum/contact.jpeg);
+        --gradient-ambulance:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/ambulance.jpg);
+        --gradient-common:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/hospital.jpeg);
+        --gradient-nopage:linear-gradient(to right,var(--g-3),var(--g-4)),url(../images/breadcrum/);
     }
 
 
@@ -422,7 +429,7 @@
     .floating-social-btn-emg .social-links-container.active {
         opacity: 1;
         pointer-events: all;
-        right:-264px;
+        right:-260px;
     }
     .floating-social-btn-emg .social-links-container {
         opacity: 1;
@@ -1847,7 +1854,7 @@ html[lang="en"] .nav-container a {
 ------------------------------------------------ */
 
 .breadcrum {
-  background:var(--gradient-3-breadcrum);
+  background:var(--gradient-common);
   background-repeat:no-repeat!important;
   background-size:cover!important;
   background-position:center!important;
@@ -1866,10 +1873,17 @@ html[lang="en"] .nav-container a {
     background-position:bottom!important;
     background-size:contain!important;
     background:var(--gradient-contact);
-
 }
 .research1+.breadcrum{
     background:var(--gradient-research);
+    background-position:top!important;
+}
+.ambulance1+.breadcrum{
+    background:var(--gradient-ambulance);
+}
+.nopage+.breadcrum{
+    background:var(--gradient-nopage);
+    padding: 240px 20px 290px;
 }
 .breadcrum h1{
   font-size: 3rem;
@@ -1878,7 +1892,9 @@ html[lang="en"] .nav-container a {
   text-align:center;
   color:#ffffff;
 }
-
+.nopage+.breadcrum h1{
+    color:var(--accent-color);
+}
 .breadcrum .subtitle{
   display:flex;
   font-size: 1rem;
@@ -2601,11 +2617,29 @@ h2 span{
     border-top: 4px solid transparent;
     overflow:hidden;
 }
-
+.emergency-care .services-grid{
+    grid-template-columns: repeat(2, 1fr);
+}
 .service-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
+.myNewCard .services-grid .service-card{
+    border:none;
+    padding:0;
+    background:none;
+    height: 270px;
+}
+.myNewCard .services-grid .service-card img{
+    height: 270px;
+    width: 100%;
+}
+
+.myNewCard  p{
+    text-align:left;
+    margin-bottom:20px;
+}
+
 
 .service-icon {
     width: 80px;
@@ -2746,28 +2780,31 @@ h2 span{
     flex-direction:column;
     align-items:center;
     overflow:hidden;
-    padding:30px 0;
+    padding:26px;
 }
 .specialty-card h4{
     border-bottom:2px dashed #dfdfdf;
-    padding:20px 0;
+    padding:0;
 }
 .specialty-card div{
-    padding-top:30px;
     padding:0;
     overflow: hidden;
     text-align:center;
+    border-radius:20px;
 }
 .specialty-card div p{
     padding:8px 20px;
 }
 .specialty-card img{
-    max-width: 150px;
-    height: 150px;
-    border-radius: 20px;
+    width:100%;
+    height:100%;
     border-top:none;
     transition: all 0.3s;
     object-fit:cover;
+    border-radius:20px;
+}
+.specialty-card:hover img{
+    transform:scale(1.15);
 }
 
 
@@ -4184,7 +4221,6 @@ grid-template-columns: 1fr;
       
         .faq-section-research {
             padding: var(--spacing-6xl) 5%;
-            background: var(--gradient-1);
         }
 
         .faq-grid {
@@ -12246,4 +12282,10 @@ grid-template-columns: 1fr;
             border-radius:10px;
             padding:3px;
             margin-top:20px;
+        }
+        .bb{
+            border:.6px solid #f1f1f1;
+            margin-top:12px;
+            margin-bottom:12px;
+            width:100%;
         }
