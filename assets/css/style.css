@@ -229,6 +229,7 @@
         --gradient-ambulance:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/ambulance.jpg);
         --gradient-common:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/hospital.jpeg);
         --gradient-nopage:linear-gradient(to right,var(--g-3),var(--g-4)),url(../images/breadcrum/);
+        --gradient-coe:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/coe.jpeg);
     }
 
 
@@ -1881,6 +1882,9 @@ html[lang="en"] .nav-container a {
 .ambulance1+.breadcrum{
     background:var(--gradient-ambulance);
 }
+.coe1+.breadcrum{
+    background:var(--gradient-coe);
+}
 .nopage+.breadcrum{
     background:var(--gradient-nopage);
     padding: 240px 20px 290px;
@@ -2134,7 +2138,7 @@ section {
             line-height: var(--line-height-tight);
             display:flex;
             align-items:center;
-            gap:10px;
+            gap:5px;
             justify-content:center;
         }
 
@@ -2178,7 +2182,7 @@ section {
             background: rgba(255,255,255,var(--text-light));
             color: var(--color-white);
             border-radius:4px;
-            display: flex;
+            display:flex;
             text-decoration: none;
             align-items: center;
             justify-content: center;
@@ -2810,11 +2814,11 @@ h2 span{
 
 
 .specialty-grid .specialty-card:nth-child(1){
-    color:var(--color-primary)!important;
+    color:var(--color-accent)!important;
     border-top:5px solid;
 }
 .specialty-grid .specialty-card:nth-child(2){
-    color:var(--color-accent)!important;
+    color:var(--color-primary)!important;
     border-top:5px solid;
 }
 .specialty-grid .specialty-card:nth-child(3){
@@ -2831,6 +2835,30 @@ h2 span{
 }
 .specialty-grid .specialty-card:nth-child(6){
     color:var(--color-teal)!important;
+    border-top:5px solid;
+}
+.specialty-grid .specialty-card:nth-child(7){
+    color:var(--color-accent-pink)!important;
+    border-top:5px solid;
+}
+.specialty-grid .specialty-card:nth-child(8){
+    color:var(--color-navy)!important;
+    border-top:5px solid;
+}
+.specialty-grid .specialty-card:nth-child(9){
+    color:var(--color-gold)!important;
+    border-top:5px solid;
+}
+.specialty-grid .specialty-card:nth-child(10){
+    color:var(--color-brown)!important;
+    border-top:5px solid;
+}
+.specialty-grid .specialty-card:nth-child(11){
+    color:var(--color-black)!important;
+    border-top:5px solid;
+}
+.specialty-grid .specialty-card:nth-child(12){
+    color:var(--color-green-olive)!important;
     border-top:5px solid;
 }
 
@@ -9762,8 +9790,6 @@ grid-template-columns: 1fr;
         .infra-gym-feature-box.active {
             background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
             color: white;
-            border-left-color: white;
-            transform: translateX(10px);
         }
 
         .infra-gym-feature-icon {
