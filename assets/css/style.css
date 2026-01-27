@@ -224,7 +224,7 @@
         --g-4:#ffffffe3;
         --gradient-about:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/about.JPG);
         --gradient-academic:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/academic.jpeg);
-        --gradient-research:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/research.jpg);
+        --gradient-research:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/research.JPG);
         --gradient-contact:linear-gradient(to left,var(--g-1),var(--g-2)),url(../images/breadcrum/contact.png);
         --gradient-ambulance:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/ambulance.jpg);
         --gradient-common:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/hospital.jpeg);

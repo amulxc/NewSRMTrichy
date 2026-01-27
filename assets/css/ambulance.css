@@ -207,7 +207,7 @@
 
 .ambulance-equipment-item::before {
     content: '\f00c';
-    font-family: 'Font Awesome 6 Free';
+    font-family: 'Font Awesome 7 Free';
     font-weight: 900;
     display: block;
     font-size: var(--font-3xl);

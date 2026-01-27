@@ -174,6 +174,7 @@
                     <a href="#">Supporting Services<span class="arrow submenu-trigger">&#9654;</span></a>
                     <ul class="sub-dropdown">
                       <li><a href="./bioengineering.html">Bio Medical Engineering</a></li>
+                      <li><a href="./physiotherapy.html">Physiotherapy</a></li>
                       <li><a href="./bioethics.html">Bio Ethics</a></li>
                     </ul>
                   </li>
@@ -243,7 +244,7 @@
                 <i class="fab fa-facebook-f"></i>
             </a>
             <a href="https://www.threads.com/@srmmchrc" target="_blank" class="social-link threads" title="Threads" translate="no">
-               கு
+              <i class="fab fa-threads"></i>
             </a>
             <a href="https://www.youtube.com/@tsrmmedicalcollegehospital" target="_blank" class="social-link youtube" title="YouTube">
                 <i class="fab fa-youtube"></i>

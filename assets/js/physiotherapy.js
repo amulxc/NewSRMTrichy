@@ -38,6 +38,7 @@
                 ]
 
             },
+            "Infra":[1,2,3,4,5],
             "committee_members": [
                 { "name": "Mr. Vincent Jeyaraj D", "designation": "Associate Professor" },
                 { "name": "Ms. M. Vidyagajalakshmi", "designation": "Assistant Professor" },
@@ -133,12 +134,26 @@
             html += '</tbody></table></div>';
             content.innerHTML = html;
         }
+        
+        function loadInfra() {
+            const Infra = document.getElementById("Infra");
+
+            const InfraContent = bioEthicsData.Infra
+                .map(item => {
+                    return `<div><img src="./assets/images/dept_images/Pysiotherapy/${item}.jpg" alt="Infra ${item}"></div>`;
+                })
+                .join("");
+
+            Infra.innerHTML = InfraContent;
+        }
+
 
         // Initialize all content
         function initializeBioEthicsPage() {
             loadVisionMission();
             loadActivityFramework();
             loadCommitteeMembers();
+            loadInfra();
         }
 
         // Load content when DOM is ready
