@@ -4520,8 +4520,8 @@ grid-template-columns: 1fr;
             background: #ffebb64d; 
         }
         .about-content .department-grid2 .department-card:nth-child(6){ 
-            background: #fa29e825; 
-            border-color: #ee17ee; 
+            background: #71790011; 
+            border-color: #717900; 
         }
         .about-content .department-grid2 .department-card:nth-child(7){ 
             background: #29d0fa25; 
@@ -4645,6 +4645,11 @@ grid-template-columns: 1fr;
 
   .about-image {
     order: -1;
+  }
+  .about-stats-grid {
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 1.5rem;
   }
 }
 

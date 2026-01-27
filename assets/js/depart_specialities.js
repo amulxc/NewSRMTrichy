@@ -857,7 +857,6 @@
             "",
             "",
             "",
-            "Refraction Room",
             "",
         ],
         faculty_desc: "The department has a team of qualified and experienced faculty committed to academic excellence, research, and clinical service.",
@@ -2793,8 +2792,7 @@ async function loadDoctorsFromExcel() {
                                 ${
                                     dept.infra.map((x,i) =>
                                         `<div class="infra-card">
-                                            <img src="./assets/images/dept_images/${dept.name}/${i+1}.jpg" alt="">
-                                            <p>${x}</p>
+                                            <img src="./assets/images/dept_images/${dept.name}/${i+1}.JPG" alt="">
                                         </div>`
                                     ).join("")
                                 }
