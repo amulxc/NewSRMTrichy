@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         // Populate filter options
         function populateFilters() {
             // Specialities
-            const specialties = [...new Set(doctorsData.map(d => d.specialty))];
+            const specialties = [...new Set(doctorsData.map(d => d.specialty))].sort((a, b) => a.localeCompare(b));
             const specialitiesFilter = document.getElementById('specialitiesFilter');
             specialties.forEach((specialty, index) => {
                 specialitiesFilter.innerHTML += `
@@ -290,7 +290,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             // Display doctors for current page
             paginatedDoctors.forEach(doctor => {
                 const card = createDoctorCard(doctor);                
-                
                 grid.appendChild(card);
             });
 
@@ -433,15 +432,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                                 <span>${doctor.experience}+ Years of Experience</span>
                             </div>`:''}
                             
-                            <div class="detail-item" style="color:${doctor.shift !== "Regular Shift" ? "red" : "blue"}">
-                                <i class="fas fa-clock" style="color:${doctor.shift !== "Regular Shift" ? "red" : "blue"}"></i>
-                                <span>${doctor.shift}</span>
-                            </div>
-                        </div>
-                        <div class="consultation-info">
-                            <button class="view-profile-btn" onclick="viewDoctorProfile(${doctor.id})">
-                                View Profile
-                            </button>
+                            
                         </div>
                     </div>`;
             });

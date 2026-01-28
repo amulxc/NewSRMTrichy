@@ -91,7 +91,7 @@ const departments = [
   },
   {
     "dept_id": "orthopedics",
-    "name": "orthopedics",
+    "name": "Orthopedics",
     "icon": "fas fa-bone",
     "color": "#6c5ce7",
   },
@@ -231,7 +231,7 @@ let SpecialityCard = sortedDeptForLink.map(e => {
   return `
     <div class="infra-spec-card">
       <a href="depart_specialities.html?dept=${encodeURIComponent(e.dept_id)}">
-        <div class="infra-icon-image" style="background-color:${e.color}">
+        <div class="infra-icon-image" style="color:${e.color}">
           <i class="${e.icon}">${iconInner}</i>
         </div>
         <div class="infra-icon-title">${e.name}</div>

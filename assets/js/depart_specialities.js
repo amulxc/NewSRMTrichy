@@ -1020,10 +1020,10 @@
             { name: "Dr.Vijay Kanna M. M", designation: "Professor & HOD"},
             { name: "Dr.Arunachala D Edukondalu", designation: "Professor"},
             { name: "Dr.Jothi N", designation: "Professor"},
-            { name: "Dr.Balasubramanian S", designation: "Professor"},
+            { name: "Dr. S. Balasubramanian", designation: "Professor"},
             { name: "Dr.Kirubahar R", designation: "Professor"},
             { name: "Dr.Selvaraj N", designation: "Associate Professor"},
-            { name: "Dr.Sundari B", designation: "Associate Professor"},
+            { name: "Dr. B. Sundari", designation: "Associate Professor"},
             { name: "Dr.Kavin Kumar S", designation: "Associate Professor"},
             { name: "Dr.Gnana Sekar R", designation: "Associate Professor"},
             { name: "Dr.Aishwarya S", designation: "Associate Professor"},
@@ -1032,9 +1032,9 @@
             { name: "Dr.Siva Prakash V", designation: "Assistant Professor"},
             { name: "Dr.Keerthana P", designation: "Assistant Professor"},
             { name: "Dr.Sethupathi J", designation: "Assistant Professor"},
-            { name: "Dr.Mahesh Kumar S", designation: "Assistant Professor"},
+            { name: "Maheskumar Srinivasan", designation: "Assistant Professor"},
             { name: "Dr.Madhavan P", designation: "Senior Resident"},
-            { name: "Dr.Uma M", designation: "Senior Resident"},
+            { name: "M. Uma", designation: "Senior Resident"},
             { name: "Dr.Meenakshi P", designation: "Senior Resident"},
             { name: "Dr.Nancy Prasanna V", designation: "Senior Resident"},
             { name: "Dr.Karthikeyan P", designation: "Senior Resident"},
@@ -2807,7 +2807,7 @@ async function loadDoctorsFromExcel() {
                         <h2 class="section-title" style="color:${dept.colorDark}">Our Medical Team</h2>
                         <div class="grid-3">
                             ${dept.doctor.map(doc => `
-                            <div class="doctor-card" onclick="viewDoctorProfile(${getDoctorImage(dept.name, doc.name).id})">
+                            <div class="doctor-card">
                                 <div class="doctor-avatar">
                                 <img
                                     src="${getDoctorImage(dept.name, doc.name).image}"
@@ -2845,25 +2845,13 @@ async function loadDoctorsFromExcel() {
                         <h2 class="section-title" style="color:${dept.colorDark}">Achievements</h2>
                         <div class="info-card">
                             <div class="service-tags">
-                                ${dept.achievements.map(Item => `
-                                    <span class="service-tag"  style="background:linear-gradient(to right,${dept.color},${dept.colorDark})">${Item}</span>
-                                `).join('')}
+                                <ul class="info-list2">
+                                    ${dept.achievements.map(item => `<li><i class='fa fa-trophy'></i>${item}</li>`).join('')}
+                                </ul>
                             </div>
                         </div>
                     </div>
                     ` : ''}
-
-                     <div class="section">
-                        <h2 class="section-title" style="color:${dept.colorDark}">Patient Corner</h2>
-
-                        <div class="info-card">
-                            <ul class="info-list">
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
-                            </ul>
-                        </div>
-                    </div>
 
                     <!-- FAQ -->
 

@@ -408,12 +408,7 @@ a{
             display: block;
         }
 
-        .section-title {
-            font-size: var(--font-3xl);
-            color: var(--color-primary);
-            padding-bottom: var(--spacing-lg);
-        }
-
+    
         .description {
             font-size: var(--font-lg);
             color: var(--color-text-secondary);

@@ -109,16 +109,14 @@
         let SpecialityCard = sortedinsuranceAgencies.map(e => {
           const iconInner = e["Icon-Name"] ? e["Icon-Name"] : "";
 
-          return `
-          <a href="${e.link}" target="_blank">
-            <div class="infra-spec-card">
-                <div class="infra-icon-image" style="background-color:${e.color}">
-                  <i class="${e.icon}">${iconInner}</i>
-                </div>
-                <div class="infra-icon-title">${e.name}</div>
-              </div>
-            </a>
-          `;
+          return `<div class="document-card">
+                <a href="${e.link}" target="_blank">
+                    <div class="infra-icon-image" style="background-color:${e.color}">
+                    <i class="${e.icon}">${iconInner}</i>
+                    </div>
+                    <div class="infra-icon-title">${e.name}</div>
+                </a>
+            </div>`;
         }).join("");
 
         document.getElementById("Specialties").innerHTML = SpecialityCard;

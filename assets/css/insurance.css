@@ -1,7 +1,4 @@
-.corner-section {
-            margin-bottom: var(--spacing-6xl);
-        }
-
+      
         /* Patient Information Styles */
         .info-grid {
             display: grid;

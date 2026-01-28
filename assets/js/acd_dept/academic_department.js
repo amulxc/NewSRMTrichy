@@ -4603,7 +4603,7 @@
             
         ];
 
-               let currentDept = null;
+        let currentDept = null;
 
         document.addEventListener('DOMContentLoaded', function() {
             renderSidebar();
@@ -4612,7 +4612,10 @@
 
         function renderSidebar() {
             const menu = document.getElementById('sidebarMenu');
-            menu.innerHTML = depts.map(d => `
+            const sortedDepts = [...depts].sort((a, b) =>
+                a.name.localeCompare(b.name)
+            );
+            menu.innerHTML = sortedDepts.map(d => `
                 <li>
                     <a href="#${d.id}" onclick="showDept('${d.id}');">
                      ${d.icon.includes("<i class=")===false 

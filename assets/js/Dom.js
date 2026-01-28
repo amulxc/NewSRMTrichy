@@ -51,23 +51,26 @@
   </div>`
 
   const quickAccess = `<div class="quick-access" id="desktop-quickaccess">
-   <div class="milestone-stats1">
+      <div class="milestone-stats1">
         <div class="milestone-stat">
-          <a href='./doctors.html'>Find a Doctor</a>
+          <a href='./doctors.html'>Our Doctors</a>
         </div>     
         <div class="milestone-stat">
-          <a href='./course.html'>Course </a>
+          <a href='./patientcorner.html'>Patient Corner</a>
         </div>
         <div class="milestone-stat">
-          <a href='./Specialities.html'>Specialities</a>
+          <a href='./medicalpackage.html'>Health Checkup Package</a>
         </div>
         <div class="milestone-stat">
-          <a href='#'>Lab Reports</a>
+          <a href='./Specialities.html'>Super Specialities</a>
         </div>
         <div class="milestone-stat">
-          <div class="language-switcher"><a onclick="changeLanguage('en')" translate="no">English | </a> <a onclick="changeLanguage('ta')"  translate="no">தமிழ்</a>
+          <a href='#'>Your Reports</a>
         </div>
+        <div class="milestone-stat">
+          <div class="language-switcher"><a onclick="changeLanguage('en')" translate="no">English</a> <span style='color:white'> | </span><a onclick="changeLanguage('ta')"  translate="no">தமிழ்</a>
         </div>
+      </div>
     </div>
   </div>`
 
@@ -131,6 +134,9 @@
           <li class="has-dropdown" data-dropdown="academics">
             <a href="./academics.html">Academics <span class="arrow dropdown-trigger">&#9654;</span></a>
             <ul class="dropdown">
+              
+              <li><a href="./academic_department.html">Departments</a></li>
+
               <li class="has-submenu" data-submenu="courses">
                 <a href="./course.html">Courses<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
@@ -149,7 +155,6 @@
                   <li><a href="infrastructure.html#gym">Gym</a></li>
               </ul>
               </li>  
-              <li><a href="./academic_department.html">Departments</a></li>
               <li><a href="./meuandcc.html">MEU</a></li>
               <li class="has-submenu" data-submenu="media">
                 <a href="./media.html">Media & OutReach <span class="arrow submenu-trigger">&#9654;</span></a>
@@ -164,9 +169,9 @@
               <li class="has-dropdown" data-dropdown="hospital">
               <a href="./hospital.html">Hospital <span class="arrow dropdown-trigger">&#9654;</span></a>
               <ul class="dropdown">
-                <li><a href="./hospitalNavigator.html">Hospital Mock</a></li>
+                <li><a href="./hospital_department.html">Departments</a></li>
                 <li><a href="./centerofexcellence.html">Center Of Excellence</a></li>
-               <li><a href="./hospital_department.html">Department</a></li>
+                <li><a href="./outreach_community.html">Community Outreach</a></li>
                <li class="has-submenu" data-submenu="milestones">
                 <a href="./patientcorner.html">Our Services<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
@@ -315,7 +320,7 @@
                 <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">Subscribe to get latest updates and news</p>
                 <div style="display: flex; gap: 0.5rem;">
                     <input type="email" placeholder="Your email" style="padding: 0.8rem; border-radius: 25px; border: none; flex: 1;">
-                    <button class="btn-primary" style="padding: 0.8rem 1.5rem;">
+                    <button class="btn-dark" style="padding: 0.8rem 1.5rem;">
                         <i class="fas fa-paper-plane"></i>
                     </button>
                 </div>
