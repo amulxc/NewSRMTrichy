@@ -41,7 +41,7 @@
                 { name: "Dr Ganesh", designation: "Assistant Professor"},
                 { name: "Dr Sathyapriya", designation: "Assistant Professor"},
                 { name: "Dr Balaji", designation: "Senior Resident"},
-                { name: "Dr Shri Devi", designation: "Senior Resident"},
+                { name: "Shridevi", designation: "Senior Resident"},
                 { name: "Dr Firdhous Begum", designation: "Senior Resident"},
                 { name: "Dr Dinesh Kumar", designation: "Senior Resident"},
                 { name: "Dr Arun R", designation: "Senior Resident" }
