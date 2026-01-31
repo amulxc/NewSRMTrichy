@@ -127,7 +127,6 @@
                 </ul>
               </li>
               <li><a href="./aboutus.html#alumini">Alumini Feedback</a></li>
-              <li><a href="./career.html">Career</a></li>
               <li><a href="./Others.html">Others</a></li>
             </ul>
           </li>
@@ -175,24 +174,6 @@
                <li class="has-submenu" data-submenu="milestones">
                 <a href="./patientcorner.html">Our Services<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
-                  <li class="has-submenu" data-submenu="milestones">
-                    <a href="#">Supporting Services<span class="arrow submenu-trigger">&#9654;</span></a>
-                    <ul class="sub-dropdown">
-                      <li><a href="./bioengineering.html">Bio Medical Engineering</a></li>
-                      <li><a href="./physiotherapy.html">Physiotherapy</a></li>
-                      <li><a href="./bioethics.html">Bio Ethics</a></li>
-                    </ul>
-                  </li>
-                  <li class="has-submenu" data-submenu="milestones">
-                    <a href="./donor.html">Donors <span class="arrow submenu-trigger">&#9654;</span></a>
-                    <ul class="sub-dropdown">
-                      <li><a href="./blood_donor.html">Blood Donor</a></li>
-                      <li><a href="./blood_donor.html#blood_bank2">Blood Bank</a></li>
-                      <li><a href="./organ_donor.html">Organ Donor</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="./information.html">Information Center</a></li>
-                  <li><a href="./ambulance.html">24/7 Ambulance Services</a></li>
                   <li><a href="./hospital.html#specialties">Speciality Clinics</a></li>
                   <li><a href="./pharmacy.html">Pharmacy</a></li>
                   <li><a href="./transport.html">Transport</a></li>
@@ -207,10 +188,29 @@
                   <li><a href="./patientcorner.html#testimonials">Patient AV</a></li>
                   <li><a href="./camps.html">Health Camps</a></li>
                   <li><a href="./nopage.html">Consultant</a></li>
-                  <li><a href="./patientcorner.html#insurance">Insurance Schemes</a></li>
               </ul>
               </li>
+              <li class="has-submenu" data-submenu="milestones">
+                <a href="./donor.html">Donors <span class="arrow submenu-trigger">&#9654;</span></a>
+                <ul class="sub-dropdown">
+                  <li><a href="./blood_donor.html">Blood Donor</a></li>
+                  <li><a href="./blood_donor.html#blood_bank2">Blood Bank</a></li>
+                  <li><a href="./organ_donor.html">Organ Donor</a></li>
+                </ul>
+              </li>
 
+              
+              <li><a href="./ambulance.html">24/7 Ambulance Services</a></li>
+              <li><a href="./patientcorner.html#insurance">Insurance</a></li>
+              <li><a href="./hospital.html#pharm-app">Information Center</a></li>
+              <li class="has-submenu" data-submenu="milestones">
+                <a href="#">Supporting Services<span class="arrow submenu-trigger">&#9654;</span></a> 
+                <ul class="sub-dropdown">
+                  <li><a href="./bioengineering.html">Bio Medical Engineering</a></li>
+                  <li><a href="./physiotherapy.html">Physiotherapy</a></li>
+                  <li><a href="./bioethics.html">Bio Ethics</a></li>
+                </ul>
+              </li>
                
               
               
@@ -227,10 +227,19 @@
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
-          <li ><a href="iqac.html"  class="nmc-nav nmc-nav2">IQAC</a></li>
+          
+          <li ><a href="iqac.html" style="background-color:var(--color-secondary) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
           <li><a href="nmc.html" class="nmc-nav nmc-nav1">NMC</a></li>
           <li><a href="virtual_tour.html" target="_blank" class="nmc-nav nmc-nav2" title='Trichy SRM Medical College Campus Tour'><img src='./assets/images/360.png' style='width:21px'></a></li>
-        </ul>
+           <li class="has-dropdown" data-dropdown="research">
+            <a href="#" style="background-color:var(--color-accent) !important;" class="nmc-nav nmc-nav2"><i class="fa-solid fa-circle-info"></i> Information for <span class="arrow dropdown-trigger"  >&#9654;</span></a>
+            <ul class="dropdown">
+              <li><a href="students.html"  style="justify-content: start;"><i class="fa-solid fa-user"></i> Student</a></li>
+              <li><a href="parents.html"  style="justify-content: start;"><i class="fa-solid fa-user-group"></i> Parents</a></li>
+              <li><a href="./career.html"  style="justify-content: start;"><i class="fa-solid fa-briefcase"></i> Career</a></li>
+            </ul>
+          </li>
+          </ul>
         <div id="mobile-topbar"></div>
         <div id="mobile-quickaccess"></div>
       </nav>

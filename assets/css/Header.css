@@ -149,12 +149,12 @@
     .sub-dropdown a {
       padding: 7px 20px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
       color: #555;
       font-size: 14px;
       font-weight: 400;
       white-space: normal;
+      justify-content: space-between;
     }
 
     /* Desktop hover effects - only active on desktop */

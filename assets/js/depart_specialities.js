@@ -2792,7 +2792,7 @@ async function loadDoctorsFromExcel() {
                                 ${
                                     dept.infra.map((x,i) =>
                                         `<div class="infra-card">
-                                            <img src="./assets/images/dept_images/${dept.name}/${i+1}.JPG" alt="">
+                                            <img src="./assets/images/dept_images/${dept.name}/${x}" alt="">
                                         </div>`
                                     ).join("")
                                 }
