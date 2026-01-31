@@ -849,7 +849,7 @@
         icon: `<i class="fas fa-eye"></i>`, 
         color: "#e74c3c", 
         colorDark: "#c0392b",
-        image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
+        image:["1.JPG","2.JPG","3.JPG","4.JPG","5.JPG","6.JPG"],
 
         overview: "The  Department of ophthalmology  focuses on the quality services for holistic eye care through specialty clinics in OPD. It plays crucial role in community eye care through rural eye camps and School camps. It also emphasises the research activities related to eye care through multidisciplinary  approach. Endeavour to be a center of excellence providing advanced and affordable tertiary eye care while maintaining high standards of teaching and training. Providing vision is our mission.",
 
@@ -1100,7 +1100,7 @@
         icon: `<i class="material-symbols-outlined">rib_cage</i>`, 
         color: "#dace26ff", 
         colorDark: "#857d06ff",
-        image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
+        image:["1.jpg","2.jpg","3.jpg","4.jpg","5.JPG","6.jpg"],
 
         overview: "The Department of Radiology provides comprehensive diagnostic and interventional imaging services, supporting accurate clinical decision-making through advanced imaging technologies and expert interpretation. To deliver excellence in diagnostic and interventional radiology services, education, and research using state-of-the-art imaging technology. To provide accurate, timely and patient-centered imaging services, train undergraduate and postgraduate students in advanced radiological techniques, promote innovative research in imaging sciences, and support clinical departments with integrated diagnostic and interventional expertise.",
 
