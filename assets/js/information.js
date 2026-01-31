@@ -48,20 +48,8 @@
             const app = document.getElementById('pharm-app');
             
             let html = `
-                <!-- Hero Section -->
-               
-                <!-- Stats Section -->
-                <div class="pharm-stats">
-                    ${data.stats.map(stat => `
-                        <div class="pharm-stat-card">
-                            <div class="pharm-stat-label">${stat.label}</div>
-                            <a href='tel:${stat.mobile_number}'><i class='fa fa-phone'></i> ${stat.mobile_number}</a>
-                        </div>
-                    `).join('')}
-                </div>
 
                 <!-- Services Section -->
-                <section class="section">
                     <div class="pharm-container section-header">
                          <h2 class="pharm-section-title">${data.additionalServices.title}</h2>
                         <div class="pharm-services-columns">
@@ -71,8 +59,7 @@
                                 </div>
                             `).join('')}
                         </div>
-                    </div>
-                </section>`;
+                    </div>`;
             
             app.innerHTML = html;
         }

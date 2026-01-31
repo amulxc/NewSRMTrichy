@@ -172,7 +172,7 @@
                 <li><a href="./centerofexcellence.html">Center Of Excellence</a></li>
                 <li><a href="./outreach_community.html">Community Outreach</a></li>
                <li class="has-submenu" data-submenu="milestones">
-                <a href="./patientcorner.html">Our Services<span class="arrow submenu-trigger">&#9654;</span></a>
+                <a href="./patientcorner.html">Health Care Services<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
                   <li><a href="./hospital.html#specialties">Speciality Clinics</a></li>
                   <li><a href="./pharmacy.html">Pharmacy</a></li>
@@ -187,23 +187,7 @@
                   <li><a href="./blood_donor.html#blood_bank2">Blood Bank</a></li>
                   <li><a href="./organ_donor.html">Organ Donor</a></li>
                 </ul>
-              </li>
-
-              
-              <li><a href="./ambulance.html">24/7 Ambulance Services</a></li>
-              <li><a href="./patientcorner.html#insurance">Insurance</a></li>
-              <li><a href="./hospital.html#pharm-app">Information Center</a></li>
-              <li class="has-submenu" data-submenu="milestones">
-                <a href="#">Supporting Services<span class="arrow submenu-trigger">&#9654;</span></a> 
-                <ul class="sub-dropdown">
-                  <li><a href="./bioengineering.html">Bio Medical Engineering</a></li>
-                  <li><a href="./physiotherapy.html">Physiotherapy</a></li>
-                  <li><a href="./bioethics.html">Bio Ethics</a></li>
-                </ul>
-              </li>
-               
-              
-              
+              </li>           
             </ul>
           </li>
            
