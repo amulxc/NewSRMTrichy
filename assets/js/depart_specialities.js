@@ -6,6 +6,8 @@
         icon: "fa-stethoscope",
         color: "#3498db",
         colorDark: "#2c81ba50",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
 
         overview: "The Department of General Medicine provides comprehensive, evidence-based care for adults with acute and chronic medical conditions. We emphasize accurate diagnosis, holistic patient management and preventive health. We actively involved in teaching and mentoring Undergraduates and Postgraduates as part of our commitment to academic excellence. To become a leading centre of excellence in patient care, medical education and clinical research, setting the highest standards in Internal Medicine for the region and beyond. To provide excellence in clinical services, promote preventive healthcare and uphold the highest ethical standards. To provide advance medical education and fostering research while training Undergraduates and Postgraduates to make them to become skilled, caring medical professional.",
 
@@ -93,6 +95,8 @@
         icon: "fa-truck-medical",
         color: "#ef5350",
         colorDark: "#d32f2f",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
 
         overview: "The Department of Emergency Medicine provides immediate and comprehensive emergency care with rapid assessment, stabilization, and treatment. The department ensures seamless coordination, advanced life-saving interventions and multi-disciplinary care 24/7. We provide excellent, accessible and affordable emergency care to all our patients compassionately, holistic education to the future doctors and progressive research. To provide high quality and low cost emergency healthcare at international standards. Provide state-of-the-art education and mentorship to the future emergency physicians. To create awareness among patients, their caregivers and the general public about basic emergencies and first aid. To grow as a Centre of excellence and leader in quality emergency care.",
 
@@ -163,6 +167,8 @@
         icon: "fa-baby",
         color: "#2E86C1",
         colorDark: "#1A5276",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
 
         overview: "The Department of Paediatrics provides comprehensive, evidence-based care for children with acute and chronic medical conditions, emphasizing accurate diagnosis, holistic management, preventive health, and excellence in undergraduate and postgraduate medical education. To be one among the centers of academic excellence in UG and PG Paediatric education and excellence in pediatric patient care. To educate undergraduate and postgraduate medical students and improve child health through world-class excellence in patient care, education, and research.",
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
@@ -233,6 +239,8 @@
         icon: "fa-hand-dots", 
         color: "#e74c3c", 
         colorDark: "#c0392b",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Dermatology, Venereology & Leprology provides comprehensive diagnosis, treatment, prevention, and counselling services for skin, hair, nail, STI and leprosy disorders, supported by modern diagnostic, procedural and laser facilities that meet NMC, NACO and NLEP standards. To develop ethical, skilled, and compassionate Dermatologists excelling in evidence-based care for skin, hair, nail, STI and leprosy disorders, while fostering research, innovation, and stigma-free, patient-centred healing. To provide competency-based dermatology training, ensure excellence in diagnostics and procedures, deliver ethical and patient-centred care, promote evidence-based practice, support national STI and leprosy programs, encourage interdisciplinary learning, and cultivate professionalism, communication, leadership, and continuous academic growth.",
@@ -298,6 +306,8 @@
         icon: "fa-brain", 
         color: "#673ab7", 
         colorDark: "#512da8",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Psychiatry is committed to excellence in mental health care, education, and research. We provide comprehensive, evidence-based assessment and treatment for psychiatric disorders across the lifespan, while training competent, ethical mental health professionals. To improve the quality of life of individuals with mental illness through excellence in medical education, impactful research, promoting awareness and compassionate clinical care. To create structured, empathetic and comprehensive MENTAL health care services with appropriate socio-cultural context intended to reach medically unreached rooted in BIO-PSYCHO-SOCIAL model. To commit to offer fine educational training and research activities aiming at imparting fundamental psychiatric knowledge, encouraging Scientific Temper, and upholding universal ethical values in shaping an integrated Mental Health Professional.",
@@ -376,6 +386,8 @@
         icon: "fa-lungs", 
         color: "#26c6da", 
         colorDark: "#00acc1",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "Respiratory Medicine Department specializes in the diagnosis, treatment and prevention of diseases affecting the lungs and entire respiratory system. Our commitment is to manage a comprehensive range of conditions- from common respiratory ailments to complex, life-threatening diseases- with expertise and compassion. We provide outstanding clinical care, which is comprehensive, affordable, accessible and delivered compassionately, to the patient & nurture the students with knowledge, skills, and attitude essential to make them professional, compassionate & competent physician. To provide state-of-art management options for patients with respiratory diseases, according to the latest evidence-based guidelines. Train the students with focus on bench to bedside practice through rigorous implementation of the course along with innovative teaching-learning practices and to delve into dynamic clinical research. To create awareness among patients, their caregivers and the general public about basic Respiratory illnesses and their symptoms. To conduct patient empowerment programs so as to reduce morbidity or mortality and arrive at early diagnosis of chest diseases at an affordable cost.",
@@ -441,6 +453,8 @@
         icon: `<i class="material-symbols-outlined">ecg_heart</i>`, 
         color: "#3558c9ff", 
         colorDark: "#07268dff",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
         
         overview: "The Department of Cardiology provides comprehensive diagnostic and interventional cardiac services. The department focuses on preventive, curative, and rehabilitative cardiology care using advanced technologies. It also plays a key role in training undergraduate and postgraduate students in modern cardiology practice. To provide premium quality cardiac services to the needy population. To strive for excellence in patient care through advanced diagnostics and treatment. To instil knowledge and clinical skills in students and postgraduates, enabling them to manage cardiac patients with confidence. To deliver round-the-clock cardiac catheterization laboratory services including primary percutaneous coronary intervention. To provide accurate analysis and interpretation of electrocardiograms and echocardiograms. To offer comprehensive cardiac assessment through treadmill testing and Holter monitoring.",
@@ -490,6 +504,8 @@
         icon: `<i class="fas fa-brain"></i>`, 
         color: "#27ae60", 
         colorDark: "#229954",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Neurology is dedicated to providing comprehensive diagnosis and treatment for disorders of the brain, spinal cord, nerves, and muscles, delivering evidence-based, patient-centred care supported by advanced neuroimaging and neurophysiology services. With a strong commitment to clinical excellence, the department strives to evolve as a centre of excellence in neurological care by integrating expert clinical practice, advanced technology, and continuous academic growth, while developing into a leading tertiary care institute and research centre.",
@@ -527,6 +543,8 @@
         icon: `<i class="material-symbols-outlined">nephrology</i>`, 
         color: "#ff9800", 
         colorDark: "#f57c00",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Nephrology aims to provide comprehensive renal services, including prevention, accurate diagnosis, dialysis, and effective management of both acute and chronic kidney diseases, while supporting undergraduate and postgraduate medical education in line with NMC guidelines. Committed to ethical, evidence-based, and patient-centric care, the department emphasizes early detection and prevention of kidney disorders through community outreach programs, upholds high standards of patient safety and quality assurance, and encourages clinical research and academic activities to advance renal science. By collaborating with allied specialties, the department delivers holistic and multidisciplinary care, striving to be a center of excellence that improves patient outcomes and contributes meaningfully to medical education, research, and community kidney health.",
@@ -562,6 +580,8 @@
         icon: `<i class="material-symbols-outlined">oncology</i>`, 
         color: "#e74c3c", 
         colorDark: "#c0392b",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Medical Oncology has been successfully functioning since May 2025 and is dedicated to the comprehensive medical management of cancer patients. The department is equipped with a well-organized chemotherapy ward to deliver safe, effective, and evidence-based cancer treatment while ensuring compassionate patient care. To provide compassionate, high-quality, and evidence-based cancer care. To improve patient outcomes through advanced medical oncology services. To become a trusted center for comprehensive cancer treatment and patient support. To deliver patient-centered oncology care with safety, empathy, and clinical excellence. To utilize standardized treatment protocols based on the latest medical guidelines. To promote awareness, early diagnosis, and continuity of cancer care.",
@@ -607,6 +627,8 @@
         icon: `<i class="material-symbols-outlined">gastroenterology</i>`, 
         color: "#673ab7", 
         colorDark: "#512da8",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "Comprehensive mental health services with counseling and therapy. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
@@ -651,6 +673,8 @@
         icon: "fa-user-md",
         color: "#4caf50",
         colorDark: "#388e3c",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of General Surgery focuses on the diagnosis, pre-operative and post-operative management of a broad range of diseases and injuries, primarily in the abdomen, breasts, skin, soft tissues and endocrine system. The Leading Provider of Complex Surgical care. The Best performer in quality, safety, service and satisfaction. An Integral Partner in the TSRMMCH & RC health system. The Best academic department with the highest standard. The Department of General Surgery contributes to the mission of the institution by upholding the highest standard of excellence in clinical care, education and research.",
@@ -723,6 +747,8 @@
         icon: `<i class="material-symbols-outlined">foot_bones</i>`, 
         color: "#ae9a27ff", 
         colorDark: "#997d22ff",
+        team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Orthopaedics provides comprehensive care for patients with musculoskeletal injuries and disorders. The unit manages trauma cases, joint diseases, spine problems, paediatric orthopaedic conditions and sports-related injuries. The department is also actively engaged in teaching and clinical training for undergraduate and postgraduate students. To be recognized as a centre of excellence in orthopaedic care, education and research by delivering high-quality clinical services and adopting innovative practices. To provide ethical, evidence-based and timely orthopaedic care. To train students and residents in essential and advanced orthopaedic skills. To promote research in trauma, arthroplasty, arthroscopy, spine surgery, paediatric orthopaedics and bone infections.",
@@ -789,6 +815,8 @@
         icon: `<i class="material-symbols-outlined"> ent </i>`, 
         color: "#ff9800", 
         colorDark: "#f57c00",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of ENT provides comprehensive diagnosis, treatment, and prevention of disorders involving the ear, nose, throat, head, and neck. The department is committed to delivering high-quality, patient-centered care using modern technology and evidence-based clinical practices. To develop and nurture the department as a premier center for excellence in patient care, clinical research, and modern innovation. To train the next generation of MBBS doctors and ENT surgeons who practice affordable, equitable, world-class patient care with strong aptitude for clinical research. To provide comprehensive, compassionate, affordable, and equitable patient care while shaping the future of Otorhinolaryngology through cutting-edge innovation, research, and world-class education. The mission includes: Clinical – applying clinical skills and knowledge for best patient practices; Research – encouraging innovation and discovery; Education – imparting strong clinical training for developing useful surgical and diagnostic skills.",
@@ -850,6 +878,8 @@
         color: "#e74c3c", 
         colorDark: "#c0392b",
         image:["1.JPG","2.JPG","3.JPG","4.JPG","5.JPG","6.JPG"],
+        team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
 
         overview: "The  Department of ophthalmology  focuses on the quality services for holistic eye care through specialty clinics in OPD. It plays crucial role in community eye care through rural eye camps and School camps. It also emphasises the research activities related to eye care through multidisciplinary  approach. Endeavour to be a center of excellence providing advanced and affordable tertiary eye care while maintaining high standards of teaching and training. Providing vision is our mission.",
 
@@ -931,6 +961,8 @@
         icon: `<i class="material-symbols-outlined">pregnant_woman</i>`, 
         color: "#673ab7", 
         colorDark: "#512da8",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Obstetrics & Gynaecology provides comprehensive reproductive healthcare, covering antenatal, intrapartum, postnatal care, as well as advanced gynaecological services. It is committed to women's health through clinical excellence, research, and education. To provide exceptional care to each and every women approaching our door step. To champion the women's health care system. To achieve excellence and advancement in women's obstetrical and gynecological health, teaching the future specialty leaders. To be leaders and advocates in the pursuit of excellence in women's health care. To help women and babies achieve optimal health outcomes. Support women to have empowering and magnificent birth experience. To deliver evidence-based care in a safe and welcoming atmosphere characterized by cultural humility and diversity. To be innovative, clinically excellent and contribute to research. Teach while you work and create future maternity care providers. Reflect values of excellence, compassion, community and social justice.",
@@ -1015,6 +1047,8 @@
         icon: `<i class="material-symbols-outlined">masks</i>`, 
         color: "#26c6da", 
         colorDark: "#00acc1",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Anaesthesiology provides comprehensive perioperative care including general and regional anaesthesia, critical care, pain management and resuscitation services, ensuring patient safety and quality healthcare delivery. To create a competent and socially responsible healthcare system by strengthening and sustaining medical knowledge, altruistic service and progressive research.To create highly competitive and skilled medical professionals. To impart the best medical education through state-of-the-art teaching and training methodologies, promote self-learning with ethical medical practice, and provide affordable, high-quality healthcare using updated technology and collaborative research.",
@@ -1100,6 +1134,8 @@
         icon: `<i class="material-symbols-outlined">rib_cage</i>`, 
         color: "#dace26ff", 
         colorDark: "#857d06ff",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.JPG","6.jpg"],
 
         overview: "The Department of Radiology provides comprehensive diagnostic and interventional imaging services, supporting accurate clinical decision-making through advanced imaging technologies and expert interpretation. To deliver excellence in diagnostic and interventional radiology services, education, and research using state-of-the-art imaging technology. To provide accurate, timely and patient-centered imaging services, train undergraduate and postgraduate students in advanced radiological techniques, promote innovative research in imaging sciences, and support clinical departments with integrated diagnostic and interventional expertise.",
@@ -1178,6 +1214,8 @@
         icon: "fa-tooth",
         color: "#50b5efff",
         colorDark: "#0c95b8ff",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Dentistry focuses on the scientific study of disease processes through laboratory investigations, tissue diagnosis, and research. It plays a crucial role in patient care, providing the best dental treatment at affordable cost. To create a competent and socially responsible system by providing quality oral health care and progressive research. To improve oral health, functionality and esthetics of people with quality dental care, in order to improve their nutrition, confidence and quality of life. To pursue collaborative research in the field of oral health.",
@@ -1243,6 +1281,8 @@
         icon: `<i class="material-symbols-outlined">ecg_heart</i>`, 
         color: "#3558c9ff", 
         colorDark: "#07268dff",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Cardiothoracic Surgery provides comprehensive surgical care for diseases of the heart, lungs, and chest wall. The department focuses on advanced cardiac and thoracic procedures with emphasis on safety, pain-free recovery, and optimal outcomes. Complete postoperative rehabilitation and quality patient care remain the core strengths of the department. To provide affordable heart and lung care for all. To ensure pain-free recovery with easy breathing and complete rehabilitation. To promote a healthy heart and lung for every individual. To achieve full occupational rehabilitation after heart and lung surgery. To empower patients with knowledge and eliminate fear related to heart and lung diseases. To promote teamwork among healthcare professionals to transform vision into effective care delivery.",
@@ -1285,6 +1325,8 @@
         icon: `<i class="fas fa-brain"></i> `, 
         color: "#27ae60", 
         colorDark: "#229954",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "Comprehensive internal medicine care for all age groups. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
@@ -1330,6 +1372,8 @@
         icon: `<i class="material-symbols-outlined">urology</i>`, 
         color: "#ff9800", 
         colorDark: "#f57c00",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "Comprehensive child healthcare with NICU and PICU facilities. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
@@ -1372,6 +1416,8 @@
         icon: `<i class="material-symbols-outlined">oncology</i>`, 
         color: "#e74c3c", 
         colorDark: "#c0392b",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Surgical Oncology offers comprehensive surgical care for benign and malignant tumors across organ systems, following strict safety and evidence-based protocols. The department emphasizes multidisciplinary collaboration, optimal outcomes, and enhanced postoperative recovery. To be a center of excellence in comprehensive oncology care by delivering safe, evidence-based, and patient-centered medical and surgical oncology services, ensuring the best possible outcomes and quality of life for cancer patients. To provide integrated, multidisciplinary oncological care encompassing surgery, chemotherapy, and radiotherapy for patients with early, locally advanced, and metastatic malignancies by adhering to standardized protocols, maintaining patient safety, and continuously improving clinical outcomes through evidence-based practices.",
@@ -1412,6 +1458,8 @@
         icon: `<i class="material-symbols-outlined">gastroenterology</i>`, 
         color: "#673ab7", 
         colorDark: "#512da8",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "Comprehensive mental health services with counseling and therapy. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
@@ -1456,6 +1504,8 @@
         icon: `<i class="fas fa-user-alt"></i>`, 
         color: "#e74c3c", 
         colorDark: "#c0392b",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Plastic and Reconstructive Surgery provides comprehensive curative, reconstructive, aesthetic and trauma-related surgical care. The unit is dedicated to evidence-based clinical practice, advanced surgical interventions, and academic excellence. To make the Department of Plastic and Reconstructive Surgery a Centre of Excellence. To provide compassionate and high-quality Plastic Surgery care. To ensure services are affordable and accessible to all. To promote continuous academic growth, research, and innovation.",
@@ -1530,6 +1580,8 @@
         icon: `<i class="material-symbols-outlined">ac_unit</i>`, 
         color: "#afb73aff", 
         colorDark: "#a8a02dff",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Vascular Surgery provides comprehensive evaluation and management of arterial, venous, and lymphatic diseases using advanced medical, surgical, and endovascular techniques, with a focus on patient safety, limb salvage, and quality care. To provide high quality and affordable vascular care for needy patients. To provide comprehensive, timely, and patient-centred vascular care for individuals with diseases of the arterial, venous, and lymphatic systems. The department delivers evidence-based diagnosis and advanced surgical and endovascular treatments for conditions affecting the limbs, neck, and abdominal vessels, while prioritizing patient safety, limb salvage, and quality of life through multidisciplinary collaboration and continuous clinical excellence.",
@@ -1587,6 +1639,8 @@
         icon: `<i class="fas fa-baby"></i>`, 
         color: "#26c6da", 
         colorDark: "#00acc1",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "Comprehensive respiratory care with pulmonary function testing. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
@@ -1632,6 +1686,8 @@
         icon: "fa-person", 
         color: "#e74d3cff", 
         colorDark: "#c0392b",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Anatomy is passionate about teaching and advancing the understanding of human structure and development, aiming to provide in-depth knowledge of all subdivisions of Human Anatomy. This foundation supports meaningful application in clinical practice, research and related scientific fields. To make the students acquire scientific knowledge about the structure of the human body to be used in the academic and research activities and its application in clinical practice. To provide comprehensive knowledge of Gross Anatomy, Microscopic structure and Development of the human body. To provide an anatomical basis for understanding the clinical correlation of different organ systems and its application in research activities.",
@@ -1697,6 +1753,8 @@
         icon: "fa-person", 
         color: "#7e3ce7ff", 
         colorDark: "#7d2bc0ff",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "Physiology is the study of how the organisms work. It requires the integration of knowledge gained from multidisciplinary approaches to the discovery of new information at the molecular, systemic and particularly whole animal level. The essence of research and teaching in Physiology requires an enquiring mind anchored on a global and integrative perspective to the understanding of how things work in a living organism. To  foster a holistic understanding of the normal functions of the human body among undergraduate and postgraduate medical graduates and enable them to apply this knowledge in clinical practice, thereby contributing to quality healthcare delivery and advancement of medical science through research. To impart strong foundational knowledge of the physiological functions of various organ systems. To ensure that medical students acquire essential clinical and laboratory skills relevant to their profession. To implement innovative and student-centered teaching methods that enhance understanding and skill acquisition. To promote the application of physiological knowledge for effective healthcare delivery and lifelong learning.",
@@ -1786,6 +1844,8 @@
         icon: "fa-flask",
         color: "#42a5f5",
         colorDark: "#1e88e5",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
         overview: "The Department of Biochemistry at SRM Medical College Hospital and Research Centre, Trichy, offers undergraduate, postgraduate, and research programs with a strong focus on innovation, scientific inquiry, and applied biochemistry. The department integrates fundamental and advanced areas of biology, preparing students for global opportunities. To accentuate innovation, inquisition, and rational thinking in students, imparting quality education to achieve academic excellence. To establish a world-class learning ambience catering to the needs of aspiring students.",
@@ -1862,6 +1922,8 @@
         icon: "fa-microscope",
         color: "#50b5efff",
         colorDark: "#0c95b8ff",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
         overview: "The Department of Pathology combines theoretical understanding with practical laboratory expertise to study diseases, their causes, processes, and effects on the body. Through advanced diagnostic methods and academic programs, the department equips students with essential skills for disease investigation and diagnosis. To provide state-of-the-art diagnostic pathology services while achieving excellence in pathology research and education. To teach, train and equip students with the knowledge and skills required to perform and interpret diagnostic investigations. To familiarize students with recent advances in pathology. To encourage and promote research activities.",
         procedure: [
@@ -1946,6 +2008,8 @@
         icon: "fa-virus-covid",
         color: "#27ae60",
         colorDark: "#229954",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
         overview: "The Department of Microbiology, established in 2009, is dedicated to excellence in education, diagnosis, and research in infectious diseases. It provides strong foundations in bacteriology, virology, mycology, and parasitology with emphasis on clinical correlation, laboratory diagnosis, prevention, and control. The department bridges bench-to-bedside practices and supports infection control, antimicrobial stewardship, and vaccination programs. To provide excellent diagnostic and support services to patients, community, and clinical colleagues, maintain high standards of training for medical graduates and healthcare workers, and foster an environment that empowers faculty and staff to engage in translational research and focused areas of excellence. To update knowledge through interactive platforms such as seminars, conferences, journal clubs, and academic carnivals. To undertake research and collaborate with academic, clinical, and research faculty at local, national, and international levels.",
         procedure: [
@@ -2007,6 +2071,8 @@
         icon: "fa-pills",
         color: "#ff9800",
         colorDark: "#f57c00",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
         overview: "The Department of Pharmacology is committed to excellence in teaching, research, and clinical service, integrating basic pharmacological sciences with clinical applications to promote rational and evidence-based therapeutics. To be a distinguished unit in Pharmacology and therapeutics by training medicos with strong emphasis on rational drug prescription based on patient needs for prevention and treatment of diseases in the community. Advancing human health through best clinical practice with adequate knowledge for rational drug prescription. To excel in Pharmacovigilance with focus on monitoring adverse drug reactions. Emphasis on Pharmacoeconomics. Rational use of drugs in special populations such as Pediatrics, Geriatrics, Pregnancy and Nursing mothers.",
         procedure: [
@@ -2070,6 +2136,8 @@
         icon: "fa-gavel",
         color:"#607d8b",
         colorDark: "#455a64",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
         overview: "The Department of Forensic Medicine & Toxicology trains undergraduate MBBS students and CRMI interns to understand medico-legal responsibilities, ethical medical practice, and forensic procedures essential for justice administration. To produce skilled and informed doctors capable of making accurate observations, deductions, and medico-legal conclusions, ensuring ethical and legally sound medical practice. To train UG students as per National Medical Commission and University guidelines. To encourage research activities in forensic medicine and toxicology. To familiarize students with recent amendments in medical law. To inculcate ethical and responsible medical practice. To equip students with the knowledge and skills required for medico-legal work.",
         procedure: [
@@ -2121,6 +2189,8 @@
         icon: "fa-users",
         color: "#824cafff",
         colorDark: "#52388eff",
+         team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
         image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
         overview: "The Department of Community Medicine focuses on teaching preventive, promotive, and social aspects of health. It trains undergraduate and postgraduate students in epidemiology, public health programs, biostatistics, research methods, and community-based care with strong emphasis on field practice and primary healthcare. To provide medical education to students that is sensitive to the changing health needs of the community and health care delivery system. To focus on health care and education through community initiatives. To train the students so as to enable them to provide primary care to the community.",
         procedure: [
@@ -2782,9 +2852,9 @@ async function loadDoctorsFromExcel() {
                     <!-- Overview Section -->
                     <div class="section">
                         <div class="overview-card">
-                            <h2 class="section-title" style="color:${dept.colorDark}">Department Overview</h2>
+                            <h2 class="section-title" style="color:${dept.colorDark}">Our Excellence</h2>
                             <div class="dept-overview">
-                                <img src="./assets/images/dept_images/${dept.name}/hero-image.jpg" onerror="this.onerror=null; this.src='./assets/images/Hero.jpg';" alt="">
+                                <img src="./assets/images/dept_images/${dept.name}/${dept.team}" onerror="this.onerror=null; this.src='./assets/images/Hero.jpg';" alt="">
                                 <p class="overview-text">${dept.overview}</p>
                             </div>
                         </div>
@@ -2927,7 +2997,7 @@ async function loadDoctorsFromExcel() {
                 rgba(${hexToRgb(dept.color)}, 0.6),
                 rgba(${hexToRgb(dept.colorDark)}, 0.6)
             ),
-            url(./assets/images/dept_images/${l}/breadcrum.jpg)` || `linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/hospital.jpeg)`;
+            url(./assets/images/dept_images/${l}/${dept.breadcrum})` || `linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/hospital.jpeg)`;
 
             
             breadcrum.style.height="70vh"

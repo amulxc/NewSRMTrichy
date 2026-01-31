@@ -179,17 +179,7 @@
                   <li><a href="./transport.html">Transport</a></li>
                   </ul>
                   </li>
-                  <li class="has-submenu" data-submenu="milestones">
-                  <a href="./patientcorner.html">Patient Corner <span class="arrow submenu-trigger">&#9654;</span></a>
-                  <ul class="sub-dropdown">
-                  <li><a href="#">Patient Portal</a></li>
-                  <li><a href="./medicalpackage.html">Health Checkup Package</a></li>
-                  <li><a href="./patientcorner.html#awareness">Hospital Awareness</a></li>
-                  <li><a href="./patientcorner.html#testimonials">Patient AV</a></li>
-                  <li><a href="./camps.html">Health Camps</a></li>
-                  <li><a href="./nopage.html">Consultant</a></li>
-              </ul>
-              </li>
+                  
               <li class="has-submenu" data-submenu="milestones">
                 <a href="./donor.html">Donors <span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
