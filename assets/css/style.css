@@ -1452,7 +1452,7 @@
     width:110% !important;
 }
 .milestone-stats1 .milestone-stat:nth-child(6){
-    margin-left:45%;
+    margin-left:40%;
     padding-left:10px;
     padding-right:10px;
 }
@@ -12482,4 +12482,16 @@ grid-template-columns: 1fr;
 
   .myInc .document-card{
     text-align:center;
+  }
+  .button-camps{
+    position:relative;
+    z-index:11;
+    text-align:center;
+  }
+  .button-camps a{
+    background:var(--accent-color);
+    color:white;
+    padding:8px 80px;
+    border-radius:20px;
+    font-weight:700;
   }
