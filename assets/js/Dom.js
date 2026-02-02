@@ -186,9 +186,13 @@
               <li class="has-submenu" data-submenu="milestones">
                 <a href="#">Patient Support Services<span class="arrow submenu-trigger">&#9654;</span></a> 
                 <ul class="sub-dropdown">
-                  <li><a href="./bioengineering.html">Bio Medical Engineering</a></li>
-                  <li><a href="./physiotherapy.html">Physiotherapy</a></li>
-                  <li><a href="./bioethics.html">Bio Ethics</a></li>
+                  <li><a href="./clinical_support.html">Clinical Support</a></li>
+                  <li><a href="./diagonis_technical.html">Diagnostic & Technical Support</a></li>
+                  <li><a href="./patient_care.html">Patient Care & Experience Support</a></li>
+                  <li><a href="./safety.html">Safety & Quality Support</a></li>
+                  <li><a href="./digital_health.html">Digital Health & IT Support</a></li>
+                  <li><a href="./facility.html">Facility & Utility Support</a></li>
+                  <li><a href="./emergency.html">Emergency & Disaster Support</a></li>
                 </ul>
               </li>
                
