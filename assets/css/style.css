@@ -278,7 +278,7 @@
     }
     .floating-social-btn .social-links-container {
         position: absolute;
-        bottom:260px;
+        bottom:230px;
         left:-32px;
         display: flex;
         flex-direction: column;
@@ -289,7 +289,7 @@
     }
     .floating-social-btn .social-toggle-btn {
         font-size:15px;
-        bottom:250px;
+        bottom:220px;
         left:4px;
         border:none;
         width:80px;

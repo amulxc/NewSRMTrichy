@@ -172,7 +172,71 @@
                     }
                 ]
                 },
+             {
+                "id": "physiotherapy",
+                "name": "Physiotherapy",
+                "icon": "fa-user-injured",
+                "color": "#3498db",
+                "colorDark": "#2980b9",
+                "desc": "To be a center of excellence in physiotherapy education, clinical care, and research, dedicated to restoring movement, enhancing quality of life, and serving the community through ethical, innovative, and evidence-based physiotherapy practices.",
 
+                "vision": "To be a center of excellence in physiotherapy education, clinical care, and research, dedicated to restoring movement, enhancing quality of life, and serving the community through ethical, innovative, and evidence-based physiotherapy practices.",
+
+                "mission": [
+                    "To provide high-quality physiotherapy education through experienced faculty, interactive learning, and strong clinical exposure.",
+                    "To develop competent, compassionate, and skilled physiotherapy professionals who excel in patient care and rehabilitation.",
+                    "To promote interdisciplinary teamwork, continuous skill development, and lifelong learning.",
+                    "To actively engage in community-based rehabilitation and preventive healthcare services.",
+                    "To encourage research and innovation in movement science and physiotherapy practice."
+                ],
+
+                "objectives": [
+                    "To impart in-depth theoretical knowledge and hands-on clinical training in core and specialized areas of physiotherapy.",
+                    "To enhance students' clinical reasoning, assessment, and rehabilitation skills through real-world patient exposure.",
+                    "To develop expertise in orthopedics, sports physiotherapy, neurology, pediatrics, cardiopulmonary sciences, biomechanics, hand rehabilitation, obstetrics & gynaecology, and community rehabilitation.",
+                    "To foster teamwork, professional ethics, and effective communication among students and faculty.",
+                    "To promote community outreach programs aimed at improving mobility, functional independence, and overall health.",
+                    "To encourage research-oriented learning and evidence-based practice in physiotherapy.",
+                    "To prepare graduates to meet national and global healthcare standards with confidence and competence."
+                ],
+
+                "infra_desc": "The department offers comprehensive programs in physiotherapy education.",
+                "infra": [
+                    "Bachelor of Physiotherapy (BPT) - Eligibility: +2 Physics, Chemistry, Biology as Principal subject, Duration: 4 Years and 6 Months",
+                    "Master of Physiotherapy (MPT) specializations: Bio Mechanics, Cardio Pulmonary Science, Community Rehabilitation, Hand Rehabilitation, Neurology, Obstetrics and Gynaecology, Paediatrics Physiotherapy, Sports Physiotherapy, Orthopaedics"
+                ],
+
+                "faculty_desc": "A dedicated team of teaching faculty supports and guides students in their pursuit of academic excellence.",
+                "faculty": [
+                    { "name": "Mr. Vincent Jeyaraj D", "designation": "Associate Professor", "exp": "" },
+                    { "name": "Ms. M. Vidyagajalakshmi", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Mr. C. Manikandarajan", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. P. Vinitha", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. M. Yogeswari", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. J. Swathi", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. Sarojini J", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. Tharaka Varshini V", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Mr. R. Rajarethinam", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. Aishwarya Shamini M", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. Kumuthavalli D", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. Malavika D", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. Suvathi R", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. Umayal SP", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. G. Premkumari", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. Nithya Vijayakumar", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. M. Bavadharani", "designation": "Assistant Professor", "exp": "" },
+                    { "name": "Ms. Saranya T", "designation": "Assistant Professor", "exp": "" }
+                ],
+
+                "services_desc": "The department provides comprehensive physiotherapy education and clinical training.",
+                "services": [
+                    "High-quality physiotherapy education through experienced faculty",
+                    "Interactive learning and strong clinical exposure",
+                    "Specialization training in multiple areas including orthopedics, sports, neurology, pediatrics",
+                    "Community-based rehabilitation and preventive healthcare services",
+                    "Research and innovation in movement science"
+                ]
+            },
             {
                 "id": "physiology",
                 "name": "Physiology",
@@ -3742,8 +3806,8 @@
                 ]
             },
             {
-                id: "Anaesthesiology", 
-                name: "Anaesthesiology", 
+                id: "Anaesthesia", 
+                name: "Anaesthesia", 
                 icon: `<i class="material-symbols-outlined">masks</i>`, 
                 color: "#26c6da", 
                 colorDark: "#00acc1",
@@ -4581,71 +4645,6 @@
                     "Advanced endovascular procedures introduced",
                     "High success rate in AV fistula creation"
                 ],
-            },
-            {
-                "id": "physiotherapy",
-                "name": "Physiotherapy",
-                "icon": "fa-user-injured",
-                "color": "#3498db",
-                "colorDark": "#2980b9",
-                "desc": "To be a center of excellence in physiotherapy education, clinical care, and research, dedicated to restoring movement, enhancing quality of life, and serving the community through ethical, innovative, and evidence-based physiotherapy practices.",
-
-                "vision": "To be a center of excellence in physiotherapy education, clinical care, and research, dedicated to restoring movement, enhancing quality of life, and serving the community through ethical, innovative, and evidence-based physiotherapy practices.",
-
-                "mission": [
-                    "To provide high-quality physiotherapy education through experienced faculty, interactive learning, and strong clinical exposure.",
-                    "To develop competent, compassionate, and skilled physiotherapy professionals who excel in patient care and rehabilitation.",
-                    "To promote interdisciplinary teamwork, continuous skill development, and lifelong learning.",
-                    "To actively engage in community-based rehabilitation and preventive healthcare services.",
-                    "To encourage research and innovation in movement science and physiotherapy practice."
-                ],
-
-                "objectives": [
-                    "To impart in-depth theoretical knowledge and hands-on clinical training in core and specialized areas of physiotherapy.",
-                    "To enhance students' clinical reasoning, assessment, and rehabilitation skills through real-world patient exposure.",
-                    "To develop expertise in orthopedics, sports physiotherapy, neurology, pediatrics, cardiopulmonary sciences, biomechanics, hand rehabilitation, obstetrics & gynaecology, and community rehabilitation.",
-                    "To foster teamwork, professional ethics, and effective communication among students and faculty.",
-                    "To promote community outreach programs aimed at improving mobility, functional independence, and overall health.",
-                    "To encourage research-oriented learning and evidence-based practice in physiotherapy.",
-                    "To prepare graduates to meet national and global healthcare standards with confidence and competence."
-                ],
-
-                "infra_desc": "The department offers comprehensive programs in physiotherapy education.",
-                "infra": [
-                    "Bachelor of Physiotherapy (BPT) - Eligibility: +2 Physics, Chemistry, Biology as Principal subject, Duration: 4 Years and 6 Months",
-                    "Master of Physiotherapy (MPT) specializations: Bio Mechanics, Cardio Pulmonary Science, Community Rehabilitation, Hand Rehabilitation, Neurology, Obstetrics and Gynaecology, Paediatrics Physiotherapy, Sports Physiotherapy, Orthopaedics"
-                ],
-
-                "faculty_desc": "A dedicated team of teaching faculty supports and guides students in their pursuit of academic excellence.",
-                "faculty": [
-                    { "name": "Mr. Vincent Jeyaraj D", "designation": "Associate Professor", "exp": "" },
-                    { "name": "Ms. M. Vidyagajalakshmi", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Mr. C. Manikandarajan", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. P. Vinitha", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. M. Yogeswari", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. J. Swathi", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. Sarojini J", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. Tharaka Varshini V", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Mr. R. Rajarethinam", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. Aishwarya Shamini M", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. Kumuthavalli D", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. Malavika D", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. Suvathi R", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. Umayal SP", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. G. Premkumari", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. Nithya Vijayakumar", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. M. Bavadharani", "designation": "Assistant Professor", "exp": "" },
-                    { "name": "Ms. Saranya T", "designation": "Assistant Professor", "exp": "" }
-                ],
-
-                "services_desc": "The department provides comprehensive physiotherapy education and clinical training.",
-                "services": [
-                    "High-quality physiotherapy education through experienced faculty",
-                    "Interactive learning and strong clinical exposure",
-                    "Specialization training in multiple areas including orthopedics, sports, neurology, pediatrics",
-                    "Community-based rehabilitation and preventive healthcare services",
-                    "Research and innovation in movement science"
-                ]
             },
             {
                 id: "Paediatric Surgery", name: "Paediatric Surgery", icon: `<i class="fas fa-baby"></i>`, color: "#26c6da", colorDark: "#00acc1",
