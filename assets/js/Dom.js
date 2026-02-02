@@ -175,11 +175,11 @@
                <li class="has-submenu" data-submenu="milestones">
                 <a href="#">Healthcare Services<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
-                  <li><a href="./hospital.html#specialties">Speciality Clinics</a></li>
-                  <li><a href="#">Health Education</a></li>
-                  <li><a href="#">Diagnostics Services</a></li>
-                  <li><a href="#">Preventive Services</a></li>
-                  <li><a href="#">Promotive Services</a></li>
+                  <li><a href="speciality_clinic.html">Speciality Clinics</a></li>
+                  <li><a href="health_education.html">Health Education</a></li>
+                  <li><a href="diagonis_technical.html">Diagnostic Services</a></li>
+                  <li><a href="preventive.html">Preventive Services</a></li>
+                  <li><a href="promotive.html">Promotive Services</a></li>
                   </ul>
                   </li>
                 
@@ -187,7 +187,6 @@
                 <a href="#">Patient Support Services<span class="arrow submenu-trigger">&#9654;</span></a> 
                 <ul class="sub-dropdown">
                   <li><a href="./clinical_support.html">Clinical Support</a></li>
-                  <li><a href="./diagonis_technical.html">Diagnostic & Technical Support</a></li>
                   <li><a href="./patient_care.html">Patient Care & Experience Support</a></li>
                   <li><a href="./safety.html">Safety & Quality Support</a></li>
                   <li><a href="./digital_health.html">Digital Health & IT Support</a></li>

@@ -84,6 +84,12 @@ const departments = [
     "color": "#a29bfe",
   },
   {
+    "dept_id": "physiotherapy",
+    "name": "Physiotherapy",
+    "icon": "fas fa-user-injured",
+    "color": "#2980b9"
+  },
+  {
     "dept_id": "general_surgery",
     "name": "General Surgery",
     "icon": "fa fa-user-md",
@@ -236,7 +242,7 @@ let SpecialityCard = sortedDeptForLink.map(e => {
         </div>
         <div class="infra-icon-title">${e.name}</div>
       </a>
-    </div></a>
+    </div>
   `;
 }).join("");
 
