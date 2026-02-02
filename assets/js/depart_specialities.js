@@ -2885,13 +2885,12 @@ async function loadDoctorsFromExcel() {
                         <div class="overview-card">
                             <h2 class="section-title" style="color:${dept.colorDark}">Our Excellence</h2>
                             <div class="dept-overview">
-                                <img src="./assets/images/dept_images/${dept.name}/${dept.team}" onerror="this.onerror=null; this.src='./assets/images/Hero.jpg';" alt="">
+                                ${dept.displays ? `<img src="./assets/images/dept_images/${dept.name}/${dept.team}" onerror="this.onerror=null; this.src='./assets/images/Hero.jpg';" alt="">`:``}
                                 <p class="overview-text">${dept.overview}</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Procedures & Infrastructure -->
                     <div class="section ">
                         <div class="grid-2">
                             ${dept.procedure ? `
@@ -2919,7 +2918,7 @@ async function loadDoctorsFromExcel() {
 
                     <!-- Services Section -->
 
-                    ${dept.image ?  `
+                    ${dept.displays ?  `
                         <div class="section infra-section">
                         <h2 class="section-title" style="color:${dept.colorDark}">Infrastructure</h2>
                             <div class="infra">
@@ -3020,7 +3019,6 @@ async function loadDoctorsFromExcel() {
             let breadcrum = document.getElementById('breadcrum-section')
             let k=dept.name.split(" ");
             let l=k.join("%20")
-            console.log(l);
             
             
             breadcrum.style.backgroundImage = `linear-gradient(
@@ -3052,14 +3050,19 @@ async function loadDoctorsFromExcel() {
         }
 
         function init() {
-            const deptId = getDeptIdFromURL();
+            const deptId1 = getDeptIdFromURL();
+            const mydeptId=deptId1.split("%20");
+            const deptId=mydeptId.join(" ");
+            console.log(deptId1);
+            console.log(deptId);
             
             if (!deptId) {
                 showNotFound();
                 return;
             }
 
-            const department = depts.find(d => d.id === deptId);
+
+            const department = depts.find(d => d.id.includes(deptId));
             if (department) {
                 renderDepartment(department);
             } else {

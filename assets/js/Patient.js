@@ -1,43 +1,34 @@
 const departments = [
   {
-    "url": "centerofexcellence.html",
-    "name": "Center Of Excellence"
-  },
-  {
-    "url": "hospital.html#specialties",
-    "name": "Specialty Clinics"
-  },
-  {
-    "url": "pharmacy.html",
-    "name": "Pharmacy"
-  },
-  {
-    "url": "camps.html",
-    "name": "Camps"
-  },
-  {
-    "url": "transport.html",
-    "name": "Transport"
-  },
-  {
     "url": "patientcorner.html",
-    "name": "Patient Corner"
+    "name": "Patient Information"
+  },{
+    "url": "#",
+    "name": "Patient Portal"
   },
   {
-    "url": "donor.html",
-    "name": "Donors"
+    "url": "medicalpackage.html",
+    "name": "Health Checkup Package"
   },
   {
-    "url": "information.html",
-    "name": "Information Center"
+    "url": "patientcorner.html#awareness",
+    "name": "Hospital Awareness"
+  },
+  {
+    "url": "patientcorner.html#testimonials",
+    "name": "Patient AV"
+  },
+  {
+    "url": "patientcorner.html#insurance",
+    "name": "Insurance"
   },
   {
     "url": "ambulance.html",
-    "name": "24/7 Ambulance"
+    "name": "Ambulance"
   },
   {
-    "url": "hospital_old.html",
-    "name": "Old Hospital"
+    "url": "#",
+    "name": "Consultant"
   }
 ];
 
@@ -57,7 +48,7 @@ let SpecialityCard = departments.map(e => {
           <center>${e.name}</center>
         </div>
       </a>
-    </div></a>
+    </div>
   `;
 }).join("");
 

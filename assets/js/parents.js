@@ -49,7 +49,7 @@ let SpecialityCard = departments.map(e => {
           <center>${e.name}</center>
         </div>
       </a>
-    </div>
+    </div></a>
   `;
 }).join("");
 

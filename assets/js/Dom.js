@@ -29,6 +29,7 @@
             <a href="tel:0431-2258737" translate="no" class="quick-link featured"><i class='fa fa-phone'></i>0431-2258737</a>
           </p>
         </div>
+         
           <div class="search-container">
           <input 
             type="text" 
@@ -42,7 +43,7 @@
           </button>
           <div class="search-results" id="searchResults"></div>
         </div>
-
+        
 
       </div>
      
@@ -56,7 +57,7 @@
           <a href='./doctors.html'>Our Doctors</a>
         </div>     
         <div class="milestone-stat">
-          <a href='./patientcorner.html'>Patient Corner</a>
+          <a href='./patient.html'>Patient</a>
         </div>
         <div class="milestone-stat">
           <a href='./medicalpackage.html'>Health Checkup Package</a>
@@ -65,10 +66,10 @@
           <a href='./Specialities.html'>Super Specialities</a>
         </div>
         <div class="milestone-stat">
-          <a href='#'>Your Reports</a>
+          <a href='./donor.html'>Gift of Life</a>
         </div>
         <div class="milestone-stat">
-          <div class="language-switcher"><a onclick="changeLanguage('en')" translate="no">English</a> <span style='color:white'> | </span><a onclick="changeLanguage('ta')"  translate="no">தமிழ்</a>
+          <a href="./ambulance.html">Ambulance</a>
         </div>
       </div>
     </div>
@@ -127,7 +128,7 @@
                 </ul>
               </li>
               <li><a href="./aboutus.html#alumini">Alumini Feedback</a></li>
-              <li><a href="./Others.html">Others</a></li>
+              <li><a href="./Others.html">Statutory Compliance</a></li>
             </ul>
           </li>
           <li class="has-dropdown" data-dropdown="academics">
@@ -172,22 +173,27 @@
                 <li><a href="./centerofexcellence.html">Center Of Excellence</a></li>
                 <li><a href="./outreach_community.html">Community Outreach</a></li>
                <li class="has-submenu" data-submenu="milestones">
-                <a href="./patientcorner.html">Health Care Services<span class="arrow submenu-trigger">&#9654;</span></a>
+                <a href="#">Healthcare Services<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
                   <li><a href="./hospital.html#specialties">Speciality Clinics</a></li>
-                  <li><a href="./pharmacy.html">Pharmacy</a></li>
-                  <li><a href="./transport.html">Transport</a></li>
+                  <li><a href="#">Health Education</a></li>
+                  <li><a href="#">Diagnostics Services</a></li>
+                  <li><a href="#">Preventive Services</a></li>
+                  <li><a href="#">Promotive Services</a></li>
                   </ul>
                   </li>
-                  
+                
               <li class="has-submenu" data-submenu="milestones">
-                <a href="./donor.html">Donors <span class="arrow submenu-trigger">&#9654;</span></a>
+                <a href="#">Patient Support Services<span class="arrow submenu-trigger">&#9654;</span></a> 
                 <ul class="sub-dropdown">
-                  <li><a href="./blood_donor.html">Blood Donor</a></li>
-                  <li><a href="./blood_donor.html#blood_bank2">Blood Bank</a></li>
-                  <li><a href="./organ_donor.html">Organ Donor</a></li>
+                  <li><a href="./bioengineering.html">Bio Medical Engineering</a></li>
+                  <li><a href="./physiotherapy.html">Physiotherapy</a></li>
+                  <li><a href="./bioethics.html">Bio Ethics</a></li>
                 </ul>
-              </li>           
+              </li>
+               
+              
+              
             </ul>
           </li>
            
@@ -201,7 +207,13 @@
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
-          
+          <li class="has-dropdown" data-dropdown="research">
+            <a href="#"  translate="no">அ | A <span class="arrow dropdown-trigger">&#9654;</span></a>
+            <ul class="dropdown" >
+              <li><a onclick="changeLanguage('en')" translate="no">English</a></li>
+              <li><a onclick="changeLanguage('ta')"  translate="no">தமிழ்</a></li>
+            </ul>
+          </li>
           <li ><a href="iqac.html" style="background-color:var(--color-secondary) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
           <li><a href="nmc.html" class="nmc-nav nmc-nav1">NMC</a></li>
           <li><a href="virtual_tour.html" target="_blank" class="nmc-nav nmc-nav2" title='Trichy SRM Medical College Campus Tour'><img src='./assets/images/360.png' style='width:21px'></a></li>
@@ -213,6 +225,8 @@
               <li><a href="./career.html"  style="justify-content: start;"><i class="fa-solid fa-briefcase"></i> Career</a></li>
             </ul>
           </li>
+           
+          
           </ul>
         <div id="mobile-topbar"></div>
         <div id="mobile-quickaccess"></div>
@@ -242,6 +256,9 @@
             </a>
             <a href="https://www.instagram.com/srmmchrc?igsh=eXIwd3d2d3gzeXZ6" target="_blank" class="social-link instagram" title="Instagram">
                 <i class="fab fa-instagram"></i>
+            </a>
+             <a href="#" target="_blank" class="social-link whatsapp" title="whatsapp">
+                <i class="fab fa-whatsapp"></i>
             </a>
             
         </div>`;

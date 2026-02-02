@@ -104,7 +104,7 @@ let SpecialityCard = sortedDeptForLink.map(e => {
         </div>
         <div class="infra-icon-title"><center>${e.name}</center></div>
       </a>
-    </div>
+    </div></a>
   `;
 }).join("");
 

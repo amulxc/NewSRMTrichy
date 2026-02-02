@@ -357,6 +357,10 @@
         background: linear-gradient(135deg, var(--color-ig-1), var(--color-ig-2), var(--color-ig-3), var(--color-ig-4), var(--color-ig-5));
         animation-delay: 0.9s;
     }
+    .floating-social-btn .social-link:nth-child(6) {
+        background: linear-gradient(135deg, var(--color-secondary), var(--accent-color));
+        animation-delay: 0.9s;
+    }
     
     .floating-social-btn .social-link:hover {
         transform: scale(1.15);
@@ -12494,4 +12498,41 @@ grid-template-columns: 1fr;
     padding:8px 80px;
     border-radius:20px;
     font-weight:700;
+  }
+
+  .new_pages.document-grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+  .new_pages a:nth-child(1) .document-card:hover{
+    border-color:var(--color-purple);
+  }
+   .new_pages a:nth-child(2) .document-card:hover{
+    border-color:var(--color-accent);
+  }
+   .new_pages a:nth-child(3) .document-card:hover{
+    border-color:var(--color-accent-yellow);
+  }
+   .new_pages a:nth-child(4) .document-card:hover{
+    border-color:var(--color-primary);
+  }
+   .new_pages a:nth-child(5) .document-card:hover{
+    border-color:var(--color-navy);
+  }
+   .new_pages a:nth-child(6) .document-card:hover{
+    border-color:var(--accent-color);
+  }
+  
+   .new_pages a:nth-child(7) .document-card:hover{
+    border-color:var(--color-youtube);
+  }
+   .new_pages a:nth-child(8) .document-card:hover{
+    border-color:var(--g-2);
+  }
+   .new_pages a:nth-child(9) .document-card:hover{
+    border-color:var(--color-linkedin-dark);
+  }
+  
+   .new_pages a:nth-child(10) .document-card:hover{
+    border-color:var(--color-accent-pink);
   }

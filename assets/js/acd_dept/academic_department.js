@@ -3742,8 +3742,8 @@
                 ]
             },
             {
-                id: "Anaesthesiology", 
-                name: "Anaesthesiology", 
+                id: "Anaesthesia", 
+                name: "Anaesthesia", 
                 icon: `<i class="material-symbols-outlined">masks</i>`, 
                 color: "#26c6da", 
                 colorDark: "#00acc1",
