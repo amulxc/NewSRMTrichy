@@ -2843,7 +2843,7 @@ async function loadDoctorsFromExcel() {
                         <div class="overview-card">
                             <h2 class="section-title" style="color:${dept.colorDark}">Department Overview</h2>
                             <div class="dept-overview">
-                                <img src="./assets/images/dept_images/${dept.name}/hero-image.jpg" onerror="this.onerror=null; this.src='./assets/images/Hero.jpg';" alt="">
+                                <img src="./assets/images/dept_images/${dept.name}/hero-image.jpg" onerror="this.onerror=null; this.src='./assets/images/Hero.png';" alt="">
                                 <p class="overview-text">${dept.overview}</p>
                             </div>
                         </div>
