@@ -29,6 +29,10 @@ const departments = [
   {
     "url": "#",
     "name": "Consultant"
+  },
+  {
+    "url": "pharmacy.html",
+    "name": "Pharmacy"
   }
 ];
 
