@@ -4974,7 +4974,7 @@
                                     ${d.gallery.map(img => `
                                         <div class="gallery-item">
                                             <div class="gallery-placeholder">
-                                                <img src="./assets/images/gallery/${img.path}" alt='Not Given'>
+                                                <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/gallery/${img.path}" alt='Not Given'>
                                             </div>
                                             <div class="gallery-overlay">
                                                 <div class="gallery-overlay-title">${img.name}</div>

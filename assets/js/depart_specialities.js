@@ -2918,7 +2918,7 @@ async function loadDoctorsFromExcel() {
             const ext = doctor["Contact Number"] === "9894489142" ? "jpg" : "JPG";
             const num = doctor["Contact Number"]
             return {
-                image:`./assets/images/doctors/${num}.${ext}`,
+                image:`https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/doctors/${num}.${ext}`,
                 id:doctor.id
             };
         }
@@ -2980,7 +2980,7 @@ async function loadDoctorsFromExcel() {
                         <div class="overview-card">
                             <h2 class="section-title" style="color:${dept.colorDark}">Our Excellence</h2>
                             <div class="dept-overview">
-                                ${dept.displays ? `<img src="./assets/images/dept_images/${dept.name}/${dept.team}" onerror="this.onerror=null; this.src='./assets/images/Hero.jpg';" alt="">`:``}
+                                ${dept.displays ? `<img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${dept.name}/${dept.team}" onerror="this.onerror=null; this.src='https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Hero.jpg';" alt="">`:``}
                                 <p class="overview-text">${dept.overview}</p>
                             </div>
                         </div>
@@ -3020,7 +3020,7 @@ async function loadDoctorsFromExcel() {
                                 ${
                                     dept.image.map((x,i) =>
                                         `<div class="infra-card">
-                                            <img src="./assets/images/dept_images/${dept.name}/${x}" alt="">
+                                            <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${dept.name}/${x}" alt="">
                                         </div>`
                                     ).join("")
                                 }
@@ -3121,7 +3121,7 @@ async function loadDoctorsFromExcel() {
                 rgba(${hexToRgb(dept.color)}, 0.6),
                 rgba(${hexToRgb(dept.colorDark)}, 0.6)
             ),
-            url(./assets/images/dept_images/${l}/${dept.breadcrum})` || `linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/hospital.jpeg)`;
+            url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${l}/${dept.breadcrum})` || `linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/hospital.jpeg)`;
 
             
             breadcrum.style.height="70vh"

@@ -388,7 +388,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         function createDoctorCard(doctor) {
             const card = document.createElement('div');
             card.className = 'doctor-card';
-            let imgPath = `./assets/images/doctors/${doctor["Contact Number"] == "9894489142" ? doctor["Contact Number"]+".jpg" : doctor["Contact Number"]+".JPG"}`;
+            let imgPath = `https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/doctors/${doctor["Contact Number"] == "9894489142" ? doctor["Contact Number"]+".jpg" : doctor["Contact Number"]+".JPG"}`;
 
             function checkImage(url, callback) {
                 const img = new Image();

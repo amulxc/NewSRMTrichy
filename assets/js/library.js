@@ -89,7 +89,7 @@
                     "type": "profile",
                     "name": "S. MEENAKSHI",
                     "designation": "Chief Librarian",
-                    "image": "./assets/images/library/librarian.jpg",
+                    "image": "https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/library/librarian.jpg",
                     "bio": [
                         "An experienced library professional leading the Central Library operations with expertise in Library Automation and academic resource services.",
                         "Responsible for maintaining digital systems, resource management, and ensuring seamless access to learning materials for students and faculty."
@@ -621,7 +621,7 @@
                                         section.image.map(img => `
                                             <div class="library-item">
                                                 <div class="library-placeholder">
-                                                    <img src="./assets/images/library/${img}" />
+                                                    <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/library/${img}" />
                                                 </div>
                                             </div>
                                         `).join('')
