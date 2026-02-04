@@ -87,7 +87,7 @@
     <div class="nav-wrapper">
       <a href='index.html'>
         <div class="logo">
-          <img src="./assets/images/Logo.webp" alt="SRM">
+          <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM">
         </div>
       </a>
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
@@ -98,7 +98,7 @@
       
       <nav class="offcanvas-menu" id="offcanvasMenu">
       <div class="Offcanvas-logo logo">
-        <img src="./assets/images/Logo.webp" alt="SRM">
+        <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM">
       </div>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -109,7 +109,7 @@
           <li><a href="research.html">Research</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="nmc.html" class="nmc-nav1 nmc-nav">NMC</a></li>
-          <li><a href="virtual_tour.html" target="_blank" class="nmc-nav2 nmc-nav" title='Trichy SRM Medical College Campus Tour'><img src='./assets/images/360.png' style='width:21px'></a></li>
+          <li><a href="virtual_tour.html" target="_blank" class="nmc-nav2 nmc-nav" title='Trichy SRM Medical College Campus Tour'><img src='https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/360.png' style='width:21px'></a></li>
         </ul>
         <div id="mobile-topbar"></div>
         <div id="mobile-quickaccess"></div>
@@ -165,7 +165,7 @@
     const footer = `<div class="footer-container">
             <div class="footer-about">
                  <div class="logo footer-logo">
-                    <img src="./assets/images/Logo.webp" alt="SRM Logo">
+                    <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM Logo">
                 </div>
                 <p>Trichy SRM Medical College Hospital & Research Centre, <br>SRM Nagar, Trichy - Chennai Highway, Irungalur Village, Tiruchirapalli - 621105 Tamil Nadu, India</p>
                 <div class="social-icons">

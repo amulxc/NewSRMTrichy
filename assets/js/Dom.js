@@ -98,7 +98,7 @@
     <div class="nav-wrapper">
       <a href='index.html'>
         <div class="logo">
-          <img src="./assets/images/Logo.webp" alt="SRM">
+          <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM">
         </div>
       </a>
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
@@ -109,7 +109,7 @@
       
       <nav class="offcanvas-menu" id="offcanvasMenu">
       <div class="Offcanvas-logo logo">
-        <img src="./assets/images/Logo.webp" alt="SRM">
+        <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM">
       </div>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -219,7 +219,7 @@
           </li>
           <li ><a href="iqac.html" style="background-color:var(--color-secondary) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
           <li><a href="nmc.html" class="nmc-nav nmc-nav1">NMC</a></li>
-          <li><a href="virtual_tour.html" target="_blank" class="nmc-nav nmc-nav2" title='Trichy SRM Medical College Campus Tour'><img src='./assets/images/360.png' style='width:21px'></a></li>
+          <li><a href="virtual_tour.html" target="_blank" class="nmc-nav nmc-nav2" title='Trichy SRM Medical College Campus Tour'><img src='https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/360.png' style='width:21px'></a></li>
            <li class="has-dropdown" data-dropdown="research">
             <a href="#" style="background-color:var(--color-accent) !important;" class="nmc-nav nmc-nav2"><i class="fa-solid fa-circle-info"></i> Information for <span class="arrow dropdown-trigger"  >&#9654;</span></a>
             <ul class="dropdown">
@@ -288,7 +288,7 @@
     const footer = `<div class="footer-container">
             <div class="footer-about">
                  <div class="logo footer-logo">
-                    <img src="./assets/images/Logo.webp" alt="SRM Logo">
+                    <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM Logo">
                 </div>
                 <p>Trichy SRM Medical College Hospital & Research Centre, <br>SRM Nagar, Trichy - Chennai Highway, Irungalur Village, Tiruchirapalli - 621105 Tamil Nadu, India</p>
                 <div class="social-icons">

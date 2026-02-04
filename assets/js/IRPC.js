@@ -4,35 +4,35 @@ const activities = [
                 date: "26 Nov 2025",
                 description: "Dr. Des Richardson, M.Sc., Ph.D., D.Sc., F.FSc., FRCPath, FRACI CCHEM, Director, Centre for Cancel Cell Biology and Drug Discovery, Griffith University, Queensland, Australia. His research experiences are very vast and delivered his lecture on “Design and development of new anti-cancer drugs: the artificial intelligence revolution”.",
                 icon: "fa-university",
-                image: "./assets/images/irpc/1.jpg"
+                image: "https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/irpc/1.jpg"
             },
             {
                 title: "International seminar",
                 date: "11 Dec 2025",
                 description: "Dr. Mats Brannstrom is Professor and Chairman, Department of Obstetrics and Gynecology, Institute of Clinical Sciences, University of Gothenburg, Sweden. He is also Senior Consultant of Gynecology and Reproductive Medicine at Sahlgrenska University Hospital. Dr. Mats shared his clinical experiences of uterus transplantation from deceased donor and transplant to recipient with uterine infertility",
                 icon: "fa-robot",
-                image: "./assets/images/irpc/2.jpg"
+                image: "https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/irpc/2.jpg"
             },
             {
                 title: "BMJ manuscript submission drive",
                 date: "18 Dec 2025",
                 description: "A total of 37 faculty and postgraduates participated in the TSRMMCH&RC library; A broad visionary ideas obtained regarding how to submit the manuscript in BMJ",
                 icon: "fa-hand-holding-usd",
-                image: "./assets/images/irpc/3.jpg"
+                image: "https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/irpc/3.jpg"
             },
             {
                 title: "Medaithon",
                 date: "25 Oct 2025",
                 description: "The campus institutions participated; Fifty teams competed; out of that two teams awarded",
                 icon: "fa-project-diagram",
-                image: "./assets/images/irpc/4.jpg"
+                image: "https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/irpc/4.jpg"
             },
             {
                 title: "EQUIP workshop",
                 date: "28 Feb 2025",
                 description: "Elevating quality in research through impactful publications, patents and copyright excellence",
                 icon: "fa-project-diagram",
-                image: "./assets/images/irpc/5.jpg"
+                image: "https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/irpc/5.jpg"
             }
         ];
 
@@ -107,37 +107,37 @@ const activities = [
                 name: "Public Health Foundation of India", 
                 location: "New Delhi, India", 
                 icon: "fa-flask",
-                logo: "./assets/images/irpc/logos/1.png"
+                logo: "https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/irpc/logos/1.png"
             },
             { 
                 name: "PGIMER", 
                 location: "Chandigarh, India", 
                 icon: "fa-hospital",
-                logo: "./assets/images/irpc/logos/2.png"
+                logo: "https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/irpc/logos/2.png"
             },
             { 
                 name: "JIPMER", 
                 location: "Pondicherry", 
                 icon: "fa-rocket",
-                logo: "./assets/images/irpc/logos/3.png"
+                logo: "https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/irpc/logos/3.png"
             },
             { 
                 name: "AIIMS", 
                 location: "Bibinagar", 
                 icon: "fa-microscope",
-                logo: "./assets/images/irpc/logos/4.png"
+                logo: "https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/irpc/logos/4.png"
             },
             { 
                 name: "SASTRA – Deemed to be University", 
                 location: "Thanjavur, Tamilnadu", 
                 icon: "fa-rocket",
-                logo: "./assets/images/irpc/logos/5.png"
+                logo: "https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/irpc/logos/5.png"
             },
             { 
                 name: "Bharathidasan University", 
                 location: "Trichy, Tamilnadu", 
                 icon: "fa-microscope",
-                logo: "./assets/images/irpc/logos/6.png"
+                logo: "https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/irpc/logos/6.png"
             }
         ];
 
@@ -241,7 +241,7 @@ const activities = [
             coordinator: [
                 {
                     name: "Dr A Suguna",
-                    profileImage:"./assets/images/researchers/coordinator.jfif",
+                    profileImage:"https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/researchers/coordinator.jfif",
                     position: "Coordinator",
                     specialization: "Professor of Community medicine",
                     publications: 32,
@@ -270,7 +270,7 @@ const activities = [
                 },
                 {
                     name: "B. Vallab Ganesh Bharadwaj",
-                    profileImage:"./assets/images/researchers/coordinator2.JPG",
+                    profileImage:"https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/researchers/coordinator2.JPG",
                     position: "Coordinator",
                     specialization: "Research Scientist & Technical Manager – Molecular Biology ",
                     projects: 4,
@@ -305,7 +305,7 @@ const activities = [
             members: [
                 {
                     name: "Dr.S.Ayyappan",
-                    profileImage:"./assets/images/researchers/member_1.jfif",
+                    profileImage:"https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/researchers/member_1.jfif",
                     position: "Member",
                     specialization: "Senior Resident",
                     interests: ["Clinical biochemistry", "Endocrinology", "Molecular biology"],
