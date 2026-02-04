@@ -3121,7 +3121,7 @@ async function loadDoctorsFromExcel() {
                 rgba(${hexToRgb(dept.color)}, 0.6),
                 rgba(${hexToRgb(dept.colorDark)}, 0.6)
             ),
-            url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${l}/${dept.breadcrum})` || `linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/hospital.jpeg)`;
+            url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${l}/${dept.breadcrum})` || `linear-gradient(to right,#0153349f,#001f20e3),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/breadcrum/hospital.jpeg)`;
 
             
             breadcrum.style.height="70vh"
