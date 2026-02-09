@@ -86,8 +86,8 @@
                 </ul>
               </li>
               <li><a href="./programsandcourse.html">Programs & Course Outcomes</a></li>
-              <li class='pdf'><a href="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Medical+Graduate+Attributes.pdf" target='_blank'>Medical Graduate Attributes</a><img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/pdficon.png" alt="" width="20px" ></li>
-              <li class='pdf'><a href="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/UPDATE-Committee-11.10.25.pdf" target='_blank'>Committee</a><img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/pdficon.png" alt="" width="20px" ></li>
+              <li class='pdf'><a href="https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Medical+Graduate+Attributes.pdf" target='_blank'>Medical Graduate Attributes</a><img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/pdficon.png" alt="" width="20px" ></li>
+              <li class='pdf'><a href="https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/UPDATE-Committee-11.10.25.pdf" target='_blank'>Committee</a><img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/pdficon.png" alt="" width="20px" ></li>
               <li class='pdf'><a href="./biethics.html">Bio Ethics</a></li>
               <li class="has-submenu" data-dropdown="departments">
                 <a href="#">Departments <span class="arrow dropdown-trigger">&#9654;</span></a>

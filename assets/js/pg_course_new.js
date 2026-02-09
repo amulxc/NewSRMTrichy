@@ -68,7 +68,7 @@ const departmentData = [
 
 const content = document.getElementById("content11");
 content.innerHTML = ""; 
-let pdfPath="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/PG_Course"
+let pdfPath="https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/PG_Course"
 departmentData.map((d,i)=>{
   document.getElementById("content11").innerHTML += `
       <div class='myDiv'>
