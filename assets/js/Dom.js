@@ -26,7 +26,7 @@
         <div class="quick-links">
           <p>
             Book an Appointment
-            <a href="tel:0431-2258737" translate="no" class="quick-link featured"><i class='fa fa-phone'></i>0431-2258737</a>
+            <a href="tel:0431-225 5555" translate="no" class="quick-link featured"><i class='fa fa-phone'></i>0431-225 5555</a>
           </p>
         </div>
          
