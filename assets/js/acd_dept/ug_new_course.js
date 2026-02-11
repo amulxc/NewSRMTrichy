@@ -6,7 +6,7 @@
          const widthOfBox="220px";
          const depts = [      
             {
-                id: "Phase 1", name: "Phase 1",
+                id: "Phase-1", name: "Phase-1",
                 boxes: [
                     {
                         label: "Anatomy", 
@@ -27,7 +27,7 @@
                 ],
             },
             {
-                id: "Phase 2", name: "Phase 2",
+                id: "Phase-2", name: "Phase-2",
                 boxes: [
                     {
                         label: "Pathology", 
@@ -48,7 +48,7 @@
                 ]
             },
             {
-                id: "Phase 3 Part 1", name: "Phase 3 Part 1",
+                id: "Phase-3 Part-1", name: "Phase-3 Part-1",
                 boxes: [
                     {
                         label: "General Medicine", 
@@ -70,7 +70,7 @@
                 ]
             },
             {
-                id: "Phase 3 Part 2", name: "Phase 3 Part 2",
+                id: "Phase-3 Part-2", name: "Phase-3 Part-2",
                 boxes: [
                     {
                         label: "Orthopaedics", 
@@ -156,11 +156,7 @@
                 });
             }
         }
-        function normalizePhase(phase) {
-            return phase
-                .replace("Phase ", "Phase-")
-                .replace(" Part ", " Part-");
-        }
+        
 
         async function fileExists(url) {
             try {
@@ -171,14 +167,14 @@
             }
         }
         async function buildStatCards(d) {
-            const phaseFolder = normalizePhase(d.id);
+            const phaseFolder = d.id;
 
             const cards = await Promise.all(
                 d.boxes.map(async s => {
 
-                    const curriculumPath = `https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course/${phaseFolder}/Curriculam.pdf`;
-                    const calendarPath   = `https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course/${phaseFolder}/Academic_Calendar.pdf`;
-                    const timetablePath  = `https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course/${phaseFolder}/Time_Table.pdf`;
+                    const curriculumPath = `https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course/${phaseFolder}/Curriculam.pdf`;
+                    const calendarPath   = `https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course/${phaseFolder}/Academic_Calendar.pdf`;
+                    const timetablePath  = `https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course/${phaseFolder}/Time_Table.pdf`;
 
                     const [hasCurr, hasCal, hasTime] = await Promise.all([
                         fileExists(curriculumPath),
@@ -209,7 +205,6 @@
         async function renderDetail(d) {
             const container = document.getElementById('departmentDetail');
 
-            const phaseFolder = normalizePhase(d.id);
 
             let html = `
                 <div class="detail-header" id="${d.id}" style="padding:15px 40px;margin-bottom:0">
@@ -246,7 +241,7 @@
 
         function pdfItem(label, link) {
         return `
-        <a href="${link}" target="_blank">
+        <a href="https://docs.google.com/gview?url=${link}" target="_blank">
             <div style='background:white;font-weight:400;color:#000;margin-bottom:10px;padding:2px 0px'>
                 <i class="fa fa-file-pdf"></i> ${label}
             </div>
