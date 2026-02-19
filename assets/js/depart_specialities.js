@@ -2370,19 +2370,7 @@ const FAQJson = [
       }
     ]
   },
-  {
-    dept_id: "Physiotherapy",
-    questions: [
-      {
-        question: "What conditions are treated in the Physiotherapy department?",
-        answer: "The department treats musculoskeletal disorders, neurological conditions, sports injuries, pediatric conditions, cardiopulmonary issues, post-surgical rehabilitation, and provides obstetric and gynecological physiotherapy care."
-      },
-      {
-        question: "Does the department provide community rehabilitation services?",
-        answer: "Yes, the department actively engages in community-based rehabilitation programs and preventive healthcare services to improve mobility and functional independence."
-      }
-    ]
-  },
+
   {
     dept_id: "Physiology",
     questions: [
@@ -2978,7 +2966,7 @@ async function loadDoctorsFromExcel() {
                     <!-- Overview Section -->
                     <div class="section">
                         <div class="overview-card">
-                            <h2 class="section-title" style="color:${dept.colorDark}">Our Excellence</h2>
+                            <h2 class="section-title" style="color:${dept.colorDark}">Our Team</h2>
                             <div class="dept-overview">
                                 ${dept.displays ? `<img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${dept.name}/${dept.team}" onerror="this.onerror=null; this.src='https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Hero.jpg';" alt="">`:``}
                                 <p class="overview-text">${dept.overview}</p>
