@@ -1368,7 +1368,7 @@
 
             achievements_desc: "Major milestones and recognitions achieved by the department.",
             achievements: [
-                "First Liver Transplant at Trichy SRM Medical College Hospital and Research Centre",
+                "First Liver Transplant at Trichy SRM Medical College",
                 "Dr M.M. Vijay Kanna – Indian Critical Care Council Member"
             ]
         },
@@ -2906,7 +2906,7 @@ async function loadDoctorsFromExcel() {
             const ext = doctor["Contact Number"] === "9894489142" ? "jpg" : "JPG";
             const num = doctor["Contact Number"]
             return {
-                image:`https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/doctors/${num}.${ext}`,
+                image:`https://d6ayomfexqlev.cloudfront.net/images/doctors/${num}.${ext}`,
                 id:doctor.id
             };
         }
@@ -2966,9 +2966,9 @@ async function loadDoctorsFromExcel() {
                     <!-- Overview Section -->
                     <div class="section">
                         <div class="overview-card">
-                            <h2 class="section-title" style="color:${dept.colorDark}">Our Excellent Team</h2>
+                            <h2 class="section-title" style="color:${dept.colorDark}">Our Team</h2>
                             <div class="dept-overview">
-                                ${dept.displays ? `<img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${dept.name}/${dept.team}" onerror="this.onerror=null; this.src='https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Hero.jpg';" alt="">`:``}
+                                ${dept.displays ? `<img src="https://d6ayomfexqlev.cloudfront.net/images/dept_images/${dept.name}/${dept.team}" onerror="this.onerror=null; this.src='https://d6ayomfexqlev.cloudfront.net/images/Hero.jpg';" alt="">`:``}
                                 <p class="overview-text">${dept.overview}</p>
                             </div>
                         </div>
@@ -2979,7 +2979,7 @@ async function loadDoctorsFromExcel() {
                             ${dept.procedure ? `
                             <div class="info-card">
                                 <h3 class="info-card-title" style="color:${dept.colorDark}">
-                                    Objectives & Procedures
+                                    Objectives
                                 </h3>
                                 <ul class="info-list">
                                     ${dept.procedure.map(item => `<li>${item}</li>`).join('')}
@@ -3008,7 +3008,7 @@ async function loadDoctorsFromExcel() {
                                 ${
                                     dept.image.map((x,i) =>
                                         `<div class="infra-card">
-                                            <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${dept.name}/${x}" alt="">
+                                            <img src="https://d6ayomfexqlev.cloudfront.net/images/dept_images/${dept.name}/${x}" alt="">
                                         </div>`
                                     ).join("")
                                 }
@@ -3020,7 +3020,7 @@ async function loadDoctorsFromExcel() {
                     <!-- doctor Section -->
                     ${dept.doctor && dept.doctor.length > 0 ? `
                         <div class="section">
-                        <h2 class="section-title" style="color:${dept.colorDark}">Our Medical Team</h2>
+                        <h2 class="section-title" style="color:${dept.colorDark}">Our Doctors</h2>
                         <div class="grid-3">
                             ${dept.doctor.map(doc => `
                             <div class="doctor-card">
@@ -3109,7 +3109,7 @@ async function loadDoctorsFromExcel() {
                 rgba(${hexToRgb(dept.color)}, 0.6),
                 rgba(${hexToRgb(dept.colorDark)}, 0.6)
             ),
-            url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${l}/${dept.breadcrum})` || `linear-gradient(to right,#0153349f,#001f20e3),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/breadcrum/hospital.jpeg)`;
+            url(https://d6ayomfexqlev.cloudfront.net/images/dept_images/${l}/${dept.breadcrum})` || `linear-gradient(to right,#0153349f,#001f20e3),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/hospital.jpeg)`;
 
             
             breadcrum.style.height="70vh"

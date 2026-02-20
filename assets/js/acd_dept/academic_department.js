@@ -3910,7 +3910,7 @@
 
                 "achievements_desc": "Major milestones and recognitions achieved by the department.",
                 "achievements": [
-                    "First Liver Transplant at Trichy SRM Medical College Hospital and Research Centre",
+                    "First Liver Transplant at Trichy SRM Medical College",
                     "Dr M.M. Vijay Kanna – Indian Critical Care Council Member"
                 ],
 
@@ -4974,7 +4974,7 @@
                                     ${d.gallery.map(img => `
                                         <div class="gallery-item">
                                             <div class="gallery-placeholder">
-                                                <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/gallery/${img.path}" alt='Not Given'>
+                                                <img src="https://d6ayomfexqlev.cloudfront.net/images/gallery/${img.path}" alt='Not Given'>
                                             </div>
                                             <div class="gallery-overlay">
                                                 <div class="gallery-overlay-title">${img.name}</div>

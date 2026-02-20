@@ -144,7 +144,7 @@
 
     .dropdown a,
     .sub-dropdown a {
-      padding: 7px 15px 7px 20px;
+      padding: 7px 15px;
       display: flex;
       align-items: center;
       color: #555;
@@ -491,14 +491,14 @@
     }
 
     .no-results {
-      padding: 20px;
+      padding:20px;
       text-align: center;
       color: #999;
       font-size: 14px;
     }
     .myQuickLinks {
       display: grid;
-      grid-template-columns: repeat(6, 1fr); /* 4 items per row */
+      grid-template-columns: repeat(5, 1fr); /* 4 items per row */
       gap: 10px;
     }
     /* Quick Links */

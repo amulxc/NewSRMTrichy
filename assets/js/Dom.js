@@ -11,12 +11,6 @@
             <a href="#"  class="quick-link featured"><i class="fa-solid fa-file"></i>Fill the form</a>
           </p>
         </div>
-         <div class="quick-links">
-          <p>
-           Register for Free Camps
-            <a href="#"  class="quick-link featured"><i class="fa-solid fa-file"></i>Fill the form</a>
-          </p>
-        </div>
         <div class="quick-links">
           <p>
             Need Ambulance
@@ -73,11 +67,12 @@
           <a href='./Specialities.html'>Super Specialities</a>
         </div>
         <div class="milestone-stat">
-          <a href='./donor.html'>Gift of Life</a>
-        </div>
-        <div class="milestone-stat">
           <a href="./ambulance.html">Ambulance</a>
         </div>
+        <div class="milestone-stat">
+          <a href='./donor.html'>Gift of Life</a>
+        </div>
+        
       </div>
     </div>
   </div>`
@@ -105,7 +100,7 @@
     <div class="nav-wrapper">
       <a href='index.html'>
         <div class="logo">
-          <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM">
+          <img src="https://d6ayomfexqlev.cloudfront.net/images/Logo.webp" alt="SRM">
         </div>
       </a>
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
@@ -116,7 +111,7 @@
       
       <nav class="offcanvas-menu" id="offcanvasMenu">
       <div class="Offcanvas-logo logo">
-        <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM">
+        <img src="https://d6ayomfexqlev.cloudfront.net/images/Logo.webp" alt="SRM">
       </div>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -211,7 +206,7 @@
             <a href="./research.html">Research & Innovation <span class="arrow dropdown-trigger">&#9654;</span></a>
             <ul class="dropdown">
               
-              <li><a href="./research.htm.html">Research</a></li>
+              <li><a href="./research.html">Research</a></li>
 
               <li class="has-submenu" data-submenu="courses">
                 <a href="./IRPC.html">IRPC<span class="arrow submenu-trigger">&#9654;</span></a>
@@ -229,8 +224,8 @@
            
          
           <li><a href="contact.html">Contact</a></li>
-          <li ><a href="iqac.html" style="background-color:var(--color-secondary) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
           <li><a href="nmc.html" class="nmc-nav nmc-nav1">NMC</a></li>
+          <li ><a href="iqac.html" style="background-color:var(--color-orange) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
          
            <li class="has-dropdown" data-dropdown="research">
             <a href="#" style="background-color:var(--color-accent) !important;" class="nmc-nav nmc-nav2"><i class="fa-solid fa-circle-info"></i> Information for <span class="arrow dropdown-trigger"  >&#9654;</span></a>
@@ -300,7 +295,7 @@
     const footer = `<div class="footer-container">
             <div class="footer-about">
                  <div class="logo footer-logo">
-                    <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM Logo">
+                    <img src="https://d6ayomfexqlev.cloudfront.net/images/Logo.webp" alt="SRM Logo">
                 </div>
                 <p>Trichy SRM Medical College Hospital & Research Centre, <br>SRM Nagar, Trichy - Chennai Highway, Irungalur Village, Tiruchirapalli - 621105 Tamil Nadu, India</p>
                 <div class="social-icons">
@@ -325,8 +320,8 @@
                 <h4 class="footer-title">Contact Us</h4>
                 <ul class="footer-links">
                     <li><i class="fas fa-map-marker-alt"></i> Trichy, Tamil Nadu</li>
-                    <li><i class="fas fa-phone"></i> +91 431 2345678</li>
-                    <li><i class="fas fa-envelope"></i> info@srmmedical.edu.in</li>
+                    <li><i class="fas fa-phone"></i> 0431-2258956</li>
+                    <li><i class="fas fa-envelope"></i> dean@mc.srmtrichy.edu.in</li>
                     <li><i class="fas fa-clock"></i> Mon - Sat: 9AM - 6PM</li>
                 </ul>
             </div>
