@@ -170,25 +170,7 @@
             `;
         }
 
-        function renderStats() {
-            const statsHTML = data.sections.statistics.stats.map(stat => `
-                <div class="coe-stat-item">
-                    <span class="coe-stat-number" >${stat.value}</span>
-                    <span class="coe-stat-label">${stat.suffix ? stat.suffix + ' ' : ''}${stat.label}</span>
-                </div>
-            `).join('');
-
-            return `
-                <section class="coe-stats-section">
-                    <div class="coe-container">
-                        <div class="coe-stats-grid">
-                            ${statsHTML}
-                        </div>
-                    </div>
-                </section>
-            `;
-        }
-
+       
         function renderAchievements() {
             
 
@@ -231,7 +213,6 @@
             const app = document.getElementById('app');
             app.innerHTML = `
                 ${renderCenters()}
-                ${renderStats()}
                 ${renderAchievements()}
             `;
 

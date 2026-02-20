@@ -97,10 +97,7 @@
       background: var(--color-primary-dark) !important;
     }
     
-    .offcanvas-menu>ul>li .nmc-nav2{
-      background:var(--color-accent-yellow-top)!important;
-      position:relative;
-    }
+    
     .nmc-nav img{
       position:absolute;
       top:27%;
@@ -118,9 +115,9 @@
     .sub-dropdown {
       position: absolute;
       top: 100%;
-      left: 0;
+      left:10%;
       background: #fff;
-      min-width:max-content;
+      width:max-content;
       box-shadow: 0 8px 16px rgba(0,0,0,0.15);
       border-radius: 8px;
       opacity: 0;
@@ -160,7 +157,6 @@
     /* Desktop hover effects - only active on desktop */
     @media (min-width: 993px) {
       .offcanvas-menu > ul > li > a:hover {
-        /* background: #f8f9fa; */
         color: var(--color-secondary);
       }
 
@@ -924,5 +920,7 @@
         padding:8px 13px;
       }
     }
-
+    .has-dropdown:nth-child(1){
+      
+    }
     

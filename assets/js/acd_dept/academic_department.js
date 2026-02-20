@@ -2872,7 +2872,7 @@
                 ],
             },
              {
-                "id": "generalsurgery",
+                "id": "General Surgery",
                 "name": "General Surgery",
                 "icon": "fa-user-md",
                 "color": "#4caf50",

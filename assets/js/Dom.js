@@ -179,16 +179,16 @@
                 <li><a href="./hospital_department.html">Departments</a></li>
                 <li><a href="./centerofexcellence.html">Center Of Excellence</a></li>
                 <li><a href="./outreach_community.html">Community Outreach</a></li>
-               <li class="has-submenu" data-submenu="milestones">
-                <a href="#">Healthcare Services<span class="arrow submenu-trigger">&#9654;</span></a>
-                <ul class="sub-dropdown">
-                  <li><a href="speciality_clinic.html">Speciality Clinics</a></li>
-                  <li><a href="health_education.html">Health Education</a></li>
-                  <li><a href="diagonis_technical.html">Diagnostic Services</a></li>
-                  <li><a href="preventive.html">Preventive Services</a></li>
-                  <li><a href="promotive.html">Promotive Services</a></li>
+                <li class="has-submenu" data-submenu="milestones">
+                  <a href="#">Healthcare Services<span class="arrow submenu-trigger">&#9654;</span></a>
+                  <ul class="sub-dropdown">
+                    <li><a href="speciality_clinic.html">Speciality Clinics</a></li>
+                    <li><a href="health_education.html">Health Education</a></li>
+                    <li><a href="diagonis_technical.html">Diagnostic Services</a></li>
+                    <li><a href="preventive.html">Preventive Services</a></li>
+                    <li><a href="promotive.html">Promotive Services</a></li>
                   </ul>
-                  </li>
+                </li>
                 
               <li class="has-submenu" data-submenu="milestones">
                 <a href="#">Patient Support Services<span class="arrow submenu-trigger">&#9654;</span></a> 
@@ -206,20 +206,32 @@
               
             </ul>
           </li>
-           
-          <li class="has-dropdown" data-dropdown="research">
-            <a href="research.html">Research & Innovation <span class="arrow dropdown-trigger">&#9654;</span></a>
+
+          <li class="has-dropdown" data-dropdown="academics">
+            <a href="./research.html">Research & Innovation <span class="arrow dropdown-trigger">&#9654;</span></a>
             <ul class="dropdown">
-              <li><a href="IRPC.html">IRPC</a></li>
-              <li><a href="IRPC.html#IRPC-Projects">Projects</a></li>
-              <li><a href="IRPC.html#IRPC-Collabration">Collabrations</a></li>
-              <li><a href="IRPC.html#IRPC-Board">Board</a></li>
+              
+              <li><a href="./research.htm.html">Research</a></li>
+
+              <li class="has-submenu" data-submenu="courses">
+                <a href="./IRPC.html">IRPC<span class="arrow submenu-trigger">&#9654;</span></a>
+                <ul class="sub-dropdown">
+                  <li><a href="IRPC.html#IRPC-Projects">Projects</a></li>
+                  <li><a href="IRPC.html#IRPC-Collabration">Collabrations</a></li>
+                  <li><a href="IRPC.html#IRPC-Board">Board</a></li>
+                </ul>
+              </li>
+              
+             
+              
             </ul>
           </li>
+           
+         
           <li><a href="contact.html">Contact</a></li>
           <li ><a href="iqac.html" style="background-color:var(--color-secondary) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
           <li><a href="nmc.html" class="nmc-nav nmc-nav1">NMC</a></li>
-          <li><a href="virtual_tour.html" target="_blank" class="nmc-nav nmc-nav2" title='Trichy SRM Medical College Campus Tour'><img src='https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/360.png' style='width:21px'></a></li>
+         
            <li class="has-dropdown" data-dropdown="research">
             <a href="#" style="background-color:var(--color-accent) !important;" class="nmc-nav nmc-nav2"><i class="fa-solid fa-circle-info"></i> Information for <span class="arrow dropdown-trigger"  >&#9654;</span></a>
             <ul class="dropdown">
@@ -302,11 +314,11 @@
             <div class="footer-section">
                 <h4 class="footer-title">Quick Links</h4>
                 <ul class="footer-links">
-                    <li><a href="./index.html">Home</a></li>
                     <li><a href="./aboutus.html">About Us</a></li>
-                    <li><a href="./pre-clinical.html">Departments</a></li>
+                    <li><a href="./academic_department.html">Departments</a></li>
                     <li><a href="./research.html">Research</a></li>
                     <li><a href="./media.html">News & Events</a></li>
+                    <li><a href="./career.html">Career</a></li>
                 </ul>
             </div>
             <div class="footer-section">
