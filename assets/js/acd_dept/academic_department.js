@@ -1798,7 +1798,7 @@
                 ]
             },
             {
-                id: "Neurology", name: "Neurology", icon: `<i class="fas fa-brain"></i>`, color: "#27ae60", colorDark: "#229954",
+                id: "Neurology", name: "Neurology", icon: `<i class="fas fa-brain"></i>`, color: "#277cae", colorDark: "#6dbfee",
                 desc: "The Department of Neurology offers complete diagnosis and treatment of disorders affecting the brain, spinal cord, nerves, and muscles with evidence-based care supported by neuroimaging and neurophysiology services. Our focus is patient-centred care with a commitment to c8linical excellence.",
                 vision:"To be a centre of excellence in neurological care and services through clinical expertise, advanced technology, and continuous academic growth.",
                 mission:"To develop the Department of Neurology into a leading tertiary care institute and research centre.",
@@ -1830,19 +1830,42 @@
             {
                 id: "Nephrology", name: "Nephrology", icon: `<i class="material-symbols-outlined">nephrology</i>`, color: "#ff9800", colorDark: "#f57c00",
                 desc: "Comprehensive child healthcare with NICU and PICU facilities.",
-                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-                services: ["General Pediatrics", "Neonatology", "PICU", "Immunization", "Growth Monitoring"],
-                pubStats: [{label: "Publications", value: "24+"}],
-                pubHighlights: ["Neonatal care"],
-                pubYearwise: [{year: "2023", title: "Neonatal protocols", journal: "Pediatrics", type: "Research"}],
-                research: ["Neonatal outcomes"],
-                events: ["Children's Day"],
-                achievements: ["Best NICU"],
-                gallery: [{name: "NICU", icon: "fa-baby", event: "NICU Setup", date: "Jan 2024"}]
+                vision:"To be a center of excellence in nephrology by delivering comprehensive, ethical, and patient-centric renal care, advancing medical education and research, and improving community kidney health through multidisciplinary collaboration.",
+                mission:"<li>To provide comprehensive renal services including prevention, early detection, accurate diagnosis, dialysis, and effective management of acute and chronic kidney diseases.</li><li>To deliver safe, ethical, evidence-based, and high-quality patient care with a strong focus on patient safety and quality assurance.</li><li>To support undergraduate and postgraduate medical education in accordance with National Medical Commission (NMC) guidelines.</li><li>To promote clinical research and academic activities to advance renal science and improve patient outcomes.</li><li>To conduct community outreach programs for early detection and prevention of kidney disorders.</li>",
+                objectives:[ 
+                    "To provide specialized care for patients with acute and chronic kidney diseases, including dialysis and renal transplantation services.",
+                    "To ensure early diagnosis, prevention, and optimal management of kidney disorders through evidence-based practices.",
+                    "To deliver high-quality renal replacement therapy, including hemodialysis and post-transplant care.",
+                    "To enhance academic excellence by training undergraduate and postgraduate students in nephrology.",
+                    "To encourage research initiatives that contribute to advancements in nephrology practice.",
+                    "To collaborate with allied specialties to provide holistic and multidisciplinary patient care."
+                ],
+                infra: [
+                    "Hemodialysis Units",
+                    "Maintenance Dialysis",
+                    "Emergency Dialysis",
+                    "Transplant ICU",
+                    "Post-Transplant Ward",
+                    "AKI Management",
+                    "CKD Care",
+                    "Renal Replacement Therapy",
+                    "Transplant Services",
+                    "Teaching Facilities",
+                    "Research Facilities"
+                ],
+                faculty: [ {name: "Dr. Rajesh, MD, DM", designation: "Senior Consultant"},
+                {name: "Dr. Ganesh Aravind, MD, DM, DNB", designation: "Consultant"},
+                {name: "Dr. Sathyasagar, MD, DM", designation: "Consultant"},
+                {name: "Dr.Niruban.I ,MBBS", designation: "Junior Resident "},
+                {name: "Dr.Ramya.R,MBBS", designation: "Junior Resident "}],
+                services: [
+                    "Evaluation and management of acute and chronic kidney diseases", 
+                    "Hemodialysis and CAPD services", 
+                    "Performance and interpretation of renal biopsies", 
+                    "Pre- and post-operative care of renal transplant patients", 
+                    "Management of dialysis access and related complications",
+                    "Renal emergency services","Long-term follow-up, patient education, and preventive nephrology care"
+                ],
             },
             {
                 id: "Medical Oncology", name: "Medical Oncology", icon: `<i class="material-symbols-outlined">oncology</i>`, color: "#e74c3c", colorDark: "#c0392b",      
@@ -4296,23 +4319,23 @@
                     {name: "Laser Unit", icon: "fa-bolt", event: "Laser Therapy Center", date: "Feb 14, 2024"}
                 ]
             },
-            {
-                id: "Surgical Gastroenterology", name: "Surgical Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
-                desc: "Comprehensive mental health services with counseling and therapy.",
-                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-                services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
-                pubStats: [{label: "Publications", value: "20+"}],
-                pubHighlights: ["Depression management"],
-                pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
-                research: ["Mental health awareness", "Addiction treatment"],
-                events: ["World Mental Health Day"],
-                achievements: ["Excellence in Mental Health"],
-                gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
-            },
+            // {
+            //     id: "Surgical Gastroenterology", name: "Surgical Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
+            //     desc: "Comprehensive mental health services with counseling and therapy.",
+            //     vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+            //     mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+            //     objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
+            //     infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
+            //     faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
+            //     services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
+            //     pubStats: [{label: "Publications", value: "20+"}],
+            //     pubHighlights: ["Depression management"],
+            //     pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
+            //     research: ["Mental health awareness", "Addiction treatment"],
+            //     events: ["World Mental Health Day"],
+            //     achievements: ["Excellence in Mental Health"],
+            //     gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
+            // },
               {
                 id: "Plastic and Reconstructive Surgery", name: "Plastic and Reconstructive Surgery", icon: `<i class="fas fa-user-alt"></i>`, color: "#e74c3c", colorDark: "#c0392b",
                 "desc": "The Department of Plastic and Reconstructive Surgery provides comprehensive curative, reconstructive, aesthetic and trauma-related surgical care. The unit is dedicated to evidence-based clinical practice, advanced surgical interventions, and academic excellence.",
@@ -4781,7 +4804,9 @@
                                 <br><br>
                                 <h4>Objectives</h4>
                                 <br>
-                                <ul>${d.objectives.map(f => `<li>${f}</li>`).join('')}</ul>
+                                ${d.objectives ? `${
+                                    d.objectives.map(f => `<li>${f}</li>`).join('')
+                                }`:''}
                             </div>
                         </div>
                     </div>

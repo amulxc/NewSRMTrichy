@@ -154,6 +154,7 @@
 
         .info-list,.info-list2 {
             list-style: none;
+            width:100%;
         }
         .info-list2 i{
             position:relative;

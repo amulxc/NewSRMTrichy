@@ -96,35 +96,6 @@
                             "animationDelay": "0.6s"
                         }
                     ]
-                },
-                "statistics": {
-                    "title": "Our Impact",
-                    "stats": [
-                        {
-                            "value": 98,
-                            "suffix": "%",
-                            "label": "Patient Satisfaction"
-                        },
-                        {
-                            "value": 50000,
-                            "suffix": "+",
-                            "label": "Procedures Annually"
-                        },
-                        {
-                            "value": 250,
-                            "suffix": "+",
-                            "label": "Specialist Physicians"
-                        },
-                        {
-                            "value": 15,
-                            "suffix": "+",
-                            "label": "Years of Excellence"
-                        }
-                    ]
-                },
-                "achievements": {
-                    "title": "Our Achievements",
-                    "description": "Recognition for excellence in patient care, research, and innovation",
                 }
             }
         };
@@ -151,7 +122,7 @@
                     <ul class="coe-center-features">
                         ${center.features.map(feature => `<li>${feature}</li>`).join('')}
                     </ul>
-                    <a class="coe-learn-more-btn" href="SurgerySuperSpecialties.html?dept=${center.id}">Learn More</a>
+                    <a class="coe-learn-more-btn" href="depart_specialities.html?dept=${center.name}">Learn More</a>
                 </div>
             `).join('');
 
@@ -171,96 +142,20 @@
         }
 
        
-        function renderAchievements() {
-            
-
-            return `
-                <section class="coe-section coe-achievements-section">
-                    <div class="coe-container">
-                        <div class="section-header">
-                            <h2>${data.sections.achievements.title}</h2>
-                            <p>${data.sections.achievements.description}</p>
-                        </div>
-                        <div class="milestone-grid">
-                            <div class="milestone-card">
-                            <img src="https://upload.wikimedia.org/wikipedia/en/1/1d/NAAC_LOGO.png" width="80px" alt="">
-                            <h4>NAAC Accredited</h4>
-                            <p>A+ Grade accreditation from National Assessment and Accreditation Council</p>
-                        </div>
-                        <div class="milestone-card">
-                            <img src="https://inodayahospitals.com/wp-content/uploads/2024/07/nabh-accreditated-inodaya-hospital.png" width="120px" alt="">
-                            <h4>NABH Certified</h4>
-                            <p>National Accreditation Board for Hospitals & Healthcare Providers certification</p>
-                        </div>
-                        <div class="milestone-card">
-                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/NABL_Official_LOGO_Registered.png/250px-NABL_Official_LOGO_Registered.png" width="60px" alt="">
-                            <h4>NABL Certified</h4>
-                            <p>National Accreditation Board for Testing and Calibration Laboratories</p>
-                        </div>
-                        <div class="milestone-card">
-                            <img src="https://d6ayomfexqlev.cloudfront.net/images/silver-medal.png" width="130px" alt="">
-                            <h4>PM JAY</h4>
-                            <p>Diamond Rating from QS I-GAUGE for excellence in education</p>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-            `;
-        }
+       
 
         // Initialize App
         function initApp() {
             const app = document.getElementById('app');
             app.innerHTML = `
                 ${renderCenters()}
-                ${renderAchievements()}
             `;
 
             // Initialize animations and interactions
-            initObservers();
-            initStatsAnimation();
         }
 
-        // Intersection Observer for fade-in animations
-        function initObservers() {
-            const observerOptions = {
-                threshold: 0.1,
-                rootMargin: '0px 0px -50px 0px'
-            };
-
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('coe-fade-in-up');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, observerOptions);
-
-            document.querySelectorAll('.coe-center-card, .coe-achievement-card').forEach(el => {
-                observer.observe(el);
-            });
-        }
-
-        function initStatsAnimation() {
-            const statsObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        document.querySelectorAll('.coe-stat-number').forEach((stat, index) => {
-                            const target = data.sections.statistics.stats[index].value;
-                            animateCounter(stat, target);
-                        });
-                        statsObserver.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.5 });
-
-            const statsSection = document.querySelector('.coe-stats-section');
-            if (statsSection) {
-                statsObserver.observe(statsSection);
-            }
-        }
-
+     
+           
 
 
         // Initialize on page load
