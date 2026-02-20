@@ -398,9 +398,9 @@
     /* Search Bar - Now on RIGHT */
     .search-container {
       flex: 1;
-      max-width: 400px;
+      max-width:280px;
       position: relative;
-      order: 2;
+      order:1;
     }
 
     .search-input {
@@ -502,7 +502,7 @@
     }
     .myQuickLinks {
       display: grid;
-      grid-template-columns: repeat(5, 1fr); /* 4 items per row */
+      grid-template-columns: repeat(6, 1fr); /* 4 items per row */
       gap: 10px;
     }
     /* Quick Links */
@@ -513,8 +513,14 @@
       border-right:1px solid #e3e3e3;
       justify-content:center;
     }
-    .quick-links:nth-last-child(2){
+    .quick-links:nth-last-child(1),
+    .quick-links:nth-last-child(2),
+    .quick-links:nth-last-child(3){
       border-right:none;
+    }
+    .quick-links .lang{
+      font-size:14px;
+      font-weight:bold;
     }
     .quick-links p{
       font-size:12px;

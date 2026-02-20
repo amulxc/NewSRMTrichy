@@ -29,19 +29,26 @@
             <a href="tel:0431-225 5555" translate="no" class="quick-link featured"><i class='fa fa-phone'></i>0431-225 5555</a>
           </p>
         </div>
-         
-          <div class="search-container">
-          <input 
-            type="text" 
-            class="search-input" 
-            id="searchInput"
-            placeholder="Search Pages...."
-            autocomplete="off"
-          >
-          <button class="search-btn" id="searchBtn" aria-label="Search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-          <div class="search-results" id="searchResults"></div>
+        
+        <div class="quick-links">
+            <div class="search-container">
+            <input 
+              type="text" 
+              class="search-input" 
+              id="searchInput"
+              placeholder="Search Pages...."
+              autocomplete="off"
+            >
+            <button class="search-btn" id="searchBtn" aria-label="Search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <div class="search-results" id="searchResults"></div>
+          </div>
+        </div>
+
+        <div class="quick-links">
+          <a onclick="changeLanguage('en')" translate="no" class='lang'>English</a> |
+          <a onclick="changeLanguage('ta')"  translate="no" class='lang'>தமிழ்</a>
         </div>
         
 
@@ -57,7 +64,7 @@
           <a href='./doctors.html'>Our Doctors</a>
         </div>     
         <div class="milestone-stat">
-          <a href='./patient.html'>Patient</a>
+          <a href='./patientcorner.html'>Patient</a>
         </div>
         <div class="milestone-stat">
           <a href='./medicalpackage.html'>Health Checkup Package</a>
@@ -210,13 +217,6 @@
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
-          <li class="has-dropdown" data-dropdown="research">
-            <a href="#"  translate="no">அ | A <span class="arrow dropdown-trigger">&#9654;</span></a>
-            <ul class="dropdown" >
-              <li><a onclick="changeLanguage('en')" translate="no">English</a></li>
-              <li><a onclick="changeLanguage('ta')"  translate="no">தமிழ்</a></li>
-            </ul>
-          </li>
           <li ><a href="iqac.html" style="background-color:var(--color-secondary) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
           <li><a href="nmc.html" class="nmc-nav nmc-nav1">NMC</a></li>
           <li><a href="virtual_tour.html" target="_blank" class="nmc-nav nmc-nav2" title='Trichy SRM Medical College Campus Tour'><img src='https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/360.png' style='width:21px'></a></li>

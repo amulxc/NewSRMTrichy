@@ -2966,7 +2966,7 @@ async function loadDoctorsFromExcel() {
                     <!-- Overview Section -->
                     <div class="section">
                         <div class="overview-card">
-                            <h2 class="section-title" style="color:${dept.colorDark}">Our Team</h2>
+                            <h2 class="section-title" style="color:${dept.colorDark}">Our Excellent Team</h2>
                             <div class="dept-overview">
                                 ${dept.displays ? `<img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${dept.name}/${dept.team}" onerror="this.onerror=null; this.src='https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Hero.jpg';" alt="">`:``}
                                 <p class="overview-text">${dept.overview}</p>
