@@ -57,7 +57,7 @@
           <a href='./doctors.html'>Our Doctors</a>
         </div>     
         <div class="milestone-stat">
-          <a href='./patient.html'>Patient</a>
+          <a href='./patientcorner.html'>Patient</a>
         </div>
         <div class="milestone-stat">
           <a href='./medicalpackage.html'>Health Checkup Package</a>
