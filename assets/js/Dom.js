@@ -119,6 +119,7 @@
             <a href="./aboutus.html">About Us <span class="arrow dropdown-trigger">&#9654;</span></a>
             <ul class="dropdown">
               <li><a href="./aboutus.html#leadership">Leadership</a></li>
+              <li><a href="./aboutus.html#achievements">Awards & Recoginition</a></li>
               <li><a href="./aboutus.html#history">History & Timeline</a></li>
               <li class="has-submenu" data-submenu="milestones">
                 <a href="./aboutus.html#milestones">Accreditations <span class="arrow submenu-trigger">&#9654;</span></a>
