@@ -8,7 +8,7 @@
         <div class="quick-links">
           <p>
            For Any feedback
-            <a href="#"  class="quick-link featured"><i class="fa-solid fa-file"></i>Fill the form</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK1il4i4uuIXxCIdNHI4HY4rVneNQlknsYutoDd7JjhCb9eg/viewform" target='blank'  class="quick-link featured"><i class="fa-solid fa-file"></i>Fill the form</a>
           </p>
         </div>
         <div class="quick-links">
