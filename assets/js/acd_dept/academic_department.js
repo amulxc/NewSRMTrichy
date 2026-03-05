@@ -2,6 +2,130 @@
         // Department data with comprehensive information
         const depts = [
             {
+                id: "Anaesthesia", 
+                name: "Anaesthesia", 
+                icon: `<i class="material-symbols-outlined">masks</i>`, 
+                color: "#26c6da", 
+                colorDark: "#00acc1",
+                "desc": "The Department of Anaesthesiology provides comprehensive perioperative care including general and regional anaesthesia, critical care, pain management and resuscitation services, ensuring patient safety and quality healthcare delivery.",
+
+                "vision":"To create a competent and socially responsible healthcare system by strengthening and sustaining medical knowledge, altruistic service and progressive research.To create highly competitive and skilled medical professionals.",
+
+                "mission": "To impart the best medical education through state-of-the-art teaching and training methodologies, promote self-learning with ethical medical practice, and provide affordable, high-quality healthcare using updated technology and collaborative research.",
+
+                "objectives": [
+                    "Perform cardio-pulmonary resuscitation with available resources and transfer patients for advanced life support.",
+                    "Set up and manage intravenous infusions.",
+                    "Clear and maintain airway in unconscious patients.",
+                    "Administer oxygen correctly.",
+                    "Perform simple nerve blocks.",
+                    "Demonstrate awareness of principles of general and local anaesthetics."
+                ],
+
+                "infra_desc": "The department is well-equipped with modern teaching, clinical and research infrastructure to support academic excellence and patient care.",
+                "infra": [
+                    "Lecture hall with projector",
+                    "Demo hall with LED TV",
+                    "Museum with scientific charts and equipment",
+                    "Department library with books and journals",
+                    "Research laboratory (1)",
+                    "14 fully functional operation theatres"
+                ],
+
+                "faculty": [
+                    { "name": "Dr Vijay Kanna M M", "designation": "Professor & HOD"},
+                    { "name": "Dr Arunachala D Edukondalu", "designation": "Professor"},
+                    { "name": "Dr Jothi N", "designation": "Professor"},
+                    { "name": "Dr Balasubramanian S", "designation": "Professor"},
+                    { "name": "Dr Kirubahar R", "designation": "Professor"},
+                    { "name": "Dr Selvaraj N", "designation": "Associate Professor"},
+                    { "name": "Dr Sundari B", "designation": "Associate Professor"},
+                    { "name": "Dr Kavin Kumar S", "designation": "Associate Professor"},
+                    { "name": "Dr Gnana Sekar R", "designation": "Associate Professor"},
+                    { "name": "Dr Aishwarya S", "designation": "Associate Professor"},
+                    { "name": "Dr Noor Fazrina S", "designation": "Assistant Professor"},
+                    { "name": "Dr Kavitha M", "designation": "Assistant Professor"},
+                    { "name": "Dr Siva Prakash V", "designation": "Assistant Professor"},
+                    { "name": "Dr Keerthana P", "designation": "Assistant Professor"},
+                    { "name": "Dr Sethupathi J", "designation": "Assistant Professor"},
+                    { "name": "Dr Mahesh Kumar S", "designation": "Assistant Professor"},
+                    { "name": "Dr Madhavan P", "designation": "Senior Resident"},
+                    { "name": "Dr Uma M", "designation": "Senior Resident"},
+                    { "name": "Dr Meenakshi P", "designation": "Senior Resident"},
+                    { "name": "Dr Nancy Prasanna V", "designation": "Senior Resident"},
+                    { "name": "Dr Karthikeyan P", "designation": "Senior Resident"},
+                    { "name": "Dr Yazhini V", "designation": "Senior Resident"},
+                    { "name": "Dr Sivaram M", "designation": "Senior Resident"},
+                    { "name": "Dr Santhosh RV", "designation": "Senior Resident" }
+                ],
+
+                "services_desc": "The department delivers comprehensive anaesthesia, critical care and pain management services across operating theatres, ICUs and diagnostic areas.",
+                "services": [
+                    "General and regional anaesthesia",
+                    "Ultrasound-guided nerve and plane blocks",
+                    "Difficult airway management using fibre-optic bronchoscopy and video laryngoscopy",
+                    "Point-of-care ultrasonography in ICU",
+                    "Ventilator support and critical care management",
+                    "Pain and palliative care services",
+                    "Labour analgesia",
+                    "Anaesthesia services for CT, MRI, ECT and mobile ICU",
+                    "Renal transplant and organ retrieval programmes",
+                    "Code Blue resuscitation services"
+                ],
+
+                "publication_overview": "Faculty members actively publish research in national and international journals contributing to advancements in anaesthesia and critical care.",
+                "pubStats": [
+                    { "label": "Overall", "value": "18" },
+                    { "label": "International", "value": "17" },
+                    { "label": "National", "value": "1" }
+                ],
+
+                "pubYearwise": [
+                    { "year": "2024", "title": "Comparison of Rocuronium with Succinylcholine for elective intubation in ENT surgeries.", "journal": "Xidian University", "type": "International" },
+                    { "year": "2024", "title": "Intravenous Dexmedetomidine vs Propofol for intraoperative moderate sedation during spinal anesthesia.", "journal": "Xidian University", "type": "International" },
+                    { "year": "2024", "title": "Comparison of prophylactic intravenous Butorphanol and Clonidine for preventing intraoperative shivering after neuraxial anesthesia.", "journal": "Xidian University", "type": "International" },
+                    { "year": "2025", "title": "Comparative study of 0.25% Bupivacaine and 0.375% Ropivacaine in transversus abdominis plane block for postoperative analgesia.", "journal": "Xidian University", "type": "International" },
+                    { "year": "2025", "title": "Comparison of fibreoptic guided endotracheal intubation versus video laryngoscope in difficult airway cases.", "journal": "Xidian University", "type": "International" }
+                ],
+
+                "research_desc": "The department undertakes extensive clinical research focusing on anaesthesia techniques, pain management, critical care and patient safety.",
+                "research": [
+                    "Ultrasound-assisted epidural anaesthesia studies",
+                    "Adjuvants in regional and spinal anaesthesia",
+                    "Postoperative analgesia techniques",
+                    "Opioid-free anaesthesia protocols",
+                    "Airway management innovations",
+                    "Cost-effective and green anaesthesia practices"
+                ],
+
+                "events_desc": "The department regularly conducts academic programmes and continuing medical education activities.",
+                "events": [
+                    "CME – SAME VIVA 2024",
+                    "CME – ETHER Day Celebration 2025"
+                ],
+
+                "achievements_desc": "Major milestones and recognitions achieved by the department.",
+                "achievements": [
+                    "First Liver Transplant at Trichy SRM Medical College",
+                    "Dr M.M. Vijay Kanna – Indian Critical Care Council Member"
+                ],
+
+                "gallery": [
+                    {
+                    "name": "SAME – VIVA",
+                    "event": "Anaesthesiology Department",
+                    "path": "Anaesthesia/1.jpg",
+                    "date": "11 Oct 2024"
+                    },
+                    {
+                    "name": "SAME – ETHER Day Celebration",
+                    "event": "Anaesthesiology Department",
+                    "path": "Anaesthesia/2.jpg",
+                    "date": "11 Oct 2025"
+                    }
+                ]
+            },
+            {
                 "id": "anatomy",
                 "name": "Anatomy",
                 "icon": "fa-person", 
@@ -3828,130 +3952,7 @@
                     }
                 ]
             },
-            {
-                id: "Anaesthesia", 
-                name: "Anaesthesia", 
-                icon: `<i class="material-symbols-outlined">masks</i>`, 
-                color: "#26c6da", 
-                colorDark: "#00acc1",
-                "desc": "The Department of Anaesthesiology provides comprehensive perioperative care including general and regional anaesthesia, critical care, pain management and resuscitation services, ensuring patient safety and quality healthcare delivery.",
-
-                "vision":"To create a competent and socially responsible healthcare system by strengthening and sustaining medical knowledge, altruistic service and progressive research.To create highly competitive and skilled medical professionals.",
-
-                "mission": "To impart the best medical education through state-of-the-art teaching and training methodologies, promote self-learning with ethical medical practice, and provide affordable, high-quality healthcare using updated technology and collaborative research.",
-
-                "objectives": [
-                    "Perform cardio-pulmonary resuscitation with available resources and transfer patients for advanced life support.",
-                    "Set up and manage intravenous infusions.",
-                    "Clear and maintain airway in unconscious patients.",
-                    "Administer oxygen correctly.",
-                    "Perform simple nerve blocks.",
-                    "Demonstrate awareness of principles of general and local anaesthetics."
-                ],
-
-                "infra_desc": "The department is well-equipped with modern teaching, clinical and research infrastructure to support academic excellence and patient care.",
-                "infra": [
-                    "Lecture hall with projector",
-                    "Demo hall with LED TV",
-                    "Museum with scientific charts and equipment",
-                    "Department library with books and journals",
-                    "Research laboratory (1)",
-                    "14 fully functional operation theatres"
-                ],
-
-                "faculty": [
-                    { "name": "Dr Vijay Kanna M M", "designation": "Professor & HOD"},
-                    { "name": "Dr Arunachala D Edukondalu", "designation": "Professor"},
-                    { "name": "Dr Jothi N", "designation": "Professor"},
-                    { "name": "Dr Balasubramanian S", "designation": "Professor"},
-                    { "name": "Dr Kirubahar R", "designation": "Professor"},
-                    { "name": "Dr Selvaraj N", "designation": "Associate Professor"},
-                    { "name": "Dr Sundari B", "designation": "Associate Professor"},
-                    { "name": "Dr Kavin Kumar S", "designation": "Associate Professor"},
-                    { "name": "Dr Gnana Sekar R", "designation": "Associate Professor"},
-                    { "name": "Dr Aishwarya S", "designation": "Associate Professor"},
-                    { "name": "Dr Noor Fazrina S", "designation": "Assistant Professor"},
-                    { "name": "Dr Kavitha M", "designation": "Assistant Professor"},
-                    { "name": "Dr Siva Prakash V", "designation": "Assistant Professor"},
-                    { "name": "Dr Keerthana P", "designation": "Assistant Professor"},
-                    { "name": "Dr Sethupathi J", "designation": "Assistant Professor"},
-                    { "name": "Dr Mahesh Kumar S", "designation": "Assistant Professor"},
-                    { "name": "Dr Madhavan P", "designation": "Senior Resident"},
-                    { "name": "Dr Uma M", "designation": "Senior Resident"},
-                    { "name": "Dr Meenakshi P", "designation": "Senior Resident"},
-                    { "name": "Dr Nancy Prasanna V", "designation": "Senior Resident"},
-                    { "name": "Dr Karthikeyan P", "designation": "Senior Resident"},
-                    { "name": "Dr Yazhini V", "designation": "Senior Resident"},
-                    { "name": "Dr Sivaram M", "designation": "Senior Resident"},
-                    { "name": "Dr Santhosh RV", "designation": "Senior Resident" }
-                ],
-
-                "services_desc": "The department delivers comprehensive anaesthesia, critical care and pain management services across operating theatres, ICUs and diagnostic areas.",
-                "services": [
-                    "General and regional anaesthesia",
-                    "Ultrasound-guided nerve and plane blocks",
-                    "Difficult airway management using fibre-optic bronchoscopy and video laryngoscopy",
-                    "Point-of-care ultrasonography in ICU",
-                    "Ventilator support and critical care management",
-                    "Pain and palliative care services",
-                    "Labour analgesia",
-                    "Anaesthesia services for CT, MRI, ECT and mobile ICU",
-                    "Renal transplant and organ retrieval programmes",
-                    "Code Blue resuscitation services"
-                ],
-
-                "publication_overview": "Faculty members actively publish research in national and international journals contributing to advancements in anaesthesia and critical care.",
-                "pubStats": [
-                    { "label": "Overall", "value": "18" },
-                    { "label": "International", "value": "17" },
-                    { "label": "National", "value": "1" }
-                ],
-
-                "pubYearwise": [
-                    { "year": "2024", "title": "Comparison of Rocuronium with Succinylcholine for elective intubation in ENT surgeries.", "journal": "Xidian University", "type": "International" },
-                    { "year": "2024", "title": "Intravenous Dexmedetomidine vs Propofol for intraoperative moderate sedation during spinal anesthesia.", "journal": "Xidian University", "type": "International" },
-                    { "year": "2024", "title": "Comparison of prophylactic intravenous Butorphanol and Clonidine for preventing intraoperative shivering after neuraxial anesthesia.", "journal": "Xidian University", "type": "International" },
-                    { "year": "2025", "title": "Comparative study of 0.25% Bupivacaine and 0.375% Ropivacaine in transversus abdominis plane block for postoperative analgesia.", "journal": "Xidian University", "type": "International" },
-                    { "year": "2025", "title": "Comparison of fibreoptic guided endotracheal intubation versus video laryngoscope in difficult airway cases.", "journal": "Xidian University", "type": "International" }
-                ],
-
-                "research_desc": "The department undertakes extensive clinical research focusing on anaesthesia techniques, pain management, critical care and patient safety.",
-                "research": [
-                    "Ultrasound-assisted epidural anaesthesia studies",
-                    "Adjuvants in regional and spinal anaesthesia",
-                    "Postoperative analgesia techniques",
-                    "Opioid-free anaesthesia protocols",
-                    "Airway management innovations",
-                    "Cost-effective and green anaesthesia practices"
-                ],
-
-                "events_desc": "The department regularly conducts academic programmes and continuing medical education activities.",
-                "events": [
-                    "CME – SAME VIVA 2024",
-                    "CME – ETHER Day Celebration 2025"
-                ],
-
-                "achievements_desc": "Major milestones and recognitions achieved by the department.",
-                "achievements": [
-                    "First Liver Transplant at Trichy SRM Medical College",
-                    "Dr M.M. Vijay Kanna – Indian Critical Care Council Member"
-                ],
-
-                "gallery": [
-                    {
-                    "name": "SAME – VIVA",
-                    "event": "Anaesthesiology Department",
-                    "path": "Anaesthesia/1.jpg",
-                    "date": "11 Oct 2024"
-                    },
-                    {
-                    "name": "SAME – ETHER Day Celebration",
-                    "event": "Anaesthesiology Department",
-                    "path": "Anaesthesia/2.jpg",
-                    "date": "11 Oct 2025"
-                    }
-                ]
-            },
+            
             {
                 id: "Radio Diagnosis",
                 name: "Radio Diagnosis",

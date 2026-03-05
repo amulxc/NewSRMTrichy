@@ -434,7 +434,7 @@
     .floating-social-btn-emg .social-links-container.active {
         opacity: 1;
         pointer-events: all;
-        right:-260px;
+        right:-310px;
     }
     .floating-social-btn-emg .social-links-container {
         opacity: 1;
