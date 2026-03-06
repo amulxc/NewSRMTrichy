@@ -210,26 +210,26 @@
         --gradient-1:linear-gradient(135deg, var(--color-primary-light) 50%, var(--color-secondary-light) 100%);
         --gradient-2: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-light) 100%);
         --gradient-3: linear-gradient(to left, #28d4ff,#008f2b);
-        --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/breadcrum/hospital.jpeg);
+        --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/hospital.jpeg);
         --gradient-4: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-secondary-light) 100%);
         
-        --gradient-4-event:linear-gradient(#003b6ce7),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/event.jpg);
-        --gradient-5-leader:linear-gradient(#000000f3),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/event.jpg);
-        --gradient-6:linear-gradient(to left,#002b53e7,#1065c7d7),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/event.jpg);
+        --gradient-4-event:linear-gradient(#003b6ce7),url(https://d6ayomfexqlev.cloudfront.net/images/event.jpg);
+        --gradient-5-leader:linear-gradient(#000000f3),url(https://d6ayomfexqlev.cloudfront.net/images/event.jpg);
+        --gradient-6:linear-gradient(to left,#002b53e7,#1065c7d7),url(https://d6ayomfexqlev.cloudfront.net/images/event.jpg);
     }
     :root{
         --g-1:#0153349f;
         --g-2:#001f20e3;
         --g-3:#ffffffe3;
         --g-4:#ffffffe3;
-        --gradient-about:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/breadcrum/about.JPG);
-        --gradient-academic:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/breadcrum/academic.jpeg);
-        --gradient-research:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/breadcrum/research.JPG);
-        --gradient-contact:linear-gradient(to left,var(--g-1),var(--g-2)),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/breadcrum/contact.png);
-        --gradient-ambulance:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/breadcrum/ambulance.jpg);
-        --gradient-common:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/breadcrum/hospital.jpeg);
-        --gradient-nopage:linear-gradient(to right,var(--g-3),var(--g-4)),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/breadcrum/);
-        --gradient-coe:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/breadcrum/coe.jpeg);
+        --gradient-about:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/about.JPG);
+        --gradient-academic:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/academic.jpeg);
+        --gradient-research:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/research.JPG);
+        --gradient-contact:linear-gradient(to left,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/contact.png);
+        --gradient-ambulance:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/ambulance.jpg);
+        --gradient-common:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/hospital.jpeg);
+        --gradient-nopage:linear-gradient(to right,var(--g-3),var(--g-4)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/);
+        --gradient-coe:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/coe.jpeg);
     }
 
 
@@ -434,7 +434,7 @@
     .floating-social-btn-emg .social-links-container.active {
         opacity: 1;
         pointer-events: all;
-        right:-260px;
+        right:-310px;
     }
     .floating-social-btn-emg .social-links-container {
         opacity: 1;
@@ -2825,16 +2825,25 @@ h2 span{
     border-bottom:2px dashed #dfdfdf;
     padding:0;
 }
-.specialty-card div{
+.specialty-card .img-div{
     padding:0;
     overflow: hidden;
     text-align:center;
     border-radius:20px;
 }
+
 .specialty-card div p{
-    padding:8px 20px;
+    padding:8px 0px;
 }
 .specialty-card img{
+    width:100%;
+    height:100%;
+    border-top:none;
+    transition: all 0.3s;
+    object-fit:cover;
+    border-radius:20px;
+}
+.specialty-card .new_img{
     width:100%;
     height:100%;
     border-top:none;
@@ -4436,7 +4445,7 @@ grid-template-columns: 1fr;
 
 .about-container {
   max-width: 1400px;
-  margin: 5% auto 0;
+  margin: 0 auto 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9837,6 +9846,15 @@ grid-template-columns: 1fr;
             margin-bottom: 50px;
             align-items: start;
         }
+        .infra-gym-showcase2 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+            margin-bottom: 50px;
+            align-items: start;
+            border-radius:30px;
+            overflow:hidden;
+        }
 
         .infra-gym-main-image {
             position: relative;
@@ -10910,7 +10928,7 @@ grid-template-columns: 1fr;
         }
 
         .researchers .irpc-researcher-image-wrapper {
-            background:linear-gradient(135deg,#005281bb,#008327),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/bg_images/research.jpg);
+            background:linear-gradient(135deg,#005281bb,#008327),url(https://d6ayomfexqlev.cloudfront.net/images/bg_images/research.jpg);
             padding: var(--spacing-3xl) var(--spacing-xl);
             text-align: center;
             position: relative;
@@ -12549,4 +12567,30 @@ grid-template-columns: 1fr;
   
    .new_pages a:nth-child(10) .document-card:hover{
     border-color:var(--color-accent-pink);
+  }
+  .text-left{
+    text-align:left!important;
+  }
+  .contact-info{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    padding-top:20px;
+  }
+  .contact-info a{
+    color: black;
+    border:.5px solid #e3e3e3;
+    padding:8px 25px;
+    border-radius:40px;
+  }
+  .contact-info a:hover{
+    background:var(--color-primary);
+    color:white;
+  }
+  .contact-info a:hover i{
+    color:white;
+  }
+  .contact-info a i{
+    color:var(--color-primary);
+    padding-right:10px;
   }

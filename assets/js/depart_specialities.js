@@ -13,7 +13,7 @@
 
             overview: "The Department of Radiology provides comprehensive diagnostic and interventional imaging services, supporting accurate clinical decision-making through advanced imaging technologies and expert interpretation. To deliver excellence in diagnostic and interventional radiology services, education, and research using state-of-the-art imaging technology. To provide accurate, timely and patient-centered imaging services, train undergraduate and postgraduate students in advanced radiological techniques, promote innovative research in imaging sciences, and support clinical departments with integrated diagnostic and interventional expertise.",
 
-            procedure: [
+            objectives: [
                 "To provide multidisciplinary oral health care for a wide variety of patients including patients with special needs.",
                 "To function effectively with care and compassion and in harmony with interdisciplinary health care teams.",
                 "To utilize the values of professional ethics, lifelong learning and adaptability."
@@ -94,7 +94,7 @@
 
             overview: "The Department of Dentistry focuses on the scientific study of disease processes through laboratory investigations, tissue diagnosis, and research. It plays a crucial role in patient care, providing the best dental treatment at affordable cost. To create a competent and socially responsible system by providing quality oral health care and progressive research. To improve oral health, functionality and esthetics of people with quality dental care, in order to improve their nutrition, confidence and quality of life. To pursue collaborative research in the field of oral health.",
 
-            procedure: [
+            objectives: [
                 "To provide multidisciplinary oral health care for a wide variety of patients including patients with special needs.",
                 "To function effectively with care and compassion and in harmony with interdisciplinary health care teams.",
                 "To utilize the values of professional ethics, lifelong learning and adaptability."
@@ -162,7 +162,7 @@
 
             overview: "The  Department of ophthalmology  focuses on the quality services for holistic eye care through specialty clinics in OPD. It plays crucial role in community eye care through rural eye camps and School camps. It also emphasises the research activities related to eye care through multidisciplinary  approach. Endeavour to be a center of excellence providing advanced and affordable tertiary eye care while maintaining high standards of teaching and training. Providing vision is our mission.",
 
-            procedure: [
+            objectives: [
                 "Recognise the importance of Ophthalmology in the context of the health needs of the community and national priorities in the health sector.",
                 "Demonstrate sufficient understanding of the basic sciences relevant to research and practice of Ophthalmology.",
                 "Have sound theoretical and practical knowledge to manage illnesses medically and surgically based on principles of Evidence Based Medicine (EBM).",
@@ -242,7 +242,7 @@
 
             overview: "The Department of General Medicine provides comprehensive, evidence-based care for adults with acute and chronic medical conditions. We emphasize accurate diagnosis, holistic patient management and preventive health. We actively involved in teaching and mentoring Undergraduates and Postgraduates as part of our commitment to academic excellence. To become a leading centre of excellence in patient care, medical education and clinical research, setting the highest standards in Internal Medicine for the region and beyond. To provide excellence in clinical services, promote preventive healthcare and uphold the highest ethical standards. To provide advance medical education and fostering research while training Undergraduates and Postgraduates to make them to become skilled, caring medical professional.",
 
-            procedure: [
+            objectives: [
                 "To provide high quality, evidence based care for patients",
                 "To strengthen medical education by offering structured teaching, clinical training and mentorship",
                 "To promote preventive healthcare through community awareness, lifestyle modification and early diagnosis.",
@@ -332,7 +332,7 @@
 
             overview: "The Department of Emergency Medicine provides immediate and comprehensive emergency care with rapid assessment, stabilization, and treatment. The department ensures seamless coordination, advanced life-saving interventions and multi-disciplinary care 24/7. We provide excellent, accessible and affordable emergency care to all our patients compassionately, holistic education to the future doctors and progressive research. To provide high quality and low cost emergency healthcare at international standards. Provide state-of-the-art education and mentorship to the future emergency physicians. To create awareness among patients, their caregivers and the general public about basic emergencies and first aid. To grow as a Centre of excellence and leader in quality emergency care.",
 
-            procedure: [
+            objectives: [
                 "Aims to ensure rapid triage, accurate assessment and timely stabilization of all patients using national and international compliant protocols.",
                 "To encourage UG & PG students for research activities in various dimensions of Emergency Medicine.",
                 "To ensure 24/7 availability of trained staff and essential services with coordinated multidisciplinary care."
@@ -406,7 +406,7 @@
             overview: "The Department of Paediatrics provides comprehensive, evidence-based care for children with acute and chronic medical conditions, emphasizing accurate diagnosis, holistic management, preventive health, and excellence in undergraduate and postgraduate medical education. To be one among the centers of academic excellence in UG and PG Paediatric education and excellence in pediatric patient care. To educate undergraduate and postgraduate medical students and improve child health through world-class excellence in patient care, education, and research.",
             image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
-            procedure: [
+            objectives: [
                 "To achieve our mission and vision in a timely manner without compromising quality.",
                 "To provide high-quality, evidence-based care for patients.",
                 "To strengthen medical education with structured teaching, clinical training, and mentorship.",
@@ -479,7 +479,7 @@
 
             overview: "The Department of Dermatology, Venereology & Leprology provides comprehensive diagnosis, treatment, prevention, and counselling services for skin, hair, nail, STI and leprosy disorders, supported by modern diagnostic, procedural and laser facilities that meet NMC, NACO and NLEP standards. To develop ethical, skilled, and compassionate Dermatologists excelling in evidence-based care for skin, hair, nail, STI and leprosy disorders, while fostering research, innovation, and stigma-free, patient-centred healing. To provide competency-based dermatology training, ensure excellence in diagnostics and procedures, deliver ethical and patient-centred care, promote evidence-based practice, support national STI and leprosy programs, encourage interdisciplinary learning, and cultivate professionalism, communication, leadership, and continuous academic growth.",
 
-            procedure: [
+            objectives: [
                 "To train students in accurate diagnosis and management of skin, hair, nail, STI and leprosy disorders.",
                 "To ensure proficiency in essential dermatology procedures such as biopsy, KOH, slit skin smear, cryotherapy, electrocautery and laser techniques.",
                 "To cultivate ethical, empathetic, and stigma-free care across all DVL conditions.",
@@ -547,7 +547,7 @@
 
             overview: "The Department of Psychiatry is committed to excellence in mental health care, education, and research. We provide comprehensive, evidence-based assessment and treatment for psychiatric disorders across the lifespan, while training competent, ethical mental health professionals. To improve the quality of life of individuals with mental illness through excellence in medical education, impactful research, promoting awareness and compassionate clinical care. To create structured, empathetic and comprehensive MENTAL health care services with appropriate socio-cultural context intended to reach medically unreached rooted in BIO-PSYCHO-SOCIAL model. To commit to offer fine educational training and research activities aiming at imparting fundamental psychiatric knowledge, encouraging Scientific Temper, and upholding universal ethical values in shaping an integrated Mental Health Professional.",
 
-            procedure: [ 
+            objectives: [ 
                 "To impart such knowledge and skills that may enable an Undergraduate student/CRMI AND Post Graduate to Promote awareness, diagnose and treat common psychiatric disorders, and to gain an in depth knowledge on research aspects and Psychosocial aspects of various mental illnesses.",
                 "To ensure excellent patient care with confidential interviewing utilizing pharmacological, Psychological and alternative treatment modalities including use of advanced equipment (ECT, Psychometric instruments, Biofeedback) for diagnostic and therapeutic management."
             ],
@@ -628,7 +628,7 @@
 
             overview: "Respiratory Medicine Department specializes in the diagnosis, treatment and prevention of diseases affecting the lungs and entire respiratory system. Our commitment is to manage a comprehensive range of conditions- from common respiratory ailments to complex, life-threatening diseases- with expertise and compassion. We provide outstanding clinical care, which is comprehensive, affordable, accessible and delivered compassionately, to the patient & nurture the students with knowledge, skills, and attitude essential to make them professional, compassionate & competent physician. To provide state-of-art management options for patients with respiratory diseases, according to the latest evidence-based guidelines. Train the students with focus on bench to bedside practice through rigorous implementation of the course along with innovative teaching-learning practices and to delve into dynamic clinical research. To create awareness among patients, their caregivers and the general public about basic Respiratory illnesses and their symptoms. To conduct patient empowerment programs so as to reduce morbidity or mortality and arrive at early diagnosis of chest diseases at an affordable cost.",
 
-            procedure: [
+            objectives: [
                 "To conduct awareness & outreach programs to medically unreached populations.",
                 "To encourage UG & PG students for research activities in various dimension of respiratory medicine.",
                 "To create highly structured and quality respiratory care for a fully-fledged pulmonary rehabilitation program."
@@ -696,7 +696,7 @@
             
             overview: "The Department of Cardiology provides comprehensive diagnostic and interventional cardiac services. The department focuses on preventive, curative, and rehabilitative cardiology care using advanced technologies. It also plays a key role in training undergraduate and postgraduate students in modern cardiology practice. To provide premium quality cardiac services to the needy population. To strive for excellence in patient care through advanced diagnostics and treatment. To instil knowledge and clinical skills in students and postgraduates, enabling them to manage cardiac patients with confidence. To deliver round-the-clock cardiac catheterization laboratory services including primary percutaneous coronary intervention. To provide accurate analysis and interpretation of electrocardiograms and echocardiograms. To offer comprehensive cardiac assessment through treadmill testing and Holter monitoring.",
 
-            procedure: [
+            objectives: [
                 "To provide temporary and permanent pacemaker implantation services.",
                 "To offer cardiac resynchronization therapy for eligible patients.",
                 "To manage structural heart diseases such as ASD and PDA.",
@@ -748,7 +748,7 @@
 
             overview: "The Department of Neurology is dedicated to providing comprehensive diagnosis and treatment for disorders of the brain, spinal cord, nerves, and muscles, delivering evidence-based, patient-centred care supported by advanced neuroimaging and neurophysiology services. With a strong commitment to clinical excellence, the department strives to evolve as a centre of excellence in neurological care by integrating expert clinical practice, advanced technology, and continuous academic growth, while developing into a leading tertiary care institute and research centre.",
 
-            procedure: [
+            objectives: [
                 "Establish the department as a tertiary referral centre for neurological care.","Develop advanced diagnostic, interventional, and neurophysiology services.","Build a strong clinical and research programme in neurosciences.","Provide training and education for healthcare professionals."
             ],
 
@@ -788,7 +788,7 @@
 
             overview: "The Department of Nephrology aims to provide comprehensive renal services, including prevention, accurate diagnosis, dialysis, and effective management of both acute and chronic kidney diseases, while supporting undergraduate and postgraduate medical education in line with NMC guidelines. Committed to ethical, evidence-based, and patient-centric care, the department emphasizes early detection and prevention of kidney disorders through community outreach programs, upholds high standards of patient safety and quality assurance, and encourages clinical research and academic activities to advance renal science. By collaborating with allied specialties, the department delivers holistic and multidisciplinary care, striving to be a center of excellence that improves patient outcomes and contributes meaningfully to medical education, research, and community kidney health.",
 
-            procedure: [
+            objectives: [
                 "To provide comprehensive and specialized care for patients with acute and chronic kidney diseases, including dialysis and renal transplantation services.",
                 "To ensure early diagnosis, prevention, and optimal management of kidney disorders through evidence-based clinical practices.",
                 "To deliver safe, ethical, and high-quality renal replacement therapy, including hemodialysis and post-transplant care.",
@@ -826,7 +826,7 @@
 
             overview: "The Department of Medical Oncology has been successfully functioning since May 2025 and is dedicated to the comprehensive medical management of cancer patients. The department is equipped with a well-organized chemotherapy ward to deliver safe, effective, and evidence-based cancer treatment while ensuring compassionate patient care. To provide compassionate, high-quality, and evidence-based cancer care. To improve patient outcomes through advanced medical oncology services. To become a trusted center for comprehensive cancer treatment and patient support. To deliver patient-centered oncology care with safety, empathy, and clinical excellence. To utilize standardized treatment protocols based on the latest medical guidelines. To promote awareness, early diagnosis, and continuity of cancer care.",
 
-            procedure: [
+            objectives: [
                 "To provide safe and effective chemotherapy and supportive cancer treatments.",
                 "To ensure timely diagnosis, staging, and medical management of cancer patients.",
                 "To improve quality of life through symptom control and supportive care.",
@@ -874,7 +874,7 @@
 
             overview: "Comprehensive mental health services with counseling and therapy. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
 
-            procedure: [
+            objectives: [
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
@@ -920,7 +920,7 @@
             image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
             overview: "To be a center of excellence in physiotherapy education, clinical care, and research, dedicated to restoring movement, enhancing quality of life, and serving the community through ethical, innovative, and evidence-based physiotherapy practices. To provide high-quality physiotherapy education through experienced faculty, interactive learning, and strong clinical exposure. To develop competent, compassionate, and skilled physiotherapy professionals who excel in patient care and rehabilitation. To promote interdisciplinary teamwork, continuous skill development, and lifelong learning. To actively engage in community-based rehabilitation and preventive healthcare services. To encourage research and innovation in movement science and physiotherapy practice.",
 
-            procedure: [
+            objectives: [
                 "To impart in-depth theoretical knowledge and hands-on clinical training in core and specialized areas of physiotherapy.",
                 "To enhance students' clinical reasoning, assessment, and rehabilitation skills through real-world patient exposure.",
                 "To develop expertise in orthopedics, sports physiotherapy, neurology, pediatrics, cardiopulmonary sciences, biomechanics, hand rehabilitation, obstetrics & gynaecology, and community rehabilitation.",
@@ -1003,7 +1003,7 @@
 
             overview: "The Department of General Surgery focuses on the diagnosis, pre-operative and post-operative management of a broad range of diseases and injuries, primarily in the abdomen, breasts, skin, soft tissues and endocrine system. The Leading Provider of Complex Surgical care. The Best performer in quality, safety, service and satisfaction. An Integral Partner in the TSRMMCH & RC health system. The Best academic department with the highest standard. The Department of General Surgery contributes to the mission of the institution by upholding the highest standard of excellence in clinical care, education and research.",
 
-            procedure: [
+            objectives: [
                 "The primary objectives of the General Surgery Department are patient care, education and research.",
                 "Deliver the highest standard of safe and comprehensive surgical care for a broad range of conditions.",
                 "To train the next generation of competent surgeons and healthcare professionals.",
@@ -1078,7 +1078,7 @@
 
             overview: "The Department of Orthopaedics provides comprehensive care for patients with musculoskeletal injuries and disorders. The unit manages trauma cases, joint diseases, spine problems, paediatric orthopaedic conditions and sports-related injuries. The department is also actively engaged in teaching and clinical training for undergraduate and postgraduate students. To be recognized as a centre of excellence in orthopaedic care, education and research by delivering high-quality clinical services and adopting innovative practices. To provide ethical, evidence-based and timely orthopaedic care. To train students and residents in essential and advanced orthopaedic skills. To promote research in trauma, arthroplasty, arthroscopy, spine surgery, paediatric orthopaedics and bone infections.",
 
-            procedure: [
+            objectives: [
                 "Develop clinical, surgical and academic competence among students.",
                 "Encourage innovation in fracture fixation, joint preservation and rehabilitation.",
                 "Strengthen multidisciplinary coordination for improved treatment outcomes."
@@ -1147,7 +1147,7 @@
 
             overview: "The Department of ENT provides comprehensive diagnosis, treatment, and prevention of disorders involving the ear, nose, throat, head, and neck. The department is committed to delivering high-quality, patient-centered care using modern technology and evidence-based clinical practices. To develop and nurture the department as a premier center for excellence in patient care, clinical research, and modern innovation. To train the next generation of MBBS doctors and ENT surgeons who practice affordable, equitable, world-class patient care with strong aptitude for clinical research. To provide comprehensive, compassionate, affordable, and equitable patient care while shaping the future of Otorhinolaryngology through cutting-edge innovation, research, and world-class education. The mission includes: Clinical – applying clinical skills and knowledge for best patient practices; Research – encouraging innovation and discovery; Education – imparting strong clinical training for developing useful surgical and diagnostic skills.",
 
-            procedure: [
+            objectives: [
                 "To provide accurate diagnosis and effective management of diseases related to the ear, nose, throat, head, and neck using evidence-based clinical practices.",
                 "To offer advanced medical and surgical interventions including endoscopic procedures, audiology services, and head-and-neck surgeries.",
                 "To promote early detection and prevention of ENT disorders through screening programs, counselling, and community awareness activities.",
@@ -1210,7 +1210,7 @@
 
             overview: "The Department of Obstetrics & Gynaecology provides comprehensive reproductive healthcare, covering antenatal, intrapartum, postnatal care, as well as advanced gynaecological services. It is committed to women's health through clinical excellence, research, and education. To provide exceptional care to each and every women approaching our door step. To champion the women's health care system. To achieve excellence and advancement in women's obstetrical and gynecological health, teaching the future specialty leaders. To be leaders and advocates in the pursuit of excellence in women's health care. To help women and babies achieve optimal health outcomes. Support women to have empowering and magnificent birth experience. To deliver evidence-based care in a safe and welcoming atmosphere characterized by cultural humility and diversity. To be innovative, clinically excellent and contribute to research. Teach while you work and create future maternity care providers. Reflect values of excellence, compassion, community and social justice.",
 
-            procedure: [
+            objectives: [
                 "Dedicated to the pursuit of excellence in women's health care.",
                 "To provide highest quality service to patients.",
                 "To continuously evaluate patient-centric outcomes.",
@@ -1297,7 +1297,7 @@
 
             overview: "The Department of Anaesthesiology provides comprehensive perioperative care including general and regional anaesthesia, critical care, pain management and resuscitation services, ensuring patient safety and quality healthcare delivery. To create a competent and socially responsible healthcare system by strengthening and sustaining medical knowledge, altruistic service and progressive research.To create highly competitive and skilled medical professionals. To impart the best medical education through state-of-the-art teaching and training methodologies, promote self-learning with ethical medical practice, and provide affordable, high-quality healthcare using updated technology and collaborative research.",
 
-            procedure: [
+            objectives: [
                 "Perform cardio-pulmonary resuscitation with available resources and transfer patients for advanced life support.",
                 "Set up and manage intravenous infusions.",
                 "Clear and maintain airway in unconscious patients.",
@@ -1368,7 +1368,7 @@
 
             achievements_desc: "Major milestones and recognitions achieved by the department.",
             achievements: [
-                "First Liver Transplant at Trichy SRM Medical College Hospital and Research Centre",
+                "First Liver Transplant at Trichy SRM Medical College",
                 "Dr M.M. Vijay Kanna – Indian Critical Care Council Member"
             ]
         },
@@ -1385,7 +1385,7 @@
 
             overview: "The Department of Cardiothoracic Surgery provides comprehensive surgical care for diseases of the heart, lungs, and chest wall. The department focuses on advanced cardiac and thoracic procedures with emphasis on safety, pain-free recovery, and optimal outcomes. Complete postoperative rehabilitation and quality patient care remain the core strengths of the department. To provide affordable heart and lung care for all. To ensure pain-free recovery with easy breathing and complete rehabilitation. To promote a healthy heart and lung for every individual. To achieve full occupational rehabilitation after heart and lung surgery. To empower patients with knowledge and eliminate fear related to heart and lung diseases. To promote teamwork among healthcare professionals to transform vision into effective care delivery.",
 
-            procedure: [
+            objectives: [
                 "To empower patients and heart and lung care team members with knowledge.",
                 "To promote effective teamwork in cardiothoracic care delivery.",
                 "To ensure maximum occupational rehabilitation of patients after heart and lung surgery.",
@@ -1417,54 +1417,54 @@
                 "Advanced video-assisted thoracic (VATS) surgeries."
             ]
         },
-        {
-            id: "Neurosurgery", 
-            name: "Neurosurgery", 
-            icon: `<i class="fas fa-brain"></i> `, 
-            color: "#27ae60", 
-            colorDark: "#229954",
-            displays:false, 
-            team:["hero-image.JPG"],
-            breadcrum:["breadcrum.JPG"],
-            image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
+        // {
+        //     id: "Neurosurgery", 
+        //     name: "Neurosurgery", 
+        //     icon: `<i class="fas fa-brain"></i> `, 
+        //     color: "#27ae60", 
+        //     colorDark: "#229954",
+        //     displays:false, 
+        //     team:["hero-image.JPG"],
+        //     breadcrum:["breadcrum.JPG"],
+        //     image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
-            overview: "Comprehensive internal medicine care for all age groups. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+        //     overview: "Comprehensive internal medicine care for all age groups. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
 
-            procedure: [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
-            ],
+        //     objectives: [
+        //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
+        //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
+        //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
+        //     ],
 
-            doctor: [
-                {name: "Ram", designation: "Assistant professor", exp: "5"},
-                {name: "Sam", designation: "Assistant professor", exp: "5"},
-                {name: "John", designation: "Assistant professor", exp: "5"}
-            ],
+        //     doctor: [
+        //         {name: "Ram", designation: "Assistant professor", exp: "5"},
+        //         {name: "Sam", designation: "Assistant professor", exp: "5"},
+        //         {name: "John", designation: "Assistant professor", exp: "5"}
+        //     ],
 
-            services: [
-                "General Consultation", 
-                "Diabetes Care", 
-                "Hypertension", 
-                "Infectious Diseases", 
-                "Respiratory Medicine", 
-                "Gastroenterology", 
-                "Cardiology", 
-                "Nephrology"
-            ],
+        //     services: [
+        //         "General Consultation", 
+        //         "Diabetes Care", 
+        //         "Hypertension", 
+        //         "Infectious Diseases", 
+        //         "Respiratory Medicine", 
+        //         "Gastroenterology", 
+        //         "Cardiology", 
+        //         "Nephrology"
+        //     ],
 
-            pubStats: [
-                {label: "Publications", value: "30+"}
-            ],
+        //     pubStats: [
+        //         {label: "Publications", value: "30+"}
+        //     ],
 
-            research: [
-                "Chronic disease management"
-            ],
+        //     research: [
+        //         "Chronic disease management"
+        //     ],
 
-            achievements: [
-                "Best Medicine Dept"
-            ]
-        },
+        //     achievements: [
+        //         "Best Medicine Dept"
+        //     ]
+        // },
         {
             id: "Urology", 
             name: "Urology", 
@@ -1476,39 +1476,26 @@
             breadcrum:["breadcrum.JPG"],
             image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
-            overview: "Comprehensive child healthcare with NICU and PICU facilities. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+            overview: "The Department of Urology strives to be a trusted and valued center of excellence within the community by delivering comprehensive urological services. Committed to compassionate, cost-effective, skillful, evidence-based, and innovative care, the department focuses on early detection, prevention, and disease awareness through patient education. It also promotes research and continuous advancement in urological practice to ensure high-quality outcomes for all patients",
 
-            procedure: [
+            objectives: [
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
             ],
 
             doctor: [
-                {name: "Ram", designation: "Assistant professor", exp: "5"},
-                {name: "Sam", designation: "Assistant professor", exp: "5"},
-                {name: "John", designation: "Assistant professor", exp: "5"}
+               {name: "Dr. Keerthi Rams", designation: "Assistant professor", exp: "6"},{name: "Dr. Barath Venkat", designation: "Assistant professor", exp: "2"}
             ],
 
             services: [
-                "General Pediatrics", 
-                "Neonatology", 
-                "PICU", 
-                "Immunization", 
-                "Growth Monitoring"
+                "All endourology procedures for Kidney stones", "Enlarged prostate","Andrology","Reconstructive urology"
             ],
 
             pubStats: [
                 {label: "Publications", value: "24+"}
             ],
 
-            research: [
-                "Neonatal outcomes"
-            ],
-
-            achievements: [
-                "Best NICU"
-            ]
         },
         {
             id: "Surgical Oncology", 
@@ -1523,7 +1510,7 @@
 
             overview: "The Department of Surgical Oncology offers comprehensive surgical care for benign and malignant tumors across organ systems, following strict safety and evidence-based protocols. The department emphasizes multidisciplinary collaboration, optimal outcomes, and enhanced postoperative recovery. To be a center of excellence in comprehensive oncology care by delivering safe, evidence-based, and patient-centered medical and surgical oncology services, ensuring the best possible outcomes and quality of life for cancer patients. To provide integrated, multidisciplinary oncological care encompassing surgery, chemotherapy, and radiotherapy for patients with early, locally advanced, and metastatic malignancies by adhering to standardized protocols, maintaining patient safety, and continuously improving clinical outcomes through evidence-based practices.",
 
-            procedure: [
+            objectives: [
                 "To deliver comprehensive oncological care including diagnostic, curative, debulking, palliative, reconstructive, and prophylactic surgeries.",
                 "To provide chemotherapy in neoadjuvant, adjuvant, combined, and metastatic settings based on standardized treatment protocols.",
                 "To ensure patient safety through strict adherence to institutional policies, national guidelines, and standard operating procedures.",
@@ -1566,7 +1553,7 @@
 
             overview: "Comprehensive mental health services with counseling and therapy. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
 
-            procedure: [
+            objectives: [
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
@@ -1613,7 +1600,7 @@
 
             overview: "The Department of Plastic and Reconstructive Surgery provides comprehensive curative, reconstructive, aesthetic and trauma-related surgical care. The unit is dedicated to evidence-based clinical practice, advanced surgical interventions, and academic excellence. To make the Department of Plastic and Reconstructive Surgery a Centre of Excellence. To provide compassionate and high-quality Plastic Surgery care. To ensure services are affordable and accessible to all. To promote continuous academic growth, research, and innovation.",
 
-            procedure: [
+            objectives: [
                 "Offering the most up-to-date patient care.",
                 "Fostering high standards of research and innovation.",
                 "Training future doctors to become experts in the field of Plastic Surgery."
@@ -1690,7 +1677,7 @@
 
             overview: "The Department of Vascular Surgery provides comprehensive evaluation and management of arterial, venous, and lymphatic diseases using advanced medical, surgical, and endovascular techniques, with a focus on patient safety, limb salvage, and quality care. To provide high quality and affordable vascular care for needy patients. To provide comprehensive, timely, and patient-centred vascular care for individuals with diseases of the arterial, venous, and lymphatic systems. The department delivers evidence-based diagnosis and advanced surgical and endovascular treatments for conditions affecting the limbs, neck, and abdominal vessels, while prioritizing patient safety, limb salvage, and quality of life through multidisciplinary collaboration and continuous clinical excellence.",
 
-            procedure: [
+            objectives: [
                 "To provide accurate and early diagnosis of arterial, venous, and lymphatic vascular diseases using modern diagnostic modalities.",
                 "To deliver comprehensive medical, surgical, and endovascular management for conditions such as varicose veins, peripheral arterial disease, vascular trauma, aneurysms, and vascular malformations.",
                 "To ensure timely limb-saving interventions for emergencies including acute limb ischemia, diabetic foot ulcers, and traumatic vascular injuries.",
@@ -1750,7 +1737,7 @@
 
             overview: "Comprehensive respiratory care with pulmonary function testing. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
 
-            procedure: [
+            objectives: [
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
@@ -1798,7 +1785,7 @@
 
             overview: "The Department of Anatomy is passionate about teaching and advancing the understanding of human structure and development, aiming to provide in-depth knowledge of all subdivisions of Human Anatomy. This foundation supports meaningful application in clinical practice, research and related scientific fields. To make the students acquire scientific knowledge about the structure of the human body to be used in the academic and research activities and its application in clinical practice. To provide comprehensive knowledge of Gross Anatomy, Microscopic structure and Development of the human body. To provide an anatomical basis for understanding the clinical correlation of different organ systems and its application in research activities.",
 
-            procedure: [
+            objectives: [
                 "Describe the macroscopic and microscopic features of various organs of the human body.",
                 "Define the basic embryological processes associated with development of the various components and systems of the human body.",
                 "Identify the osteology of the human skeleton in both the gross specimen and through medical imaging.",
@@ -1866,7 +1853,7 @@
 
             overview: "Physiology is the study of how the organisms work. It requires the integration of knowledge gained from multidisciplinary approaches to the discovery of new information at the molecular, systemic and particularly whole animal level. The essence of research and teaching in Physiology requires an enquiring mind anchored on a global and integrative perspective to the understanding of how things work in a living organism. To  foster a holistic understanding of the normal functions of the human body among undergraduate and postgraduate medical graduates and enable them to apply this knowledge in clinical practice, thereby contributing to quality healthcare delivery and advancement of medical science through research. To impart strong foundational knowledge of the physiological functions of various organ systems. To ensure that medical students acquire essential clinical and laboratory skills relevant to their profession. To implement innovative and student-centered teaching methods that enhance understanding and skill acquisition. To promote the application of physiological knowledge for effective healthcare delivery and lifelong learning.",
 
-            procedure: [
+            objectives: [
                 "To deliver competency-based, foundational education in physiology that supports a comprehensive understanding of normal human body functions among medical students.",
                 "To integrate physiology teaching with clinical relevance, enabling students to apply theoretical knowledge in the diagnosis and understanding of clinical conditions.",
                 "To develop essential practical skills through training in clinical examination and laboratory techniques on healthy individuals.",
@@ -1958,7 +1945,7 @@
 
             overview: "The Department of Biochemistry at SRM Medical College Hospital and Research Centre, Trichy, offers undergraduate, postgraduate, and research programs with a strong focus on innovation, scientific inquiry, and applied biochemistry. The department integrates fundamental and advanced areas of biology, preparing students for global opportunities. To accentuate innovation, inquisition, and rational thinking in students, imparting quality education to achieve academic excellence. To establish a world-class learning ambience catering to the needs of aspiring students.",
 
-            procedure: [
+            objectives: [
                 "Provide high-quality education in biochemistry.",
                 "Foster research and innovation.",
                 "Develop practical skills in students.",
@@ -2035,7 +2022,7 @@
             breadcrum:["breadcrum.JPG"],
             image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
             overview: "The Department of Pathology combines theoretical understanding with practical laboratory expertise to study diseases, their causes, processes, and effects on the body. Through advanced diagnostic methods and academic programs, the department equips students with essential skills for disease investigation and diagnosis. To provide state-of-the-art diagnostic pathology services while achieving excellence in pathology research and education. To teach, train and equip students with the knowledge and skills required to perform and interpret diagnostic investigations. To familiarize students with recent advances in pathology. To encourage and promote research activities.",
-            procedure: [
+            objectives: [
                 "Describe structural and functional alterations in cells and tissues in various diseases.",
                 "Explain principles of diagnostic laboratory procedures and interpret results.",
                 "Perform simple bedside diagnostic tests.",
@@ -2122,7 +2109,7 @@
             breadcrum:["breadcrum.JPG"],
             image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
             overview: "The Department of Microbiology, established in 2009, is dedicated to excellence in education, diagnosis, and research in infectious diseases. It provides strong foundations in bacteriology, virology, mycology, and parasitology with emphasis on clinical correlation, laboratory diagnosis, prevention, and control. The department bridges bench-to-bedside practices and supports infection control, antimicrobial stewardship, and vaccination programs. To provide excellent diagnostic and support services to patients, community, and clinical colleagues, maintain high standards of training for medical graduates and healthcare workers, and foster an environment that empowers faculty and staff to engage in translational research and focused areas of excellence. To update knowledge through interactive platforms such as seminars, conferences, journal clubs, and academic carnivals. To undertake research and collaborate with academic, clinical, and research faculty at local, national, and international levels.",
-            procedure: [
+            objectives: [
                 "Impart knowledge and skills to undergraduate, postgraduate, nursing, and allied health science students.",
                 "Ensure postgraduate training in ICUs, Respiratory Medicine, CSSD, ICTC, Molecular Biology, Mycology, and Virology.",
                 "Participate in disease containment through notifications, awareness programs, antibiotic policies, vaccination, and biomedical waste management.",
@@ -2186,7 +2173,7 @@
             breadcrum:["breadcrum.JPG"],
             image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
             overview: "The Department of Pharmacology is committed to excellence in teaching, research, and clinical service, integrating basic pharmacological sciences with clinical applications to promote rational and evidence-based therapeutics. To be a distinguished unit in Pharmacology and therapeutics by training medicos with strong emphasis on rational drug prescription based on patient needs for prevention and treatment of diseases in the community. Advancing human health through best clinical practice with adequate knowledge for rational drug prescription. To excel in Pharmacovigilance with focus on monitoring adverse drug reactions. Emphasis on Pharmacoeconomics. Rational use of drugs in special populations such as Pediatrics, Geriatrics, Pregnancy and Nursing mothers.",
-            procedure: [
+            objectives: [
                 "Explain the general principles of pharmacology",
                 "Describe the pharmacology of drugs used in all the body systems",
                 "Explain principles of rational and essential drug therapy",
@@ -2252,7 +2239,7 @@
             breadcrum:["breadcrum.JPG"],
             image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
             overview: "The Department of Forensic Medicine & Toxicology trains undergraduate MBBS students and CRMI interns to understand medico-legal responsibilities, ethical medical practice, and forensic procedures essential for justice administration. To produce skilled and informed doctors capable of making accurate observations, deductions, and medico-legal conclusions, ensuring ethical and legally sound medical practice. To train UG students as per National Medical Commission and University guidelines. To encourage research activities in forensic medicine and toxicology. To familiarize students with recent amendments in medical law. To inculcate ethical and responsible medical practice. To equip students with the knowledge and skills required for medico-legal work.",
-            procedure: [
+            objectives: [
                 "Perform medico-legal autopsy.",
                 "Issue medico-legal certificates.",
                 "Serve as an expert witness in the court of law.",
@@ -2306,7 +2293,7 @@
             breadcrum:["breadcrum.JPG"],
             image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
             overview: "The Department of Community Medicine focuses on teaching preventive, promotive, and social aspects of health. It trains undergraduate and postgraduate students in epidemiology, public health programs, biostatistics, research methods, and community-based care with strong emphasis on field practice and primary healthcare. To provide medical education to students that is sensitive to the changing health needs of the community and health care delivery system. To focus on health care and education through community initiatives. To train the students so as to enable them to provide primary care to the community.",
-            procedure: [
+            objectives: [
                 "To enable budding doctors to understand health problems and means to tackle the same by empowering them with comprehensive and adequate epidemiological and community health skills",
                 "To expose students to family health care programme through surveys and community-based activities to ensure involvement of community as a teaching and training tool for the students",
                 "To develop and adopt innovative methods like participatory learning to achieve better learning outcomes.",
@@ -2902,11 +2889,18 @@ async function loadDoctorsFromExcel() {
             if (!doctor || !doctor["Contact Number"]) {
                 return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGG7erz9q0Rya1nPGFfbz6LVLjyU-7md7hOQ&s";
             }
+            const mobileNumbers=["6380082293","8144380594","8870006474","9159737792","9497272218","9655033677","9842445404","9944369232","7010067233","8148976948","8870180733","9159874787","9500390155","9655345050","9842657937","9944919976","7010244896","8189827034","8870182955","9245407634","9500799099","9655499228","9843049946","9952346339","7010260430","8220337943","8870449010","9344675106","9500820460","9677433895","9843771963","9952541163","7013857235","8220485344","8870764245","9344807507","9543146090","9677596700","9843778866","9962768583","7092060396","8870946952","7306889687","7598346561","7598539347","7639040777","7639801164","8270850797","7708299832","8289877020","7708422167","8989879619","7812817014","8344463828","7904679468","8344567538","9003186360","8056496100","8438103656","9003711922","9444163130","8056498997","8508553311","8056616164","8056630407","9447593754","8220691685","8220935491","8220999766","8248667938","8248937326","8300639698","8508866500","8608924684","8903475255","8903689224","8939260447","8939566146","8940025731","8973764197","9003056068","9025078494","9025918896","9047042084","9441100201","9442092653","9443026348","9443133500","9443158699","9443164535","9443241424","9443357653","9443401736","9443608911","9445972712","9447345528","9566518548","9566902040","9566945363","9597484444","9600201097","9741095649","9786497001","9787319750","9789369474","9846033791","9865637190","9894147545","9894210857","9566371859","9688141772","9843942711","9963556484","9739277039","9976115391","9976551564","9744793136","9865841473","9980839365","9566967956","9745122201","9884025784","9994013589","9573557793","9746040253","9884383428","9994020894","9578484266","9750634515","9884983543","9994098951","9578959904","9786146613","9885626669","9994264019","9585536854","9888471619","9994281928","9994667489","9994841287","9600433507","9789443655","9894440435","9994968775","9600443041","9789772227","9894489142","9995876592","9600643840","9789882729","9894593245","8056856800","8667096668","9047401406","9486643131","9600733744","9790448296","9894710019","8072572223","8072806898","8727849777","8668091952","9047441963","9047424834","9486885993","9605074185","9790486568","9894835015","9487487880","9626085208","9790585720","9894914243","8089448449","8744900567","9047488954","9487553062","9626666581","9790628434","9899936858","8095758457","8754642292","9080800019","9487590559","9626819558","9790667390","9940542276","8098810385","8754854545","9488200609","8098893437","8807502994","8098998203","8807820458","9150100693","9489477398","9095091334","9123578591","9489254765","9629186681","9629231823","9626913491","9791788778","9940774257","9840050180","9940987742","9840714789","9941734421","8110028695","8838499632","9159012345","9489567930","9629798737","9842091151","9943155175","8113090090","8838514054","9159512213","9489644074","9629881102","9842103319","9944311724","8122557996","8870001894","9159520787","9492092407","9630766309","9842434563","9944350363"];
+
+            const doctorImageMap={};
+            mobileNumbers.map((e,i)=>{
+                doctorImageMap[e]="dr"+(i+1);
+            })
+            const myImg=doctorImageMap[doctor["Contact Number"]];
 
             const ext = doctor["Contact Number"] === "9894489142" ? "jpg" : "JPG";
             const num = doctor["Contact Number"]
             return {
-                image:`https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/doctors/${num}.${ext}`,
+                image:`https://d6ayomfexqlev.cloudfront.net/doctors/${myImg}`,
                 id:doctor.id
             };
         }
@@ -2931,13 +2925,13 @@ async function loadDoctorsFromExcel() {
         function getDoctorImage(deptName, doctorName) {
             const imgPath = doctorImage(deptName, doctorName);            
             const fallback = 'assets/doctors/default.png';
-                if(imgPath!==undefined || imgPath!=''){
-                    return imgPath;
-                }
-                else{
-                    return fallback;
-                }
-            }   
+            if(imgPath!==undefined || imgPath!=''){
+                return imgPath;
+            }
+            else{
+                return fallback;
+            }
+        }   
         
         function hexToRgb(hex) {
             hex = hex.replace('#', '');
@@ -2966,9 +2960,9 @@ async function loadDoctorsFromExcel() {
                     <!-- Overview Section -->
                     <div class="section">
                         <div class="overview-card">
-                            <h2 class="section-title" style="color:${dept.colorDark}">Our Excellent Team</h2>
+                            <h2 class="section-title" style="color:${dept.colorDark}">Our Team</h2>
                             <div class="dept-overview">
-                                ${dept.displays ? `<img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${dept.name}/${dept.team}" onerror="this.onerror=null; this.src='https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Hero.jpg';" alt="">`:``}
+                                ${dept.displays ? `<img src="https://d6ayomfexqlev.cloudfront.net/images/dept_images/${dept.name}/${dept.team}" onerror="this.onerror=null; this.src='https://d6ayomfexqlev.cloudfront.net/images/Hero.jpg';" alt="">`:``}
                                 <p class="overview-text">${dept.overview}</p>
                             </div>
                         </div>
@@ -2976,13 +2970,13 @@ async function loadDoctorsFromExcel() {
 
                     <div class="section ">
                         <div class="grid-2">
-                            ${dept.procedure ? `
+                            ${dept.objectives ? `
                             <div class="info-card">
                                 <h3 class="info-card-title" style="color:${dept.colorDark}">
-                                    Objectives & Procedures
+                                    Objectives
                                 </h3>
                                 <ul class="info-list">
-                                    ${dept.procedure.map(item => `<li>${item}</li>`).join('')}
+                                    ${dept.objectives.map(item => `<li>${item}</li>`).join('')}
                                 </ul>
                             </div>
                             ` : ''}
@@ -3008,7 +3002,7 @@ async function loadDoctorsFromExcel() {
                                 ${
                                     dept.image.map((x,i) =>
                                         `<div class="infra-card">
-                                            <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${dept.name}/${x}" alt="">
+                                            <img src="https://d6ayomfexqlev.cloudfront.net/images/dept_images/${dept.name}/${x}" alt="">
                                         </div>`
                                     ).join("")
                                 }
@@ -3020,7 +3014,7 @@ async function loadDoctorsFromExcel() {
                     <!-- doctor Section -->
                     ${dept.doctor && dept.doctor.length > 0 ? `
                         <div class="section">
-                        <h2 class="section-title" style="color:${dept.colorDark}">Our Medical Team</h2>
+                        <h2 class="section-title" style="color:${dept.colorDark}">Our Doctors</h2>
                         <div class="grid-3">
                             ${dept.doctor.map(doc => `
                             <div class="doctor-card">
@@ -3109,7 +3103,7 @@ async function loadDoctorsFromExcel() {
                 rgba(${hexToRgb(dept.color)}, 0.6),
                 rgba(${hexToRgb(dept.colorDark)}, 0.6)
             ),
-            url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/${l}/${dept.breadcrum})` || `linear-gradient(to right,#0153349f,#001f20e3),url(https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/breadcrum/hospital.jpeg)`;
+            url(https://d6ayomfexqlev.cloudfront.net/images/dept_images/${l}/${dept.breadcrum})` || `linear-gradient(to right,#0153349f,#001f20e3),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/hospital.jpeg)`;
 
             
             breadcrum.style.height="70vh"

@@ -8,13 +8,7 @@
         <div class="quick-links">
           <p>
            For Any feedback
-            <a href="#"  class="quick-link featured"><i class="fa-solid fa-file"></i>Fill the form</a>
-          </p>
-        </div>
-         <div class="quick-links">
-          <p>
-           Register for Free Camps
-            <a href="#"  class="quick-link featured"><i class="fa-solid fa-file"></i>Fill the form</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK1il4i4uuIXxCIdNHI4HY4rVneNQlknsYutoDd7JjhCb9eg/viewform" target='blank'  class="quick-link featured"><i class="fa-solid fa-file"></i>Fill the form</a>
           </p>
         </div>
         <div class="quick-links">
@@ -73,11 +67,12 @@
           <a href='./Specialities.html'>Super Specialities</a>
         </div>
         <div class="milestone-stat">
-          <a href='./donor.html'>Gift of Life</a>
-        </div>
-        <div class="milestone-stat">
           <a href="./ambulance.html">Ambulance</a>
         </div>
+        <div class="milestone-stat">
+          <a href='./donor.html'>Gift of Life</a>
+        </div>
+        
       </div>
     </div>
   </div>`
@@ -105,7 +100,7 @@
     <div class="nav-wrapper">
       <a href='index.html'>
         <div class="logo">
-          <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM">
+          <img src="https://d6ayomfexqlev.cloudfront.net/images/Logo.webp" alt="SRM">
         </div>
       </a>
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
@@ -116,7 +111,7 @@
       
       <nav class="offcanvas-menu" id="offcanvasMenu">
       <div class="Offcanvas-logo logo">
-        <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM">
+        <img src="https://d6ayomfexqlev.cloudfront.net/images/Logo.webp" alt="SRM">
       </div>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -124,6 +119,7 @@
             <a href="./aboutus.html">About Us <span class="arrow dropdown-trigger">&#9654;</span></a>
             <ul class="dropdown">
               <li><a href="./aboutus.html#leadership">Leadership</a></li>
+              <li><a href="./aboutus.html#achievements">Awards & Recoginition</a></li>
               <li><a href="./aboutus.html#history">History & Timeline</a></li>
               <li class="has-submenu" data-submenu="milestones">
                 <a href="./aboutus.html#milestones">Accreditations <span class="arrow submenu-trigger">&#9654;</span></a>
@@ -179,16 +175,16 @@
                 <li><a href="./hospital_department.html">Departments</a></li>
                 <li><a href="./centerofexcellence.html">Center Of Excellence</a></li>
                 <li><a href="./outreach_community.html">Community Outreach</a></li>
-               <li class="has-submenu" data-submenu="milestones">
-                <a href="#">Healthcare Services<span class="arrow submenu-trigger">&#9654;</span></a>
-                <ul class="sub-dropdown">
-                  <li><a href="speciality_clinic.html">Speciality Clinics</a></li>
-                  <li><a href="health_education.html">Health Education</a></li>
-                  <li><a href="diagonis_technical.html">Diagnostic Services</a></li>
-                  <li><a href="preventive.html">Preventive Services</a></li>
-                  <li><a href="promotive.html">Promotive Services</a></li>
+                <li class="has-submenu" data-submenu="milestones">
+                  <a href="#">Healthcare Services<span class="arrow submenu-trigger">&#9654;</span></a>
+                  <ul class="sub-dropdown">
+                    <li><a href="speciality_clinic.html">Speciality Clinics</a></li>
+                    <li><a href="health_education.html">Health Education</a></li>
+                    <li><a href="diagonis_technical.html">Diagnostic Services</a></li>
+                    <li><a href="preventive.html">Preventive Services</a></li>
+                    <li><a href="promotive.html">Promotive Services</a></li>
                   </ul>
-                  </li>
+                </li>
                 
               <li class="has-submenu" data-submenu="milestones">
                 <a href="#">Patient Support Services<span class="arrow submenu-trigger">&#9654;</span></a> 
@@ -206,20 +202,32 @@
               
             </ul>
           </li>
-           
-          <li class="has-dropdown" data-dropdown="research">
-            <a href="research.html">Research & Innovation <span class="arrow dropdown-trigger">&#9654;</span></a>
+
+          <li class="has-dropdown" data-dropdown="academics">
+            <a href="./research.html">Research & Innovation <span class="arrow dropdown-trigger">&#9654;</span></a>
             <ul class="dropdown">
-              <li><a href="IRPC.html">IRPC</a></li>
-              <li><a href="IRPC.html#IRPC-Projects">Projects</a></li>
-              <li><a href="IRPC.html#IRPC-Collabration">Collabrations</a></li>
-              <li><a href="IRPC.html#IRPC-Board">Board</a></li>
+              
+              <li><a href="./research.html">Research</a></li>
+
+              <li class="has-submenu" data-submenu="courses">
+                <a href="./IRPC.html">IRPC<span class="arrow submenu-trigger">&#9654;</span></a>
+                <ul class="sub-dropdown">
+                  <li><a href="IRPC.html#IRPC-Projects">Projects</a></li>
+                  <li><a href="IRPC.html#IRPC-Collabration">Collabrations</a></li>
+                  <li><a href="IRPC.html#IRPC-Board">Board</a></li>
+                </ul>
+              </li>
+              
+             
+              
             </ul>
           </li>
+           
+         
           <li><a href="contact.html">Contact</a></li>
-          <li ><a href="iqac.html" style="background-color:var(--color-secondary) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
           <li><a href="nmc.html" class="nmc-nav nmc-nav1">NMC</a></li>
-          <li><a href="virtual_tour.html" target="_blank" class="nmc-nav nmc-nav2" title='Trichy SRM Medical College Campus Tour'><img src='https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/360.png' style='width:21px'></a></li>
+          <li ><a href="iqac.html" style="background-color:var(--color-orange) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
+         
            <li class="has-dropdown" data-dropdown="research">
             <a href="#" style="background-color:var(--color-accent) !important;" class="nmc-nav nmc-nav2"><i class="fa-solid fa-circle-info"></i> Information for <span class="arrow dropdown-trigger"  >&#9654;</span></a>
             <ul class="dropdown">
@@ -274,9 +282,9 @@
           <div class='content-box' id='content1'>
             <div class='content' id='emgWord'  translate="no">
             </div>
-            <div class='content2' translate="no">
-              <p>Trichy <br><a href='tel:654387654' data-wg-notranslate><i class='fa fa-phone'></i> 9876543876</a></p>
-              <p>Ramapuram <br><a href='tel:654387654' data-wg-notranslate><i class='fa fa-phone'></i> 9876543876</a></p>
+            <div class='content2'>
+              <p>Book an Appointment <br><a href='tel:0431-225 5555' data-wg-notranslate><i class='fa fa-phone'></i> 0431-225 5555</a></p>
+              <p>Ambulance <br><a href='tel:1800 123 108 108' data-wg-notranslate><i class='fa fa-phone'></i> 1800 123 108 108</a></p>
             </div>
             
           <div>
@@ -288,7 +296,7 @@
     const footer = `<div class="footer-container">
             <div class="footer-about">
                  <div class="logo footer-logo">
-                    <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM Logo">
+                    <img src="https://d6ayomfexqlev.cloudfront.net/images/Logo.webp" alt="SRM Logo">
                 </div>
                 <p>Trichy SRM Medical College Hospital & Research Centre, <br>SRM Nagar, Trichy - Chennai Highway, Irungalur Village, Tiruchirapalli - 621105 Tamil Nadu, India</p>
                 <div class="social-icons">
@@ -302,19 +310,19 @@
             <div class="footer-section">
                 <h4 class="footer-title">Quick Links</h4>
                 <ul class="footer-links">
-                    <li><a href="./index.html">Home</a></li>
                     <li><a href="./aboutus.html">About Us</a></li>
-                    <li><a href="./pre-clinical.html">Departments</a></li>
+                    <li><a href="./academic_department.html">Departments</a></li>
                     <li><a href="./research.html">Research</a></li>
                     <li><a href="./media.html">News & Events</a></li>
+                    <li><a href="./career.html">Career</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4 class="footer-title">Contact Us</h4>
                 <ul class="footer-links">
                     <li><i class="fas fa-map-marker-alt"></i> Trichy, Tamil Nadu</li>
-                    <li><i class="fas fa-phone"></i> +91 431 2345678</li>
-                    <li><i class="fas fa-envelope"></i> info@srmmedical.edu.in</li>
+                    <li><i class="fas fa-phone"></i> 0431-2258956</li>
+                    <li><i class="fas fa-envelope"></i> dean@mc.srmtrichy.edu.in</li>
                     <li><i class="fas fa-clock"></i> Mon - Sat: 9AM - 6PM</li>
                 </ul>
             </div>

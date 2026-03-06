@@ -43,7 +43,7 @@
     <div class="nav-wrapper">
       <a href='index.html'>
         <div class="logo">
-          <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM">
+          <img src="https://d6ayomfexqlev.cloudfront.net/images/Logo.webp" alt="SRM">
         </div>
       </a>
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
@@ -53,7 +53,7 @@
       </button>
       <nav class="offcanvas-menu" id="offcanvasMenu">
       <div class="Offcanvas-logo logo">
-        <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/Logo.webp" alt="SRM">
+        <img src="https://d6ayomfexqlev.cloudfront.net/images/Logo.webp" alt="SRM">
       </div>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -86,8 +86,8 @@
                 </ul>
               </li>
               <li><a href="./programsandcourse.html">Programs & Course Outcomes</a></li>
-              <li class='pdf'><a href="https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Medical+Graduate+Attributes.pdf" target='_blank'>Medical Graduate Attributes</a><img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/pdficon.png" alt="" width="20px" ></li>
-              <li class='pdf'><a href="https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/UPDATE-Committee-11.10.25.pdf" target='_blank'>Committee</a><img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/pdficon.png" alt="" width="20px" ></li>
+              <li class='pdf'><a href="https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Medical+Graduate+Attributes.pdf" target='_blank'>Medical Graduate Attributes</a><img src="https://d6ayomfexqlev.cloudfront.net/images/pdficon.png" alt="" width="20px" ></li>
+              <li class='pdf'><a href="https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/UPDATE-Committee-11.10.25.pdf" target='_blank'>Committee</a><img src="https://d6ayomfexqlev.cloudfront.net/images/pdficon.png" alt="" width="20px" ></li>
               <li class='pdf'><a href="./biethics.html">Bio Ethics</a></li>
               <li class="has-submenu" data-dropdown="departments">
                 <a href="#">Departments <span class="arrow dropdown-trigger">&#9654;</span></a>

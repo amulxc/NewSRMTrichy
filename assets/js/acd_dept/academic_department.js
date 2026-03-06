@@ -2,6 +2,130 @@
         // Department data with comprehensive information
         const depts = [
             {
+                id: "Anaesthesia", 
+                name: "Anaesthesia", 
+                icon: `<i class="material-symbols-outlined">masks</i>`, 
+                color: "#26c6da", 
+                colorDark: "#00acc1",
+                "desc": "The Department of Anaesthesiology provides comprehensive perioperative care including general and regional anaesthesia, critical care, pain management and resuscitation services, ensuring patient safety and quality healthcare delivery.",
+
+                "vision":"To create a competent and socially responsible healthcare system by strengthening and sustaining medical knowledge, altruistic service and progressive research.To create highly competitive and skilled medical professionals.",
+
+                "mission": "To impart the best medical education through state-of-the-art teaching and training methodologies, promote self-learning with ethical medical practice, and provide affordable, high-quality healthcare using updated technology and collaborative research.",
+
+                "objectives": [
+                    "Perform cardio-pulmonary resuscitation with available resources and transfer patients for advanced life support.",
+                    "Set up and manage intravenous infusions.",
+                    "Clear and maintain airway in unconscious patients.",
+                    "Administer oxygen correctly.",
+                    "Perform simple nerve blocks.",
+                    "Demonstrate awareness of principles of general and local anaesthetics."
+                ],
+
+                "infra_desc": "The department is well-equipped with modern teaching, clinical and research infrastructure to support academic excellence and patient care.",
+                "infra": [
+                    "Lecture hall with projector",
+                    "Demo hall with LED TV",
+                    "Museum with scientific charts and equipment",
+                    "Department library with books and journals",
+                    "Research laboratory (1)",
+                    "14 fully functional operation theatres"
+                ],
+
+                "faculty": [
+                    { "name": "Dr Vijay Kanna M M", "designation": "Professor & HOD"},
+                    { "name": "Dr Arunachala D Edukondalu", "designation": "Professor"},
+                    { "name": "Dr Jothi N", "designation": "Professor"},
+                    { "name": "Dr Balasubramanian S", "designation": "Professor"},
+                    { "name": "Dr Kirubahar R", "designation": "Professor"},
+                    { "name": "Dr Selvaraj N", "designation": "Associate Professor"},
+                    { "name": "Dr Sundari B", "designation": "Associate Professor"},
+                    { "name": "Dr Kavin Kumar S", "designation": "Associate Professor"},
+                    { "name": "Dr Gnana Sekar R", "designation": "Associate Professor"},
+                    { "name": "Dr Aishwarya S", "designation": "Associate Professor"},
+                    { "name": "Dr Noor Fazrina S", "designation": "Assistant Professor"},
+                    { "name": "Dr Kavitha M", "designation": "Assistant Professor"},
+                    { "name": "Dr Siva Prakash V", "designation": "Assistant Professor"},
+                    { "name": "Dr Keerthana P", "designation": "Assistant Professor"},
+                    { "name": "Dr Sethupathi J", "designation": "Assistant Professor"},
+                    { "name": "Dr Mahesh Kumar S", "designation": "Assistant Professor"},
+                    { "name": "Dr Madhavan P", "designation": "Senior Resident"},
+                    { "name": "Dr Uma M", "designation": "Senior Resident"},
+                    { "name": "Dr Meenakshi P", "designation": "Senior Resident"},
+                    { "name": "Dr Nancy Prasanna V", "designation": "Senior Resident"},
+                    { "name": "Dr Karthikeyan P", "designation": "Senior Resident"},
+                    { "name": "Dr Yazhini V", "designation": "Senior Resident"},
+                    { "name": "Dr Sivaram M", "designation": "Senior Resident"},
+                    { "name": "Dr Santhosh RV", "designation": "Senior Resident" }
+                ],
+
+                "services_desc": "The department delivers comprehensive anaesthesia, critical care and pain management services across operating theatres, ICUs and diagnostic areas.",
+                "services": [
+                    "General and regional anaesthesia",
+                    "Ultrasound-guided nerve and plane blocks",
+                    "Difficult airway management using fibre-optic bronchoscopy and video laryngoscopy",
+                    "Point-of-care ultrasonography in ICU",
+                    "Ventilator support and critical care management",
+                    "Pain and palliative care services",
+                    "Labour analgesia",
+                    "Anaesthesia services for CT, MRI, ECT and mobile ICU",
+                    "Renal transplant and organ retrieval programmes",
+                    "Code Blue resuscitation services"
+                ],
+
+                "publication_overview": "Faculty members actively publish research in national and international journals contributing to advancements in anaesthesia and critical care.",
+                "pubStats": [
+                    { "label": "Overall", "value": "18" },
+                    { "label": "International", "value": "17" },
+                    { "label": "National", "value": "1" }
+                ],
+
+                "pubYearwise": [
+                    { "year": "2024", "title": "Comparison of Rocuronium with Succinylcholine for elective intubation in ENT surgeries.", "journal": "Xidian University", "type": "International" },
+                    { "year": "2024", "title": "Intravenous Dexmedetomidine vs Propofol for intraoperative moderate sedation during spinal anesthesia.", "journal": "Xidian University", "type": "International" },
+                    { "year": "2024", "title": "Comparison of prophylactic intravenous Butorphanol and Clonidine for preventing intraoperative shivering after neuraxial anesthesia.", "journal": "Xidian University", "type": "International" },
+                    { "year": "2025", "title": "Comparative study of 0.25% Bupivacaine and 0.375% Ropivacaine in transversus abdominis plane block for postoperative analgesia.", "journal": "Xidian University", "type": "International" },
+                    { "year": "2025", "title": "Comparison of fibreoptic guided endotracheal intubation versus video laryngoscope in difficult airway cases.", "journal": "Xidian University", "type": "International" }
+                ],
+
+                "research_desc": "The department undertakes extensive clinical research focusing on anaesthesia techniques, pain management, critical care and patient safety.",
+                "research": [
+                    "Ultrasound-assisted epidural anaesthesia studies",
+                    "Adjuvants in regional and spinal anaesthesia",
+                    "Postoperative analgesia techniques",
+                    "Opioid-free anaesthesia protocols",
+                    "Airway management innovations",
+                    "Cost-effective and green anaesthesia practices"
+                ],
+
+                "events_desc": "The department regularly conducts academic programmes and continuing medical education activities.",
+                "events": [
+                    "CME – SAME VIVA 2024",
+                    "CME – ETHER Day Celebration 2025"
+                ],
+
+                "achievements_desc": "Major milestones and recognitions achieved by the department.",
+                "achievements": [
+                    "First Liver Transplant at Trichy SRM Medical College",
+                    "Dr M.M. Vijay Kanna – Indian Critical Care Council Member"
+                ],
+
+                "gallery": [
+                    {
+                    "name": "SAME – VIVA",
+                    "event": "Anaesthesiology Department",
+                    "path": "Anaesthesia/1.jpg",
+                    "date": "11 Oct 2024"
+                    },
+                    {
+                    "name": "SAME – ETHER Day Celebration",
+                    "event": "Anaesthesiology Department",
+                    "path": "Anaesthesia/2.jpg",
+                    "date": "11 Oct 2025"
+                    }
+                ]
+            },
+            {
                 "id": "anatomy",
                 "name": "Anatomy",
                 "icon": "fa-person", 
@@ -1798,7 +1922,7 @@
                 ]
             },
             {
-                id: "Neurology", name: "Neurology", icon: `<i class="fas fa-brain"></i>`, color: "#27ae60", colorDark: "#229954",
+                id: "Neurology", name: "Neurology", icon: `<i class="fas fa-brain"></i>`, color: "#277cae", colorDark: "#6dbfee",
                 desc: "The Department of Neurology offers complete diagnosis and treatment of disorders affecting the brain, spinal cord, nerves, and muscles with evidence-based care supported by neuroimaging and neurophysiology services. Our focus is patient-centred care with a commitment to c8linical excellence.",
                 vision:"To be a centre of excellence in neurological care and services through clinical expertise, advanced technology, and continuous academic growth.",
                 mission:"To develop the Department of Neurology into a leading tertiary care institute and research centre.",
@@ -1830,19 +1954,42 @@
             {
                 id: "Nephrology", name: "Nephrology", icon: `<i class="material-symbols-outlined">nephrology</i>`, color: "#ff9800", colorDark: "#f57c00",
                 desc: "Comprehensive child healthcare with NICU and PICU facilities.",
-                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-                services: ["General Pediatrics", "Neonatology", "PICU", "Immunization", "Growth Monitoring"],
-                pubStats: [{label: "Publications", value: "24+"}],
-                pubHighlights: ["Neonatal care"],
-                pubYearwise: [{year: "2023", title: "Neonatal protocols", journal: "Pediatrics", type: "Research"}],
-                research: ["Neonatal outcomes"],
-                events: ["Children's Day"],
-                achievements: ["Best NICU"],
-                gallery: [{name: "NICU", icon: "fa-baby", event: "NICU Setup", date: "Jan 2024"}]
+                vision:"To be a center of excellence in nephrology by delivering comprehensive, ethical, and patient-centric renal care, advancing medical education and research, and improving community kidney health through multidisciplinary collaboration.",
+                mission:"<li>To provide comprehensive renal services including prevention, early detection, accurate diagnosis, dialysis, and effective management of acute and chronic kidney diseases.</li><li>To deliver safe, ethical, evidence-based, and high-quality patient care with a strong focus on patient safety and quality assurance.</li><li>To support undergraduate and postgraduate medical education in accordance with National Medical Commission (NMC) guidelines.</li><li>To promote clinical research and academic activities to advance renal science and improve patient outcomes.</li><li>To conduct community outreach programs for early detection and prevention of kidney disorders.</li>",
+                objectives:[ 
+                    "To provide specialized care for patients with acute and chronic kidney diseases, including dialysis and renal transplantation services.",
+                    "To ensure early diagnosis, prevention, and optimal management of kidney disorders through evidence-based practices.",
+                    "To deliver high-quality renal replacement therapy, including hemodialysis and post-transplant care.",
+                    "To enhance academic excellence by training undergraduate and postgraduate students in nephrology.",
+                    "To encourage research initiatives that contribute to advancements in nephrology practice.",
+                    "To collaborate with allied specialties to provide holistic and multidisciplinary patient care."
+                ],
+                infra: [
+                    "Hemodialysis Units",
+                    "Maintenance Dialysis",
+                    "Emergency Dialysis",
+                    "Transplant ICU",
+                    "Post-Transplant Ward",
+                    "AKI Management",
+                    "CKD Care",
+                    "Renal Replacement Therapy",
+                    "Transplant Services",
+                    "Teaching Facilities",
+                    "Research Facilities"
+                ],
+                faculty: [ {name: "Dr. Rajesh, MD, DM", designation: "Senior Consultant"},
+                {name: "Dr. Ganesh Aravind, MD, DM, DNB", designation: "Consultant"},
+                {name: "Dr. Sathyasagar, MD, DM", designation: "Consultant"},
+                {name: "Dr.Niruban.I ,MBBS", designation: "Junior Resident "},
+                {name: "Dr.Ramya.R,MBBS", designation: "Junior Resident "}],
+                services: [
+                    "Evaluation and management of acute and chronic kidney diseases", 
+                    "Hemodialysis and CAPD services", 
+                    "Performance and interpretation of renal biopsies", 
+                    "Pre- and post-operative care of renal transplant patients", 
+                    "Management of dialysis access and related complications",
+                    "Renal emergency services","Long-term follow-up, patient education, and preventive nephrology care"
+                ],
             },
             {
                 id: "Medical Oncology", name: "Medical Oncology", icon: `<i class="material-symbols-outlined">oncology</i>`, color: "#e74c3c", colorDark: "#c0392b",      
@@ -2872,7 +3019,7 @@
                 ],
             },
              {
-                "id": "generalsurgery",
+                "id": "General Surgery",
                 "name": "General Surgery",
                 "icon": "fa-user-md",
                 "color": "#4caf50",
@@ -3805,130 +3952,7 @@
                     }
                 ]
             },
-            {
-                id: "Anaesthesia", 
-                name: "Anaesthesia", 
-                icon: `<i class="material-symbols-outlined">masks</i>`, 
-                color: "#26c6da", 
-                colorDark: "#00acc1",
-                "desc": "The Department of Anaesthesiology provides comprehensive perioperative care including general and regional anaesthesia, critical care, pain management and resuscitation services, ensuring patient safety and quality healthcare delivery.",
-
-                "vision":"To create a competent and socially responsible healthcare system by strengthening and sustaining medical knowledge, altruistic service and progressive research.To create highly competitive and skilled medical professionals.",
-
-                "mission": "To impart the best medical education through state-of-the-art teaching and training methodologies, promote self-learning with ethical medical practice, and provide affordable, high-quality healthcare using updated technology and collaborative research.",
-
-                "objectives": [
-                    "Perform cardio-pulmonary resuscitation with available resources and transfer patients for advanced life support.",
-                    "Set up and manage intravenous infusions.",
-                    "Clear and maintain airway in unconscious patients.",
-                    "Administer oxygen correctly.",
-                    "Perform simple nerve blocks.",
-                    "Demonstrate awareness of principles of general and local anaesthetics."
-                ],
-
-                "infra_desc": "The department is well-equipped with modern teaching, clinical and research infrastructure to support academic excellence and patient care.",
-                "infra": [
-                    "Lecture hall with projector",
-                    "Demo hall with LED TV",
-                    "Museum with scientific charts and equipment",
-                    "Department library with books and journals",
-                    "Research laboratory (1)",
-                    "14 fully functional operation theatres"
-                ],
-
-                "faculty": [
-                    { "name": "Dr Vijay Kanna M M", "designation": "Professor & HOD"},
-                    { "name": "Dr Arunachala D Edukondalu", "designation": "Professor"},
-                    { "name": "Dr Jothi N", "designation": "Professor"},
-                    { "name": "Dr Balasubramanian S", "designation": "Professor"},
-                    { "name": "Dr Kirubahar R", "designation": "Professor"},
-                    { "name": "Dr Selvaraj N", "designation": "Associate Professor"},
-                    { "name": "Dr Sundari B", "designation": "Associate Professor"},
-                    { "name": "Dr Kavin Kumar S", "designation": "Associate Professor"},
-                    { "name": "Dr Gnana Sekar R", "designation": "Associate Professor"},
-                    { "name": "Dr Aishwarya S", "designation": "Associate Professor"},
-                    { "name": "Dr Noor Fazrina S", "designation": "Assistant Professor"},
-                    { "name": "Dr Kavitha M", "designation": "Assistant Professor"},
-                    { "name": "Dr Siva Prakash V", "designation": "Assistant Professor"},
-                    { "name": "Dr Keerthana P", "designation": "Assistant Professor"},
-                    { "name": "Dr Sethupathi J", "designation": "Assistant Professor"},
-                    { "name": "Dr Mahesh Kumar S", "designation": "Assistant Professor"},
-                    { "name": "Dr Madhavan P", "designation": "Senior Resident"},
-                    { "name": "Dr Uma M", "designation": "Senior Resident"},
-                    { "name": "Dr Meenakshi P", "designation": "Senior Resident"},
-                    { "name": "Dr Nancy Prasanna V", "designation": "Senior Resident"},
-                    { "name": "Dr Karthikeyan P", "designation": "Senior Resident"},
-                    { "name": "Dr Yazhini V", "designation": "Senior Resident"},
-                    { "name": "Dr Sivaram M", "designation": "Senior Resident"},
-                    { "name": "Dr Santhosh RV", "designation": "Senior Resident" }
-                ],
-
-                "services_desc": "The department delivers comprehensive anaesthesia, critical care and pain management services across operating theatres, ICUs and diagnostic areas.",
-                "services": [
-                    "General and regional anaesthesia",
-                    "Ultrasound-guided nerve and plane blocks",
-                    "Difficult airway management using fibre-optic bronchoscopy and video laryngoscopy",
-                    "Point-of-care ultrasonography in ICU",
-                    "Ventilator support and critical care management",
-                    "Pain and palliative care services",
-                    "Labour analgesia",
-                    "Anaesthesia services for CT, MRI, ECT and mobile ICU",
-                    "Renal transplant and organ retrieval programmes",
-                    "Code Blue resuscitation services"
-                ],
-
-                "publication_overview": "Faculty members actively publish research in national and international journals contributing to advancements in anaesthesia and critical care.",
-                "pubStats": [
-                    { "label": "Overall", "value": "18" },
-                    { "label": "International", "value": "17" },
-                    { "label": "National", "value": "1" }
-                ],
-
-                "pubYearwise": [
-                    { "year": "2024", "title": "Comparison of Rocuronium with Succinylcholine for elective intubation in ENT surgeries.", "journal": "Xidian University", "type": "International" },
-                    { "year": "2024", "title": "Intravenous Dexmedetomidine vs Propofol for intraoperative moderate sedation during spinal anesthesia.", "journal": "Xidian University", "type": "International" },
-                    { "year": "2024", "title": "Comparison of prophylactic intravenous Butorphanol and Clonidine for preventing intraoperative shivering after neuraxial anesthesia.", "journal": "Xidian University", "type": "International" },
-                    { "year": "2025", "title": "Comparative study of 0.25% Bupivacaine and 0.375% Ropivacaine in transversus abdominis plane block for postoperative analgesia.", "journal": "Xidian University", "type": "International" },
-                    { "year": "2025", "title": "Comparison of fibreoptic guided endotracheal intubation versus video laryngoscope in difficult airway cases.", "journal": "Xidian University", "type": "International" }
-                ],
-
-                "research_desc": "The department undertakes extensive clinical research focusing on anaesthesia techniques, pain management, critical care and patient safety.",
-                "research": [
-                    "Ultrasound-assisted epidural anaesthesia studies",
-                    "Adjuvants in regional and spinal anaesthesia",
-                    "Postoperative analgesia techniques",
-                    "Opioid-free anaesthesia protocols",
-                    "Airway management innovations",
-                    "Cost-effective and green anaesthesia practices"
-                ],
-
-                "events_desc": "The department regularly conducts academic programmes and continuing medical education activities.",
-                "events": [
-                    "CME – SAME VIVA 2024",
-                    "CME – ETHER Day Celebration 2025"
-                ],
-
-                "achievements_desc": "Major milestones and recognitions achieved by the department.",
-                "achievements": [
-                    "First Liver Transplant at Trichy SRM Medical College Hospital and Research Centre",
-                    "Dr M.M. Vijay Kanna – Indian Critical Care Council Member"
-                ],
-
-                "gallery": [
-                    {
-                    "name": "SAME – VIVA",
-                    "event": "Anaesthesiology Department",
-                    "path": "Anaesthesia/1.jpg",
-                    "date": "11 Oct 2024"
-                    },
-                    {
-                    "name": "SAME – ETHER Day Celebration",
-                    "event": "Anaesthesiology Department",
-                    "path": "Anaesthesia/2.jpg",
-                    "date": "11 Oct 2025"
-                    }
-                ]
-            },
+            
             {
                 id: "Radio Diagnosis",
                 name: "Radio Diagnosis",
@@ -4296,23 +4320,23 @@
                     {name: "Laser Unit", icon: "fa-bolt", event: "Laser Therapy Center", date: "Feb 14, 2024"}
                 ]
             },
-            {
-                id: "Surgical Gastroenterology", name: "Surgical Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
-                desc: "Comprehensive mental health services with counseling and therapy.",
-                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-                services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
-                pubStats: [{label: "Publications", value: "20+"}],
-                pubHighlights: ["Depression management"],
-                pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
-                research: ["Mental health awareness", "Addiction treatment"],
-                events: ["World Mental Health Day"],
-                achievements: ["Excellence in Mental Health"],
-                gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
-            },
+            // {
+            //     id: "Surgical Gastroenterology", name: "Surgical Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
+            //     desc: "Comprehensive mental health services with counseling and therapy.",
+            //     vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+            //     mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+            //     objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
+            //     infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
+            //     faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
+            //     services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
+            //     pubStats: [{label: "Publications", value: "20+"}],
+            //     pubHighlights: ["Depression management"],
+            //     pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
+            //     research: ["Mental health awareness", "Addiction treatment"],
+            //     events: ["World Mental Health Day"],
+            //     achievements: ["Excellence in Mental Health"],
+            //     gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
+            // },
               {
                 id: "Plastic and Reconstructive Surgery", name: "Plastic and Reconstructive Surgery", icon: `<i class="fas fa-user-alt"></i>`, color: "#e74c3c", colorDark: "#c0392b",
                 "desc": "The Department of Plastic and Reconstructive Surgery provides comprehensive curative, reconstructive, aesthetic and trauma-related surgical care. The unit is dedicated to evidence-based clinical practice, advanced surgical interventions, and academic excellence.",
@@ -4781,7 +4805,9 @@
                                 <br><br>
                                 <h4>Objectives</h4>
                                 <br>
-                                <ul>${d.objectives.map(f => `<li>${f}</li>`).join('')}</ul>
+                                ${d.objectives ? `${
+                                    d.objectives.map(f => `<li>${f}</li>`).join('')
+                                }`:''}
                             </div>
                         </div>
                     </div>
@@ -4974,7 +5000,7 @@
                                     ${d.gallery.map(img => `
                                         <div class="gallery-item">
                                             <div class="gallery-placeholder">
-                                                <img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/gallery/${img.path}" alt='Not Given'>
+                                                <img src="https://d6ayomfexqlev.cloudfront.net/images/gallery/${img.path}" alt='Not Given'>
                                             </div>
                                             <div class="gallery-overlay">
                                                 <div class="gallery-overlay-title">${img.name}</div>

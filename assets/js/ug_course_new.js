@@ -4,7 +4,7 @@ const departmentData = {
     name: "Anatomy",
     phase: "Phase-1",
     curriculum: "Gross anatomy, embryology, histology with cadaveric dissection and practical sessions.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Morning dissection, afternoon demonstrations and tutorials.",
     calendar: "Internal assessments, dissection completion and university exams."
   },
@@ -12,7 +12,7 @@ const departmentData = {
     name: "Physiology",
     phase: "Phase-1",
     curriculum: "Cell physiology, cardiovascular, respiratory, neurophysiology and hematology.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Theory lectures with experimental physiology labs.",
     calendar: "Practical exams, revision weeks and formative assessments."
   },
@@ -20,7 +20,7 @@ const departmentData = {
     name: "Biochemistry",
     phase: "Phase-1",
     curriculum: "Metabolism, enzymes, molecular biology and nutrition.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Integrated lectures with clinical correlation sessions.",
     calendar: "Block exams, viva and final professional exam."
   },
@@ -28,7 +28,7 @@ const departmentData = {
     name: "Community Medicine",
     phase: "Phase-1",
     curriculum: "Public health basics, epidemiology and biostatistics.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Classroom teaching with field exposure.",
     calendar: "Field visits, surveys and assessment schedules."
   },
@@ -36,7 +36,7 @@ const departmentData = {
     name: "Pathology",
     phase: "Phase-2",
     curriculum: "General pathology, systemic pathology and hematology.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Microscopy labs and case-based discussions.",
     calendar: "Slide exams, internal assessments and university exams."
   },
@@ -44,7 +44,7 @@ const departmentData = {
     name: "Pharmacology",
     phase: "Phase-2",
     curriculum: "Drug mechanisms, therapeutic uses and adverse effects.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Problem-based learning and prescription writing.",
     calendar: "Continuous assessment and final theory exams."
   },
@@ -52,7 +52,7 @@ const departmentData = {
     name: "Microbiology",
     phase: "Phase-2",
     curriculum: "Bacteriology, virology, parasitology and immunology.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Lab diagnostics and culture techniques.",
     calendar: "Practical exams and theory assessments."
   },
@@ -60,7 +60,7 @@ const departmentData = {
     name: "Forensic Medicine",
     phase: "Phase-2",
     curriculum: "Medical jurisprudence, toxicology and legal medicine.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Postmortem demonstrations and lectures.",
     calendar: "Court visit schedules and examinations."
   },
@@ -68,7 +68,7 @@ const departmentData = {
     name: "General Medicine",
     phase: "Phase-3 Part-1",
     curriculum: "Clinical diagnosis, internal medicine and patient care.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Ward rounds, OPD postings and seminars.",
     calendar: "Clinical postings, exams and internship preparation."
   },
@@ -76,7 +76,7 @@ const departmentData = {
     name: "General Surgery",
     phase: "Phase-3 Part-1",
     curriculum: "Surgical principles, operative procedures and trauma care.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "OT exposure, ward duties and case presentations.",
     calendar: "Clinical exams and posting rotations."
   },
@@ -84,7 +84,7 @@ const departmentData = {
     name: "Paediatrics",
     phase: "Phase-3 Part-1",
     curriculum: "Child health, growth, development and neonatal care.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "NICU exposure, OPD and ward teaching.",
     calendar: "Case logs, assessments and exams."
   },
@@ -92,7 +92,7 @@ const departmentData = {
     name: "Obstetrics & Gynaecology",
     phase: "Phase-3 Part-1",
     curriculum: "Pregnancy, labour, gynecological disorders and surgery.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Labour ward postings and OT exposure.",
     calendar: "Clinical exams and internship schedule."
   },
@@ -101,7 +101,7 @@ const departmentData = {
     name: "Community Medicine",
     phase: "Phase-3 Part-2",
     curriculum: "Public health basics, epidemiology and biostatistics.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Classroom teaching with field exposure.",
     calendar: "Field visits, surveys and assessment schedules."
   },
@@ -110,7 +110,7 @@ const departmentData = {
     name: "Orthopaedics",
     phase: "Phase-3 Part-2",
     curriculum: "General pathology, systemic pathology and hematology.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Microscopy labs and case-based discussions.",
     calendar: "Slide exams, internal assessments and university exams."
   },
@@ -118,7 +118,7 @@ const departmentData = {
     name: "Ophthalmology",
     phase: "Phase-3 Part-2",
     curriculum: "Drug mechanisms, therapeutic uses and adverse effects.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Problem-based learning and prescription writing.",
     calendar: "Continuous assessment and final theory exams."
   },
@@ -126,7 +126,7 @@ const departmentData = {
     name: "Dermatology, Venereology & Leprosy",
     phase: "Phase-3 Part-2",
     curriculum: "Medical jurisprudence, toxicology and legal medicine.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Postmortem demonstrations and lectures.",
     calendar: "Court visit schedules and examinations."
   },
@@ -134,7 +134,7 @@ const departmentData = {
     name: "Psychiatry",
     phase: "Phase-3 Part-2",
     curriculum: "General pathology, systemic pathology and hematology.",
-    view_pdf:"https://docs.google.com/gview?url=https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/pdf/Course/UG_Course",
+    view_pdf:"https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course",
     timetable: "Microscopy labs and case-based discussions.",
     calendar: "Slide exams, internal assessments and university exams."
   }

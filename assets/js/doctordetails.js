@@ -32,8 +32,8 @@ function loadDoctorData() {
     // Profile Image
     const profileImg = document.getElementById('profileImage');
     const contact = doctorData["Contact Number"];
-    const imgPathLower = `https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/doctors/${contact}.jpg`;
-    const imgPathUpper = `https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/doctors/${contact}.JPG`;
+    const imgPathLower = `https://d6ayomfexqlev.cloudfront.net/images/doctors/${contact}.jpg`;
+    const imgPathUpper = `https://d6ayomfexqlev.cloudfront.net/images/doctors/${contact}.JPG`;
 
     const tempImg = new Image();
 

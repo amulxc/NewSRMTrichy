@@ -140,7 +140,7 @@
 
             const InfraContent = bioEthicsData.Infra
                 .map(item => {
-                    return `<div><img src="https://srmtrichy-large-files.s3.eu-north-1.amazonaws.com/images/dept_images/Pysiotherapy/${item}.JPG" alt="Infra ${item}"></div>`;
+                    return `<div><img src="https://d6ayomfexqlev.cloudfront.net/images/dept_images/Pysiotherapy/${item}.JPG" alt="Infra ${item}"></div>`;
                 })
                 .join("");
 
