@@ -671,7 +671,7 @@
     .milestone-stats1 .milestone-stat{
       padding:7px 0;
       border-left:1px solid #ffffff!important;
-      background:var(--color-secondary);
+      background:var(--color-primary);
     }
 
     .milestone-stats1 .milestone-stat:nth-child(1){
