@@ -100,7 +100,7 @@
     <div class="nav-wrapper">
       <a href='index.html'>
         <div class="logo">
-          <img src="https://d6ayomfexqlev.cloudfront.net/images/Logo.webp" alt="SRM">
+          <img src="https://d6ayomfexqlev.cloudfront.net/images/logo.png" alt="SRM">
         </div>
       </a>
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
@@ -132,6 +132,14 @@
               </li>
               <li><a href="./aboutus.html#alumini">Alumini Feedback</a></li>
               <li><a href="./Others.html">Statutory Compliance</a></li>
+              <li class="has-submenu" data-submenu="media">
+                <a href="./media.html">Media & OutReach <span class="arrow submenu-trigger">&#9654;</span></a>
+                <ul class="sub-dropdown">
+                  <li><a href="./media.html#news">News & Events</a></li>
+                  <li><a href="./media.html#gallery">Gallery</a></li>
+                  <li><a href="./videogallery.html">Video Gallery</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
           <li class="has-dropdown" data-dropdown="academics">
@@ -159,14 +167,7 @@
               </ul>
               </li>  
               <li><a href="./meuandcc.html">MEU</a></li>
-              <li class="has-submenu" data-submenu="media">
-                <a href="./media.html">Media & OutReach <span class="arrow submenu-trigger">&#9654;</span></a>
-                <ul class="sub-dropdown">
-                  <li><a href="./media.html#news">News & Events</a></li>
-                  <li><a href="./media.html#gallery">Gallery</a></li>
-                  <li><a href="./videogallery.html">Video Gallery</a></li>
-                </ul>
-              </li>
+              
               </ul>
               </li>
               <li class="has-dropdown" data-dropdown="hospital">
@@ -226,7 +227,7 @@
          
           <li><a href="contact.html">Contact</a></li>
           <li><a href="nmc.html" class="nmc-nav nmc-nav1">NMC</a></li>
-          <li ><a href="iqac.html" style="background-color:var(--color-orange) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
+          <li ><a href="underconstruction.html" style="background-color:var(--color-orange) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
          
            <li class="has-dropdown" data-dropdown="research">
             <a href="#" style="background-color:var(--color-accent) !important;" class="nmc-nav nmc-nav2"><i class="fa-solid fa-circle-info"></i> Information for <span class="arrow dropdown-trigger"  >&#9654;</span></a>
@@ -296,7 +297,7 @@
     const footer = `<div class="footer-container">
             <div class="footer-about">
                  <div class="logo footer-logo">
-                    <img src="https://d6ayomfexqlev.cloudfront.net/images/Logo.webp" alt="SRM Logo">
+                    <img src="https://d6ayomfexqlev.cloudfront.net/images/logo.png" alt="SRM Logo">
                 </div>
                 <p>Trichy SRM Medical College Hospital & Research Centre, <br>SRM Nagar, Trichy - Chennai Highway, Irungalur Village, Tiruchirapalli - 621105 Tamil Nadu, India</p>
                 <div class="social-icons">

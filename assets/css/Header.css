@@ -19,7 +19,7 @@
 
    
     .logo img {
-      height: 50px;
+      height: 80px;
       width: auto;
       display: block;
     }
@@ -570,7 +570,7 @@
         background-color: var(--color-white);
         border-radius: var(--radius-sm);
         padding-top: 5px;
-        width: 145px;
+        width: 160px;
         margin: var(--spacing-sm) 0;
     }
 
