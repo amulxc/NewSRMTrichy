@@ -6453,7 +6453,7 @@ grid-template-columns: 1fr;
 
         .hero-content h1 {
             font-size: var(--font-hero);
-            color: var(--color-text-primary);
+            color: var(--color-secondary) !important;
             margin-bottom: var(--spacing-xl);
             font-weight: 700;
             line-height: 1.2;
