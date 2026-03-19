@@ -170,7 +170,7 @@ const activities = [
 
         const researchersData = {
             president: [{
-                name: "Arun Dharmarajan",
+                name: "Dr.Arun Dharmarajan",
                 profileImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIC801LEXM0O7ZWYP4_W3Tj9YTwZ82rToeQ&s",
                 position: "Head of Research",
                 specialization: "Director Biomedical Research",
