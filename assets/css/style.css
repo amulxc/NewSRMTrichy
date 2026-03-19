@@ -224,10 +224,10 @@
         --g-4:#ffffffe3;
         --gradient-about:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/about.JPG);
         --gradient-academic:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/academic.jpeg);
-        --gradient-research:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/research.JPG);
+        --gradient-research:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/about.JPG);
         --gradient-contact:linear-gradient(to left,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/contact.png);
         --gradient-ambulance:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/ambulance.jpg);
-        --gradient-common:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/hospital.jpeg);
+        --gradient-common:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/about.JPG);
         --gradient-nopage:linear-gradient(to right,var(--g-3),var(--g-4)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/);
         --gradient-coe:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/coe.jpeg);
     }
