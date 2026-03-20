@@ -16,6 +16,10 @@ const departments = [
     "name": "MEU"
   },
   {
+    "url": "https://www.antiragging.in/",
+    "name": "Anti-Ragging"
+  },
+  {
     "url": "library.html",
     "name": "Library"
   },

@@ -23,6 +23,12 @@
             <a href="tel:0431-225 5555" translate="no" class="quick-link featured"><i class='fa fa-phone'></i>0431-225 5555</a>
           </p>
         </div>
+        <div class="quick-links">
+          <p>
+            Anti-Ragging
+            <a href="https://www.antiragging.in/" target="_blank" translate="no" class="quick-link featured"><i class="fa-solid fa-link"></i>www.antiragging.in</a>
+          </p>
+        </div>
         
         <div class="quick-links">
             <div class="search-container">
@@ -243,6 +249,7 @@
         <div id="mobile-topbar"></div>
         <div id="mobile-quickaccess"></div>
       </nav>
+      <div></div>
     </div>
     
     

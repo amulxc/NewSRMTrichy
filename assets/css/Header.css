@@ -67,6 +67,7 @@
       display: flex;
       list-style: none;
       margin: 0;
+      gap: 2.5%;
       padding: 0;
     }
 
@@ -76,7 +77,6 @@
 
     .offcanvas-menu a {
       gap: 8px;
-      padding: 25px 18px;
       color: #333;
       text-decoration: none;
       transition: all 0.3s ease;
@@ -89,8 +89,7 @@
     .nmc-nav {
       color: #fff !important;
       border-radius: 5px;
-      margin-left:20px !important;;
-      padding: 12px 24px !important;
+      padding: 12px!important;
     }
     
     .offcanvas-menu>ul>li .nmc-nav1{
@@ -217,7 +216,6 @@
       padding: 0;
      }
       .offcanvas-menu a {
-        padding: 0px 20px;
         font-size: 15px;
         white-space: normal;
         width: 100%;
@@ -245,7 +243,7 @@
         text-align: center!important;
         justify-content: center;
         display: block;
-        padding: 15px 20px !important;
+        padding: 12px !important;
         margin:0!important;
         width:100%;
       }
@@ -498,7 +496,7 @@
     }
     .myQuickLinks {
       display: grid;
-      grid-template-columns: repeat(5, 1fr); /* 4 items per row */
+      grid-template-columns: repeat(6, 1fr); /* 4 items per row */
       gap: 10px;
     }
     /* Quick Links */
@@ -521,6 +519,7 @@
     .quick-links p{
       font-size:12px;
       font-weight:600;
+      text-align: center;
     }
     .quick-links a{
       font-size:12px;
