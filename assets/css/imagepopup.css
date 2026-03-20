@@ -33,7 +33,7 @@
       display: block;
       /* max-width: 90vw;
       max-height: 80vh; */
-      width: auto;
+      max-width: 400px;
       height: auto;
       border-radius: 8px;
       box-shadow: 0 20px 60px rgba(0,0,0,0.5);
@@ -45,7 +45,7 @@
       right: 14px;
       width: 32px;
       height: 32px;
-      background: #fff;
+      background: #fa7070;
       border: none;
       border-radius: 50%;
       cursor: pointer;
@@ -54,7 +54,8 @@
       justify-content: center;
       box-shadow: 0 2px 8px rgba(0,0,0,0.3);
       transition: background 0.2s, transform 0.2s;
+      color: #fff;
       z-index: 10;
     }
-    .close-btn:hover { background: #f0f0f0; transform: scale(1.1); }
-    .close-btn svg { width: 14px; height: 14px; stroke: #333; stroke-width: 2.5; }
+    .close-btn:hover { background: #f83131; transform: scale(1.1); }
+    .close-btn svg { width: 14px; height: 14px; stroke: #fff; stroke-width: 2.5; }

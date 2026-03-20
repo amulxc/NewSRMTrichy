@@ -249,7 +249,6 @@
         <div id="mobile-topbar"></div>
         <div id="mobile-quickaccess"></div>
       </nav>
-      <div></div>
     </div>
     
     
