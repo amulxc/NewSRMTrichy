@@ -826,7 +826,10 @@
         .menu-toggle {
             display: flex;
         }
-        
+        .nav-wrapper{
+          justify-content: space-between;
+          gap: 0;
+        }
         .myQuickLinks{
           grid-template-columns: repeat(1, 1fr); /* 4 items per row */
           margin-left:10px;
