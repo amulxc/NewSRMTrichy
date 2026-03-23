@@ -12,7 +12,8 @@
       margin: 0 auto;
       padding: 10px 20px;
       display: flex;
-      justify-content: space-between;
+      justify-content:start;
+      gap: 10%;
       align-items: center;
       height: auto;
     }
@@ -42,7 +43,7 @@
       background: #333;
       transition: all 0.3s ease;
       border-radius: 3px;
-      margin-bottom: 1px;
+      margin-bottom: 7px;
       display: block;
     }
 
@@ -666,7 +667,7 @@
     .milestone-stats1 .milestone-stat{
       padding:7px 0;
       border-left:1px solid #ffffff!important;
-      background:var(--color-primary);
+      background:var(--color-primary-dark);
     }
 
     .milestone-stats1 .milestone-stat:nth-child(1){
@@ -856,6 +857,17 @@
         .offcanvas-menu > ul{
           margin-left:0;
           align-items:none;
+          width: 90%;
+          margin: 0 auto;
+          gap: 20px;
+        }
+        .quick-links a:first-child{
+          text-align: end;
+          padding: 0;
+        }
+        .quick-links a:nth-child(2){
+          text-align: start;
+          padding: 0;
         }
       }
 

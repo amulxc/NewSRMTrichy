@@ -31,8 +31,6 @@
 
     .modal img {
       display: block;
-      /* max-width: 90vw;
-      max-height: 80vh; */
       max-width: 400px;
       height: auto;
       border-radius: 8px;
