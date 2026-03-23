@@ -117,7 +117,7 @@
       
       <nav class="offcanvas-menu" id="offcanvasMenu">
       <div class="Offcanvas-logo logo">
-        <img src="https://d6ayomfexqlev.cloudfront.net/images/Logo.webp" alt="SRM">
+        <img src="https://d6ayomfexqlev.cloudfront.net/images/logo.png" alt="SRM">
       </div>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -328,8 +328,8 @@
                 <h4 class="footer-title">Contact Us</h4>
                 <ul class="footer-links">
                     <li><i class="fas fa-map-marker-alt"></i> Trichy, Tamil Nadu</li>
-                    <li><i class="fas fa-phone"></i> 0431-2258956</li>
-                    <li><i class="fas fa-envelope"></i> dean@mc.srmtrichy.edu.in</li>
+                    <li><a href="tel:0431-2258956"><i class="fas fa-phone"></i> 0431-2258956</a></li>
+                    <li><a href="mailto:dean@mc.srmtrichy.edu.in"><i class="fas fa-envelope"></i> dean@mc.srmtrichy.edu.in</a></li>
                     <li><i class="fas fa-clock"></i> Mon - Sat: 9AM - 6PM</li>
                 </ul>
             </div>
