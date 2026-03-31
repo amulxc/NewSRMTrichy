@@ -106,7 +106,7 @@
     <div class="nav-wrapper">
       <a href='index.html'>
         <div class="logo">
-          <img src="https://d6ayomfexqlev.cloudfront.net/images/logo.png" alt="SRM">
+          <img src="https://d6ayomfexqlev.cloudfront.net/images/logo1.png" alt="SRM">
         </div>
       </a>
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
@@ -117,7 +117,7 @@
       
       <nav class="offcanvas-menu" id="offcanvasMenu">
       <div class="Offcanvas-logo logo">
-        <img src="https://d6ayomfexqlev.cloudfront.net/images/logo.png" alt="SRM">
+        <img src="https://d6ayomfexqlev.cloudfront.net/images/logo1.png" alt="SRM">
       </div>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -303,7 +303,7 @@
     const footer = `<div class="footer-container">
             <div class="footer-about">
                  <div class="logo footer-logo">
-                    <img src="https://d6ayomfexqlev.cloudfront.net/images/logo.png" alt="SRM Logo">
+                    <img src="https://d6ayomfexqlev.cloudfront.net/images/logo1.png" alt="SRM Logo">
                 </div>
                 <p>Trichy SRM Medical College Hospital & Research Centre, <br>SRM Nagar, Trichy - Chennai Highway, Irungalur Village, Tiruchirapalli - 621105 Tamil Nadu, India</p>
                 <div class="social-icons">
