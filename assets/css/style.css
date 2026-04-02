@@ -210,7 +210,7 @@
         --gradient-1:linear-gradient(135deg, var(--color-primary-light) 50%, var(--color-secondary-light) 100%);
         --gradient-2: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-light) 100%);
         --gradient-3: linear-gradient(to left, #28d4ff,#008f2b);
-        --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/hospital.jpeg);
+        --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/about.JPG);
         --gradient-4: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-secondary-light) 100%);
         
         --gradient-4-event:linear-gradient(#003b6ce7),url(https://d6ayomfexqlev.cloudfront.net/images/event.jpg);
