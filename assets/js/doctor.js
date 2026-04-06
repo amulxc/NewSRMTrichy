@@ -393,16 +393,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             const doctorImageMap={};
             mobileNumbers.map((e,i)=>{
                 doctorImageMap[e]="dr"+(i+1);
-            })
+            });
             console.log(doctorImageMap);
-            
-
             let publicKey = doctorImageMap[doctor["Contact Number"]];
-
-            
-
-           let imgPath = publicKey ? `https://d6ayomfexqlev.cloudfront.net/doctors/${publicKey}`: 
-           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGG7erz9q0Rya1nPGFfbz6LVLjyU-7md7hOQ&s";
+            let imgPath = publicKey ? `https://d6ayomfexqlev.cloudfront.net/doctors/${publicKey}`: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGG7erz9q0Rya1nPGFfbz6LVLjyU-7md7hOQ&s";
 
             function checkImage(url, callback) {
                 const img = new Image();
@@ -417,7 +411,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                 }
             })
             
-
             // Usage
             checkImage(imgPath, exists => {
                 card.innerHTML = `
