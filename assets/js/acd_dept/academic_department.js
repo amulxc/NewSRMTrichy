@@ -2075,23 +2075,24 @@
                     }
                 ]
             },
+            // {
+            //     id: "Gastroenterology", name: "Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
+            //     desc: "Comprehensive mental health services with counseling and therapy.",
+            //     vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+            //     mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+            //     objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
+            //     infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
+            //     faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
+            //     services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
+            //     pubStats: [{label: "Publications", value: "20+"}],
+            //     pubHighlights: ["Depression management"],
+            //     pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
+            //     research: ["Mental health awareness", "Addiction treatment"],
+            //     events: ["World Mental Health Day"],
+            //     achievements: ["Excellence in Mental Health"],
+            //     gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
+            // },
             {
-                id: "Gastroenterology", name: "Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
-                desc: "Comprehensive mental health services with counseling and therapy.",
-                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-                services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
-                pubStats: [{label: "Publications", value: "20+"}],
-                pubHighlights: ["Depression management"],
-                pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
-                research: ["Mental health awareness", "Addiction treatment"],
-                events: ["World Mental Health Day"],
-                achievements: ["Excellence in Mental Health"],
-                gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
-            },{
                 "id": "general_medicine",
                 "name": "General Medicine",
                 "icon": "fa-stethoscope",
@@ -4279,23 +4280,23 @@
                     "Advanced video-assisted thoracic (VATS) surgeries."
                 ]
             },
-            {
-                id: "Neurosurgery", name: "Neurosurgery", icon: `<i class="fas fa-brain"></i> `, color: "#27ae60", colorDark: "#229954",
-                desc: "Comprehensive internal medicine care for all age groups.",
-                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-                services: ["General Consultation", "Diabetes Care", "Hypertension", "Infectious Diseases", "Respiratory Medicine", "Gastroenterology", "Cardiology", "Nephrology"],
-                pubStats: [{label: "Publications", value: "30+"}],
-                pubHighlights: ["Diabetes management"],
-                pubYearwise: [{year: "2023", title: "Diabetes protocols", journal: "Medicine Today", type: "Research"}],
-                research: ["Chronic disease management"],
-                events: ["World Diabetes Day"],
-                achievements: ["Best Medicine Dept"],
-                gallery: [{name: "OPD", icon: "fa-clinic-medical", event: "OPD", date: "Jan 2024"}]
-            },
+            // {
+            //     id: "Neurosurgery", name: "Neurosurgery", icon: `<i class="fas fa-brain"></i> `, color: "#27ae60", colorDark: "#229954",
+            //     desc: "Comprehensive internal medicine care for all age groups.",
+            //     vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+            //     mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+            //     objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
+            //     infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
+            //     faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
+            //     services: ["General Consultation", "Diabetes Care", "Hypertension", "Infectious Diseases", "Respiratory Medicine", "Gastroenterology", "Cardiology", "Nephrology"],
+            //     pubStats: [{label: "Publications", value: "30+"}],
+            //     pubHighlights: ["Diabetes management"],
+            //     pubYearwise: [{year: "2023", title: "Diabetes protocols", journal: "Medicine Today", type: "Research"}],
+            //     research: ["Chronic disease management"],
+            //     events: ["World Diabetes Day"],
+            //     achievements: ["Best Medicine Dept"],
+            //     gallery: [{name: "OPD", icon: "fa-clinic-medical", event: "OPD", date: "Jan 2024"}]
+            // },
             {
                 id: "Urology", name: "Urology", icon: `<i class="material-symbols-outlined">urology</i>`, color: "#ff9800", colorDark: "#f57c00",
                 desc: "Experienced, skilfull and compassionate Urologists State of the art equipment for all endourology and laparoscopy procedures",

@@ -1724,54 +1724,54 @@
                 "High success rate in AV fistula creation"
             ]
         },
-        {
-            id: "Paediatric Surgery", 
-            name: "Paediatric Surgery", 
-            icon: `<i class="fas fa-baby"></i>`, 
-            color: "#26c6da", 
-            colorDark: "#00acc1",
-            displays:false, 
-            team:["hero-image.JPG"],
-            breadcrum:["breadcrum.JPG"],
-            image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
+        // {
+        //     id: "Paediatric Surgery", 
+        //     name: "Paediatric Surgery", 
+        //     icon: `<i class="fas fa-baby"></i>`, 
+        //     color: "#26c6da", 
+        //     colorDark: "#00acc1",
+        //     displays:false, 
+        //     team:["hero-image.JPG"],
+        //     breadcrum:["breadcrum.JPG"],
+        //     image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
-            overview: "Comprehensive respiratory care with pulmonary function testing. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+        //     overview: "Comprehensive respiratory care with pulmonary function testing. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
 
-            objectives: [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
-            ],
-            doctor: [
-                {name: "Ram", designation: "Assistant professor", exp: "5"},
-                {name: "Sam", designation: "Assistant professor", exp: "5"},
-                {name: "John", designation: "Assistant professor", exp: "5"}
-            ],
+        //     objectives: [
+        //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
+        //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
+        //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
+        //     ],
+        //     doctor: [
+        //         {name: "Ram", designation: "Assistant professor", exp: "5"},
+        //         {name: "Sam", designation: "Assistant professor", exp: "5"},
+        //         {name: "John", designation: "Assistant professor", exp: "5"}
+        //     ],
 
-            services: [
-                "Asthma Management", 
-                "COPD Care", 
-                "TB Treatment", 
-                "Bronchoscopy", 
-                "Pulmonary Function Tests", 
-                "Sleep Studies"
-            ],
+        //     services: [
+        //         "Asthma Management", 
+        //         "COPD Care", 
+        //         "TB Treatment", 
+        //         "Bronchoscopy", 
+        //         "Pulmonary Function Tests", 
+        //         "Sleep Studies"
+        //     ],
 
-            pubStats: [
-                {label: "Publications", value: "7"},
-                {label: "International", value: "7"},
-                {label: "National", value: "7"}
-            ],
+        //     pubStats: [
+        //         {label: "Publications", value: "7"},
+        //         {label: "International", value: "7"},
+        //         {label: "National", value: "7"}
+        //     ],
 
-            research: [
-                "Asthma protocols", 
-                "TB treatment"
-            ],
+        //     research: [
+        //         "Asthma protocols", 
+        //         "TB treatment"
+        //     ],
 
-            achievements: [
-                "Excellence in Pulmonary Care"
-            ]
-        },
+        //     achievements: [
+        //         "Excellence in Pulmonary Care"
+        //     ]
+        // },
         {
             id: "anatomy",
             name: "Anatomy",
