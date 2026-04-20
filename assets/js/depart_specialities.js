@@ -917,7 +917,7 @@
             displays:true, 
             team:["hero-image.JPG"],
             breadcrum:["breadcrum.JPG"],
-            image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
+            image:["1.JPG","2.JPG","3.JPG","4.JPG","5.JPG","6.JPG"],
             overview: "To be a center of excellence in physiotherapy education, clinical care, and research, dedicated to restoring movement, enhancing quality of life, and serving the community through ethical, innovative, and evidence-based physiotherapy practices. To provide high-quality physiotherapy education through experienced faculty, interactive learning, and strong clinical exposure. To develop competent, compassionate, and skilled physiotherapy professionals who excel in patient care and rehabilitation. To promote interdisciplinary teamwork, continuous skill development, and lifelong learning. To actively engage in community-based rehabilitation and preventive healthcare services. To encourage research and innovation in movement science and physiotherapy practice.",
 
             objectives: [
