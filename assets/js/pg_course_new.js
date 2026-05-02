@@ -68,7 +68,7 @@ const departmentData = [
 
 const content = document.getElementById("content11");
 content.innerHTML = ""; 
-let pdfPath="https://docs.google.com/gview?url=https://d6ayomfexqlev.cloudfront.net/pdf/Course/PG_Course"
+let pdfPath="https://docs.google.com/gview?url=assets/pdf/Course/PG_Course"
 departmentData.map((d,i)=>{
   document.getElementById("content11").innerHTML += `
       <div class='myDiv'>

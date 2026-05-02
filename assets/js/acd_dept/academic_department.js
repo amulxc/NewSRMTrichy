@@ -4997,7 +4997,7 @@
                                     ${d.gallery.map(img => `
                                         <div class="gallery-item">
                                             <div class="gallery-placeholder">
-                                                <img src="https://d6ayomfexqlev.cloudfront.net/images/gallery/${img.path}" alt='Not Given'>
+                                                <img src="assets/images/gallery/${img.path}" alt='Not Given'>
                                             </div>
                                             <div class="gallery-overlay">
                                                 <div class="gallery-overlay-title">${img.name}</div>

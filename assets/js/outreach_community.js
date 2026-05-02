@@ -216,7 +216,7 @@
                             <p>National Accreditation Board for Testing and Calibration Laboratories</p>
                         </div>
                         <div class="milestone-card">
-                            <img src="https://d6ayomfexqlev.cloudfront.net/images/silver-medal.png" width="130px" alt="">
+                            <img src="assets/images/silver-medal.png" width="130px" alt="">
                             <h4>PM JAY</h4>
                             <p>Diamond Rating from QS I-GAUGE for excellence in education</p>
                         </div>

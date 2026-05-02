@@ -210,26 +210,26 @@
         --gradient-1:linear-gradient(135deg, var(--color-primary-light) 50%, var(--color-secondary-light) 100%);
         --gradient-2: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-light) 100%);
         --gradient-3: linear-gradient(to left, #28d4ff,#008f2b);
-        --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/about.JPG);
+        --gradient-3-breadcrum:linear-gradient(to right,#0153349f,#001f20e3),url(../images/breadcrum/about.JPG);
         --gradient-4: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-secondary-light) 100%);
         
-        --gradient-4-event:linear-gradient(#003b6ce7),url(https://d6ayomfexqlev.cloudfront.net/images/event.jpg);
-        --gradient-5-leader:linear-gradient(#000000f3),url(https://d6ayomfexqlev.cloudfront.net/images/event.jpg);
-        --gradient-6:linear-gradient(to left,#002b53e7,#1065c7d7),url(https://d6ayomfexqlev.cloudfront.net/images/event.jpg);
+        --gradient-4-event:linear-gradient(#003b6ce7),url(../images/event.jpg);
+        --gradient-5-leader:linear-gradient(#000000f3),url(../images/event.jpg);
+        --gradient-6:linear-gradient(to left,#002b53e7,#1065c7d7),url(../images/event.jpg);
     }
     :root{
         --g-1:#0153349f;
         --g-2:#001f20e3;
         --g-3:#ffffffe3;
         --g-4:#ffffffe3;
-        --gradient-about:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/about.JPG);
-        --gradient-academic:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/academic.jpeg);
-        --gradient-research:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/about.JPG);
-        --gradient-contact:linear-gradient(to left,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/contact.png);
-        --gradient-ambulance:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/ambulance.jpg);
-        --gradient-common:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/about.JPG);
-        --gradient-nopage:linear-gradient(to right,var(--g-3),var(--g-4)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/);
-        --gradient-coe:linear-gradient(to right,var(--g-1),var(--g-2)),url(https://d6ayomfexqlev.cloudfront.net/images/breadcrum/coe.jpeg);
+        --gradient-about:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/about.JPG);
+        --gradient-academic:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/academic.jpeg);
+        --gradient-research:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/about.JPG);
+        --gradient-contact:linear-gradient(to left,var(--g-1),var(--g-2)),url(../images/breadcrum/contact.png);
+        --gradient-ambulance:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/ambulance.jpg);
+        --gradient-common:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/about.JPG);
+        --gradient-nopage:linear-gradient(to right,var(--g-3),var(--g-4)),url(../images/breadcrum/);
+        --gradient-coe:linear-gradient(to right,var(--g-1),var(--g-2)),url(../images/breadcrum/coe.jpeg);
     }
 
 
@@ -10928,7 +10928,7 @@ grid-template-columns: 1fr;
         }
 
         .researchers .irpc-researcher-image-wrapper {
-            background:linear-gradient(135deg,#005281bb,#008327),url(https://d6ayomfexqlev.cloudfront.net/images/bg_images/research.jpg);
+            background:linear-gradient(135deg,#005281bb,#008327),url(../images/bg_images/research.jpg);
             padding: var(--spacing-3xl) var(--spacing-xl);
             text-align: center;
             position: relative;

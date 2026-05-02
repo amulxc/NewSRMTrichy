@@ -32,8 +32,8 @@ function loadDoctorData() {
     // Profile Image
     const profileImg = document.getElementById('profileImage');
     const contact = doctorData["Contact Number"];
-    const imgPathLower = `https://d6ayomfexqlev.cloudfront.net/images/doctors/${contact}.jpg`;
-    const imgPathUpper = `https://d6ayomfexqlev.cloudfront.net/images/doctors/${contact}.JPG`;
+    const imgPathLower = `assets/images/doctors/${contact}.jpg`;
+    const imgPathUpper = `assets/images/doctors/${contact}.JPG`;
 
     const tempImg = new Image();
 

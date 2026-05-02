@@ -172,9 +172,9 @@
             const cards = await Promise.all(
                 d.boxes.map(async s => {
 
-                    const curriculumPath = `https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course/${phaseFolder}/Curriculam.pdf`;
-                    const calendarPath   = `https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course/${phaseFolder}/Academic_Calendar.pdf`;
-                    const timetablePath  = `https://d6ayomfexqlev.cloudfront.net/pdf/Course/UG_Course/${phaseFolder}/Time_Table.pdf`;
+                    const curriculumPath = `assets/pdf/Course/UG_Course/${phaseFolder}/Curriculam.pdf`;
+                    const calendarPath   = `assets/pdf/Course/UG_Course/${phaseFolder}/Academic_Calendar.pdf`;
+                    const timetablePath  = `assets/pdf/Course/UG_Course/${phaseFolder}/Time_Table.pdf`;
 
                     const [hasCurr, hasCal, hasTime] = await Promise.all([
                         fileExists(curriculumPath),
