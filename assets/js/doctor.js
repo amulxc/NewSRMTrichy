@@ -438,11 +438,11 @@ document.addEventListener("DOMContentLoaded", async () => {
                                 <span>${doctor.shift}</span>
                             </div>
                         </div>
-                        <div class="consultation-info">
+                        <!--<div class="consultation-info">
                             <button class="view-profile-btn" onclick="viewDoctorProfile(${doctor.id})">
                                 View Profile
                             </button>
-                        </div>
+                        </div>-->
                     </div>`;
             });
             return card;
