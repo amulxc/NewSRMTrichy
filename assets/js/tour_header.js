@@ -1,4 +1,4 @@
-    const topbar = `<div class="top-bar">
+const topbar = `<div class="top-bar">
     <div class="top-bar-wrapper">
       <!-- Search Bar -->
       <div class="search-container">
@@ -38,8 +38,8 @@
       </div>
     </div>
   </div>`
-    
-    const header=`<div class="nav-container">
+
+const header = `<div class="nav-container">
     <div class="nav-wrapper">
       <a href='index.html'>
         <div class="logo">
@@ -86,8 +86,8 @@
                 </ul>
               </li>
               <li><a href="./programsandcourse.html">Programs & Course Outcomes</a></li>
-              <li class='pdf'><a href="https://docs.google.com/gview?url=assets/pdf/Medical+Graduate+Attributes.pdf" target='_blank'>Medical Graduate Attributes</a><img src="assets/images/pdficon.png" alt="" width="20px" ></li>
-              <li class='pdf'><a href="https://docs.google.com/gview?url=assets/pdf/UPDATE-Committee-11.10.25.pdf" target='_blank'>Committee</a><img src="assets/images/pdficon.png" alt="" width="20px" ></li>
+              <li class='pdf'><a href="assets/pdf/Medical+Graduate+Attributes.pdf" target='_blank'>Medical Graduate Attributes</a><img src="assets/images/pdficon.png" alt="" width="20px" ></li>
+              <li class='pdf'><a href="assets/pdf/UPDATE-Committee-11.10.25.pdf" target='_blank'>Committee</a><img src="assets/images/pdficon.png" alt="" width="20px" ></li>
               <li class='pdf'><a href="./biethics.html">Bio Ethics</a></li>
               <li class="has-submenu" data-dropdown="departments">
                 <a href="#">Departments <span class="arrow dropdown-trigger">&#9654;</span></a>
@@ -164,125 +164,125 @@
 
 
 
-    
-  
-    document.getElementById('topbar').innerHTML=topbar
-    document.getElementById("header").innerHTML=header;
 
-    document.addEventListener("DOMContentLoaded", function () {
-    const currentPage = window.location.pathname.split("/").pop();
 
-    // Select all links inside offcanvas menu
-    document.querySelectorAll("#offcanvasMenu a").forEach(link => {
-        const linkHref = link.getAttribute("href");
+document.getElementById('topbar').innerHTML = topbar
+document.getElementById("header").innerHTML = header;
 
-        // Add active class if href matches current page
-        if (linkHref === currentPage || (linkHref === "./" + currentPage)) {
-            link.classList.add("active");
+document.addEventListener("DOMContentLoaded", function () {
+  const currentPage = window.location.pathname.split("/").pop();
 
-            // If the link is inside a dropdown, also open parent dropdowns
-            let parent = link.closest(".dropdown, .sub-dropdown");
-            while (parent) {
-                const parentTrigger = parent.previousElementSibling;
-                if (parentTrigger && parentTrigger.classList.contains("dropdown-trigger") || parentTrigger.classList.contains("submenu-trigger")) {
-                    parent.style.display = "block";
-                    parentTrigger.classList.add("open"); // optional class to style arrow
-                }
-                parent = parent.parentElement.closest(".dropdown, .sub-dropdown");
-            }
+  // Select all links inside offcanvas menu
+  document.querySelectorAll("#offcanvasMenu a").forEach(link => {
+    const linkHref = link.getAttribute("href");
+
+    // Add active class if href matches current page
+    if (linkHref === currentPage || (linkHref === "./" + currentPage)) {
+      link.classList.add("active");
+
+      // If the link is inside a dropdown, also open parent dropdowns
+      let parent = link.closest(".dropdown, .sub-dropdown");
+      while (parent) {
+        const parentTrigger = parent.previousElementSibling;
+        if (parentTrigger && parentTrigger.classList.contains("dropdown-trigger") || parentTrigger.classList.contains("submenu-trigger")) {
+          parent.style.display = "block";
+          parentTrigger.classList.add("open"); // optional class to style arrow
         }
-    });
+        parent = parent.parentElement.closest(".dropdown, .sub-dropdown");
+      }
+    }
+  });
 
-    // Optional: toggle dropdown on click for mobile
-    document.querySelectorAll(".dropdown-trigger, .submenu-trigger").forEach(trigger => {
-        trigger.addEventListener("click", function (e) {
-            e.preventDefault();
-            const submenu = this.nextElementSibling;
-            if (submenu) {
-                submenu.style.display = submenu.style.display === "block" ? "none" : "block";
-                this.classList.toggle("open");
-            }
-        });
+  // Optional: toggle dropdown on click for mobile
+  document.querySelectorAll(".dropdown-trigger, .submenu-trigger").forEach(trigger => {
+    trigger.addEventListener("click", function (e) {
+      e.preventDefault();
+      const submenu = this.nextElementSibling;
+      if (submenu) {
+        submenu.style.display = submenu.style.display === "block" ? "none" : "block";
+        this.classList.toggle("open");
+      }
     });
+  });
 });
 
 
 const pages = [
-      { title: 'Home', path: 'Home', url: 'index.html' },
-      { title: 'About Us', path: 'About Us', url: './aboutus.html' },
-      { title: 'Vision & Mission', path: 'About Us > Vision & Mission', url: './aboutus.html#vision' },
-      { title: 'Leadership', path: 'About Us > Leadership', url: './aboutus.html#leadership' },
-      { title: 'NAAC Accreditation', path: 'About Us > Milestones > NAAC', url: './aboutus.html#milestones' },
-      { title: 'Academics', path: 'Academics', url: './academics.html' },
-      { title: 'Under Graduate Courses', path: 'Academics > Courses > UG', url: './course.html#ug-courses' },
-      { title: 'Post Graduate Courses', path: 'Academics > Courses > PG', url: './course.html#pg-courses' },
-      { title: 'MBBS Program', path: 'Academics > Courses', url: './course.html' },
-      { title: 'Pre Clinical', path: 'Academics > Pre Clinical', url: './pre-clinical.html' },
-      { title: 'Para Clinical', path: 'Academics > Para Clinical', url: './para-clinical.html' },
-      { title: 'Library', path: 'Academics > Library', url: './library.html' },
-      { title: 'Medical Education Unit', path: 'Academics > MEU', url: './academics.html#specialties' },
-      { title: 'Hospital Services', path: 'Hospital Services', url: './hospital.html' },
-      { title: 'Medicine & Board Specialties', path: 'Hospital > Departments > Medicine & Board Specialties', url: './boardspecialties.html' },
-      { title: 'Surgery & Board Specialties', path: 'Hospital > Departments > Surgery & Board Specialties', url: './surgeryspecialties.html' },
-      { title: 'Surgery & Super Specialties', path: 'Hospital > Departments > Surgery & Super Specialties', url: './SurgerySuperSpecialties.html' },
-      { title: 'Medicine & Super Specialties', path: 'Hospital > Departments > Medicine & Super Specialties', url: './acd_dept/MedicalSuperSpecialties.html' },
-      { title: 'Doctors', path: 'Hospital > Doctors', url: './doctors.html' },
-      { title: 'Blood Bank', path: 'Hospital > Blood Bank', url: './bloodbank.html' },
-      { title: 'Research & Innovation', path: 'Research', url: 'research.html' },
-      { title: 'Media & OutReach', path: 'Media', url: './media.html' },
-      { title: 'News & Events', path: 'Media > News & Events', url: './media.html#news' },
-      { title: 'Gallery', path: 'Media > Gallery', url: './media.html#gallery' },
-      { title: 'Video Gallery', path: 'Media > Video Gallery', url: './videogallery.html' },
-      { title: 'NMC Guidelines', path: 'NMC', url: '#' }
-    ];
+  { title: 'Home', path: 'Home', url: 'index.html' },
+  { title: 'About Us', path: 'About Us', url: './aboutus.html' },
+  { title: 'Vision & Mission', path: 'About Us > Vision & Mission', url: './aboutus.html#vision' },
+  { title: 'Leadership', path: 'About Us > Leadership', url: './aboutus.html#leadership' },
+  { title: 'NAAC Accreditation', path: 'About Us > Milestones > NAAC', url: './aboutus.html#milestones' },
+  { title: 'Academics', path: 'Academics', url: './academics.html' },
+  { title: 'Under Graduate Courses', path: 'Academics > Courses > UG', url: './course.html#ug-courses' },
+  { title: 'Post Graduate Courses', path: 'Academics > Courses > PG', url: './course.html#pg-courses' },
+  { title: 'MBBS Program', path: 'Academics > Courses', url: './course.html' },
+  { title: 'Pre Clinical', path: 'Academics > Pre Clinical', url: './pre-clinical.html' },
+  { title: 'Para Clinical', path: 'Academics > Para Clinical', url: './para-clinical.html' },
+  { title: 'Library', path: 'Academics > Library', url: './library.html' },
+  { title: 'Medical Education Unit', path: 'Academics > MEU', url: './academics.html#specialties' },
+  { title: 'Hospital Services', path: 'Hospital Services', url: './hospital.html' },
+  { title: 'Medicine & Board Specialties', path: 'Hospital > Departments > Medicine & Board Specialties', url: './boardspecialties.html' },
+  { title: 'Surgery & Board Specialties', path: 'Hospital > Departments > Surgery & Board Specialties', url: './surgeryspecialties.html' },
+  { title: 'Surgery & Super Specialties', path: 'Hospital > Departments > Surgery & Super Specialties', url: './SurgerySuperSpecialties.html' },
+  { title: 'Medicine & Super Specialties', path: 'Hospital > Departments > Medicine & Super Specialties', url: './acd_dept/MedicalSuperSpecialties.html' },
+  { title: 'Doctors', path: 'Hospital > Doctors', url: './doctors.html' },
+  { title: 'Blood Bank', path: 'Hospital > Blood Bank', url: './bloodbank.html' },
+  { title: 'Research & Innovation', path: 'Research', url: 'research.html' },
+  { title: 'Media & OutReach', path: 'Media', url: './media.html' },
+  { title: 'News & Events', path: 'Media > News & Events', url: './media.html#news' },
+  { title: 'Gallery', path: 'Media > Gallery', url: './media.html#gallery' },
+  { title: 'Video Gallery', path: 'Media > Video Gallery', url: './videogallery.html' },
+  { title: 'NMC Guidelines', path: 'NMC', url: '#' }
+];
 
-    const searchInput = document.getElementById('searchInput');
-    const searchBtn = document.getElementById('searchBtn');
-    const searchResults = document.getElementById('searchResults');
-    const overlay = document.getElementById('overlay');
+const searchInput = document.getElementById('searchInput');
+const searchBtn = document.getElementById('searchBtn');
+const searchResults = document.getElementById('searchResults');
+const overlay = document.getElementById('overlay');
 
-    function performSearch(query) {
-      if (!query.trim()) {
-        searchResults.classList.remove('active');
-        return;
-      }
+function performSearch(query) {
+  if (!query.trim()) {
+    searchResults.classList.remove('active');
+    return;
+  }
 
-      const results = pages.filter(page => 
-        page.title.toLowerCase().includes(query.toLowerCase()) ||
-        page.path.toLowerCase().includes(query.toLowerCase())
-      );
+  const results = pages.filter(page =>
+    page.title.toLowerCase().includes(query.toLowerCase()) ||
+    page.path.toLowerCase().includes(query.toLowerCase())
+  );
 
-      if (results.length > 0) {
-        searchResults.innerHTML = results.map(result => `
+  if (results.length > 0) {
+    searchResults.innerHTML = results.map(result => `
           <div class="search-result-item" onclick="window.location.href='${result.url}'">
             <div class="result-title">${result.title}</div>
             <div class="result-path">${result.path}</div>
           </div>
         `).join('');
-      } else {
-        searchResults.innerHTML = '<div class="no-results">No results found</div>';
-      }
+  } else {
+    searchResults.innerHTML = '<div class="no-results">No results found</div>';
+  }
 
-      searchResults.classList.add('active');
-    }
+  searchResults.classList.add('active');
+}
 
-    searchInput.addEventListener('input', (e) => {
-      performSearch(e.target.value);
-    });
+searchInput.addEventListener('input', (e) => {
+  performSearch(e.target.value);
+});
 
-    searchBtn.addEventListener('click', () => {
-      performSearch(searchInput.value);
-    });
+searchBtn.addEventListener('click', () => {
+  performSearch(searchInput.value);
+});
 
-    searchInput.addEventListener('keypress', (e) => {
-      if (e.key === 'Enter') {
-        performSearch(searchInput.value);
-      }
-    });
+searchInput.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    performSearch(searchInput.value);
+  }
+});
 
-    // Close search results when clicking outside
-    document.addEventListener('click', (e) => {
-      if (!e.target.closest('.search-container')) {
-        searchResults.classList.remove('active');
-      }
-    });
+// Close search results when clicking outside
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.search-container')) {
+    searchResults.classList.remove('active');
+  }
+});

@@ -241,7 +241,7 @@
 
         function pdfItem(label, link) {
         return `
-        <a href="https://docs.google.com/gview?url=${link}" target="_blank">
+        <a href="${link}" target="_blank">
             <div style='background:white;font-weight:400;color:#000;margin-bottom:10px;padding:2px 0px'>
                 <i class="fa fa-file-pdf"></i> ${label}
             </div>
