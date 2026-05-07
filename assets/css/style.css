@@ -11119,7 +11119,6 @@ grid-template-columns: 1fr;
             background: var(--color-white);
             border: 5px solid var(--color-white);
             display: flex;
-            align-items: start;
             justify-content: center;
             box-shadow: var(--shadow-xl);
             overflow: hidden;
