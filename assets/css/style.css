@@ -1579,34 +1579,27 @@
 }
 
 .event-date-badge {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    background:linear-gradient(145deg,#026602,#03a003);
-    color: var(--color-white);
-    padding: 15px 20px;
-    border-radius: var(--radius-sm);
-    text-align: center;
-    box-shadow: var(--shadow-lg);
-    /* border:1px solid #383838; */
+    background:#b7fab7a1;
+    color: #068306;
+    padding: 5px 10px;
+    border-radius: var(--radius-lg);
+    text-align: left;
+    /* box-shadow: var(--shadow-lg); */
+    width: max-content;
+    border:1px solid #03a0036e;
+    margin-bottom: 10px;
 }
 
 .event-date-badge .day {
-    font-size: var(--font-3xl);
-    font-weight: bold;
+    font-size: 12px;
+    /* font-weight: bold; */
     line-height: 1;
     display: block;
 }
 
-.event-date-badge .month {
-    font-size: var(--font-xs);
-    text-transform: uppercase;
-    margin-top: 0.2rem;
-    display: block;
-}
 
 .event-info {
-    padding: 1.8rem;
+    padding: 1.2rem;
     text-align: left;
     background: var(--color-white);
 }
@@ -1920,11 +1913,7 @@ html[lang="en"] .nav-container a {
 .academic1+.breadcrum{
     background:var(--gradient-academic);
 }
-.contact1+.breadcrum{
-    background-position:bottom!important;
-    background-size:contain!important;
-    background:var(--gradient-contact);
-}
+
 .research1+.breadcrum{
     background:var(--gradient-research);
     background-position:top!important;

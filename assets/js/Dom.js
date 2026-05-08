@@ -214,20 +214,10 @@
           <li class="has-dropdown" data-dropdown="academics">
             <a href="./research.html">Research & Innovation <span class="arrow dropdown-trigger">&#9654;</span></a>
             <ul class="dropdown">
-              
               <li><a href="./research.html">Research</a></li>
-
-              <li class="has-submenu" data-submenu="courses">
-                <a href="./IRPC.html">IRPC<span class="arrow submenu-trigger">&#9654;</span></a>
-                <ul class="sub-dropdown">
-                  <li><a href="IRPC.html#IRPC-Projects">Projects</a></li>
-                  <li><a href="IRPC.html#IRPC-Collabration">Collabrations</a></li>
-                  <li><a href="IRPC.html#IRPC-Board">Board</a></li>
-                </ul>
-              </li>
-              
-             
-              
+              <li><a href="research.html#IRPC-Projects">Projects</a></li>
+              <li><a href="research.html#IRPC-Collabration">Collabrations</a></li>
+              <li><a href="./IRPC.html">IRPC</a></li>
             </ul>
           </li>
            
