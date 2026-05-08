@@ -173,6 +173,7 @@
               </ul>
               </li>  
               <li><a href="./meuandcc.html">MEU</a></li>
+              <li><a href="#">LMS</a></li>
               
               </ul>
               </li>
@@ -562,7 +563,7 @@ const pages = [
       { title: 'Academic Video Gallery', path: 'Academics > Video Gallery', url: './videogallery.html' },
 
       { title: 'Hospital Departments', path: 'Hospital > Departments', url: './hospital_department.html' },
-      { title: 'Ambulance Services', path: 'Academics > MEU', url: './meuandcc.html' },
+      { title: 'Ambulance Services', path: 'Hospital > Ambulance', url: './ambulance.html' },
 
       { title: 'Hospital Services', path: 'Hospital Services', url: './meuandcc.html' },
       { title: 'Doctors', path: 'Hospital > Doctors', url: './doctors.html' },
