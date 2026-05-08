@@ -371,7 +371,7 @@
     /* Emergency Starts*/
      .floating-social-btn-emg {
         position: fixed;
-        bottom: var(--spacing-md);
+        bottom: var(--spacing-lg);
         right: var(--spacing-xl);
         z-index: var(--z-fixed);
     }
@@ -1290,7 +1290,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top:73%;
+    top:60%;
     transition:var(--transition-slow);
     color: var(--color-white);
     text-align: left;
@@ -1303,7 +1303,7 @@
         position: absolute;
         left: 0;
         right: 0;
-        top:73%;
+        top:60%;
         transition:var(--transition-slow);
         color: var(--color-white);
         text-align: left;
@@ -1315,6 +1315,9 @@
 .celebration-card:hover .celebration-overlay{
     top:0%;
     justify-content:center;
+}
+.celebration-overlay p{
+    color: #00000000;
 }
 
 .celebration-overlay h3 {
@@ -1350,6 +1353,9 @@
     background:green;
 }
 
+.celebration-card:hover .celebration-overlay p{
+    color: #fff;
+}
 
 .celebration-card:nth-child(1):hover .celebration-overlay{
     top:0%;
@@ -1647,7 +1653,7 @@
 
 /* Testimonials */
 .testimonials {
-    padding: var(--spacing-6xl) 5%;
+    /* padding: var(--spacing-6xl) 5%; */
     position: relative;
 }
 
@@ -1763,7 +1769,10 @@ html[lang="en"] .nav-container a {
     .welcome-container,
     .mission-vision-container,
     .milestone-container {
-        grid-template-columns: 1fr;
+          grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
     }
 
     .small-images {
@@ -1777,8 +1786,17 @@ html[lang="en"] .nav-container a {
         position: static;
         transform: none;
         width: 100%;
-        height: 400px;
+        /* height: 400px; */
         margin-bottom: var(--spacing-lg);
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+     .stats-container {
+        /* flex-direction: column; */
+        justify-content:center;
+        align-items: center;
+        gap: var(--spacing-lg);
     }
 
     .milestone-small {
@@ -1840,6 +1858,7 @@ html[lang="en"] .nav-container a {
     .testimonials-grid,
     .milestone-stats {
         grid-template-columns: 1fr;
+        width: 100%;
     }
     .welcome-content h2{
         font-size:30px;
@@ -1851,11 +1870,7 @@ html[lang="en"] .nav-container a {
 
     }
 
-    .stats-container {
-        /* flex-direction: column; */
-        justify-content:center;
-        gap: var(--spacing-lg);
-    }
+   
     .myDivContentAbout{
         text-align:center;
     }
@@ -2342,6 +2357,8 @@ section {
 .accreditation-logo:hover{
      transform: translateY(-10px);
 }
+
+
 /* =======================================================
    Statutory Compliance
    ======================================================= */
@@ -2543,6 +2560,12 @@ h2 span{
     color: var(--text-light);
 }
 
+@media screen and (max-width:768px) {
+    .hospital-hero-title {
+        font-size: 1.4rem;
+    }
+}
+
 /* Highlights */
 .hospital-hero-highlights {
     display: flex;
@@ -2627,6 +2650,8 @@ h2 span{
 
     .hospital-hero-highlights {
         justify-content: center;
+        width: max-content;
+        margin: 0 auto;
     }
 
     .hospital-hero-cta {
@@ -2645,6 +2670,13 @@ h2 span{
     max-width: 1400px;
     margin: 0 auto;
 }
+.services-grid-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
 .service-card {
     background: white;
@@ -2656,20 +2688,20 @@ h2 span{
     border-top: 4px solid transparent;
     overflow:hidden;
 }
-.emergency-care .services-grid{
+/* .emergency-care .services-grid{
     grid-template-columns: repeat(2, 1fr);
-}
+} */
 .service-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
-.myNewCard .services-grid .service-card{
+.myNewCard .services-grid-1 .service-card{
     border:none;
     padding:0;
     background:none;
     height: 270px;
 }
-.myNewCard .services-grid .service-card img{
+.myNewCard .services-grid-1 .service-card img{
     height: 270px;
     width: 100%;
 }
@@ -3632,12 +3664,12 @@ gap: 3rem;
     .services-image {
 order: -1;
     }
-
+    .services-grid-1,
     .services-grid,
     .specialty-grid,
     .camps-grid,
     .opd-grid {
-grid-template-columns: repeat(2, 1fr);
+grid-template-columns: repeat(1, 1fr);
     }
 
     
@@ -3655,7 +3687,7 @@ font-size: 2.5rem;
     .section-header h2 {
 font-size: 2rem;
     }
-
+    .services-grid-1,
     .services-grid,
     .specialty-grid,
     .camps-grid,
@@ -3663,6 +3695,7 @@ font-size: 2rem;
     .stats-grid,
     .footer-grid {
 grid-template-columns: 1fr;
+width: 90%;
     }
 
     .service-list {
@@ -3752,7 +3785,7 @@ grid-template-columns: 1fr;
 
         .section-container {
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 100px auto;
         }
 
         .section-header {
@@ -4395,7 +4428,12 @@ grid-template-columns: 1fr;
             .highlights-list {
                 grid-template-columns: repeat(2, 1fr);
             }
-
+            .highlight{
+                width: 100%;
+            }
+            .about-content{
+                width: 100%;
+            }
             .nav-cards-grid {
                 grid-template-columns: 1fr;
             }
@@ -6243,10 +6281,7 @@ grid-template-columns: 1fr;
             padding: 0 var(--spacing-xs);
         }
 
-        /* Mobile Menu */
-        .menu-toggle {
-            display: none;
-        }
+      
 
         /* Responsive */
         @media (max-width: 1024px) {
@@ -6267,9 +6302,24 @@ grid-template-columns: 1fr;
                 height: auto;
                 min-height: 480px;
             }
+            
         }
+        @media screen and (max-width:1024px) and (min-width:768px) {
+    .hero-content{
+        margin: 110px 0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-main-image img {
+    width: 100%;
+    border-radius: 0 0 300px 300px;
+}
+}
 
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
             .nav-links {
                 display: none;
             }
@@ -11730,6 +11780,13 @@ grid-template-columns: 1fr;
             position: relative;
         }
         
+        @media screen and (max-width: 768px) {
+            .transport-city-timeline {
+                max-width: 400px;
+                padding: 0 var(--spacing-md);
+            }
+        }
+
         .transport-timeline-item {
             background: linear-gradient(135deg, var(--color-background-light) 0%, var(--color-white) 100%);
             padding: var(--spacing-2xl);
@@ -11976,7 +12033,7 @@ grid-template-columns: 1fr;
         }
        
         @media (max-width: 992px) {
-            #header{
+            /* #header{
                 top:0;
             }
             .offcanvas-menu .top-bar {
@@ -11996,7 +12053,7 @@ grid-template-columns: 1fr;
                 padding: 12px 15px;
                 display: block;
                 font-size: 14px;
-            }
+            } */
             
             #content11{
                 width:100%;
@@ -12249,6 +12306,11 @@ grid-template-columns: 1fr;
             color: var(--color-secondary);
             font-weight: bold;
             font-size: var(--font-lg);
+        }
+        @media screen and (max-width:768px) {
+            .coe-center-features{
+                margin: 0 auto var(--spacing-xl);
+            }
         }
 
         .coe-learn-more-btn {
@@ -12510,10 +12572,10 @@ grid-template-columns: 1fr;
           width: 100%!important;
           margin-left:0%;
         }
-        .offcanvas-menu .milestone-stats1 .milestone-stat a{
+        /* .offcanvas-menu .milestone-stats1 .milestone-stat a{
           display:inline!important;
-        
-      }
+         */
+      /* } */
   }
 
   .myInc .document-card{

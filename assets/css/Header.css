@@ -192,7 +192,7 @@
         position: fixed;
         top: 0;
         left: -100%;
-        width: 280px;
+        width: 50%;
         height: 100%;
         background: #fff;
         box-shadow: 2px 0 15px rgba(0,0,0,0.3);
@@ -782,6 +782,10 @@
           gap:30px;
           align-items:space-between;
       }
+      .nav-wrapper{
+          justify-content: space-between;
+          gap: 0;
+        }
       
     }
         
@@ -849,7 +853,7 @@
          
          .milestone-stats1 .milestone-stat{
           padding:7px 0!important;
-          background:var(--color-secondary);
+          background:var(--color-primary);
         }
 
         .nav-links.active {
