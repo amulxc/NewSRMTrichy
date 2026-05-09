@@ -173,7 +173,7 @@
               </ul>
               </li>  
               <li><a href="./meuandcc.html">MEU</a></li>
-              <li><a href="#">LMS</a></li>
+              <li><a href="https://lms-mchrc.srmtrichy.edu.in/login/index.php" target="_blank">LMS</a></li>
               
               </ul>
               </li>
@@ -224,7 +224,7 @@
          
           <li><a href="contact.html">Contact</a></li>
           <li><a href="nmc.html" class="nmc-nav nmc-nav1">NMC</a></li>
-          <li ><a href="underconstruction.html" style="background-color:var(--color-orange) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
+          <li ><a href="iqac.html" style="background-color:var(--color-orange) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
          
            <li class="has-dropdown" data-dropdown="research">
             <a href="#" style="background-color:var(--color-accent) !important;" class="nmc-nav nmc-nav2"><i class="fa-solid fa-circle-info"></i> Information for <span class="arrow dropdown-trigger"  >&#9654;</span></a>
