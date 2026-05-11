@@ -434,6 +434,7 @@
                     { "name": "Dr.Shivayogappa S. Teli", "designation": "Professor & HoD", "exp": "15" },
                     { "name": "Dr.R.Divya", "designation": "Professor", "exp": "10" },
                     { "name": "Dr.D.Keerthana", "designation": "Professor", "exp": "9" },
+                    { "name": "Dr.Senthilnathan", "designation": "Associate Professor", "exp": "" },
                     { "name": "Dr.R.A.Sureshbalaji", "designation": "Assistant Professor", "exp": "14" },
                     { "name": "Dr.M.Praveena", "designation": "Assistant Professor", "exp": "5" },
                     { "name": "Dr.C.Vijayalakshmi", "designation": "Assistant Professor", "exp": "4" },
@@ -2118,7 +2119,7 @@
                 "infra_desc": "The department of General Medicine is equipped with well organized outpatient and inpatient facilities, supported by fully functional ICU and emergency services.",
                 "infra": [
                     "Outpatient department with spacious consultation areas, dedicated examination rooms and comfortable waiting hall.",
-                    "General Ward inpatient facilities with 8 wards of 30 beds each (240 beds total).",
+                    "General Ward inpatient facilities with 6 wards of 40 beds each (240 beds total).",
                     "ICU & CCU facilities with 40 beds equipped with advanced monitoring and life-support systems.",
                     "Well-equipped procedure rooms for bone marrow aspiration, pleural aspiration and lumbar puncture.",
                     "Dedicated teaching spaces, seminar halls, demo halls and library for UG & PG training."
@@ -2988,7 +2989,7 @@
                 mission:["To provide state-of-art management options for patients with respiratory diseases, according to the latest evidence-based guidelines.","Train the students with focus on bench to bedside practice through rigorous implementation of the course along with innovative teaching-learning practices and to delve into dynamic clinical research.","To create awareness among patients, their caregivers and the general public about basic Respiratory illnesses and their symptoms.","To conduct patient empowerment programs so as to reduce morbidity or mortality and arrive at early diagnosis of chest diseases at an affordable cost."],
                 objectives:["To conduct awareness & outreach programs to medically unreached populations.","To encourage UG & PG students for research activities in various dimension of respiratory medicine.","To create highly structured and quality respiratory care for a fully-fledged pulmonary rehabilitation program."],
                 infra: ["Spirometry and DLCO", "Flexible video Bronchoscope.", "Facilities for Thoracoscopy","Respiratory intensive care unit (RICU)","Specialty clinics and counselling rooms","Lecture Halls and seminar rooms","Department library/ e-library"],
-                faculty: [{name: "Dr.K.G.RanganathaMallan", designation: "Professor", exp: "25"},{name: "Dr.R.VelRaj", designation: "Assistant Professor", exp: "17"},{name: "Dr.A.Anusuya", designation: "Assistant Professor", exp: "11"},{name: "Dr.B.Prabhu", designation: "Senior Resident", exp: "7"},{name: "Dr.Parath Kumar.M.C", designation: "Assistant Professor", exp: "5"}],
+                faculty: [{name: "Dr.K.G.RanganathaMallan", designation: "Professor", exp: "25"},{name: "Dr.R.VelRaj", designation: "Associate Professor", exp: "17"},{name: "Dr.A.Anusuya", designation: "Assistant Professor", exp: "11"},{name: "Dr.B.Prabhu", designation: "Senior Resident", exp: "7"},{name: "Dr.Parath Kumar.M.C", designation: "Assistant Professor", exp: "5"}],
                 services_desc:"The Department offers diagnostic and consultative services for patient management across various specialties",
                 services: ["Treatment of obstructive & restrictive airway diseases", "Treatment of dust or smoke related airway diseases", "Treatment of lung cancer and  its manifestations", "Treatment of Tuberculosis", "Treatment of Post Covid sequelae", "Treatment of sleep related diseases.","Vaccinations to prevent lung infections like Influenza  and Pneumococcal  vaccines","Breathing exercises and chest physiotherapy","Pulmonary function tests  (Spirometry  & DLCO)","Bronchial wash and lavage","Trans bronchial lung biopsy (TBLB), Endobronchial Biopsy (EBB)","Medical Thoracoscopy","Inter costal tube drainage","Ultrasound guided pleural fluid aspiration","Non- invasive ventilation","Invasive Ventilation"],
                 publication_overview:"Faculty members actively publish research papers in national and international journals, contributing to advancements in diagnostic pathology and laboratory medicine.",
@@ -3048,7 +3049,7 @@
                 "infra_desc": "The department is equipped with dedicated clinical units and teaching facilities to support both academic and diagnostic activities, offering comprehensive care for various surgical conditions.",
                 "infra": [
                     "Outpatient Department with reception & waiting area, consultation room, examination room, dressing room, minor procedure room, demo room with audio-visual aids",
-                    "In-Patient Ward with 8 surgical wards equipped with basic life-supporting facilities",
+                    "In-Patient Ward with 6 surgical wards equipped with basic life-supporting facilities",
                     "Endoscopy Suite equipped for UPPER GI Endoscopy & Colonoscopy",
                     "Surgical ICU, Male Post-Operative Ward, Female Post-Operative Ward, Burns Ward",
                     "Fully equipped operation theatre for open and laparoscopic surgeries",
@@ -3430,18 +3431,7 @@
                         "path": "Orthopaedics/1.jpg",
                         "date": "30.06.2024"
                     },
-                    {
-                        "name": "Community Awareness Program for Osteoporosis - BMD Camps",
-                        "event": "Orthopaedics",
-                        "path": "Orthopaedics/2.jpg",
-                        "date": "05.08.2024"
-                    },
-                    {
-                        "name": "SCOPE – CME Orthopaedic PG Teaching Program",
-                        "event": "Orthopaedics",
-                        "path": "Orthopaedics/3.jpg",
-                        "date": "17.11.2024"
-                    },
+                    
                     {
                         "name": "Osteoporosis Detection Camp",
                         "event": "Orthopaedics",
@@ -4240,6 +4230,10 @@
                     {
                         "name": "Dr. R. Ashwene",
                         "designation": "Assistant Professor",
+                    },
+                    {
+                        "name": "Dr. Aravind",
+                        "designation": "Assistant Professor",
                     }
                 ],
                "services": [
@@ -4606,7 +4600,7 @@
                 "faculty": [
                     {
                     "name": "Dr Arun Prasath S",
-                    "designation": "Professor & Head, Department of Vascular Surgery"
+                    "designation": "Assistant Professor"
                     }
                 ],
                 "services": [

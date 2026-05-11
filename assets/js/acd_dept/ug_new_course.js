@@ -21,7 +21,7 @@
                         bgColor:color3
                     },
                     {
-                        label: "Anatomy", 
+                        label: "Community Medicine", 
                         bgColor:color4
                     }
                 ],

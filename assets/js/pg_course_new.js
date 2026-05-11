@@ -20,7 +20,7 @@ const departmentData = [
     description: "Comprehensive management of adult medical illnesses"
   },
   {
-    name: "Genral Surgery",
+    name: "General Surgery",
     description: "Surgical treatment of common clinical conditions"
   },
   {
@@ -32,7 +32,7 @@ const departmentData = [
     description: "Healthcare for women pregnancy and childbirth"
   },
   {
-    name: "Ophthamology",
+    name: "Ophthalmology",
     description: "Medical and surgical care of eyes"
   },
   {
