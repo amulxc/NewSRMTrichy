@@ -14,7 +14,14 @@ function openCmeModal(e,id="cmeModal") {
 function closeCmeModal(id="cmeModal") {
     document.getElementById(`${id}`).style.display = "none";
 }
+function openNmcSDModal(event) {
+    event.preventDefault();
+    document.getElementById("nmcSDModal").style.display = "flex";
+}
 
+function closeNmcSDModal() {
+    document.getElementById("nmcSDModal").style.display = "none";
+}
 
 // Close modal when clicking outside
 window.addEventListener("click", function (e) {

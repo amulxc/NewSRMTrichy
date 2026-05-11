@@ -1551,13 +1551,7 @@
             breadcrum:["breadcrum.JPG"],
             image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
-            overview: "Comprehensive mental health services with counseling and therapy. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-
-            objectives: [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
-            ],
+            overview: "The Department of Surgical Gastroenterology has been functioning since 2009 and is offering tertiary care treatment to patients with Gastro gastrointestinal problems. The Department is equipped with advanced Endoscopic diagnostic and therapeutic facilities including Endosonography.Tertiary care treatment and complex GI Surgeries are offered to patients with gastrointestinal problems in collaboration with the General Surgery Department.",
 
             doctor: [
                 {name: "Ram", designation: "Assistant professor", exp: "5"},
