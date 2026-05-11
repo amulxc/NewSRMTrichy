@@ -3115,7 +3115,7 @@ async function loadDoctorsFromExcel() {
         function showNotFound() {
             document.getElementById('app').innerHTML = `
                 <div class="not-found">
-                    <h2>Department Not Found</h2>
+                    <h2>Data need to be Updated</h2>
                     <p style="font-size: var(--font-xl); color: var(--color-text-secondary); margin-bottom: var(--spacing-xl);">
                         The department you're looking for doesn't exist or has been moved.
                     </p>
