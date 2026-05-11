@@ -38,6 +38,39 @@ const departments = [
 ];
 
 
+// General Medicine
+// Emergency Medicine
+// Paediatrics
+// Dermatology, Venereology & Leprosy
+// Psychiatry
+// Respiratory Medicine
+// General Surgery
+// Orthopaedics
+// ENT
+// Ophthalmology
+// Obstetrics and Gynaecology
+// Anaesthesiology
+// Radio Diagnosis
+// Dentistry
+// Cardiology
+// Neurology
+// Nephrology
+// Oncology
+// Gastroenterology
+// Cardio Vascular & Thoracic Surgery
+// Neurosurgery
+// Urology
+// oncology
+// Surgical Oncology
+// gastroenterology
+// Surgical Gastroenterology
+// Plastic and Reconstructive Surgery
+// Vascular Surgery
+// Paediatric Surgery
+
+
+// take department icon details  from hospital department pagage
+
 let SpecialityCard = departments.map(e => {
 
   return `

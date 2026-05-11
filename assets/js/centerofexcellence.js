@@ -122,7 +122,7 @@
                     <ul class="coe-center-features">
                         ${center.features.map(feature => `<li>${feature}</li>`).join('')}
                     </ul>
-                    <a class="coe-learn-more-btn" href="depart_specialities.html?dept=${center.name}">Learn More</a>
+                    <!--<a class="coe-learn-more-btn" href="depart_specialities.html?dept=${center.name}">Learn More</a>-->
                 </div>
             `).join('');
 
