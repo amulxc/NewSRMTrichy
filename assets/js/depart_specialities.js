@@ -91,7 +91,6 @@
             team:["hero-image.jpg"],
             breadcrum:["breadcrum.jpg"],
             image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
-
             overview: "The Department of Dentistry focuses on the scientific study of disease processes through laboratory investigations, tissue diagnosis, and research. It plays a crucial role in patient care, providing the best dental treatment at affordable cost. To create a competent and socially responsible system by providing quality oral health care and progressive research. To improve oral health, functionality and esthetics of people with quality dental care, in order to improve their nutrition, confidence and quality of life. To pursue collaborative research in the field of oral health.",
 
             objectives: [
@@ -3171,11 +3170,11 @@ async function loadDoctorsFromExcel() {
                     <!-- Overview Section -->
                     <div class="section">
                         <div class="overview-card">
-                            <h2 class="section-title" style="color:${dept.colorDark}">Department Overview</h2>
-                            <div class="dept-overview">
+                            <h2 class="section-title" style="color:${dept.colorDark}">Our Team</h2>
+                            ${dept.displays?`<div class="dept-overview">
                                 <img src="./assets/images/dept_images/${dept.name}/hero-image.jpg" onerror="this.onerror=null; this.src='./assets/images/Hero.jpg';" alt="">
-                                <p class="overview-text">${dept.overview}</p>
-                            </div>
+                            </div>`:``}
+                            <p class="overview-text">${dept.overview}</p>
                         </div>
                     </div>
 
