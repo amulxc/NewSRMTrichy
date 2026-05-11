@@ -2797,217 +2797,187 @@ const FAQJson = [
 ];
 const FAQJsonUpdated = FAQJson.map(item => {
 
-const patientCornerMap = {
-    anatomy: [
+const patientCornerMap = [
+  {
+    dept_id: "anatomy",
+    patient_data: [
       "Cadaver-based learning support",
       "Anatomy laboratory access",
       "Academic mentoring sessions"
-    ],
+    ]
+  },
 
-    Physiology: [
+  {
+    dept_id: "Physiology",
+    patient_data: [
       "Physiology practical training",
       "Laboratory experiment support",
       "Human body function analysis"
-    ],
+    ]
+  },
 
-    biochemistry: [
+  {
+    dept_id: "biochemistry",
+    patient_data: [
       "Routine biochemical investigations",
       "Clinical laboratory services",
       "Diagnostic blood testing"
-    ],
+    ]
+  },
 
-    Pathology: [
+  {
+    dept_id: "Pathology",
+    patient_data: [
       "Biopsy examination services",
       "Cancer diagnostic support",
       "Histopathology reporting"
-    ],
+    ]
+  },
 
-    Microbiology: [
+  {
+    dept_id: "Microbiology",
+    patient_data: [
       "Culture and sensitivity testing",
       "Infection diagnosis services",
       "Antibiotic susceptibility testing"
-    ],
+    ]
+  },
 
-    Pharmacology: [
+  {
+    dept_id: "Pharmacology",
+    patient_data: [
       "Drug safety monitoring",
       "Medication guidance",
       "Clinical research support"
-    ],
+    ]
+  },
 
-    ForensicMedicine: [
+  {
+    dept_id: "ForensicMedicine",
+    patient_data: [
       "Medico-legal documentation",
       "Postmortem examination support",
       "Forensic consultation services"
-    ],
+    ]
+  },
 
-    "Community Medicine": [
+  {
+    dept_id: "Community Medicine",
+    patient_data: [
       "Health awareness programs",
       "Community outreach camps",
       "Preventive healthcare services"
-    ],
+    ]
+  },
 
-    general_medicine: [
+  {
+    dept_id: "general_medicine",
+    patient_data: [
       "Chronic disease management",
       "General physician consultation",
       "Inpatient medical care"
-    ],
+    ]
+  },
 
-    "Emergency Medicine": [
+  {
+    dept_id: "Emergency Medicine",
+    patient_data: [
       "24/7 emergency support",
       "Trauma care services",
       "Critical patient stabilization"
-    ],
+    ]
+  },
 
-    Paediatrics: [
+  {
+    dept_id: "Paediatrics",
+    patient_data: [
       "Child healthcare services",
       "Vaccination programs",
       "Growth monitoring support"
-    ],
+    ]
+  },
 
-    "Respiratory Medicine": [
+  {
+    dept_id: "Respiratory Medicine",
+    patient_data: [
       "Asthma management",
       "Pulmonary diagnostic testing",
       "Respiratory rehabilitation"
-    ],
+    ]
+  },
 
-    "Dermatology, Venereology & Leprosy": [
+  {
+    dept_id: "Dermatology, Venereology & Leprosy",
+    patient_data: [
       "Skin disease treatment",
       "Cosmetic dermatology services",
       "STD consultation support"
-    ],
+    ]
+  },
 
-    Psychiatry: [
+  {
+    dept_id: "Psychiatry",
+    patient_data: [
       "Mental health counseling",
       "Psychotherapy sessions",
       "Behavioral disorder treatment"
-    ],
+    ]
+  },
 
-    general_surgery: [
+  {
+    dept_id: "general_surgery",
+    patient_data: [
       "Laparoscopic surgery",
       "Postoperative care",
       "Surgical consultation services"
-    ],
+    ]
+  },
 
-    orthopedics: [
+  {
+    dept_id: "orthopedics",
+    patient_data: [
       "Fracture management",
       "Joint replacement surgery",
       "Bone rehabilitation support"
-    ],
+    ]
+  },
 
-    ent: [
+  {
+    dept_id: "ent",
+    patient_data: [
       "Hearing evaluation",
       "Sinus treatment",
       "ENT specialist consultation"
-    ],
+    ]
+  },
 
-    ophthalmology: [
+  {
+    dept_id: "ophthalmology",
+    patient_data: [
       "Eye examinations",
       "Cataract surgery",
       "Laser vision treatment"
-    ],
+    ]
+  },
 
-    "Obstetrics & Gynaecology": [
+  {
+    dept_id: "Obstetrics & Gynaecology",
+    patient_data: [
       "Pregnancy care services",
       "Women’s health consultation",
       "Gynecological surgeries"
-    ],
+    ]
+  },
 
-    Anaesthesia: [
+  {
+    dept_id: "Anaesthesia",
+    patient_data: [
       "Pain management support",
       "ICU anesthesia care",
       "Surgical anesthesia services"
-    ],
-
-    "Radio Diagnosis": [
-      "MRI and CT imaging",
-      "Ultrasound diagnostics",
-      "Image-guided procedures"
-    ],
-
-    Cardiology: [
-      "ECG and echocardiography",
-      "Heart disease management",
-      "Cardiac stress testing"
-    ],
-
-    Neurology: [
-      "Stroke management",
-      "EEG diagnostics",
-      "Neurological consultation"
-    ],
-
-    Nephrology: [
-      "Dialysis services",
-      "Kidney disease management",
-      "Renal function monitoring"
-    ],
-
-    "Medical Oncology": [
-      "Chemotherapy support",
-      "Cancer counseling",
-      "Immunotherapy services"
-    ],
-
-    Gastroenterology: [
-      "Digestive disorder treatment",
-      "Endoscopy services",
-      "Liver disease management"
-    ],
-
-    "Cardio Vascular & Thoracic Surgery": [
-      "Bypass surgery support",
-      "Thoracic surgical procedures",
-      "Cardiac surgical care"
-    ],
-
-    Neurosurgery: [
-      "Brain surgery consultation",
-      "Spine surgery services",
-      "Minimally invasive neurosurgery"
-    ],
-
-    dentistry: [
-      "Dental checkups",
-      "Tooth restoration services",
-      "Preventive oral care"
-    ],
-
-    Urology: [
-      "Kidney stone treatment",
-      "Prostate care services",
-      "Laser urological procedures"
-    ],
-
-    "Surgical Oncology": [
-      "Tumor removal surgery",
-      "Cancer staging procedures",
-      "Oncology surgical consultation"
-    ],
-
-    "Surgical Gastroenterology": [
-      "Advanced GI surgeries",
-      "Laparoscopic GI procedures",
-      "Liver surgical treatment"
-    ],
-
-    "Plastic and Reconstructive Surgery": [
-      "Cosmetic surgery services",
-      "Burn care management",
-      "Reconstructive procedures"
-    ],
-
-    "Vascular Surgery": [
-      "Varicose vein treatment",
-      "Endovascular procedures",
-      "Vascular screening services"
-    ],
-
-    "Paediatric Surgery": [
-      "Neonatal surgical care",
-      "Child surgical procedures",
-      "Pediatric surgical consultation"
     ]
-  };
+  }
+];
   
 
   return {
@@ -3171,10 +3141,11 @@ async function loadDoctorsFromExcel() {
                     <div class="section">
                         <div class="overview-card">
                             <h2 class="section-title" style="color:${dept.colorDark}">Our Team</h2>
-                            ${dept.displays?`<div class="dept-overview">
-                                <img src="./assets/images/dept_images/${dept.name}/hero-image.jpg" onerror="this.onerror=null; this.src='./assets/images/Hero.jpg';" alt="">
-                            </div>`:``}
+                            <div class="dept-overview">
+                            ${dept.displays?`
+                                <img src="./assets/images/dept_images/${dept.name}/hero-image.jpg" onerror="this.onerror=null; this.src='./assets/images/Hero.jpg';" alt="">`:``}
                             <p class="overview-text">${dept.overview}</p>
+                            </div>
                         </div>
                     </div>
 
@@ -3275,19 +3246,6 @@ async function loadDoctorsFromExcel() {
                     </div>
                     ` : ''}
 
-                     <div class="section">
-                        <h2 class="section-title" style="color:${dept.colorDark}">Patient Corner</h2>
-                        <ul class="info-list">
-                       
-                        </ul>
-                        <div class="info-card">
-                            <ul class="info-list">
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati ducimus nemo soluta ad ea.</li>
-                            </ul>
-                        </div>
-                    </div>
 
                     <!-- FAQ -->
 
