@@ -12752,3 +12752,6 @@ grid-template-columns: 1fr;
     background-color: var(--color-teal);
     color: white;
   }
+  .researchers center img{
+    border-radius:20px;
+  }

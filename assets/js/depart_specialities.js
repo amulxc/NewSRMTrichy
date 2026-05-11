@@ -91,7 +91,6 @@
             team:["hero-image.jpg"],
             breadcrum:["breadcrum.jpg"],
             image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
-
             overview: "The Department of Dentistry focuses on the scientific study of disease processes through laboratory investigations, tissue diagnosis, and research. It plays a crucial role in patient care, providing the best dental treatment at affordable cost. To create a competent and socially responsible system by providing quality oral health care and progressive research. To improve oral health, functionality and esthetics of people with quality dental care, in order to improve their nutrition, confidence and quality of life. To pursue collaborative research in the field of oral health.",
 
             objectives: [
@@ -1791,7 +1790,7 @@
         
             faculty_desc: "A dedicated team of teaching faculty supports and guides students in their pursuit of academic excellence and research.",
             doctor: [
-                { name: "Dr.C.Gnanavelraja", designation: "Professor & HOD", exp: "18" },
+                { name: "Dr. Gnanavelraja C", designation: "Professor & HOD", exp: "18" },
                 { name: "Dr.M.Sivakumar", designation: "Professor", exp: "24" },
                 { name: "Dr.E.Kamala", designation: "Professor", exp: "16" },
                 { name: "Dr.R.Arjun", designation: "Professor", exp: "11" },
@@ -2796,8 +2795,202 @@ const FAQJson = [
 }
 
 ];
+const FAQJsonUpdated = FAQJson.map(item => {
 
+const patientCornerMap = [
+  {
+    dept_id: "anatomy",
+    patient_data: [
+      "Cadaver-based learning support",
+      "Anatomy laboratory access",
+      "Academic mentoring sessions"
+    ]
+  },
 
+  {
+    dept_id: "Physiology",
+    patient_data: [
+      "Physiology practical training",
+      "Laboratory experiment support",
+      "Human body function analysis"
+    ]
+  },
+
+  {
+    dept_id: "biochemistry",
+    patient_data: [
+      "Routine biochemical investigations",
+      "Clinical laboratory services",
+      "Diagnostic blood testing"
+    ]
+  },
+
+  {
+    dept_id: "Pathology",
+    patient_data: [
+      "Biopsy examination services",
+      "Cancer diagnostic support",
+      "Histopathology reporting"
+    ]
+  },
+
+  {
+    dept_id: "Microbiology",
+    patient_data: [
+      "Culture and sensitivity testing",
+      "Infection diagnosis services",
+      "Antibiotic susceptibility testing"
+    ]
+  },
+
+  {
+    dept_id: "Pharmacology",
+    patient_data: [
+      "Drug safety monitoring",
+      "Medication guidance",
+      "Clinical research support"
+    ]
+  },
+
+  {
+    dept_id: "ForensicMedicine",
+    patient_data: [
+      "Medico-legal documentation",
+      "Postmortem examination support",
+      "Forensic consultation services"
+    ]
+  },
+
+  {
+    dept_id: "Community Medicine",
+    patient_data: [
+      "Health awareness programs",
+      "Community outreach camps",
+      "Preventive healthcare services"
+    ]
+  },
+
+  {
+    dept_id: "general_medicine",
+    patient_data: [
+      "Chronic disease management",
+      "General physician consultation",
+      "Inpatient medical care"
+    ]
+  },
+
+  {
+    dept_id: "Emergency Medicine",
+    patient_data: [
+      "24/7 emergency support",
+      "Trauma care services",
+      "Critical patient stabilization"
+    ]
+  },
+
+  {
+    dept_id: "Paediatrics",
+    patient_data: [
+      "Child healthcare services",
+      "Vaccination programs",
+      "Growth monitoring support"
+    ]
+  },
+
+  {
+    dept_id: "Respiratory Medicine",
+    patient_data: [
+      "Asthma management",
+      "Pulmonary diagnostic testing",
+      "Respiratory rehabilitation"
+    ]
+  },
+
+  {
+    dept_id: "Dermatology, Venereology & Leprosy",
+    patient_data: [
+      "Skin disease treatment",
+      "Cosmetic dermatology services",
+      "STD consultation support"
+    ]
+  },
+
+  {
+    dept_id: "Psychiatry",
+    patient_data: [
+      "Mental health counseling",
+      "Psychotherapy sessions",
+      "Behavioral disorder treatment"
+    ]
+  },
+
+  {
+    dept_id: "general_surgery",
+    patient_data: [
+      "Laparoscopic surgery",
+      "Postoperative care",
+      "Surgical consultation services"
+    ]
+  },
+
+  {
+    dept_id: "orthopedics",
+    patient_data: [
+      "Fracture management",
+      "Joint replacement surgery",
+      "Bone rehabilitation support"
+    ]
+  },
+
+  {
+    dept_id: "ent",
+    patient_data: [
+      "Hearing evaluation",
+      "Sinus treatment",
+      "ENT specialist consultation"
+    ]
+  },
+
+  {
+    dept_id: "ophthalmology",
+    patient_data: [
+      "Eye examinations",
+      "Cataract surgery",
+      "Laser vision treatment"
+    ]
+  },
+
+  {
+    dept_id: "Obstetrics & Gynaecology",
+    patient_data: [
+      "Pregnancy care services",
+      "Women’s health consultation",
+      "Gynecological surgeries"
+    ]
+  },
+
+  {
+    dept_id: "Anaesthesia",
+    patient_data: [
+      "Pain management support",
+      "ICU anesthesia care",
+      "Surgical anesthesia services"
+    ]
+  }
+];
+  
+
+  return {
+    ...item,
+    patient_corner:
+      patientCornerMap[item.dept_id] || [
+        "Comprehensive patient care",
+        "Specialist consultation",
+        "Diagnostic support services"
+      ]
+  };
+
+});
 let doctorsData = [];
 let filteredDoctors = [];
 
@@ -2883,18 +3076,11 @@ async function loadDoctorsFromExcel() {
             if (!doctor || !doctor["Contact Number"]) {
                 return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGG7erz9q0Rya1nPGFfbz6LVLjyU-7md7hOQ&s";
             }
-            const mobileNumbers=["6380082293","8144380594","8870006474","9159737792","9497272218","9655033677","9842445404","9944369232","7010067233","8148976948","8870180733","9159874787","9500390155","9655345050","9842657937","9944919976","7010244896","8189827034","8870182955","9245407634","9500799099","9655499228","9843049946","9952346339","7010260430","8220337943","8870449010","9344675106","9500820460","9677433895","9843771963","9952541163","7013857235","8220485344","8870764245","9344807507","9543146090","9677596700","9843778866","9962768583","7092060396","8870946952","7306889687","7598346561","7598539347","7639040777","7639801164","8270850797","7708299832","8289877020","7708422167","8989879619","7812817014","8344463828","7904679468","8344567538","9003186360","8056496100","8438103656","9003711922","9444163130","8056498997","8508553311","8056616164","8056630407","9447593754","8220691685","8220935491","8220999766","8248667938","8248937326","8300639698","8508866500","8608924684","8903475255","8903689224","8939260447","8939566146","8940025731","8973764197","9003056068","9025078494","9025918896","9047042084","9441100201","9442092653","9443026348","9443133500","9443158699","9443164535","9443241424","9443357653","9443401736","9443608911","9445972712","9447345528","9566518548","9566902040","9566945363","9597484444","9600201097","9741095649","9786497001","9787319750","9789369474","9846033791","9865637190","9894147545","9894210857","9566371859","9688141772","9843942711","9963556484","9739277039","9976115391","9976551564","9744793136","9865841473","9980839365","9566967956","9745122201","9884025784","9994013589","9573557793","9746040253","9884383428","9994020894","9578484266","9750634515","9884983543","9994098951","9578959904","9786146613","9885626669","9994264019","9585536854","9888471619","9994281928","9994667489","9994841287","9600433507","9789443655","9894440435","9994968775","9600443041","9789772227","9894489142","9995876592","9600643840","9789882729","9894593245","8056856800","8667096668","9047401406","9486643131","9600733744","9790448296","9894710019","8072572223","8072806898","8727849777","8668091952","9047441963","9047424834","9486885993","9605074185","9790486568","9894835015","9487487880","9626085208","9790585720","9894914243","8089448449","8744900567","9047488954","9487553062","9626666581","9790628434","9899936858","8095758457","8754642292","9080800019","9487590559","9626819558","9790667390","9940542276","8098810385","8754854545","9488200609","8098893437","8807502994","8098998203","8807820458","9150100693","9489477398","9095091334","9123578591","9489254765","9629186681","9629231823","9626913491","9791788778","9940774257","9840050180","9940987742","9840714789","9941734421","8110028695","8838499632","9159012345","9489567930","9629798737","9842091151","9943155175","8113090090","8838514054","9159512213","9489644074","9629881102","9842103319","9944311724","8122557996","8870001894","9159520787","9492092407","9630766309","9842434563","9944350363"];
-
-            const doctorImageMap={};
-            mobileNumbers.map((e,i)=>{
-                doctorImageMap[e]="dr"+(i+1);
-            })
-            const myImg=doctorImageMap[doctor["Contact Number"]];
 
             const ext = doctor["Contact Number"] === "9894489142" ? "jpg" : "JPG";
             const num = doctor["Contact Number"]
             return {
-                image:`assets/doctors/${myImg}`,
+                image:`./assets/images/doctors/${num}.${ext}`,
                 id:doctor.id
             };
         }
@@ -2919,13 +3105,13 @@ async function loadDoctorsFromExcel() {
         function getDoctorImage(deptName, doctorName) {
             const imgPath = doctorImage(deptName, doctorName);            
             const fallback = 'assets/doctors/default.png';
-            if(imgPath!==undefined || imgPath!=''){
-                return imgPath;
-            }
-            else{
-                return fallback;
-            }
-        }   
+                if(imgPath!==undefined || imgPath!=''){
+                    return imgPath;
+                }
+                else{
+                    return fallback;
+                }
+            }   
         
         function hexToRgb(hex) {
             hex = hex.replace('#', '');
@@ -2956,21 +3142,23 @@ async function loadDoctorsFromExcel() {
                         <div class="overview-card">
                             <h2 class="section-title" style="color:${dept.colorDark}">Our Team</h2>
                             <div class="dept-overview">
-                                ${dept.displays ? `<img src="assets/images/dept_images/${dept.name}/${dept.team}" onerror="this.onerror=null; this.src='assets/images/Hero.jpg';" alt="">`:``}
-                                <p class="overview-text">${dept.overview}</p>
+                            ${dept.displays?`
+                                <img src="./assets/images/dept_images/${dept.name}/hero-image.jpg" onerror="this.onerror=null; this.src='./assets/images/Hero.jpg';" alt="">`:``}
+                            <p class="overview-text">${dept.overview}</p>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Procedures & Infrastructure -->
                     <div class="section ">
                         <div class="grid-2">
-                            ${dept.objectives ? `
+                            ${dept.procedure ? `
                             <div class="info-card">
                                 <h3 class="info-card-title" style="color:${dept.colorDark}">
-                                    Objectives
+                                    Objectives & Procedures
                                 </h3>
                                 <ul class="info-list">
-                                    ${dept.objectives.map(item => `<li>${item}</li>`).join('')}
+                                    ${dept.procedure.map(item => `<li>${item}</li>`).join('')}
                                 </ul>
                             </div>
                             ` : ''}
@@ -2989,14 +3177,15 @@ async function loadDoctorsFromExcel() {
 
                     <!-- Services Section -->
 
-                    ${dept.displays ?  `
+                    ${dept.infra ?  `
                         <div class="section infra-section">
                         <h2 class="section-title" style="color:${dept.colorDark}">Infrastructure</h2>
                             <div class="infra">
                                 ${
-                                    dept.image.map((x,i) =>
+                                    dept.infra.map((x,i) =>
                                         `<div class="infra-card">
-                                            <img src="assets/images/dept_images/${dept.name}/${x}" alt="">
+                                            <img src="./assets/images/dept_images/${dept.name}/${i+1}.jpg" alt="">
+                                            <p>${x}</p>
                                         </div>`
                                     ).join("")
                                 }
@@ -3008,10 +3197,10 @@ async function loadDoctorsFromExcel() {
                     <!-- doctor Section -->
                     ${dept.doctor && dept.doctor.length > 0 ? `
                         <div class="section">
-                        <h2 class="section-title" style="color:${dept.colorDark}">Our Doctors</h2>
+                        <h2 class="section-title" style="color:${dept.colorDark}">Our Medical Team</h2>
                         <div class="grid-3">
                             ${dept.doctor.map(doc => `
-                            <div class="doctor-card">
+                            <div class="doctor-card" onclick="viewDoctorProfile(${getDoctorImage(dept.name, doc.name).id})">
                                 <div class="doctor-avatar">
                                 <img
                                     src="${getDoctorImage(dept.name, doc.name).image}"
@@ -3048,14 +3237,15 @@ async function loadDoctorsFromExcel() {
                     <div class="section">
                         <h2 class="section-title" style="color:${dept.colorDark}">Achievements</h2>
                         <div class="info-card">
-                            <div class="service-tags">
-                                <ul class="info-list2">
-                                    ${dept.achievements.map(item => `<li><i class='fa fa-trophy'></i>${item}</li>`).join('')}
-                                </ul>
-                            </div>
+                            <ul class="info-list">
+                                ${dept.achievements.map(Item => `
+                                    <li>${Item}</li>
+                                `).join('')}
+                            </ul>
                         </div>
                     </div>
                     ` : ''}
+
 
                     <!-- FAQ -->
 
@@ -3090,6 +3280,7 @@ async function loadDoctorsFromExcel() {
             let breadcrum = document.getElementById('breadcrum-section')
             let k=dept.name.split(" ");
             let l=k.join("%20")
+            console.log(l);
             
             
             breadcrum.style.backgroundImage = `linear-gradient(
@@ -3097,7 +3288,7 @@ async function loadDoctorsFromExcel() {
                 rgba(${hexToRgb(dept.color)}, 0.6),
                 rgba(${hexToRgb(dept.colorDark)}, 0.6)
             ),
-            url(assets/images/dept_images/${l}/${dept.breadcrum})` || `linear-gradient(to right,#0153349f,#001f20e3),url(assets/images/breadcrum/hospital.jpeg)`;
+            url(./assets/images/dept_images/${l}/breadcrum.jpg)` || `linear-gradient(to right,#0153349f,#001f20e3),url(../images/DoctorsforMilestone.jpeg)`;
 
             
             breadcrum.style.height="70vh"
@@ -3121,19 +3312,14 @@ async function loadDoctorsFromExcel() {
         }
 
         function init() {
-            const deptId1 = getDeptIdFromURL();
-            const mydeptId=deptId1.split("%20");
-            const deptId=mydeptId.join(" ");
-            console.log(deptId1);
-            console.log(deptId);
+            const deptId = getDeptIdFromURL();
             
             if (!deptId) {
                 showNotFound();
                 return;
             }
 
-
-            const department = depts.find(d => d.id.includes(deptId));
+            const department = depts.find(d => d.id === deptId);
             if (department) {
                 renderDepartment(department);
             } else {
