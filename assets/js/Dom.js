@@ -281,7 +281,7 @@
             <div class='content' id='emgWord'  translate="no">
             </div>
             <div class='content2'>
-              <p>Book an Appointment <br><a href='tel:0431-225 5555' data-wg-notranslate><i class='fa fa-phone'></i> 0431-225 5555</a></p>
+              <p translate="no">Book an Appointment <br><a href='tel:0431-225 5555' data-wg-notranslate><i class='fa fa-phone'></i> 0431-225 5555</a></p>
               <p>Ambulance <br><a href='tel:1800 123 108 108' data-wg-notranslate><i class='fa fa-phone'></i> 1800 123 108 108</a></p>
             </div>
             
