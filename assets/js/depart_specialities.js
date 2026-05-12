@@ -3129,8 +3129,8 @@ async function loadDoctorsFromExcel() {
 
         function renderDepartment(dept) {
             const iconClass = dept.icon.includes('fa-') ? `fas ${dept.icon}` : dept.icon;
-            document.getElementById('breadcrum').innerHTML= dept.name
-            document.getElementById('breadcrum-span').innerHTML= dept.name
+            document.getElementById('breadcrum').innerHTML= dept.name == "ENT" ? "OTORHINOLARYNGOLOGY (ENT)" : dept.name
+            document.getElementById('breadcrum-span').innerHTML= dept.name == "ENT" ? "OTORHINOLARYNGOLOGY (ENT)" : dept.name
             const FAQdata = getFAQ(dept.id);
             const html = `
                 <!-- Hero Section -->
