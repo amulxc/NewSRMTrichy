@@ -6,6 +6,24 @@ function openNmcModal(event) {
 function closeNmcModal() {
     document.getElementById("nmcModal").style.display = "none";
 }
+function openPubModal(event) {
+    event.preventDefault();
+    document.getElementById("pubModal").style.display = "flex";
+}
+
+function closePubModal() {
+    document.getElementById("pubModal").style.display = "none";
+}
+
+
+function openLopModal(event) {
+    event.preventDefault();
+    document.getElementById("lopModal").style.display = "flex";
+}
+
+function closeLopModal() {
+    document.getElementById("lopModal").style.display = "none";
+}
 
 function openCmeModal(e,id="cmeModal") {
     e.preventDefault();

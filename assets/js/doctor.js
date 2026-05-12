@@ -113,7 +113,8 @@ function init() {
 // Populate filter options
 function populateFilters() {
     // Specialities
-    const specialties = [...new Set(doctorsData.map(d => d.specialty))];
+     const specialties = [...new Set(doctorsData.map(d => d.specialty))]
+        .sort((a, b) => a.localeCompare(b));
     const specialitiesFilter = document.getElementById('specialitiesFilter');
     specialties.forEach((specialty, index) => {
         specialitiesFilter.innerHTML += `
