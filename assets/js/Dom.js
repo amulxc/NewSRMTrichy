@@ -130,10 +130,10 @@
               <li class="has-submenu" data-submenu="milestones">
                 <a href="./aboutus.html#milestones">Accreditations <span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
-                  <li><a href="aboutus.html#logos">NAAC</a></li>
-                  <li><a href="aboutus.html#logos">NABH</a></li>
-                  <li><a href="aboutus.html#logos">NABL</a></li>
-                  <li><a href="aboutus.html#logos">PM JAY</a></li>
+                  <li><a href="./aboutus.html#logos">NAAC</a></li>
+                  <li><a href="./aboutus.html#logos">NABH</a></li>
+                  <li><a href="./aboutus.html#logos">NABL</a></li>
+                  <li><a href="./aboutus.html#logos">PM JAY</a></li>
                 </ul>
               </li>
               <li><a href="./aboutus.html#alumini">Alumini Feedback</a></li>
