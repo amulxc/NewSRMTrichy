@@ -2076,23 +2076,24 @@
                     }
                 ]
             },
-            // {
-            //     id: "Gastroenterology", name: "Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
-            //     desc: "Comprehensive mental health services with counseling and therapy.",
-            //     vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-            //     infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-            //     faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-            //     services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
-            //     pubStats: [{label: "Publications", value: "20+"}],
-            //     pubHighlights: ["Depression management"],
-            //     pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
-            //     research: ["Mental health awareness", "Addiction treatment"],
-            //     events: ["World Mental Health Day"],
-            //     achievements: ["Excellence in Mental Health"],
-            //     gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
-            // },
+            {
+                id: "Gastroenterology", name: "Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
+                noContent:true,
+                desc: "Comprehensive mental health services with counseling and therapy.",
+                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
+                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
+                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
+                services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
+                pubStats: [{label: "Publications", value: "20+"}],
+                pubHighlights: ["Depression management"],
+                pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
+                research: ["Mental health awareness", "Addiction treatment"],
+                events: ["World Mental Health Day"],
+                achievements: ["Excellence in Mental Health"],
+                gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
+            },
             {
                 "id": "general_medicine",
                 "name": "General Medicine",
@@ -3794,7 +3795,6 @@
 
                 "faculty_desc": "Highly Qualified Faculty with Extensive Clinical and Academic Experience.",
                 "faculty": [
-                    { "name": "Dr.Dhivya Sethuraman", "designation": "Professor & HOD"},
                     { "name": "Dr.S.Revwathy", "designation": "Professor & Director"},
                     { "name": "Dr.J.Shankar", "designation": "Professor"},
                     { "name": "Dr.S.Banumathy", "designation": "Associate Professor"},
@@ -4274,23 +4274,24 @@
                     "Advanced video-assisted thoracic (VATS) surgeries."
                 ]
             },
-            // {
-            //     id: "Neurosurgery", name: "Neurosurgery", icon: `<i class="fas fa-brain"></i> `, color: "#27ae60", colorDark: "#229954",
-            //     desc: "Comprehensive internal medicine care for all age groups.",
-            //     vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-            //     infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-            //     faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-            //     services: ["General Consultation", "Diabetes Care", "Hypertension", "Infectious Diseases", "Respiratory Medicine", "Gastroenterology", "Cardiology", "Nephrology"],
-            //     pubStats: [{label: "Publications", value: "30+"}],
-            //     pubHighlights: ["Diabetes management"],
-            //     pubYearwise: [{year: "2023", title: "Diabetes protocols", journal: "Medicine Today", type: "Research"}],
-            //     research: ["Chronic disease management"],
-            //     events: ["World Diabetes Day"],
-            //     achievements: ["Best Medicine Dept"],
-            //     gallery: [{name: "OPD", icon: "fa-clinic-medical", event: "OPD", date: "Jan 2024"}]
-            // },
+            {
+                id: "Neurosurgery", name: "Neurosurgery", icon: `<i class="fas fa-brain"></i> `, color: "#27ae60", colorDark: "#229954",
+                desc: "Comprehensive internal medicine care for all age groups.",
+                noContent:true,
+                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
+                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
+                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
+                services: ["General Consultation", "Diabetes Care", "Hypertension", "Infectious Diseases", "Respiratory Medicine", "Gastroenterology", "Cardiology", "Nephrology"],
+                pubStats: [{label: "Publications", value: "30+"}],
+                pubHighlights: ["Diabetes management"],
+                pubYearwise: [{year: "2023", title: "Diabetes protocols", journal: "Medicine Today", type: "Research"}],
+                research: ["Chronic disease management"],
+                events: ["World Diabetes Day"],
+                achievements: ["Best Medicine Dept"],
+                gallery: [{name: "OPD", icon: "fa-clinic-medical", event: "OPD", date: "Jan 2024"}]
+            },
             {
                 id: "Urology", name: "Urology", icon: `<i class="material-symbols-outlined">urology</i>`, color: "#ff9800", colorDark: "#f57c00",
                 desc: "Experienced, skilfull and compassionate Urologists State of the art equipment for all endourology and laparoscopy procedures",
@@ -4311,23 +4312,24 @@
                 faculty: [{name: "DR. JAYAKUMAR.P", designation: "Assistant professor"}],
                 services: ["Head and Neck Cancer","Breast Cancer","Thyroid Cancer","Soft Tissue and Bone Sarcoma","Esophageal Cancer","Gastrointestinal Cancer","Hepatobiliary and Pancreatic Cancer","Uro-Gynecological Oncology","Skin Cancer"]
             },
-            // {
-            //     id: "Surgical Gastroenterology", name: "Surgical Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
-            //     desc: "Comprehensive mental health services with counseling and therapy.",
-            //     vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-            //     infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-            //     faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-            //     services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
-            //     pubStats: [{label: "Publications", value: "20+"}],
-            //     pubHighlights: ["Depression management"],
-            //     pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
-            //     research: ["Mental health awareness", "Addiction treatment"],
-            //     events: ["World Mental Health Day"],
-            //     achievements: ["Excellence in Mental Health"],
-            //     gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
-            // },
+            {
+                id: "Surgical Gastroenterology", name: "Surgical Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
+                noContent:true,
+                desc: "Comprehensive mental health services with counseling and therapy.",
+                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
+                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
+                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
+                services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
+                pubStats: [{label: "Publications", value: "20+"}],
+                pubHighlights: ["Depression management"],
+                pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
+                research: ["Mental health awareness", "Addiction treatment"],
+                events: ["World Mental Health Day"],
+                achievements: ["Excellence in Mental Health"],
+                gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
+            },
               {
                 id: "Plastic and Reconstructive Surgery", name: "Plastic and Reconstructive Surgery", icon: `<i class="fas fa-user-alt"></i>`, color: "#e74c3c", colorDark: "#c0392b",
                 "desc": "The Department of Plastic and Reconstructive Surgery provides comprehensive curative, reconstructive, aesthetic and trauma-related surgical care. The unit is dedicated to evidence-based clinical practice, advanced surgical interventions, and academic excellence.",
@@ -4661,23 +4663,24 @@
                     "High success rate in AV fistula creation"
                 ],
             },
-            // {
-            //     id: "Paediatric Surgery", name: "Paediatric Surgery", icon: `<i class="fas fa-baby"></i>`, color: "#26c6da", colorDark: "#00acc1",
-            //     desc: "Comprehensive respiratory care with pulmonary function testing.",
-            //     vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-            //     infra: ["Pulmonary function lab", "Bronchoscopy suite", "Respiratory ICU", "Sleep study lab"],
-            //       faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-            //     services: ["Asthma Management", "COPD Care", "TB Treatment", "Bronchoscopy", "Pulmonary Function Tests", "Sleep Studies"],
-            //     pubStats: [{label: "Publications", value: "7"},{label: "International", value: "7"},{label: "National", value: "7"}],
-            //     pubHighlights: ["COPD management"],
-            //     pubYearwise: [{year: "2023", title: "Asthma treatment protocols", journal: "Respiratory Medicine", type: "Research"}],
-            //     research: ["Asthma protocols", "TB treatment"],
-            //     events: ["World COPD Day"],
-            //     achievements: ["Excellence in Pulmonary Care"],
-            //     gallery: [{name: "PFT Lab", icon: "fa-wind", event: "Respiratory Lab", date: "Dec 2023"}]
-            // },
+            {
+                id: "Paediatric Surgery", name: "Paediatric Surgery", icon: `<i class="fas fa-baby"></i>`, color: "#26c6da", colorDark: "#00acc1",
+                desc: "Comprehensive respiratory care with pulmonary function testing.",
+                noContent:true,
+                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
+                infra: ["Pulmonary function lab", "Bronchoscopy suite", "Respiratory ICU", "Sleep study lab"],
+                  faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
+                services: ["Asthma Management", "COPD Care", "TB Treatment", "Bronchoscopy", "Pulmonary Function Tests", "Sleep Studies"],
+                pubStats: [{label: "Publications", value: "7"},{label: "International", value: "7"},{label: "National", value: "7"}],
+                pubHighlights: ["COPD management"],
+                pubYearwise: [{year: "2023", title: "Asthma treatment protocols", journal: "Respiratory Medicine", type: "Research"}],
+                research: ["Asthma protocols", "TB treatment"],
+                events: ["World COPD Day"],
+                achievements: ["Excellence in Pulmonary Care"],
+                gallery: [{name: "PFT Lab", icon: "fa-wind", event: "Respiratory Lab", date: "Dec 2023"}]
+            },
             
             
         ];
@@ -4755,8 +4758,19 @@
             const container = document.getElementById('departmentDetail');
             container.style.setProperty('--dept-color', d.color);
             container.style.setProperty('--dept-color-dark', d.colorDark);
-            
-            let html = `
+            let html='';
+            if(d.noContent){
+                 html = `<div class="accordion-section" style='border:none;'>
+                                <div class="accordion-body" style='text-align:center;padding:20vh;color:grey'>
+                                    <center>
+                                        <h1><i class='fas fa-search'></i></h1>
+                                        <h2>Data not yet recieved</h2>
+                                    </center>
+                                </div>
+                        </div>`;
+            }
+            else{
+                   html = `
                 <div class="detail-header" id="${d.id}">
                     <div class="detail-header-content">
                         <h2>
@@ -4776,238 +4790,237 @@
                         </div>
                     </div>
                 </div>
-            `;
-            if (d.vision) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-bullseye"></i> Vision & Mission</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                               <h4>Vision</h4>
-                                <br>
-                                <ul>${d.vision}</ul>
-                                <br><br>
-                                <h4>Mission</h4>
-                                <br>
-                                <ul>${d.mission}</ul>
-                                <br><br>
-                                <h4>Objectives</h4>
-                                <br>
-                                ${d.objectives ? `${
-                                    d.objectives.map(f => `<li>${f}</li>`).join('')
-                                }`:''}
-                            </div>
-                        </div>
-                    </div>
                 `;
-            }
-            
-
-            if (d.infra) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-hospital"></i> Infrastructure</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                <p>${d.infra_desc ? d.infra_desc: "State-of-the-art facilities ensuring highest standards of patient care.</p>"}
-                                <ul>${d.infra.map(f => `<li>${f}</li>`).join('')}</ul>
+                if (d.vision) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-bullseye"></i> Vision & Mission</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
                             </div>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            if (d.faculty) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-user-md"></i>Doctors</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                ${d.faculty ? `
-                                        <div class="publication-table-wrapper">
-                                            <table class="publication-table">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width: 10%">S.No</th>
-                                                        <th style="width: 40%">Name of the Doctor</th>
-                                                        <th style="width: 50%">Designation</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    ${d.faculty.map((p,i) => `
-                                                        <tr>
-                                                            <td data-label="S.No">${i+1}</td>
-                                                            <td data-label="Name of the Faculty"><strong>${p.name}</strong></td>
-                                                            <td data-label="Designation">${p.designation}</td>
-                                                        </tr>
-                                                    `).join('')}
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    ` : '<p>Year-wise publication data will be updated soon.</p>'}
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            if (d.pubStats) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="tabs-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-book-medical"></i> Publications</div>
-                            <i class="fas fa-chevron-down tabs-expand-icon"></i>
-                        </div>
-                        <div class="tabs-body">
-                            <div class="tabs-content-wrapper">
-                                <div class="tabs-nav">
-                                    <button class="tab-button active" onclick="switchTab(event, 'overview-${d.id}')">Overview</button>
-                                    <button class="tab-button" onclick="switchTab(event, 'yearwise-${d.id}')">Year-wise</button>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                <h4>Vision</h4>
+                                    <br>
+                                    <ul>${d.vision}</ul>
+                                    <br><br>
+                                    <h4>Mission</h4>
+                                    <br>
+                                    <ul>${d.mission}</ul>
+                                    <br><br>
+                                    ${d.objectives ? `<h4>Objectives</h4>${
+                                        d.objectives.map(f => `<li>${f}</li>`).join('')
+                                    }`:''}
                                 </div>
-                                
-                                <div id="overview-${d.id}" class="tab-content active">
-                                    <p>Significant contributions to medical literature and research.</p>
-                                    <div class="stats-grid">
-                                        ${d.pubStats.map(s => `
-                                            <div class="stat-card">
-                                                <h4>${s.value}</h4>
-                                                <p>${s.label}</p>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+
+                if (d.infra) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-hospital"></i> Infrastructure</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                    <p>${d.infra_desc ? d.infra_desc: "State-of-the-art facilities ensuring highest standards of patient care.</p>"}
+                                    <ul>${d.infra.map(f => `<li>${f}</li>`).join('')}</ul>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                if (d.faculty) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-user-md"></i>Doctors</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                    ${d.faculty ? `
+                                            <div class="publication-table-wrapper">
+                                                <table class="publication-table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th style="width: 10%">S.No</th>
+                                                            <th style="width: 40%">Name of the Doctor</th>
+                                                            <th style="width: 50%">Designation</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        ${d.faculty.map((p,i) => `
+                                                            <tr>
+                                                                <td data-label="S.No">${i+1}</td>
+                                                                <td data-label="Name of the Faculty"><strong>${p.name}</strong></td>
+                                                                <td data-label="Designation">${p.designation}</td>
+                                                            </tr>
+                                                        `).join('')}
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        ` : '<p>Year-wise publication data will be updated soon.</p>'}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                if (d.pubStats) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="tabs-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-book-medical"></i> Publications</div>
+                                <i class="fas fa-chevron-down tabs-expand-icon"></i>
+                            </div>
+                            <div class="tabs-body">
+                                <div class="tabs-content-wrapper">
+                                    <div class="tabs-nav">
+                                        <button class="tab-button active" onclick="switchTab(event, 'overview-${d.id}')">Overview</button>
+                                        <button class="tab-button" onclick="switchTab(event, 'yearwise-${d.id}')">Year-wise</button>
+                                    </div>
+                                    
+                                    <div id="overview-${d.id}" class="tab-content active">
+                                        <p>Significant contributions to medical literature and research.</p>
+                                        <div class="stats-grid">
+                                            ${d.pubStats.map(s => `
+                                                <div class="stat-card">
+                                                    <h4>${s.value}</h4>
+                                                    <p>${s.label}</p>
+                                                </div>
+                                            `).join('')}
+                                        </div>
+                                        ${d.pubHighlights ? `
+                                            <h4 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--color-text-primary);">Key Research Highlights</h4>
+                                            <ul class="accordion-body" style="padding: 0;list-style:none;">
+                                                ${d.pubHighlights.map(p => `<li>${p}</li>`).join('')}
+                                            </ul>
+                                        ` : ''}
+                                    </div>
+                                    
+                                    <div id="yearwise-${d.id}" class="tab-content">
+                                        ${d.pubYearwise ? `
+                                            <div class="publication-table-wrapper">
+                                                <table class="publication-table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th style="width: 10%">Year</th>
+                                                            <th style="width: 45%">Title</th>
+                                                            <th style="width: 30%">Journal</th>
+                                                            <th style="width: 15%">Type</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        ${d.pubYearwise.map(p => `
+                                                            <tr>
+                                                                <td data-label="Year"><span class="year-badge">${p.year}</span></td>
+                                                                <td data-label="Title"><strong>${p.title}</strong></td>
+                                                                <td data-label="Journal">${p.journal}</td>
+                                                                <td data-label="Type"><span class="year-badge">${p.type}</span></td>
+                                                            </tr>
+                                                        `).join('')}
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        ` : '<p>Year-wise publication data will be updated soon.</p>'}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                if (d.research) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-microscope"></i> Research</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                    <p>${d.research_desc?d.research_desc:"Cutting-edge research advancing medical science."}</p>
+                                    <ul>${d.research.map(r => `<li>${r}</xli>`).join('')}</ul>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                if (d.events) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-calendar-alt"></i> Events</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                    <p>Regular conferences, training programs, and awareness campaigns.</p>
+                                    <ul>${d.events.map(e => `<li>${e}</li>`).join('')}</ul>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                if (d.achievements) {
+                    console.log(d.achievements);
+                    
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-trophy"></i> Achievements</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                    <p>${d.achievements_desc?d.achievements_desc:"Recognition and awards for excellence in healthcare."}</p>
+                                    <ul>${d.achievements.map(a => `<li>${a}</li>`).join('')}</ul>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                if (d.gallery) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-images"></i> Gallery</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                    <p>Visual documentation of our facilities, events, and achievements.</p>
+                                    <div class="gallery-grid">
+                                        ${d.gallery.map(img => `
+                                            <div class="gallery-item">
+                                                <div class="gallery-placeholder">
+                                                    <img src="assets/images/gallery/${img.path}" alt='Not Given'>
+                                                </div>
+                                                <div class="gallery-overlay">
+                                                    <div class="gallery-overlay-title">${img.name}</div>
+                                                        ${
+                                                            img.date !== '' || img.date === undefined
+                                                            ? `<div class="gallery-overlay-date"><i class="fas fa-calendar"></i> ${img.date}</div>`
+                                                            : ''
+                                                        }
+                                                </div>
                                             </div>
                                         `).join('')}
                                     </div>
-                                    ${d.pubHighlights ? `
-                                        <h4 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--color-text-primary);">Key Research Highlights</h4>
-                                        <ul class="accordion-body" style="padding: 0;list-style:none;">
-                                            ${d.pubHighlights.map(p => `<li>${p}</li>`).join('')}
-                                        </ul>
-                                    ` : ''}
-                                </div>
-                                
-                                <div id="yearwise-${d.id}" class="tab-content">
-                                    ${d.pubYearwise ? `
-                                        <div class="publication-table-wrapper">
-                                            <table class="publication-table">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width: 10%">Year</th>
-                                                        <th style="width: 45%">Title</th>
-                                                        <th style="width: 30%">Journal</th>
-                                                        <th style="width: 15%">Type</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    ${d.pubYearwise.map(p => `
-                                                        <tr>
-                                                            <td data-label="Year"><span class="year-badge">${p.year}</span></td>
-                                                            <td data-label="Title"><strong>${p.title}</strong></td>
-                                                            <td data-label="Journal">${p.journal}</td>
-                                                            <td data-label="Type"><span class="year-badge">${p.type}</span></td>
-                                                        </tr>
-                                                    `).join('')}
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    ` : '<p>Year-wise publication data will be updated soon.</p>'}
                                 </div>
                             </div>
                         </div>
-                    </div>
-                `;
-            }
-            
-            if (d.research) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-microscope"></i> Research</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                <p>${d.research_desc?d.research_desc:"Cutting-edge research advancing medical science."}</p>
-                                <ul>${d.research.map(r => `<li>${r}</xli>`).join('')}</ul>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            if (d.events) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-calendar-alt"></i> Events</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                <p>Regular conferences, training programs, and awareness campaigns.</p>
-                                <ul>${d.events.map(e => `<li>${e}</li>`).join('')}</ul>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            if (d.achievements) {
-                console.log(d.achievements);
-                
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-trophy"></i> Achievements</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                <p>${d.achievements_desc?d.achievements_desc:"Recognition and awards for excellence in healthcare."}</p>
-                                <ul>${d.achievements.map(a => `<li>${a}</li>`).join('')}</ul>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            if (d.gallery) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-images"></i> Gallery</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                <p>Visual documentation of our facilities, events, and achievements.</p>
-                                <div class="gallery-grid">
-                                    ${d.gallery.map(img => `
-                                        <div class="gallery-item">
-                                            <div class="gallery-placeholder">
-                                                <img src="assets/images/gallery/${img.path}" alt='Not Given'>
-                                            </div>
-                                            <div class="gallery-overlay">
-                                                <div class="gallery-overlay-title">${img.name}</div>
-                                                    ${
-                                                        img.date !== '' || img.date === undefined
-                                                        ? `<div class="gallery-overlay-date"><i class="fas fa-calendar"></i> ${img.date}</div>`
-                                                        : ''
-                                                    }
-                                            </div>
-                                        </div>
-                                    `).join('')}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                `;
+                    `;
+                }
             }
             
             container.innerHTML = html;
