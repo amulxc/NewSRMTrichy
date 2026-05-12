@@ -36,8 +36,8 @@ const departments = [
     "color": "#2980b9",
   },
   {
-    "dept_id": "ForensicMedicine",
-    "name": "Forensic Medicine",
+    "dept_id": "Forensic",
+    "name": "Forensic",
     "icon": "fas fa-user-secret",
     "color": "#9b59b6",
   },

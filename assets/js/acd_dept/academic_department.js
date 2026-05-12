@@ -1533,7 +1533,7 @@
                 ]
      },
      {
-                id: "ForensicMedicine",
+                id: "Forensic",
                 name: "Forensic Medicine & Toxicology",
                 icon: "fa-gavel",
                 color: "#607d8b",
