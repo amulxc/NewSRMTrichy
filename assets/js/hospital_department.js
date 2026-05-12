@@ -240,7 +240,7 @@ let SpecialityCard = sortedDeptForLink.map(e => {
         <div class="infra-icon-image" style="color:${e.color}">
           <i class="${e.icon}">${iconInner}</i>
         </div>
-        <div class="infra-icon-title">${e.name}</div>
+        <div class="infra-icon-title">${e.name == "ENT" ? "OTORHINOLARYNGOLOGY (ENT)" : e.name}</div>
       </a>
     </div>
   `;

@@ -3057,81 +3057,12 @@ function doctorImage(dept, name) {
         }
     })
 
-
-    const y = k.toString().toLowerCase().trim();
-
-    const doctor = doctorsData.find(d => {
-        const docName = d.name.replace(/^dr\.?/i, "").toLowerCase().trim();
-
-        const deptMatch = d.specialty?.toLowerCase().trim() === dept.toLowerCase().trim();
-
-        return (
-            (docName.includes(y) || y.includes(docName)) &&
-            deptMatch
-        );
-    });
-
-
-    if (!doctor || !doctor["Contact Number"]) {
-        return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGG7erz9q0Rya1nPGFfbz6LVLjyU-7md7hOQ&s";
-    }
-
-    const ext = doctor["Contact Number"] === "9894489142" ? "jpg" : "JPG";
-    const num = doctor["Contact Number"]
-    return {
-        image: `./assets/images/doctors/${num}.${ext}`,
-        id: doctor.id
-    };
-}
-
-
-// Get department ID from URL
-function getDeptIdFromURL() {
-    const params = new URLSearchParams(window.location.search);
-    return params.get('dept');
-}
-
-// Get initials from name
-function getInitials(name) {
-    return name
-        .split(' ')
-        .filter(word => word.length > 2)
-        .map(word => word[0])
-        .join('')
-        .toUpperCase()
-        .substring(0, 2);
-}
-function getDoctorImage(deptName, doctorName) {
-    const imgPath = doctorImage(deptName, doctorName);
-    const fallback = 'assets/doctors/default.png';
-    if (imgPath !== undefined || imgPath != '') {
-        return imgPath;
-    }
-    else {
-        return fallback;
-    }
-}
-
-function hexToRgb(hex) {
-    hex = hex.replace('#', '');
-    if (hex.length === 8) hex = hex.slice(0, 6);
-
-    const bigint = parseInt(hex, 16);
-    return `${(bigint >> 16) & 255}, ${(bigint >> 8) & 255}, ${bigint & 255}`;
-}
-
-function getFAQ(deptId) {
-    return FAQJson.find(
-        x => x.dept_id.toLowerCase() === deptId.toLowerCase()
-    ) || null;
-}
-
-function renderDepartment(dept) {
-    const iconClass = dept.icon.includes('fa-') ? `fas ${dept.icon}` : dept.icon;
-    document.getElementById('breadcrum').innerHTML = dept.name
-    document.getElementById('breadcrum-span').innerHTML = dept.name
-    const FAQdata = getFAQ(dept.id);
-    const html = `
+        function renderDepartment(dept) {
+            const iconClass = dept.icon.includes('fa-') ? `fas ${dept.icon}` : dept.icon;
+            document.getElementById('breadcrum').innerHTML= dept.name == "ENT" ? "OTORHINOLARYNGOLOGY (ENT)" : dept.name
+            document.getElementById('breadcrum-span').innerHTML= dept.name == "ENT" ? "OTORHINOLARYNGOLOGY (ENT)" : dept.name
+            const FAQdata = getFAQ(dept.id);
+            const html = `
                 <!-- Hero Section -->
                 
 

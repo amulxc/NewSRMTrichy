@@ -4703,7 +4703,7 @@
                      ${d.icon.includes("<i class=")===false 
                         ? `<i class="fa ${d.icon}"></i>` 
                         : `${d.icon}`}
-                    ${d.name}
+                    ${d.name == "ENT" ? "OTORHINOLARYNGOLOGY (ENT)" : d.name}
                     </a>
                 </li>
             `).join('');
@@ -4780,7 +4780,7 @@
                                 ? `<i class="fa ${d.icon}"></i>` 
                                 : `${d.icon}`}
                             </div>
-                            ${d.name}
+                            ${d.name == "ENT" ? "OTORHINOLARYNGOLOGY (ENT)" : d.name}
                         </h2>
                         <p>${d.desc}</p>
                         <hr style="color:#fff;margin:10px 0;"/>
