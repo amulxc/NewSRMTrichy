@@ -44,7 +44,7 @@ const departments = [
     "dept_id": "Neurosurgery",
     "name": "Neurosurgery",
     "icon": "fas fa-brain",
-    "color": "#20bf6b",
+    "color": "#ebdd5f",
   },
   {
     "dept_id": "Urology",

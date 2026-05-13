@@ -234,7 +234,7 @@ const depts = [
         name: "General Medicine",
         icon: "fa-stethoscope",
         color: "#3498db",
-        colorDark: "#2c81ba50",
+        colorDark: "#2c81ba",
         displays: false,
         team: ["hero-image.JPG"],
         breadcrum: ["breadcrum.JPG"],
@@ -3138,7 +3138,7 @@ function renderDepartment(dept) {
     let html='';
     if(dept.noContent){
         showNotFound();
-        document.getElementById("breadcrum").innerHTML+=' <br>Data need to be Updated'
+        document.getElementById("breadcrum").innerHTML='Data need to be Updated'
     }
     else{
         html = `

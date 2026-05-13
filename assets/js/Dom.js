@@ -336,7 +336,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 Trichy SRM Medical College - Trichy. All Rights Reserved. | Privacy Policy | Terms of Service</p>
+            <p>&copy; ${new Date().getFullYear()} Trichy SRM Medical College - Trichy. All Rights Reserved. | Privacy Policy | Terms of Service</p>
         </div>`;
     (function() {
         'use strict';

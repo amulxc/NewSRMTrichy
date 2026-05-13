@@ -6,7 +6,7 @@ const departments = [
     "color": "#1abc9c",
   },
   {
-    "dept_id": "Physiology",
+    "dept_id": "physiology",
     "name": "Physiology",
     "icon": "fas fa-heartbeat",
     "color": "#16a085",
@@ -18,7 +18,7 @@ const departments = [
     "color": "#2ecc71",
   },
   {
-    "dept_id": "Pathology",
+    "dept_id": "pathology",
     "name": "Pathology",
     "icon": "fas fa-vials",
     "color": "#27ae60",
@@ -60,7 +60,7 @@ const departments = [
     "color": "#e74c3c",
   },
   {
-    "dept_id": "Paediatrics",
+    "dept_id": "paediatrics",
     "name": "Paediatrics",
     "icon": "fas fa-baby",
     "color": "#fd79a8",
@@ -114,8 +114,8 @@ const departments = [
     "color": "#0984e3",
   },
   {
-    "dept_id": "Obstetrics & Gynaecology",
-    "name": "Obstetrics & Gynaecology",
+    "dept_id": "Obstetrics and Gynaecology",
+    "name": "Obstetrics and Gynaecology",
     "icon": "fas fa-baby",
     "color": "#e84393",
   },
