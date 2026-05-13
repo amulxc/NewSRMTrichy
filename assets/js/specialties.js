@@ -26,13 +26,13 @@ const departments = [
     "Icon-Name": "oncology",
     "color": "#eb3b5a",
   },
-  // {
-  //   "dept_id": "Gastroenterology",
-  //   "name": "Gastroenterology",
-  //   "icon": "material-symbols-outlined",
-  //   "Icon-Name": "gastroenterology",
-  //   "color": "#8854d0",
-  // },
+  {
+    "dept_id": "Gastroenterology",
+    "name": "Gastroenterology",
+    "icon": "material-symbols-outlined",
+    "Icon-Name": "gastroenterology",
+    "color": "#8854d0",
+  },
   {
     "dept_id": "Cardio Vascular & Thoracic Surgery",
     "name": "Cardio Vascular & Thoracic Surgery",
@@ -40,12 +40,12 @@ const departments = [
     "Icon-Name": "ecg_heart",
     "color": "#3867d6",
   },
-  // {
-  //   "dept_id": "Neurosurgery",
-  //   "name": "Neurosurgery",
-  //   "icon": "fas fa-brain",
-  //   "color": "#20bf6b",
-  // },
+  {
+    "dept_id": "Neurosurgery",
+    "name": "Neurosurgery",
+    "icon": "fas fa-brain",
+    "color": "#20bf6b",
+  },
   {
     "dept_id": "Urology",
     "name": "Urology",
@@ -60,13 +60,13 @@ const departments = [
     "Icon-Name": "oncology",
     "color": "#8630d6",
   },
-  // {
-  //   "dept_id": "Surgical Gastroenterology",
-  //   "name": "Surgical Gastroenterology",
-  //   "icon": "material-symbols-outlined",
-  //   "Icon-Name": "gastroenterology",
-  //   "color": "#6c5ce7",
-  // },
+  {
+    "dept_id": "Surgical Gastroenterology",
+    "name": "Surgical Gastroenterology",
+    "icon": "material-symbols-outlined",
+    "Icon-Name": "gastroenterology",
+    "color": "#6c5ce7",
+  },
   {
     "dept_id": "Plastic and Reconstructive Surgery",
     "name": "Plastic and Reconstructive Surgery",
