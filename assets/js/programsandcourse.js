@@ -7,8 +7,8 @@
                         color: "#e74c3c",
                         colorDark: "#c0392b",
                         description: "Understanding the Structure of Human Body",
-                        programOverview: "The Anatomy department provides comprehensive education in human body structure, covering gross anatomy, microscopic anatomy, embryology, and neuroanatomy. Our program integrates traditional dissection methods with modern imaging techniques and digital resources.",
-                        programDuration: "Teaching across all 5 years of MBBS curriculum with major focus in Phase I",
+                        programmeOverview: "The Anatomy department provides comprehensive education in human body structure, covering gross anatomy, microscopic anatomy, embryology, and neuroanatomy. Our programme integrates traditional dissection methods with modern imaging techniques and digital resources.",
+                        programmeDuration: "Teaching across all 5 years of MBBS curriculum with major focus in Phase I",
                         courseOutcomes: [
                             "Identify and describe the normal structure and relations of different organs of the human body",
                             "Demonstrate basic understanding of embryological development and its clinical correlations",
@@ -48,8 +48,8 @@
                         color: "#673ab7",
                         colorDark: "#512da8",
                         description: "Understanding Functions of Human Body Systems",
-                        programOverview: "The Physiology department focuses on the study of normal functions of human body systems. Our curriculum integrates basic physiological principles with clinical applications, emphasizing experimental learning and problem-based approaches.",
-                        programDuration: "18 months program in Phase I of MBBS curriculum",
+                        programmeOverview: "The Physiology department focuses on the study of normal functions of human body systems. Our curriculum integrates basic physiological principles with clinical applications, emphasizing experimental learning and problem-based approaches.",
+                        programmeDuration: "18 months programme in Phase I of MBBS curriculum",
                         courseOutcomes: [
                             "Explain the normal functioning of all organ systems of the human body",
                             "Demonstrate the ability to perform basic physiological experiments",
@@ -89,8 +89,8 @@
                         color: "#00a151",
                         colorDark: "#0a754c",
                         description: "Chemical Processes Within Living Organisms",
-                        programOverview: "The Biochemistry department provides fundamental knowledge of chemical processes in living organisms, focusing on biomolecules, metabolism, molecular biology, and clinical biochemistry. The program emphasizes laboratory skills and diagnostic interpretation.",
-                        programDuration: "Integrated teaching throughout MBBS with major component in Phase I",
+                        programmeOverview: "The Biochemistry department provides fundamental knowledge of chemical processes in living organisms, focusing on biomolecules, metabolism, molecular biology, and clinical biochemistry. The programme emphasizes laboratory skills and diagnostic interpretation.",
+                        programmeDuration: "Integrated teaching throughout MBBS with major component in Phase I",
                         courseOutcomes: [
                             "Describe the structure and function of biomolecules in human body",
                             "Explain metabolic pathways and their regulations",
@@ -130,8 +130,8 @@
                         color: "#2196f3",
                         colorDark: "#1976d2",
                         description: "Study of Disease Mechanisms and Diagnosis",
-                        programOverview: "The Pathology department provides comprehensive training in general pathology, systemic pathology, clinical pathology, and hematology. Students learn disease mechanisms, diagnostic techniques, and interpretation of laboratory investigations.",
-                        programDuration: "Taught in Phase II of MBBS curriculum for 12 months",
+                        programmeOverview: "The Pathology department provides comprehensive training in general pathology, systemic pathology, clinical pathology, and hematology. Students learn disease mechanisms, diagnostic techniques, and interpretation of laboratory investigations.",
+                        programmeDuration: "Taught in Phase II of MBBS curriculum for 12 months",
                         courseOutcomes: [
                             "Describe basic pathological processes and disease mechanisms",
                             "Identify microscopic features of diseased tissues",
@@ -171,8 +171,8 @@
                         color: "#ff9800",
                         colorDark: "#f57c00",
                         description: "Science of Drugs and Their Effects",
-                        programOverview: "The Pharmacology department teaches the science of drugs, their mechanisms of action, therapeutic uses, adverse effects, and rational drug prescribing. The curriculum integrates basic pharmacology with clinical therapeutics and pharmacovigilance.",
-                        programDuration: "Taught in Phase II for 13.5 months with clinical integration",
+                        programmeOverview: "The Pharmacology department teaches the science of drugs, their mechanisms of action, therapeutic uses, adverse effects, and rational drug prescribing. The curriculum integrates basic pharmacology with clinical therapeutics and pharmacovigilance.",
+                        programmeDuration: "Taught in Phase II for 13.5 months with clinical integration",
                         courseOutcomes: [
                             "Explain pharmacokinetics and pharmacodynamics of major drug groups",
                             "Prescribe drugs rationally for common clinical conditions",
@@ -212,8 +212,8 @@
                         color: "#009688",
                         colorDark: "#00796b",
                         description: "Study of Microorganisms and Infectious Diseases",
-                        programOverview: "The Microbiology department provides comprehensive knowledge of bacteria, viruses, fungi, and parasites, their role in causing diseases, laboratory diagnosis, and principles of antimicrobial therapy and infection control.",
-                        programDuration: "Taught in Phase II for 12 months",
+                        programmeOverview: "The Microbiology department provides comprehensive knowledge of bacteria, viruses, fungi, and parasites, their role in causing diseases, laboratory diagnosis, and principles of antimicrobial therapy and infection control.",
+                        programmeDuration: "Taught in Phase II for 12 months",
                         courseOutcomes: [
                             "Identify and classify medically important microorganisms",
                             "Perform microbiological investigations and interpret results",
@@ -360,7 +360,7 @@
 
                         gallery: [
                             {
-                                name: "Anti-ragging awareness week program",
+                                name: "Anti-ragging awareness week programme",
                                 date: "14/08/2024",
                                 path: "Forensic/1.jpg"
                             },
@@ -378,12 +378,12 @@
                         color: "#4caf50",
                         colorDark: "#388e3c",
                         description: "Preventive and Social Medicine",
-                        programOverview: "The Community Medicine department focuses on preventive healthcare, epidemiology, health management, biostatistics, and community health programs. Students learn to address health issues at population level.",
-                        programDuration: "Taught throughout Phase II and Phase III (total 18 months)",
+                        programmeOverview: "The Community Medicine department focuses on preventive healthcare, epidemiology, health management, biostatistics, and community health programmes. Students learn to address health issues at population level.",
+                        programmeDuration: "Taught throughout Phase II and Phase III (total 18 months)",
                         courseOutcomes: [
                             "Apply principles of preventive and social medicine",
                             "Conduct epidemiological studies and interpret data",
-                            "Plan and implement community health programs",
+                            "Plan and implement community health programmes",
                             "Use biostatistics in medical research",
                             "Understand health management and administration",
                             "Promote health education and awareness"
@@ -405,7 +405,7 @@
                         skills: [
                             "Epidemiological survey methods",
                             "Data collection and analysis",
-                            "Health program planning",
+                            "Health programme planning",
                             "Immunization techniques",
                             "Health education delivery",
                             "Community mobilization"
@@ -418,8 +418,8 @@
                         color: "#2196f3",
                         colorDark: "#1565c0",
                         description: "Diagnosis and Management of Medical Disorders",
-                        programOverview: "The General Medicine department provides clinical training in diagnosis and management of medical conditions. Students develop skills in history taking, physical examination, clinical reasoning, and patient management.",
-                        programDuration: "Major clinical posting in Phase III (12 months)",
+                        programmeOverview: "The General Medicine department provides clinical training in diagnosis and management of medical conditions. Students develop skills in history taking, physical examination, clinical reasoning, and patient management.",
+                        programmeDuration: "Major clinical posting in Phase III (12 months)",
                         courseOutcomes: [
                             "Obtain comprehensive medical history from patients",
                             "Perform systematic physical examination",
@@ -459,8 +459,8 @@
                         color: "#f44336",
                         colorDark: "#c62828",
                         description: "Surgical Principles and Practice",
-                        programOverview: "The General Surgery department provides comprehensive training in surgical principles, operative techniques, pre-operative and post-operative care, and management of surgical emergencies.",
-                        programDuration: "Major clinical posting in Phase III (12 months)",
+                        programmeOverview: "The General Surgery department provides comprehensive training in surgical principles, operative techniques, pre-operative and post-operative care, and management of surgical emergencies.",
+                        programmeDuration: "Major clinical posting in Phase III (12 months)",
                         courseOutcomes: [
                             "Assess surgical patients and plan appropriate management",
                             "Assist in surgical procedures",
@@ -500,8 +500,8 @@
                         color: "#e91e63",
                         colorDark: "#c2185b",
                         description: "Women's Health and Reproductive Medicine",
-                        programOverview: "The Obstetrics and Gynecology department provides training in antenatal care, management of labor and delivery, gynecological conditions, and reproductive health. Students develop skills in maternal and child health.",
-                        programDuration: "Clinical posting in Phase III (10 months)",
+                        programmeOverview: "The Obstetrics and Gynecology department provides training in antenatal care, management of labor and delivery, gynecological conditions, and reproductive health. Students develop skills in maternal and child health.",
+                        programmeDuration: "Clinical posting in Phase III (10 months)",
                         courseOutcomes: [
                             "Provide comprehensive antenatal care",
                             "Manage normal labor and delivery",
@@ -541,8 +541,8 @@
                         color: "#ff9800",
                         colorDark: "#ef6c00",
                         description: "Child Health and Development",
-                        programOverview: "The Pediatrics department focuses on growth, development, and diseases of children from birth to adolescence. Students learn comprehensive child healthcare including preventive, curative, and developmental aspects.",
-                        programDuration: "Clinical posting in Phase III (10 months)",
+                        programmeOverview: "The Pediatrics department focuses on growth, development, and diseases of children from birth to adolescence. Students learn comprehensive child healthcare including preventive, curative, and developmental aspects.",
+                        programmeDuration: "Clinical posting in Phase III (10 months)",
                         courseOutcomes: [
                             "Assess growth and development of children",
                             "Diagnose and manage common pediatric illnesses",
@@ -582,8 +582,8 @@
                         color: "#00bcd4",
                         colorDark: "#0097a7",
                         description: "Eye Care and Visual Health",
-                        programOverview: "The Ophthalmology department teaches diagnosis and management of eye diseases, visual system examination, and basic ophthalmic procedures. Students learn to recognize and manage common eye conditions.",
-                        programDuration: "Clinical posting in Phase III (3 weeks)",
+                        programmeOverview: "The Ophthalmology department teaches diagnosis and management of eye diseases, visual system examination, and basic ophthalmic procedures. Students learn to recognize and manage common eye conditions.",
+                        programmeDuration: "Clinical posting in Phase III (3 weeks)",
                         courseOutcomes: [
                             "Perform comprehensive eye examination",
                             "Diagnose common eye diseases",
@@ -622,8 +622,8 @@
                         color: "#9c27b0",
                         colorDark: "#7b1fa2",
                         description: "Ear, Nose, and Throat Care",
-                        programOverview: "The ENT department provides training in diagnosis and management of diseases of ear, nose, throat, head, and neck. Students learn examination techniques and management of common ENT conditions.",
-                        programDuration: "Clinical posting in Phase III (3 weeks)",
+                        programmeOverview: "The ENT department provides training in diagnosis and management of diseases of ear, nose, throat, head, and neck. Students learn examination techniques and management of common ENT conditions.",
+                        programmeDuration: "Clinical posting in Phase III (3 weeks)",
                         courseOutcomes: [
                             "Perform ENT examination using appropriate instruments",
                             "Diagnose common ENT conditions",
@@ -662,8 +662,8 @@
                         color: "#607d8b",
                         colorDark: "#455a64",
                         description: "Musculoskeletal System Care",
-                        programOverview: "The Orthopedics department teaches diagnosis and management of musculoskeletal conditions including fractures, joint diseases, spine disorders, and sports injuries. Students learn principles of trauma care and rehabilitation.",
-                        programDuration: "Clinical posting in Phase III (4 weeks)",
+                        programmeOverview: "The Orthopedics department teaches diagnosis and management of musculoskeletal conditions including fractures, joint diseases, spine disorders, and sports injuries. Students learn principles of trauma care and rehabilitation.",
+                        programmeDuration: "Clinical posting in Phase III (4 weeks)",
                         courseOutcomes: [
                             "Assess musculoskeletal injuries and conditions",
                             "Interpret orthopedic radiographs",
@@ -702,8 +702,8 @@
                         color: "#3f51b5",
                         colorDark: "#283593",
                         description: "Mental Health and Behavioral Sciences",
-                        programOverview: "The Psychiatry department focuses on diagnosis and management of mental health disorders, substance abuse, and behavioral problems. Students learn to provide holistic care including psychotherapy and counseling.",
-                        programDuration: "Clinical posting in Phase III (3 weeks)",
+                        programmeOverview: "The Psychiatry department focuses on diagnosis and management of mental health disorders, substance abuse, and behavioral problems. Students learn to provide holistic care including psychotherapy and counseling.",
+                        programmeDuration: "Clinical posting in Phase III (3 weeks)",
                         courseOutcomes: [
                             "Conduct psychiatric assessment and mental status examination",
                             "Diagnose common mental health disorders",
@@ -742,8 +742,8 @@
                         color: "#ff5722",
                         colorDark: "#d84315",
                         description: "Skin, Hair, and Nail Disorders",
-                        programOverview: "The Dermatology department provides training in diagnosis and management of skin diseases, sexually transmitted infections, and cosmetic dermatology. Students learn clinical examination and basic dermatological procedures.",
-                        programDuration: "Clinical posting in Phase III (2 weeks)",
+                        programmeOverview: "The Dermatology department provides training in diagnosis and management of skin diseases, sexually transmitted infections, and cosmetic dermatology. Students learn clinical examination and basic dermatological procedures.",
+                        programmeDuration: "Clinical posting in Phase III (2 weeks)",
                         courseOutcomes: [
                             "Diagnose common dermatological conditions",
                             "Understand principles of dermatological therapy",
@@ -809,20 +809,20 @@
                         </div>
                     </div>
 
-                    <!-- Program Overview -->
+                    <!-- Programme Overview -->
                     <div class="course-accordion-section" style="--dept-color: ${dept.color};">
                         <div class="course-accordion-header active" onclick="toggleCourseAccordion(this)">
                             <div class="course-accordion-title">
-                                <i class="fas fa-info-circle"></i> Program Overview
+                                <i class="fas fa-info-circle"></i> Programme Overview
                             </div>
                             <i class="fas fa-chevron-down course-accordion-icon"></i>
                         </div>
                         <div class="course-accordion-content active">
                             <div class="course-accordion-body">
-                                <p>${dept.programOverview}</p>
+                                <p>${dept.programmeOverview}</p>
                                 <div class="course-info-card" style="--dept-color: ${dept.color};">
                                     <h4><i class="fas fa-clock"></i> Duration</h4>
-                                    <p>${dept.programDuration}</p>
+                                    <p>${dept.programmeDuration}</p>
                                 </div>
                             </div>
                         </div>

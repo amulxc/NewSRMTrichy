@@ -85,7 +85,7 @@ const header = `<div class="nav-container">
                   <li><a href="./course.html#pg-courses">Post Graduate</a></li>
                 </ul>
               </li>
-              <li><a href="./programsandcourse.html">Programs & Course Outcomes</a></li>
+              <li><a href="./programmesandcourse.html">Programmes & Course Outcomes</a></li>
               <li class='pdf'><a href="assets/pdf/Medical+Graduate+Attributes.pdf" target='_blank'>Medical Graduate Attributes</a><img src="assets/images/pdficon.png" alt="" width="20px" ></li>
               <li class='pdf'><a href="assets/pdf/UPDATE-Committee-11.10.25.pdf" target='_blank'>Committee</a><img src="assets/images/pdficon.png" alt="" width="20px" ></li>
               <li class='pdf'><a href="./biethics.html">Bio Ethics</a></li>
@@ -216,7 +216,7 @@ const pages = [
   { title: 'Academics', path: 'Academics', url: './academics.html' },
   { title: 'Under Graduate Courses', path: 'Academics > Courses > UG', url: './course.html#ug-courses' },
   { title: 'Post Graduate Courses', path: 'Academics > Courses > PG', url: './course.html#pg-courses' },
-  { title: 'MBBS Program', path: 'Academics > Courses', url: './course.html' },
+  { title: 'MBBS Programme', path: 'Academics > Courses', url: './course.html' },
   { title: 'Pre Clinical', path: 'Academics > Pre Clinical', url: './pre-clinical.html' },
   { title: 'Para Clinical', path: 'Academics > Para Clinical', url: './para-clinical.html' },
   { title: 'Library', path: 'Academics > Library', url: './library.html' },

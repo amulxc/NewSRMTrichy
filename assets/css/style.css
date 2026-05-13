@@ -5233,14 +5233,14 @@ grid-template-columns: 1fr;
             color: var(--color-primary);
         }
 
-         .programs-grid {
+         .programmes-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: var(--spacing-2xl);
             margin-top: var(--spacing-3xl);
         }
 
-        .program-card {
+        .programme-card {
             background: var(--color-white);
             border-radius: var(--radius-md);
             padding: var(--spacing-2xl);
@@ -5250,19 +5250,19 @@ grid-template-columns: 1fr;
             border-top: 4px solid transparent;
         }
 
-        .program-card:hover {
+        .programme-card:hover {
             transform: translateY(-8px);
             box-shadow: var(--shadow-lg);
         }
 
-        .program-card:nth-child(1) { border-top-color: var(--color-primary); }
-        .program-card:nth-child(2) { border-top-color: var(--color-secondary); }
-        .program-card:nth-child(3) { border-top-color: var(--color-teal); }
-        .program-card:nth-child(4) { border-top-color: var(--color-purple); }
-        .program-card:nth-child(5) { border-top-color: var(--color-accent-yellow); }
-        .program-card:nth-child(6) { border-top-color: var(--color-accent-pink); }
+        .programme-card:nth-child(1) { border-top-color: var(--color-primary); }
+        .programme-card:nth-child(2) { border-top-color: var(--color-secondary); }
+        .programme-card:nth-child(3) { border-top-color: var(--color-teal); }
+        .programme-card:nth-child(4) { border-top-color: var(--color-purple); }
+        .programme-card:nth-child(5) { border-top-color: var(--color-accent-yellow); }
+        .programme-card:nth-child(6) { border-top-color: var(--color-accent-pink); }
 
-        .program-icon {
+        .programme-icon {
             width: 70px;
             height: 70px;
             margin: 0 auto var(--spacing-lg);
@@ -5273,28 +5273,28 @@ grid-template-columns: 1fr;
             font-size: var(--font-4xl);
         }
 
-        .program-card:nth-child(1) .program-icon { background: rgba(0, 102, 204, 0.1); color: var(--color-primary); }
-        .program-card:nth-child(2) .program-icon { background: rgba(76, 175, 80, 0.1); color: var(--color-secondary); }
-        .program-card:nth-child(3) .program-icon { background: rgba(0, 150, 136, 0.1); color: var(--color-teal); }
-        .program-card:nth-child(4) .program-icon { background: rgba(156, 39, 176, 0.1); color: var(--color-purple); }
-        .program-card:nth-child(5) .program-icon { background: rgba(255, 193, 7, 0.1); color: var(--color-accent-yellow); }
-        .program-card:nth-child(6) .program-icon { background: rgba(255, 105, 180, 0.1); color: var(--color-accent-pink); }
+        .programme-card:nth-child(1) .programme-icon { background: rgba(0, 102, 204, 0.1); color: var(--color-primary); }
+        .programme-card:nth-child(2) .programme-icon { background: rgba(76, 175, 80, 0.1); color: var(--color-secondary); }
+        .programme-card:nth-child(3) .programme-icon { background: rgba(0, 150, 136, 0.1); color: var(--color-teal); }
+        .programme-card:nth-child(4) .programme-icon { background: rgba(156, 39, 176, 0.1); color: var(--color-purple); }
+        .programme-card:nth-child(5) .programme-icon { background: rgba(255, 193, 7, 0.1); color: var(--color-accent-yellow); }
+        .programme-card:nth-child(6) .programme-icon { background: rgba(255, 105, 180, 0.1); color: var(--color-accent-pink); }
 
-        .program-card h3 {
+        .programme-card h3 {
             font-size: var(--font-2xl);
             margin-bottom: var(--spacing-md);
             color: var(--color-text-primary);
         }
 
-        .program-card p {
+        .programme-card p {
             color: var(--color-text-secondary);
             line-height: var(--line-height-relaxed);
             font-size: var(--font-sm);
         }
 
 
-        /* Programs Grid */
-        .ug-programs-grid {
+        /* Programmes Grid */
+        .ug-programmes-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             margin: var(--spacing-3xl) auto 0;
@@ -5304,7 +5304,7 @@ grid-template-columns: 1fr;
       
 
        
-        .ug-program-card {
+        .ug-programme-card {
             background: var(--color-white);
             width:290px;
             height:290px;
@@ -5320,16 +5320,16 @@ grid-template-columns: 1fr;
         }
 
         
-        .donors .ug-programs-grid {
+        .donors .ug-programmes-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             margin:var(--spacing-3xl) auto 0;
             gap:40px;
         }
-        .donors .ug-program-card{
+        .donors .ug-programme-card{
             width:410px;
         }
-        .ug-program-icon {
+        .ug-programme-icon {
             width: 70px;
             height: 70px;
             margin: 0 auto var(--spacing-lg);
@@ -5340,38 +5340,38 @@ grid-template-columns: 1fr;
             font-size: var(--font-4xl);
         }
 
-        .ug-program-card:nth-child(1) .ug-program-icon { background: rgba(204, 0, 0, 0.1); color: var(--color-youtube-dark); }
-        .ug-program-card:nth-child(2) .ug-program-icon { background: rgba(245, 170, 255, 0.1); color: var(--color-accent-pink); }
-        .ug-program-card:nth-child(3) .ug-program-icon { background: rgba(255, 193, 7, 0.1); color: var(--color-accent-yellow); }
-        .ug-program-card:nth-child(4) .ug-program-icon { background: rgba(39, 103, 176, 0.1); color: var(--color-primary); }
+        .ug-programme-card:nth-child(1) .ug-programme-icon { background: rgba(204, 0, 0, 0.1); color: var(--color-youtube-dark); }
+        .ug-programme-card:nth-child(2) .ug-programme-icon { background: rgba(245, 170, 255, 0.1); color: var(--color-accent-pink); }
+        .ug-programme-card:nth-child(3) .ug-programme-icon { background: rgba(255, 193, 7, 0.1); color: var(--color-accent-yellow); }
+        .ug-programme-card:nth-child(4) .ug-programme-icon { background: rgba(39, 103, 176, 0.1); color: var(--color-primary); }
         
-        .ug-program-card:nth-child(5) .ug-program-icon { background: rgba(253, 169, 197, 0.1); color: var(--color-accent-light1); }
-        .ug-program-card:nth-child(6) .ug-program-icon { background: rgba(246, 152, 255, 0.1); color: var(--color-purple); }
+        .ug-programme-card:nth-child(5) .ug-programme-icon { background: rgba(253, 169, 197, 0.1); color: var(--color-accent-light1); }
+        .ug-programme-card:nth-child(6) .ug-programme-icon { background: rgba(246, 152, 255, 0.1); color: var(--color-purple); }
 
-        .ug-program-card:hover{
+        .ug-programme-card:hover{
             box-shadow:(--shadow-lg);
             transform:translate(0,-10px);
         }
-        .ug-program-card:hover{
+        .ug-programme-card:hover{
             box-shadow:(--shadow-lg);
             transform:translate(0,-10px);
         }
-        .ug-program-card:hover{
+        .ug-programme-card:hover{
             box-shadow:(--shadow-lg);
             transform:translate(0,-10px);
         }
-        .ug-program-card:hover{
+        .ug-programme-card:hover{
             box-shadow:(--shadow-lg);
             transform:translate(0,-10px);
         }
 
-        .ug-program-card h3 {
+        .ug-programme-card h3 {
             font-size: var(--font-2xl);
             margin-bottom: var(--spacing-md);
             color: var(--color-text-primary);
         }
 
-        .ug-program-card p {
+        .ug-programme-card p {
             color: var(--color-text-secondary);
             line-height: var(--line-height-relaxed);
             font-size: var(--font-sm);
@@ -5686,7 +5686,7 @@ grid-template-columns: 1fr;
                 font-size: var(--font-3xl);
             }
 
-            .programs-grid,
+            .programmes-grid,
             .department-grid,
             .features-grid {
                 grid-template-columns: 1fr;
@@ -8461,7 +8461,7 @@ grid-template-columns: 1fr;
         }
 
 
-    /* Programs and course Out come */
+    /* Programmes and course Out come */
 
             .course-container {
             max-width: 1400px;
@@ -12149,19 +12149,19 @@ grid-template-columns: 1fr;
   font-weight: 600;
 }
         @media (max-width:768px) {
-            .ug-programs-grid {
+            .ug-programmes-grid {
                 display: grid;
                 grid-template-columns: 1fr; 
                 gap: 10px;
                 justify-items: center;
             }
-            .donors .ug-programs-grid {
+            .donors .ug-programmes-grid {
                 display: grid;
                 grid-template-columns: 1fr; 
                 gap:20px;
                 justify-items: center;
             }
-            .donors .ug-program-card{
+            .donors .ug-programme-card{
                 width:270px;
                 height:230px;
             }
@@ -12646,12 +12646,12 @@ grid-template-columns: 1fr;
     padding-right:10px;
   }
 
-  /* Academics Programs Offered Styles */
-  .program-category {
+  /* Academics Programmes Offered Styles */
+  .programme-category {
     padding: 20px 0;
   }
   
-  .program-feature-card {
+  .programme-feature-card {
     background: #ffffff;
     border-radius: 15px;
     padding: 30px;
@@ -12666,12 +12666,12 @@ grid-template-columns: 1fr;
     height: 100%;
   }
 
-  .program-feature-card:hover {
+  .programme-feature-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
   }
 
-  .program-feature-card::before {
+  .programme-feature-card::before {
     content: '';
     position: absolute;
     top: 0;
@@ -12684,11 +12684,11 @@ grid-template-columns: 1fr;
     pointer-events: none;
   }
 
-  .program-feature-card:hover::before {
+  .programme-feature-card:hover::before {
     opacity: 1;
   }
 
-  .program-icon-wrapper {
+  .programme-icon-wrapper {
     width: 80px;
     height: 80px;
     margin: 0 auto 20px;
@@ -12700,7 +12700,7 @@ grid-template-columns: 1fr;
     transition: all 0.3s ease;
   }
 
-  .program-feature-card:hover .program-icon-wrapper {
+  .programme-feature-card:hover .programme-icon-wrapper {
     transform: scale(1.1);
   }
 
@@ -12708,11 +12708,11 @@ grid-template-columns: 1fr;
   .card-mbbs {
     border-top-color: var(--color-primary);
   }
-  .card-mbbs .program-icon-wrapper {
+  .card-mbbs .programme-icon-wrapper {
     background-color: rgba(19, 127, 193, 0.1);
     color: var(--color-primary);
   }
-  .card-mbbs:hover .program-icon-wrapper {
+  .card-mbbs:hover .programme-icon-wrapper {
     background-color: var(--color-primary);
     color: white;
   }
@@ -12720,11 +12720,11 @@ grid-template-columns: 1fr;
   .card-md {
     border-top-color: var(--color-gold);
   }
-  .card-md .program-icon-wrapper {
+  .card-md .programme-icon-wrapper {
     background-color: rgba(207, 190, 37, 0.1);
     color: var(--color-gold);
   }
-  .card-md:hover .program-icon-wrapper {
+  .card-md:hover .programme-icon-wrapper {
     background-color: var(--color-gold);
     color: white;
   }
@@ -12732,11 +12732,11 @@ grid-template-columns: 1fr;
   .card-ms {
     border-top-color: var(--color-accent-pink);
   }
-  .card-ms .program-icon-wrapper {
+  .card-ms .programme-icon-wrapper {
     background-color: rgba(255, 105, 180, 0.1);
     color: var(--color-accent-pink);
   }
-  .card-ms:hover .program-icon-wrapper {
+  .card-ms:hover .programme-icon-wrapper {
     background-color: var(--color-accent-pink);
     color: white;
   }
@@ -12744,11 +12744,11 @@ grid-template-columns: 1fr;
   .card-mch {
     border-top-color: var(--color-teal);
   }
-  .card-mch .program-icon-wrapper {
+  .card-mch .programme-icon-wrapper {
     background-color: rgba(0, 150, 136, 0.1);
     color: var(--color-teal);
   }
-  .card-mch:hover .program-icon-wrapper {
+  .card-mch:hover .programme-icon-wrapper {
     background-color: var(--color-teal);
     color: white;
   }

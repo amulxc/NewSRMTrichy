@@ -224,7 +224,7 @@ const researchersData = {
             "AI-Powered Multi-Cancer Screening from Low-Cost Digital Pathology & Imaging (AIIndia)",
             "Organic cation transporters (OCT1, OCT2) and depression in Indian T2DM (Type 2 Diabetes Mellitus) patients",
             "National Centre for Advanced Research in Gender, Sexuality, and LGBTQI+ Health: Advancing science, equity, and care for gender and sexual minorities",
-            "Disrupting Stem cell program via Tumour-Suppressive Isoforms of Wnt Modulators"
+            "Disrupting Stem cell programme via Tumour-Suppressive Isoforms of Wnt Modulators"
         ],
         editorial: [
             "Cancers",
@@ -286,7 +286,7 @@ const researchersData = {
                 "V Kandi, PR Shahapur, TK Suvvari, VG Bharadwaj, R Shahapur. Molecular characterization of Escherichia coli causing urinary tract infections through next-generation sequencing: a comprehensive analysis of serotypes, sequence types. Cureus 16 (3): e55556",
                 "Purna Singh A, Shahapur P R, Vadakedath S, VG Bharadwaj (September 25, 2022) Research Question, Objectives, and Endpoints in Clinical and Oncological Research: A Comprehensive Review. Cureus 14(9): e29575",
                 "Vallab Ganesh Bharadwaj B, Vazhavandal G, Vasudevan K, Sarada V, Uma A. Seroprevalence of Brucellosis among Blood Donors in Trichy District, Tamilnadu. Journal of Evolution of Medical and Dental Sciences 2014; Vol. 3, Issue 05, February 03; Page: 1130-1133",
-                "Vallab Ganesh Bharadwaj B, Vazhavandal G, Sasirekha N, Ismail M, Uma A, Thirumalaikolundu Subramanian P.“ Seroprevalence of Hepatitis C virus among Health Care workers of a Rural Teaching Hospital in Tamil Nadu”. Journal of Evolution of Medical and Dental Sciences 2014; Vol. 3, Issue 01, January 06; Page:  32-37"
+                "Vallab Ganesh Bharadwaj B, Vazhavandal G, Sasirekha N, Ismail M, Uma A, Thirumalaikolundu Subramanian P.“ Seroprevalence of Hepatitis C virus among Healthcare workers of a Rural Teaching Hospital in Tamil Nadu”. Journal of Evolution of Medical and Dental Sciences 2014; Vol. 3, Issue 01, January 06; Page:  32-37"
 
 
             ],
@@ -424,7 +424,7 @@ const researchersData = {
                 "Prabhusaran N, Revwathy S, Vinitha P, Clitus A, Bharath Ragul M. Post COVID-19: analysis of reasons for mask wearing intention. International Journal of Pharmaceutical Sciences 2024; 2(4): 598-610. (DOAJ)",
                 "Lalithambigai J, Saraswathi R, Anupriya A, Prabhusaran N. Antimicrobial susceptibility pattern of E. coli causing urinary tract infection with special reference to fluoroquinolone resistance in a tertiary care teaching hospital in South India. International Journal of Pharmaceutical and Clinical Research 2024; 16(3): 238-244. (Scopus)",
                 "Kanagasanthosh K, Prabhusaran N, Saravanan KS, Poorani S. Audit of antibiotic prescription with emphasizing adherence to antibiotic policy: a prospective observational study from South India. International Journal of Toxicological and Pharmacological Research 2023; 13(9): 92-100. (Embase)",
-                "Anupriya A, Prabhusaran N, Suganya R, Chitra Rajalakshmi P. COVID 19 vaccine booster acceptance and hesitancy among health care professionals. Innovations 2023; 75: 1031-1035. (Scopus)",
+                "Anupriya A, Prabhusaran N, Suganya R, Chitra Rajalakshmi P. COVID 19 vaccine booster acceptance and hesitancy among Healthcare professionals. Innovations 2023; 75: 1031-1035. (Scopus)",
                 "Sampath G, Muthusamy G, Sridharan K, Prabhusaran N, Neelamegam R, Muthukalingan K, Kayalvizhi N. Isolation and identification of metronidazole resistant Helicobacter pylori from gastric patients in the southeastern region of India and its advanced antibacterial treatment using biological silver oxide nanoparticles. Biochemical Engineering Journal 2022; 187: 108445 (8 pages). (Scopus, Embase, Elsevier)",
                 "Ganeshkumar A, Prabhusaran N, Pramila M, Saranya B, Priya AA, Archunan G, Rajaram R. Antifungal susceptibility and virulence profile of Candida isolates from abnormal vaginal discharge of women from Southern India. European Journal of Obstetrics & Gynecology and Reproductive Biology 2020; 254: 153-158. ISSN: 0301-2115; Impact factor: 1.868. (WoS, Embase, PubMed, Scopus, Elsevier)",
                 "Ganeshkumar A, Suvaithenamudhan S, Elanthamilan E, Arun G, Dileepan GAB, Prabhusaran N, Rajaram R. New Insight of red seaweed derived Callophycin A as an alternative strategy to treat drug resistant vaginal candidiasis. Bioorganic Chemistry 2020; 104: 104256. ISSN: 0045-2068; Impact factor: 4.831. (WoS, Embase, PubMed, Scopus, Elsevier)",
