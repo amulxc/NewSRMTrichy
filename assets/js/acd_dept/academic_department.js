@@ -4786,7 +4786,7 @@
                         <hr style="color:#fff;margin:10px 0;"/>
                         <h4 style="color:#fff;margin:10px 0;"></h4>
                         <div class="spec_servies" >
-                        <a style="color:white;text-decoration:underline;" href="depart_specialities.html?dept=${d.id}#services" class="service_link"> Click Here</a> For Services
+                        <a style="color:white;text-decoration:underline;" href="depart_specialities.html?dept=${d.id}#app" class="service_link"> Click Here</a> For Services
                         </div>
                     </div>
                 </div>
