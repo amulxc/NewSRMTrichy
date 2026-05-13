@@ -2221,7 +2221,7 @@ const depts = [
         ]
     },
     {
-        id: "ForensicMedicine",
+        id: "Forensic",
         name: "Forensic",
         icon: "fa-gavel",
         color: "#607d8b",
