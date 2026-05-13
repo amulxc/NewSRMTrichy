@@ -867,6 +867,7 @@ const depts = [
         color: "#673ab7",
         colorDark: "#512da8",
         displays: false,
+        noContent:true,
         team: ["hero-image.JPG"],
         breadcrum: ["breadcrum.JPG"],
         image: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
@@ -1415,54 +1416,55 @@ const depts = [
             "Advanced video-assisted thoracic (VATS) surgeries."
         ]
     },
-    // {
-    //     id: "Neurosurgery", 
-    //     name: "Neurosurgery", 
-    //     icon: `<i class="fas fa-brain"></i> `, 
-    //     color: "#27ae60", 
-    //     colorDark: "#229954",
-    //     displays:false, 
-    //     team:["hero-image.JPG"],
-    //     breadcrum:["breadcrum.JPG"],
-    //     image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
+    {
+        id: "Neurosurgery", 
+        name: "Neurosurgery", 
+        icon: `<i class="fas fa-brain"></i> `, 
+        color: "#27ae60", 
+        colorDark: "#229954",
+        displays:false, 
+        noContent:true,
+        team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
+        image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
-    //     overview: "Comprehensive internal medicine care for all age groups. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+        overview: "Comprehensive internal medicine care for all age groups. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
 
-    //     objectives: [
-    //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-    //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-    //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
-    //     ],
+        objectives: [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
+        ],
 
-    //     doctor: [
-    //         {name: "Ram", designation: "Assistant professor", exp: "5"},
-    //         {name: "Sam", designation: "Assistant professor", exp: "5"},
-    //         {name: "John", designation: "Assistant professor", exp: "5"}
-    //     ],
+        doctor: [
+            {name: "Ram", designation: "Assistant professor", exp: "5"},
+            {name: "Sam", designation: "Assistant professor", exp: "5"},
+            {name: "John", designation: "Assistant professor", exp: "5"}
+        ],
 
-    //     services: [
-    //         "General Consultation", 
-    //         "Diabetes Care", 
-    //         "Hypertension", 
-    //         "Infectious Diseases", 
-    //         "Respiratory Medicine", 
-    //         "Gastroenterology", 
-    //         "Cardiology", 
-    //         "Nephrology"
-    //     ],
+        services: [
+            "General Consultation", 
+            "Diabetes Care", 
+            "Hypertension", 
+            "Infectious Diseases", 
+            "Respiratory Medicine", 
+            "Gastroenterology", 
+            "Cardiology", 
+            "Nephrology"
+        ],
 
-    //     pubStats: [
-    //         {label: "Publications", value: "30+"}
-    //     ],
+        pubStats: [
+            {label: "Publications", value: "30+"}
+        ],
 
-    //     research: [
-    //         "Chronic disease management"
-    //     ],
+        research: [
+            "Chronic disease management"
+        ],
 
-    //     achievements: [
-    //         "Best Medicine Dept"
-    //     ]
-    // },
+        achievements: [
+            "Best Medicine Dept"
+        ]
+    },
     {
         id: "Urology",
         name: "Urology",
@@ -1545,6 +1547,7 @@ const depts = [
         color: "#673ab7",
         colorDark: "#512da8",
         displays: false,
+        noContent:true,
         team: ["hero-image.JPG"],
         breadcrum: ["breadcrum.JPG"],
         image: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
@@ -1716,54 +1719,55 @@ const depts = [
             "High success rate in AV fistula creation"
         ]
     },
-    // {
-    //     id: "Paediatric Surgery", 
-    //     name: "Paediatric Surgery", 
-    //     icon: `<i class="fas fa-baby"></i>`, 
-    //     color: "#26c6da", 
-    //     colorDark: "#00acc1",
-    //     displays:false, 
-    //     team:["hero-image.JPG"],
-    //     breadcrum:["breadcrum.JPG"],
-    //     image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
+    {
+        id: "Paediatric Surgery", 
+        name: "Paediatric Surgery", 
+        icon: `<i class="fas fa-baby"></i>`, 
+        color: "#26c6da", 
+        colorDark: "#00acc1",
+        displays:false, 
+        noContent:true,
+        team:["hero-image.JPG"],
+        breadcrum:["breadcrum.JPG"],
+        image:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
 
-    //     overview: "Comprehensive respiratory care with pulmonary function testing. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+        overview: "Comprehensive respiratory care with pulmonary function testing. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
 
-    //     objectives: [
-    //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-    //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
-    //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
-    //     ],
-    //     doctor: [
-    //         {name: "Ram", designation: "Assistant professor", exp: "5"},
-    //         {name: "Sam", designation: "Assistant professor", exp: "5"},
-    //         {name: "John", designation: "Assistant professor", exp: "5"}
-    //     ],
+        objectives: [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."
+        ],
+        doctor: [
+            {name: "Ram", designation: "Assistant professor", exp: "5"},
+            {name: "Sam", designation: "Assistant professor", exp: "5"},
+            {name: "John", designation: "Assistant professor", exp: "5"}
+        ],
 
-    //     services: [
-    //         "Asthma Management", 
-    //         "COPD Care", 
-    //         "TB Treatment", 
-    //         "Bronchoscopy", 
-    //         "Pulmonary Function Tests", 
-    //         "Sleep Studies"
-    //     ],
+        services: [
+            "Asthma Management", 
+            "COPD Care", 
+            "TB Treatment", 
+            "Bronchoscopy", 
+            "Pulmonary Function Tests", 
+            "Sleep Studies"
+        ],
 
-    //     pubStats: [
-    //         {label: "Publications", value: "7"},
-    //         {label: "International", value: "7"},
-    //         {label: "National", value: "7"}
-    //     ],
+        pubStats: [
+            {label: "Publications", value: "7"},
+            {label: "International", value: "7"},
+            {label: "National", value: "7"}
+        ],
 
-    //     research: [
-    //         "Asthma protocols", 
-    //         "TB treatment"
-    //     ],
+        research: [
+            "Asthma protocols", 
+            "TB treatment"
+        ],
 
-    //     achievements: [
-    //         "Excellence in Pulmonary Care"
-    //     ]
-    // },
+        achievements: [
+            "Excellence in Pulmonary Care"
+        ]
+    },
     {
         id: "anatomy",
         name: "Anatomy",
@@ -3131,7 +3135,13 @@ function renderDepartment(dept) {
     document.getElementById('breadcrum').innerHTML= dept.name == "ENT" ? "OTORHINOLARYNGOLOGY (ENT)" : dept.name
     document.getElementById('breadcrum-span').innerHTML= dept.name == "ENT" ? "OTORHINOLARYNGOLOGY (ENT)" : dept.name
     const FAQdata = getFAQ(dept.id);
-    const html = `
+    let html='';
+    if(dept.noContent){
+        showNotFound();
+        document.getElementById("breadcrum").innerHTML+=' <br>Data need to be Updated'
+    }
+    else{
+        html = `
                 <!-- Hero Section -->
                 
 
@@ -3198,7 +3208,7 @@ function renderDepartment(dept) {
                         <h2 class="section-title" style="color:${dept.colorDark}">Our Medical Team</h2>
                         <div class="grid-3">
                             ${dept.doctor.map(doc => `
-                            <div class="doctor-card" onclick="viewDoctorProfile(${getDoctorImage(dept.name, doc.name).id})">
+                            <div class="doctor-card">
                                 <div class="doctor-avatar">
                                 <img
                                     src="${getDoctorImage(dept.name, doc.name).image}"
@@ -3209,7 +3219,6 @@ function renderDepartment(dept) {
                                 </div>
                                 <h4>${doc.name}</h4>
                                 <p>${doc.designation || ""}</p>
-                                ${doc.experience ? `<p>${doc.experience} Years Experience</p>` : ""}
                             </div>
                             `).join("")}
                         </div>
@@ -3271,13 +3280,15 @@ function renderDepartment(dept) {
                     
                 </div>
             `;
+    }
+    
 
     document.getElementById('app').innerHTML = html;
     document.title = `${dept.name} - Department`;
     let breadcrum = document.getElementById('breadcrum-section')
     let k = dept.name.split(" ");
     let l = k.join("%20")
-    console.log(l);
+    
 
 
     breadcrum.style.backgroundImage = `linear-gradient(
@@ -3297,7 +3308,7 @@ function renderDepartment(dept) {
 function showNotFound() {
     document.getElementById('app').innerHTML = `
                 <div class="not-found">
-                    <h2>Department Not Found</h2>
+                    <h2>Department data need to be updated</h2>
                     <p style="font-size: var(--font-xl); color: var(--color-text-secondary); margin-bottom: var(--spacing-xl);">
                         The department you're looking for doesn't exist or has been moved.
                     </p>
