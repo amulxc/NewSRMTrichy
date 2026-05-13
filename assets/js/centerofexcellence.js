@@ -3,16 +3,16 @@
             "website": {
                 "title": "Centers of Excellence | Healthcare Innovation",
                 "meta": {
-                    "description": "World-class specialized care delivering exceptional outcomes through innovation, expertise, and compassion"
+                    "description": "World-class specialised care delivering exceptional outcomes through innovation, expertise, and compassion"
                 }
             },
             "hero": {
                 "heading": "Centers of Excellence",
-                "subheading": "World-class specialized care delivering exceptional outcomes through innovation, expertise, and compassion"
+                "subheading": "World-class specialised care delivering exceptional outcomes through innovation, expertise, and compassion"
             },
             "sections": {
                 "centers": {
-                    "title": "Our Specialized Centers",
+                    "title": "Our Specialised Centers",
                     "description": "Comprehensive care delivered by leading specialists using cutting-edge technology and evidence-based practices",
                     "centers": [
                         {
@@ -122,7 +122,7 @@
                     <ul class="coe-center-features">
                         ${center.features.map(feature => `<li>${feature}</li>`).join('')}
                     </ul>
-                    <a class="coe-learn-more-btn" href="depart_specialities.html?dept=${center.name}">Learn More</a>
+                    <!--<a class="coe-learn-more-btn" href="depart_specialities.html?dept=${center.name}">Learn More</a>-->
                 </div>
             `).join('');
 

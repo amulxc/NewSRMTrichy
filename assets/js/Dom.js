@@ -130,10 +130,10 @@
               <li class="has-submenu" data-submenu="milestones">
                 <a href="./aboutus.html#milestones">Accreditations <span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
-                  <li><a href="#">NAAC</a></li>
-                  <li><a href="#">NABH</a></li>
-                  <li><a href="#">NABL</a></li>
-                  <li><a href="#">PM JAY</a></li>
+                  <li><a href="./aboutus.html#logos">NAAC</a></li>
+                  <li><a href="./aboutus.html#logos">NABH</a></li>
+                  <li><a href="./aboutus.html#logos">NABL</a></li>
+                  <li><a href="./aboutus.html#logos">PM JAY</a></li>
                 </ul>
               </li>
               <li><a href="./aboutus.html#alumini">Alumini Feedback</a></li>
@@ -281,7 +281,7 @@
             <div class='content' id='emgWord'  translate="no">
             </div>
             <div class='content2'>
-              <p>Book an Appointment <br><a href='tel:0431-225 5555' data-wg-notranslate><i class='fa fa-phone'></i> 0431-225 5555</a></p>
+              <p translate="no">Book an Appointment <br><a href='tel:0431-225 5555' data-wg-notranslate><i class='fa fa-phone'></i> 0431-225 5555</a></p>
               <p>Ambulance <br><a href='tel:1800 123 108 108' data-wg-notranslate><i class='fa fa-phone'></i> 1800 123 108 108</a></p>
             </div>
             
@@ -540,7 +540,7 @@ const pages = [
       { title: 'Academics', path: 'Academics', url: './academics.html' },
       { title: 'Under Graduate Courses', path: 'Academics > Courses > UG', url: './ug_new_course.html' },
       { title: 'Post Graduate Courses', path: 'Academics > Courses > PG', url: './pg_course_new.html' },
-      { title: 'MBBS Program', path: 'Academics > Courses', url: './course.html' },
+      { title: 'MBBS Programme', path: 'Academics > Courses', url: './course.html' },
       { title: 'Academic Department', path: 'Academics > Department', url: './academic_department.html' },
       { title: 'Hospital Department', path: 'Hospital > Department', url: './hospital_department.html' },
       { title: 'Hospital Specialities', path: 'Home > Specialities', url: './Specialities.html' },

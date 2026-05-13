@@ -36,8 +36,8 @@ const departments = [
     "color": "#2980b9",
   },
   {
-    "dept_id": "ForensicMedicine",
-    "name": "Forensic Medicine",
+    "dept_id": "Forensic",
+    "name": "Forensic",
     "icon": "fas fa-user-secret",
     "color": "#9b59b6",
   },
@@ -240,7 +240,7 @@ let SpecialityCard = sortedDeptForLink.map(e => {
         <div class="infra-icon-image" style="color:${e.color}">
           <i class="${e.icon}">${iconInner}</i>
         </div>
-        <div class="infra-icon-title">${e.name}</div>
+        <div class="infra-icon-title">${e.name == "ENT" ? "OTORHINOLARYNGOLOGY (ENT)" : e.name}</div>
       </a>
     </div>
   `;

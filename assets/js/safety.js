@@ -6,12 +6,12 @@ const departments = [
   },
   {
     "icon": "fa fa-list",
-    "name": "Antimicrobial Stewardship Program",
+    "name": "Antimicrobial Stewardship Programme",
     "color":"var(--color-accent)"
   },
   {
     "icon": "fa fa-list",
-    "name": "Medication Safety Program",
+    "name": "Medication Safety Programme",
     "color":"var(--color-accent-yellow)"
   },
   {

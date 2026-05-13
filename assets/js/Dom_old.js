@@ -411,7 +411,7 @@ const pages = [
       { title: 'Academics', path: 'Academics', url: './academics.html' },
       { title: 'Under Graduate Courses', path: 'Academics > Courses > UG', url: './course.html#ug-courses' },
       { title: 'Post Graduate Courses', path: 'Academics > Courses > PG', url: './course.html#pg-courses' },
-      { title: 'MBBS Program', path: 'Academics > Courses', url: './course.html' },
+      { title: 'MBBS Programme', path: 'Academics > Courses', url: './course.html' },
       { title: 'Pre Clinical', path: 'Academics > Pre Clinical', url: './pre-clinical.html' },
       { title: 'Para Clinical', path: 'Academics > Para Clinical', url: './para-clinical.html' },
       { title: 'Library', path: 'Academics > Library', url: './library.html' },

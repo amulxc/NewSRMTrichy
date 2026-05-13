@@ -69,7 +69,7 @@
                     "Pain and palliative care services",
                     "Labour analgesia",
                     "Anaesthesia services for CT, MRI, ECT and mobile ICU",
-                    "Renal transplant and organ retrieval programmes",
+                    "Renal transplant and organ retrieval programmemes",
                     "Code Blue resuscitation services"
                 ],
 
@@ -98,7 +98,7 @@
                     "Cost-effective and green anaesthesia practices"
                 ],
 
-                "events_desc": "The department regularly conducts academic programmes and continuing medical education activities.",
+                "events_desc": "The department regularly conducts academic programmemes and continuing medical education activities.",
                 "events": [
                     "CME – SAME VIVA 2024",
                     "CME – ETHER Day Celebration 2025"
@@ -315,16 +315,16 @@
                 ],
 
                 "objectives": [
-                    "To impart in-depth theoretical knowledge and hands-on clinical training in core and specialized areas of physiotherapy.",
+                    "To impart in-depth theoretical knowledge and hands-on clinical training in core and specialised areas of physiotherapy.",
                     "To enhance students' clinical reasoning, assessment, and rehabilitation skills through real-world patient exposure.",
                     "To develop expertise in orthopedics, sports physiotherapy, neurology, pediatrics, cardiopulmonary sciences, biomechanics, hand rehabilitation, obstetrics & gynaecology, and community rehabilitation.",
                     "To foster teamwork, professional ethics, and effective communication among students and faculty.",
-                    "To promote community outreach programs aimed at improving mobility, functional independence, and overall health.",
+                    "To promote community outreach programmes aimed at improving mobility, functional independence, and overall health.",
                     "To encourage research-oriented learning and evidence-based practice in physiotherapy.",
                     "To prepare graduates to meet national and global healthcare standards with confidence and competence."
                 ],
 
-                "infra_desc": "The department offers comprehensive programs in physiotherapy education.",
+                "infra_desc": "The department offers comprehensive programmes in physiotherapy education.",
                 "infra": [
                     "Bachelor of Physiotherapy (BPT) - Eligibility: +2 Physics, Chemistry, Biology as Principal subject, Duration: 4 Years and 6 Months",
                     "Master of Physiotherapy (MPT) specializations: Bio Mechanics, Cardio Pulmonary Science, Community Rehabilitation, Hand Rehabilitation, Neurology, Obstetrics and Gynaecology, Paediatrics Physiotherapy, Sports Physiotherapy, Orthopaedics"
@@ -383,13 +383,13 @@
                     "To integrate physiology teaching with clinical relevance, enabling students to apply theoretical knowledge in the diagnosis and understanding of clinical conditions.",
                     "To develop essential practical skills through training in clinical examination and laboratory techniques on healthy individuals.",
                     "To implement innovative and interactive teaching-learning methods such as case-based learning, flipped classrooms, and simulation-based sessions for enhanced engagement and understanding.",
-                    "To cultivate a research-oriented mindset in both undergraduate and postgraduate students by encouraging participation in institutional and national research programs.",
+                    "To cultivate a research-oriented mindset in both undergraduate and postgraduate students by encouraging participation in institutional and national research programmes.",
                     "To regularly assess and track student learning outcomes through formative and summative assessments, with feedback to foster continuous improvement.",
                     "To ensure academic discipline and professionalism, including attendance, punctuality, and ethical conduct, as part of the professional development of medical graduates.",
                     "To support academically challenged students with remedial teaching and encourage excellence through competitive academic opportunities like gold medal exams.",
                     "To train postgraduate students to become skilled educators and researchers, equipped to take up teaching responsibilities and publish quality research.",
-                    "To enhance faculty development and research productivity through regular training, CME programs, extramural funding applications, and scientific publications.",
-                    "To foster a collaborative academic environment through interdisciplinary interactions, guest lectures, national conferences, and mentorship programs.",
+                    "To enhance faculty development and research productivity through regular training, CME programmes, extramural funding applications, and scientific publications.",
+                    "To foster a collaborative academic environment through interdisciplinary interactions, guest lectures, national conferences, and mentorship programmes.",
                     "To align departmental goals with institutional vision, thereby contributing meaningfully to improved healthcare delivery and the advancement of medical education and research."
                 ],
 
@@ -434,6 +434,7 @@
                     { "name": "Dr.Shivayogappa S. Teli", "designation": "Professor & HoD", "exp": "15" },
                     { "name": "Dr.R.Divya", "designation": "Professor", "exp": "10" },
                     { "name": "Dr.D.Keerthana", "designation": "Professor", "exp": "9" },
+                    { "name": "Dr.Senthilnathan", "designation": "Associate Professor", "exp": "" },
                     { "name": "Dr.R.A.Sureshbalaji", "designation": "Assistant Professor", "exp": "14" },
                     { "name": "Dr.M.Praveena", "designation": "Assistant Professor", "exp": "5" },
                     { "name": "Dr.C.Vijayalakshmi", "designation": "Assistant Professor", "exp": "4" },
@@ -605,7 +606,7 @@
                     "Research on Integrating Digital Learning and AI"
                 ],
 
-                "events_desc": "The Department conducts regular academic and extra-curricular programs for under-graduates, post-graduates and faculty members.",
+                "events_desc": "The Department conducts regular academic and extra-curricular programmes for under-graduates, post-graduates and faculty members.",
                 "events": [
                     "Guest Lecture: ECG Basics Made Easy for PG",
                     "Guest Lecture: Recent Updates on Infertility for PG",
@@ -691,7 +692,7 @@
                 "color": "#42a5f5",
                 "colorDark": "#1e88e5",
 
-                "desc": "The Department of Biochemistry at SRM Medical College Hospital and Research Centre, Trichy, offers undergraduate, postgraduate, and research programs with a strong focus on innovation, scientific inquiry, and applied biochemistry. The department integrates fundamental and advanced areas of biology, preparing students for global opportunities.",
+                "desc": "The Department of Biochemistry at SRM Medical College Hospital and Research Centre, Trichy, offers undergraduate, postgraduate, and research programmes with a strong focus on innovation, scientific inquiry, and applied biochemistry. The department integrates fundamental and advanced areas of biology, preparing students for global opportunities.",
 
                 "vision": "To accentuate innovation, inquisition, and rational thinking in students, imparting quality education to achieve academic excellence.",
 
@@ -739,9 +740,9 @@
                     { "name": "Dr. A. Allen Gift", "designation": "Tutor", "exp": "0" }
                 ],
 
-                "services_desc": "The department offers academic programs, research opportunities, and high-quality clinical biochemistry services.",
+                "services_desc": "The department offers academic programmes, research opportunities, and high-quality clinical biochemistry services.",
                 "services": [
-                    "Undergraduate and postgraduate programs in biochemistry",
+                    "Undergraduate and postgraduate programmes in biochemistry",
                     "Research opportunities",
                     "Clinical biochemistry services",
                     "High-quality NABL-accredited laboratory service"
@@ -824,20 +825,20 @@
                     "Molecular Biology and Genetics"
                 ],
 
-                "events_desc": "The department organizes and participates in academic and student-focused programs.",
+                "events_desc": "The department organizes and participates in academic and student-focused programmes.",
                 "events": [
                     "Seminars",
                     "Workshops",
                     "Conferences",
                     "Guest Lectures",
-                    "Quiz Programs"
+                    "Quiz Programmes"
                 ],
 
                 "achievements_desc": "The department has achieved notable milestones in research and academic excellence.",
                 "achievements": [
                     "ICMR funded ongoing research projects",
                     "EQUIP – Elevating Quality in Research, Publications, Patents, Copyright – 2025",
-                    "Bio Blaze – 2025 (Quiz program for undergraduate students)",
+                    "Bio Blaze – 2025 (Quiz programme for undergraduate students)",
                     "Lab Technician Day 2025",
                     "Central Lab Biochemistry: Internal Quality Control Training with CAPA"
                 ],
@@ -880,7 +881,7 @@
                 "color": "#50b5efff",
                 "colorDark": "#0c95b8ff",
 
-                "desc": "The Department of Pathology combines theoretical understanding with practical laboratory expertise to study diseases, their causes, processes, and effects on the body. Through advanced diagnostic methods and academic programs, the department equips students with essential skills for disease investigation and diagnosis.",
+                "desc": "The Department of Pathology combines theoretical understanding with practical laboratory expertise to study diseases, their causes, processes, and effects on the body. Through advanced diagnostic methods and academic programmes, the department equips students with essential skills for disease investigation and diagnosis.",
 
                 "vision": "To provide state-of-the-art diagnostic pathology services while achieving excellence in pathology research and education.",
 
@@ -909,7 +910,7 @@
                     "Histopathology and Cytopathology Laboratories with modern tissue processing units",
                     "Clinical Pathology / Laboratory Medicine sections (Hematology, Cytology, Tissue Pathology)",
                     "Automated Analyzers for Hematology and Clinical Pathology",
-                    "Specialized diagnostic services including Frozen Section, Immunohistochemistry (IHC), Immunofluorescence (IF)"
+                    "Specialised diagnostic services including Frozen Section, Immunohistochemistry (IHC), Immunofluorescence (IF)"
                 ],
 
                 "teaching_research_infra": [
@@ -1021,7 +1022,7 @@
                     "Analysis of appendicectomy specimens"
                 ],
 
-                "events_desc": "The department conducts academic, research, and community programs.",
+                "events_desc": "The department conducts academic, research, and community programmes.",
                 "events": [
                     "PATH’O’FEST 2024 – Updates in Diagnostic Pathology",
                     "MedQuest in Pathology – Academic Treasure Hunt",
@@ -1114,7 +1115,7 @@
                 icon: "fa-virus-covid", 
                 color: "#27ae60", 
                 colorDark: "#229954",
-                desc: "The Department of Microbiology, established in 2009, is dedicated to excellence in education, diagnosis, and research in infectious diseases. It provides strong foundations in bacteriology, virology, mycology, and parasitology with emphasis on clinical correlation, laboratory diagnosis, prevention, and control. The department bridges bench-to-bedside practices and supports infection control, antimicrobial stewardship, and vaccination programs.",
+                desc: "The Department of Microbiology, established in 2009, is dedicated to excellence in education, diagnosis, and research in infectious diseases. It provides strong foundations in bacteriology, virology, mycology, and parasitology with emphasis on clinical correlation, laboratory diagnosis, prevention, and control. The department bridges bench-to-bedside practices and supports infection control, antimicrobial stewardship, and vaccination programmes.",
                 vision: "To provide excellent diagnostic and support services to patients, community, and clinical colleagues, maintain high standards of training for medical graduates and healthcare workers, and foster an environment that empowers faculty and staff to engage in translational research and focused areas of excellence.",
 
                 mission: [
@@ -1125,7 +1126,7 @@
                 objectives: [
                     "Impart knowledge and skills to undergraduate, postgraduate, nursing, and allied health science students.",
                     "Ensure postgraduate training in ICUs, Respiratory Medicine, CSSD, ICTC, Molecular Biology, Mycology, and Virology.",
-                    "Participate in disease containment through notifications, awareness programs, antibiotic policies, vaccination, and biomedical waste management.",
+                    "Participate in disease containment through notifications, awareness programmes, antibiotic policies, vaccination, and biomedical waste management.",
                     "Provide infection control guidelines to healthcare workers.",
                     "Foster research on emerging infections, opportunistic infections, and antimicrobial resistance."
                 ],
@@ -1238,7 +1239,7 @@
                     "Guest Lecture – Hepatitis B – 26.07.2024",
                     "CME – Breaking Rabies Boundaries – 21.09.2024",
                     "Guest Lecture – Antibiotic Awareness – 16.11.2024",
-                    "Public Awareness Programme – National Vaccination Day – 19.03.2025",
+                    "Public Awareness Programmeme – National Vaccination Day – 19.03.2025",
                     "Guest Lecture – Hand Hygiene – 05.05.2025",
                     "UNICORA 2025 – National Conference on Advances in Microscopy – 07.11.2025 & 08.11.2025",
                     "CAHO Onsite Training – Antimicrobial Stewardship – 13.12.2025"
@@ -1253,10 +1254,10 @@
                     { name: "Guest Lecture on Hepatitis B", date: "26.07.2024", path: "Microbiology/1.jpg" },
                     { name: "CME on Breaking Rabies Boundaries", date: "21.09.2024", path: "Microbiology/2.jpg" },
                     { name: "Guest Lecture on Antibiotic Awareness", date: "16.11.2024", path: "Microbiology/3.jpg" },
-                    { name: "Public Awareness Programme – National Vaccination Day", date: "19.03.2025", path: "Microbiology/4.jpg" },
+                    { name: "Public Awareness Programmeme – National Vaccination Day", date: "19.03.2025", path: "Microbiology/4.jpg" },
                     { name: "Guest Lecture on Hand Hygiene", date: "05.05.2025", path: "Microbiology/5.jpg" },
                     { name: "UNICORA 2025 – National Conference on Advances in Microscopy", date: "07.11.2025", path: "Microbiology/6.jpg" },
-                    { name: "CAHO Onsite Training Program – Antimicrobial Stewardship", date: "13.12.2025", path: "Microbiology/7.jpg" }
+                    { name: "CAHO Onsite Training Programme – Antimicrobial Stewardship", date: "13.12.2025", path: "Microbiology/7.jpg" }
                 ]
      },
      {
@@ -1403,7 +1404,7 @@
 
                 gallery: [
                     {
-                        "name": "ADR awareness program for general population (PHC, Samayapuram) as part of Pharmacovigilance Week Celebration",
+                        "name": "ADR awareness programme for general population (PHC, Samayapuram) as part of Pharmacovigilance Week Celebration",
                         "date": "19.09.25",
                         "path": "Pharmacology/1.jpg"
                     },
@@ -1418,7 +1419,7 @@
                         "path": "Pharmacology/3.jpg"
                     },
                     {
-                        "name": "ADR Reporting Orientation Program for novice nurses",
+                        "name": "ADR Reporting Orientation Programme for novice nurses",
                         "date": "19.09.25",
                         "path": "Pharmacology/4.jpg"
                     },
@@ -1532,7 +1533,7 @@
                 ]
      },
      {
-                id: "ForensicMedicine",
+                id: "Forensic",
                 name: "Forensic Medicine & Toxicology",
                 icon: "fa-gavel",
                 color: "#607d8b",
@@ -1645,7 +1646,7 @@
 
                 gallery: [
                     {
-                        name: "Anti-ragging awareness week program",
+                        name: "Anti-ragging awareness week programme",
                         date: "14/08/2024",
                         path: "Forensic/1.jpg"
                     },
@@ -1663,20 +1664,20 @@
                 color: "#824cafff",
                 colorDark: "#52388eff",
 
-                desc: "The Department of Community Medicine focuses on teaching preventive, promotive, and social aspects of health. It trains undergraduate and postgraduate students in epidemiology, public health programs, biostatistics, research methods, and community-based care with strong emphasis on field practice and primary healthcare.",
+                desc: "The Department of Community Medicine focuses on teaching preventive, promotive, and social aspects of health. It trains undergraduate and postgraduate students in epidemiology, public health programmes, biostatistics, research methods, and community-based care with strong emphasis on field practice and primary healthcare.",
 
-                vision: "To provide medical education to students that is sensitive to the changing health needs of the community and health care delivery system.",
+                vision: "To provide medical education to students that is sensitive to the changing health needs of the community and Healthcare delivery system.",
 
                 mission: [
-                    "To focus on health care and education through community initiatives.",
+                    "To focus on Healthcare and education through community initiatives.",
                     "To train the students so as to enable them to provide primary care to the community."
                 ],
 
                 objectives: [
                     "To enable budding doctors to understand health problems and means to tackle the same by empowering them with comprehensive and adequate epidemiological and community health skills",
-                    "To expose students to family health care programme through surveys and community-based activities to ensure involvement of community as a teaching and training tool for the students",
+                    "To expose students to family Healthcare programmeme through surveys and community-based activities to ensure involvement of community as a teaching and training tool for the students",
                     "To develop and adopt innovative methods like participatory learning to achieve better learning outcomes.",
-                    "To ensure participation of students in outreach activities including health communication and national health programmes at all levels.",
+                    "To ensure participation of students in outreach activities including health communication and national health programmemes at all levels.",
                     "To sensitize, conduct and promote student research activities on priority health needs of the community"
                 ],
 
@@ -1707,7 +1708,7 @@
 
                 services: [
                     "School health screening at various government and private schools",
-                    "Awareness programs on various health issues in the community",
+                    "Awareness programmes on various health issues in the community",
                     "Referral services from primary health centers to SRM hospital",
                     "Sponsored free nutritious food supplements for tuberculosis patients"
                 ],
@@ -1722,7 +1723,7 @@
                     "Community-based epidemiological research",
                     "Studies on public health nutrition and disease burden",
                     "Research on occupational health and preventive strategies",
-                    "Assessment of health program effectiveness"
+                    "Assessment of health programme effectiveness"
                 ],
 
                 pubYearwise: [
@@ -1808,7 +1809,7 @@
                 research: [
                     "Community Medicine departments have significantly advanced research on non-communicable diseases through community-based prevalence studies, risk-factor assessment, and early screening initiatives",
                     "They emphasize prevention, health education, and primary-care integration, targeting vulnerable populations.",
-                    "Their work guides policy, strengthens public-health programs, and supports cost-effective strategies for reducing disease burden."
+                    "Their work guides policy, strengthens public-health programmes, and supports cost-effective strategies for reducing disease burden."
                 ],
                 events: [
                     "Celebration of various health days with rallies, health education and screening activities",
@@ -1852,7 +1853,7 @@
                         path: "CommunityMedicine/6.jpg"
                     },
                     {
-                        name: "Capability Enhancement Program - Basics in Research",
+                        name: "Capability Enhancement Programme - Basics in Research",
                         date: "07/06/2024",
                         path: "CommunityMedicine/7.jpg"
                     }
@@ -1912,7 +1913,7 @@
                 ],
 
                 "events": [
-                    "World Cardiology Day awareness programmes"
+                    "World Cardiology Day awareness programmemes"
                 ],
 
                 "achievements": [
@@ -1926,7 +1927,7 @@
                 desc: "The Department of Neurology offers complete diagnosis and treatment of disorders affecting the brain, spinal cord, nerves, and muscles with evidence-based care supported by neuroimaging and neurophysiology services. Our focus is patient-centred care with a commitment to c8linical excellence.",
                 vision:"To be a centre of excellence in neurological care and services through clinical expertise, advanced technology, and continuous academic growth.",
                 mission:"To develop the Department of Neurology into a leading tertiary care institute and research centre.",
-                objectives:["Establish the department as a tertiary referral centre for neurological care.","Develop advanced diagnostic, interventional, and neurophysiology services.","Build a strong clinical and research programme in neurosciences.","Provide training and education for healthcare professionals."],
+                objectives:["Establish the department as a tertiary referral centre for neurological care.","Develop advanced diagnostic, interventional, and neurophysiology services.","Build a strong clinical and research programmeme in neurosciences.","Provide training and education for healthcare professionals."],
                 infra: ["Dedicated neurology outpatient and inpatient services with monitored beds.","Advanced neurodiagnostic facilities including EEG, EMG–NCV, and evoked potentials.","Access to modern neuroimaging services (CT, MRI, vascular imaging)."],
                 faculty: [ {
                         "name": "Dr. Jayakumar M",
@@ -1955,9 +1956,9 @@
                 id: "Nephrology", name: "Nephrology", icon: `<i class="material-symbols-outlined">nephrology</i>`, color: "#ff9800", colorDark: "#f57c00",
                 desc: "Comprehensive child healthcare with NICU and PICU facilities.",
                 vision:"To be a center of excellence in nephrology by delivering comprehensive, ethical, and patient-centric renal care, advancing medical education and research, and improving community kidney health through multidisciplinary collaboration.",
-                mission:"<li>To provide comprehensive renal services including prevention, early detection, accurate diagnosis, dialysis, and effective management of acute and chronic kidney diseases.</li><li>To deliver safe, ethical, evidence-based, and high-quality patient care with a strong focus on patient safety and quality assurance.</li><li>To support undergraduate and postgraduate medical education in accordance with National Medical Commission (NMC) guidelines.</li><li>To promote clinical research and academic activities to advance renal science and improve patient outcomes.</li><li>To conduct community outreach programs for early detection and prevention of kidney disorders.</li>",
+                mission:"<li>To provide comprehensive renal services including prevention, early detection, accurate diagnosis, dialysis, and effective management of acute and chronic kidney diseases.</li><li>To deliver safe, ethical, evidence-based, and high-quality patient care with a strong focus on patient safety and quality assurance.</li><li>To support undergraduate and postgraduate medical education in accordance with National Medical Commission (NMC) guidelines.</li><li>To promote clinical research and academic activities to advance renal science and improve patient outcomes.</li><li>To conduct community outreach programmes for early detection and prevention of kidney disorders.</li>",
                 objectives:[ 
-                    "To provide specialized care for patients with acute and chronic kidney diseases, including dialysis and renal transplantation services.",
+                    "To provide specialised care for patients with acute and chronic kidney diseases, including dialysis and renal transplantation services.",
                     "To ensure early diagnosis, prevention, and optimal management of kidney disorders through evidence-based practices.",
                     "To deliver high-quality renal replacement therapy, including hemodialysis and post-transplant care.",
                     "To enhance academic excellence by training undergraduate and postgraduate students in nephrology.",
@@ -2075,23 +2076,24 @@
                     }
                 ]
             },
-            // {
-            //     id: "Gastroenterology", name: "Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
-            //     desc: "Comprehensive mental health services with counseling and therapy.",
-            //     vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-            //     infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-            //     faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-            //     services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
-            //     pubStats: [{label: "Publications", value: "20+"}],
-            //     pubHighlights: ["Depression management"],
-            //     pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
-            //     research: ["Mental health awareness", "Addiction treatment"],
-            //     events: ["World Mental Health Day"],
-            //     achievements: ["Excellence in Mental Health"],
-            //     gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
-            // },
+            {
+                id: "Gastroenterology", name: "Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
+                noContent:true,
+                desc: "Comprehensive mental health services with counseling and therapy.",
+                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
+                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
+                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
+                services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
+                pubStats: [{label: "Publications", value: "20+"}],
+                pubHighlights: ["Depression management"],
+                pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
+                research: ["Mental health awareness", "Addiction treatment"],
+                events: ["World Mental Health Day"],
+                achievements: ["Excellence in Mental Health"],
+                gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
+            },
             {
                 "id": "general_medicine",
                 "name": "General Medicine",
@@ -2118,7 +2120,7 @@
                 "infra_desc": "The department of General Medicine is equipped with well organized outpatient and inpatient facilities, supported by fully functional ICU and emergency services.",
                 "infra": [
                     "Outpatient department with spacious consultation areas, dedicated examination rooms and comfortable waiting hall.",
-                    "General Ward inpatient facilities with 8 wards of 30 beds each (240 beds total).",
+                    "General Ward inpatient facilities with 6 wards of 40 beds each (240 beds total).",
                     "ICU & CCU facilities with 40 beds equipped with advanced monitoring and life-support systems.",
                     "Well-equipped procedure rooms for bone marrow aspiration, pleural aspiration and lumbar puncture.",
                     "Dedicated teaching spaces, seminar halls, demo halls and library for UG & PG training."
@@ -2258,12 +2260,12 @@
                     "Studies on Myocardial Infarction and Diabetes Mellitus"
                 ],
 
-                "events_desc": "The Department conducts regular academic and community outreach programs.",
+                "events_desc": "The Department conducts regular academic and community outreach programmes.",
                 "events": [
                     "Annual CME on Diabetes, Heart Disease and Stroke",
                     "Workshops on Continuous Insulin Pump Therapy",
                     "Student seminars and quiz competitions",
-                    "World Diabetes, Hypertension & Heart Day awareness programs",
+                    "World Diabetes, Hypertension & Heart Day awareness programmes",
                     "Medical camps for major public health days"
                 ],
 
@@ -2438,11 +2440,11 @@
                     "Study on pattern and outcome of acute poisoning in a tertiary care centre."
                 ],
 
-                "events_desc": "The Department conducts regular academic and community outreach programs.",
+                "events_desc": "The Department conducts regular academic and community outreach programmes.",
                 "events": [
                     "Trauma Uncovered – Radiology (Guest Lecture)",
                     "Rapidly Changing Face of AI in Healthcare (Guest Lecture)",
-                    "CPR Awareness Programme Week (CME & Workshop)"
+                    "CPR Awareness Programmeme Week (CME & Workshop)"
                 ],
 
                 "gallery": [
@@ -2461,7 +2463,7 @@
                     "date": "02 Jul 2025"
                     },
                     {
-                    "name": "CPR Awareness Programme Week",
+                    "name": "CPR Awareness Programmeme Week",
                     "icon": "fa-hospital",
                     "event": "Emergency Medicine",
                     "path": "Emergency_Medicine/3.jpg",
@@ -2567,14 +2569,14 @@
                 ],
 
                 "events": [
-                    "Obesity in Children Awareness Programme",
+                    "Obesity in Children Awareness Programmeme",
                     "Down Syndrome Day",
                     "Vacci-Quiz",
                     "Hemophilia Day",
                     "Emergency in Paediatric Surgery – Guest Lecture",
                     "Add-on Course",
-                    "Neonatal Resuscitation Program",
-                    "CRMI Induction Program",
+                    "Neonatal Resuscitation Programme",
+                    "CRMI Induction Programme",
                     "Paediatric Quiz for UG & PG Students",
                     "Breastfeeding Week Celebration",
                     "Parent Teachers Meeting",
@@ -2587,15 +2589,15 @@
                     "Postgraduate Quiz Winners: Dr. Sneka, Dr. Kanakatara"
                 ],
                 "gallery": [
-                    { "name": "Obesity in Children Awareness Programme", "date": "04-03-2025", "path": "Pediatrics/1.jpg" },
+                    { "name": "Obesity in Children Awareness Programmeme", "date": "04-03-2025", "path": "Pediatrics/1.jpg" },
                     { "name": "Down Syndrome Day", "date": "21-03-2025", "path": "Pediatrics/2.jpg" },
                     { "name": "Vacci Quiz", "date": "12-04-2025", "path": "Pediatrics/3.jpg" },
                     { "name": "Hemophilia Day", "date": "29-04-2025", "path": "Pediatrics/4.jpg" },
                     { "name": "Emergency in Paediatric Surgery – Guest Lecture", "date": "16-05-2025", "path": "Pediatrics/5.jpg" },
                     { "name": "Add-on Course", "date": "22-05-2024 to 23-05-2024", "path": "Pediatrics/6.jpg" },
-                    { "name": "Neonatal Resuscitation Program", "date": "26-05-2025", "path": "Pediatrics/7.jpg" },
-                    { "name": "CRMI Induction Program", "date": "26-05-2025", "path": "Pediatrics/8.jpg" },
-                    { "name": "Paediatric Quiz Program", "date": "27-06-2025", "path": "Pediatrics/9.jpg" },
+                    { "name": "Neonatal Resuscitation Programme", "date": "26-05-2025", "path": "Pediatrics/7.jpg" },
+                    { "name": "CRMI Induction Programme", "date": "26-05-2025", "path": "Pediatrics/8.jpg" },
+                    { "name": "Paediatric Quiz Programme", "date": "27-06-2025", "path": "Pediatrics/9.jpg" },
                     { "name": "Breastfeeding Week", "date": "01-08-2025 to 07-08-2025", "path": "Pediatrics/10.jpg" },
                     { "name": "Parent Teachers Meeting", "date": "22-09-2025 to 25-09-2025", "path": "Pediatrics/11.jpg" },
                     { "name": "PG Clinics in Adolescence", "date": "22-11-2025", "path": "Pediatrics/12.jpg" }
@@ -2611,7 +2613,7 @@
                 "desc": "The Department of Dermatology, Venereology & Leprology provides comprehensive diagnosis, treatment, prevention, and counselling services for skin, hair, nail, STI and leprosy disorders, supported by modern diagnostic, procedural and laser facilities that meet NMC, NACO and NLEP standards.",
                 "vision": "To develop ethical, skilled, and compassionate Dermatologists excelling in evidence-based care for skin, hair, nail, STI and leprosy disorders, while fostering research, innovation, and stigma-free, patient-centred healing.",
 
-                "mission": "To provide competency-based dermatology training, ensure excellence in diagnostics and procedures, deliver ethical and patient-centred care, promote evidence-based practice, support national STI and leprosy programs, encourage interdisciplinary learning, and cultivate professionalism, communication, leadership, and continuous academic growth.",
+                "mission": "To provide competency-based dermatology training, ensure excellence in diagnostics and procedures, deliver ethical and patient-centred care, promote evidence-based practice, support national STI and leprosy programmes, encourage interdisciplinary learning, and cultivate professionalism, communication, leadership, and continuous academic growth.",
 
                 "objectives": [
                     "To train students in accurate diagnosis and management of skin, hair, nail, STI and leprosy disorders.",
@@ -2698,12 +2700,12 @@
                     "World Vitiligo Day",
                     "World Psoriasis Day",
                     "AIDS Day",
-                    "Skin Health Awareness Programs"
+                    "Skin Health Awareness Programmes"
                 ],
 
                 "achievements": [
                     "Postgraduate student research selected for ICMR grant",
-                    "Strengthened STI and NLEP program support",
+                    "Strengthened STI and NLEP programme support",
                     "Advanced procedural and laser dermatology services"
                 ],
 
@@ -2754,9 +2756,9 @@
                 id: "psychiatry", 
                 name: "Psychiatry", 
                 icon: "fa-brain", color: "#673ab7", colorDark: "#512da8",
-                desc: "The Department of Psychiatry is committed to excellence in mental health care, education, and research. We provide comprehensive, evidence-based assessment and treatment for psychiatric disorders across the lifespan, while training competent, ethical mental health professionals.",
+                desc: "The Department of Psychiatry is committed to excellence in mental Healthcare, education, and research. We provide comprehensive, evidence-based assessment and treatment for psychiatric disorders across the lifespan, while training competent, ethical mental health professionals.",
                 vision:"To improve the quality of life of individuals with mental illness through excellence in medical education, impactful research, promoting awareness and compassionate clinical care.",
-                mission:["To create structured, empathetic and comprehensive MENTAL   health care services with appropriate socio-cultural context intended to reach medically unreached rooted in BIO-PSYCHO-SOCIAL model.","To commit to offer fine educational training and research activities aiming at imparting fundamental psychiatric knowledge, encouraging Scientific Temper, and upholding universal ethical values in shaping an integrated Mental Health Professional."],
+                mission:["To create structured, empathetic and comprehensive MENTAL   Healthcare services with appropriate socio-cultural context intended to reach medically unreached rooted in BIO-PSYCHO-SOCIAL model.","To commit to offer fine educational training and research activities aiming at imparting fundamental psychiatric knowledge, encouraging Scientific Temper, and upholding universal ethical values in shaping an integrated Mental Health Professional."],
                 objectives:[ "To impart such knowledge and skills that may enable an Undergraduate student/CRMI AND Post Graduate to Promote awareness, diagnose and treat common psychiatric disorders, and to gain an in depth knowledge on research aspects and Psychosocial aspects of various mental illnesses.","To ensure excellent patient care with confidential interviewing utilizing pharmacological, Psychological and alternative treatment modalities including use of advanced equipment (ECT, Psychometric instruments, Biofeedback) for diagnostic and therapeutic management."],
                 infra_desc:"The Department is equipped with modern outpatient and inpatient facilities, dedicated psychotherapy and de-addiction unit, and advanced diagnostic services supporting comprehensive clinical care, academic training, and multidisciplinary research in mental health.",
                 infra: [
@@ -2805,7 +2807,7 @@
                         "designation": "Clinical Psychologist",
                         }
                 ],
-                services_desc:"The Department offers comprehensive psychiatric services including outpatient, inpatient, emergency, and consultation-liaison care. Specialized clinics provide focused interventions in areas such as child psychiatry, addiction medicine, and geriatric mental healthx",
+                services_desc:"The Department offers comprehensive psychiatric services including outpatient, inpatient, emergency, and consultation-liaison care. Specialised clinics provide focused interventions in areas such as child psychiatry, addiction medicine, and geriatric mental healthx",
                 services: [
                    "Out Patient Department with separate consultation rooms ensuring patient privacy and confidentiality",
                     "30 bedded In Patient Department including Deaddiction ward with treatment including psychopharmacological, psychotherapy & psychosocial management using recent treatment modalities",
@@ -2918,7 +2920,7 @@
                 research: [
                         "We are being involved in ICMR (Indian Council of Medical Research) and IPS (Indian Psychiatric Society) based multicentric projects currently.",
                         "This includes basic neuroscience, clinical trials, epidemiological studies, and health services research aimed at improving diagnosis, treatment outcomes, and prevention strategies.",
-                        "Active research areas encompass addiction, mood and anxiety disorders, neurodevelopment conditions, behavioral neuroscience, and integrated mental health care.",
+                        "Active research areas encompass addiction, mood and anxiety disorders, neurodevelopment conditions, behavioral neuroscience, and integrated mental Healthcare.",
                         "Faculty collaborate across disciplines to translate scientific discoveries into innovative therapies and enhanced patient care, fostering academic growth and community impact.",
                         "Clinical research trials and quality improvement initiatives further ensure evidence-based practice and progressive mental health services."
                     ],
@@ -2928,20 +2930,20 @@
                     "UG Psychiatry Quiz Prelims and Finals",
                     "World Schizophrenia Day 2025",
                     "World Mental Health Day UG Debate 2025",
-                    "Word Suicide Prevention day 2035 - Student Awareness program",
-                    "World Bipolar day - Public awareness program"
+                    "Word Suicide Prevention day 2035 - Student Awareness programme",
+                    "World Bipolar day - Public awareness programme"
                 ],
-                events_desc:"The Department organizes a variety of academic events throughout the year, including CLINICAL seminars, mental health awareness programs, and Postgraduate CME and observation of International Mental Health days.",
+                events_desc:"The Department organizes a variety of academic events throughout the year, including CLINICAL seminars, mental health awareness programmes, and Postgraduate CME and observation of International Mental Health days.",
                 achievements: [
-                    "World Mental Health Day program for Students and general public",
-                    "World Suicide Prevention Day Student awareness program",
-                    "World Schizophrenia Day programs",
-                    "World Bipolar Day Program",
-                    "World No Tobacco day program",
-                    "Mental Health Awareness Programs, Screening Camps"
+                    "World Mental Health Day programme for Students and general public",
+                    "World Suicide Prevention Day Student awareness programme",
+                    "World Schizophrenia Day programmes",
+                    "World Bipolar Day Programme",
+                    "World No Tobacco day programme",
+                    "Mental Health Awareness Programmes, Screening Camps"
                 ],
-                achievements_desc:"The department has achieved significant recognition in 2025 through various programs, including accolades for clinical excellence, and leadership and observation and celebration of International Mental health related days",
-                gallery_desc:"The psychiatry department gallery showcases the vibrant academic, clinical, and community activities throughout the year. It highlights moments from conferences, workshops, outreach programs, and departmental celebrations, reflecting the collaborative spirit and achievements of faculty, students, and staff",
+                achievements_desc:"The department has achieved significant recognition in 2025 through various programmes, including accolades for clinical excellence, and leadership and observation and celebration of International Mental health related days",
+                gallery_desc:"The psychiatry department gallery showcases the vibrant academic, clinical, and community activities throughout the year. It highlights moments from conferences, workshops, outreach programmes, and departmental celebrations, reflecting the collaborative spirit and achievements of faculty, students, and staff",
                 gallery: [
                     {
                         "s_no": 1,
@@ -2985,10 +2987,10 @@
                 id: "Respiratory Medicine", name: "Respiratory Medicine", icon: "fa-lungs", color: "#26c6da", colorDark: "#00acc1",
                 desc: "Respiratory Medicine Department specializes in the diagnosis, treatment and prevention of diseases affecting the lungs and entire respiratory system. Our commitment is to manage a comprehensive range of conditions- from common respiratory ailments to complex, life-threatening diseases- with expertise and compassion.",
                 vision:"We provide outstanding clinical care, which is comprehensive, affordable, accessible and delivered compassionately, to the patient & nurture the students with knowledge, skills, and attitude essential to make them professional, compassionate & competent physician.",
-                mission:["To provide state-of-art management options for patients with respiratory diseases, according to the latest evidence-based guidelines.","Train the students with focus on bench to bedside practice through rigorous implementation of the course along with innovative teaching-learning practices and to delve into dynamic clinical research.","To create awareness among patients, their caregivers and the general public about basic Respiratory illnesses and their symptoms.","To conduct patient empowerment programs so as to reduce morbidity or mortality and arrive at early diagnosis of chest diseases at an affordable cost."],
-                objectives:["To conduct awareness & outreach programs to medically unreached populations.","To encourage UG & PG students for research activities in various dimension of respiratory medicine.","To create highly structured and quality respiratory care for a fully-fledged pulmonary rehabilitation program."],
+                mission:["To provide state-of-art management options for patients with respiratory diseases, according to the latest evidence-based guidelines.","Train the students with focus on bench to bedside practice through rigorous implementation of the course along with innovative teaching-learning practices and to delve into dynamic clinical research.","To create awareness among patients, their caregivers and the general public about basic Respiratory illnesses and their symptoms.","To conduct patient empowerment programmes so as to reduce morbidity or mortality and arrive at early diagnosis of chest diseases at an affordable cost."],
+                objectives:["To conduct awareness & outreach programmes to medically unreached populations.","To encourage UG & PG students for research activities in various dimension of respiratory medicine.","To create highly structured and quality respiratory care for a fully-fledged pulmonary rehabilitation programme."],
                 infra: ["Spirometry and DLCO", "Flexible video Bronchoscope.", "Facilities for Thoracoscopy","Respiratory intensive care unit (RICU)","Specialty clinics and counselling rooms","Lecture Halls and seminar rooms","Department library/ e-library"],
-                faculty: [{name: "Dr.K.G.RanganathaMallan", designation: "Professor", exp: "25"},{name: "Dr.R.VelRaj", designation: "Assistant Professor", exp: "17"},{name: "Dr.A.Anusuya", designation: "Assistant Professor", exp: "11"},{name: "Dr.B.Prabhu", designation: "Senior Resident", exp: "7"},{name: "Dr.Parath Kumar.M.C", designation: "Assistant Professor", exp: "5"}],
+                faculty: [{name: "Dr.K.G.RanganathaMallan", designation: "Professor", exp: "25"},{name: "Dr.R.VelRaj", designation: "Associate Professor", exp: "17"},{name: "Dr.A.Anusuya", designation: "Assistant Professor", exp: "11"},{name: "Dr.B.Prabhu", designation: "Senior Resident", exp: "7"},{name: "Dr.Parath Kumar.M.C", designation: "Assistant Professor", exp: "5"}],
                 services_desc:"The Department offers diagnostic and consultative services for patient management across various specialties",
                 services: ["Treatment of obstructive & restrictive airway diseases", "Treatment of dust or smoke related airway diseases", "Treatment of lung cancer and  its manifestations", "Treatment of Tuberculosis", "Treatment of Post Covid sequelae", "Treatment of sleep related diseases.","Vaccinations to prevent lung infections like Influenza  and Pneumococcal  vaccines","Breathing exercises and chest physiotherapy","Pulmonary function tests  (Spirometry  & DLCO)","Bronchial wash and lavage","Trans bronchial lung biopsy (TBLB), Endobronchial Biopsy (EBB)","Medical Thoracoscopy","Inter costal tube drainage","Ultrasound guided pleural fluid aspiration","Non- invasive ventilation","Invasive Ventilation"],
                 publication_overview:"Faculty members actively publish research papers in national and international journals, contributing to advancements in diagnostic pathology and laboratory medicine.",
@@ -3008,7 +3010,7 @@
                 research_desc:"The department encourages clinical and basic research with multidisciplinary collaboration.",
                 research: ["To correlate MDCT severity score of bronchiectasis and FEV1 in spirometry.","A study on monitoring the effectiveness of Noninvasive Ventilation in Managing Type 2 Respiratory Failure"," The FEV1/ DLCO ratio as an effective predictor of severity and survival in COPD associated pulmonary hypertension","Relationship between serum vitamin D3 and forced expiratory volume in patients with Chronic Obstructive Pulmonary Disorder(COPD)","Role of serum Albumin in predicting disease severity and hospitalization in patients with Non-Cystic Fibrosis   Bronchiectasis"],
                 events: ["Lung Cancer (GUEST LECTURE)","Non-Invasive Ventilation (CME & WORKSHOP)","Smoking Cessation (GUEST LECTURE & AWARENESS PROGRAM)","TB (GUEST LECTURE & STATE LEVEL QUIZ)","Bronchial Asthma (CME & QUIZ)","Obstructive Sleep Apnoea (CME)"],
-                events_desc:"The Department conducts regular academic and community outreach programs.",
+                events_desc:"The Department conducts regular academic and community outreach programmes.",
                 achievements: ["Postgraduate student’s research selected for ICMR grant."],
                 achievements_desc:"Recognition and awards for excellence in healthcare.",
 
@@ -3048,7 +3050,7 @@
                 "infra_desc": "The department is equipped with dedicated clinical units and teaching facilities to support both academic and diagnostic activities, offering comprehensive care for various surgical conditions.",
                 "infra": [
                     "Outpatient Department with reception & waiting area, consultation room, examination room, dressing room, minor procedure room, demo room with audio-visual aids",
-                    "In-Patient Ward with 8 surgical wards equipped with basic life-supporting facilities",
+                    "In-Patient Ward with 6 surgical wards equipped with basic life-supporting facilities",
                     "Endoscopy Suite equipped for UPPER GI Endoscopy & Colonoscopy",
                     "Surgical ICU, Male Post-Operative Ward, Female Post-Operative Ward, Burns Ward",
                     "Fully equipped operation theatre for open and laparoscopic surgeries",
@@ -3221,14 +3223,14 @@
                     "Faculty and residents regularly contribute to clinical studies."
                 ],
 
-                "events_desc": "The Department conducts regular academic and community outreach programs.",
+                "events_desc": "The Department conducts regular academic and community outreach programmes.",
                 "events": [
                     "UG & PG Surgical Skill Course Workshop",
-                    "SURGIBASE-2025 – CRMI Basic Skill Training Programme",
+                    "SURGIBASE-2025 – CRMI Basic Skill Training Programmeme",
                     "UG-RAPISURG-2025",
                     "PG-RAPISURG-2025",
                     "PG-Bowel Anastomosis & Endotrainer – Hands-On Workshop 2025",
-                    "PINK OCTOBER-2025 – Breast Cancer Awareness Programme",
+                    "PINK OCTOBER-2025 – Breast Cancer Awareness Programmeme",
                     "Academy of Surgery Science – PG Integrated Teaching",
                     "OPSURG-2025",
                     "UG & PG Medal Exam"
@@ -3248,7 +3250,7 @@
                     "date": "25 Apr 2025 – 26 Apr 2025"
                     },
                     {
-                    "name": "SURGIBASE-2025 – CRMI Basic Skill Training Programme",
+                    "name": "SURGIBASE-2025 – CRMI Basic Skill Training Programmeme",
                     "icon": "fa-image",
                     "event": "Surgery Department",
                     "path": "General_Surgery/2.jpg",
@@ -3269,7 +3271,7 @@
                     "date": "18 Sep 2025"
                     },
                     {
-                    "name": "PINK OCTOBER-2025 – Breast Cancer Awareness Programme",
+                    "name": "PINK OCTOBER-2025 – Breast Cancer Awareness Programmeme",
                     "icon": "fa-image",
                     "event": "Surgery Department",
                     "path": "General_Surgery/5.jpg",
@@ -3407,20 +3409,20 @@
                     "Work on bone infection management"
                 ],
 
-                "events_desc": "The department conducts academic activities and public outreach programs throughout the year.",
+                "events_desc": "The department conducts academic activities and public outreach programmes throughout the year.",
                 "events": [
                     "BOSS – Basic Orthopaedic Surgical Skill workshop for postgraduates (30.06.2024)",
-                    "Community awareness programs for osteoporosis – yearly BMD camps (05–06 Aug 2024)",
-                    "SCOPE CME Orthopaedic PG education program (17.11.2024)",
+                    "Community awareness programmes for osteoporosis – yearly BMD camps (05–06 Aug 2024)",
+                    "SCOPE CME Orthopaedic PG education programme (17.11.2024)",
                     "Osteoporosis detection camp (22.04.2025)",
-                    "SCOPE PG teaching program (20.09.2025)"
+                    "SCOPE PG teaching programme (20.09.2025)"
                 ],
 
                 "achievements_desc": "The department has achieved significant milestones in clinical excellence, teaching and academic activity.",
                 "achievements": [
                     "Establishment of a modern trauma and orthopaedic centre",
                     "Faculty recognition and awards at state orthopaedic forums",
-                    "Successful organization of postgraduate teaching programs and surgical workshops"
+                    "Successful organization of postgraduate teaching programmes and surgical workshops"
                 ],
 
                 "gallery": [
@@ -3430,18 +3432,7 @@
                         "path": "Orthopaedics/1.jpg",
                         "date": "30.06.2024"
                     },
-                    {
-                        "name": "Community Awareness Program for Osteoporosis - BMD Camps",
-                        "event": "Orthopaedics",
-                        "path": "Orthopaedics/2.jpg",
-                        "date": "05.08.2024"
-                    },
-                    {
-                        "name": "SCOPE – CME Orthopaedic PG Teaching Program",
-                        "event": "Orthopaedics",
-                        "path": "Orthopaedics/3.jpg",
-                        "date": "17.11.2024"
-                    },
+                    
                     {
                         "name": "Osteoporosis Detection Camp",
                         "event": "Orthopaedics",
@@ -3449,13 +3440,13 @@
                         "date": "22.04.2025"
                     },
                     {
-                        "name": "SCOPE Continuum Orthopaedic PG Education Program",
+                        "name": "SCOPE Continuum Orthopaedic PG Education Programme",
                         "event": "Orthopaedics",
                         "path": "Orthopaedics/5.jpg",
                         "date": "20.09.2025"
                     },
                     {
-                        "name": "RTA Awareness Program",
+                        "name": "RTA Awareness Programme",
                         "event": "Orthopaedics",
                         "path": "Orthopaedics/6.jpg",
                         "date": "06.01.2025"
@@ -3476,7 +3467,7 @@
                 "objectives": [
                     "To provide accurate diagnosis and effective management of diseases related to the ear, nose, throat, head, and neck using evidence-based clinical practices.",
                     "To offer advanced medical and surgical interventions including endoscopic procedures, audiology services, and head-and-neck surgeries.",
-                    "To promote early detection and prevention of ENT disorders through screening programs, counselling, and community awareness activities.",
+                    "To promote early detection and prevention of ENT disorders through screening programmes, counselling, and community awareness activities.",
                     "To train and mentor undergraduate and postgraduate students through strong clinical exposure, surgical training, and academic guidance.",
                     "To encourage research and innovation in the field of ENT through clinical studies and participation in scientific forums."
                 ],
@@ -3551,10 +3542,10 @@
                     "Pattern of hearing loss in mucosal type chronic otitis media."
                 ],
 
-                "events_desc": "The department conducts academic programs, workshops, and surgical events throughout the year.",
+                "events_desc": "The department conducts academic programmes, workshops, and surgical events throughout the year.",
                 "events": [
                     "CSF Rhinorrhoea – CME and PG case presentation",
-                    "Cochlear Implant Programme",
+                    "Cochlear Implant Programmeme",
                     "CSF Rhinorrhoea – Guest Lecture"
                 ],
 
@@ -3565,7 +3556,7 @@
 
                 "gallery": [
                     {
-                    "name": "Cochlear Implant Programme",
+                    "name": "Cochlear Implant Programmeme",
                     "icon": "fa-image",
                     "event": "ENT Department",
                     "path": "ENT/1.jpg",
@@ -3615,7 +3606,7 @@
                     "Diagnose various eye diseases prevalent in the country.",
                     "Manage eye conditions like conjunctivitis, stye, chalazion, and foreign body.",
                     "Recognise and give medical treatment of anterior segment diseases.",
-                    "Identify national objectives and actively participate in the national programme for prevention and control of blindness.",
+                    "Identify national objectives and actively participate in the national programmeme for prevention and control of blindness.",
                     "Recognise ophthalmic manifestations of systemic diseases."
                 ],
 
@@ -3722,12 +3713,12 @@
                     "Analysing systemic risk factors affecting diabetic retinopathy among type 2 diabetic patients"
                 ],
 
-                "events_desc": "The Department conducts academic and community programs.",
+                "events_desc": "The Department conducts academic and community programmes.",
 
                 "events": [
                     "CME - Decoding Diabetic Retinopathy",
                     "Inter Collegiate Quiz",
-                    "Eye Donation Awareness Programme"
+                    "Eye Donation Awareness Programmeme"
                 ],
 
                 "achievements_desc": "Faculty have received recognition for their contributions and community service.",
@@ -3758,7 +3749,7 @@
                         "date": "28.09.2025"
                     },
                     {
-                        "name": "Eye Donation Awareness Programme",
+                        "name": "Eye Donation Awareness Programmeme",
                         "event": "Ophthalmology",
                         "path": "Ophthalmology/3.jpg",
                         "date": "29.09.2025"
@@ -3773,7 +3764,7 @@
                 colorDark: "#512da8",
                 "desc": "The Department of Obstetrics & Gynaecology provides comprehensive reproductive healthcare, covering antenatal, intrapartum, postnatal care, as well as advanced gynaecological services. It is committed to women’s health through clinical excellence, research, and education.",
                 
-                "vision": "To provide exceptional care to each and every women approaching our door step. To champion the women’s health care system. To achieve excellence and advancement in women’s obstetrical and gynecological health, teaching the future specialty leaders. To be leaders and advocates in the pursuit of excellence in women’s health care.",
+                "vision": "To provide exceptional care to each and every women approaching our door step. To champion the women’s Healthcare system. To achieve excellence and advancement in women’s obstetrical and gynecological health, teaching the future specialty leaders. To be leaders and advocates in the pursuit of excellence in women’s Healthcare.",
 
                 "mission": [
                     "To help women and babies achieve optimal health outcomes.",
@@ -3785,11 +3776,11 @@
                 ],
 
                 "objectives": [
-                    "Dedicated to the pursuit of excellence in women’s health care.",
+                    "Dedicated to the pursuit of excellence in women’s Healthcare.",
                     "To provide highest quality service to patients.",
                     "To continuously evaluate patient-centric outcomes.",
                     "To promote involvement of all faculty and staff in problem solving.",
-                    "To continue a strong research program advancing medical science.",
+                    "To continue a strong research programme advancing medical science.",
                     "To be enthusiastic and think positively."
                 ],
 
@@ -3804,7 +3795,6 @@
 
                 "faculty_desc": "Highly Qualified Faculty with Extensive Clinical and Academic Experience.",
                 "faculty": [
-                    { "name": "Dr.Dhivya Sethuraman", "designation": "Professor & HOD"},
                     { "name": "Dr.S.Revwathy", "designation": "Professor & Director"},
                     { "name": "Dr.J.Shankar", "designation": "Professor"},
                     { "name": "Dr.S.Banumathy", "designation": "Associate Professor"},
@@ -3909,14 +3899,14 @@
                     "Incidence and outcomes of late-onset fetal growth restriction"
                 ],
 
-                "events_desc": "Regular CMEs, Workshops, and Awareness Programs are conducted.",
+                "events_desc": "Regular CMEs, Workshops, and Awareness Programmes are conducted.",
                 "events": [
                     "Guest lecture on Aneuploidy screening during Pregnancy",
                     "CME on Ethicon (Medical Ethics)",
                     "CME on Carcinoma Cervix",
                     "Workshop on 6P’s",
                     "Guest Lecture on Hyperandrogenism",
-                    "Awareness programme on PNPCDT Act"
+                    "Awareness programmeme on PNPCDT Act"
                 ],
 
                 "achievements_desc": "Recognized for excellence in maternal health services and academic contributions.",
@@ -3965,8 +3955,8 @@
                 "mission": "To provide accurate, timely and patient-centered imaging services, train undergraduate and postgraduate students in advanced radiological techniques, promote innovative research in imaging sciences, and support clinical departments with integrated diagnostic and interventional expertise.",
 
                 objectives: [
-                    "To provide multidisciplinary oral health care for a wide variety of patients including patients with special needs.",
-                    "To function effectively with care and compassion and in harmony with interdisciplinary health care teams.",
+                    "To provide multidisciplinary oral Healthcare for a wide variety of patients including patients with special needs.",
+                    "To function effectively with care and compassion and in harmony with interdisciplinary Healthcare teams.",
                     "To utilize the values of professional ethics, lifelong learning and adaptability."
                 ],
 
@@ -4001,7 +3991,7 @@
 
                 "services_desc": "The department offers comprehensive diagnostic, interventional, and emergency radiology services with round-the-clock availability.",
                 "services": [
-                    "MRI – Brain, Spine, Musculoskeletal, Abdomen, Pelvis, Vascular and Specialized Imaging",
+                    "MRI – Brain, Spine, Musculoskeletal, Abdomen, Pelvis, Vascular and Specialised Imaging",
                     "CT Imaging – Neuro, Chest, Abdomen, Pelvis, Musculoskeletal and Vascular Studies",
                     "CT-guided biopsies, FNAC and drainage procedures",
                     "Ultrasound and Doppler imaging including obstetric, vascular and musculoskeletal studies",
@@ -4042,12 +4032,12 @@
                     "Radiation dose reduction strategies and imaging protocol optimization"
                 ],
 
-                "events_desc": "The department regularly organizes academic and outreach programs to enhance radiology education and awareness.",
+                "events_desc": "The department regularly organizes academic and outreach programmes to enhance radiology education and awareness.",
                 "events": [
                     "Annual CME on Advances in Radiology",
                     "Workshops on Interventional Radiology Techniques",
-                    "Resident academic programs, seminars and case discussions",
-                    "Community outreach programs for imaging awareness"
+                    "Resident academic programmes, seminars and case discussions",
+                    "Community outreach programmes for imaging awareness"
                 ],
 
                 "achievements_desc": "Key milestones and recognitions achieved by the department.",
@@ -4081,7 +4071,7 @@
 
                 desc: "The Department of Dentistry focuses on the scientific study of disease processes through laboratory investigations, tissue diagnosis, and research. It plays a crucial role in patient care, providing the best dental treatment at affordable cost.",
 
-                vision: "To create a competent and socially responsible system by providing quality oral health care and progressive research.",
+                vision: "To create a competent and socially responsible system by providing quality oral Healthcare and progressive research.",
 
                 mission: [
                     "To improve oral health, functionality and esthetics of people with quality dental care, in order to improve their nutrition, confidence and quality of life.",
@@ -4089,8 +4079,8 @@
                 ],
 
                 objectives: [
-                    "To provide multidisciplinary oral health care for a wide variety of patients including patients with special needs.",
-                    "To function effectively with care and compassion and in harmony with interdisciplinary health care teams.",
+                    "To provide multidisciplinary oral Healthcare for a wide variety of patients including patients with special needs.",
+                    "To function effectively with care and compassion and in harmony with interdisciplinary Healthcare teams.",
                     "To utilize the values of professional ethics, lifelong learning and adaptability."
                 ],
 
@@ -4168,9 +4158,9 @@
                     "Prevalence of dental caries and its association with oral hygiene practices in children attending dental outpatient department of Trichy SRM Medical College Hospital & Research Centre, Tamil Nadu"
                 ],
 
-                events_desc: "The department conducts regular academic and community outreach programs.",
+                events_desc: "The department conducts regular academic and community outreach programmes.",
                 events: [
-                    "Oral health for all – Oral health awareness programme",
+                    "Oral health for all – Oral health awareness programmeme",
                     "Oral hygiene screening (22.04.2025)",
                     "Hands-on workshop (25.04.2025)",
                     "CME on Conscious Sedation (25.04.2025)"
@@ -4190,7 +4180,7 @@
                     },
                     {
                     name: "Oral Health for All",
-                    event: "Awareness Programme",
+                    event: "Awareness Programmeme",
                     path: "Dentistry/2.jpg",
                     date: "22/04/2025"
                     },
@@ -4240,6 +4230,10 @@
                     {
                         "name": "Dr. R. Ashwene",
                         "designation": "Assistant Professor",
+                    },
+                    {
+                        "name": "Dr. Aravind",
+                        "designation": "Assistant Professor",
                     }
                 ],
                "services": [
@@ -4280,23 +4274,24 @@
                     "Advanced video-assisted thoracic (VATS) surgeries."
                 ]
             },
-            // {
-            //     id: "Neurosurgery", name: "Neurosurgery", icon: `<i class="fas fa-brain"></i> `, color: "#27ae60", colorDark: "#229954",
-            //     desc: "Comprehensive internal medicine care for all age groups.",
-            //     vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-            //     infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-            //     faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-            //     services: ["General Consultation", "Diabetes Care", "Hypertension", "Infectious Diseases", "Respiratory Medicine", "Gastroenterology", "Cardiology", "Nephrology"],
-            //     pubStats: [{label: "Publications", value: "30+"}],
-            //     pubHighlights: ["Diabetes management"],
-            //     pubYearwise: [{year: "2023", title: "Diabetes protocols", journal: "Medicine Today", type: "Research"}],
-            //     research: ["Chronic disease management"],
-            //     events: ["World Diabetes Day"],
-            //     achievements: ["Best Medicine Dept"],
-            //     gallery: [{name: "OPD", icon: "fa-clinic-medical", event: "OPD", date: "Jan 2024"}]
-            // },
+            {
+                id: "Neurosurgery", name: "Neurosurgery", icon: `<i class="fas fa-brain"></i> `, color: "#27ae60", colorDark: "#229954",
+                desc: "Comprehensive internal medicine care for all age groups.",
+                noContent:true,
+                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
+                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
+                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
+                services: ["General Consultation", "Diabetes Care", "Hypertension", "Infectious Diseases", "Respiratory Medicine", "Gastroenterology", "Cardiology", "Nephrology"],
+                pubStats: [{label: "Publications", value: "30+"}],
+                pubHighlights: ["Diabetes management"],
+                pubYearwise: [{year: "2023", title: "Diabetes protocols", journal: "Medicine Today", type: "Research"}],
+                research: ["Chronic disease management"],
+                events: ["World Diabetes Day"],
+                achievements: ["Best Medicine Dept"],
+                gallery: [{name: "OPD", icon: "fa-clinic-medical", event: "OPD", date: "Jan 2024"}]
+            },
             {
                 id: "Urology", name: "Urology", icon: `<i class="material-symbols-outlined">urology</i>`, color: "#ff9800", colorDark: "#f57c00",
                 desc: "Experienced, skilfull and compassionate Urologists State of the art equipment for all endourology and laparoscopy procedures",
@@ -4317,23 +4312,24 @@
                 faculty: [{name: "DR. JAYAKUMAR.P", designation: "Assistant professor"}],
                 services: ["Head and Neck Cancer","Breast Cancer","Thyroid Cancer","Soft Tissue and Bone Sarcoma","Esophageal Cancer","Gastrointestinal Cancer","Hepatobiliary and Pancreatic Cancer","Uro-Gynecological Oncology","Skin Cancer"]
             },
-            // {
-            //     id: "Surgical Gastroenterology", name: "Surgical Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
-            //     desc: "Comprehensive mental health services with counseling and therapy.",
-            //     vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-            //     infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
-            //     faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-            //     services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
-            //     pubStats: [{label: "Publications", value: "20+"}],
-            //     pubHighlights: ["Depression management"],
-            //     pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
-            //     research: ["Mental health awareness", "Addiction treatment"],
-            //     events: ["World Mental Health Day"],
-            //     achievements: ["Excellence in Mental Health"],
-            //     gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
-            // },
+            {
+                id: "Surgical Gastroenterology", name: "Surgical Gastroenterology", icon: `<i class="material-symbols-outlined">gastroenterology</i>`, color: "#673ab7", colorDark: "#512da8",
+                noContent:true,
+                desc: "Comprehensive mental health services with counseling and therapy.",
+                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
+                infra: ["OPD rooms", "Inpatient wards", "ICU", "Procedure room"],
+                faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
+                services: ["General Psychiatry", "Depression Treatment", "Anxiety Disorders", "Addiction Treatment", "Counseling Services", "Child Psychiatry"],
+                pubStats: [{label: "Publications", value: "20+"}],
+                pubHighlights: ["Depression management"],
+                pubYearwise: [{year: "2023", title: "Mental health interventions", journal: "Psychiatry Review", type: "Research"}],
+                research: ["Mental health awareness", "Addiction treatment"],
+                events: ["World Mental Health Day"],
+                achievements: ["Excellence in Mental Health"],
+                gallery: [{name: "Consultation Room", icon: "fa-couch", event: "Psychiatry Dept", date: "Oct 2024"}]
+            },
               {
                 id: "Plastic and Reconstructive Surgery", name: "Plastic and Reconstructive Surgery", icon: `<i class="fas fa-user-alt"></i>`, color: "#e74c3c", colorDark: "#c0392b",
                 "desc": "The Department of Plastic and Reconstructive Surgery provides comprehensive curative, reconstructive, aesthetic and trauma-related surgical care. The unit is dedicated to evidence-based clinical practice, advanced surgical interventions, and academic excellence.",
@@ -4552,7 +4548,7 @@
                     "Case series on intramuscular hemangioma presenting as post-traumatic sequelae"
                 ],
 
-                "events_desc": "The Department conducts academic programs, CMEs, and training initiatives.",
+                "events_desc": "The Department conducts academic programmes, CMEs, and training initiatives.",
 
                 "events": [
                     "CME on Management of Thermal Burns",
@@ -4606,7 +4602,7 @@
                 "faculty": [
                     {
                     "name": "Dr Arun Prasath S",
-                    "designation": "Professor & Head, Department of Vascular Surgery"
+                    "designation": "Assistant Professor"
                     }
                 ],
                 "services": [
@@ -4629,7 +4625,7 @@
                 ],
 
                 "events": [
-                    "Vascular awareness programs",
+                    "Vascular awareness programmes",
                     "Diabetic foot care camps",
                     "World Vascular Day observance"
                 ],
@@ -4667,23 +4663,24 @@
                     "High success rate in AV fistula creation"
                 ],
             },
-            // {
-            //     id: "Paediatric Surgery", name: "Paediatric Surgery", icon: `<i class="fas fa-baby"></i>`, color: "#26c6da", colorDark: "#00acc1",
-            //     desc: "Comprehensive respiratory care with pulmonary function testing.",
-            //     vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
-            //     objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
-            //     infra: ["Pulmonary function lab", "Bronchoscopy suite", "Respiratory ICU", "Sleep study lab"],
-            //       faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
-            //     services: ["Asthma Management", "COPD Care", "TB Treatment", "Bronchoscopy", "Pulmonary Function Tests", "Sleep Studies"],
-            //     pubStats: [{label: "Publications", value: "7"},{label: "International", value: "7"},{label: "National", value: "7"}],
-            //     pubHighlights: ["COPD management"],
-            //     pubYearwise: [{year: "2023", title: "Asthma treatment protocols", journal: "Respiratory Medicine", type: "Research"}],
-            //     research: ["Asthma protocols", "TB treatment"],
-            //     events: ["World COPD Day"],
-            //     achievements: ["Excellence in Pulmonary Care"],
-            //     gallery: [{name: "PFT Lab", icon: "fa-wind", event: "Respiratory Lab", date: "Dec 2023"}]
-            // },
+            {
+                id: "Paediatric Surgery", name: "Paediatric Surgery", icon: `<i class="fas fa-baby"></i>`, color: "#26c6da", colorDark: "#00acc1",
+                desc: "Comprehensive respiratory care with pulmonary function testing.",
+                noContent:true,
+                vision:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                mission:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit earum, exercitationem eligendi saepe magni iure, voluptatum ipsam cumque adipisci quasi asperiores debitis dolor, cum doloribus quod perspiciatis non modi!",
+                objectives:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro.","Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, porro."],
+                infra: ["Pulmonary function lab", "Bronchoscopy suite", "Respiratory ICU", "Sleep study lab"],
+                  faculty: [{name: "Ram", designation: "Assistant professor", exp: "5"},{name: "Sam", designation: "Assistant professor", exp: "5"},{name: "John", designation: "Assistant professor", exp: "5"}],
+                services: ["Asthma Management", "COPD Care", "TB Treatment", "Bronchoscopy", "Pulmonary Function Tests", "Sleep Studies"],
+                pubStats: [{label: "Publications", value: "7"},{label: "International", value: "7"},{label: "National", value: "7"}],
+                pubHighlights: ["COPD management"],
+                pubYearwise: [{year: "2023", title: "Asthma treatment protocols", journal: "Respiratory Medicine", type: "Research"}],
+                research: ["Asthma protocols", "TB treatment"],
+                events: ["World COPD Day"],
+                achievements: ["Excellence in Pulmonary Care"],
+                gallery: [{name: "PFT Lab", icon: "fa-wind", event: "Respiratory Lab", date: "Dec 2023"}]
+            },
             
             
         ];
@@ -4706,7 +4703,7 @@
                      ${d.icon.includes("<i class=")===false 
                         ? `<i class="fa ${d.icon}"></i>` 
                         : `${d.icon}`}
-                    ${d.name}
+                    ${d.name == "ENT" ? "OTORHINOLARYNGOLOGY (ENT)" : d.name}
                     </a>
                 </li>
             `).join('');
@@ -4761,8 +4758,19 @@
             const container = document.getElementById('departmentDetail');
             container.style.setProperty('--dept-color', d.color);
             container.style.setProperty('--dept-color-dark', d.colorDark);
-            
-            let html = `
+            let html='';
+            if(d.noContent){
+                 html = `<div class="accordion-section" style='border:none;'>
+                                <div class="accordion-body" style='text-align:center;padding:20vh;color:grey'>
+                                    <center>
+                                        <h1><i class='fas fa-search'></i></h1>
+                                        <h2>Data not yet recieved</h2>
+                                    </center>
+                                </div>
+                        </div>`;
+            }
+            else{
+                   html = `
                 <div class="detail-header" id="${d.id}">
                     <div class="detail-header-content">
                         <h2>
@@ -4772,7 +4780,7 @@
                                 ? `<i class="fa ${d.icon}"></i>` 
                                 : `${d.icon}`}
                             </div>
-                            ${d.name}
+                            ${d.name == "ENT" ? "OTORHINOLARYNGOLOGY (ENT)" : d.name}
                         </h2>
                         <p>${d.desc}</p>
                         <hr style="color:#fff;margin:10px 0;"/>
@@ -4782,238 +4790,237 @@
                         </div>
                     </div>
                 </div>
-            `;
-            if (d.vision) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-bullseye"></i> Vision & Mission</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                               <h4>Vision</h4>
-                                <br>
-                                <ul>${d.vision}</ul>
-                                <br><br>
-                                <h4>Mission</h4>
-                                <br>
-                                <ul>${d.mission}</ul>
-                                <br><br>
-                                <h4>Objectives</h4>
-                                <br>
-                                ${d.objectives ? `${
-                                    d.objectives.map(f => `<li>${f}</li>`).join('')
-                                }`:''}
-                            </div>
-                        </div>
-                    </div>
                 `;
-            }
-            
-
-            if (d.infra) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-hospital"></i> Infrastructure</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                <p>${d.infra_desc ? d.infra_desc: "State-of-the-art facilities ensuring highest standards of patient care.</p>"}
-                                <ul>${d.infra.map(f => `<li>${f}</li>`).join('')}</ul>
+                if (d.vision) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-bullseye"></i> Vision & Mission</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
                             </div>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            if (d.faculty) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-user-md"></i>Doctors</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                ${d.faculty ? `
-                                        <div class="publication-table-wrapper">
-                                            <table class="publication-table">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width: 10%">S.No</th>
-                                                        <th style="width: 40%">Name of the Doctor</th>
-                                                        <th style="width: 50%">Designation</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    ${d.faculty.map((p,i) => `
-                                                        <tr>
-                                                            <td data-label="S.No">${i+1}</td>
-                                                            <td data-label="Name of the Faculty"><strong>${p.name}</strong></td>
-                                                            <td data-label="Designation">${p.designation}</td>
-                                                        </tr>
-                                                    `).join('')}
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    ` : '<p>Year-wise publication data will be updated soon.</p>'}
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            if (d.pubStats) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="tabs-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-book-medical"></i> Publications</div>
-                            <i class="fas fa-chevron-down tabs-expand-icon"></i>
-                        </div>
-                        <div class="tabs-body">
-                            <div class="tabs-content-wrapper">
-                                <div class="tabs-nav">
-                                    <button class="tab-button active" onclick="switchTab(event, 'overview-${d.id}')">Overview</button>
-                                    <button class="tab-button" onclick="switchTab(event, 'yearwise-${d.id}')">Year-wise</button>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                <h4>Vision</h4>
+                                    <br>
+                                    <ul>${d.vision}</ul>
+                                    <br><br>
+                                    <h4>Mission</h4>
+                                    <br>
+                                    <ul>${d.mission}</ul>
+                                    <br><br>
+                                    ${d.objectives ? `<h4>Objectives</h4>${
+                                        d.objectives.map(f => `<li>${f}</li>`).join('')
+                                    }`:''}
                                 </div>
-                                
-                                <div id="overview-${d.id}" class="tab-content active">
-                                    <p>Significant contributions to medical literature and research.</p>
-                                    <div class="stats-grid">
-                                        ${d.pubStats.map(s => `
-                                            <div class="stat-card">
-                                                <h4>${s.value}</h4>
-                                                <p>${s.label}</p>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+
+                if (d.infra) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-hospital"></i> Infrastructure</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                    <p>${d.infra_desc ? d.infra_desc: "State-of-the-art facilities ensuring highest standards of patient care.</p>"}
+                                    <ul>${d.infra.map(f => `<li>${f}</li>`).join('')}</ul>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                if (d.faculty) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-user-md"></i>Doctors</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                    ${d.faculty ? `
+                                            <div class="publication-table-wrapper">
+                                                <table class="publication-table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th style="width: 10%">S.No</th>
+                                                            <th style="width: 40%">Name of the Doctor</th>
+                                                            <th style="width: 50%">Designation</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        ${d.faculty.map((p,i) => `
+                                                            <tr>
+                                                                <td data-label="S.No">${i+1}</td>
+                                                                <td data-label="Name of the Faculty"><strong>${p.name}</strong></td>
+                                                                <td data-label="Designation">${p.designation}</td>
+                                                            </tr>
+                                                        `).join('')}
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        ` : '<p>Year-wise publication data will be updated soon.</p>'}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                if (d.pubStats) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="tabs-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-book-medical"></i> Publications</div>
+                                <i class="fas fa-chevron-down tabs-expand-icon"></i>
+                            </div>
+                            <div class="tabs-body">
+                                <div class="tabs-content-wrapper">
+                                    <div class="tabs-nav">
+                                        <button class="tab-button active" onclick="switchTab(event, 'overview-${d.id}')">Overview</button>
+                                        <button class="tab-button" onclick="switchTab(event, 'yearwise-${d.id}')">Year-wise</button>
+                                    </div>
+                                    
+                                    <div id="overview-${d.id}" class="tab-content active">
+                                        <p>Significant contributions to medical literature and research.</p>
+                                        <div class="stats-grid">
+                                            ${d.pubStats.map(s => `
+                                                <div class="stat-card">
+                                                    <h4>${s.value}</h4>
+                                                    <p>${s.label}</p>
+                                                </div>
+                                            `).join('')}
+                                        </div>
+                                        ${d.pubHighlights ? `
+                                            <h4 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--color-text-primary);">Key Research Highlights</h4>
+                                            <ul class="accordion-body" style="padding: 0;list-style:none;">
+                                                ${d.pubHighlights.map(p => `<li>${p}</li>`).join('')}
+                                            </ul>
+                                        ` : ''}
+                                    </div>
+                                    
+                                    <div id="yearwise-${d.id}" class="tab-content">
+                                        ${d.pubYearwise ? `
+                                            <div class="publication-table-wrapper">
+                                                <table class="publication-table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th style="width: 10%">Year</th>
+                                                            <th style="width: 45%">Title</th>
+                                                            <th style="width: 30%">Journal</th>
+                                                            <th style="width: 15%">Type</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        ${d.pubYearwise.map(p => `
+                                                            <tr>
+                                                                <td data-label="Year"><span class="year-badge">${p.year}</span></td>
+                                                                <td data-label="Title"><strong>${p.title}</strong></td>
+                                                                <td data-label="Journal">${p.journal}</td>
+                                                                <td data-label="Type"><span class="year-badge">${p.type}</span></td>
+                                                            </tr>
+                                                        `).join('')}
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        ` : '<p>Year-wise publication data will be updated soon.</p>'}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                if (d.research) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-microscope"></i> Research</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                    <p>${d.research_desc?d.research_desc:"Cutting-edge research advancing medical science."}</p>
+                                    <ul>${d.research.map(r => `<li>${r}</xli>`).join('')}</ul>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                if (d.events) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-calendar-alt"></i> Events</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                    <p>Regular conferences, training programmes, and awareness campaigns.</p>
+                                    <ul>${d.events.map(e => `<li>${e}</li>`).join('')}</ul>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                if (d.achievements) {
+                    console.log(d.achievements);
+                    
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-trophy"></i> Achievements</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                    <p>${d.achievements_desc?d.achievements_desc:"Recognition and awards for excellence in healthcare."}</p>
+                                    <ul>${d.achievements.map(a => `<li>${a}</li>`).join('')}</ul>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                if (d.gallery) {
+                    html += `
+                        <div class="accordion-section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="accordion-title"><i class="fas fa-images"></i> Gallery</div>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="accordion-body">
+                                    <p>Visual documentation of our facilities, events, and achievements.</p>
+                                    <div class="gallery-grid">
+                                        ${d.gallery.map(img => `
+                                            <div class="gallery-item">
+                                                <div class="gallery-placeholder">
+                                                    <img src="assets/images/gallery/${img.path}" alt='Not Given'>
+                                                </div>
+                                                <div class="gallery-overlay">
+                                                    <div class="gallery-overlay-title">${img.name}</div>
+                                                        ${
+                                                            img.date !== '' || img.date === undefined
+                                                            ? `<div class="gallery-overlay-date"><i class="fas fa-calendar"></i> ${img.date}</div>`
+                                                            : ''
+                                                        }
+                                                </div>
                                             </div>
                                         `).join('')}
                                     </div>
-                                    ${d.pubHighlights ? `
-                                        <h4 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--color-text-primary);">Key Research Highlights</h4>
-                                        <ul class="accordion-body" style="padding: 0;list-style:none;">
-                                            ${d.pubHighlights.map(p => `<li>${p}</li>`).join('')}
-                                        </ul>
-                                    ` : ''}
-                                </div>
-                                
-                                <div id="yearwise-${d.id}" class="tab-content">
-                                    ${d.pubYearwise ? `
-                                        <div class="publication-table-wrapper">
-                                            <table class="publication-table">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width: 10%">Year</th>
-                                                        <th style="width: 45%">Title</th>
-                                                        <th style="width: 30%">Journal</th>
-                                                        <th style="width: 15%">Type</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    ${d.pubYearwise.map(p => `
-                                                        <tr>
-                                                            <td data-label="Year"><span class="year-badge">${p.year}</span></td>
-                                                            <td data-label="Title"><strong>${p.title}</strong></td>
-                                                            <td data-label="Journal">${p.journal}</td>
-                                                            <td data-label="Type"><span class="year-badge">${p.type}</span></td>
-                                                        </tr>
-                                                    `).join('')}
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    ` : '<p>Year-wise publication data will be updated soon.</p>'}
                                 </div>
                             </div>
                         </div>
-                    </div>
-                `;
-            }
-            
-            if (d.research) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-microscope"></i> Research</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                <p>${d.research_desc?d.research_desc:"Cutting-edge research advancing medical science."}</p>
-                                <ul>${d.research.map(r => `<li>${r}</xli>`).join('')}</ul>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            if (d.events) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-calendar-alt"></i> Events</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                <p>Regular conferences, training programs, and awareness campaigns.</p>
-                                <ul>${d.events.map(e => `<li>${e}</li>`).join('')}</ul>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            if (d.achievements) {
-                console.log(d.achievements);
-                
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-trophy"></i> Achievements</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                <p>${d.achievements_desc?d.achievements_desc:"Recognition and awards for excellence in healthcare."}</p>
-                                <ul>${d.achievements.map(a => `<li>${a}</li>`).join('')}</ul>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            if (d.gallery) {
-                html += `
-                    <div class="accordion-section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <div class="accordion-title"><i class="fas fa-images"></i> Gallery</div>
-                            <i class="fas fa-chevron-down accordion-icon"></i>
-                        </div>
-                        <div class="accordion-content">
-                            <div class="accordion-body">
-                                <p>Visual documentation of our facilities, events, and achievements.</p>
-                                <div class="gallery-grid">
-                                    ${d.gallery.map(img => `
-                                        <div class="gallery-item">
-                                            <div class="gallery-placeholder">
-                                                <img src="assets/images/gallery/${img.path}" alt='Not Given'>
-                                            </div>
-                                            <div class="gallery-overlay">
-                                                <div class="gallery-overlay-title">${img.name}</div>
-                                                    ${
-                                                        img.date !== '' || img.date === undefined
-                                                        ? `<div class="gallery-overlay-date"><i class="fas fa-calendar"></i> ${img.date}</div>`
-                                                        : ''
-                                                    }
-                                            </div>
-                                        </div>
-                                    `).join('')}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                `;
+                    `;
+                }
             }
             
             container.innerHTML = html;
