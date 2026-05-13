@@ -540,7 +540,7 @@ const pages = [
       { title: 'Academics', path: 'Academics', url: './academics.html' },
       { title: 'Under Graduate Courses', path: 'Academics > Courses > UG', url: './ug_new_course.html' },
       { title: 'Post Graduate Courses', path: 'Academics > Courses > PG', url: './pg_course_new.html' },
-      { title: 'MBBS Program', path: 'Academics > Courses', url: './course.html' },
+      { title: 'MBBS Programme', path: 'Academics > Courses', url: './course.html' },
       { title: 'Academic Department', path: 'Academics > Department', url: './academic_department.html' },
       { title: 'Hospital Department', path: 'Hospital > Department', url: './hospital_department.html' },
       { title: 'Hospital Specialities', path: 'Home > Specialities', url: './Specialities.html' },

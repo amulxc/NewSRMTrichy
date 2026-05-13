@@ -14,8 +14,8 @@ const depts = [
         overview: "The Department of Radiology provides comprehensive diagnostic and interventional imaging services, supporting accurate clinical decision-making through advanced imaging technologies and expert interpretation. To deliver excellence in diagnostic and interventional radiology services, education, and research using state-of-the-art imaging technology. To provide accurate, timely and patient-centered imaging services, train undergraduate and postgraduate students in advanced radiological techniques, promote innovative research in imaging sciences, and support clinical departments with integrated diagnostic and interventional expertise.",
 
         objectives: [
-            "To provide multidisciplinary oral health care for a wide variety of patients including patients with special needs.",
-            "To function effectively with care and compassion and in harmony with interdisciplinary health care teams.",
+            "To provide multidisciplinary oral Healthcare for a wide variety of patients including patients with special needs.",
+            "To function effectively with care and compassion and in harmony with interdisciplinary Healthcare teams.",
             "To utilize the values of professional ethics, lifelong learning and adaptability."
         ],
 
@@ -49,7 +49,7 @@ const depts = [
 
         services_desc: "The department offers comprehensive diagnostic, interventional, and emergency radiology services with round-the-clock availability.",
         services: [
-            "MRI – Brain, Spine, Musculoskeletal, Abdomen, Pelvis, Vascular and Specialized Imaging",
+            "MRI – Brain, Spine, Musculoskeletal, Abdomen, Pelvis, Vascular and Specialised Imaging",
             "CT Imaging – Neuro, Chest, Abdomen, Pelvis, Musculoskeletal and Vascular Studies",
             "CT-guided biopsies, FNAC and drainage procedures",
             "Ultrasound and Doppler imaging including obstetric, vascular and musculoskeletal studies",
@@ -91,11 +91,11 @@ const depts = [
         team: ["hero-image.jpg"],
         breadcrum: ["breadcrum.jpg"],
         image: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
-        overview: "The Department of Dentistry focuses on the scientific study of disease processes through laboratory investigations, tissue diagnosis, and research. It plays a crucial role in patient care, providing the best dental treatment at affordable cost. To create a competent and socially responsible system by providing quality oral health care and progressive research. To improve oral health, functionality and esthetics of people with quality dental care, in order to improve their nutrition, confidence and quality of life. To pursue collaborative research in the field of oral health.",
+        overview: "The Department of Dentistry focuses on the scientific study of disease processes through laboratory investigations, tissue diagnosis, and research. It plays a crucial role in patient care, providing the best dental treatment at affordable cost. To create a competent and socially responsible system by providing quality oral Healthcare and progressive research. To improve oral health, functionality and esthetics of people with quality dental care, in order to improve their nutrition, confidence and quality of life. To pursue collaborative research in the field of oral health.",
 
         objectives: [
-            "To provide multidisciplinary oral health care for a wide variety of patients including patients with special needs.",
-            "To function effectively with care and compassion and in harmony with interdisciplinary health care teams.",
+            "To provide multidisciplinary oral Healthcare for a wide variety of patients including patients with special needs.",
+            "To function effectively with care and compassion and in harmony with interdisciplinary Healthcare teams.",
             "To utilize the values of professional ethics, lifelong learning and adaptability."
         ],
 
@@ -169,7 +169,7 @@ const depts = [
             "Diagnose various eye diseases prevalent in the country.",
             "Manage eye conditions like conjunctivitis, stye, chalazion, and foreign body.",
             "Recognise and give medical treatment of anterior segment diseases.",
-            "Identify national objectives and actively participate in the national programme for prevention and control of blindness.",
+            "Identify national objectives and actively participate in the national programmeme for prevention and control of blindness.",
             "Recognise ophthalmic manifestations of systemic diseases."
         ],
 
@@ -476,7 +476,7 @@ const depts = [
         breadcrum: ["breadcrum.JPG"],
         image: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
 
-        overview: "The Department of Dermatology, Venereology & Leprology provides comprehensive diagnosis, treatment, prevention, and counselling services for skin, hair, nail, STI and leprosy disorders, supported by modern diagnostic, procedural and laser facilities that meet NMC, NACO and NLEP standards. To develop ethical, skilled, and compassionate Dermatologists excelling in evidence-based care for skin, hair, nail, STI and leprosy disorders, while fostering research, innovation, and stigma-free, patient-centred healing. To provide competency-based dermatology training, ensure excellence in diagnostics and procedures, deliver ethical and patient-centred care, promote evidence-based practice, support national STI and leprosy programs, encourage interdisciplinary learning, and cultivate professionalism, communication, leadership, and continuous academic growth.",
+        overview: "The Department of Dermatology, Venereology & Leprology provides comprehensive diagnosis, treatment, prevention, and counselling services for skin, hair, nail, STI and leprosy disorders, supported by modern diagnostic, procedural and laser facilities that meet NMC, NACO and NLEP standards. To develop ethical, skilled, and compassionate Dermatologists excelling in evidence-based care for skin, hair, nail, STI and leprosy disorders, while fostering research, innovation, and stigma-free, patient-centred healing. To provide competency-based dermatology training, ensure excellence in diagnostics and procedures, deliver ethical and patient-centred care, promote evidence-based practice, support national STI and leprosy programmes, encourage interdisciplinary learning, and cultivate professionalism, communication, leadership, and continuous academic growth.",
 
         objectives: [
             "To train students in accurate diagnosis and management of skin, hair, nail, STI and leprosy disorders.",
@@ -529,7 +529,7 @@ const depts = [
 
         achievements: [
             "Postgraduate student research selected for ICMR grant",
-            "Strengthened STI and NLEP program support",
+            "Strengthened STI and NLEP programme support",
             "Advanced procedural and laser dermatology services"
         ]
     },
@@ -544,7 +544,7 @@ const depts = [
         breadcrum: ["breadcrum.JPG"],
         image: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
 
-        overview: "The Department of Psychiatry is committed to excellence in mental health care, education, and research. We provide comprehensive, evidence-based assessment and treatment for psychiatric disorders across the lifespan, while training competent, ethical mental health professionals. To improve the quality of life of individuals with mental illness through excellence in medical education, impactful research, promoting awareness and compassionate clinical care. To create structured, empathetic and comprehensive MENTAL health care services with appropriate socio-cultural context intended to reach medically unreached rooted in BIO-PSYCHO-SOCIAL model. To commit to offer fine educational training and research activities aiming at imparting fundamental psychiatric knowledge, encouraging Scientific Temper, and upholding universal ethical values in shaping an integrated Mental Health Professional.",
+        overview: "The Department of Psychiatry is committed to excellence in mental Healthcare, education, and research. We provide comprehensive, evidence-based assessment and treatment for psychiatric disorders across the lifespan, while training competent, ethical mental health professionals. To improve the quality of life of individuals with mental illness through excellence in medical education, impactful research, promoting awareness and compassionate clinical care. To create structured, empathetic and comprehensive MENTAL Healthcare services with appropriate socio-cultural context intended to reach medically unreached rooted in BIO-PSYCHO-SOCIAL model. To commit to offer fine educational training and research activities aiming at imparting fundamental psychiatric knowledge, encouraging Scientific Temper, and upholding universal ethical values in shaping an integrated Mental Health Professional.",
 
         objectives: [
             "To impart such knowledge and skills that may enable an Undergraduate student/CRMI AND Post Graduate to Promote awareness, diagnose and treat common psychiatric disorders, and to gain an in depth knowledge on research aspects and Psychosocial aspects of various mental illnesses.",
@@ -562,7 +562,7 @@ const depts = [
             { name: "Mrs. Kirthana", designation: "Clinical Psychologist" }
         ],
 
-        services_desc: "The Department offers comprehensive psychiatric services including outpatient, inpatient, emergency, and consultation-liaison care. Specialized clinics provide focused interventions in areas such as child psychiatry, addiction medicine, and geriatric mental healthx",
+        services_desc: "The Department offers comprehensive psychiatric services including outpatient, inpatient, emergency, and consultation-liaison care. Specialised clinics provide focused interventions in areas such as child psychiatry, addiction medicine, and geriatric mental healthx",
         services: [
             "Out Patient Department with separate consultation rooms ensuring patient privacy and confidentiality",
             "30 bedded In Patient Department including Deaddiction ward with treatment including psychopharmacological, psychotherapy & psychosocial management using recent treatment modalities",
@@ -594,25 +594,25 @@ const depts = [
         research: [
             "We are being involved in ICMR (Indian Council of Medical Research) and IPS (Indian Psychiatric Society) based multicentric projects currently.",
             "This includes basic neuroscience, clinical trials, epidemiological studies, and health services research aimed at improving diagnosis, treatment outcomes, and prevention strategies.",
-            "Active research areas encompass addiction, mood and anxiety disorders, neurodevelopment conditions, behavioral neuroscience, and integrated mental health care.",
+            "Active research areas encompass addiction, mood and anxiety disorders, neurodevelopment conditions, behavioral neuroscience, and integrated mental Healthcare.",
             "Faculty collaborate across disciplines to translate scientific discoveries into innovative therapies and enhanced patient care, fostering academic growth and community impact.",
             "Clinical research trials and quality improvement initiatives further ensure evidence-based practice and progressive mental health services."
         ],
 
         research_desc: "The Department of Psychiatry is dedicated to advancing the understanding and treatment of mental health disorders through a broad spectrum of research.",
 
-        events_desc: "The Department organizes a variety of academic events throughout the year, including CLINICAL seminars, mental health awareness programs, and Postgraduate CME and observation of International Mental Health days.",
+        events_desc: "The Department organizes a variety of academic events throughout the year, including CLINICAL seminars, mental health awareness programmes, and Postgraduate CME and observation of International Mental Health days.",
 
         achievements: [
-            "World Mental Health Day program for Students and general public",
-            "World Suicide Prevention Day Student awareness program",
-            "World Schizophrenia Day programs",
-            "World Bipolar Day Program",
-            "World No Tobacco day program",
-            "Mental Health Awareness Programs, Screening Camps"
+            "World Mental Health Day programme for Students and general public",
+            "World Suicide Prevention Day Student awareness programme",
+            "World Schizophrenia Day programmes",
+            "World Bipolar Day Programme",
+            "World No Tobacco day programme",
+            "Mental Health Awareness Programmes, Screening Camps"
         ],
 
-        achievements_desc: "The department has achieved significant recognition in 2025 through various programs, including accolades for clinical excellence, and leadership and observation and celebration of International Mental health related days"
+        achievements_desc: "The department has achieved significant recognition in 2025 through various programmes, including accolades for clinical excellence, and leadership and observation and celebration of International Mental health related days"
     },
     {
         id: "Respiratory Medicine",
@@ -625,12 +625,12 @@ const depts = [
         breadcrum: ["breadcrum.JPG"],
         image: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
 
-        overview: "Respiratory Medicine Department specializes in the diagnosis, treatment and prevention of diseases affecting the lungs and entire respiratory system. Our commitment is to manage a comprehensive range of conditions- from common respiratory ailments to complex, life-threatening diseases- with expertise and compassion. We provide outstanding clinical care, which is comprehensive, affordable, accessible and delivered compassionately, to the patient & nurture the students with knowledge, skills, and attitude essential to make them professional, compassionate & competent physician. To provide state-of-art management options for patients with respiratory diseases, according to the latest evidence-based guidelines. Train the students with focus on bench to bedside practice through rigorous implementation of the course along with innovative teaching-learning practices and to delve into dynamic clinical research. To create awareness among patients, their caregivers and the general public about basic Respiratory illnesses and their symptoms. To conduct patient empowerment programs so as to reduce morbidity or mortality and arrive at early diagnosis of chest diseases at an affordable cost.",
+        overview: "Respiratory Medicine Department specializes in the diagnosis, treatment and prevention of diseases affecting the lungs and entire respiratory system. Our commitment is to manage a comprehensive range of conditions- from common respiratory ailments to complex, life-threatening diseases- with expertise and compassion. We provide outstanding clinical care, which is comprehensive, affordable, accessible and delivered compassionately, to the patient & nurture the students with knowledge, skills, and attitude essential to make them professional, compassionate & competent physician. To provide state-of-art management options for patients with respiratory diseases, according to the latest evidence-based guidelines. Train the students with focus on bench to bedside practice through rigorous implementation of the course along with innovative teaching-learning practices and to delve into dynamic clinical research. To create awareness among patients, their caregivers and the general public about basic Respiratory illnesses and their symptoms. To conduct patient empowerment programmes so as to reduce morbidity or mortality and arrive at early diagnosis of chest diseases at an affordable cost.",
 
         objectives: [
-            "To conduct awareness & outreach programs to medically unreached populations.",
+            "To conduct awareness & outreach programmes to medically unreached populations.",
             "To encourage UG & PG students for research activities in various dimension of respiratory medicine.",
-            "To create highly structured and quality respiratory care for a fully-fledged pulmonary rehabilitation program."
+            "To create highly structured and quality respiratory care for a fully-fledged pulmonary rehabilitation programme."
         ],
 
         doctor: [
@@ -748,7 +748,7 @@ const depts = [
         overview: "The Department of Neurology is dedicated to providing comprehensive diagnosis and treatment for disorders of the brain, spinal cord, nerves, and muscles, delivering evidence-based, patient-centred care supported by advanced neuroimaging and neurophysiology services. With a strong commitment to clinical excellence, the department strives to evolve as a centre of excellence in neurological care by integrating expert clinical practice, advanced technology, and continuous academic growth, while developing into a leading tertiary care institute and research centre.",
 
         objectives: [
-            "Establish the department as a tertiary referral centre for neurological care.", "Develop advanced diagnostic, interventional, and neurophysiology services.", "Build a strong clinical and research programme in neurosciences.", "Provide training and education for healthcare professionals."
+            "Establish the department as a tertiary referral centre for neurological care.", "Develop advanced diagnostic, interventional, and neurophysiology services.", "Build a strong clinical and research programmeme in neurosciences.", "Provide training and education for healthcare professionals."
         ],
 
         doctor: [{
@@ -785,10 +785,10 @@ const depts = [
         breadcrum: ["breadcrum.JPG"],
         image: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
 
-        overview: "The Department of Nephrology aims to provide comprehensive renal services, including prevention, accurate diagnosis, dialysis, and effective management of both acute and chronic kidney diseases, while supporting undergraduate and postgraduate medical education in line with NMC guidelines. Committed to ethical, evidence-based, and patient-centric care, the department emphasizes early detection and prevention of kidney disorders through community outreach programs, upholds high standards of patient safety and quality assurance, and encourages clinical research and academic activities to advance renal science. By collaborating with allied specialties, the department delivers holistic and multidisciplinary care, striving to be a center of excellence that improves patient outcomes and contributes meaningfully to medical education, research, and community kidney health.",
+        overview: "The Department of Nephrology aims to provide comprehensive renal services, including prevention, accurate diagnosis, dialysis, and effective management of both acute and chronic kidney diseases, while supporting undergraduate and postgraduate medical education in line with NMC guidelines. Committed to ethical, evidence-based, and patient-centric care, the department emphasizes early detection and prevention of kidney disorders through community outreach programmes, upholds high standards of patient safety and quality assurance, and encourages clinical research and academic activities to advance renal science. By collaborating with allied specialties, the department delivers holistic and multidisciplinary care, striving to be a center of excellence that improves patient outcomes and contributes meaningfully to medical education, research, and community kidney health.",
 
         objectives: [
-            "To provide comprehensive and specialized care for patients with acute and chronic kidney diseases, including dialysis and renal transplantation services.",
+            "To provide comprehensive and specialised care for patients with acute and chronic kidney diseases, including dialysis and renal transplantation services.",
             "To ensure early diagnosis, prevention, and optimal management of kidney disorders through evidence-based clinical practices.",
             "To deliver safe, ethical, and high-quality renal replacement therapy, including hemodialysis and post-transplant care.",
             "To support undergraduate and postgraduate medical education in nephrology in accordance with National Medical Commission (NMC) guidelines.",
@@ -920,11 +920,11 @@ const depts = [
         overview: "To be a center of excellence in physiotherapy education, clinical care, and research, dedicated to restoring movement, enhancing quality of life, and serving the community through ethical, innovative, and evidence-based physiotherapy practices. To provide high-quality physiotherapy education through experienced faculty, interactive learning, and strong clinical exposure. To develop competent, compassionate, and skilled physiotherapy professionals who excel in patient care and rehabilitation. To promote interdisciplinary teamwork, continuous skill development, and lifelong learning. To actively engage in community-based rehabilitation and preventive healthcare services. To encourage research and innovation in movement science and physiotherapy practice.",
 
         objectives: [
-            "To impart in-depth theoretical knowledge and hands-on clinical training in core and specialized areas of physiotherapy.",
+            "To impart in-depth theoretical knowledge and hands-on clinical training in core and specialised areas of physiotherapy.",
             "To enhance students' clinical reasoning, assessment, and rehabilitation skills through real-world patient exposure.",
             "To develop expertise in orthopedics, sports physiotherapy, neurology, pediatrics, cardiopulmonary sciences, biomechanics, hand rehabilitation, obstetrics & gynaecology, and community rehabilitation.",
             "To foster teamwork, professional ethics, and effective communication among students and faculty.",
-            "To promote community outreach programs aimed at improving mobility, functional independence, and overall health.",
+            "To promote community outreach programmes aimed at improving mobility, functional independence, and overall health.",
             "To encourage research-oriented learning and evidence-based practice in physiotherapy.",
             "To prepare graduates to meet national and global healthcare standards with confidence and competence."
         ],
@@ -953,7 +953,7 @@ const depts = [
             { name: "Ms. Saranya T", designation: "Assistant Professor", exp: "0" }
         ],
 
-        services_desc: "The Department of Physiotherapy offers comprehensive programs and specialized services in movement science and rehabilitation.",
+        services_desc: "The Department of Physiotherapy offers comprehensive programmes and specialised services in movement science and rehabilitation.",
         services: [
             "Bachelor of Physiotherapy (BPT) - 4 Years and 6 Months (Eligibility: +2 Physics, Chemistry, Biology as Principal subject)",
             "Master of Physiotherapy (MPT) - Specializations in:",
@@ -978,13 +978,13 @@ const depts = [
         research: [
             "Research in movement science and biomechanics",
             "Studies on evidence-based physiotherapy interventions",
-            "Clinical research in specialized areas of physiotherapy",
+            "Clinical research in specialised areas of physiotherapy",
             "Community-based rehabilitation research"
         ],
 
         achievements_desc: "The Department of Physiotherapy continues to excel in education, clinical care, and community service through innovative practices and dedicated faculty.",
         achievements: [
-            "Established comprehensive physiotherapy education programs",
+            "Established comprehensive physiotherapy education programmes",
             "Active community outreach and rehabilitation services",
             "Strong interdisciplinary collaboration and clinical exposure for students"
         ]
@@ -1130,7 +1130,7 @@ const depts = [
         achievements: [
             "Establishment of a modern trauma and orthopaedic centre",
             "Faculty recognition and awards at state orthopaedic forums",
-            "Successful organization of postgraduate teaching programs and surgical workshops"
+            "Successful organization of postgraduate teaching programmes and surgical workshops"
         ]
     },
     {
@@ -1149,7 +1149,7 @@ const depts = [
         objectives: [
             "To provide accurate diagnosis and effective management of diseases related to the ear, nose, throat, head, and neck using evidence-based clinical practices.",
             "To offer advanced medical and surgical interventions including endoscopic procedures, audiology services, and head-and-neck surgeries.",
-            "To promote early detection and prevention of ENT disorders through screening programs, counselling, and community awareness activities.",
+            "To promote early detection and prevention of ENT disorders through screening programmes, counselling, and community awareness activities.",
             "To train and mentor undergraduate and postgraduate students through strong clinical exposure, surgical training, and academic guidance.",
             "To encourage research and innovation in the field of ENT through clinical studies and participation in scientific forums."
         ],
@@ -1207,14 +1207,14 @@ const depts = [
         breadcrum: ["breadcrum.JPG"],
         image: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
 
-        overview: "The Department of Obstetrics & Gynaecology provides comprehensive reproductive healthcare, covering antenatal, intrapartum, postnatal care, as well as advanced gynaecological services. It is committed to women's health through clinical excellence, research, and education. To provide exceptional care to each and every women approaching our door step. To champion the women's health care system. To achieve excellence and advancement in women's obstetrical and gynecological health, teaching the future specialty leaders. To be leaders and advocates in the pursuit of excellence in women's health care. To help women and babies achieve optimal health outcomes. Support women to have empowering and magnificent birth experience. To deliver evidence-based care in a safe and welcoming atmosphere characterized by cultural humility and diversity. To be innovative, clinically excellent and contribute to research. Teach while you work and create future maternity care providers. Reflect values of excellence, compassion, community and social justice.",
+        overview: "The Department of Obstetrics & Gynaecology provides comprehensive reproductive healthcare, covering antenatal, intrapartum, postnatal care, as well as advanced gynaecological services. It is committed to women's health through clinical excellence, research, and education. To provide exceptional care to each and every women approaching our door step. To champion the women's Healthcare system. To achieve excellence and advancement in women's obstetrical and gynecological health, teaching the future specialty leaders. To be leaders and advocates in the pursuit of excellence in women's Healthcare. To help women and babies achieve optimal health outcomes. Support women to have empowering and magnificent birth experience. To deliver evidence-based care in a safe and welcoming atmosphere characterized by cultural humility and diversity. To be innovative, clinically excellent and contribute to research. Teach while you work and create future maternity care providers. Reflect values of excellence, compassion, community and social justice.",
 
         objectives: [
-            "Dedicated to the pursuit of excellence in women's health care.",
+            "Dedicated to the pursuit of excellence in women's Healthcare.",
             "To provide highest quality service to patients.",
             "To continuously evaluate patient-centric outcomes.",
             "To promote involvement of all faculty and staff in problem solving.",
-            "To continue a strong research program advancing medical science.",
+            "To continue a strong research programme advancing medical science.",
             "To be enthusiastic and think positively."
         ],
 
@@ -1344,7 +1344,7 @@ const depts = [
             "Pain and palliative care services",
             "Labour analgesia",
             "Anaesthesia services for CT, MRI, ECT and mobile ICU",
-            "Renal transplant and organ retrieval programmes",
+            "Renal transplant and organ retrieval programmemes",
             "Code Blue resuscitation services"
         ],
 
@@ -1850,13 +1850,13 @@ const depts = [
             "To integrate physiology teaching with clinical relevance, enabling students to apply theoretical knowledge in the diagnosis and understanding of clinical conditions.",
             "To develop essential practical skills through training in clinical examination and laboratory techniques on healthy individuals.",
             "To implement innovative and interactive teaching-learning methods such as case-based learning, flipped classrooms, and simulation-based sessions for enhanced engagement and understanding.",
-            "To cultivate a research-oriented mindset in both undergraduate and postgraduate students by encouraging participation in institutional and national research programs.",
+            "To cultivate a research-oriented mindset in both undergraduate and postgraduate students by encouraging participation in institutional and national research programmes.",
             "To regularly assess and track student learning outcomes through formative and summative assessments, with feedback to foster continuous improvement.",
             "To ensure academic discipline and professionalism, including attendance, punctuality, and ethical conduct, as part of the professional development of medical graduates.",
             "To support academically challenged students with remedial teaching and encourage excellence through competitive academic opportunities like gold medal exams.",
             "To train postgraduate students to become skilled educators and researchers, equipped to take up teaching responsibilities and publish quality research.",
-            "To enhance faculty development and research productivity through regular training, CME programs, extramural funding applications, and scientific publications.",
-            "To foster a collaborative academic environment through interdisciplinary interactions, guest lectures, national conferences, and mentorship programs.",
+            "To enhance faculty development and research productivity through regular training, CME programmes, extramural funding applications, and scientific publications.",
+            "To foster a collaborative academic environment through interdisciplinary interactions, guest lectures, national conferences, and mentorship programmes.",
             "To align departmental goals with institutional vision, thereby contributing meaningfully to improved healthcare delivery and the advancement of medical education and research."
         ],
 
@@ -1935,7 +1935,7 @@ const depts = [
         breadcrum: ["breadcrum.JPG"],
         image: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
 
-        overview: "The Department of Biochemistry at SRM Medical College Hospital and Research Centre, Trichy, offers undergraduate, postgraduate, and research programs with a strong focus on innovation, scientific inquiry, and applied biochemistry. The department integrates fundamental and advanced areas of biology, preparing students for global opportunities. To accentuate innovation, inquisition, and rational thinking in students, imparting quality education to achieve academic excellence. To establish a world-class learning ambience catering to the needs of aspiring students.",
+        overview: "The Department of Biochemistry at SRM Medical College Hospital and Research Centre, Trichy, offers undergraduate, postgraduate, and research programmes with a strong focus on innovation, scientific inquiry, and applied biochemistry. The department integrates fundamental and advanced areas of biology, preparing students for global opportunities. To accentuate innovation, inquisition, and rational thinking in students, imparting quality education to achieve academic excellence. To establish a world-class learning ambience catering to the needs of aspiring students.",
 
         objectives: [
             "Provide high-quality education in biochemistry.",
@@ -1971,9 +1971,9 @@ const depts = [
             { name: "Dr. A. Allen Gift", designation: "Tutor", exp: "0" }
         ],
 
-        services_desc: "The department offers academic programs, research opportunities, and high-quality clinical biochemistry services.",
+        services_desc: "The department offers academic programmes, research opportunities, and high-quality clinical biochemistry services.",
         services: [
-            "Undergraduate and postgraduate programs in biochemistry",
+            "Undergraduate and postgraduate programmes in biochemistry",
             "Research opportunities",
             "Clinical biochemistry services",
             "High-quality NABL-accredited laboratory service"
@@ -1998,7 +1998,7 @@ const depts = [
         achievements: [
             "ICMR funded ongoing research projects",
             "EQUIP – Elevating Quality in Research, Publications, Patents, Copyright – 2025",
-            "Bio Blaze – 2025 (Quiz program for undergraduate students)",
+            "Bio Blaze – 2025 (Quiz programme for undergraduate students)",
             "Lab Technician Day 2025",
             "Central Lab Biochemistry: Internal Quality Control Training with CAPA"
         ]
@@ -2013,7 +2013,7 @@ const depts = [
         team: ["hero-image.JPG"],
         breadcrum: ["breadcrum.JPG"],
         image: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
-        overview: "The Department of Pathology combines theoretical understanding with practical laboratory expertise to study diseases, their causes, processes, and effects on the body. Through advanced diagnostic methods and academic programs, the department equips students with essential skills for disease investigation and diagnosis. To provide state-of-the-art diagnostic pathology services while achieving excellence in pathology research and education. To teach, train and equip students with the knowledge and skills required to perform and interpret diagnostic investigations. To familiarize students with recent advances in pathology. To encourage and promote research activities.",
+        overview: "The Department of Pathology combines theoretical understanding with practical laboratory expertise to study diseases, their causes, processes, and effects on the body. Through advanced diagnostic methods and academic programmes, the department equips students with essential skills for disease investigation and diagnosis. To provide state-of-the-art diagnostic pathology services while achieving excellence in pathology research and education. To teach, train and equip students with the knowledge and skills required to perform and interpret diagnostic investigations. To familiarize students with recent advances in pathology. To encourage and promote research activities.",
         objectives: [
             "Describe structural and functional alterations in cells and tissues in various diseases.",
             "Explain principles of diagnostic laboratory procedures and interpret results.",
@@ -2080,7 +2080,7 @@ const depts = [
             "Histopathological analysis of lower GI biopsies",
             "Analysis of appendicectomy specimens"
         ],
-        events_desc: "The department conducts academic, research, and community programs.",
+        events_desc: "The department conducts academic, research, and community programmes.",
         achievements_desc: "The department has earned university distinctions, medals, and national-level recognition.",
         achievements: [
             "University Honors & Distinctions for 2022 and 2023 batches",
@@ -2100,11 +2100,11 @@ const depts = [
         team: ["hero-image.JPG"],
         breadcrum: ["breadcrum.JPG"],
         image: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
-        overview: "The Department of Microbiology, established in 2009, is dedicated to excellence in education, diagnosis, and research in infectious diseases. It provides strong foundations in bacteriology, virology, mycology, and parasitology with emphasis on clinical correlation, laboratory diagnosis, prevention, and control. The department bridges bench-to-bedside practices and supports infection control, antimicrobial stewardship, and vaccination programs. To provide excellent diagnostic and support services to patients, community, and clinical colleagues, maintain high standards of training for medical graduates and healthcare workers, and foster an environment that empowers faculty and staff to engage in translational research and focused areas of excellence. To update knowledge through interactive platforms such as seminars, conferences, journal clubs, and academic carnivals. To undertake research and collaborate with academic, clinical, and research faculty at local, national, and international levels.",
+        overview: "The Department of Microbiology, established in 2009, is dedicated to excellence in education, diagnosis, and research in infectious diseases. It provides strong foundations in bacteriology, virology, mycology, and parasitology with emphasis on clinical correlation, laboratory diagnosis, prevention, and control. The department bridges bench-to-bedside practices and supports infection control, antimicrobial stewardship, and vaccination programmes. To provide excellent diagnostic and support services to patients, community, and clinical colleagues, maintain high standards of training for medical graduates and healthcare workers, and foster an environment that empowers faculty and staff to engage in translational research and focused areas of excellence. To update knowledge through interactive platforms such as seminars, conferences, journal clubs, and academic carnivals. To undertake research and collaborate with academic, clinical, and research faculty at local, national, and international levels.",
         objectives: [
             "Impart knowledge and skills to undergraduate, postgraduate, nursing, and allied health science students.",
             "Ensure postgraduate training in ICUs, Respiratory Medicine, CSSD, ICTC, Molecular Biology, Mycology, and Virology.",
-            "Participate in disease containment through notifications, awareness programs, antibiotic policies, vaccination, and biomedical waste management.",
+            "Participate in disease containment through notifications, awareness programmes, antibiotic policies, vaccination, and biomedical waste management.",
             "Provide infection control guidelines to healthcare workers.",
             "Foster research on emerging infections, opportunistic infections, and antimicrobial resistance."
         ],
@@ -2284,12 +2284,12 @@ const depts = [
         team: ["hero-image.JPG"],
         breadcrum: ["breadcrum.JPG"],
         image: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
-        overview: "The Department of Community Medicine focuses on teaching preventive, promotive, and social aspects of health. It trains undergraduate and postgraduate students in epidemiology, public health programs, biostatistics, research methods, and community-based care with strong emphasis on field practice and primary healthcare. To provide medical education to students that is sensitive to the changing health needs of the community and health care delivery system. To focus on health care and education through community initiatives. To train the students so as to enable them to provide primary care to the community.",
+        overview: "The Department of Community Medicine focuses on teaching preventive, promotive, and social aspects of health. It trains undergraduate and postgraduate students in epidemiology, public health programmes, biostatistics, research methods, and community-based care with strong emphasis on field practice and primary healthcare. To provide medical education to students that is sensitive to the changing health needs of the community and Healthcare delivery system. To focus on Healthcare and education through community initiatives. To train the students so as to enable them to provide primary care to the community.",
         objectives: [
             "To enable budding doctors to understand health problems and means to tackle the same by empowering them with comprehensive and adequate epidemiological and community health skills",
-            "To expose students to family health care programme through surveys and community-based activities to ensure involvement of community as a teaching and training tool for the students",
+            "To expose students to family Healthcare programmeme through surveys and community-based activities to ensure involvement of community as a teaching and training tool for the students",
             "To develop and adopt innovative methods like participatory learning to achieve better learning outcomes.",
-            "To ensure participation of students in outreach activities including health communication and national health programmes at all levels.",
+            "To ensure participation of students in outreach activities including health communication and national health programmemes at all levels.",
             "To sensitize, conduct and promote student research activities on priority health needs of the community"
         ],
         infra_desc: "The department provides comprehensive training infra through field practice areas, laboratories, museum and lecture halls to support community-based learning.",
@@ -2312,7 +2312,7 @@ const depts = [
         ],
         services: [
             "School health screening at various government and private schools",
-            "Awareness programs on various health issues in the community",
+            "Awareness programmes on various health issues in the community",
             "Referral services from primary health centers to SRM hospital",
             "Sponsored free nutritious food supplements for tuberculosis patients"
         ],
@@ -2325,7 +2325,7 @@ const depts = [
             "Community-based epidemiological research",
             "Studies on public health nutrition and disease burden",
             "Research on occupational health and preventive strategies",
-            "Assessment of health program effectiveness"
+            "Assessment of health programme effectiveness"
         ],
         achievements: [
             "The department has achieved more than 98% pass in undergraduate and 100% pass in postgraduate students for the past three consecutive years.",
@@ -2372,7 +2372,7 @@ const FAQJson = [
             },
             {
                 question: "Is clinical biochemistry testing available?",
-                answer: "Yes, routine and specialized biochemical investigations are available."
+                answer: "Yes, routine and specialised biochemical investigations are available."
             }
         ]
     },
@@ -2433,11 +2433,11 @@ const FAQJson = [
         questions: [
             {
                 question: "What is the aim of Community Medicine?",
-                answer: "It focuses on preventive healthcare and community-based health programs."
+                answer: "It focuses on preventive healthcare and community-based health programmes."
             },
             {
-                question: "Are outreach programs conducted?",
-                answer: "Yes, regular health camps and awareness programs are organized."
+                question: "Are outreach programmes conducted?",
+                answer: "Yes, regular health camps and awareness programmes are organized."
             }
         ]
     },
@@ -2788,7 +2788,7 @@ const FAQJson = [
             },
             {
                 question: "Are neonatal surgeries performed?",
-                answer: "Yes, specialized neonatal and pediatric surgical care is available."
+                answer: "Yes, specialised neonatal and pediatric surgical care is available."
             }
         ]
     }
@@ -2863,7 +2863,7 @@ const FAQJsonUpdated = FAQJson.map(item => {
         {
             dept_id: "Community Medicine",
             patient_data: [
-                "Health awareness programs",
+                "Health awareness programmes",
                 "Community outreach camps",
                 "Preventive healthcare services"
             ]
@@ -2891,7 +2891,7 @@ const FAQJsonUpdated = FAQJson.map(item => {
             dept_id: "Paediatrics",
             patient_data: [
                 "Child healthcare services",
-                "Vaccination programs",
+                "Vaccination programmes",
                 "Growth monitoring support"
             ]
         },

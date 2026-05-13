@@ -10,11 +10,11 @@
                 "To encourage research and innovation in movement science and physiotherapy practice."
             ],
             "objectives": [
-                "To impart in-depth theoretical knowledge and hands-on clinical training in core and specialized areas of physiotherapy.",
+                "To impart in-depth theoretical knowledge and hands-on clinical training in core and specialised areas of physiotherapy.",
                 "To enhance students’ clinical reasoning, assessment, and rehabilitation skills through real-world patient exposure.",
                 "To develop expertise in orthopedics, sports physiotherapy, neurology, pediatrics, cardiopulmonary sciences, biomechanics, hand rehabilitation, obstetrics & gynaecology, and community rehabilitation.",
                 "To foster teamwork, professional ethics, and effective communication among students and faculty.",
-                "To promote community outreach programs aimed at improving mobility, functional independence, and overall health.",
+                "To promote community outreach programmes aimed at improving mobility, functional independence, and overall health.",
                 "To encourage research-oriented learning and evidence-based practice in physiotherapy.",
                 "To prepare graduates to meet national and global healthcare standards with confidence and competence."
             ],

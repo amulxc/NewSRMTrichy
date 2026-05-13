@@ -21,7 +21,7 @@
                     {
                         "activity": "Conducting bioethical lectures and seminars",
                         "details": [
-                            "Our institution will host a series of lectures by experts addressing medical, social, ethical and legal issues once in 3 months for academicians and health care professionals in trichy district.",
+                            "Our institution will host a series of lectures by experts addressing medical, social, ethical and legal issues once in 3 months for academicians and Healthcare professionals in trichy district.",
                             "The details will be submitted in due course of time if and when requested by the chair."
                         ]
                     },
@@ -33,10 +33,10 @@
                     "Research in bioethics"
                 ]
             },
-            "conclusion_statement": "Rational Clinical decision making forms the basis for quality health care delivery. The bioethical principles serve as a signpost showing the direction in the process of decision making in current complex health care scenario. The Bioethical unit of our institution would work towards integrating health delivery, ethics and human rights.",
+            "conclusion_statement": "Rational Clinical decision making forms the basis for quality Healthcare delivery. The bioethical principles serve as a signpost showing the direction in the process of decision making in current complex Healthcare scenario. The Bioethical unit of our institution would work towards integrating health delivery, ethics and human rights.",
             "recommendations": [
                 "Expert advice on priority ethical issues at local level when requested",
-                "Recommendations in assistance towards development of health care policy and associated legislation",
+                "Recommendations in assistance towards development of Healthcare policy and associated legislation",
                 "Representation at international bioethical forums and actively take part in collaborative communication and exchange of information"
             ],
             "research_areas": [

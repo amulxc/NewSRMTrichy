@@ -326,7 +326,7 @@
                 "id": "activities",
                 "title": "Library Activities",
                 "icon": "fa-calendar-alt",
-                "description": "Programs & Annual Activities",
+                "description": "Programmes & Annual Activities",
                 "image":[
                     "1.jpg",
                     "2.jpg",
@@ -337,7 +337,7 @@
                 "content": [
                     {
                     "type": "subtitle",
-                    "value": "Regular Programs"
+                    "value": "Regular Programmes"
                     },
                     {
                         "type": "resources",
@@ -355,7 +355,7 @@
                             {
                                 "icon": "fa-book-reader",
                                 "title": "Library Orientation",
-                                "description": "Orientation program for new students held in October."
+                                "description": "Orientation programme for new students held in October."
                             },
                             {
                                 "icon": "fa-calendar-week",

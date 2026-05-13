@@ -3,16 +3,16 @@
             "website": {
                 "title": "Centers of Excellence | Healthcare Innovation",
                 "meta": {
-                    "description": "World-class specialized care delivering exceptional outcomes through innovation, expertise, and compassion"
+                    "description": "World-class specialised care delivering exceptional outcomes through innovation, expertise, and compassion"
                 }
             },
             "hero": {
                 "heading": "Centers of Excellence",
-                "subheading": "World-class specialized care delivering exceptional outcomes through innovation, expertise, and compassion"
+                "subheading": "World-class specialised care delivering exceptional outcomes through innovation, expertise, and compassion"
             },
             "sections": {
                 "centers": {
-                    "title": "Our Specialized Centers",
+                    "title": "Our Specialised Centers",
                     "description": "Comprehensive care delivered by leading specialists using cutting-edge technology and evidence-based practices",
                     "centers": [
                         {
