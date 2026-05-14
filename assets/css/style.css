@@ -372,7 +372,7 @@
      .floating-social-btn-emg {
         position: fixed;
         bottom: var(--spacing-lg);
-        right: var(--spacing-xl);
+        right: 10px;
         z-index: var(--z-fixed);
     }
     .floating-social-btn-emg .social-link, .floating-social-btn-emg .social-toggle-btn  {
@@ -413,7 +413,7 @@
         display:flex;
         justify-content:space-between;
         text-align:center;
-        gap:20px;
+        gap:40px;
         border-radius:10px 0 0 10px;
         font-weight:700;
     }

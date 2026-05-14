@@ -7,13 +7,13 @@
       <div class='myQuickLinks'>
         <div class="quick-links">
           <p>
-           For Any feedback
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK1il4i4uuIXxCIdNHI4HY4rVneNQlknsYutoDd7JjhCb9eg/viewform" target='blank'  class="quick-link featured"><i class="fa-solid fa-file"></i>Fill the form</a>
+           For Any Feedback
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK1il4i4uuIXxCIdNHI4HY4rVneNQlknsYutoDd7JjhCb9eg/viewform" target='_blank'  class="quick-link featured"><i class="fa-solid fa-file"></i>Fill the Form</a>
           </p>
         </div>
         <div class="quick-links">
           <p>
-            Need Ambulance
+            Need an Ambulance
             <a href="tel:1800 123 108 108" translate="no" class="quick-link featured"><i class='fa fa-phone'></i>1800 123 108 108</a>
           </p>
         </div>
@@ -36,7 +36,7 @@
               type="text" 
               class="search-input" 
               id="searchInput"
-              placeholder="Search Pages...."
+              placeholder="Search pages..."
               autocomplete="off"
             >
             <button class="search-btn" id="searchBtn" aria-label="Search">
@@ -64,10 +64,10 @@
           <a href='./doctors.html'>Our Doctors</a>
         </div>     
         <div class="milestone-stat">
-          <a href='./patientcorner.html'>Patient</a>
+          <a href='./patientcorner.html'>Patients</a>
         </div>
         <div class="milestone-stat">
-          <a href='./medicalpackage.html'>Health Checkup Package</a>
+          <a href='./medicalpackage.html'>Health Checkup Packages</a>
         </div>
         <div class="milestone-stat">
           <a href='./Specialities.html'>Super Specialities</a>
@@ -85,22 +85,7 @@
 
     
 
-    const everyPage = `<div class="every-page">
-   <div class="milestone-stats1">
-        <div class="milestone-stat">
-          <a href='#'>Book an Appointment</a>
-        </div>
-        <div class="milestone-stat">
-          <a href='#'>Superspeciality </a>
-        </div>
-        <div class="milestone-stat">
-          <a href='#'>Superspeciality </a>
-        </div>
 
-        <a href='#'>Superspeciality </a>
-        </div>
-    </div>
-  </div>`
     
     const header=`<div class="nav-container">
     <div class="nav-wrapper">
@@ -125,7 +110,7 @@
             <a href="./aboutus.html">About Us <span class="arrow dropdown-trigger">&#9654;</span></a>
             <ul class="dropdown">
               <li><a href="./aboutus.html#leadership">Leadership</a></li>
-              <li><a href="./aboutus.html#achievements">Awards & Recoginition</a></li>
+              <li><a href="./aboutus.html#achievements">Awards & Recognition</a></li>
               <li><a href="./aboutus.html#history">History & Timeline</a></li>
               <li class="has-submenu" data-submenu="milestones">
                 <a href="./aboutus.html#milestones">Accreditations <span class="arrow submenu-trigger">&#9654;</span></a>
@@ -136,10 +121,10 @@
                   <li><a href="./aboutus.html#logos">PM JAY</a></li>
                 </ul>
               </li>
-              <li><a href="./aboutus.html#alumini">Alumini Feedback</a></li>
+              <li><a href="./aboutus.html#alumini">Alumni Feedback</a></li>
               <li><a href="./Others.html">Statutory Compliance</a></li>
               <li class="has-submenu" data-submenu="media">
-                <a href="./media.html">Media & OutReach <span class="arrow submenu-trigger">&#9654;</span></a>
+                <a href="./media.html">Media & Outreach <span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
                   <li><a href="./media.html#news">News & Events</a></li>
                   <li><a href="./media.html#gallery">Gallery</a></li>
@@ -157,8 +142,8 @@
               <li class="has-submenu" data-submenu="courses">
                 <a href="./course.html">Courses<span class="arrow submenu-trigger">&#9654;</span></a>
                 <ul class="sub-dropdown">
-                  <li><a href="./ug_new_course.html">Under Graduate</a></li>
-                  <li><a href="./pg_course_new.html">Post Graduate</a></li>
+                  <li><a href="./ug_new_course.html">Undergraduate</a></li>
+                  <li><a href="./pg_course_new.html">Postgraduate</a></li>
                 </ul>
               </li>
               
@@ -181,7 +166,7 @@
               <a href="./hospital.html">Hospital <span class="arrow dropdown-trigger">&#9654;</span></a>
               <ul class="dropdown">
                 <li><a href="./hospital_department.html">Departments</a></li>
-                <li><a href="./centerofexcellence.html">Center Of Excellence</a></li>
+                <li><a href="./centerofexcellence.html">Center of Excellence</a></li>
                 <li><a href="./outreach_community.html">Community Outreach</a></li>
                 <li class="has-submenu" data-submenu="milestones">
                   <a href="#">Healthcare Services<span class="arrow submenu-trigger">&#9654;</span></a>
@@ -227,11 +212,11 @@
           <li ><a href="iqac.html" style="background-color:var(--color-orange) !important;"  class="nmc-nav nmc-nav2">IQAC</a></li>
          
            <li class="has-dropdown" data-dropdown="research">
-            <a href="#" style="background-color:var(--color-accent) !important;" class="nmc-nav nmc-nav2"><i class="fa-solid fa-circle-info"></i> Information for <span class="arrow dropdown-trigger"  >&#9654;</span></a>
+            <a href="#" style="background-color:var(--color-accent) !important;" class="nmc-nav nmc-nav2"><i class="fa-solid fa-circle-info"></i> Information For <span class="arrow dropdown-trigger"  >&#9654;</span></a>
             <ul class="dropdown">
               <li><a href="students.html"  style="justify-content: start;"><i class="fa-solid fa-user"></i> Student</a></li>
               <li><a href="parents.html"  style="justify-content: start;"><i class="fa-solid fa-user-group"></i> Parents</a></li>
-              <li><a href="./career.html"  style="justify-content: start;"><i class="fa-solid fa-briefcase"></i> Career</a></li>
+              <li><a href="./career.html"  style="justify-content: start;"><i class="fa-solid fa-briefcase"></i> Careers</a></li>
             </ul>
           </li>
            
@@ -281,7 +266,7 @@
             <div class='content' id='emgWord'  translate="no">
             </div>
             <div class='content2'>
-              <p translate="no">Book an Appointment <br><a href='tel:0431-225 5555' data-wg-notranslate><i class='fa fa-phone'></i> 0431-225 5555</a></p>
+              <p translate="no">Book Appointment <br><a href='tel:0431-225 5555' data-wg-notranslate><i class='fa fa-phone'></i> 0431-225 5555</a></p>
               <p>Ambulance <br><a href='tel:1800 123 108 108' data-wg-notranslate><i class='fa fa-phone'></i> 1800 123 108 108</a></p>
             </div>
             
