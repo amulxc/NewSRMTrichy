@@ -454,7 +454,7 @@ function renderResearchers() {
     const section = document.getElementById('irpc-researchersSection');
     const hierarchy = [
         { title: 'Leadership', key: 'president' },
-        { title: 'Coordinator', key: 'coordinator' },
+        { title: 'Coordinators', key: 'coordinator' },
         { title: 'Members', key: 'members' }
     ];
 

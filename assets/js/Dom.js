@@ -216,7 +216,7 @@
             <ul class="dropdown">
               <li><a href="./research.html">Research</a></li>
               <li><a href="research.html#IRPC-Projects">Projects</a></li>
-              <li><a href="research.html#IRPC-Collabration">Collabrations</a></li>
+              <li><a href="research.html#IRPC-Collabration">Collaborations</a></li>
               <li><a href="./IRPC.html">IRPC</a></li>
             </ul>
           </li>
