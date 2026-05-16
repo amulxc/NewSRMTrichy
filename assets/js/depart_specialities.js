@@ -3152,7 +3152,7 @@ function renderDepartment(dept) {
                             <h2 class="section-title" style="color:${dept.colorDark}">Our Team</h2>
                             <div class="dept-overview">
                             ${dept.displays ? `
-                                <img src="./assets/images/dept_images/${dept.name}/hero-image.jpg" onerror="this.onerror=null; this.src='./assets/images/Hero.jpg';" alt="">` : ``}
+                                <img src="./assets/images/dept_images/${dept.name}/hero-image.jpg" onerror="this.onerror=null; this.src='./assets/images/dept_images/${dept.name}/hero-image.JPG';" alt="">` : ``}
                             <p class="overview-text">${dept.overview}</p>
                             </div>
                         </div>
@@ -3289,14 +3289,21 @@ function renderDepartment(dept) {
     let k = dept.name.split(" ");
     let l = k.join("%20")
     
-
-
-    breadcrum.style.backgroundImage = `linear-gradient(
+    if(dept.displays){
+         breadcrum.style.backgroundImage = `linear-gradient(
                 to right,
                 rgba(${hexToRgb(dept.color)}, 0.6),
                 rgba(${hexToRgb(dept.colorDark)}, 0.6)
             ),
-            url(./assets/images/dept_images/${l}/breadcrum.jpg)` || `linear-gradient(to right,#0153349f,#001f20e3),url(../images/DoctorsforMilestone.jpeg)`;
+            url(./assets/images/dept_images/${l}/breadcrum.jpg)` ||  `linear-gradient(to right,#0153349f,#001f20e3),
+            url(./assets/images/dept_images/${l}/breadcrum.JPG)` ;
+    }
+    else{
+         breadcrum.style.backgroundImage = `linear-gradient(to right,#0153349f,#001f20e3)`;
+        
+    }
+
+   
 
 
     breadcrum.style.height = "70vh"
