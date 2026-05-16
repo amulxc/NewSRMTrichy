@@ -3288,24 +3288,54 @@ function renderDepartment(dept) {
     let breadcrum = document.getElementById('breadcrum-section')
     let k = dept.name.split(" ");
     let l = k.join("%20")
-    
-    if(dept.displays){
-         breadcrum.style.backgroundImage = `linear-gradient(
+    if (dept.displays) {
+
+    const jpgPath = `./assets/images/dept_images/${l}/breadcrum.jpg`;
+    const JPGPath = `./assets/images/dept_images/${l}/breadcrum.JPG`;
+
+    const img = new Image();
+
+    img.onload = () => {
+        breadcrum.style.backgroundImage = `
+            linear-gradient(
                 to right,
                 rgba(${hexToRgb(dept.color)}, 0.6),
                 rgba(${hexToRgb(dept.colorDark)}, 0.6)
             ),
-            url(./assets/images/dept_images/${l}/breadcrum.jpg)` ||  `linear-gradient(
-                to right,
-                rgba(${hexToRgb(dept.color)}, 0.6),
-                rgba(${hexToRgb(dept.colorDark)}, 0.6)
-            ),
-            url(./assets/images/dept_images/${l}/breadcrum.JPG)` ;
-    }
-    else{
-         breadcrum.style.backgroundImage = `linear-gradient(to right,#0153349f,#001f20e3)`;
-        
-    }
+            url(${jpgPath})
+        `;
+    };
+
+    img.onerror = () => {
+
+        const fallbackImg = new Image();
+
+        fallbackImg.onload = () => {
+            breadcrum.style.backgroundImage = `
+                linear-gradient(
+                    to right,
+                    rgba(${hexToRgb(dept.color)}, 0.6),
+                    rgba(${hexToRgb(dept.colorDark)}, 0.6)
+                ),
+                url(${JPGPath})
+            `;
+        };
+
+        fallbackImg.onerror = () => {
+            breadcrum.style.backgroundImage =
+                `linear-gradient(to right,#0153349f,#001f20e3)`;
+        };
+
+        fallbackImg.src = JPGPath;
+    };
+
+    img.src = jpgPath;
+
+} else {
+
+    breadcrum.style.backgroundImage =
+        `linear-gradient(to right,#0153349f,#001f20e3)`;
+}
 
    
 
