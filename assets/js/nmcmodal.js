@@ -25,15 +25,6 @@ function closeLopModal() {
     document.getElementById("lopModal").style.display = "none";
 }
 
-function openLopModal1(event) {
-    event.preventDefault();
-    document.getElementById("lopModal1").style.display = "flex";
-}
-
-function closeLopModal1() {
-    document.getElementById("lopModal1").style.display = "none";
-}
-
 function openCmeModal(e,id="cmeModal") {
     e.preventDefault();
     document.getElementById(`${id}`).style.display = "flex";
@@ -51,6 +42,14 @@ function closeNmcSDModal() {
 }
 
 
+function openClinical(event) {
+    event.preventDefault();
+    document.getElementById("clinical").style.display = "flex";
+}
+
+function closeClinical() {
+    document.getElementById("clinical").style.display = "none";
+}
 
 // Close modal when clicking outside
 window.addEventListener("click", function (e) {
