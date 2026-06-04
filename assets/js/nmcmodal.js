@@ -42,13 +42,13 @@ function closeNmcSDModal() {
 }
 
 
-function openClinicalMaterial(event) {
+function openClinical(event) {
     event.preventDefault();
-    document.getElementById("clinicalMaterial").style.display = "flex";
+    document.getElementById("clinical").style.display = "flex";
 }
 
-function closeClinicalMaterial() {
-    document.getElementById("clinicalMaterial").style.display = "none";
+function closeClinical() {
+    document.getElementById("clinical").style.display = "none";
 }
 
 // Close modal when clicking outside
@@ -57,6 +57,3 @@ window.addEventListener("click", function (e) {
         e.target.style.display = "none";
     }
 });
-
-
-
