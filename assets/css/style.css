@@ -1562,7 +1562,7 @@
 .event-image {
     position: relative;
     overflow: hidden;
-    height: 220px;
+    height:280px;
 }
 
 .event-image img {
