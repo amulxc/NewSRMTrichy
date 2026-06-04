@@ -41,6 +41,16 @@ function closeNmcSDModal() {
     document.getElementById("nmcSDModal").style.display = "none";
 }
 
+
+function openClinicalMaterial(event) {
+    event.preventDefault();
+    document.getElementById("clinicalMaterial").style.display = "flex";
+}
+
+function closeClinicalMaterial() {
+    document.getElementById("clinicalMaterial").style.display = "none";
+}
+
 // Close modal when clicking outside
 window.addEventListener("click", function (e) {
     if (e.target.classList.contains("nmc-modal")) {
