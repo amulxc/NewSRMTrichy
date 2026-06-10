@@ -140,12 +140,27 @@
                 </div>
             </div>
             <div class="irpc-modal-body">
-                <div class="irpc-profile-section">
+                <div class="irpc-profile-section" id="aboutSection">
+                    <div class="irpc-profile-section-title">
+                        <i class="fas fa-info-circle"></i>
+                        About
+                    </div>
+                    <div class="irpc-about-text" id="irpc-modalAbout"></div>
+                    <button class="irpc-readmore-btn" id="irpc-readMoreBtn" type="button" onclick="toggleAboutReadMore()">Read more</button>
+                </div>
+                <div class="irpc-profile-section" id="interestsSection">
                     <div class="irpc-profile-section-title">
                         <i class="fas fa-lightbulb"></i>
                         Research Interests
                     </div>
                     <div class="interest-tags" id="irpc-modalInterests"></div>
+                </div>
+                <div class="irpc-profile-section" id="publicationProfileSection">
+                    <div class="irpc-profile-section-title">
+                        <i class="fas fa-link"></i>
+                        Publication Profile
+                    </div>
+                    <ul class="publication-profile-list" id="irpc-modalPublicationProfiles"></ul>
                 </div>
                 <div class="irpc-profile-section" id="projectSection">
                     <div class="irpc-profile-section-title">
@@ -188,6 +203,14 @@
                         Editorial Board Membership
                     </div>
                     <ul class="profile-list" id="irpc-modalEditorial"></ul>
+                </div>
+
+                <div class="irpc-profile-section" id="topicEditorSection">
+                    <div class="irpc-profile-section-title">
+                        <i class="fas fa-edit"></i>
+                        Topic Editor
+                    </div>
+                    <ul class="profile-list" id="irpc-modalTopicEditor"></ul>
                 </div>
 
                 <div class="irpc-profile-section" id="journalSection">

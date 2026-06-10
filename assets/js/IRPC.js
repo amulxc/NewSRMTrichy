@@ -177,12 +177,26 @@ const researchersData = {
         publications: 45,
         projects: 6,
         citations: "2.2 CR",
-        interests: ["Cancer", "Cancer stem cells", "Wnt Signalling", "Secreted Frizzled Related Protein-4 (SFRP4)"],
+        interests: ["Wnt signalling in particular a Wnt antagonist, Secreted Frizzled Related Protein-4 (sFRP4) and its role in apoptosis and cancer biology", "Cancer Stem cells", "Cancer Stem Cell Metabolism", "Epigenetics","Nanotechnology","Mesencymal Stem Cells (MSC) and cross talk between MSC and tumour cells","Tumour Angiogenesis"],
         projectsList: [
             "SFRP4 as a therapeutic in cancers of the ovary, breast, prostate, glioma, head and neck, and mesothelioma",
             "Role of SFRP4 in cancer cell metabolism",
             "Wnt signalling in cancer stem cells"
         ],
+        publication_profiles:[
+            {
+                name: "Google Scholar",
+                link: "https://scholar.google.com.au/citations?hl=en&user=KoKN6iQAAAAJ&view_op=list_works&sortby=pubdate"
+            },
+            {
+                name:"PubMed",
+                link:"https://pubmed.ncbi.nlm.nih.gov/?term=Dharmarajan+A&sort=date"
+            }
+        ],
+        about:["Professor Arun Dharmarajan was educated at the University of Western Australia, Perth, Australia . He did his postdoctoral training at Johns Hopkins University School of Medicine, Baltimore, USA. On completion of his postdoctoral training, he was appointed as an instructor in the department of Gynecology and Obstetrics and subsequently was promoted to Assistant, Associate Professor and Director of Reproductive Endocrinology in the same department. Professor Dharmarajan, moved back to UWA late 1994 having spent 10 years at Johns Hopkins, Baltimore USA. With his extensive medical background he was appointed as a Professor in the School of Anatomy, Physiology and Human Biology, University of Western Australia, Perth. In 2012 he moved to Curtin University, Perth as Professor of School of Pharmacy and Biomedical Sciences, Faculty of Health Sciences. Professor Dharmarajan is a professor Emeritus at UWA since 2010. The main focus of Professor Dharmarajan’s research is to investigate the role of Secreted Frizzled Protein-4 (SFRP4) and its interaction with Wnt signalling molecules in cancer and specifically cancer stem cells. These studies done in Collaboration with Professor Sudha Warrier (currently Principal, FBMST, SRIHER,Chennai) since 2011. This protein was discovered by Professor Dharmarajan in collaboration with Late Professor Bob Friis, University of Bern, Switzerland in early 90s. Professor Dharmarajan’s research has spanned 40 years in International academia under the areas of Reproduction, Endocrinology, Apoptosis and most recently (over the past 20 years) in Cancer Biology. His work in the fields of Reproduction and Endocrinology have lead him to Editorial Board memberships of top ranking journals in the field including Biology of Reproduction, Endocrinology, Reproductive Biomedicine Online, Molecular and Cellular Reproduction, Molecular and Cellular Endocrinology etc. His primary focus areas in the 80s through the 90s was corpus luteum regulation in conjunction with Cellular Death. Since 2010 Professor Dharmarajan has been examining the the role of SFRP4 on cancer stem cells, metabolism, metastasis and regulation. He has served in the editorial boards of high impact journals and currently on the board of several international journals including Cancers (IF 6.6), Frontiers in Medicine (IF9.2) ,Frontiers in Endocrinology and Frontiers in Reproductive Health, Frontiers in Cell and Development and Frontiers in Oncology and International Journal of Biochemistry and Cell Biology. More recently, Professor Dharmarajan has been invited to serve in the editorial board of British Journal of Cancer,which he considers most privilege and honour. Professor Dharmarajan has published over 224 research articles (Research Gate) and 200 (Pubmed) and supervised more than 120 Hons, MSc and PhD and Postdoctoral Research Fellows. His H-Index is 56. He is also guest editor of several high impact journals including Cancers (IF 6.6). Professor Dharmarajan has been invited to speak at more than 100 National and International conferences. He is a reviewer for more than 75 International Journals. ",
+            " Professor Dharmarajan has received funding from Rockefeller Foundation, Lalor Foundation, Raine Medical Foundation, NIH, NHMRC and ARC. Recently he has been awarded a grant from Ovarian Cancer Foundation, Australia. In India he has received funding from DBT, DST, DHR, SERB-POWER, CRG. More recently, the PG institute of Sri-Lanka nominated Professor Dharmarajan for a Honorary MD degree in Human Physiology. This nomination was based on his contribution to research on Physiological Sciences and in particular Cancer Biology. ",
+            " Professor Dharmarajan joined Sri Ramachandra Institute of Higher Education and Research in July 2019as Head of Biomedical Sciences (2019-2021) and Vice Principal of Faculty of Biomedical Sciences,Technology and Research having worked in Australia and USA for 40 years. Subsequently he waspromoted as Research Professor and followed by Professor of Eminence in the Faculty of ClinicalResearch until August 2024. Currently (From May 2025) Prof Dharmarajan is Professor and Director ofBiomedical Research, Trichy SRM Medical College hospital and Research Centre,TRichy, Tamil Nadu,India ",
+            " Professor Dharmarajan is Emeritus Professor of Human Sciences, The University of Western Australia, Perth, Australia which is ranked number 72 in the world. He is also an Adjunct Professor of Curtin Medical School, Curtin University, Perth, Australia which is ranked 183 in the world."],
         publications: [
             "Development of In Vitro Parkinson Disease Model Mediated by MPP+ and alpha-Synuclein Using Wharton Jelly Mesenchymal Stem Cells. Gamit N et al. CNS Neurosci Ther. 2025.",
             "Modeling amyotrophic lateral sclerosis with amniotic membrane-derived mesenchymal stem cells. Soumya BS et al. Exp Cell Res. 2025.",
@@ -236,6 +250,28 @@ const researchersData = {
             "Frontiers in Endocrinology",
             "Frontiers in Reproductive Health",
             "Current Stem Cell Research and Therapy"
+        ],
+        topic_editor: [
+            {
+                name:"MDPI - Cancer Cell Metabolism",
+                link:"https://www.mdpi.com/topics/Cancer_Cell_Metabolism"
+            },
+            {
+                name:"loop frontiersin",
+                link:"https://loop.frontiersin.org/people/1156782/overview"
+            },
+            {
+                name:"microRNAs as predictive Bio-Markers in Metabolic Signalling Pathways in Tumour Progression",
+                link:"https://www.frontiersin.org/research-topics/26554/micrornas-as-predictive-bio-markers-in-metabolic-signalling-pathways-in-tumour-progression"
+            },
+            {
+                name:"MDPI - Apoptosis in Cancer 2.0",
+                link:"https://www.mdpi.com/journal/cancers/special_issues/CM2S623G92"
+            },
+            {
+                name:"Advances in the Treatment of Hormonal Receptor positive (HR+) Breast Cancer",
+                link:"https://www.frontiersin.org/research-topics/52070/advances-in-the-treatment-of-hormonal-receptor-positive-hr-breast-cancer/magazine"
+            }
         ]
     }],
     coordinator: [
@@ -498,13 +534,74 @@ function renderResearchers() {
 
 function openModal(researcher) {
     const modal = document.getElementById('irpc-researcherModal');
+    const sectionIds = [
+        'aboutSection',
+        'publicationProfileSection',
+        'projectSection',
+        'publicationSection',
+        'conferencesSection',
+        'patentSection',
+        'awardSection',
+        'editorialSection',
+        'topicEditorSection',
+        'journalSection',
+        'grantSection'
+    ];
+
+    sectionIds.forEach(id => {
+        const section = document.getElementById(id);
+        if (section) section.style.display = '';
+    });
+
+    const aboutElement = document.getElementById('irpc-modalAbout');
+    const readMoreBtn = document.getElementById('irpc-readMoreBtn');
+    const aboutSection = document.getElementById('aboutSection');
+    if (aboutElement && readMoreBtn && researcher.about) {
+        if (typeof researcher.about === 'string') {
+            aboutElement.innerHTML = researcher.about
+                .split('\n\n')
+                .map(paragraph => `<p style="text-align: justify;">${paragraph.trim()}</p>`)
+                .join('<br/>');
+        } else if (Array.isArray(researcher.about)) {
+            aboutElement.innerHTML = researcher.about.map(paragraph => `<p style="text-align: justify;">${paragraph}</p>`).join('<br/>');
+        } else {
+            aboutElement.textContent = String(researcher.about);
+        }
+
+        aboutElement.classList.remove('expanded');
+        if (String(researcher.about).length > 340) {
+            readMoreBtn.style.display = 'inline-flex';
+            readMoreBtn.textContent = 'Read more';
+        } else {
+            readMoreBtn.style.display = 'none';
+        }
+    } else {
+        if (aboutSection) aboutSection.style.display = 'none';
+        if (readMoreBtn) readMoreBtn.style.display = 'none';
+    }
+
+    if (Array.isArray(researcher.publication_profiles) && researcher.publication_profiles.length) {
+        document.getElementById('irpc-modalPublicationProfiles').innerHTML = researcher.publication_profiles.map(profile =>
+            `<span class="interest-tag " style="margin-right: 10px;"><a href="${profile.link}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i> ${profile.name}</a></span>`
+        ).join('');
+    } else {
+        document.getElementById('publicationProfileSection').style.display = 'none';
+    }
+
     document.getElementById('irpc-modalName').textContent = researcher.name;
     document.getElementById('irpc-modalPosition').textContent = researcher.position + ' | ' + researcher.specialization;
 
-    document.getElementById('irpc-modalInterests').innerHTML = researcher.interests.map(interest =>
-        `<span class="interest-tag">${interest}</span>`
-    ).join('');
-    document.getElementById('irpc-modal-profile-image').src = researcher.profileImage
+    const interestsSection = document.getElementById('interestsSection');
+    const interestsElement = document.getElementById('irpc-modalInterests');
+    if (interestsElement && Array.isArray(researcher.interests) && researcher.interests.length) {
+        interestsElement.innerHTML = researcher.interests.map(interest =>
+            `<span class="interest-tag">${interest}</span>`
+        ).join('');
+    } else if (interestsSection) {
+        interestsSection.style.display = 'none';
+    }
+
+    document.getElementById('irpc-modal-profile-image').src = researcher.profileImage;
     if (Array.isArray(researcher.projectsList)) {
         document.getElementById('irpc-modalProjects').innerHTML = researcher.projectsList.map(project =>
             `<li>${project}</li>`
@@ -560,6 +657,14 @@ function openModal(researcher) {
         document.getElementById("editorialSection").style.display = "none";
     }
 
+    if (Array.isArray(researcher.topic_editor)) {
+        document.getElementById('irpc-modalTopicEditor').innerHTML = researcher.topic_editor.map(topic =>
+            `<li><a style="color:var(--color-text-secondary)" href="${topic.link}" target="_blank" rel="noopener noreferrer">${topic.name}</a></li>`
+        ).join('');
+    } else {
+        document.getElementById("topicEditorSection").style.display = "none";
+    }
+
     if (Array.isArray(researcher.journal_reviewer)) {
         document.getElementById('irpc-modaljournal_reviewer').innerHTML = researcher.journal_reviewer.map(role =>
             `<li>${role}</li>`
@@ -578,11 +683,15 @@ function openModal(researcher) {
         document.getElementById("grantSection").style.display = "none";
     }
 
-
-
-
     modal.classList.add('irpc-active');
     document.body.style.overflow = 'hidden';
+}
+
+function toggleAboutReadMore() {
+    const aboutElement = document.getElementById('irpc-modalAbout');
+    const readMoreBtn = document.getElementById('irpc-readMoreBtn');
+    const expanded = aboutElement.classList.toggle('expanded');
+    readMoreBtn.textContent = expanded ? 'Read less' : 'Read more';
 }
 
 function closeModal() {
