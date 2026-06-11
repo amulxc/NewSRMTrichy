@@ -312,7 +312,7 @@
                     
                     <li>For Medical College Enquiry:</li>
                     <li><a href="tel:0431-2258956"><i class="fas fa-phone"></i> 0431-2258956</a></li>
-                    <li><a href="mailto:dean@mc.srmtrichy.edu.in"><i class="fas fa-envelope"></i> info@mc.srmtrichy.edu.in</a></li>
+                    <li><a href="mailto:info@mc.srmtrichy.edu.in"><i class="fas fa-envelope"></i> info@mc.srmtrichy.edu.in</a></li>
                 </ul>
             </div>
             <div class="footer-section">
