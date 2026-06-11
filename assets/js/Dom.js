@@ -303,10 +303,16 @@
             <div class="footer-section">
                 <h4 class="footer-title">Contact Us</h4>
                 <ul class="footer-links">
-                    <li><i class="fas fa-map-marker-alt"></i> Trichy, Tamil Nadu</li>
+                    <li>For Hospital Enquiry:</li>
+                    <li>
+                      <a href="tel:0431-2555 555"><i class="fas fa-phone"></i> 0431-2555 555</a> <br> 
+                      <a href="tel:0431-225 8737"><i class="fas fa-phone"></i> 0431-225 8737</a>  <br>
+                      <a href="tel:0431-225 8738"><i class="fas fa-phone"></i> 0431-225 8738</a>
+                    </li>
+                    
+                    <li>For Medical College Enquiry:</li>
                     <li><a href="tel:0431-2258956"><i class="fas fa-phone"></i> 0431-2258956</a></li>
-                    <li><a href="mailto:dean@mc.srmtrichy.edu.in"><i class="fas fa-envelope"></i> dean@mc.srmtrichy.edu.in</a></li>
-                    <li><i class="fas fa-clock"></i> Mon - Sat: 9AM - 6PM</li>
+                    <li><a href="mailto:dean@mc.srmtrichy.edu.in"><i class="fas fa-envelope"></i> info@mc.srmtrichy.edu.in</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -321,7 +327,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; ${new Date().getFullYear()} Trichy SRM Medical College - Trichy. All Rights Reserved. | Privacy Policy | Terms of Service</p>
+            <p>&copy; ${new Date().getFullYear()} Trichy SRM Medical College - Trichy. All Rights Reserved.</p>
         </div>`;
     (function() {
         'use strict';
