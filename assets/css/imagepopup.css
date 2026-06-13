@@ -25,6 +25,8 @@
       overflow: hidden;
       border-radius: 20px;
     }
+
+
     .modal.closing { animation: popOut 0.25s ease forwards; }
     @keyframes popIn  { to { transform: scale(1); opacity: 1; } }
     @keyframes popOut { to { transform: scale(0.9); opacity: 0; } }
@@ -57,3 +59,54 @@
     }
     .close-btn:hover { background: #f83131; transform: scale(1.1); }
     .close-btn svg { width: 14px; height: 14px; stroke: #fff; stroke-width: 2.5; }
+
+
+    .image-popup{
+      min-width: 400px;
+      background-color: #fff;
+      padding: 5% 10%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .image-popup h3{
+      text-align: center;
+    }
+
+    .image-popup-grid{
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .image-popup-item{
+      width:300px;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .image-popup-item:nth-child(2){
+      background-color: #0052a3;
+      color: #fff;
+    }
+    .image-popup-item:nth-child(1){
+      background-color: #53a766;
+      color: #fff;
+    }
+
+  @media screen and (max-width:768px) {
+    .image-popup-grid{
+     flex-direction: column;
+    }
+    .image-popup-item{
+      max-width: 350px;
+    }
+  }
+
+
