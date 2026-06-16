@@ -128,7 +128,6 @@
                 <ul class="sub-dropdown">
                   <li><a href="./media.html#news">News & Events</a></li>
                   <li><a href="./media.html#gallery">Gallery</a></li>
-                  <li><a href="./videogallery.html">Video Gallery</a></li>
                 </ul>
               </li>
             </ul>
