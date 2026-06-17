@@ -51,6 +51,17 @@ function closeClinical() {
     document.getElementById("clinical").style.display = "none";
 }
 
+
+
+function openCensus(event) {
+    event.preventDefault();
+    document.getElementById("census").style.display = "flex";
+}
+
+function closeCensus() {
+    document.getElementById("census").style.display = "none";
+}
+
 // Close modal when clicking outside
 window.addEventListener("click", function (e) {
     if (e.target.classList.contains("nmc-modal")) {
