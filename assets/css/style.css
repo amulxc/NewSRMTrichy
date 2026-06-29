@@ -11968,7 +11968,6 @@ grid-template-columns: 1fr;
             background: var(--color-white);
             padding: 1.5rem;
             border-radius: var(--radius-md);
-            text-align: center;
             box-shadow: var(--shadow-sm);
             transition: all var(--transition);
             border: 1px solid #f0f0f0;
