@@ -62,6 +62,15 @@ function closeCensus() {
     document.getElementById("census").style.display = "none";
 }
 
+function openFacultyModal(event) {
+    event.preventDefault();
+    document.getElementById("faculty").style.display = "flex";
+}
+
+function closeFacultyModal() {
+    document.getElementById("faculty").style.display = "none";
+}
+
 // Close modal when clicking outside
 window.addEventListener("click", function (e) {
     if (e.target.classList.contains("nmc-modal")) {
