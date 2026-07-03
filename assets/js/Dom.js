@@ -653,24 +653,6 @@ mq.addEventListener("change", handleResponsiveMove);
 
 
 
-  document.addEventListener("DOMContentLoaded", () => {
-    const switcher = document.querySelector(".language-switcher");
-    const btn = document.querySelector(".lang-btn");
-
-    btn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      switcher.classList.toggle("active");
-      btn.setAttribute(
-        "aria-expanded",
-        switcher.classList.contains("active")
-      );
-    });
-
-    document.addEventListener("click", () => {
-      switcher.classList.remove("active");
-      btn.setAttribute("aria-expanded", "false");
-    });
-  });
 
 let floatIcon = document.createElement("div");
 floatIcon.className="goToTop";
