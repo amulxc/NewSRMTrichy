@@ -47,7 +47,9 @@
         function renderPharmacyPage(data) {
             const app = document.getElementById('pharm-app');
             
-            let html = `<!-- Services Section -->
+            let html = `
+
+                <!-- Services Section -->
                     <div class="pharm-container section-header">
                          <h2 class="pharm-section-title">${data.additionalServices.title}</h2>
                         <div class="pharm-services-columns">
