@@ -52,6 +52,14 @@ function closeClinical() {
 }
 
 
+function openFacultyModal(event) {
+    event.preventDefault();
+    document.getElementById("faculty").style.display = "flex";
+}
+
+function closeFacultyModal() {
+    document.getElementById("faculty").style.display = "none";
+}
 
 function openCensus(event) {
     event.preventDefault();
