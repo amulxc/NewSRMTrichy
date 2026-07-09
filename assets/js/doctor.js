@@ -390,7 +390,8 @@ function scrollToTop() {
 function createDoctorCard(doctor) {
     const card = document.createElement('div');
     card.className = 'doctor-card';
-    let imgPath = `./assets/images/doctors/${doctor["Contact Number"] == "9894489142" || doctor["Contact Number"] == "7708490384" ? doctor["Contact Number"] + ".jpg": doctor["Contact Number"] == "8754385626" ? doctor["Contact Number"] + ".png": doctor["Contact Number"] + ".JPG"}`;
+    
+    let imgPath = `./assets/images/doctors/${doctor["Contact Number"] == "9894489142" || doctor["Contact Number"] == "7708490384" ||  doctor["Contact Number"] == "8754385626" ? doctor["Contact Number"] + ".png": doctor["Contact Number"] + ".JPG"}`;
 
     function checkImage(url, callback) {
         const img = new Image();
