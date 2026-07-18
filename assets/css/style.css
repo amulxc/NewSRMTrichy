@@ -1887,6 +1887,7 @@ html[lang="en"] .nav-container a {
     .hero-main-image img {
         border-radius: 350px;
         padding: 20px;
+        height:410px;
         transform: scale(1.5);
     }
     

@@ -5,6 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trichy SRM Medical College</title>
+    <!-- SEO -->
+    <meta 
+    name="description" 
+    content="Trichy SRM Medical College Hospital and Research Centre provides advanced medical education, healthcare services, research facilities and quality patient care."
+    >
+    <link rel="canonical" href="https://mchrc.srmtrichy.edu.in/">
+    <meta property="og:title" content="Trichy SRM Medical College Hospital and Research Centre">
+
+    <meta property="og:description" content="Advanced medical education, healthcare services and research facilities.">
+
+    <meta property="og:image" content="assets/images/slider/1.JPG">
+
+    <meta property="og:url" content="https://mchrc.srmtrichy.edu.in/">
+
+    <meta property="og:type" content="website">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,6 +28,11 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/Header.css">
     <!-- <link rel="stylesheet" href="./assets/css/imagepopup.css"> -->
+     <link 
+    rel="preload"
+    as="image"
+    href="assets/images/slider/1.JPG"
+    >
     <link rel="stylesheet" href="./assets/css/CursorAnimation.css">
     <link rel="fav icon" href="assets/images/fav.png">
     <style>
@@ -76,7 +97,12 @@
                             </div>
 
                             <div class="hero-main-image">
-                                <img src="assets/images/slider/1.JPG" alt="Campus Infrastructure">
+                                <img 
+                                    src="assets/images/slider/1.JPG" 
+                                    alt="Campus Infrastructure"
+                                    width="700"
+                                    height="800"
+                                    fetchpriority="high">
                             </div>
                         </div>
                     </div>
@@ -119,7 +145,7 @@
                             </div>
 
                             <div class="hero-main-image">
-                                <img src="assets/images/slider/accr.png" alt="Institution Accreditations">
+                                <img src="assets/images/slider/accr.png" alt="Institution Accreditations" loading="lazy" width="700" height="800">
                             </div>
                         </div>
                     </div>
@@ -170,7 +196,7 @@
                             </div>
 
                             <div class="hero-main-image">
-                                <img src="assets/images/slider/4.png" alt="Healthcare Professional">
+                                <img src="assets/images/slider/4.png" alt="Healthcare Professional" loading="lazy" width="700" height="800">
                             </div>
                         </div>
                     </div>
@@ -192,14 +218,14 @@
         <div class="welcome-container">
             <div class="welcome-images">
                 <div class="large-image">
-                    <img src="assets/images/welcome/1.JPG" alt="Campus Building">
+                    <img src="assets/images/welcome/1.JPG" alt="Campus Building" loading="lazy">
                 </div>
                 <div class="small-images ">
                     <div class="small-img-1 ">
-                        <img src="assets/images/welcome/2.JPG" alt="Doctor with Patient">
+                        <img src="assets/images/welcome/2.JPG" alt="Doctor with Patient" loading="lazy">
                     </div>
                     <div class="small-img-2">
-                        <img src="assets/images/welcome/3.JPG" alt="Medical Professional">
+                        <img src="assets/images/welcome/3.JPG" alt="Medical Professional" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -242,8 +268,14 @@
                     skilled medical professionals.</p>
             </div>
             <div class="team-image">
-                <!-- <img src="assets/images/vision.png" alt="Medical Team"> -->
-                <video src="assets/images/flagvideo.mp4" autoplay muted></video>
+                <video
+                    src="assets/images/flagvideo.mp4"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="none">
+                    </video>
                 <div class="team-icon">
                     <i class="fas fa-user-md"></i>
                 </div>
@@ -332,7 +364,7 @@
         <div class="milestone-container">
             <div class="milestone-images">
                 <div class="milestone-large">
-                    <img src="assets/images/MilestoneHomePage.jpeg" alt="Surgery Team">
+                    <img src="assets/images/MilestoneHomePage.jpeg" alt="Surgery Team" loading="lazy">
                 </div>
             </div>
             <div class="milestone-stats">
@@ -382,37 +414,35 @@
         </div>
         <div class="swiper events-slider">
             <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                    <div class="event-card">
+                        <div class="event-image" style="display:flex;align-items:flex-start;justify-content:center;">
+                            <img src="assets/images/events/13.jpeg" alt="IMA SRM Irungalur Branch - Doctors' Day Excellence Award 2026" loading="lazy">
+                        </div>
+                        <div class="event-info">
+                            <div class="event-date-badge">
+                                <div class="day">10 July 2026</div>
+                            </div>
+                            <h4>IMA SRM Irungalur Branch – "Doctors' Day Excellence Award 2026"</h4>
+                            <div class="event-meta">
+                                <span>Venue: SRM Medical College Hospital & Research Centre, Irungalur</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="swiper-slide">
                     <div class="event-card">
                         <div class="event-image" style="display:flex;align-items:flex-start;justify-content:center;">
-                            <img src="assets/images/events/11.jpg" alt="Event">
+                            <img src="assets/images/events/12.jpeg" alt="World's Largest Rotaract Club Investiture Function" loading="lazy">
                         </div>
                         <div class="event-info">
                             <div class="event-date-badge">
-                                <div class="day">10 June 2026</div>
+                                <div class="day">20 June 2026</div>
                             </div>
-                            <h4>Sportifa'26 </h4>
+                            <h4>World's Largest Rotaract Club Investiture Function</h4>
                             <div class="event-meta">
-                                <span>Venue: Dr.APJ Abdhul Kalam Hall hall,2nd Floor (Hospital Block)</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="swiper-slide">
-                    <div class="event-card">
-                        <div class="event-image">
-                            <img src="assets/images/events/1.png" alt="Event">
-                        </div>
-                        <div class="event-info">
-                            <div class="event-date-badge">
-                                <div class="day">07 May 2026</div>
-                            </div>
-                            <h4>General Medical Camp</h4>
-                            <div class="event-meta">
-                                <span>P.K. Agaram, Pullambadi – Grama Sevai Maiyam | DBCS & General Medical Camp | 69 beneficiaries</span>
+                                <span>Venue: SRM Group of Institutions, Tiruchirappalli</span>
                             </div>
                         </div>
                     </div>
@@ -420,123 +450,20 @@
 
                 <div class="swiper-slide">
                     <div class="event-card">
-                        <div class="event-image">
-                            <img src="assets/images/events/2.png" alt="Event">
+                        <div class="event-image" style="display:flex;align-items:flex-start;justify-content:center;">
+                            <img src="assets/images/events/14.jpeg" alt="FISH LAB Inauguration" loading="lazy">
                         </div>
                         <div class="event-info">
                             <div class="event-date-badge">
-                                <div class="day">08 May 2026</div>
+                                <div class="day">May 2026</div>
                             </div>
-                            <h4>General Medical Camp</h4>
+                            <h4>FISH LAB Inauguration</h4>
                             <div class="event-meta">
-                                <span>CSIF Personnel, International Airport – Trichy | General Medical Camp | 99 beneficiaries</span>
+                                <span>Venue: SRM Medical College Hospital & Research Centre, Irungalur</span>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="swiper-slide">
-                    <div class="event-card">
-                        <div class="event-image">
-                            <img src="assets/images/events/3.png" alt="Event">
-                        </div>
-                        <div class="event-info">
-                            <div class="event-date-badge">
-                                <div class="day">12 May 2026</div>
-                            </div>
-                            <h4>DBCS & General Medical Camp</h4>
-                            <div class="event-meta">
-                                <span>Edayathankudi, Ariyalur – Panchayat Middle School | 72 beneficiaries</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="event-card">
-                        <div class="event-image">
-                            <img src="assets/images/events/4.png" alt="Event">
-                        </div>
-                        <div class="event-info">
-                            <div class="event-date-badge">
-                                <div class="day">14 May 2026</div>
-                            </div>
-                            <h4>DBCS & General Medical Camp</h4>
-                            <div class="event-meta">
-                                <span>Reddimangudi, Pullambadi – Panchayat Middle School | 62 beneficiaries</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="event-card">
-                        <div class="event-image">
-                            <img src="assets/images/events/5.png" alt="Event">
-                        </div>
-                        <div class="event-info">
-                            <div class="event-date-badge">
-                                <div class="day">15 May 2026</div>
-                            </div>
-                            <h4>General Medical Camp</h4>
-                            <div class="event-meta">
-                                <span>SIDCO Industrial Estate, Thuvakudi | 104 beneficiaries</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="event-card">
-                        <div class="event-image">
-                            <img src="assets/images/events/6.png" alt="Event">
-                        </div>
-                        <div class="event-info">
-                            <div class="event-date-badge">
-                                <div class="day">19 May 2026</div>
-                            </div>
-                            <h4>DBCS & General Medical Camp</h4>
-                            <div class="event-meta">
-                                <span>Elandakudam, Ariyalur – Panchayat Middle School | 84 beneficiaries</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="event-card">
-                        <div class="event-image">
-                            <img src="assets/images/events/7.png" alt="Event">
-                        </div>
-                        <div class="event-info">
-                            <div class="event-date-badge">
-                                <div class="day">21 May 2026</div>
-                            </div>
-                            <h4>General Medical Camp</h4>
-                            <div class="event-meta">
-                                <span>Perakambi, Mannachanallur – Library Building | 56 beneficiaries</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="event-card">
-                        <div class="event-image">
-                            <img src="assets/images/events/8.png" alt="Event">
-                        </div>
-                        <div class="event-info">
-                            <div class="event-date-badge">
-                                <div class="day">26 May 2026</div>
-                            </div>
-                            <h4>DBCS & General Medical Camp</h4>
-                            <div class="event-meta">
-                                <span>Kallankurichi, Ariyalur – Grama Sevai Maiyam | 82 beneficiaries</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
             <div class="swiper-button-next"></div>
@@ -553,7 +480,7 @@
         </div>
         <div class="celebrations-grid">
             <div class="celebration-card">
-                <img src="assets/images/celeberations/1.JPG">
+                <img src="assets/images/celeberations/1.JPG" loading="lazy">
                 <div class="celebration-overlay">
                     <h3>Rasang 2025</h3>
                     <p>A vibrant cultural festival where students showcased their artistic talents through music, dance,
@@ -562,7 +489,7 @@
                 </div>
             </div>
             <div class="celebration-card">
-                <img src="assets/images/celeberations/2.JPG">
+                <img src="assets/images/celeberations/2.JPG" loading="lazy">
                 <div class="celebration-overlay">
                     <h3>Margazhi Isai Thiruvizha</h3>
                     <p>A celebration of classical music and cultural heritage, featuring soulful performances that
@@ -571,7 +498,7 @@
                 </div>
             </div>
             <div class="celebration-card">
-                <img src="assets/images/celeberations/3.JPG">
+                <img src="assets/images/celeberations/3.JPG" loading="lazy">
                 <div class="celebration-overlay">
                     <h3>Navaratri</h3>
                     <p>A colourful and spiritual celebration marked by devotional performances, traditional Golu
@@ -579,7 +506,7 @@
                 </div>
             </div>
             <div class="celebration-card">
-                <img src="assets/images/celeberations/4.JPG">
+                <img src="assets/images/celeberations/4.JPG" loading="lazy">
                 <div class="celebration-overlay">
                     <h3>Pongal Celebrations</h3>
                     <p>A traditional harvest festival celebrated with enthusiasm, showcasing cultural activities, folk
@@ -587,7 +514,7 @@
                 </div>
             </div>
             <div class="celebration-card">
-                <img src="assets/images/celeberations/5.JPG">
+                <img src="assets/images/celeberations/5.JPG" loading="lazy">
                 <div class="celebration-overlay">
                     <h3>Independence Day</h3>
                     <p>A patriotic celebration honouring the spirit of the nation with a ceremonial flag hoisting,
@@ -595,7 +522,7 @@
                 </div>
             </div>
             <div class="celebration-card">
-                <img src="assets/images/celeberations/6.JPG">
+                <img src="assets/images/celeberations/6.JPG" loading="lazy">
                 <div class="celebration-overlay">
                     <h3>Onam Celebrations</h3>
                     <p>A festive occasion filled with traditional games, music, dance, and the iconic pookkalam designs,
@@ -616,8 +543,7 @@
                 <div class="swiper-slide">
                     <div class="testimonial-card">
                         <div class="testimonial-avatar">
-                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjWmqejFkkZwg0MeKKeAVNRzy59zGZqEDnld0NTN_us43_BTkWI=w72-h72-p-rp-mo-br100"
-                                alt="Student">
+                            <h2>D</h2>
                         </div>
                         <div class="content">
                             <h4>DHANABAL . T</h4>
@@ -665,7 +591,7 @@
                 <div class="swiper-slide">
                     <div class="testimonial-card">
                         <div class="testimonial-avatar">
-                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjXiESblo63HACn-JGPU9DdIuk9ux3SjCf6N-kahmhZi6Q5EYrLkVg=w72-h72-p-rp-mo-ba5-br100"
+                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjXiESblo63HACn-JGPU9DdIuk9ux3SjCf6N-kahmhZi6Q5EYrLkVg=w72-h72-p-rp-mo-ba5-br100" loading="lazy"
                                 alt="Alumni">
                         </div>
                         <div class="content">
@@ -689,7 +615,7 @@
                 <div class="swiper-slide">
                     <div class="testimonial-card">
                         <div class="testimonial-avatar">
-                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjU-IK43acqKwmfwX_PQoxoNGlevdy7Lq6dQ_HOMHPhsTtjjiONH=w72-h72-p-rp-mo-ba6-br100"
+                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjU-IK43acqKwmfwX_PQoxoNGlevdy7Lq6dQ_HOMHPhsTtjjiONH=w72-h72-p-rp-mo-ba6-br100" loading="lazy"
                                 alt="Alumni">
                         </div>
                         <div class="content">
@@ -711,7 +637,7 @@
                 <div class="swiper-slide">
                     <div class="testimonial-card">
                         <div class="testimonial-avatar">
-                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjXfbAaed4EdKcNI3uhCagvZGd1WIWDkJsKn-vNdQclQ9-ekJdwciQ=w72-h72-p-rp-mo-br100"
+                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjXfbAaed4EdKcNI3uhCagvZGd1WIWDkJsKn-vNdQclQ9-ekJdwciQ=w72-h72-p-rp-mo-br100" loading="lazy"
                                 alt="Alumni">
                         </div>
                         <div class="content">
@@ -736,7 +662,7 @@
                 <div class="swiper-slide">
                     <div class="testimonial-card">
                         <div class="testimonial-avatar">
-                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjX68xPAO8cHW3Sn58E77KYlp5HjZaS2ydGQeFv5tSxn8hoCPhlh=w72-h72-p-rp-mo-br100"
+                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjX68xPAO8cHW3Sn58E77KYlp5HjZaS2ydGQeFv5tSxn8hoCPhlh=w72-h72-p-rp-mo-br100" loading="lazy"
                                 alt="Alumni">
                         </div>
                         <div class="content">
@@ -786,11 +712,11 @@
     </div>  -->
     <!-- Footer -->
     <footer id="footer"></footer>
-    <script src="./assets/js/Dom.js"></script>
+    <script  defer src="./assets/js/Dom.js"></script>
     <div id="google_translate_element" style="display:none;"></div>
-    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
-    <script src="./assets/js/Scripts.js"></script>
+    <script  defer src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script  defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <script  defer src="./assets/js/Scripts.js"></script>
     <!-- <script src="assets/js/imagepopup.js"></script> -->
 </body>
 </html>
