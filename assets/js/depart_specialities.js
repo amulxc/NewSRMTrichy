@@ -111,10 +111,10 @@ const depts = [
 
         faculty_desc: "The department has a team of qualified and experienced faculty committed to academic excellence, research, and clinical service.",
         doctor: [
-            { name: "Dr. U. Jayasimha Raj MDS", designation: "Professor and HOD" },
-            { name: "Dr. J. Asha MDS", designation: "Associate Professor" },
-            { name: "Dr. V. Sri Ram MDS", designation: "Assistant Professor" },
-            { name: "Dr. G. Bharath MDS", designation: "Assistant Professor" },
+            { name: "Dr. U. JAYASIMHA RAJ", designation: "Professor and HOD" },
+            { name: "Asha J", designation: "Associate Professor" },
+            { name: "Dr.Sriram Venkatachalapathy", designation: "Assistant Professor" },
+            { name: "Bharath G", designation: "Assistant Professor" },
             { name: "Dr. K. Iswarya MDS", designation: "Assistant Professor" },
             { name: "Dr. G. Aarthi MDS", designation: "Senior Resident" },
             { name: "Dr. B. Nandini MDS", designation: "Senior Resident" }
