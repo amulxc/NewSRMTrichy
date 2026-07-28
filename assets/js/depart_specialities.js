@@ -3080,7 +3080,7 @@ function doctorImage(dept, name) {
         return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGG7erz9q0Rya1nPGFfbz6LVLjyU-7md7hOQ&s";
     }
 
-    const ext = doctor["Contact Number"] == "9894489142" || doctor["Contact Number"] == "7708490384" ||  doctor["Contact Number"] == "8754385626" ? doctor["Contact Number"] + ".png": doctor["Contact Number"] + ".JPG";
+    const ext = doctor["Contact Number"] === "9894489142" ? "jpg" : "JPG";
     const num = doctor["Contact Number"]
     return {
         image: `./assets/images/doctors/${num}.${ext}`,
