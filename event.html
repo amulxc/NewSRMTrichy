@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event - Trichy SRM Medical College</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/Header.css">
+    <link rel="stylesheet" href="./assets/css/CursorAnimation.css">
+    <link rel="icon" href="assets/images/fav.png" type="image/png">
+</head>
+<body>
+    <div id="topbar"></div><div id="quick-access"></div><nav id="header"></nav>
+    <div id="floatBtn" class="floating-social-btn"></div><div id="emergencyBox1" class="floating-social-btn-emg"></div>
+    <section class="breadcrum event-breadcrumb">
+        <h1 data-event-title>Event Details</h1>
+        <div class="subtitle"><a href="index.html">Home</a><div class="round"></div><a href="media.html#news">Media & Outreach</a><div class="round"></div><span class="active" data-event-title>Event Details</span></div>
+    </section>
+    <main class="event-detail-page">
+        <div class="event-detail-content">
+            <div class="event-detail-gallery" data-event-gallery></div>
+            <div class="event-detail-copy">
+                <div class="event-date-badge"><div class="day" data-event-date></div></div>
+                <h2 data-event-title>Event Details</h2>
+                <p class="event-detail-description" data-event-description></p>
+                <div class="event-detail-facts"><p><i class="fas fa-location-dot"></i><strong> Venue:</strong> <span data-event-venue></span></p><p><i class="fas fa-users"></i><strong> </strong><span data-event-beneficiaries></span></p></div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer"></footer>
+    <script src="./assets/js/Dom.js"></script>
+    <script src="./assets/js/events.js"></script>
+</body>
+</html>
