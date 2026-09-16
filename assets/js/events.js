@@ -1,6 +1,6 @@
 (function () {
     const dataUrl = './assets/data/events.json';
-
+    
     const escapeHtml = value => String(value ?? '').replace(
         /[&<>"']/g,
         char => ({

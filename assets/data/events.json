@@ -98,7 +98,6 @@
       "venue":"Viragalur - Pullambadi",
       "description":"Community screening and general medical care camp.","beneficiaries":"54",
       "status":"latest",
-      "featured":true,
       "images":["assets/images/events/15.jpg"]},
     {
       "id":"dbcs-camp-ayansuthamalli",
@@ -108,7 +107,6 @@
       "venue":"Ayansuthamalli - Ariyalur",
       "description":"Community screening and general medical care camp.","beneficiaries":"90",
       "status":"latest",
-      "featured":true,
       "images":["assets/images/events/16.jpg"]},
     {
       "id":"dbcs-camp-vellur",
@@ -118,7 +116,6 @@
       "venue":"Vellur - Musiri",
       "description":"Community screening and general medical care camp.","beneficiaries":"25",
       "status":"latest",
-      "featured":true,
       "images":["assets/images/events/17.jpg"]},
     {
       "id":"dbcs-camp-varanavasi",
@@ -128,7 +125,6 @@
       "venue":"Varanavasi - Ariyalur",
       "description":"Community screening and general medical care camp.","beneficiaries":"84",
       "status":"latest",
-      "featured":true,
       "images":["assets/images/events/18.jpg"]},
     {
       "id":"dbcs-camp-molvoy",
@@ -138,7 +134,6 @@
       "venue":"Molvoy - Pullambadi",
       "description":"Community screening and general medical care camp.","beneficiaries":"63",
       "status":"latest",
-      "featured":true,
       "images":["assets/images/events/19.jpg"]},
     {
       "id":"rotaract-investiture-2026",
@@ -148,7 +143,6 @@
       "venue":"SRM Group of Institutions, Tiruchirappalli",
       "description":"Investiture function celebrating student leadership and service.",
       "status":"latest",
-      "featured":true,
       "images":["assets/images/events/12.jpeg"]},
     {
       "id":"dbcs-camp-periyathirukonam",
@@ -158,7 +152,6 @@
       "venue":"Periyathirukonam - Ariyalur",
       "description":"Community screening and general medical care camp.","beneficiaries":"47",
       "status":"latest",
-      "featured":true,
       "images":["assets/images/events/20.jpg"]},
     {
       "id":"dbcs-camp-sathamangalam",
@@ -168,7 +161,6 @@
       "venue":"Sathamangalam - Lalgudi",
       "description":"Community screening and general medical care camp.","beneficiaries":"57",
       "status":"latest",
-      "featured":true,
       "images":["assets/images/events/21.jpg"]},
     {
       "id":"general-medicine-camp-kamala-niketan",
@@ -178,7 +170,6 @@
       "venue":"Kamala Niketan Montessori School, Trichy",
       "description":"General medicine camp providing accessible healthcare services.","beneficiaries":"1201",
       "status":"latest",
-      "featured":true,
       "images":["assets/images/events/22.jpg"]},
     {
       "id":"doctors-day-excellence-award-2026",
@@ -188,7 +179,6 @@
       "venue":"SRM Medical College Hospital & Research Centre, Irungalur",
       "description":"Doctors' Day Excellence Award presented by the IMA SRM Irungalur Branch.",
       "status":"latest",
-      "featured":true,
       "images":["assets/images/events/13.jpeg"]},
     {
       "id":"fish-lab-inauguration",
@@ -198,7 +188,303 @@
       "venue":"SRM Medical College Hospital & Research Centre, Irungalur",
       "description":"Inauguration of the FISH laboratory and its advanced diagnostic capabilities.",
       "status":"latest",
-      "featured":true,
-      "images":["assets/images/events/14.jpeg"]}
+      "images":["assets/images/events/14.jpeg"]},
+    {
+        "id": "kamala-niketan-montessori-school-trichy-general-medicine",
+        "title": "General Medicine Camp",
+        "date": "2026-06-29",
+        "dateLabel": "29 Jun - 02 Jul 2026",
+        "venue": "Kamala Niketan Montessori School, Trichy",
+        "description": "General Medicine Camp conducted at Kamala Niketan Montessori School, Trichy.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/23.jpg"]
+      },
+      {
+        "id": "fathima-g-hss-jayankondam-kannoli-kaappom-thittam",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-06",
+        "dateLabel": "06 Jul 2026",
+        "venue": "Fathima (G) HSS, Jayankondam",
+        "description": "Kannoli Kaappom Thittam conducted at Fathima (G) HSS, Jayankondam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/24.jpg"]
+      },
+      {
+        "id": "sridevimangalam-manachanallur-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-07-07",
+        "dateLabel": "07 Jul 2026",
+        "venue": "Sridevimangalam, Manachanallur",
+        "description": "DBCS and General Medical Camp conducted at Sridevimangalam, Manachanallur.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/25.jpg"]
+      },
+      {
+        "id": "nagar-village-lalgudi-general-medical-camp",
+        "title": "General Medical Camp",
+        "date": "2026-07-08",
+        "dateLabel": "08 Jul 2026",
+        "venue": "Nagar Village, Lalgudi",
+        "description": "General Medical Camp conducted at Nagar Village, Lalgudi.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/26.jpg"]
+      },
+      {
+        "id": "ghss-g-meensurutti-jayankondam-kannoli-kaappom-thittam",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-08",
+        "dateLabel": "08 Jul 2026",
+        "venue": "GHSS (G), Meensurutti, Jayankondam",
+        "description": "Kannoli Kaappom Thittam conducted at GHSS (G), Meensurutti, Jayankondam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/27.jpg"]
+      },
+      {
+        "id": "thappai-pullambadi-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-07-09",
+        "dateLabel": "09 Jul 2026",
+        "venue": "Thappai, Pullambadi",
+        "description": "DBCS and General Medical Camp conducted at Thappai, Pullambadi.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/28.jpg"]
+      },
+      {
+        "id": "ulkottai-ghss-jayankondam-kannoli-kaappom-thittam",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-10",
+        "dateLabel": "10 Jul 2026",
+        "venue": "Ulkottai GHSS, Jayankondam",
+        "description": "Kannoli Kaappom Thittam conducted at Ulkottai GHSS, Jayankondam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/29.jpg"]
+      },
+      {
+        "id": "ghs-sengunthapuram-jayankondam-kannoli-kaappom-thittam-1",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-13",
+        "dateLabel": "13 Jul 2026",
+        "venue": "GHS Sengunthapuram, Jayankondam",
+        "description": "Kannoli Kaappom Thittam conducted at GHS Sengunthapuram, Jayankondam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/30.jpg"]
+      },
+      {
+        "id": "pudukkottai-ariyalur-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-07-14",
+        "dateLabel": "14 Jul 2026",
+        "venue": "Pudukkottai, Ariyalur",
+        "description": "DBCS and General Medical Camp conducted at Pudukkottai, Ariyalur.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/31.jpg"]
+      },
+      {
+        "id": "bhss-sengunthapuram-jayankondam-kannoli-kaappom-thittam",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-15",
+        "dateLabel": "15 Jul 2026",
+        "venue": "BHSS Sengunthapuram, Jayankondam",
+        "description": "Kannoli Kaappom Thittam conducted at BHSS Sengunthapuram, Jayankondam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/32.jpg"]
+      },
+      {
+        "id": "ghss-kallathur-thandalai-jayankondam-kannoli-kaappom-thittam",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-15",
+        "dateLabel": "15 Jul 2026",
+        "venue": "GHSS Kallathur Thandalai, Jayankondam",
+        "description": "Kannoli Kaappom Thittam conducted at GHSS Kallathur Thandalai, Jayankondam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/33.jpg"]
+      },
+      {
+        "id": "mangalam-musiri-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-07-16",
+        "dateLabel": "16 Jul 2026",
+        "venue": "Mangalam, Musiri",
+        "description": "DBCS and General Medical Camp conducted at Mangalam, Musiri.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/34.jpg"]
+      },
+      {
+        "id": "ghs-sengunthapuram-jayankondam-kannoli-kaappom-thittam-2",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-17",
+        "dateLabel": "17 Jul 2026",
+        "venue": "GHS Sengunthapuram, Jayankondam",
+        "description": "Kannoli Kaappom Thittam conducted at GHS Sengunthapuram, Jayankondam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/35.jpg"]
+      },
+      {
+        "id": "gmhss-jayankondam-kannoli-kaappom-thittam",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-17",
+        "dateLabel": "17 Jul 2026",
+        "venue": "GMHSS, Jayankondam",
+        "description": "Kannoli Kaappom Thittam conducted at GMHSS, Jayankondam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/36.jpg"]
+      },
+      {
+        "id": "ghs-sengunthapuram-jayankondam-kannoli-kaappom-thittam-3",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-20",
+        "dateLabel": "20 Jul 2026",
+        "venue": "GHS Sengunthapuram, Jayankondam",
+        "description": "Kannoli Kaappom Thittam conducted at GHS Sengunthapuram, Jayankondam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/37.jpg"]
+      },
+      {
+        "id": "kovil-esannai-ariyalur-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-07-21",
+        "dateLabel": "21 Jul 2026",
+        "venue": "Kovil Esannai, Ariyalur",
+        "description": "DBCS and General Medical Camp conducted at Kovil Esannai, Ariyalur.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/38.jpg"]
+      },
+      {
+        "id": "ghss-melanikuzhi-jayankondam-kannoli-kaappom-thittam",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-22",
+        "dateLabel": "22 Jul 2026",
+        "venue": "GHSS Melanikuzhi, Jayankondam",
+        "description": "Kannoli Kaappom Thittam conducted at GHSS Melanikuzhi, Jayankondam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/39.jpg"]
+      },
+      {
+        "id": "kannakiliyanallur-pullambadi-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-07-23",
+        "dateLabel": "23 Jul 2026",
+        "venue": "Kannakiliyanallur, Pullambadi",
+        "description": "DBCS and General Medical Camp conducted at Kannakiliyanallur, Pullambadi.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/40.jpg"]
+      },
+      {
+        "id": "high-energy-batteries-private-limited-general-medical-camp",
+        "title": "General Medical Camp",
+        "date": "2026-07-23",
+        "dateLabel": "23-24 Jul 2026",
+        "venue": "High Energy Batteries Private Limited",
+        "description": "General Medical Camp conducted at High Energy Batteries Private Limited.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/41.jpg"]
+      },
+      {
+        "id": "ghss-melanikuzhi-jayankondam-kannoli-kaappom-thittam-2",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-24",
+        "dateLabel": "24 Jul 2026",
+        "venue": "GHSS Melanikuzhi, Jayankondam",
+        "description": "Kannoli Kaappom Thittam conducted at GHSS Melanikuzhi, Jayankondam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/42.jpg"]
+      },
+      {
+        "id": "bishop-heber-hss-trichy-kannoli-kaappom-thittam-1",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-27",
+        "dateLabel": "27 Jul 2026",
+        "venue": "Bishop Heber HSS, Trichy",
+        "description": "Kannoli Kaappom Thittam conducted at Bishop Heber HSS, Trichy.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/43.jpg"]
+      },
+      {
+        "id": "parpanaseri-ariyalur-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-07-28",
+        "dateLabel": "28 Jul 2026",
+        "venue": "Parpanaseri, Ariyalur",
+        "description": "DBCS and General Medical Camp conducted at Parpanaseri, Ariyalur.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/44.jpg"]
+      },
+      {
+        "id": "bishop-heber-hss-trichy-kannoli-kaappom-thittam-2",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-28",
+        "dateLabel": "28 Jul 2026",
+        "venue": "Bishop Heber HSS, Trichy",
+        "description": "Kannoli Kaappom Thittam conducted at Bishop Heber HSS, Trichy.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/45.jpg"]
+      },
+      {
+        "id": "bishop-heber-hss-trichy-kannoli-kaappom-thittam-3",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-29",
+        "dateLabel": "29 Jul 2026",
+        "venue": "Bishop Heber HSS, Trichy",
+        "description": "Kannoli Kaappom Thittam conducted at Bishop Heber HSS, Trichy.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/46.jpg"]
+      },
+      {
+        "id": "bishop-heber-hss-trichy-kannoli-kaappom-thittam-4",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-30",
+        "dateLabel": "30 Jul 2026",
+        "venue": "Bishop Heber HSS, Trichy",
+        "description": "Kannoli Kaappom Thittam conducted at Bishop Heber HSS, Trichy.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/47.jpg"]
+      },
+      {
+        "id": "sun-business-solution-general-medical-camp",
+        "title": "General Medical Camp",
+        "date": "2026-07-30",
+        "dateLabel": "30 Jul 2026",
+        "venue": "Sun Business Solution",
+        "description": "General Medical Camp conducted at Sun Business Solution.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/48.jpg"]
+      },
+      {
+        "id": "bishop-heber-hss-trichy-kannoli-kaappom-thittam-5",
+        "title": "Kannoli Kaappom Thittam",
+        "date": "2026-07-31",
+        "dateLabel": "31 Jul 2026",
+        "venue": "Bishop Heber HSS, Trichy",
+        "description": "Kannoli Kaappom Thittam conducted at Bishop Heber HSS, Trichy.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/49.jpg"]
+      }
   ]
 }
