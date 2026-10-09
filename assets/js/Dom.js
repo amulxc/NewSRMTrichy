@@ -250,8 +250,9 @@
             <a href="https://www.instagram.com/srmmchrc?igsh=eXIwd3d2d3gzeXZ6" target="_blank" class="social-link instagram" title="Instagram">
                 <i class="fab fa-instagram"></i>
             </a>
-             <a href="#" target="_blank" class="social-link whatsapp" title="whatsapp">
-                <i class="fab fa-whatsapp"></i>
+         
+            <a href="#" target="_blank" class="social-link twitter" title="twitter">
+                <i class="fab fa-twitter"></i>
             </a>
             
         </div>`;
@@ -282,11 +283,12 @@
                 </div>
                 <p>Trichy SRM Medical College Hospital & Research Centre, <br>SRM Nagar, Trichy - Chennai Highway, Irungalur Village, Tiruchirapalli - 621105 Tamil Nadu, India</p>
                 <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/share/1BwbztPejm/" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.threads.com/@srmmchrc" target="_blank"><i class="fab fa-threads"></i></a>
+                    <a href="https://www.youtube.com/@tsrmmedicalcollegehospital" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/company/srmmchrc/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/srmmchrc?igsh=eXIwd3d2d3gzeXZ6" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/SRMMCHRC" target='_blank'><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
             <div class="footer-section">

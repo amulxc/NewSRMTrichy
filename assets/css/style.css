@@ -358,7 +358,7 @@
         animation-delay: 0.9s;
     }
     .floating-social-btn .social-link:nth-child(6) {
-        background: linear-gradient(135deg, var(--color-secondary), var(--accent-color));
+        background: linear-gradient(135deg, var(--color-twitter), var(--color-twitter));
         animation-delay: 0.9s;
     }
     
