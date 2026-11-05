@@ -977,17 +977,6 @@
         "status": "latest",
         "featured": true,
         "images": ["assets/images/events/100.png"]
-      },
-      {
-        "id": "kannakudi-pullambadi-library-dbcs-general-medical-camp",
-        "title": "DBCS & General Medical Camp",
-        "date": "2026-10-29",
-        "dateLabel": "29 Oct 2026",
-        "venue": "Kannakudi, Pullambadi – Library",
-        "description": "DBCS & General Medical Camp conducted at Kannakudi, Pullambadi – Library.",
-        "status": "latest",
-        "featured": true,
-        "images": ["assets/images/events/101.png"]
       }
   ] 
 }
