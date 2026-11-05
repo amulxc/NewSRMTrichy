@@ -776,8 +776,7 @@
         "dateLabel": "15 Oct 2026",
         "venue": "Lecture Hall - 1, Medical College Block and Dr. B. C. Roy Hall, Hospital Block",
         "description": "SRM Trichy Medical College Hospital and Research Centre organised guest lectures by Dr. Hari Sharma, PhD, DSc, a biomedical researcher associated with Erasmus MC, Erasmus University Rotterdam, the Netherlands. The sessions focused on inspiring Phase I MBBS students to pursue research and introducing first-year postgraduate students to translational research for precision medicine.",
-        "status": "latest",
-        "featured": true,
+        "status": "completed",
         "images": ["assets/images/events/poster.png"]
       },
       {
@@ -787,8 +786,7 @@
         "dateLabel": "11 Sep 2026",
         "venue": "Thirupanjili, Trichy - Samudhayakoodam",
         "description": "General Medical Camp conducted at Thirupanjili, Trichy - Samudhayakoodam.",
-        "status": "latest",
-        "featured": true,
+        "status": "completed",
         "images": ["assets/images/events/81.png"]
       },
       {
@@ -798,8 +796,7 @@
         "dateLabel": "16 Sep 2026",
         "venue": "PAT TRUST - Karumandapam, Trichy",
         "description": "General Medical Camp conducted at PAT TRUST - Karumandapam, Trichy.",
-        "status": "latest",
-        "featured": true,
+        "status": "completed",
         "images": ["assets/images/events/82.png"]
       },
       {
@@ -809,8 +806,7 @@
         "dateLabel": "17 Sep 2026",
         "venue": "Oottathur, Pullambadi - Girama Sevai Maiyam",
         "description": "DBSC & General Medical Camp conducted at Oottathur, Pullambadi - Girama Sevai Maiyam.",
-        "status": "latest",
-        "featured": true,
+        "status": "completed",
         "images": ["assets/images/events/83.png"]
       },
       {
@@ -820,8 +816,7 @@
         "dateLabel": "19 Sep 2026",
         "venue": "Friendship Children Home - Siruganoor (Organised by Srimad Andavar Arts College)",
         "description": "General Medical Camp conducted at Friendship Children Home - Siruganoor, organised by Srimad Andavar Arts College.",
-        "status": "latest",
-        "featured": true,
+        "status": "completed",
         "images": ["assets/images/events/84.png"]
       },
       {
@@ -831,8 +826,7 @@
         "dateLabel": "22 Sep 2026",
         "venue": "Andipattakadu, Ariyalur - Girama Sevai Maiyam",
         "description": "DBSC & General Medical Camp conducted at Andipattakadu, Ariyalur - Girama Sevai Maiyam.",
-        "status": "latest",
-        "featured": true,
+        "status": "completed",
         "images": ["assets/images/events/85.png"]
       },
       {
@@ -842,8 +836,7 @@
         "dateLabel": "23 Sep 2026",
         "venue": "Thappai Village - Trichy",
         "description": "General Medical Camp conducted at Thappai Village - Trichy.",
-        "status": "latest",
-        "featured": true,
+        "status": "completed",
         "images": ["assets/images/events/86.png"]
       },
       {
@@ -853,8 +846,7 @@
         "dateLabel": "24 Sep 2026",
         "venue": "Ammampalayam, Maruvathur Panchayat, Thuraiyur - Girama Sevai Maiyam",
         "description": "DBSC & General Medical Camp conducted at Ammampalayam, Maruvathur Panchayat, Thuraiyur - Girama Sevai Maiyam.",
-        "status": "latest",
-        "featured": true,
+        "status": "completed",
         "images": ["assets/images/events/87.png"]
       },
       {
@@ -864,8 +856,7 @@
         "dateLabel": "25 Sep 2026",
         "venue": "MRF - Trichy",
         "description": "General Medical Camp conducted at MRF - Trichy.",
-        "status": "latest",
-        "featured": true,
+        "status": "completed",
         "images": ["assets/images/events/88.png"]
       },
       {
@@ -875,8 +866,7 @@
         "dateLabel": "29 Sep 2026",
         "venue": "Reddipalayam, Ariyalur - Girama Sevai Maiyam",
         "description": "DBSC & General Medical Camp conducted at Reddipalayam, Ariyalur - Girama Sevai Maiyam.",
-        "status": "latest",
-        "featured": true,
+        "status": "completed",
         "images": ["assets/images/events/89.png"]
       },
       {
@@ -886,9 +876,118 @@
         "dateLabel": "30 Sep 2026",
         "venue": "Thalakkudi Village - Trichy",
         "description": "General Medical Camp conducted at Thalakkudi Village - Trichy.",
+        "status": "completed",
+        "images": ["assets/images/events/90.png"]
+      },
+      {
+        "id": "keelarasur-pullambadi-panchayat-office-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-10-06",
+        "dateLabel": "06 Oct 2026",
+        "venue": "Keelarasur, Pullambadi – Panchayat Office",
+        "description": "DBCS & General Medical Camp conducted at Keelarasur, Pullambadi – Panchayat Office.",
         "status": "latest",
         "featured": true,
-        "images": ["assets/images/events/90.png"]
+        "images": ["assets/images/events/92.png"]
+      },
+      {
+        "id": "thiruvasi-village-general-medical-camp",
+        "title": "General Medical Camp",
+        "date": "2026-10-07",
+        "dateLabel": "07 Oct 2026",
+        "venue": "Thiruvasi Village",
+        "description": "General Medical Camp conducted at Thiruvasi Village.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/93.png"]
+      },
+      {
+        "id": "atthikudi-lalgudi-girama-sevai-maiyam-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-10-08",
+        "dateLabel": "08 Oct 2026",
+        "venue": "Atthikudi, Lalgudi – Girama Sevai Maiyam",
+        "description": "DBCS & General Medical Camp conducted at Atthikudi, Lalgudi – Girama Sevai Maiyam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/94.png"]
+      },
+      {
+        "id": "samayapuram-mariamman-temple-general-medical-camp",
+        "title": "General Medical Camp",
+        "date": "2026-10-10",
+        "dateLabel": "10 Oct 2026",
+        "venue": "Samayapuram Mariamman Temple (Mahalaya Ammavasai)",
+        "description": "General Medical Camp conducted at Samayapuram Mariamman Temple on the occasion of Mahalaya Ammavasai.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/95.png"]
+      },
+      {
+        "id": "alanduraiyar-kattalai-ariyalur-samudhayakudam-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-10-13",
+        "dateLabel": "13 Oct 2026",
+        "venue": "Alanduraiyar Kattalai, Ariyalur – Samudhayakudam",
+        "description": "DBCS & General Medical Camp conducted at Alanduraiyar Kattalai, Ariyalur – Samudhayakudam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/96.png"]
+      },
+      {
+        "id": "sathamangalam-lalgudi-general-medical-camp",
+        "title": "General Medical Camp",
+        "date": "2026-10-14",
+        "dateLabel": "14 Oct 2026",
+        "venue": "Sathamangalam, Lalgudi",
+        "description": "General Medical Camp conducted at Sathamangalam, Lalgudi.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/97.png"]
+      },
+      {
+        "id": "semb arai-lalgudi-girama-sevai-maiyam-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-10-22",
+        "dateLabel": "22 Oct 2026",
+        "venue": "Sembarai, Lalgudi – Girama Sevai Maiyam",
+        "description": "DBCS & General Medical Camp conducted at Sembarai, Lalgudi – Girama Sevai Maiyam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/98.png"]
+      },
+      {
+        "id": "thirumanur-ariyalur-girama-sevai-maiyam-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-10-27",
+        "dateLabel": "27 Oct 2026",
+        "venue": "Thirumanur, Ariyalur – Girama Sevai Maiyam",
+        "description": "DBCS & General Medical Camp conducted at Thirumanur, Ariyalur – Girama Sevai Maiyam.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/99.png"]
+      },
+      {
+        "id": "muthuvathur-panchayat-trichy-general-medical-camp",
+        "title": "General Medical Camp",
+        "date": "2026-10-28",
+        "dateLabel": "28 Oct 2026",
+        "venue": "Muthuvathur Panchayat – Trichy",
+        "description": "General Medical Camp conducted at Muthuvathur Panchayat, Trichy.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/100.png"]
+      },
+      {
+        "id": "kannakudi-pullambadi-library-dbcs-general-medical-camp",
+        "title": "DBCS & General Medical Camp",
+        "date": "2026-10-29",
+        "dateLabel": "29 Oct 2026",
+        "venue": "Kannakudi, Pullambadi – Library",
+        "description": "DBCS & General Medical Camp conducted at Kannakudi, Pullambadi – Library.",
+        "status": "latest",
+        "featured": true,
+        "images": ["assets/images/events/101.png"]
       }
-  ]
+  ] 
 }
